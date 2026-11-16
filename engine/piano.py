@@ -10,8 +10,13 @@ DIR = os.path.join(C.ROOT, "cache/piano48")
 PC = {"C": 0, "D#": 3, "F#": 6, "A": 9}
 LAYERS = [2, 5, 8, 11]
 _cache = {}
-_roots = sorted({12 * (int(m.group(2)) + 1) + PC[m.group(1)]
-                 for m in (re.match(r"^([A-G]#?)(\d)v\d+\.flac$", f) for f in os.listdir(DIR)) if m})
+_roots = []
+
+
+def _load_roots():
+    if not _roots:
+        _roots.extend(sorted({12 * (int(m.group(2)) + 1) + PC[m.group(1)]
+                              for m in (re.match(r"^([A-G]#?)(\d)v\d+\.flac$", f) for f in os.listdir(DIR)) if m}))
 
 
 def _sample(root, layer):
@@ -29,6 +34,7 @@ def _sample(root, layer):
 
 def _voice(midi, vel, hold, damp=0.22):
     """One note: nearest sampled pitch, crossfaded between two loudness layers."""
+    _load_roots()
     root = min(_roots, key=lambda r: abs(r - midi))
     ratio = 2 ** ((midi - root) / 12)
     pos = np.clip((vel - 22) / 26.0, 0, len(LAYERS) - 1.001)     # vel 22..100 spans the four layers
