@@ -1,0 +1,1 @@
+{ "name": "clipper-stage", "private": true, "type": "module", "dependencies": { "three": "0.160.0", "playwright-core": "^1.48.0" } }

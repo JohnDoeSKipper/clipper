@@ -1,0 +1,39 @@
+# Paintings backlog
+Status: `todo` → `requested` (request pushed) → `inbox` (pictures arrived) → `queued` (spec pushed) . Work top to bottom. Add new ideas at the end.
+Only artists who died before 1950 (public-domain images). One line each: status | id | painting | leads to explore.
+The leads are starting points from memory, not facts: check each one before it goes into a script.
+
+- queued | starry-night | The Starry Night, Van Gogh | painted from memory in daylight; Venus; invented village (sample video, already made)
+- todo | girl-pearl-earring | Girl with a Pearl Earring, Vermeer | not a portrait but a "tronie"; the pearl may be tin; nobody knows who she was
+- todo | great-wave | The Great Wave off Kanagawa, Hokusai | a woodblock print, not a painting; Prussian blue from Europe; tiny Mount Fuji; he was about 70
+- todo | the-scream | The Scream, Munch | the sky he saw over Oslo fjord; the pencil line "could only have been painted by a madman"; four versions; stolen twice
+- todo | mona-lisa | Mona Lisa, Leonardo | famous because it was stolen in 1911; no eyebrows; the landscape that doesn't line up
+- todo | night-watch | The Night Watch, Rembrandt | not a night scene (dark varnish); trimmed to fit a wall; the glowing girl
+- todo | las-meninas | Las Meninas, Velázquez | who is being painted; the mirror; the painter looking at us; the red cross added later
+- todo | arnolfini | The Arnolfini Portrait, Van Eyck | the convex mirror with two visitors; "Jan van Eyck was here"; one candle
+- todo | birth-of-venus | The Birth of Venus, Botticelli | impossible anatomy on purpose; painted on canvas when wood was normal; hidden for decades
+- todo | the-kiss | The Kiss, Klimt | real gold leaf; rectangles and circles; the cliff edge under her feet
+- todo | grande-jatte | A Sunday on La Grande Jatte, Seurat | millions of dots; two years of work; the monkey; the painted border
+- todo | third-of-may | The Third of May 1808, Goya | the lantern; the white shirt and the pose; faceless soldiers
+- todo | wanderer-fog | Wanderer above the Sea of Fog, Friedrich | we never see his face; a landscape stitched from several places
+- todo | earthly-delights | The Garden of Earthly Delights, Bosch | a triptych that closes; music written on a figure; the tree-man who may be Bosch
+- todo | ambassadors | The Ambassadors, Holbein | the stretched skull you can only see from the side; the broken lute string
+- todo | liberty-leading | Liberty Leading the People, Delacroix | it is 1830, not 1789; the boy who became Gavroche; hidden away as too dangerous
+- todo | raft-medusa | The Raft of the Medusa, Géricault | a real scandal; he studied corpses; the tiny ship on the horizon
+- todo | impression-sunrise | Impression, Sunrise, Monet | the insult that named Impressionism; the sun is no brighter than the sky
+- todo | cafe-terrace | Café Terrace at Night, Van Gogh | his first starry sky; no black paint; the café is still there
+- todo | school-of-athens | The School of Athens, Raphael | Plato has Leonardo's face; Michelangelo sulking on the steps; Raphael looking at us
+- todo | creation-of-adam | The Creation of Adam, Michelangelo | the gap between the fingers; the brain-shaped cloak; painted standing up, not lying down
+- todo | saturn | Saturn Devouring His Son, Goya | painted on his dining-room wall; never meant to be seen; never titled by him
+- todo | fighting-temeraire | The Fighting Temeraire, Turner | a hero ship towed to scrap; the sun sets in the wrong place; he never sold it
+- todo | whistlers-mother | Whistler's Mother, Whistler | the model didn't show up; its real title is about grey and black
+- todo | milkmaid | The Milkmaid, Vermeer | the nail hole and the erased basket; the trickle of milk; expensive blue on a servant
+- todo | sleeping-gypsy | The Sleeping Gypsy, Rousseau | a toll clerk who never saw a desert; the lion that does not attack
+- todo | folies-bergere | A Bar at the Folies-Bergère, Manet | the reflection that cannot be right; the trapeze feet; the beer label
+- todo | death-of-marat | The Death of Marat, David | propaganda painted by a friend; the letter; the bath he lived in
+- todo | ophelia | Ophelia, Millais | the model lay in a bathtub and fell ill; every flower has a meaning
+- todo | hunters-in-snow | The Hunters in the Snow, Bruegel | one small fox; the Little Ice Age; Alps that Belgium doesn't have
+- todo | calling-matthew | The Calling of Saint Matthew, Caravaggio | which one is Matthew; light as a pointing finger; a hand borrowed from Michelangelo
+- todo | judith | Judith Slaying Holofernes, Artemisia Gentileschi | painted by a woman who went through a trial; the blood; compare Caravaggio's version
+- todo | wheatfield-crows | Wheatfield with Crows, Van Gogh | not his last painting, whatever the legend says; three paths going nowhere
+- todo | tower-of-babel | The Tower of Babel, Bruegel | modelled on the Colosseum; built wrong on purpose; the tiny king

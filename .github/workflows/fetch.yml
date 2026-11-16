@@ -1,0 +1,40 @@
+name: Fetch pictures
+# Runs whenever a request lands in requests/. Finds the painting and the photos on Wikimedia Commons (free licences only)
+# and saves small previews under inbox/ for the writer to look at.
+on:
+  push:
+    branches: [main]
+    paths: ['requests/*.json']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+      - run: pip install -q pillow
+      - name: Search and download previews
+        run: |
+          shopt -s nullglob
+          mkdir -p requests/done
+          for r in requests/*.json; do
+            python engine/fetch.py request "$r" && git mv "$r" "requests/done/$(basename "$r")"
+          done
+      - name: Save the inbox
+        run: |
+          git config user.name "clipper-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A inbox requests
+          git commit -q -m "Inbox $(TZ=Asia/Kuala_Lumpur date +%F)" || exit 0
+          for i in 1 2 3; do git pull -q --rebase && git push -q && break || sleep 5; done

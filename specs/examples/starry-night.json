@@ -1,0 +1,28 @@
+{
+ "id": "starry-night", "channel": "paintings",
+ "painting": {"title": "The Starry Night", "artist": "Vincent van Gogh", "year": "June 1889", "museum": "Museum of Modern Art, New York", "file": "inbox/starry-night/painting.jpg"},
+ "script": [
+  {"text": "Van Gogh painted the most famous night sky in history... in broad daylight.", "gap": 0.7},
+  {"text": "In June 1889, he was living in an asylum in the south of France.", "say": "In June eighteen eighty-nine, he was living in an asylum in the south of France."},
+  {"text": "This was the view from his bedroom window. But he wasn't allowed to paint there, so he painted it from memory.", "gap": 0.75},
+  {"text": "That brightest star? It's Venus. He had watched it rise before dawn.", "gap": 0.75},
+  {"text": "The village wasn't in his view. He added it, with a steeple that looks like the churches of his Dutch homeland.", "gap": 0.75},
+  {"text": "And the dark cypress, a tree planted in graveyards, climbs from the earth to the stars."},
+  {"text": "He considered this painting a failure."}
+ ],
+ "passages": [[0], [1, 2], [3], [4], [5, 6]],
+ "music": {"piece": "chopin-nocturne-op9-2"},
+ "timeline": [
+  {"type": "reveal", "from": [0.5, 0.394, 2.74], "until": 3.2},
+  {"type": "insert", "kind": "map", "place": "Saint-Rémy-de-Provence", "sub": "Saint-Paul asylum, 1889–1890", "lat": 43.79, "lon": 4.83, "at": "1", "to": "2-0.3"},
+  {"type": "insert", "kind": "window", "at": "2-0.1", "to": "2:so-0.25", "bars": "2:But"},
+  {"type": "highlight", "region": [0.3555, 0.5286, 0.0625, 0.0789], "scale": 3.13, "ring": "3:brightest", "zoom": "3:star+0.1", "zoomDur": 1.2,
+   "label": "VENUS", "labelAt": "3:Venus", "out": "4-0.45"},
+  {"type": "highlight", "region": [0.7305, 0.8876, 0.2695, 0.1262], "scale": 2.48, "ring": "4:village", "zoom": "4:He", "zoomDur": 1.0,
+   "then": {"region": [0.568, 0.7318, 0.0344, 0.1105], "scale": 3.92, "ring": "4:steeple+0.05", "zoom": "4:steeple+0.45", "label": "DUTCH-STYLE STEEPLE", "labelAt": "4:churches", "labelSide": -1},
+   "out": "5-0.55"},
+  {"type": "highlight", "region": [0.1992, 0.5375, 0.1078, 0.4714], "scale": 2.87, "ring": "5:dark", "zoom": "5:tree-0.15", "zoomDur": 1.0,
+   "tilt": {"start": [0.205, 0.789], "to": [0.205, 0.187], "from": "5:climbs-0.05", "until": "5:stars+0.55"}, "out": "5:stars+0.65"}
+ ],
+ "post": {"caption": "Van Gogh painted The Starry Night from memory, in daylight. Here is what was real and what he invented.", "tags": ["#vangogh", "#starrynight", "#arthistory", "#painting"]}
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  @font-face { font-family: "Playfair"; src: url("fonts/Playfair-700.ttf"); font-weight: 700; }
+  @font-face { font-family: "InterB"; src: url("fonts/Inter-Bold.otf"); font-weight: 700; }
+  html, body { margin: 0; background: #000; overflow: hidden; }
+  #stage { position: relative; width: 1080px; height: 1920px; overflow: hidden; background: #000; }
+  canvas { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; display: block; }
+  #bg { transform: scale(1.04); }
+  .ps2 canvas { image-rendering: pixelated; }
+  #scan { position: absolute; inset: 0; pointer-events: none; display: none;
+          background: repeating-linear-gradient(to bottom, rgba(0,0,0,0.16) 0px, rgba(0,0,0,0.16) 1px, rgba(0,0,0,0) 1px, rgba(0,0,0,0) 3px); }
+  .ps2 #scan { display: block; }
+  #vig { position: absolute; inset: 0; pointer-events: none;
+         background: linear-gradient(to bottom, rgba(0,0,0,0) 62%, rgba(10,14,30,0.34) 86%, rgba(10,14,30,0.42) 100%); }
+  .ui { position: absolute; font-family: "InterB", sans-serif; font-weight: 700; color: #1D2742; white-space: nowrap; }
+  .pill { background: #fff; border: 4px solid #1D2742; border-radius: 999px; padding: 9px 22px 8px; transform: translate(-50%, -50%); }
+  #title { left: 540px; top: 218px; font-size: 28px; letter-spacing: 0.5px; }
+  .num { width: 104px; height: 104px; line-height: 104px; text-align: center; font-size: 62px; background: #fff; border: 6px solid #1D2742;
+         border-radius: 50%; transform: translate(-50%, -50%); box-shadow: 0 8px 0 rgba(29,39,66,0.28); }
+  #caption { position: absolute; left: 0; width: 1080px; top: 1452px; text-align: center; font-family: "Playfair", serif; font-weight: 700;
+             font-size: 80px; line-height: 96px; color: #fff; white-space: nowrap;
+             text-shadow: 0 3px 3px rgba(14,22,48,0.9), 0 4px 10px rgba(14,22,48,0.8), 0 5px 26px rgba(14,22,48,0.7); }
+  #caption span { margin: 0 0.13em; }
+  .q { font-family: "Playfair", serif; font-size: 300px; color: #FFD23F; transform: translate(-50%, -50%);
+       -webkit-text-stroke: 10px #1D2742; paint-order: stroke fill; text-shadow: 0 10px 0 rgba(29,39,66,0.35); }
+  .badge { position: absolute; width: 230px; height: 230px; transform: translate(-50%, -50%); }
+  #overlays > * { position: absolute; }
+</style>
+<script type="importmap">
+{ "imports": { "three": "./node_modules/three/build/three.module.js", "three/addons/": "./node_modules/three/examples/jsm/" } }
+</script>
+</head>
+<body>
+<div id="stage">
+  <canvas id="bg" width="540" height="960"></canvas>
+  <canvas id="fg" width="1080" height="1920"></canvas>
+  <div id="scan"></div>
+  <div id="vig"></div>
+  <div id="title" class="ui pill"></div>
+  <div id="overlays"></div>
+  <div id="caption"></div>
+</div>
+<script type="module" src="stage.js"></script>
+</body>
+</html>

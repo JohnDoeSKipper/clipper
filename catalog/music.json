@@ -1,0 +1,318 @@
+[
+ {
+  "id": "chopin-nocturne-op9-2",
+  "composer": "Frédéric Chopin",
+  "title": "Nocturne in E-flat major, Op. 9 No. 2",
+  "mood": "tender, intimate, dreamy night music",
+  "fits": "night skies, lovers, moonlight, quiet interiors, Post-Impressionism",
+  "ly": "ftp/ChopinFF/O9/chopin_nocturne_op9_n2/chopin_nocturne_op9_n2.ly",
+  "licence": "CC BY-SA 3.0, typeset by Renato Biolcati Rinaldi",
+  "play": {
+   "bpm": 84,
+   "pickup": 1,
+   "bar": 12
+  },
+  "approved": true
+ },
+ {
+  "id": "satie-gymnopedie-1",
+  "composer": "Erik Satie",
+  "title": "Gymnopédie No. 1",
+  "mood": "still, spacious, gently melancholic",
+  "fits": "solitude, empty rooms, Hopper, quiet modern scenes, Impressionist calm",
+  "ly": "ftp/SatieE/gymnopedie_1/gymnopedie_1.ly",
+  "licence": "Public Domain, typeset by Evin Robertson",
+  "play": {
+   "bpm": 126,
+   "pickup": 0,
+   "bar": 6
+  },
+  "approved": false
+ },
+ {
+  "id": "satie-gnossienne-1",
+  "composer": "Erik Satie",
+  "title": "Gnossienne No. 1",
+  "mood": "mysterious, exotic, uneasy",
+  "fits": "Symbolism, Surrealism, enigmatic portraits, hidden meanings, dreams",
+  "ly": "ftp/SatieE/Gnossienne/no_1/no_1.ly",
+  "licence": "CC BY-SA 4.0, typeset by Knute Snortum",
+  "play": {
+   "bpm": 112,
+   "pickup": 0,
+   "bar": 8
+  },
+  "approved": false
+ },
+ {
+  "id": "debussy-clair-de-lune",
+  "composer": "Claude Debussy",
+  "title": "Clair de lune (Suite bergamasque)",
+  "mood": "moonlit, shimmering, wistful",
+  "fits": "Impressionism, Monet, water, reflections, night gardens",
+  "ly": "ftp/DebussyC/L75/debussy_Ste_Bergamesq_Clair/debussy_Ste_Bergamesq_Clair.ly",
+  "licence": "Public Domain, typeset by Keith OHara",
+  "play": {
+   "bpm": 120,
+   "pickup": 0,
+   "bar": 9
+  },
+  "approved": false
+ },
+ {
+  "id": "debussy-arabesque-1",
+  "composer": "Claude Debussy",
+  "title": "Arabesque No. 1",
+  "mood": "flowing, light, graceful",
+  "fits": "gardens, dancers, spring, Renoir, Degas, Art Nouveau, Klimt",
+  "ly": "ftp/DebussyC/L66/debussy_Arabesque_1/debussy_Arabesque_1.ly",
+  "licence": "Public Domain, typeset by Keith OHara",
+  "play": {
+   "bpm": 136,
+   "pickup": 0,
+   "bar": 8
+  },
+  "approved": false
+ },
+ {
+  "id": "bach-prelude-c",
+  "composer": "Johann Sebastian Bach",
+  "title": "Prelude in C major, BWV 846",
+  "mood": "serene, luminous, ordered",
+  "fits": "Renaissance harmony, Leonardo, Raphael, Vermeer's light, geometry, sacred calm",
+  "ly": "ftp/BachJS/BWV846/wtk1-prelude1/wtk1-prelude1.ly",
+  "licence": "Public Domain, typeset by Tobias Erbsland",
+  "play": {
+   "bpm": 112,
+   "pickup": 0,
+   "bar": 8
+  },
+  "approved": false
+ },
+ {
+  "id": "bach-goldberg-aria",
+  "composer": "Johann Sebastian Bach",
+  "title": "Aria from the Goldberg Variations, BWV 988",
+  "mood": "contemplative, noble, baroque",
+  "fits": "Dutch Golden Age, Rembrandt, Vermeer, still lifes, court portraits",
+  "ly": "ftp/BachJS/BWV988/bwv-988-aria/bwv-988-aria.ly",
+  "licence": "CC BY-SA 3.0, typeset by JD Erickson",
+  "play": {
+   "bpm": 96,
+   "pickup": 0,
+   "bar": 6
+  },
+  "approved": false
+ },
+ {
+  "id": "beethoven-moonlight-1",
+  "composer": "Ludwig van Beethoven",
+  "title": "Piano Sonata No. 14 'Moonlight', first movement",
+  "mood": "dark, brooding, grave",
+  "fits": "Goya's Black Paintings, Friedrich, storms, isolation, death, madness",
+  "ly": "ftp/BeethovenLv/O27/moonlight/moonlight-lys/moonlight1-a4.ly",
+  "licence": "CC BY-SA 2.5, typeset by Stewart Holmes",
+  "play": {
+   "bpm": 104,
+   "pickup": 0,
+   "bar": 8
+  },
+  "approved": false
+ },
+ {
+  "id": "beethoven-fur-elise",
+  "composer": "Ludwig van Beethoven",
+  "title": "Für Elise, WoO 59",
+  "mood": "familiar, wistful, delicate",
+  "fits": "portraits of women, letters, domestic scenes, unrequited love",
+  "ly": "ftp/BeethovenLv/WoO59/fur_Elise_WoO59/fur_Elise_WoO59.ly",
+  "licence": "Public Domain, typeset by Stelios Samelis",
+  "play": {
+   "bpm": 104,
+   "pickup": 0,
+   "bar": 3
+  },
+  "approved": false
+ },
+ {
+  "id": "chopin-prelude-e-minor",
+  "composer": "Frédéric Chopin",
+  "title": "Prelude in E minor, Op. 28 No. 4",
+  "mood": "grief, resignation, heaviness",
+  "fits": "mourning, tragedy, aftermath of war, Picasso's Blue Period, Munch",
+  "ly": "ftp/ChopinFF/O28/Chop-28-4/Chop-28-4.ly",
+  "licence": "Public Domain, typeset by Magnus Lewis-Smith",
+  "play": {
+   "bpm": 92,
+   "pickup": 2,
+   "bar": 8
+  },
+  "approved": false
+ },
+ {
+  "id": "chopin-prelude-c-minor",
+  "composer": "Frédéric Chopin",
+  "title": "Prelude in C minor, Op. 28 No. 20",
+  "mood": "solemn, funereal, monumental",
+  "fits": "executions, martyrdom, crucifixions, history painting, David, Géricault",
+  "ly": "ftp/ChopinFF/O28/Chop-28-20/Chop-28-20.ly",
+  "licence": "Public Domain, typeset by Magnus Lewis-Smith",
+  "play": {
+   "bpm": 72,
+   "pickup": 0,
+   "bar": 8
+  },
+  "approved": false
+ },
+ {
+  "id": "schumann-traumerei",
+  "composer": "Robert Schumann",
+  "title": "Träumerei (Kinderszenen, Op. 15 No. 7)",
+  "mood": "nostalgic, gentle, childlike",
+  "fits": "children, memory, family scenes, mothers, innocence",
+  "ly": "ftp/SchumannR/O15/SchumannOp15No07/SchumannOp15No07.ly",
+  "licence": "Public Domain, typeset by Ying-Chun Liu",
+  "play": {
+   "bpm": 120,
+   "pickup": 2,
+   "bar": 8
+  },
+  "approved": false
+ },
+ {
+  "id": "liszt-consolation-3",
+  "composer": "Franz Liszt",
+  "title": "Consolation No. 3 in D-flat major",
+  "mood": "consoling, lyrical, warm",
+  "fits": "hope after sorrow, madonnas, religious tenderness, angels, golden light",
+  "ly": "ftp/LisztF/S.172/liszt-consolation-no3/liszt-consolation-no3.ly",
+  "licence": "CC BY 3.0, typeset by Ryan Prince",
+  "play": {
+   "bpm": 108,
+   "pickup": 0,
+   "bar": 8
+  },
+  "approved": false
+ },
+ {
+  "id": "mussorgsky-old-castle",
+  "composer": "Modest Mussorgsky",
+  "title": "The Old Castle (Pictures at an Exhibition)",
+  "mood": "medieval, melancholy, troubadour song",
+  "fits": "ruins, castles, legends, knights, Pre-Raphaelites, Bruegel",
+  "ly": "ftp/MussorgskyM/pictures-at-an-exhibition/pictures-at-an-exhibition-lys/il-vecchio-castello.ly",
+  "licence": "CC BY-SA 4.0, typeset by Knute Snortum",
+  "play": {
+   "bpm": 144,
+   "pickup": 0,
+   "bar": 6
+  },
+  "approved": false
+ },
+ {
+  "id": "mozart-fantasia-d-minor",
+  "composer": "Wolfgang Amadeus Mozart",
+  "title": "Fantasia in D minor, K. 397",
+  "mood": "dramatic, shadowed, classical",
+  "fits": "chiaroscuro, Caravaggio, theatrical scenes, Neoclassicism",
+  "ly": "ftp/MozartWA/KV397/Fantasia/Fantasia.ly",
+  "licence": "Public Domain, typeset by Andrés Necochea",
+  "play": {
+   "bpm": 108,
+   "pickup": 0,
+   "bar": 8
+  },
+  "approved": false
+ },
+ {
+  "id": "mozart-k545-andante",
+  "composer": "Wolfgang Amadeus Mozart",
+  "title": "Piano Sonata No. 16, K. 545, Andante",
+  "mood": "clear, graceful, classical",
+  "fits": "Rococo, Fragonard, 18th-century elegance, pastel portraits",
+  "ly": "ftp/MozartWA/KV545/K545-2/K545-2.ly",
+  "licence": "CC BY-SA 3.0, typeset by Alejandro Sierra",
+  "play": {
+   "bpm": 100,
+   "pickup": 0,
+   "bar": 6
+  },
+  "approved": false
+ },
+ {
+  "id": "brahms-intermezzo-op118-2",
+  "composer": "Johannes Brahms",
+  "title": "Intermezzo in A major, Op. 118 No. 2",
+  "mood": "autumnal, tender, looking back",
+  "fits": "old age, late self-portraits, farewells, autumn landscapes",
+  "ly": "ftp/BrahmsJ/O118/intermezzo/intermezzo.ly",
+  "licence": "Public Domain, typeset by Aron Fay",
+  "play": {
+   "bpm": 112,
+   "pickup": 0,
+   "bar": 6
+  },
+  "approved": false
+ },
+ {
+  "id": "field-nocturne-5",
+  "composer": "John Field",
+  "title": "Nocturne No. 5 in B-flat major",
+  "mood": "calm, pastoral, simple night song",
+  "fits": "landscapes, Constable, twilight, countryside, sleeping figures",
+  "ly": "ftp/FieldJ/H37/Field_Nocturne_5/Field_Nocturne_5.ly",
+  "licence": "CC BY-SA 4.0, typeset by Alex Schreiber",
+  "play": {
+   "bpm": 132,
+   "pickup": 0,
+   "bar": 12
+  },
+  "approved": false
+ },
+ {
+  "id": "chopin-nocturne-e-minor",
+  "composer": "Frédéric Chopin",
+  "title": "Nocturne in E minor, Op. 72 No. 1",
+  "mood": "yearning, restless, dark romantic",
+  "fits": "Romanticism, Delacroix, the sea, shipwrecks, longing",
+  "ly": "ftp/ChopinFF/O72/nocturne_in_e_minor/nocturne_in_e_minor.ly",
+  "licence": "CC BY-SA 4.0, typeset by Benjamin D. Esham",
+  "play": {
+   "bpm": 116,
+   "pickup": 0,
+   "bar": 8
+  },
+  "approved": false
+ },
+ {
+  "id": "chopin-nocturne-b-flat-minor",
+  "composer": "Frédéric Chopin",
+  "title": "Nocturne in B-flat minor, Op. 9 No. 1",
+  "mood": "melancholic, elegant, long-breathed",
+  "fits": "Paris at night, Belle Époque, cafés, Manet, Toulouse-Lautrec",
+  "ly": "ftp/ChopinFF/O9/nocturne_in_b-flat_minor/nocturne_in_b-flat_minor.ly",
+  "licence": "CC BY-SA 2.5, typeset by Benjamin D. Esham",
+  "play": {
+   "bpm": 150,
+   "pickup": 0,
+   "bar": 12
+  },
+  "approved": false
+ },
+ {
+  "id": "schubert-impromptu-g-flat",
+  "composer": "Franz Schubert",
+  "title": "Impromptu in G-flat major, D. 899 No. 3",
+  "mood": "flowing, radiant, hymn-like",
+  "fits": "rivers, golden light, Turner sunsets, sublime landscapes",
+  "ly": "ftp/SchubertF/D899/SchubertF-D899-3-Impromptu/SchubertF-D899-3-Impromptu.ly",
+  "licence": "Public Domain, typeset by Ph. Raynaud",
+  "play": {
+   "bpm": 160,
+   "pickup": 0,
+   "bar": 16,
+   "start": 16
+  },
+  "approved": false
+ }
+]

@@ -1,0 +1,93 @@
+name: Render videos
+# Runs whenever a video spec lands in specs/queue/. Draws the video, publishes it under Releases, files the spec under specs/done/.
+on:
+  push:
+    branches: [main]
+    paths: ['specs/queue/*.json']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: render
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+          cache: pip
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+      - name: System packages
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg libegl1 libgl1 libfontconfig1
+      - name: Voice model, piano samples, scores (downloaded once, then cached)
+        uses: actions/cache@v5
+        with:
+          path: |
+            cache/models
+            cache/piano48
+            cache/scores
+            cache/countries.geojson
+          key: assets-v1-${{ hashFiles('catalog/music.json') }}
+          restore-keys: assets-v1-
+      - name: Install
+        run: |
+          pip install -q -r requirements.txt
+          cd engine/stage && npm install --no-audit --no-fund --silent
+      - name: Download fixed assets
+        run: python engine/fetch.py base
+      - name: Render everything in the queue
+        id: render
+        run: |
+          set -o pipefail
+          shopt -s nullglob
+          mkdir -p out specs/done specs/failed
+          specs=(specs/queue/*.json)
+          if [ ${#specs[@]} -eq 0 ]; then echo "Nothing in the queue."; echo "made=0" >> "$GITHUB_OUTPUT"; exit 0; fi
+          made=0
+          for s in "${specs[@]}"; do
+            id=$(basename "$s" .json)
+            if python engine/build.py "$s" 2>&1 | tee "out/$id.log"; then
+              git mv "$s" "specs/done/$id.json"
+              git rm -r -q --ignore-unmatch "inbox/$id" || true
+              made=$((made+1))
+            else
+              git mv "$s" "specs/failed/$id.json"
+              tail -n 40 "out/$id.log" > "specs/failed/$id.log"
+              git add "specs/failed/$id.log"
+            fi
+          done
+          echo "made=$made" >> "$GITHUB_OUTPUT"
+      - name: Publish to Releases
+        if: steps.render.outputs.made != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          day=$(TZ=Asia/Kuala_Lumpur date +%F)
+          tag="videos-$day"
+          { echo "Videos rendered on $day. Each .txt holds the caption, hashtags and credits to paste when you post."; echo; for f in out/*.txt; do echo "### $(basename "$f" .txt)"; echo; cat "$f"; echo; done; } > notes.md
+          if gh release view "$tag" >/dev/null 2>&1; then
+            gh release upload "$tag" out/*.mp4 out/*.txt out/*_sheet.jpg --clobber
+          else
+            gh release create "$tag" out/*.mp4 out/*.txt out/*_sheet.jpg --title "Videos $day" --notes-file notes.md
+          fi
+      - name: File the specs
+        run: |
+          git config user.name "clipper-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A specs inbox
+          git commit -q -m "Rendered $(TZ=Asia/Kuala_Lumpur date +%F)" || exit 0
+          for i in 1 2 3; do git pull -q --rebase && git push -q && break || sleep 5; done
+      - name: Fail the run if any video failed
+        run: |
+          shopt -s nullglob
+          f=(specs/failed/*.json)
+          if [ ${#f[@]} -gt 0 ]; then echo "Failed: ${f[*]}"; exit 1; fi
