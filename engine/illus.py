@@ -207,7 +207,8 @@ def draw_bars(canvas, view, prog):
 # ------------------------------------------------------------------ generic country map
 def make_map(place, sub, lat, lon, country=None):
     """Returns (draw(canvas), pin_xy): ink outline of the country containing (lat, lon), with a gold pin."""
-    import json
+    import json, fetch
+    fetch.ensure_countries()
     feats = json.load(open(os.path.join(C.ROOT, "cache/countries.geojson")))["features"]
 
     def inside(ring, x, y):
