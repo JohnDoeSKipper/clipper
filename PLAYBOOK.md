@@ -175,3 +175,4 @@ General
 ## Corrections log
 Add dated one-line entries here whenever Jared corrects a video, and fold lasting rules into the section above.
 - 2026-11-17: pipeline created from the two approved sample videos (Starry Night; Trolley Problem in clay and PS2).
+- 2026-11-17: first run on GitHub worked (picture search, both renderers, Releases). Music used so far: chopin-nocturne-op9-2 (Starry Night), bach-goldberg-aria (Girl with a Pearl Earring, not yet heard by Jared).

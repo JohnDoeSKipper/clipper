@@ -83,7 +83,8 @@ jobs:
         run: |
           git config user.name "clipper-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A specs inbox
+          git add -A specs
+          if [ -d inbox ]; then git add -A inbox; fi
           git commit -q -m "Rendered $(TZ=Asia/Kuala_Lumpur date +%F)" || exit 0
           for i in 1 2 3; do git pull -q --rebase && git push -q && break || sleep 5; done
       - name: Fail the run if any video failed

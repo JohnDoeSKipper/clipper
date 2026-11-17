@@ -4,8 +4,8 @@ Only artists who died before 1950 (public-domain images). One line each: status 
 The leads are starting points from memory, not facts: check each one before it goes into a script.
 
 - queued | starry-night | The Starry Night, Van Gogh | painted from memory in daylight; Venus; invented village (sample video, already made)
-- requested | girl-pearl-earring | Girl with a Pearl Earring, Vermeer | not a portrait but a "tronie"; the pearl may be tin; nobody knows who she was
-- requested | great-wave | The Great Wave off Kanagawa, Hokusai | a woodblock print, not a painting; Prussian blue from Europe; tiny Mount Fuji; he was about 70
+- queued | girl-pearl-earring | Girl with a Pearl Earring, Vermeer | not a portrait but a "tronie"; the pearl may be tin; nobody knows who she was
+- inbox | great-wave | The Great Wave off Kanagawa, Hokusai | a woodblock print, not a painting; Prussian blue from Europe; tiny Mount Fuji; he was about 70
 - todo | the-scream | The Scream, Munch | the sky he saw over Oslo fjord; the pencil line "could only have been painted by a madman"; four versions; stolen twice
 - todo | mona-lisa | Mona Lisa, Leonardo | famous because it was stolen in 1911; no eyebrows; the landscape that doesn't line up
 - todo | night-watch | The Night Watch, Rembrandt | not a night scene (dark varnish); trimmed to fit a wall; the glowing girl
