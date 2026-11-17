@@ -1,0 +1,16 @@
+{
+ "items": [
+  {
+   "id": "great-wave",
+   "painting": "File:Tsunami by hokusai 19th century.jpg",
+   "painting_search": "Great Wave off Kanagawa Hokusai",
+   "look_for": {
+    "redfuji": "Hokusai Fine Wind Clear Morning",
+    "portrait": "Hokusai self-portrait at the age of eighty-three",
+    "fuji": "Mount Fuji seen from the sea Kanagawa photograph",
+    "prussian": "Prussian blue pigment",
+    "woodblock": "ukiyo-e woodblock carved printing block"
+   }
+  }
+ ]
+}

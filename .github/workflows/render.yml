@@ -40,10 +40,10 @@ jobs:
           restore-keys: assets-v1-
       - name: Install
         run: |
-          pip install -q -r requirements.txt
-          cd engine/stage && npm install --no-audit --no-fund --silent
+          set -o pipefail
+          { pip install -q -r requirements.txt && (cd engine/stage && npm install --no-audit --no-fund --silent); } 2>&1 | tee -a "$RUNNER_TEMP/run.log"
       - name: Download fixed assets
-        run: python engine/fetch.py base
+        run: set -o pipefail; python engine/fetch.py base 2>&1 | tee -a "$RUNNER_TEMP/run.log"
       - name: Render everything in the queue
         id: render
         run: |
@@ -55,7 +55,7 @@ jobs:
           made=0
           for s in "${specs[@]}"; do
             id=$(basename "$s" .json)
-            if python engine/build.py "$s" 2>&1 | tee "out/$id.log"; then
+            if python engine/build.py "$s" 2>&1 | tee "out/$id.log" | tee -a "$RUNNER_TEMP/run.log"; then
               git mv "$s" "specs/done/$id.json"
               git rm -r -q --ignore-unmatch "inbox/$id" || true
               made=$((made+1))
@@ -91,3 +91,17 @@ jobs:
           shopt -s nullglob
           f=(specs/failed/*.json)
           if [ ${#f[@]} -gt 0 ]; then echo "Failed: ${f[*]}"; exit 1; fi
+      - name: Leave a note if anything went wrong
+        if: always()
+        run: |
+          mkdir -p status
+          if [ "${{ job.status }}" = "success" ]; then
+            git rm -q --ignore-unmatch status/render.txt || true
+          else
+            { echo "render workflow: ${{ job.status }} on $(TZ=Asia/Kuala_Lumpur date '+%F %H:%M')"; echo "run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"; echo; tail -n 60 "$RUNNER_TEMP/run.log" 2>/dev/null || echo "(no log: the failure happened before the first logged step)"; } > status/render.txt
+            git add status/render.txt
+          fi
+          git config user.name "clipper-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -q -m "Status: render ${{ job.status }}" || exit 0
+          for i in 1 2 3; do git pull -q --rebase && git push -q && break || sleep 5; done

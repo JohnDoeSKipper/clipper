@@ -143,6 +143,8 @@ def run_request(path):
         os.makedirs(d, exist_ok=True)
         meta = dict(id=item["id"], painting=None, inserts={})
         cands = commons_search(item["painting"], limit=3, min_width=1500)
+        if not cands and item["painting"].lower().startswith("file:"):      # wrong title: search for its words instead
+            cands = commons_search(item.get("painting_search") or re.sub(r"\.\w+$", "", item["painting"][5:]), limit=3, min_width=1500)
         if cands:
             best = next((c for c in cands if c["width"] >= 2000), cands[0])
             tmp = get(sized(best["url"], 960), os.path.join(CACHE, "tmp", item["id"] + "_p.jpg"))

@@ -9,7 +9,7 @@ Output per day: **1 Paintings spec + 1 Philosophy spec** in `specs/queue/`, and 
 You never render videos. Pushing to `main` makes GitHub render and publish them (Releases page).
 
 1. `git pull`, then `sh scripts/setup_draft.sh` (once per session).
-2. **Failures first.** If `specs/failed/` has files: read the `.log` next to each, fix the spec, `git mv` it back to `specs/queue/`, delete the log.
+2. **Failures first.** If `status/` holds a `.txt`, a workflow failed: read it, fix the cause if it is in a spec or request (otherwise report it to Jared), and delete the file. If `specs/failed/` has files: read the `.log` next to each, fix the spec, `git mv` it back to `specs/queue/`, delete the log.
 3. **Paintings.** In `topics/paintings.md`:
    - A line marked `inbox` has pictures waiting in `inbox/<id>/`. Take the oldest: write its spec (see Paintings), mark the line `queued`.
    - Count lines marked `inbox` or `requested`. If fewer than 2, write `requests/<id>.json` for the next `todo` lines and mark them `requested`. (A `requested` line whose `inbox/<id>/meta.json` now exists becomes `inbox`.)

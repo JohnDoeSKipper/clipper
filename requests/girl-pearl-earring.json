@@ -1,0 +1,16 @@
+{
+ "items": [
+  {
+   "id": "girl-pearl-earring",
+   "painting": "File:1665 Girl with a Pearl Earring.jpg",
+   "painting_search": "Girl with a Pearl Earring Vermeer Mauritshuis",
+   "look_for": {
+    "delft": "View of Delft Vermeer Mauritshuis",
+    "museum": "Mauritshuis The Hague building exterior",
+    "pearls": "Vermeer Woman with a Pearl Necklace",
+    "procuress": "Vermeer The Procuress",
+    "lapis": "lapis lazuli ultramarine pigment"
+   }
+  }
+ ]
+}

@@ -26,10 +26,11 @@ jobs:
       - run: pip install -q pillow
       - name: Search and download previews
         run: |
+          set -o pipefail
           shopt -s nullglob
           mkdir -p requests/done
           for r in requests/*.json; do
-            python engine/fetch.py request "$r" && git mv "$r" "requests/done/$(basename "$r")"
+            python engine/fetch.py request "$r" 2>&1 | tee -a "$RUNNER_TEMP/run.log" && git mv "$r" "requests/done/$(basename "$r")"
           done
       - name: Save the inbox
         run: |
@@ -37,4 +38,18 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A inbox requests
           git commit -q -m "Inbox $(TZ=Asia/Kuala_Lumpur date +%F)" || exit 0
+          for i in 1 2 3; do git pull -q --rebase && git push -q && break || sleep 5; done
+      - name: Leave a note if anything went wrong
+        if: always()
+        run: |
+          mkdir -p status
+          if [ "${{ job.status }}" = "success" ]; then
+            git rm -q --ignore-unmatch status/fetch.txt || true
+          else
+            { echo "fetch workflow: ${{ job.status }} on $(TZ=Asia/Kuala_Lumpur date '+%F %H:%M')"; echo "run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"; echo; tail -n 60 "$RUNNER_TEMP/run.log" 2>/dev/null || echo "(no log: the failure happened before the first logged step)"; } > status/fetch.txt
+            git add status/fetch.txt
+          fi
+          git config user.name "clipper-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -q -m "Status: fetch ${{ job.status }}" || exit 0
           for i in 1 2 3; do git pull -q --rebase && git push -q && break || sleep 5; done

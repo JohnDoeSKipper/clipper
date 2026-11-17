@@ -1,6 +1,6 @@
 {
  "id": "starry-night", "channel": "paintings",
- "painting": {"title": "The Starry Night", "artist": "Vincent van Gogh", "year": "June 1889", "museum": "Museum of Modern Art, New York", "file": "inbox/starry-night/painting.jpg"},
+ "painting": {"title": "The Starry Night", "artist": "Vincent van Gogh", "year": "June 1889", "museum": "Museum of Modern Art, New York", "file": "specs/examples/assets/starry-night.jpg"},
  "script": [
   {"text": "Van Gogh painted the most famous night sky in history... in broad daylight.", "gap": 0.7},
   {"text": "In June 1889, he was living in an asylum in the south of France.", "say": "In June eighteen eighty-nine, he was living in an asylum in the south of France."},
