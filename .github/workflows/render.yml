@@ -73,7 +73,7 @@ jobs:
         run: |
           day=$(TZ=Asia/Kuala_Lumpur date +%F)
           tag="videos-$day"
-          { echo "Videos rendered on $day. Each .txt holds the caption, hashtags and credits to paste when you post."; echo; for f in out/*.txt; do echo "### $(basename "$f" .txt)"; echo; cat "$f"; echo; done; } > notes.md
+          { if [ -f "notes/$day.md" ]; then echo "## Writer's report"; echo; cat "notes/$day.md"; echo; fi; echo "Videos rendered on $day. Each .txt holds the caption, hashtags and credits to paste when you post."; echo; for f in out/*.txt; do echo "### $(basename "$f" .txt)"; echo; cat "$f"; echo; done; } > notes.md
           if gh release view "$tag" >/dev/null 2>&1; then
             gh release upload "$tag" out/*.mp4 out/*.txt out/*_sheet.jpg --clobber
           else
