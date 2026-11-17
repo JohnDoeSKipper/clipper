@@ -56,11 +56,12 @@ jobs:
           for s in "${specs[@]}"; do
             id=$(basename "$s" .json)
             if python engine/build.py "$s" 2>&1 | tee "out/$id.log" | tee -a "$RUNNER_TEMP/run.log"; then
-              git mv "$s" "specs/done/$id.json"
+              git mv -f "$s" "specs/done/$id.json"
+              if [ -f "inbox/$id/meta.json" ]; then mkdir -p specs/meta; git mv -f "inbox/$id/meta.json" "specs/meta/$id.json"; fi
               git rm -r -q --ignore-unmatch "inbox/$id" || true
               made=$((made+1))
             else
-              git mv "$s" "specs/failed/$id.json"
+              git mv -f "$s" "specs/failed/$id.json"
               tail -n 40 "out/$id.log" > "specs/failed/$id.log"
               git add "specs/failed/$id.log"
             fi

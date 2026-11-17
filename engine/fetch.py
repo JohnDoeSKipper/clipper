@@ -188,7 +188,13 @@ def resolve_spec_assets(spec):
         return []
     credits = []
     d = os.path.join(ROOT, "inbox", spec["id"])
-    meta = json.load(open(os.path.join(d, "meta.json"))) if os.path.exists(os.path.join(d, "meta.json")) else None
+    # the picture list lives in inbox/<id>/ until the first render, then is kept in specs/meta/<id>.json for remakes
+    found = [q for q in (os.path.join(d, "meta.json"), os.path.join(ROOT, "specs", "meta", spec["id"] + ".json")) if os.path.exists(q)]
+    meta = json.load(open(found[0])) if found else None
+    needs = not os.path.exists(os.path.join(ROOT, spec["painting"].get("file", "__none__"))) or any(
+        e.get("type") == "insert" and e.get("kind") == "image" and not os.path.exists(os.path.join(ROOT, e.get("file", "__none__"))) for e in spec["timeline"])
+    if needs and meta is None:
+        raise FileNotFoundError(f'no picture list for {spec["id"]}: expected inbox/{spec["id"]}/meta.json or specs/meta/{spec["id"]}.json (push a request first)')
     p = spec["painting"]
     if not os.path.exists(os.path.join(ROOT, p.get("file", "__none__"))):
         src = meta["painting"]

@@ -18,6 +18,8 @@ You never render videos. Pushing to `main` makes GitHub render and publish them 
 6. Write the report to `notes/<date>.md` (Malaysia date, `TZ=Asia/Kuala_Lumpur date +%F`), at most five short lines: what was queued (with the style chosen for Philosophy and why, in five words), what was requested, and anything Jared should know (first use of a music piece, a new prop, a problem you could not fix). It appears at the top of that day's Releases entry, which is where Jared reads it.
 7. `git add -A && git commit -m "<date>: <ids>" && git push`. End the run with the same report.
 
+**Remaking a video** (when Jared asks): edit `specs/done/<id>.json` and `git mv` it to `specs/queue/`. A Paintings remake reuses the picture list kept in `specs/meta/<id>.json` (the previews are gone; to choose a different photo, pick another candidate by its title there, or push a new request).
+
 Keeping the run cheap: do not open engine code, do not print specs back, do not view an image twice, do not web-search except to confirm the facts a script states (one search per video, results noted in `"sources"`).
 
 ## Rules for every script
