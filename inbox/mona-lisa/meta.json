@@ -1,0 +1,101 @@
+{
+ "id": "mona-lisa",
+ "painting": {
+  "title": "File:Mona Lisa, by Leonardo da Vinci, from C2RMF retouched.jpg",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/3840px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "full": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "width": 7479,
+  "height": 11146,
+  "licence": "Public domain",
+  "artist": "Leonardo da Vinci",
+  "credit": "",
+  "desc": ""
+ },
+ "inserts": {
+  "empty": [],
+  "peruggia": [],
+  "louvre": [
+   {
+    "title": "File:Tourists crowding the Louvre's Salle des \u00c9tats (52789485343).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Tourists_crowding_the_Louvre%27s_Salle_des_%C3%89tats_%2852789485343%29.jpg/3840px-Tourists_crowding_the_Louvre%27s_Salle_des_%C3%89tats_%2852789485343%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/6/64/Tourists_crowding_the_Louvre%27s_Salle_des_%C3%89tats_%2852789485343%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4368,
+    "height": 2912,
+    "licence": "CC BY-SA 2.0",
+    "artist": "Stefan Wloch",
+    "credit": "Stefan Wloch / CC BY-SA 2.0",
+    "desc": ""
+   }
+  ],
+  "leonardo": [
+   {
+    "title": "File:Leonardo da Vinci - presumed self-portrait - lossless.png",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Leonardo_da_Vinci_-_presumed_self-portrait_-_lossless.png/3840px-Leonardo_da_Vinci_-_presumed_self-portrait_-_lossless.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Leonardo_da_Vinci_-_presumed_self-portrait_-_lossless.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4301,
+    "height": 6700,
+    "licence": "Public domain",
+    "artist": "Leonardo da Vinci",
+    "credit": "",
+    "desc": ""
+   },
+   {
+    "title": "File:Leonardo da Vinci - presumed self-portrait - WGA12798.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Leonardo_da_Vinci_-_presumed_self-portrait_-_WGA12798.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/3/38/Leonardo_da_Vinci_-_presumed_self-portrait_-_WGA12798.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2408,
+    "height": 3754,
+    "licence": "Public domain",
+    "artist": "Leonardo da Vinci",
+    "credit": "",
+    "desc": ""
+   },
+   {
+    "title": "File:JuliusIIC.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/JuliusIIC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/0/0e/JuliusIIC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1008,
+    "height": 552,
+    "licence": "Public domain",
+    "artist": "Leonardo da Vinci--Titian",
+    "credit": "",
+    "desc": "Comparison of: Detail of Red Chalk Drawing (attributed to Leonardo da Vinci)--to: Detail from Portrait of Pope Julius II (Titian)"
+   }
+  ],
+  "copy": [
+   {
+    "title": "File:Mona Lisa, by Leonardo da Vinci, from C2RMF retouched.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/3840px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 7479,
+    "height": 11146,
+    "licence": "Public domain",
+    "artist": "Leonardo da Vinci",
+    "credit": "",
+    "desc": ""
+   },
+   {
+    "title": "File:The Joconde by a student of Leonardo da Vinci.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/The_Joconde_by_a_student_of_Leonardo_da_Vinci.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/f/f6/The_Joconde_by_a_student_of_Leonardo_da_Vinci.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2507,
+    "height": 3273,
+    "licence": "Public domain",
+    "artist": "Apprentice of Leonardo da Vinci.",
+    "credit": "",
+    "desc": "A contemporaneous replica of the Mona Lisa, probably painted by Andrea Salai and Francesco Melzi, two students of Leonardo da Vinci, was restored in 2011."
+   },
+   {
+    "title": "File:Mona Lisa headcrop.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Mona_Lisa_headcrop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/5/55/Mona_Lisa_headcrop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1927,
+    "height": 2403,
+    "licence": "Public domain",
+    "artist": "Leonardo da Vinci",
+    "credit": "",
+    "desc": ""
+   }
+  ]
+ }
+}
