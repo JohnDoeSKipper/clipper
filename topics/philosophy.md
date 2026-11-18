@@ -1,10 +1,10 @@
 # Philosophy / psychology / thought-experiment backlog
-Status: `todo` → `queued`. Work top to bottom. Add new ideas at the end. One line each: status | id | idea | style hint | staging idea.
+Status: `todo` → `drafted` (script waiting for Jared's review; once approved it is made automatically). `queued` = made before the review step existed. Work top to bottom. Add new ideas at the end. One line each: status | id | idea | style hint | staging idea.
 Check what the original experiment or argument actually says (and whether later studies upheld it) before scripting.
 
 - queued | trolley-problem | The Trolley Problem | clay | lever, then bridge (sample video, already made)
 - queued | experience-machine | The Experience Machine (Nozick) | ps2 | pod in an office, a door out (example spec, rendered as a test)
-- todo | ship-of-theseus | The Ship of Theseus | clay | ship on open sea; planks swapped one by one; a second ship built from the old planks
+- drafted | ship-of-theseus | The Ship of Theseus | clay | ship on open sea; planks swapped one by one; a second ship built from the old planks
 - todo | veil-of-ignorance | The Veil of Ignorance (Rawls) | clay | people behind a veil choosing a society before knowing who they will be; coin/crown/cash icons
 - todo | chinese-room | The Chinese Room (Searle) | ps2 | a room, a person with a rule book, slips passed under a door; robot outside
 - todo | platos-cave | Plato's Cave | ps2 | fire, wall, people facing shadows; one walks out

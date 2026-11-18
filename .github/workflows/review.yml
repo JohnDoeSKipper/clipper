@@ -1,0 +1,55 @@
+name: Post scripts for review
+# Runs when the writer pushes a draft to specs/review/. Opens one issue per new script (or posts the revised
+# version on its existing issue) so Jared can read it on his phone and reply "approve" or say what to change.
+on:
+  push:
+    branches: [main]
+    paths: ['specs/review/*.json']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: review
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+      - name: Open or update one issue per draft
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BEFORE: ${{ github.event.before }}
+        run: |
+          shopt -s nullglob
+          gh label create review --color FBCA04 --description "Script waiting for Jared's review" 2>/dev/null || true
+          gh label create changes-requested --color D93F0B --description "Jared asked for changes" 2>/dev/null || true
+          if [ "${{ github.event_name }}" = "push" ] && git cat-file -e "$BEFORE" 2>/dev/null; then
+            changed=$(git diff --name-only --diff-filter=AM "$BEFORE" HEAD -- 'specs/review/*.json')
+          else
+            changed=$(ls specs/review/*.json 2>/dev/null || true)
+          fi
+          for f in $changed; do
+            [ -f "$f" ] || continue
+            id=$(basename "$f" .json)
+            python engine/review_text.py "$f" > body.md
+            title=$(python engine/review_text.py "$f" --title)
+            num=$(gh issue list --label review --state open --limit 100 --json number,title --jq ".[] | select(.title | startswith(\"[$id]\")) | .number" | head -1)
+            if [ -n "$num" ]; then
+              { echo "## Revised version"; echo; cat body.md; } > comment.md
+              gh issue comment "$num" --body-file comment.md
+              gh issue edit "$num" --title "$title" --remove-label changes-requested || true
+            else
+              gh issue create --title "$title" --label review --body-file body.md
+            fi
+          done

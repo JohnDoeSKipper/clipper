@@ -1,13 +1,13 @@
 # Paintings backlog
-Status: `todo` → `requested` (request pushed) → `inbox` (pictures arrived) → `queued` (spec pushed) . Work top to bottom. Add new ideas at the end.
+Status: `todo` → `requested` (request pushed) → `inbox` (pictures arrived) → `drafted` (script waiting for Jared's review; once approved it is made automatically). `queued` = made before the review step existed. Work top to bottom. Add new ideas at the end.
 Only artists who died before 1950 (public-domain images). One line each: status | id | painting | leads to explore.
 The leads are starting points from memory, not facts: check each one before it goes into a script.
 
 - queued | starry-night | The Starry Night, Van Gogh | painted from memory in daylight; Venus; invented village (sample video, already made)
 - queued | girl-pearl-earring | Girl with a Pearl Earring, Vermeer | not a portrait but a "tronie"; the pearl may be tin; nobody knows who she was
-- inbox | great-wave | The Great Wave off Kanagawa, Hokusai | a woodblock print, not a painting; Prussian blue from Europe; tiny Mount Fuji; he was about 70
-- todo | the-scream | The Scream, Munch | the sky he saw over Oslo fjord; the pencil line "could only have been painted by a madman"; four versions; stolen twice
-- todo | mona-lisa | Mona Lisa, Leonardo | famous because it was stolen in 1911; no eyebrows; the landscape that doesn't line up
+- drafted | great-wave | The Great Wave off Kanagawa, Hokusai | a woodblock print, not a painting; Prussian blue from Europe; tiny Mount Fuji; he was about 70
+- requested | the-scream | The Scream, Munch | the sky he saw over Oslo fjord; the pencil line "could only have been painted by a madman"; four versions; stolen twice
+- requested | mona-lisa | Mona Lisa, Leonardo | famous because it was stolen in 1911; no eyebrows; the landscape that doesn't line up
 - todo | night-watch | The Night Watch, Rembrandt | not a night scene (dark varnish); trimmed to fit a wall; the glowing girl
 - todo | las-meninas | Las Meninas, Velázquez | who is being painted; the mirror; the painter looking at us; the red cross added later
 - todo | arnolfini | The Arnolfini Portrait, Van Eyck | the convex mirror with two visitors; "Jan van Eyck was here"; one candle

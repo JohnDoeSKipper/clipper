@@ -82,7 +82,7 @@ def check(spec, TL):
     """Cheap sanity checks, printed as WARNING lines."""
     out, ch = [], spec["channel"]
     total, words = TL[-1]["scene_end"], sum(len(s["words"]) for s in TL)
-    lo, hi = (30, 60) if ch == "paintings" else (20, 45)
+    lo, hi = (50, 85) if ch == "paintings" else (40, 75)
     if not lo <= total <= hi:
         out.append(f"the video runs {total:.0f}s; aim for {lo}-{hi}s")
     for i, s in enumerate(spec["script"]):
@@ -204,6 +204,12 @@ def build(path, frames_only=False, draft=False):
     post = spec.get("post", {})
     if draft:
         print("   draft sheet:", os.path.relpath(os.path.join(out_dir, sid + "_sheet.jpg"), ROOT), flush=True)
+        if os.path.basename(os.path.dirname(os.path.abspath(path))) == "review":
+            # a smaller copy goes next to the draft, so the review issue can show it
+            from PIL import Image
+            im = Image.open(os.path.join(out_dir, sid + "_sheet.jpg")).convert("RGB")
+            im.thumbnail((1400, 1400))
+            im.save(os.path.join(os.path.dirname(os.path.abspath(path)), sid + "_sheet.jpg"), quality=78)
         return
     with open(os.path.join(out_dir, sid + ".txt"), "w") as f:
         f.write(post.get("caption", spec.get("title", sid)) + "\n\n" + " ".join(post.get("tags", [])) + "\n\nCredits\n" + "\n".join(credits) + "\n")

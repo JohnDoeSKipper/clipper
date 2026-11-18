@@ -5,30 +5,64 @@ The owner is Jared. He reviews videos and gives corrections; every correction is
 
 ## What you do each day
 
-Output per day: **1 Paintings spec + 1 Philosophy spec** in `specs/queue/`, and enough Paintings requests to stay two paintings ahead.
-You never render videos. Pushing to `main` makes GitHub render and publish them (Releases page).
+**Jared reviews every script before a video is made.** You write drafts into `specs/review/`; GitHub opens an issue for each one; Jared replies `approve` or says what to change. Approval moves the draft to `specs/queue/` and starts the render by itself. You never render, and you never move a draft to `specs/queue/` unless Jared has approved it.
+
+Output per day: up to **1 Paintings draft + 1 Philosophy draft**, plus picture requests to stay two paintings ahead.
 
 1. `git pull`, then `sh scripts/setup_draft.sh` (once per session).
-2. **Failures first.** If `status/` holds a `.txt`, a workflow failed: read it, fix the cause if it is in a spec or request (otherwise report it to Jared), and delete the file. If `specs/failed/` has files: read the `.log` next to each, fix the spec, `git mv` it back to `specs/queue/`, delete the log.
-3. **Paintings.** In `topics/paintings.md`:
-   - A line marked `inbox` has pictures waiting in `inbox/<id>/`. Take the oldest: write its spec (see Paintings), mark the line `queued`.
+2. **Failures.** If `status/` holds a `.txt`, a workflow failed: read it, fix the cause if it is in a spec or request (otherwise report it), and delete the file. If `specs/failed/` has files: read the `.log` next to each, fix the spec, `git mv` it back to `specs/queue/` (it was already approved), delete the log.
+3. **Feedback first.** For each `specs/review/<id>.feedback.md`: rewrite that draft as Jared asks, keeping the standard below; redraw its draft sheet (step 7); delete the feedback file. If the feedback states a lasting rule ("never...", "always...", "for all paintings..."), also add it to "What Jared has asked for" and the corrections log. The rewritten version is posted on the same issue automatically.
+4. **Don't pile up.** Count drafts in `specs/review/` per channel that have no feedback file. If a channel already has 2 waiting, write no new draft for it today and say so in the report.
+5. **Paintings.** In `topics/paintings.md`:
+   - A line marked `inbox` has pictures waiting in `inbox/<id>/`. Take the oldest: write its draft (see Writing the script, then Paintings), save it as `specs/review/<id>.json`, mark the line `drafted`.
    - Count lines marked `inbox` or `requested`. If fewer than 2, write `requests/<id>.json` for the next `todo` lines and mark them `requested`. (A `requested` line whose `inbox/<id>/meta.json` now exists becomes `inbox`.)
-4. **Philosophy.** Take the next `todo` line in `topics/philosophy.md`, write its spec (see Philosophy), mark it `queued`.
-5. For each new spec: `python engine/build.py specs/queue/<id>.json --draft`. Fix every `WARNING`. Then look at `out/<id>_sheet.jpg` **once**; fix what is wrong; redraw and look once more only if you changed staging.
-6. Write the report to `notes/<date>.md` (Malaysia date, `TZ=Asia/Kuala_Lumpur date +%F`), at most five short lines: what was queued (with the style chosen for Philosophy and why, in five words), what was requested, and anything Jared should know (first use of a music piece, a new prop, a problem you could not fix). It appears at the top of that day's Releases entry, which is where Jared reads it.
-7. `git add -A && git commit -m "<date>: <ids>" && git push`. End the run with the same report.
+6. **Philosophy.** Take the next `todo` line in `topics/philosophy.md`, write its draft as `specs/review/<id>.json`, mark it `drafted`.
+7. For each new or rewritten draft: `python engine/build.py specs/review/<id>.json --draft`. Fix every `WARNING`. Look at `out/<id>_sheet.jpg` **once**; fix what is wrong; redraw and look once more only if you changed staging. (The command also saves a small copy of the sheet next to the draft; the review issue shows it.)
+8. Write the report to `notes/<date>.md` (Malaysia date, `TZ=Asia/Kuala_Lumpur date +%F`), at most five short lines: what was drafted (with the Philosophy style and why, in five words), what was rewritten after feedback, what was requested, and anything Jared should know (first use of a music piece, a new prop, a problem you could not fix).
+9. `git add -A && git commit -m "<date>: <ids>" && git push`. End the run with the same report.
+
+**When Jared approves or asks for changes in a chat** instead of on GitHub: to approve, `git mv specs/review/<id>.json specs/queue/<id>.json`, delete its `_sheet.jpg` and feedback file, add its script to the top of `catalog/approved-scripts.md` (same format as the entries there), and push; the render starts and the issue closes by itself. For changes, rewrite the draft in `specs/review/` and push; the issue gets the new version.
 
 **Remaking a video** (when Jared asks): edit `specs/done/<id>.json` and `git mv` it to `specs/queue/`. A Paintings remake reuses the picture list kept in `specs/meta/<id>.json` (the previews are gone; to choose a different photo, pick another candidate by its title there, or push a new request).
 
-Keeping the run cheap: do not open engine code, do not print specs back, do not view an image twice, do not web-search except to confirm the facts a script states (one search per video, results noted in `"sources"`).
+**Where to spend tokens.** Spend them on research and writing; that is what Jared judges. Save them everywhere else: do not open engine code, do not print specs back, do not view an image twice, do not re-read this file.
 
-## Rules for every script
+## Writing the script (the part that matters most)
 
-- Every claim must be true and checkable. Confirm dates, names, places and "firsts" with one search; put the URLs in `"sources": [...]`. If a popular story is doubtful, say "it's said that" or leave it out.
-- Spoken English, short sentences, no filler, no "in this video". One idea per sentence. First sentence is the hook: a surprise or a tension, under 14 words.
-- Write numbers the voice may misread with `"say"`: `{"text": "In 1889, ...", "say": "In eighteen eighty-nine, ..."}`. Same for foreign names it would mangle (spell them phonetically in `say`).
-- `passages` groups sentences spoken in one breath (2-3 sentences each). `"gap"` (seconds) on the last sentence of a passage sets the pause after it; use 0.5-0.75 before a reveal.
-- Captions are automatic. Never add emoji. `post.caption` is one or two plain sentences plus 4-6 hashtags in `post.tags`.
+Jared's verdict on the first videos: *not informative enough, not interesting enough, not complex enough.* The fix is better research, one strong question, and a story that escalates; not more adjectives.
+
+### 1. Research first (about 4-6 searches or page reads per video)
+- Read at least **three real sources** and open the pages (search snippets are not enough):
+  - **Paintings:** the museum's own page for the work (and its collection-API text where there is one: Art Institute of Chicago, Cleveland Museum of Art, the Met, Rijksmuseum, National Gallery); a curator's or scholar's essay (Smarthistory, museum essays and blogs, Google Arts & Culture stories, conservation and technical studies); Wikipedia only to find leads, never as the only source for a claim.
+  - **Philosophy:** the Stanford Encyclopedia of Philosophy (or Internet Encyclopedia of Philosophy) entry; the original paper or book (who, when, and what problem the idea was invented to test); at least one empirical study or survey with numbers if one exists; one real-world case where the question matters today.
+- Build a fact bank in your scratch work (not in the spec): 10-15 specific, surprising, checkable facts, each tied to a source. Prefer facts with a number, a name, a material, a place, a date or a cause.
+- Read the top two scripts for your channel in `catalog/approved-scripts.md`. They are the standard Jared has accepted; match or beat them.
+
+### 2. Choose the angle: one question
+Write it in `"angle"`: a single question the video answers. A topic is not an angle. "The Great Wave" is a topic; "How did a cheap souvenir print become the most famous image in Japanese art?" is an angle. Every sentence must move toward the answer.
+
+### 3. Structure
+1. **Hook** (1 sentence, at most 13 words): a specific claim or contradiction that opens a question. Concrete, surprising, true. Never "Did you know", never a vague superlative.
+2. **Context** (1-2 sentences): who, where, when, and what was at stake. Only what the payoff needs.
+3. **Escalation** (three reveals): each answers part of the question and raises a new one. Link them with *but / so / which means / that's why*; never with *and also* or *now look at*. Each reveal carries at least one hard specific.
+4. **Turn** (1-2 sentences): the fact that changes how you see everything before it.
+5. **Payoff** (1-2 sentences): answers the hook. End on a strong image or a sharper question. Never summarise; never "and that's why it's a masterpiece".
+
+### 4. Depth (the "complex enough" test)
+- At least **4 facts a curious adult would not already know**, and at least **one real explanation of why or how** (a cause and its effect), not only *what*.
+- **Paintings:** choose at least three of: the human story (the artist's situation and what they risked); how it was made (material or technique, and why that choice mattered); a detail the eye misses; the context that changes its meaning (history, politics, science, money); what happened to it afterwards.
+- **Philosophy:** always include who proposed it and the problem it was built to test; the strongest case on at least two sides; one real-world case where it matters now (law, medicine, AI, everyday life); one piece of evidence with a number when it exists; and the move most people miss. End on a question harder than the one you started with, never a generic "what would you do?".
+- No filler. Cut "very", "really", "iconic", "masterpiece", "little did he know", "in this video". Every sentence adds a fact, a turn or a picture.
+
+### 5. Self-check
+Score the script 1-5 on hook, curiosity (does the viewer need the ending?), specificity, depth, momentum, payoff and accuracy. Rewrite anything under 4. Then put two other strong opening lines in `"hooks"`; Jared may prefer one.
+
+### 6. Mechanics
+- Spoken English. Sentences under about 20 words, one idea each, written to be heard: read it at speaking pace in your head.
+- Write numbers and names the voice may misread with `"say"`: `{"text": "In 1889, ...", "say": "In eighteen eighty-nine, ..."}`. Spell foreign names phonetically in `say`.
+- `passages` groups sentences spoken in one breath (2-3 each). `"gap"` (seconds) on the last sentence of a passage sets the pause after it; 0.5-0.75 before a reveal.
+- Every claim true and checkable. Put the pages you actually used in `"sources"`. If a popular story is doubtful, say "the story goes" or leave it out.
+- Captions are automatic. No emoji. `post.caption`: one or two sentences that make someone want to watch (a question or a tease, not a summary), plus 4-6 hashtags in `post.tags`.
 
 ## Cues (how things are timed)
 
@@ -40,11 +74,11 @@ The word must appear in that sentence's `text` exactly (punctuation and case ign
 
 ## Paintings channel ("Behind the Painting")
 
-Look approved by Jared: the framed painting on a blurred backdrop, slow continuous camera, white serif captions, a classical piano piece under a calm British female voice. 40-55 s, 85-110 words, 6-8 sentences.
+Look approved by Jared: the framed painting on a blurred backdrop, slow continuous camera, white serif captions, a classical piano piece under a calm British female voice. **60-80 s, 125-165 words, 9-13 sentences.**
 
-Story shape: hook → where and when (show the place: **photo first**, map or illustration only when no usable photo exists) → 2-3 details in the painting, each one found by the camera → a closing line that lands.
+Staging the structure: the hook over the opening pull-back from a detail → context with a photo of the place, person or object (**photo first**, map or illustration only when no usable photo exists) → each reveal found by the camera (ring, then zoom) or shown as an insert → the turn → the payoff on the whole painting.
 
-**Never show only the painting.** Every video needs at least 2 inserts (things that are not the painting): the place, the artist, the model, a sketch, the object depicted, the room it hangs in.
+**Never show only the painting.** Every video needs at least 2 inserts, ideally 3, (things that are not the painting): the place, the artist, the model, a sketch, the object depicted, the room it hangs in.
 
 **Never cut into a detail.** A highlight always goes: whole painting → ring drawn around the detail → camera glides in. The engine does this; you only give the region and the cue words.
 
@@ -64,6 +98,8 @@ Look once at `inbox/<id>/painting_preview.jpg` (to place highlights) and once at
 
 ```json
 {"id": "girl-pearl-earring", "channel": "paintings",
+ "angle": "Why is a painting of a nameless girl one of the most famous faces in art?",
+ "hooks": ["<other opening line>", "<other opening line>"],
  "painting": {"title": "Girl with a Pearl Earring", "artist": "Johannes Vermeer", "year": "c. 1665", "museum": "Mauritshuis, The Hague"},
  "script": [{"text": "...", "gap": 0.7}, {"text": "..."}],
  "passages": [[0], [1, 2], [3], [4, 5], [6]],
@@ -92,19 +128,21 @@ Look once at `inbox/<id>/painting_preview.jpg` (to place highlights) and once at
 
 ## Philosophy channel ("thought experiments")
 
-Look approved by Jared: a small 3D stage with toy people, shown in one of two styles; plain white serif captions with a soft shadow; sound effects on actions; a calm male voice. 22-40 s, 60-90 words, 9-12 short sentences. The last sentence is a question to the viewer.
+Look approved by Jared: a small 3D stage with toy people, shown in one of two styles; plain white serif captions with a soft shadow; sound effects on actions; a calm male voice. **45-70 s, 110-165 words, 11-16 short sentences.** The last sentence is a question to the viewer, harder than the first.
 
 **Choose the style per idea** (`"style"`), and say why in your report in five words:
 - `clay`: glossy pastel toys, soft daylight. For warm, human, everyday or moral ideas: dilemmas about people, fairness, kindness, choices.
 - `ps2`: early-2000s console graphics at sunset, fog, scanlines. For eerie, uncanny or nostalgic ideas: identity, simulations, machines, memory, death, paranoia.
 - If either fits, use the one not used yesterday.
 
-Story shape: set the scene in one line → the rule or the catch → the choice → what most people say → the twist that breaks the easy answer → the question.
+Staging the structure: the hook on a striking image of the dilemma → the set-up acted out → each reveal changes something on stage (a new person, a number, a choice made) → the turn as a new scene or a ghost of the other outcome → the payoff on a tight shot of `you`, ending on the closing question pill.
 
 ### Spec
 
 ```json
 {"id": "experience-machine", "channel": "philosophy", "style": "ps2", "title": "THE EXPERIENCE MACHINE",
+ "angle": "If a machine could make you feel happy forever, why do most people refuse it?",
+ "hooks": ["<other opening line>", "<other opening line>"],
  "world": {"scenery": "room"},
  "script": [{"text": "Imagine a machine that gives you any life you want."}, {"text": "..."}],
  "passages": [[0, 1], [2, 3, 4], [5], [6, 7], [8, 9]],
@@ -172,10 +210,13 @@ Philosophy
 - Keep the in-house voice (engine default). Do not use other voice services.
 
 General
+- Jared reviews every script before its video is made. Drafts go to `specs/review/`, never straight to the queue.
+- Scripts must be informative, interesting and complex: real research, one clear question, an escalating story with a payoff (see "Writing the script"). Short, shallow fact lists are not acceptable.
 - Free tools only. No paid services.
-- Quality first, token use second: fix what the draft sheet shows, but do not polish beyond it.
+- Quality first, token use second: spend effort on research and writing; save it everywhere else.
 
 ## Corrections log
 Add dated one-line entries here whenever Jared corrects a video, and fold lasting rules into the section above.
 - 2026-11-17: pipeline created from the two approved sample videos (Starry Night; Trolley Problem in clay and PS2).
 - 2026-11-17: first run on GitHub worked (picture search, both renderers, Releases). Music used so far: chopin-nocturne-op9-2 (Starry Night), bach-goldberg-aria (Girl with a Pearl Earring, not yet heard by Jared).
+- 2026-11-18: Jared found the first videos not informative, interesting or complex enough. Added the review step (GitHub issues) and the "Writing the script" standard; videos are now 60-80 s (Paintings) and 45-70 s (Philosophy).

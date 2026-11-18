@@ -8,6 +8,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: render
@@ -80,6 +81,18 @@ jobs:
           else
             gh release create "$tag" out/*.mp4 out/*.txt out/*_sheet.jpg --title "Videos $day" --notes-file notes.md
           fi
+      - name: Close the review issues of the videos just made
+        if: steps.render.outputs.made != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          shopt -s nullglob
+          tag="videos-$(TZ=Asia/Kuala_Lumpur date +%F)"
+          for f in out/*.mp4; do
+            id=$(basename "$f" .mp4)
+            num=$(gh issue list --label review --state open --limit 100 --json number,title --jq ".[] | select(.title | startswith(\"[$id]\")) | .number" | head -1)
+            if [ -n "$num" ]; then gh issue close "$num" --comment "Done: ${{ github.server_url }}/${{ github.repository }}/releases/tag/$tag" || true; fi
+          done
       - name: File the specs
         run: |
           git config user.name "clipper-bot"

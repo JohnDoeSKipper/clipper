@@ -1,0 +1,33 @@
+name: Approve or comment on a script
+# Runs when Jared replies on a script-review issue. "approve" (one word) moves the draft to the queue and starts
+# the render; any other reply is saved next to the draft as feedback for the writer's next run.
+on:
+  issue_comment:
+    types: [created]
+
+permissions:
+  contents: write
+  issues: write
+  actions: write
+
+concurrency:
+  group: approve
+  cancel-in-progress: false
+
+jobs:
+  handle:
+    if: ${{ !github.event.issue.pull_request && contains(github.event.issue.labels.*.name, 'review') && github.event.comment.user.login == github.repository_owner }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+      - name: Approve or save the feedback
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TITLE: ${{ github.event.issue.title }}
+          BODY: ${{ github.event.comment.body }}
+          NUM: ${{ github.event.issue.number }}
+        run: python engine/review_reply.py

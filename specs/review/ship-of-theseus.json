@@ -1,0 +1,749 @@
+{
+ "id": "ship-of-theseus",
+ "channel": "philosophy",
+ "style": "clay",
+ "title": "THE SHIP OF THESEUS",
+ "angle": "If every part of something is replaced, is it still the same thing, and what does that make you?",
+ "hooks": [
+  "Japan's holiest shrine is thirteen centuries old, and thirteen years old.",
+  "Most of your body is younger than you are. So is it still you?"
+ ],
+ "world": {
+  "scenery": "open",
+  "ground": "#F3DEC0"
+ },
+ "script": [
+  {
+   "text": "Athens kept its legendary hero's ship by replacing it, plank by plank."
+  },
+  {
+   "text": "Plutarch records the argument: once every plank is new, is it the same ship?",
+   "gap": 0.5
+  },
+  {
+   "text": "Then, in 1655, Thomas Hobbes made it worse.",
+   "say": "Then, in sixteen fifty-five, Thomas Hobbes made it worse."
+  },
+  {
+   "text": "Suppose someone saved every old plank, and rebuilt the original next door."
+  },
+  {
+   "text": "Now there are two ships. Which one is Theseus's?",
+   "say": "Now there are two ships. Which one is Theseus's?",
+   "gap": 0.55
+  },
+  {
+   "text": "Say the old wood, and the ship everyone kept sailing quietly became a fake."
+  },
+  {
+   "text": "Say the repaired one, and every genuine plank, perfectly reassembled, is a copy.",
+   "gap": 0.6
+  },
+  {
+   "text": "Japan's holiest shrine, at Ise, has been rebuilt from new wood every twenty years since 690.",
+   "say": "Japan's holiest shrine, at Ise, has been rebuilt from new wood every twenty years since six ninety."
+  },
+  {
+   "text": "So is it thirteen centuries old, or thirteen years?",
+   "gap": 0.6
+  },
+  {
+   "text": "Experiments suggest what usually tips the balance: does it still do its job?",
+   "gap": 0.6
+  },
+  {
+   "text": "Now apply it to you. Most of your body's cells are younger than you."
+  },
+  {
+   "text": "But the neurons of your cortex seem to be as old as you.",
+   "gap": 0.6
+  },
+  {
+   "text": "So what keeps you, you: the parts that stayed, or the pattern that kept sailing?"
+  }
+ ],
+ "passages": [
+  [
+   0,
+   1
+  ],
+  [
+   2,
+   3
+  ],
+  [
+   4
+  ],
+  [
+   5,
+   6
+  ],
+  [
+   7,
+   8
+  ],
+  [
+   9
+  ],
+  [
+   10,
+   11
+  ],
+  [
+   12
+  ]
+ ],
+ "objects": [
+  {
+   "id": "ship1",
+   "kind": "ship",
+   "at": [
+    -3.6,
+    0,
+    0
+   ],
+   "face": 0,
+   "tint": "#FF6F61"
+  },
+  {
+   "id": "ship2",
+   "kind": "ship",
+   "at": [
+    3.8,
+    0,
+    -0.5
+   ],
+   "face": 0,
+   "tint": "#8EC5FF",
+   "show": false,
+   "scale": 1
+  },
+  {
+   "id": "p1",
+   "kind": "plank",
+   "at": [
+    -2.3,
+    0,
+    2.7
+   ],
+   "face": 90,
+   "show": false
+  },
+  {
+   "id": "p2",
+   "kind": "plank",
+   "at": [
+    -1.4,
+    0,
+    2.7
+   ],
+   "face": 90,
+   "show": false
+  },
+  {
+   "id": "p3",
+   "kind": "plank",
+   "at": [
+    -0.5,
+    0,
+    2.7
+   ],
+   "face": 90,
+   "show": false
+  },
+  {
+   "id": "you",
+   "kind": "person",
+   "look": "you",
+   "at": [
+    0.6,
+    0,
+    3.4
+   ],
+   "face": "ship1"
+  },
+  {
+   "id": "keeper",
+   "kind": "person",
+   "look": "elder",
+   "at": [
+    1.6,
+    0,
+    2.4
+   ],
+   "face": 15,
+   "show": false
+  },
+  {
+   "id": "shrineOld",
+   "kind": "house",
+   "tint": "#B07A4F",
+   "at": [
+    -2.4,
+    0,
+    -0.5
+   ],
+   "scale": 1.3,
+   "show": false
+  },
+  {
+   "id": "shrineNew",
+   "kind": "house",
+   "tint": "#E8B79A",
+   "at": [
+    2.4,
+    0,
+    -0.5
+   ],
+   "scale": 1.3,
+   "show": false
+  }
+ ],
+ "groups": {
+  "ships": [
+   "ship1",
+   "ship2"
+  ],
+  "planks": [
+   "p1",
+   "p2",
+   "p3"
+  ],
+  "shrines": [
+   "shrineOld",
+   "shrineNew"
+  ]
+ },
+ "shots": [
+  {
+   "at": 0,
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "ship1",
+     "you"
+    ]
+   }
+  },
+  {
+   "at": "0:plank",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "ship1",
+     "planks"
+    ]
+   },
+   "focus": [
+    "ship1",
+    "planks"
+   ]
+  },
+  {
+   "at": "1",
+   "cam": {
+    "preset": "close",
+    "on": "ship1"
+   },
+   "focus": [
+    "ship1"
+   ]
+  },
+  {
+   "at": "2",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "ship1"
+    ]
+   },
+   "focus": [
+    "you",
+    "ship1"
+   ]
+  },
+  {
+   "at": "3",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "keeper",
+     "ship2"
+    ],
+    "azimuth": 20
+   },
+   "focus": [
+    "keeper",
+    "ship2"
+   ]
+  },
+  {
+   "at": "4",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "ship1",
+     "ship2"
+    ],
+    "azimuth": 0
+   }
+  },
+  {
+   "at": "5",
+   "cam": {
+    "preset": "close",
+    "on": "ship1"
+   },
+   "focus": [
+    "ship1"
+   ]
+  },
+  {
+   "at": "6",
+   "cam": {
+    "preset": "close",
+    "on": "ship2"
+   },
+   "focus": [
+    "ship2"
+   ]
+  },
+  {
+   "at": "7",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "shrineOld",
+     "shrineNew"
+    ]
+   }
+  },
+  {
+   "at": "8",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "shrineOld",
+     "shrineNew"
+    ],
+    "azimuth": 0
+   },
+   "focus": [
+    "shrines"
+   ]
+  },
+  {
+   "at": "9",
+   "cam": {
+    "preset": "side",
+    "on": [
+     "ship1"
+    ]
+   },
+   "focus": [
+    "ship1"
+   ]
+  },
+  {
+   "at": "10",
+   "cam": {
+    "preset": "close",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "11",
+   "cam": {
+    "preset": "tight",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "12",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "ship1"
+    ]
+   },
+   "focus": [
+    "you",
+    "ship1"
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "id": "p1",
+   "at": "0:plank",
+   "show": true
+  },
+  {
+   "id": "p2",
+   "at": "0:plank#2",
+   "show": true
+  },
+  {
+   "id": "p3",
+   "at": "1:new",
+   "show": true
+  },
+  {
+   "id": "you",
+   "at": "1",
+   "dur": 0.4,
+   "pose": "think"
+  },
+  {
+   "id": "you",
+   "at": "2",
+   "dur": 0.4,
+   "pose": "shock"
+  },
+  {
+   "id": "keeper",
+   "at": "3",
+   "show": true
+  },
+  {
+   "id": "keeper",
+   "at": "3",
+   "dur": 0.3,
+   "pose": "carry"
+  },
+  {
+   "id": "ship2",
+   "at": "3:rebuilt",
+   "show": true
+  },
+  {
+   "id": "ship2",
+   "at": "3:rebuilt",
+   "dur": 0,
+   "scale": 0.05
+  },
+  {
+   "id": "ship2",
+   "at": "3:rebuilt",
+   "dur": 1.2,
+   "scale": 1,
+   "ease": "out"
+  },
+  {
+   "id": "keeper",
+   "at": "4",
+   "dur": 0.4,
+   "pose": "point"
+  },
+  {
+   "id": "you",
+   "at": "4",
+   "dur": 0.4,
+   "pose": "shrug"
+  },
+  {
+   "id": [
+    "ship1",
+    "ship2",
+    "keeper",
+    "p1",
+    "p2",
+    "p3"
+   ],
+   "at": "7",
+   "show": false
+  },
+  {
+   "id": "you",
+   "at": "7",
+   "show": false
+  },
+  {
+   "id": "shrineOld",
+   "at": "7",
+   "show": true
+  },
+  {
+   "id": "shrineNew",
+   "at": "7",
+   "show": true
+  },
+  {
+   "id": "shrineNew",
+   "at": "7:rebuilt",
+   "dur": 0,
+   "scale": 0.05
+  },
+  {
+   "id": "shrineNew",
+   "at": "7:rebuilt",
+   "dur": 1.4,
+   "scale": 1.3,
+   "ease": "out"
+  },
+  {
+   "id": [
+    "shrineOld",
+    "shrineNew"
+   ],
+   "at": "9",
+   "show": false
+  },
+  {
+   "id": "ship1",
+   "at": "9",
+   "show": true
+  },
+  {
+   "id": "ship1",
+   "at": "9",
+   "until": "10",
+   "pos": [
+    2.5,
+    0,
+    0
+   ],
+   "ease": "inout"
+  },
+  {
+   "id": "you",
+   "at": "10",
+   "show": true
+  },
+  {
+   "id": "you",
+   "at": "10",
+   "dur": 0.3,
+   "pose": "stand"
+  },
+  {
+   "id": "ship1",
+   "at": "10",
+   "dur": 0,
+   "pos": [
+    -3.6,
+    0,
+    0
+   ]
+  },
+  {
+   "id": "you",
+   "at": "11",
+   "dur": 0.4,
+   "pose": "think"
+  }
+ ],
+ "overlays": [
+  {
+   "type": "label",
+   "text": "THESEUS'S SHIP",
+   "on": "ship1",
+   "up": 5.4,
+   "from": "0",
+   "to": "1"
+  },
+  {
+   "type": "label",
+   "text": "YOU",
+   "color": "yellow",
+   "on": "you",
+   "from": "0",
+   "to": "0:plank"
+  },
+  {
+   "type": "question",
+   "from": "1:same",
+   "to": "2"
+  },
+  {
+   "type": "label",
+   "text": "THOMAS HOBBES, 1655",
+   "pos": [
+    540,
+    330
+   ],
+   "from": "2",
+   "to": "3"
+  },
+  {
+   "type": "label",
+   "text": "THE OLD PLANKS",
+   "on": "ship2",
+   "up": 5.4,
+   "from": "3:rebuilt+0.6",
+   "to": "4"
+  },
+  {
+   "type": "number",
+   "text": "1",
+   "on": "ship1",
+   "up": 5.6,
+   "from": "4",
+   "to": "5"
+  },
+  {
+   "type": "number",
+   "text": "2",
+   "on": "ship2",
+   "up": 5.6,
+   "from": "4",
+   "to": "5"
+  },
+  {
+   "type": "question",
+   "from": "4:Which",
+   "to": "5"
+  },
+  {
+   "type": "xmark",
+   "on": "ship1",
+   "up": 2.5,
+   "from": "5:fake",
+   "to": "6"
+  },
+  {
+   "type": "xmark",
+   "on": "ship2",
+   "up": 2.5,
+   "from": "6:copy",
+   "to": "7"
+  },
+  {
+   "type": "label",
+   "text": "ISE GRAND SHRINE, JAPAN",
+   "pos": [
+    540,
+    330
+   ],
+   "from": "7",
+   "to": "8"
+  },
+  {
+   "type": "label",
+   "text": "1,300 YEARS OLD?",
+   "on": "shrineOld",
+   "up": 4.6,
+   "from": "8:centuries",
+   "to": "9"
+  },
+  {
+   "type": "label",
+   "text": "13 YEARS OLD?",
+   "color": "yellow",
+   "on": "shrineNew",
+   "up": 4.6,
+   "from": "8:thirteen#2",
+   "to": "9"
+  },
+  {
+   "type": "check",
+   "on": "ship1",
+   "up": 6.2,
+   "from": "9:job",
+   "to": "10"
+  },
+  {
+   "type": "label",
+   "text": "MOST CELLS: YOUNGER THAN YOU",
+   "pos": [
+    540,
+    330
+   ],
+   "from": "10:cells",
+   "to": "11"
+  },
+  {
+   "type": "icon",
+   "icon": "brain",
+   "on": "you",
+   "up": 3.1,
+   "from": "11:neurons",
+   "to": "12"
+  },
+  {
+   "type": "label",
+   "text": "CORTEX NEURONS: AS OLD AS YOU",
+   "pos": [
+    540,
+    330
+   ],
+   "from": "11:old",
+   "to": "12"
+  },
+  {
+   "type": "pill",
+   "text": "What keeps you, you?",
+   "from": "12:sailing+0.3"
+  }
+ ],
+ "sfx": [
+  {
+   "at": "0:plank",
+   "s": "thud",
+   "gain": 0.22
+  },
+  {
+   "at": "0:plank#2",
+   "s": "thud",
+   "gain": 0.22
+  },
+  {
+   "at": "1:new",
+   "s": "thud",
+   "gain": 0.22
+  },
+  {
+   "at": "3:rebuilt",
+   "s": "maximize",
+   "gain": 0.3
+  },
+  {
+   "at": "7",
+   "s": "bong",
+   "gain": 0.28
+  },
+  {
+   "at": "7:rebuilt",
+   "s": "maximize",
+   "gain": 0.28
+  },
+  {
+   "at": "9",
+   "s": "whoosh",
+   "dur": 0.8,
+   "gain": 0.22,
+   "seed": 21
+  }
+ ],
+ "music": {
+  "mood": "wonder"
+ },
+ "sources": [
+  "https://en.wikipedia.org/wiki/Ship_of_Theseus",
+  "https://faculty.uca.edu/rnovy/Ship%20of%20Theseus%20handout.htm",
+  "https://www.mlit.go.jp/tagengo-db/en/H30-00745.html",
+  "https://www.iseshima-kanko.jp/en/highlights/sengu_eg",
+  "https://pure.qub.ac.uk/en/publications/the-ship-of-theseus-puzzle/",
+  "https://philarchive.org/archive/ROSFTD",
+  "https://www.nature.com/articles/nrm1730",
+  "https://pubmed.ncbi.nlm.nih.gov/16009139/"
+ ],
+ "post": {
+  "caption": "Replace every plank of a ship and it's still the same ship. Right? Then what happens when someone rebuilds the old one?",
+  "tags": [
+   "#philosophy",
+   "#shipoftheseus",
+   "#thoughtexperiment",
+   "#identity",
+   "#psychology"
+  ]
+ }
+}
