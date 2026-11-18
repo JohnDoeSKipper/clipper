@@ -24,7 +24,9 @@ def main():
         name = f'{p["title"]}, {p["artist"]} ({p.get("year", "")})'
         kind = "Paintings"
     else:
-        name = spec.get("title", sid).title()
+        small = {"a", "an", "and", "as", "at", "but", "by", "for", "in", "of", "on", "or", "the", "to"}
+        words = spec.get("title", sid).lower().split()
+        name = " ".join(w if (i and w in small) else w[:1].upper() + w[1:] for i, w in enumerate(words))
         kind = f'Philosophy, {spec.get("style", "?")} style'
     if "--title" in sys.argv:
         print(f"[{sid}] {name} · {kind}")
