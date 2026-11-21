@@ -1,0 +1,42 @@
+name: Post today's videos
+
+# 8 pm Malaysia time = 12:00 UTC. Starts at 11:35 UTC because GitHub often
+# starts scheduled runs late; post.py waits for 20:00 if it is early.
+on:
+  schedule:
+    - cron: "35 11 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Only show what would be posted"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: post
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install ffprobe
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Post
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PAINTINGS_META_TOKEN: ${{ secrets.PAINTINGS_META_TOKEN }}
+          PHILOSOPHY_META_TOKEN: ${{ secrets.PHILOSOPHY_META_TOKEN }}
+        run: python engine/post.py ${{ inputs.dry_run && '--dry-run' || '' }}
+      - name: Save what was posted
+        if: always()
+        run: |
+          git config user.name "clipper-bot"
+          git config user.email "clipper-bot@users.noreply.github.com"
+          git add catalog/posted.json
+          git diff --cached --quiet || (git commit -m "Posted $(TZ=Asia/Kuala_Lumpur date +%F)" && git pull --rebase -q && git push)

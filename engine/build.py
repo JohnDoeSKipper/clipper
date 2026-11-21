@@ -82,8 +82,10 @@ def check(spec, TL):
     """Cheap sanity checks, printed as WARNING lines."""
     out, ch = [], spec["channel"]
     total, words = TL[-1]["scene_end"], sum(len(s["words"]) for s in TL)
-    lo, hi = (50, 85) if ch == "paintings" else (40, 75)
-    if not lo <= total <= hi:
+    lo, hi = 75, 88          # Facebook's posting API refuses Reels over 90 s
+    if total > 89.5:
+        out.append(f"the video runs {total:.0f}s: over 90 s Facebook will not take it; cut to {lo}-{hi}s")
+    elif not lo <= total <= hi:
         out.append(f"the video runs {total:.0f}s; aim for {lo}-{hi}s")
     for i, s in enumerate(spec["script"]):
         if len(s["text"].split()) > 22:

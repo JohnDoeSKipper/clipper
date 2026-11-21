@@ -31,11 +31,16 @@ Output per day: up to **1 Paintings draft + 1 Philosophy draft**, plus picture r
 
 Jared's verdict on the first videos: *not informative enough, not interesting enough, not complex enough.* The fix is better research, one strong question, and a story that escalates; not more adjectives.
 
+**Length: 75-88 seconds for both channels** (decided 2026-11-21). Reach on TikTok and Instagram grows past 60 s when people keep watching, and Facebook's posting API refuses Reels over 90 s, so 88 s is the ceiling. Longer is only worth it if every extra sentence is a new surprise; never pad.
+
+**Surprise is the product.** Jared wants surprising, little-known facts. Build each script on facts that make a smart friend say *"wait, really?"*: a hidden detail, a number nobody expects, a myth the evidence overturns, a cause that is not the obvious one, a strange afterlife of the work or idea. Facts everyone already knows (Van Gogh cut off his ear, the Mona Lisa is small) may appear only as the setup for something they don't know.
+
 ### 1. Research first (about 4-6 searches or page reads per video)
 - Read at least **three real sources** and open the pages (search snippets are not enough):
   - **Paintings:** the museum's own page for the work (and its collection-API text where there is one: Art Institute of Chicago, Cleveland Museum of Art, the Met, Rijksmuseum, National Gallery); a curator's or scholar's essay (Smarthistory, museum essays and blogs, Google Arts & Culture stories, conservation and technical studies); Wikipedia only to find leads, never as the only source for a claim.
   - **Philosophy:** the Stanford Encyclopedia of Philosophy (or Internet Encyclopedia of Philosophy) entry; the original paper or book (who, when, and what problem the idea was invented to test); at least one empirical study or survey with numbers if one exists; one real-world case where the question matters today.
-- Build a fact bank in your scratch work (not in the spec): 10-15 specific, surprising, checkable facts, each tied to a source. Prefer facts with a number, a name, a material, a place, a date or a cause.
+- Build a fact bank in your scratch work (not in the spec): 15-20 specific, checkable facts, each tied to a source. Prefer facts with a number, a name, a material, a place, a date or a cause.
+- **Rate every fact for surprise** (1 = on the Wikipedia first paragraph, 3 = a curious adult might know, 5 = almost nobody knows and it changes the picture). Dig where the 5s live: conservation and X-ray studies, letters and diaries, sales and inventory records, the museum's own blog, the original paper's footnotes, follow-up experiments, court cases. Build the script around the 4s and 5s.
 - Read the top two scripts for your channel in `catalog/approved-scripts.md`. They are the standard Jared has accepted; match or beat them.
 
 ### 2. Choose the angle: one question
@@ -49,13 +54,14 @@ Write it in `"angle"`: a single question the video answers. A topic is not an an
 5. **Payoff** (1-2 sentences): answers the hook. End on a strong image or a sharper question. Never summarise; never "and that's why it's a masterpiece".
 
 ### 4. Depth (the "complex enough" test)
-- At least **4 facts a curious adult would not already know**, and at least **one real explanation of why or how** (a cause and its effect), not only *what*.
+- At least **6 facts a curious adult would not already know** (surprise 4-5), spread through the whole video so there is a new one every 10-15 seconds, and at least **one real explanation of why or how** (a cause and its effect), not only *what*.
+- **Myth-check:** if the topic has a popular story, find out whether it is true. A popular belief the evidence overturns is one of the strongest reveals there is.
 - **Paintings:** choose at least three of: the human story (the artist's situation and what they risked); how it was made (material or technique, and why that choice mattered); a detail the eye misses; the context that changes its meaning (history, politics, science, money); what happened to it afterwards.
 - **Philosophy:** always include who proposed it and the problem it was built to test; the strongest case on at least two sides; one real-world case where it matters now (law, medicine, AI, everyday life); one piece of evidence with a number when it exists; and the move most people miss. End on a question harder than the one you started with, never a generic "what would you do?".
 - No filler. Cut "very", "really", "iconic", "masterpiece", "little did he know", "in this video". Every sentence adds a fact, a turn or a picture.
 
 ### 5. Self-check
-Score the script 1-5 on hook, curiosity (does the viewer need the ending?), specificity, depth, momentum, payoff and accuracy. Rewrite anything under 4. Then put two other strong opening lines in `"hooks"`; Jared may prefer one.
+Score the script 1-5 on hook, surprise (count the 4-5 facts), curiosity (does the viewer need the ending?), specificity, depth, momentum, payoff and accuracy. Rewrite anything under 4. Then put two other strong opening lines in `"hooks"`; Jared may prefer one.
 
 ### 6. Mechanics
 - Spoken English. Sentences under about 20 words, one idea each, written to be heard: read it at speaking pace in your head.
@@ -74,7 +80,7 @@ The word must appear in that sentence's `text` exactly (punctuation and case ign
 
 ## Paintings channel ("Behind the Painting")
 
-Look approved by Jared: the framed painting on a blurred backdrop, slow continuous camera, white serif captions, a classical piano piece under a calm British female voice. **60-80 s, 125-165 words, 9-13 sentences.**
+Look approved by Jared: the framed painting on a blurred backdrop, slow continuous camera, white serif captions, a classical piano piece under a calm British female voice. **75-88 s, 155-185 words, 13-17 sentences.**
 
 Staging the structure: the hook over the opening pull-back from a detail → context with a photo of the place, person or object (**photo first**, map or illustration only when no usable photo exists) → each reveal found by the camera (ring, then zoom) or shown as an insert → the turn → the payoff on the whole painting.
 
@@ -128,7 +134,7 @@ Look once at `inbox/<id>/painting_preview.jpg` (to place highlights) and once at
 
 ## Philosophy channel ("thought experiments")
 
-Look approved by Jared: a small 3D stage with toy people, shown in one of two styles; plain white serif captions with a soft shadow; sound effects on actions; a calm male voice. **45-70 s, 110-165 words, 11-16 short sentences.** The last sentence is a question to the viewer, harder than the first.
+Look approved by Jared: a small 3D stage with toy people, shown in one of two styles; plain white serif captions with a soft shadow; sound effects on actions; a calm male voice. **75-88 s, 185-215 words, 18-24 short sentences.** The last sentence is a question to the viewer, harder than the first.
 
 **Choose the style per idea** (`"style"`), and say why in your report in five words:
 - `clay`: glossy pastel toys, soft daylight. For warm, human, everyday or moral ideas: dilemmas about people, fairness, kindness, choices.
@@ -212,6 +218,8 @@ Philosophy
 General
 - Jared reviews every script before its video is made. Drafts go to `specs/review/`, never straight to the queue.
 - Scripts must be informative, interesting and complex: real research, one clear question, an escalating story with a payoff (see "Writing the script"). Short, shallow fact lists are not acceptable.
+- Longer videos: 75-88 s on both channels, filled with surprising, little-known facts (at least 6 per video), never padding.
+- One video per channel is posted every day at 8 pm Malaysia time, automatically (`post.yml`). Keep at least one approved video ahead.
 - Free tools only. No paid services.
 - Quality first, token use second: spend effort on research and writing; save it everywhere else.
 
@@ -220,3 +228,4 @@ Add dated one-line entries here whenever Jared corrects a video, and fold lastin
 - 2026-11-17: pipeline created from the two approved sample videos (Starry Night; Trolley Problem in clay and PS2).
 - 2026-11-17: first run on GitHub worked (picture search, both renderers, Releases). Music used so far: chopin-nocturne-op9-2 (Starry Night), bach-goldberg-aria (Girl with a Pearl Earring, not yet heard by Jared).
 - 2026-11-18: Jared found the first videos not informative, interesting or complex enough. Added the review step (GitHub issues) and the "Writing the script" standard; videos are now 60-80 s (Paintings) and 45-70 s (Philosophy).
+- 2026-11-21: Jared asked for longer videos with more surprising, less-known facts, and daily automatic posting at 8 pm MYT. Both channels now 75-88 s (Facebook API max 90 s); surprise rating added to research; post.yml posts to Instagram and Facebook.

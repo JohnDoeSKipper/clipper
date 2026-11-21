@@ -1,0 +1,8 @@
+{
+  "time": "20:00",
+  "note": "One video per account per day at this Malaysia time. Each account needs one GitHub secret: a Facebook Page access token for the Page its Instagram is linked to. An account that carries two channels takes turns between them.",
+  "accounts": [
+    {"name": "paintings", "channels": ["paintings"], "token_secret": "PAINTINGS_META_TOKEN", "platforms": ["instagram", "facebook"]},
+    {"name": "philosophy", "channels": ["philosophy"], "token_secret": "PHILOSOPHY_META_TOKEN", "platforms": ["instagram", "facebook"]}
+  ]
+}

@@ -1,0 +1,14 @@
+{
+ "paintings": {
+  "girl-pearl-earring": {
+   "channel": "paintings",
+   "skipped": "first automated video; Jared found it not informative enough"
+  }
+ },
+ "philosophy": {
+  "experience-machine": {
+   "channel": "philosophy",
+   "skipped": "first automated video; Jared found it not informative enough"
+  }
+ }
+}
