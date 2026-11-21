@@ -78,6 +78,8 @@ def main():
     post = spec.get("post", {})
     if post:
         out += ["", "### Post caption", "", post.get("caption", ""), "", " ".join(post.get("tags", []))]
+        if post.get("youtube_title"):
+            out += ["", f"**YouTube title:** {post['youtube_title']} #Shorts"]
 
     out += ["", "---", "",
             "**To make this video:** reply `approve` (one word).",

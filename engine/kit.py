@@ -31,7 +31,7 @@ def spec_of(vid):
 
 def youtube_title(spec, caption):
     first = caption.split("\n")[0].split(". ")[0].strip().rstrip(".")
-    t = first or (spec.get("title") or "").title()
+    t = spec.get("post", {}).get("youtube_title") or first or (spec.get("title") or "").title()
     t = t if len(t) <= 90 else t[:87].rsplit(" ", 1)[0] + "…"
     return t + " #Shorts"
 

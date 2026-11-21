@@ -25,7 +25,12 @@ Output per day: up to **1 Paintings draft + 1 Philosophy draft**, plus picture r
 
 **Remaking a video** (when Jared asks): edit `specs/done/<id>.json` and `git mv` it to `specs/queue/`. A Paintings remake reuses the picture list kept in `specs/meta/<id>.json` (the previews are gone; to choose a different photo, pick another candidate by its title there, or push a new request).
 
-**Where to spend tokens.** Spend them on research and writing; that is what Jared judges. Save them everywhere else: do not open engine code, do not print specs back, do not view an image twice, do not re-read this file.
+**Where to spend tokens.** Spend them on research and writing; that is what Jared judges. Save them everywhere else (Jared asked for token use to be kept as low as possible):
+- **Stop early.** After steps 2-4, if there is no failure, no feedback and both channels already have 2 drafts waiting, write a one-line report and end the run. Do not research or draw anything.
+- **Research lean.** Search in standard mode. Read pages with a focused question ("list the surprising, checkable facts about X with numbers and dates") instead of whole pages. About 6-10 page reads per video; stop once you have 6+ facts rated 4-5 with sources.
+- **Write once.** Write each spec in one go, then change it with small edits; never print a spec, a sheet or this file back. Do not open engine code or the examples unless a WARNING forces you to.
+- **Look once.** View each draft sheet once (twice only if you changed staging).
+- **Run independent steps together** (several searches or page reads in one turn) and keep the report to five lines.
 
 ## Writing the script (the part that matters most)
 
@@ -68,7 +73,11 @@ Score the script 1-5 on hook, surprise (count the 4-5 facts), curiosity (does th
 - Write numbers and names the voice may misread with `"say"`: `{"text": "In 1889, ...", "say": "In eighteen eighty-nine, ..."}`. Spell foreign names phonetically in `say`.
 - `passages` groups sentences spoken in one breath (2-3 each). `"gap"` (seconds) on the last sentence of a passage sets the pause after it; 0.5-0.75 before a reveal.
 - Every claim true and checkable. Put the pages you actually used in `"sources"`. If a popular story is doubtful, say "the story goes" or leave it out.
-- Captions are automatic. No emoji. `post.caption`: one or two sentences that make someone want to watch (a question or a tease, not a summary), plus 4-6 hashtags in `post.tags`.
+- On-screen captions are automatic. The **post** is drafted by you, ready to paste (Jared posts by hand every night, so it must need no editing). No emoji.
+  - `post.caption`: line 1 = one or two sentences that tease the most surprising fact (a question or a tease, never a summary); line 2 = one short question that invites a comment ("Ship 1 or ship 2?").
+  - `post.tags`: 4-6 hashtags: one broad (#arthistory / #philosophy), two specific to the topic, one or two in between.
+  - `post.youtube_title`: at most 60 characters, a curiosity line that is true (no clickbait the video doesn't pay off); " #Shorts" is added automatically.
+  - Credits are added to the posted text automatically; don't write them.
 
 ## Cues (how things are timed)
 

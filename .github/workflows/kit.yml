@@ -7,6 +7,9 @@ on:
   schedule:
     - cron: "7 11 * * *"
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [".github/workflows/kit.yml"]
 
 permissions:
   contents: write
@@ -31,6 +34,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python engine/kit.py
+      - name: Switch GitHub Pages on (works only if allowed; otherwise turn it on in Settings > Pages)
+        uses: actions/configure-pages@v5
+        continue-on-error: true
+        with:
+          enablement: true
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site
