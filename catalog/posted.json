@@ -3,12 +3,22 @@
   "girl-pearl-earring": {
    "channel": "paintings",
    "skipped": "first automated video; Jared found it not informative enough"
+  },
+  "starry-night": {
+   "channel": "paintings",
+   "handed_out": "2026-11-22",
+   "at": "2026-11-22T02:58+08:00"
   }
  },
  "philosophy": {
   "experience-machine": {
    "channel": "philosophy",
    "skipped": "first automated video; Jared found it not informative enough"
+  },
+  "trolley-problem": {
+   "channel": "philosophy",
+   "handed_out": "2026-11-22",
+   "at": "2026-11-22T02:58+08:00"
   }
  }
 }
