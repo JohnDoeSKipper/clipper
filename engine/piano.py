@@ -73,7 +73,7 @@ def _notes(path):
     return sorted(notes)
 
 
-def render(midi_path, seconds, eighth_bpm=84.0, pickup=1.0, bar=12.0, seed=5, fade_s=1.6, start=0.0):
+def render(midi_path, seconds, eighth_bpm=84.0, pickup=1.0, bar=12.0, seed=5, fade_s=2.6, start=0.0):
     """Stereo float32 (n, 2). eighth_bpm sets the tempo; the score marks 132."""
     rng = np.random.default_rng(seed)
     notes = [(q - start, d, p, tr) for q, d, p, tr in _notes(midi_path) if q >= start - 1e-6]

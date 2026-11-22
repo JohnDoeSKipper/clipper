@@ -84,6 +84,32 @@ def _brand(canvas, txt):
         x += f.measureText(ch) + 5
 
 
+def _hook(canvas, text, a):
+    """The on-screen hook: 3-7 big words in the top third for the first seconds (on from the first frame, no fade-in)."""
+    if a <= 0 or not text:
+        return
+    f = font(C.INTER_BOLD, 66)
+    lines, cur = [], ""
+    for w in text.upper().split():
+        t = (cur + " " + w).strip()
+        if f.measureText(t) > 940 and cur:
+            lines.append(cur)
+            cur = w
+        else:
+            cur = t
+    lines.append(cur)
+    y0 = 430 - 40 * (len(lines) - 1)
+    canvas.drawRect(skia.Rect.MakeLTRB(0, 0, W, y0 + 80 * len(lines) + 90), skia.Paint(Shader=skia.GradientShader.MakeLinear(
+        [(0, 0), (0, y0 + 80 * len(lines) + 90)], [color("#000000", 0.55 * a), color("#000000", 0)])))
+    sh = skia.Paint(AntiAlias=True, Color=color("#000000", 0.7 * a), MaskFilter=skia.MaskFilter.MakeBlur(skia.kNormal_BlurStyle, 8))
+    for i, ln in enumerate(lines):
+        y = y0 + i * 80
+        canvas.drawString(ln, (W - f.measureText(ln)) / 2, y + 4, f, sh)
+        _center(canvas, ln, y, f, "#FFFFFF", a)
+    bar = 120 * a
+    canvas.drawRect(skia.Rect.MakeXYWH((W - bar) / 2, y0 + 80 * (len(lines) - 1) + 34, bar, 6), skia.Paint(AntiAlias=True, Color=color(AMBER, a)))
+
+
 def _center(canvas, s, y, f, col, a):
     canvas.drawString(s, (W - f.measureText(s)) / 2, y, f, skia.Paint(AntiAlias=True, Color=color(col, a)))
 
@@ -253,6 +279,8 @@ class Film:
             if layered:
                 c.restore()
         _brand(c, spec.get("brand", "BEHIND THE PAINTING"))
+        hu = spec.get("hook_until", 0)
+        _hook(c, spec.get("hook_text", ""), 1.0 if t < hu - 0.35 else max(0.0, (hu - t) / 0.35))
         A.caption(c, self.TL, t, self.capf, y=1490)
         return surf
 

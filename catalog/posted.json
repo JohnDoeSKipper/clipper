@@ -8,6 +8,10 @@
    "channel": "paintings",
    "handed_out": "2026-11-22",
    "at": "2026-11-22T02:58+08:00"
+  },
+  "the-scream": {
+   "channel": "paintings",
+   "skipped": "made before the spine (jumps between points); remake it, then delete this entry"
   }
  },
  "philosophy": {
@@ -19,6 +23,10 @@
    "channel": "philosophy",
    "handed_out": "2026-11-22",
    "at": "2026-11-22T02:58+08:00"
+  },
+  "veil-of-ignorance": {
+   "channel": "philosophy",
+   "skipped": "made before the spine (jumps between points); remake it, then delete this entry"
   }
  }
 }

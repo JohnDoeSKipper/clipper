@@ -11,7 +11,93 @@ import fetch
 ROOT = C.ROOT
 CUE_KEYS = {"at", "to", "from", "until", "ring", "zoom", "labelAt", "out", "bars"}
 CUE = re.compile(r"^(\d+|end)(?::([^+#]+?))?(?:#(\d+))?([+-]\d+(?:\.\d+)?)?$")
+BEATS = ["hook", "question", "reveal1", "reveal2", "reveal3", "turn", "payoff"]
+LINKS = {"but", "so", "because", "detail", "answer"}
+PACE = {"paintings": dict(within=0.4, between=0.8, big=1.0), "philosophy": dict(within=0.28, between=0.55, big=0.75)}
+TAIL = 1.6          # seconds held after the last word, so the ending lands and the music resolves
 DEFAULT_VOICE = {"paintings": dict(name="bf_emma", speed=0.8, gap=0.65), "philosophy": dict(name="am_michael", speed=1.04, gap=0.38)}
+
+
+def pace(spec):
+    """With a "beat" on every sentence, breathing is automatic: one take per 1-2 sentences of the same beat,
+    a short pause inside a beat, a longer one between beats, the longest before the turn and the payoff.
+    A "gap" written on a sentence still wins."""
+    s = spec["script"]
+    if not all(x.get("beat") in BEATS for x in s):
+        return
+    P = PACE[spec["channel"]]
+    passages, cur = [], []
+    for i, x in enumerate(s):
+        if cur and (x["beat"] != s[cur[-1]]["beat"] or len(cur) == 2):
+            passages.append(cur)
+            cur = []
+        cur.append(i)
+    passages.append(cur)
+    spec["passages"] = passages
+    for a, b in zip(passages, passages[1:]):
+        last, nb = s[a[-1]], s[b[0]]["beat"]
+        if "gap" not in last:
+            last["gap"] = P["within"] if nb == last["beat"] else (P["big"] if nb in ("turn", "payoff") else P["between"])
+
+
+def hook_until(spec, TL):
+    """The on-screen hook line stays up while the spoken hook is said (2.5-6 s)."""
+    s = spec["script"]
+    idx = [i for i, x in enumerate(s) if x.get("beat") == "hook"] or [0]
+    return round(min(6.0, max(2.5, TL[idx[-1]]["end"] + 0.5)), 2)
+
+
+def check_story(spec, TL, out):
+    """The spine (PLAYBOOK, Writing the script): beats in order, every sentence linked to the one before."""
+    s, total = spec["script"], TL[-1]["scene_end"]
+    if not all("beat" in x for x in s):
+        out.append('every sentence needs "beat" and "link" (PLAYBOOK: the spine)')
+        return
+    bad = [i for i, x in enumerate(s) if x["beat"] not in BEATS]
+    if bad:
+        out.append(f"sentence {bad[0]}: beat must be one of " + ", ".join(BEATS))
+        return
+    order = [BEATS.index(x["beat"]) for x in s]
+    if order != sorted(order):
+        i = next(i for i in range(1, len(order)) if order[i] < order[i - 1])
+        out.append(f'sentence {i}: beat "{s[i]["beat"]}" comes after "{s[i - 1]["beat"]}"; the beats must run in order: ' + " > ".join(BEATS))
+    counts = {b: sum(1 for x in s if x["beat"] == b) for b in BEATS}
+    limits = {"hook": (1, 2), "question": (1, 2), "reveal1": (2, 4), "reveal2": (2, 4), "reveal3": (2, 4), "turn": (1, 2), "payoff": (1, 2)}
+    for b, (lo, hi) in limits.items():
+        if not lo <= counts[b] <= hi:
+            out.append(f'beat "{b}" has {counts[b]} sentence(s); it needs {lo}-{hi}')
+    if len(s[0]["text"].split()) > 12:
+        out.append(f"the first sentence has {len(s[0]['text'].split())} words; the hook must land in about 2 seconds (12 words at most)")
+    first = {b: next((i for i, x in enumerate(s) if x["beat"] == b), None) for b in BEATS}
+    if first["question"] is not None and TL[first["question"]]["start"] > 12:
+        out.append(f"the question starts at {TL[first['question']]['start']:.0f}s; ask it by 12s so the viewer knows what they are waiting for")
+    if first["reveal2"] is not None and not 0.25 <= TL[first["reveal2"]]["start"] / total <= 0.55:
+        out.append(f"reveal2 starts at {TL[first['reveal2']]['start']:.0f}s; it is the mid-video re-hook and belongs between 25% and 55% of the video")
+    if first["payoff"] is not None and TL[first["payoff"]]["start"] / total < 0.75:
+        out.append(f"the payoff starts at {TL[first['payoff']]['start']:.0f}s, too early; keep the answer for the last quarter")
+    buts = 0
+    for i, x in enumerate(s[1:], 1):
+        l = x.get("link")
+        if l not in LINKS:
+            out.append(f'sentence {i}: "link" must say how it follows the sentence before: ' + ", ".join(sorted(LINKS)) + ' (never "and" / a new topic)')
+            continue
+        buts += l == "but"
+        if x["beat"] != s[i - 1]["beat"] and l == "detail" and x["beat"] != "question":
+            out.append(f'sentence {i} starts {x["beat"]} with "detail"; a new beat must be caused by the last one (so / because) or cut against it (but)')
+    if buts < 2:
+        out.append(f'only {buts} "but" link(s); a story needs at least two moments where the expected answer breaks')
+    ht = spec.get("hook_text", "")
+    if not 3 <= len(ht.split()) <= 7:
+        out.append('"hook_text" (the big on-screen line in the first seconds) needs 3-7 words; it sharpens the spoken hook, it does not repeat it')
+    lg = " " + spec.get("logline", "").lower() + " "
+    if " but " not in lg or not (" so " in lg or " therefore " in lg):
+        out.append('"logline" must tell the whole story in one line with "but" and "so"/"therefore" (write it before the script)')
+    beats = []
+    for b in BEATS:
+        idx = [i for i, x in enumerate(s) if x["beat"] == b]
+        if idx:
+            beats.append(f"{b} {TL[idx[0]]['start']:.0f}-{TL[idx[-1]]['end']:.0f}s")
+    print("   beats: " + " | ".join(beats))
 
 
 def narrate(spec, tmp):
@@ -23,7 +109,7 @@ def narrate(spec, tmp):
     cache = os.path.join(ROOT, "cache", "voice", key + ".pkl")
     if os.path.exists(cache):
         return pickle.load(open(cache, "rb"))
-    audio, sr, TL, matched = V.narrate(script, passages, v["name"], speed=v["speed"], gap=v["gap"], tail=0.7)
+    audio, sr, TL, matched = V.narrate(script, passages, v["name"], speed=v["speed"], gap=v["gap"], tail=TAIL)
     print(f"  narration {len(audio) / sr:.1f}s, caption alignment {matched * 100:.0f}%")
     os.makedirs(os.path.dirname(cache), exist_ok=True)
     pickle.dump((audio, sr, TL), open(cache, "wb"))
@@ -46,7 +132,7 @@ def estimate(spec):
         end = words[-1][2]
         t = end + (sen.get("gap", v["gap"]) if i in last_of else 0.3)
         TL.append(dict(words=words, start=words[0][1], end=end))
-    total = TL[-1]["end"] + 0.7
+    total = TL[-1]["end"] + TAIL
     for i, tl in enumerate(TL):
         tl["scene_start"] = 0.0 if i == 0 else TL[i - 1]["scene_end"]
         tl["scene_end"] = total if i == len(TL) - 1 else max(tl["end"], TL[i + 1]["start"] - 0.1)
@@ -82,6 +168,7 @@ def check(spec, TL):
     """Cheap sanity checks, printed as WARNING lines."""
     out, ch = [], spec["channel"]
     total, words = TL[-1]["scene_end"], sum(len(s["words"]) for s in TL)
+    check_story(spec, TL, out)
     lo, hi = 75, 88          # Facebook's posting API refuses Reels over 90 s
     if total > 89.5:
         out.append(f"the video runs {total:.0f}s: over 90 s Facebook will not take it; cut to {lo}-{hi}s")
@@ -165,6 +252,7 @@ def build(path, frames_only=False, draft=False):
     out_dir, tmp = os.path.join(ROOT, "out"), os.path.join(ROOT, "cache", "tmp")
     os.makedirs(out_dir, exist_ok=True)
     os.makedirs(tmp, exist_ok=True)
+    pace(spec)
     if draft:
         draft_assets(spec)
         credits, audio, sr, TL, frames_only = [], None, 24000, estimate(spec), True
@@ -175,6 +263,7 @@ def build(path, frames_only=False, draft=False):
     for k in ("timeline", "shots", "actions", "overlays", "sfx"):
         if k in spec:
             spec[k] = resolve(spec[k], TL)
+    spec["hook_until"] = hook_until(spec, TL)
     check(spec, TL)
     mids = [round((s["scene_start"] + s["end"]) / 2, 2) for s in TL]
     at = [a for a in sys.argv if a.startswith("--at=")]

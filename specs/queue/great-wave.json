@@ -1,0 +1,196 @@
+{
+ "id": "great-wave",
+ "channel": "paintings",
+ "angle": "How did a print that cost two bowls of noodles become the world's most famous wave?",
+ "hooks": [
+  "Van Gogh said this wave has claws.",
+  "The world's most famous wave began as a cheap souvenir."
+ ],
+ "painting": {
+  "title": "The Great Wave off Kanagawa",
+  "artist": "Katsushika Hokusai",
+  "year": "c. 1830-32",
+  "museum": "Impressions in the Met, the British Museum and others"
+ },
+ "script": [
+  {
+   "text": "This wave once cost about two bowls of noodles.",
+   "beat": "hook"
+  },
+  {
+   "text": "In 2023, one copy sold for 2.76 million dollars.",
+   "beat": "hook",
+   "link": "but",
+   "say": "In twenty twenty-three, one copy sold for two point seven six million dollars."
+  },
+  {
+   "text": "So how does a cheap print become the world's most famous wave?",
+   "beat": "question",
+   "link": "so"
+  },
+  {
+   "text": "It starts with a new blue from China that never faded.",
+   "beat": "reveal1",
+   "link": "answer"
+  },
+  {
+   "text": "The series sold so well that the publisher added ten more views.",
+   "beat": "reveal1",
+   "link": "so"
+  },
+  {
+   "text": "But a hit print wore out its own woodblocks.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "Thousands were pulled, each one blurring the carved lines a little more.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "That's why crisp early copies are so rare, and so fought over.",
+   "beat": "reveal2",
+   "link": "so"
+  },
+  {
+   "text": "But its fame was made far from Japan.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "In 1888, Van Gogh wrote to his brother that its waves are claws, and the boat is caught.",
+   "beat": "reveal3",
+   "link": "detail",
+   "say": "In eighteen eighty-eight, Van Gogh wrote to his brother that its waves are claws, and the boat is caught."
+  },
+  {
+   "text": "A year later he painted Starry Night, and one expert sees this wave in its sky.",
+   "beat": "reveal3",
+   "link": "so"
+  },
+  {
+   "text": "Yet Hokusai thought he had barely started.",
+   "beat": "turn",
+   "link": "but"
+  },
+  {
+   "text": "He wrote that nothing he drew before seventy was worth noticing.",
+   "beat": "turn",
+   "link": "detail"
+  },
+  {
+   "text": "So a new blue, worn woodblocks and Van Gogh's Europe made a cheap print priceless.",
+   "beat": "payoff",
+   "link": "answer"
+  },
+  {
+   "text": "Its maker died at eighty-nine, asking for five more years to become a real artist.",
+   "beat": "payoff",
+   "link": "detail"
+  }
+ ],
+ "music": {
+  "piece": "debussy-arabesque-1"
+ },
+ "timeline": [
+  {
+   "type": "reveal",
+   "from": [
+    0.516,
+    0.3,
+    2.6
+   ],
+   "until": 3.2
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "prussian",
+    0
+   ],
+   "caption": "Prussian blue pigment",
+   "at": "3",
+   "to": "4-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "redfuji",
+    2
+   ],
+   "caption": "Red Fuji, from the same series",
+   "at": "4",
+   "to": "5-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.349,
+    0.44,
+    0.09,
+    0.17
+   ],
+   "ring": "5:woodblocks",
+   "zoom": "5:woodblocks+0.35",
+   "label": "CARVED LINES",
+   "labelAt": "6:lines",
+   "out": "8-0.35"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.516,
+    0.295,
+    0.075,
+    0.15
+   ],
+   "ring": "9:claws",
+   "zoom": "9:claws+0.3",
+   "label": "CLAWS",
+   "labelAt": "9:caught",
+   "out": "10:Starry"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "portrait",
+    0
+   ],
+   "caption": "Hokusai's self-portrait, aged about 83",
+   "at": "11",
+   "to": "12:noticing+0.4"
+  }
+ ],
+ "sources": [
+  "https://www.metmuseum.org/en/essays/hokusai-great-wave",
+  "https://www.metmuseum.org/art/collection/search/39799",
+  "https://www.britishmuseum.org/collection/object/A_2008-3008-1",
+  "https://studiointernational.com/index.php/tim-clark-interview-british-museum-newly-rediscovered-hokusai-drawings-japan",
+  "https://hyperallergic.com/hokusais-great-wave-makes-a-splash-at-auction",
+  "https://www.ngv.vic.gov.au/essay/the-old-man-mount-fuji-and-the-sea/",
+  "https://www.britishmuseum.org/blog/hokusai-old-master",
+  "https://www.fujibi.or.jp/en/collection/artwork/03628/",
+  "https://daily.jstor.org/under-hokusais-great-wave",
+  "https://www.metmuseum.org/essays/hokusai-great-wave",
+  "https://vangoghletters.org/orig/let676",
+  "https://www.theartnewspaper.com/2018/09/28/how-van-goghs-starry-night-was-inspired-by-hokusais-great-wave",
+  "https://artsandculture.google.com/asset/hokusai-s-the-great-wave/lwFOIObpzzqtrA"
+ ],
+ "post": {
+  "caption": "It cost about two bowls of noodles. Van Gogh said its waves have claws.\nWould you have bought one for noodle money?",
+  "tags": [
+   "#arthistory",
+   "#hokusai",
+   "#greatwave",
+   "#vangogh",
+   "#japaneseart"
+  ],
+  "youtube_title": "The Great Wave cost two bowls of noodles"
+ },
+ "logline": "It was a cheap souvenir, but a new blue that never faded made it a hit, so thousands were printed until the blocks wore out, but its fame was made in Van Gogh's Europe, therefore a beginner's souvenir became priceless.",
+ "hook_text": "FROM NOODLE MONEY TO MILLIONS"
+}

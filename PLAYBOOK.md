@@ -23,7 +23,7 @@ Output per day: up to **1 Paintings video + 1 Philosophy video**, plus picture r
 
 **When Jared gives feedback in a chat** instead of on GitHub: apply it as in step 3 (rules for future videos), and remake a video only if he asks.
 
-**Remaking a video** (when Jared asks): edit `specs/done/<id>.json` and `git mv` it to `specs/queue/`. A Paintings remake reuses the picture list kept in `specs/meta/<id>.json` (the previews are gone; to choose a different photo, pick another candidate by its title there, or push a new request).
+**Remaking a video** (when Jared asks): edit `specs/done/<id>.json` and `git mv` it to `specs/queue/`. If the id is marked `skipped` in `catalog/posted.json`, delete that entry so the remade video gets posted. A Paintings remake reuses the picture list kept in `specs/meta/<id>.json` (the previews are gone; to choose a different photo, pick another candidate by its title there, or push a new request).
 
 **Where to spend tokens.** Spend them on research and writing; that is what Jared judges. Save them everywhere else (Jared asked for token use to be kept as low as possible):
 - **Stop early.** After steps 2-4, if there is no failure, no feedback and both channels already have 3 videos ready, write a one-line report and end the run. Do not research or draw anything.
@@ -34,7 +34,7 @@ Output per day: up to **1 Paintings video + 1 Philosophy video**, plus picture r
 
 ## Writing the script (the part that matters most)
 
-Jared's verdict on the first videos: *not informative enough, not interesting enough, not complex enough.* The fix is better research, one strong question, and a story that escalates; not more adjectives.
+Jared's verdicts so far: the first videos were *not informative, interesting or complex enough*; the next ones were *educational but jumpy, cutting abruptly from point to point*. The standard below fixes both: deep research, one thread, a fixed spine, and every sentence linked to the one before.
 
 **Length: 75-88 seconds for both channels** (decided 2026-11-21). Reach on TikTok and Instagram grows past 60 s when people keep watching, and Facebook's posting API refuses Reels over 90 s, so 88 s is the ceiling. Longer is only worth it if every extra sentence is a new surprise; never pad.
 
@@ -48,30 +48,62 @@ Jared's verdict on the first videos: *not informative enough, not interesting en
 - **Rate every fact for surprise** (1 = on the Wikipedia first paragraph, 3 = a curious adult might know, 5 = almost nobody knows and it changes the picture). Dig where the 5s live: conservation and X-ray studies, letters and diaries, sales and inventory records, the museum's own blog, the original paper's footnotes, follow-up experiments, court cases. Build the script around the 4s and 5s.
 - Read the top two scripts for your channel in `catalog/approved-scripts.md` (the most recent scripts made). Match or beat them, and never repeat their facts or hooks.
 
-### 2. Choose the angle: one question
-Write it in `"angle"`: a single question the video answers. A topic is not an angle. "The Great Wave" is a topic; "How did a cheap souvenir print become the most famous image in Japanese art?" is an angle. Every sentence must move toward the answer.
+### 2. One thread: the question, the answer, the logline
+Jared's verdict on the first longer videos (2026-11-23): *more educational, but the story jumps all over the place and cuts abruptly.* Twelve facts in twelve sentences is a list, not a story. A viral explainer follows **one thread from a question to its answer**, and every sentence is pulled out of the one before it.
+- `"angle"`: the one question the video answers ("How did a print that cost two bowls of noodles become worth $2.76 million?"). A topic is not an angle.
+- Decide the **answer** before writing a word. The payoff says it.
+- `"logline"`: the whole story in one line, built on *but* and *so/therefore* (the South Park rule: beats joined by "and then" are a list; beats joined by "but" or "therefore" are a story). Example: *"It was printed as a cheap souvenir, but a new foreign blue made it a hit, so it was printed until the blocks wore out, therefore the crisp early copies became treasures, but Hokusai thought it was beginner's work."*
+- **Fact budget: 5-7 facts, each told properly** (what, then why or how, then what it caused), chosen because they move the thread, rated 4-5 for surprise. A brilliant fact that does not serve the question goes in the topics file as a spare for another video, never in this one.
 
-### 3. Structure
-1. **Hook** (1 sentence, at most 13 words): a specific claim or contradiction that opens a question. Concrete, surprising, true. Never "Did you know", never a vague superlative.
-2. **Context** (1-2 sentences): who, where, when, and what was at stake. Only what the payoff needs.
-3. **Escalation** (three reveals): each answers part of the question and raises a new one. Link them with *but / so / which means / that's why*; never with *and also* or *now look at*. Each reveal carries at least one hard specific.
-4. **Turn** (1-2 sentences): the fact that changes how you see everything before it.
-5. **Payoff** (1-2 sentences): answers the hook. End on a strong image or a sharper question. Never summarise; never "and that's why it's a masterpiece".
+### 3. The spine (every video, no exceptions)
+Every sentence in the spec carries `"beat"` and (from the second sentence on) `"link"`. The beats run in this order; the timings are for an 80-second video:
 
-### 4. Depth (the "complex enough" test)
-- At least **6 facts a curious adult would not already know** (surprise 4-5), spread through the whole video so there is a new one every 10-15 seconds, and at least **one real explanation of why or how** (a cause and its effect), not only *what*.
-- **Myth-check:** if the topic has a popular story, find out whether it is true. A popular belief the evidence overturns is one of the strongest reveals there is.
-- **Paintings:** choose at least three of: the human story (the artist's situation and what they risked); how it was made (material or technique, and why that choice mattered); a detail the eye misses; the context that changes its meaning (history, politics, science, money); what happened to it afterwards.
-- **Philosophy:** always include who proposed it and the problem it was built to test; the strongest case on at least two sides; one real-world case where it matters now (law, medicine, AI, everyday life); one piece of evidence with a number when it exists; and the move most people miss. End on a question harder than the one you started with, never a generic "what would you do?".
-- No filler. Cut "very", "really", "iconic", "masterpiece", "little did he know", "in this video". Every sentence adds a fact, a turn or a picture.
+| Beat | Sentences | When | What it does |
+|---|---|---|---|
+| `hook` | 1-2 | 0-5 s | Stops the scroll. Sentence 1 is at most 12 words: a specific, surprising, true claim with a number, name or object (formula: context in a few words, then the snap that breaks the expectation). Use your **second-best** fact here; keep the best for later. Never "Did you know", "Have you ever", "In this video", a greeting or a vague superlative. |
+| `question` | 1-2 | by 12 s | Says out loud the question the video will answer (the open loop), in plain words, with the stakes if there are any. The viewer must now know what they are waiting for. |
+| `reveal1` | 2-4 | ~10-28 s | First part of the answer: one surprising fact, then why or how, then the consequence that hands over to the next beat. |
+| `reveal2` | 2-4 | 25-55 % | The mid-video re-hook. Opens with a line that cuts against what we just learned ("But a popular print had a problem: it wore out its own woodblocks."), specific, never a stock phrase like "but that's not all". |
+| `reveal3` | 2-4 | ~45-65 s | The strongest fact of the video, the one that matters most to the answer. |
+| `turn` | 1-2 | ~65-75 s | The fact that changes how you see everything before it. |
+| `payoff` | 1-2 | last quarter | Answers the question from the hook in so many words. The last line lands on a picture, or calls back to the hook so a replay feels natural (a loop), or (Philosophy) asks a sharper question than the first one. Never a summary, never "and that's why it's a masterpiece". |
 
-### 5. Self-check
-Score the script 1-5 on hook, surprise (count the 4-5 facts), curiosity (does the viewer need the ending?), specificity, depth, momentum, payoff and accuracy. Rewrite anything under 4. Then put two other strong opening lines in `"hooks"`; Jared may prefer one.
+**Links (the flow test).** `"link"` says how a sentence follows the one before it, and the checker refuses anything else:
+- `but`: it breaks what we expected. At least two per video.
+- `so`: it is caused by the sentence before.
+- `because`: it explains the sentence before.
+- `detail`: it zooms into something the sentence before just named (same subject, closer look). Only inside a beat.
+- `answer`: it answers, or starts to answer, a question just asked (the usual way into `reveal1` and `payoff`).
+
+There is no link for "and also" or "now, a different thing": if a sentence can only be joined with "and", cut it or move it. A new beat always starts with `but`, `so`, `because` or `answer`. In the words themselves, pick up something from the sentence before (its object, number or person) so the ear follows the thread; write the connecting word when it helps ("So", "But", "That's why", "Which means").
+
+**On-screen hook.** `"hook_text"`: 3-7 words shown big at the top while the hook is spoken (about 2.5-6 s). It sharpens the spoken line; it does not repeat it. For "This print cost about two bowls of noodles" the text is "SOLD FOR $2.76 MILLION"; for a thought experiment, the dilemma in a phrase.
+
+**Pacing is automatic.** With beats set, the generator breathes for you: one take per one or two sentences, a short pause inside a beat, a longer one between beats, the longest before the turn and the payoff, and 1.6 s held after the last word. Do not write `passages`; write a `"gap"` only to override one pause.
+
+### 4. Write it in this order
+1. Fact bank with surprise ratings (step 1).
+2. Angle, answer, logline (step 2).
+3. Beat sheet in your scratch work: one line per beat saying which fact goes there and how it links to the next ("reveal1: the new Prussian blue, so publishers advertised it" → "but: popular prints wore out their blocks").
+4. Write the sentences beat by beat, tagging `beat` and `link`. Spoken English, 6-16 words each, varied length; one idea per sentence.
+5. Write the hook **last**, then `hook_text` and two alternative hooks in `"hooks"`.
+6. Read the whole script once as one paragraph, aloud in your head, as a viewer. Mark the exact sentence where you would swipe away; fix it. Check: does each sentence come out of the one before? Does the payoff answer the question asked at the start?
+7. Run the draft check. It prints the beat map (`beats: hook 0-4s | question 4-9s | ...`) and a WARNING for anything that breaks the spine; fix every one.
+
+### 5. Depth (the "complex enough" test)
+- 5-7 facts a curious adult would not already know (surprise 4-5), at least one in every reveal, and at least **two real explanations of why or how** (a cause and its effect), not only *what*.
+- **Myth-check:** if the topic has a popular story, find out whether it is true. A popular belief the evidence overturns makes an excellent `but`.
+- **Paintings:** choose the thread from: the human story (the artist's situation and what they risked); how it was made (material or technique, and why that choice mattered); a detail the eye misses; the context that changes its meaning (history, politics, science, money); what happened to it afterwards. Show what you say: every reveal gets a highlight or an insert.
+- **Philosophy:** who proposed it and the problem it was built to test; the strongest case on at least two sides; one real-world case where it matters now (law, medicine, AI, everyday life); one piece of evidence with a number when it exists; the move most people miss. End on a question harder than the one you started with.
+- No filler. Cut "very", "really", "iconic", "masterpiece", "little did he know", "in this video", "but that's not all".
+
+### Self-score
+Score 1-5: hook, question clarity, flow (every link real?), surprise (count the 4-5 facts), depth (the why/how), escalation (is reveal3 the strongest?), payoff (does it answer the question?), accuracy. Rewrite anything under 4.
 
 ### 6. Mechanics
 - Spoken English. Sentences under about 20 words, one idea each, written to be heard: read it at speaking pace in your head.
 - Write numbers and names the voice may misread with `"say"`: `{"text": "In 1889, ...", "say": "In eighteen eighty-nine, ..."}`. Spell foreign names phonetically in `say`.
-- `passages` groups sentences spoken in one breath (2-3 each). `"gap"` (seconds) on the last sentence of a passage sets the pause after it; 0.5-0.75 before a reveal.
+- Pauses come from the beats (above). Only for a spec without beats (old videos): `passages` groups sentences spoken in one breath and `"gap"` sets the pause after one.
 - Every claim true and checkable. Put the pages you actually used in `"sources"`. If a popular story is doubtful, say "the story goes" or leave it out.
 - On-screen captions are automatic. The **post** is drafted by you, ready to paste (Jared posts by hand every night, so it must need no editing). No emoji.
   - `post.caption`: line 1 = one or two sentences that tease the most surprising fact (a question or a tease, never a summary); line 2 = one short question that invites a comment ("Ship 1 or ship 2?").
@@ -229,6 +261,7 @@ General
 - Scripts must be informative, interesting and complex: real research, one clear question, an escalating story with a payoff (see "Writing the script"). Short, shallow fact lists are not acceptable.
 - Longer videos: 75-88 s on both channels, filled with surprising, little-known facts (at least 6 per video), never padding.
 - One video per channel every day: `kit.yml` builds the posting page at 7 pm and Jared posts by hand at 8 pm Malaysia time. Keep 1-3 videos ready per channel.
+- Every script follows the spine: hook (≤12 words, on-screen hook text) → question → three escalating reveals → turn → payoff that answers the question; every sentence linked to the one before with but / so / because / detail / answer; 5-7 facts told properly rather than many facts listed.
 - Free tools only. No paid services.
 - Quality first, token use second: spend effort on research and writing; save it everywhere else.
 
@@ -239,3 +272,4 @@ Add dated one-line entries here whenever Jared corrects a video, and fold lastin
 - 2026-11-18: Jared found the first videos not informative, interesting or complex enough. Added the review step (GitHub issues) and the "Writing the script" standard; videos are now 60-80 s (Paintings) and 45-70 s (Philosophy).
 - 2026-11-21: Jared asked for longer videos with more surprising, less-known facts, and daily automatic posting at 8 pm MYT. Both channels now 75-88 s (Facebook API max 90 s); surprise rating added to research; post.yml posts to Instagram and Facebook.
 - 2026-11-22: Jared dropped the script approval step: scripts go straight to the queue; he watches each video and sends feedback for the next ones (reply on the evening reminder issue → `feedback/inbox.md`).
+- 2026-11-23: Jared: new videos are more educational but jump from point to point and cut abruptly. Added the spine (beats + links, checked by build.py), logline, fact budget 5-7, on-screen hook text, automatic beat pacing, a 1.6 s held ending, and camera glides between nearby shots.

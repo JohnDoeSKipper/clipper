@@ -74,7 +74,7 @@ def render(spec, TL, voice, sr, out, tmp, frames_only=None):
     style = os.environ.get("CLIPPER_STYLE") or spec.get("style", "clay")
     total = TL[-1]["scene_end"]
     C.prep_captions(TL, max_words=4, max_chars=20)
-    js = {k: spec[k] for k in ("title", "world", "objects", "groups", "shots", "actions", "overlays", "seed") if k in spec}
+    js = {k: spec[k] for k in ("title", "world", "objects", "groups", "shots", "actions", "overlays", "seed", "hook_text", "hook_until") if k in spec}
     for a in js.get("actions", []):
         if "until" in a:
             a["dur"] = max(0.0, a["until"] - a["at"])

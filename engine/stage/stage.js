@@ -464,6 +464,12 @@ function camOf(shot, u) {
   const t0 = c, t1 = c.to || c;
   return { pos: V(t0.pos).lerp(V(t1.pos || t0.pos), u).add(base), look: V(t0.look).lerp(V(t1.look || t0.look), u).add(base), fov: lerp(t0.fov || 46, t1.fov || t0.fov || 46, u) };
 }
+function blendCam(a, b, w) {      // orbit-style blend: the look point slides, the camera swings around it
+  const look = a.look.clone().lerp(b.look, w), oa = a.pos.clone().sub(a.look), ob = b.pos.clone().sub(b.look);
+  let ya = Math.atan2(oa.x, oa.z), yb = Math.atan2(ob.x, ob.z), d = Math.atan2(Math.sin(yb - ya), Math.cos(yb - ya));
+  const y = ya + d * w, r = lerp(Math.hypot(oa.x, oa.z), Math.hypot(ob.x, ob.z), w), h = lerp(oa.y, ob.y, w);
+  return { pos: look.clone().add(new THREE.Vector3(Math.sin(y) * r, h, Math.cos(y) * r)), look, fov: lerp(a.fov, b.fov, w) };
+}
 function setCam(k) { camera.position.copy(k.pos); camera.fov = k.fov; camera.lookAt(k.look); camera.updateProjectionMatrix(); camera.updateMatrixWorld(); }
 
 // ---------------------------------------------------------------- scenery (after the cast, so it can keep clear of them and of the cameras)
@@ -548,6 +554,7 @@ function setFocus(names) {
 
 // ---------------------------------------------------------------- overlays (HTML on top of the canvas)
 $('title').textContent = SPEC.title || '';
+$('hook').textContent = SPEC.hook_text || '';
 const tmp = new THREE.Vector3();
 const TEMPLATES = {
   label: o => `<div class="ui pill" style="font-size:26px;${o.color === 'yellow' ? 'background:#FFD23F' : ''}">${o.text}</div>`,
@@ -621,7 +628,17 @@ function frame(t) {
   applyAll(t);
   let si = 0; for (let i = 0; i < SHOTS.length; i++) if (t >= SHOTS[i].at) si = i;
   const sh = SHOTS[si], end = si + 1 < SHOTS.length ? SHOTS[si + 1].at : TL.total;
-  setCam(camOf(sh, clamp((t - sh.at) / Math.max(0.01, end - sh.at))));
+  let k = camOf(sh, clamp((t - sh.at) / Math.max(0.01, end - sh.at)));
+  const g = sh.cut ? 0 : (sh.glide ?? 0.7);
+  if (si > 0 && g > 0 && t - sh.at < g) {      // glide from where the last shot ended instead of a hard cut, when the angle change is small
+    const kp = camOf(SHOTS[si - 1], 1), k0 = camOf(sh, 0);
+    const yaw = q => Math.atan2(q.pos.x - q.look.x, q.pos.z - q.look.z);
+    let d = yaw(k0) - yaw(kp); d = Math.atan2(Math.sin(d), Math.cos(d));
+    if (Math.abs(d) < rad(75) && kp.look.distanceTo(k0.look) < 9) k = blendCam(kp, k, ease((t - sh.at) / g));
+  }
+  setCam(k);
+  const hu = SPEC.hook_until || 0;
+  $('hook').style.opacity = SPEC.hook_text ? (t < hu - 0.35 ? 1 : clamp((hu - t) / 0.35)) : 0;
   setFocus(sh.focus || 'all');
   drawOverlays(t); caption(t);
   if (PS2) { camera.layers.enableAll(); fgR.render(scene, camera); }
