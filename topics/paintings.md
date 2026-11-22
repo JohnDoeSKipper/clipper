@@ -5,10 +5,10 @@ The leads are starting points from memory, not facts: check each one before it g
 
 - queued | starry-night | The Starry Night, Van Gogh | painted from memory in daylight; Venus; invented village (sample video, already made)
 - queued | girl-pearl-earring | Girl with a Pearl Earring, Vermeer | not a portrait but a "tronie"; the pearl may be tin; nobody knows who she was
-- drafted | great-wave | The Great Wave off Kanagawa, Hokusai | a woodblock print, not a painting; Prussian blue from Europe; tiny Mount Fuji; he was about 70
-- drafted | the-scream | The Scream, Munch | the sky he saw over Oslo fjord; the pencil line "could only have been painted by a madman"; four versions; stolen twice
+- made | great-wave | The Great Wave off Kanagawa, Hokusai | a woodblock print, not a painting; Prussian blue from Europe; tiny Mount Fuji; he was about 70
+- made | the-scream | The Scream, Munch | the sky he saw over Oslo fjord; the pencil line "could only have been painted by a madman"; four versions; stolen twice
 - inbox | mona-lisa | Mona Lisa, Leonardo | famous because it was stolen in 1911; no eyebrows; the landscape that doesn't line up
-- requested | night-watch | The Night Watch, Rembrandt | not a night scene (dark varnish); trimmed to fit a wall; the glowing girl
+- inbox | night-watch | The Night Watch, Rembrandt | not a night scene (dark varnish); trimmed to fit a wall; the glowing girl
 - todo | las-meninas | Las Meninas, Velázquez | who is being painted; the mirror; the painter looking at us; the red cross added later
 - todo | arnolfini | The Arnolfini Portrait, Van Eyck | the convex mirror with two visitors; "Jan van Eyck was here"; one candle
 - todo | birth-of-venus | The Birth of Venus, Botticelli | impossible anatomy on purpose; painted on canvas when wood was normal; hidden for decades
