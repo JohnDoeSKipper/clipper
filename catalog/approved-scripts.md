@@ -1,6 +1,31 @@
 # Model scripts (newest first)
 The writer reads the top two of its channel before writing and matches or beats them: same spine (beats in order, every sentence linked to the one before), never the same facts or hooks. Each script the writer makes is added at the top in this format. Kept to the last 12.
 
+## veil-of-ignorance (philosophy, remade 2026-11-23)
+
+Angle: If you didn't know who you'd be, would you really protect the unlucky, as Rawls said?
+Logline: Rawls lost two brothers to illnesses he caught first, so he asked what rules you'd pick without knowing your luck, and answered: protect the worst-off, but Harsanyi used the same veil to say raise the average, so researchers tested real people, who chose an average with a floor, but in a hospital the veil even pushed people to sacrifice the one.
+On-screen hook: LUCK DECIDED WHO LIVED
+
+[hook] John Rawls's childhood illnesses killed two of his little brothers.
+[hook / detail] His diphtheria spread to Bobby; the next winter, his pneumonia spread to Tommy.
+[question / so] So Rawls asked: what rules would you pick without knowing your luck?
+[question / detail] Rich or poor, healthy or sick, you might be anyone.
+[reveal1 / answer] His answer, in 1971: make the worst-off life as good as possible.
+[reveal1 / because] Because behind this veil of ignorance, the worst-off life might be yours.
+[reveal1 / so] So a fair society is judged by its bottom, not its average.
+[reveal2 / but] But economist John Harsanyi had used the same veil earlier.
+[reveal2 / detail] His answer was the opposite: raise the average, even if a few lose badly.
+[reveal2 / so] So one blindfold gave two thinkers two different societies.
+[reveal3 / so] So researchers put real people behind the veil.
+[reveal3 / detail] Eighty-one groups in America, Canada and Poland had to agree on one rule.
+[reveal3 / detail] Only one group chose Rawls's rule; only ten chose Harsanyi's.
+[reveal3 / but] Most chose a mix: raise the average, but guarantee everyone a floor.
+[turn / but] But in 2019, a Harvard team asked: take one patient off oxygen to save nine earthquake victims?
+[turn / detail] Imagining they could be any of the ten, more people chose the nine.
+[payoff / answer] So behind the veil, we protect a floor, then play the odds.
+[payoff / but] But if you could be anyone, would you unplug the one you might be?
+
 ## the-scream (paintings, remade 2026-11-23)
 
 Angle: If the man in The Scream isn't screaming, what scream was Munch shutting out?

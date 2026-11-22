@@ -3,124 +3,110 @@
  "channel": "philosophy",
  "style": "clay",
  "title": "THE VEIL OF IGNORANCE",
- "angle": "If you had to design a society without knowing who you'd be in it, what would you really choose?",
+ "angle": "If you didn't know who you'd be, would you really protect the unlucky, as Rawls said?",
+ "logline": "Rawls lost two brothers to illnesses he caught first, so he asked what rules you'd pick without knowing your luck, and answered: protect the worst-off, but Harsanyi used the same veil to say raise the average, so researchers tested real people, who chose an average with a floor, but in a hospital the veil even pushed people to sacrifice the one.",
+ "hook_text": "LUCK DECIDED WHO LIVED",
  "hooks": [
-  "Rawls built a thought experiment to protect the unlucky. Real people used it differently.",
-  "Eighty-one groups tried John Rawls's famous test. Only one agreed with him."
+  "Only one group in eighty-one chose the rule this philosopher predicted.",
+  "Design a society, but you don't know who you'll be in it."
  ],
  "world": {
   "scenery": "default"
  },
  "script": [
   {
-   "text": "Design a whole society. The catch: you don't know who you'll be in it."
+   "text": "John Rawls's childhood illnesses killed two of his little brothers.",
+   "beat": "hook"
   },
   {
-   "text": "Rich or poor. Healthy or sick.",
-   "gap": 0.5
+   "text": "His diphtheria spread to Bobby; the next winter, his pneumonia spread to Tommy.",
+   "beat": "hook",
+   "link": "detail"
   },
   {
-   "text": "This is John Rawls's veil of ignorance, from 1971.",
-   "say": "This is John Rawls's veil of ignorance, from nineteen seventy-one."
+   "text": "So Rawls asked: what rules would you pick without knowing your luck?",
+   "beat": "question",
+   "link": "so"
   },
   {
-   "text": "Rawls knew about luck."
+   "text": "Rich or poor, healthy or sick, you might be anyone.",
+   "beat": "question",
+   "link": "detail"
   },
   {
-   "text": "At seven, he caught diphtheria, and passed it to his brother Bobby, who died."
+   "text": "His answer, in 1971: make the worst-off life as good as possible.",
+   "beat": "reveal1",
+   "link": "answer",
+   "say": "His answer, in nineteen seventy-one: make the worst-off life as good as possible."
   },
   {
-   "text": "The next winter, his brother Tommy caught his pneumonia, and died too.",
-   "gap": 0.6
+   "text": "Because behind this veil of ignorance, the worst-off life might be yours.",
+   "beat": "reveal1",
+   "link": "because"
   },
   {
-   "text": "Behind the veil, Rawls said, you'd make the worst-off life as good as possible."
+   "text": "So a fair society is judged by its bottom, not its average.",
+   "beat": "reveal1",
+   "link": "so"
   },
   {
-   "text": "Because it might be yours.",
-   "gap": 0.6
+   "text": "But economist John Harsanyi had used the same veil earlier.",
+   "beat": "reveal2",
+   "link": "but",
+   "say": "But economist John Harshahnyi had used the same veil earlier."
   },
   {
-   "text": "But economist John Harsanyi had used the same veil earlier, and reached the opposite answer:",
-   "say": "But economist John Harshawnyi had used the same veil earlier, and reached the opposite answer:"
+   "text": "His answer was the opposite: raise the average, even if a few lose badly.",
+   "beat": "reveal2",
+   "link": "detail"
   },
   {
-   "text": "maximise the average, even if a few lose badly.",
-   "gap": 0.6
+   "text": "So one blindfold gave two thinkers two different societies.",
+   "beat": "reveal2",
+   "link": "so"
   },
   {
-   "text": "So who's right? Researchers asked real people."
+   "text": "So researchers put real people behind the veil.",
+   "beat": "reveal3",
+   "link": "so"
   },
   {
-   "text": "Eighty-one groups, in America, Canada and Poland, had to agree on a rule."
+   "text": "Eighty-one groups in America, Canada and Poland had to agree on one rule.",
+   "beat": "reveal3",
+   "link": "detail"
   },
   {
-   "text": "Only one group chose Rawls's rule. Only ten chose Harsanyi's.",
-   "say": "Only one group chose Rawls's rule. Only ten chose Harshawnyi's."
+   "text": "Only one group chose Rawls's rule; only ten chose Harsanyi's.",
+   "beat": "reveal3",
+   "link": "detail",
+   "say": "Only one group chose Rawls's rule; only ten chose Harshahnyi's."
   },
   {
-   "text": "About three in four chose a middle path: raise the average, but guarantee a floor.",
-   "gap": 0.6
+   "text": "Most chose a mix: raise the average, but guarantee everyone a floor.",
+   "beat": "reveal3",
+   "link": "but"
   },
   {
-   "text": "In 2019, a Harvard team took the veil into a hospital.",
-   "say": "In twenty nineteen, a Harvard team took the veil into a hospital."
+   "text": "But in 2019, a Harvard team asked: take one patient off oxygen to save nine earthquake victims?",
+   "beat": "turn",
+   "link": "but",
+   "say": "But in twenty nineteen, a Harvard team asked: take one patient off oxygen to save nine earthquake victims?"
   },
   {
-   "text": "Taking one patient off oxygen would save nine earthquake victims."
+   "text": "Imagining they could be any of the ten, more people chose the nine.",
+   "beat": "turn",
+   "link": "detail"
   },
   {
-   "text": "Imagining they could be any of the ten, more people chose to save the nine.",
-   "gap": 0.5
+   "text": "So behind the veil, we protect a floor, then play the odds.",
+   "beat": "payoff",
+   "link": "answer"
   },
   {
-   "text": "The veil built to protect the unlucky pushed people toward the greater good.",
-   "gap": 0.7
-  },
-  {
-   "text": "So if you could be anyone, would you sacrifice the one you might be?"
+   "text": "But if you could be anyone, would you unplug the one you might be?",
+   "beat": "payoff",
+   "link": "but"
   }
- ],
- "passages": [
-  [
-   0,
-   1
-  ],
-  [
-   2,
-   3
-  ],
-  [
-   4,
-   5
-  ],
-  [
-   6,
-   7
-  ],
-  [
-   8,
-   9
-  ],
-  [
-   10,
-   11
-  ],
-  [
-   12,
-   13
-  ],
-  [
-   14,
-   15
-  ],
-  [
-   16,
-   17
-  ],
-  [
-   18
-  ]
  ],
  "objects": [
   {
@@ -421,41 +407,6 @@
    "at": 0,
    "cam": {
     "preset": "mid",
-    "on": [
-     "you",
-     "veil"
-    ]
-   },
-   "focus": [
-    "you",
-    "veil"
-   ]
-  },
-  {
-   "at": "1",
-   "cam": {
-    "preset": "wide",
-    "on": "crowd"
-   }
-  },
-  {
-   "at": "2",
-   "cam": {
-    "preset": "mid",
-    "on": [
-     "veil",
-     "you"
-    ]
-   },
-   "focus": [
-    "veil",
-    "you"
-   ]
-  },
-  {
-   "at": "3",
-   "cam": {
-    "preset": "mid",
     "on": "brothers"
    },
    "focus": [
@@ -465,7 +416,7 @@
    ]
   },
   {
-   "at": "4:passed",
+   "at": "1",
    "cam": {
     "preset": "mid",
     "on": [
@@ -479,34 +430,90 @@
    ]
   },
   {
-   "at": "5",
+   "at": "1:Tommy",
    "cam": {
-    "preset": "close",
-    "on": "jack"
+    "preset": "mid",
+    "on": [
+     "jack",
+     "tommy"
+    ],
+    "azimuth": -25
    },
    "focus": [
-    "jack"
+    "jack",
+    "tommy"
    ]
   },
   {
-   "at": "6",
+   "at": "2",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "veil"
+    ]
+   },
+   "focus": [
+    "you",
+    "veil"
+   ]
+  },
+  {
+   "at": "3",
    "cam": {
     "preset": "wide",
-    "on": [
-     "veil",
-     "crowd"
-    ]
+    "on": "crowd"
    }
   },
   {
-   "at": "7",
+   "at": "4",
    "cam": {
-    "preset": "tight",
+    "preset": "mid",
+    "on": [
+     "you",
+     "veil"
+    ],
+    "azimuth": 30
+   },
+   "focus": [
+    "you",
+    "veil"
+   ]
+  },
+  {
+   "at": "5",
+   "cam": {
+    "preset": "close",
     "on": "you"
    },
    "focus": [
     "you"
    ]
+  },
+  {
+   "at": "6",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "d",
+     "e"
+    ]
+   },
+   "focus": [
+    "d",
+    "e"
+   ]
+  },
+  {
+   "at": "7",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "veil",
+     "you"
+    ],
+    "azimuth": -30
+   }
   },
   {
    "at": "8",
@@ -526,11 +533,94 @@
    "at": "9",
    "cam": {
     "preset": "wide",
-    "on": "crowd"
+    "on": [
+     "you",
+     "veil",
+     "harsanyi"
+    ]
    }
   },
   {
    "at": "10",
+   "cam": {
+    "preset": "wide",
+    "on": "crowd"
+   }
+  },
+  {
+   "at": "11",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "b",
+     "c",
+     "d"
+    ],
+    "azimuth": 180
+   },
+   "focus": [
+    "b",
+    "c",
+    "d"
+   ]
+  },
+  {
+   "at": "12",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "a",
+     "e"
+    ],
+    "azimuth": 180
+   },
+   "focus": [
+    "a",
+    "e"
+   ]
+  },
+  {
+   "at": "13",
+   "cam": {
+    "preset": "wide",
+    "on": "crowd",
+    "azimuth": 160
+   }
+  },
+  {
+   "at": "14",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "c",
+     "d",
+     "e"
+    ],
+    "azimuth": 200
+   },
+   "focus": [
+    "c",
+    "d",
+    "e"
+   ]
+  },
+  {
+   "at": "14:take",
+   "cam": {
+    "preset": "wide",
+    "on": "hospital"
+   }
+  },
+  {
+   "at": "15",
+   "cam": {
+    "preset": "wide",
+    "on": "hospital",
+    "azimuth": -15
+   }
+  },
+  {
+   "at": "16",
    "cam": {
     "preset": "close",
     "on": "you"
@@ -540,85 +630,7 @@
    ]
   },
   {
-   "at": "11",
-   "cam": {
-    "preset": "wide",
-    "on": [
-     "veil",
-     "crowd"
-    ]
-   }
-  },
-  {
-   "at": "12",
-   "cam": {
-    "preset": "mid",
-    "on": [
-     "d",
-     "e"
-    ]
-   },
-   "focus": [
-    "d",
-    "e"
-   ]
-  },
-  {
-   "at": "13",
-   "cam": {
-    "preset": "mid",
-    "on": [
-     "b",
-     "c",
-     "d"
-    ]
-   },
-   "focus": [
-    "b",
-    "c",
-    "d"
-   ]
-  },
-  {
-   "at": "14",
-   "cam": {
-    "preset": "wide",
-    "on": "hospital"
-   }
-  },
-  {
-   "at": "15",
-   "cam": {
-    "preset": "mid",
-    "on": [
-     "bed",
-     "patient"
-    ]
-   },
-   "focus": [
-    "bed",
-    "patient"
-   ]
-  },
-  {
-   "at": "16",
-   "cam": {
-    "preset": "wide",
-    "on": "hospital"
-   }
-  },
-  {
    "at": "17",
-   "cam": {
-    "preset": "close",
-    "on": "veil"
-   },
-   "focus": [
-    "veil"
-   ]
-  },
-  {
-   "at": "18",
    "cam": {
     "preset": "tight",
     "on": "you"
@@ -631,9 +643,6 @@
  "actions": [
   {
    "id": [
-    "jack",
-    "bobby",
-    "tommy",
     "harsanyi",
     "scale",
     "bed",
@@ -646,7 +655,8 @@
     "v5",
     "v6",
     "v7",
-    "v8"
+    "v8",
+    "you"
    ],
    "at": 0,
    "dur": 0.01,
@@ -663,85 +673,106 @@
    "scale": 0.6
   },
   {
-   "id": [
-    "jack",
-    "bobby",
-    "tommy"
-   ],
-   "at": "3-0.2",
-   "dur": 0.3,
-   "show": true
-  },
-  {
-   "id": "you",
-   "at": "0:society",
-   "dur": 0.4,
-   "pose": "point"
-  },
-  {
-   "id": "you",
-   "at": "0:catch",
-   "dur": 0.4,
-   "pose": "shrug"
-  },
-  {
-   "id": "a",
-   "at": "1:Rich",
-   "dur": 0.4,
-   "pose": "cheer"
-  },
-  {
-   "id": "e",
-   "at": "1:poor",
-   "dur": 0.4,
-   "pose": "sad"
-  },
-  {
-   "id": "c",
-   "at": "1:sick",
+   "id": "jack",
+   "at": "0:killed",
    "dur": 0.4,
    "pose": "sad"
   },
   {
    "id": "bobby",
-   "at": "4:died",
-   "dur": 0.6,
-   "show": false
+   "at": "1:Bobby",
+   "dur": 0.5,
+   "tip": -90
   },
   {
    "id": "tommy",
-   "at": "5:died",
-   "dur": 0.6,
-   "show": false
-  },
-  {
-   "id": "jack",
-   "at": "5:died+0.3",
+   "at": "1:Tommy",
    "dur": 0.5,
-   "pose": "sad"
+   "tip": -90
   },
   {
    "id": [
-    "jack"
+    "jack",
+    "bobby",
+    "tommy"
    ],
-   "at": "6-0.2",
-   "dur": 0.3,
+   "at": "2",
+   "dur": 0.01,
    "show": false
   },
   {
    "id": "you",
-   "at": "7",
+   "at": "2",
+   "dur": 0.01,
+   "show": true
+  },
+  {
+   "id": "you",
+   "at": "2:pick",
+   "dur": 0.4,
+   "pose": "point"
+  },
+  {
+   "id": "a",
+   "at": "3:Rich",
+   "dur": 0.4,
+   "pose": "cheer"
+  },
+  {
+   "id": "e",
+   "at": "3:poor",
+   "dur": 0.4,
+   "pose": "sad"
+  },
+  {
+   "id": "c",
+   "at": "3:sick",
+   "dur": 0.4,
+   "pose": "sad"
+  },
+  {
+   "id": "you",
+   "at": "3:anyone",
    "dur": 0.4,
    "pose": "think"
+  },
+  {
+   "id": "you",
+   "at": "5:yours",
+   "dur": 0.4,
+   "pose": "shock"
+  },
+  {
+   "id": "e",
+   "at": "6:bottom",
+   "dur": 0.5,
+   "y": 0.5
+  },
+  {
+   "id": "e",
+   "at": "6:bottom",
+   "dur": 0.4,
+   "pose": "cheer"
   },
   {
    "id": [
     "harsanyi",
     "scale"
    ],
-   "at": "8-0.2",
+   "at": "8",
    "dur": 0.3,
    "show": true
+  },
+  {
+   "id": "scale",
+   "at": "8:average",
+   "dur": 0.6,
+   "part": "beam",
+   "rot": [
+    0,
+    0,
+    -14
+   ]
   },
   {
    "id": "harsanyi",
@@ -750,41 +781,22 @@
    "pose": "point"
   },
   {
-   "id": "scale",
-   "at": "8:opposite",
-   "dur": 0.6,
-   "part": "beam",
-   "rot": [
-    0,
-    0,
-    -15
-   ]
-  },
-  {
-   "id": [
-    "a",
-    "b",
-    "c",
-    "d"
-   ],
-   "at": "9:average",
-   "dur": 0.4,
-   "pose": "cheer"
+   "id": "e",
+   "at": "8:lose",
+   "dur": 0.5,
+   "y": 0
   },
   {
    "id": "e",
-   "at": "9:lose",
+   "at": "8:lose",
    "dur": 0.4,
    "pose": "sad"
   },
   {
-   "id": [
-    "harsanyi",
-    "scale"
-   ],
-   "at": "10",
-   "dur": 0.3,
-   "show": false
+   "id": "you",
+   "at": "9",
+   "dur": 0.4,
+   "pose": "shrug"
   },
   {
    "id": [
@@ -796,7 +808,19 @@
    ],
    "at": "10",
    "dur": 0.4,
-   "pose": "stand"
+   "pose": "think"
+  },
+  {
+   "id": "a",
+   "at": "12:one",
+   "dur": 0.4,
+   "pose": "point"
+  },
+  {
+   "id": "e",
+   "at": "12:ten",
+   "dur": 0.4,
+   "pose": "point"
   },
   {
    "id": [
@@ -807,7 +831,7 @@
     "e"
    ],
    "at": "13:floor",
-   "dur": 0.5,
+   "dur": 0.4,
    "pose": "cheer"
   },
   {
@@ -824,21 +848,9 @@
     "v7",
     "v8"
    ],
-   "at": "14-0.2",
+   "at": "14:take-0.3",
    "dur": 0.3,
    "show": true
-  },
-  {
-   "id": [
-    "a",
-    "b",
-    "c",
-    "d",
-    "e"
-   ],
-   "at": "14-0.2",
-   "dur": 0.3,
-   "show": false
   },
   {
    "id": [
@@ -854,104 +866,149 @@
    ],
    "at": "15:nine",
    "dur": 0.4,
-   "behave": "panic",
-   "panic": 1
+   "pose": "cheer"
+  },
+  {
+   "id": "patient",
+   "at": "15:nine",
+   "dur": 0.4,
+   "pose": "shock"
+  },
+  {
+   "id": "you",
+   "at": "16",
+   "dur": 0.4,
+   "pose": "think"
+  },
+  {
+   "id": "you",
+   "at": "17:unplug",
+   "dur": 0.4,
+   "pose": "shrug"
   },
   {
    "id": [
-    "v0",
-    "v1",
-    "v2",
-    "v3",
-    "v4",
-    "v5",
-    "v6",
-    "v7",
-    "v8"
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
    ],
-   "at": "16:save",
-   "dur": 0.4,
-   "panic": 0,
-   "pose": "cheer"
+   "at": "11-0.2",
+   "dur": 0.01,
+   "face": 180
   }
  ],
  "overlays": [
   {
    "type": "label",
+   "text": "BOBBY",
+   "on": "bobby",
+   "from": "1:Bobby",
+   "to": "1:Tommy"
+  },
+  {
+   "type": "label",
+   "text": "TOMMY",
+   "on": "tommy",
+   "from": "1:Tommy",
+   "to": "2"
+  },
+  {
+   "type": "label",
    "text": "YOU",
    "color": "yellow",
    "on": "you",
-   "from": "0",
-   "to": "1"
+   "from": "2:you",
+   "to": "3"
   },
   {
    "type": "icon",
    "icon": "crown",
    "on": "a",
-   "from": "1:Rich",
-   "to": "2"
+   "from": "3:Rich",
+   "to": "4"
   },
   {
    "type": "icon",
    "icon": "coin",
    "on": "e",
-   "from": "1:poor",
-   "to": "2"
+   "from": "3:poor",
+   "to": "4"
   },
   {
    "type": "icon",
    "icon": "heart",
    "on": "b",
-   "from": "1:Healthy",
-   "to": "2"
+   "from": "3:healthy",
+   "to": "4"
   },
   {
    "type": "icon",
    "icon": "zzz",
    "on": "c",
-   "from": "1:sick",
-   "to": "2"
+   "from": "3:sick",
+   "to": "4"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "rawls",
+    0
+   ],
+   "caption": "John Rawls, 1971",
+   "from": "4",
+   "to": "5-0.2"
   },
   {
    "type": "label",
    "text": "VEIL OF IGNORANCE",
    "on": "veil",
-   "from": "2:veil",
-   "to": "3"
+   "from": "5:veil",
+   "to": "6"
   },
   {
    "type": "label",
-   "text": "RAWLS, AGE 7",
-   "on": "jack",
-   "from": "4:seven",
-   "to": "5"
-  },
-  {
-   "type": "label",
-   "text": "WORST OFF",
-   "on": "e",
-   "from": "6:worst-off",
+   "text": "LIFT THE BOTTOM",
+   "pos": [
+    540,
+    330
+   ],
+   "from": "6:bottom",
    "to": "7"
   },
   {
-   "type": "question",
-   "on": "you",
-   "from": "7:yours",
-   "to": "8"
+   "type": "photo",
+   "pick": [
+    "harsanyi",
+    1
+   ],
+   "caption": "Plaque to John Harsanyi, Budapest",
+   "from": "7",
+   "to": "8-0.2"
   },
   {
    "type": "label",
-   "text": "HARSANYI",
-   "on": "harsanyi",
-   "from": "8:Harsanyi",
+   "text": "RAISE THE AVERAGE",
+   "pos": [
+    540,
+    330
+   ],
+   "from": "8:average",
    "to": "9"
+  },
+  {
+   "type": "question",
+   "on": "veil",
+   "from": "9:two",
+   "to": "10"
   },
   {
    "type": "label",
    "text": "81 GROUPS",
    "pos": [
     540,
-    520
+    330
    ],
    "from": "11:Eighty-one",
    "to": "12"
@@ -959,92 +1016,114 @@
   {
    "type": "number",
    "text": "1",
-   "pos": [
-    340,
-    640
-   ],
-   "from": "12:one",
-   "to": "13"
-  },
-  {
-   "type": "label",
-   "text": "RAWLS",
-   "pos": [
-    340,
-    760
-   ],
+   "on": "a",
    "from": "12:one",
    "to": "13"
   },
   {
    "type": "number",
    "text": "10",
-   "pos": [
-    740,
-    640
-   ],
+   "on": "e",
    "from": "12:ten",
    "to": "13"
   },
   {
    "type": "label",
-   "text": "HARSANYI",
-   "pos": [
-    740,
-    760
-   ],
-   "from": "12:ten",
-   "to": "13"
-  },
-  {
-   "type": "label",
-   "text": "3 IN 4: A FLOOR",
+   "text": "AVERAGE + A FLOOR",
    "pos": [
     540,
-    560
+    330
    ],
-   "from": "13:three",
+   "from": "13:mix",
    "to": "14"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "harvard",
+    0
+   ],
+   "caption": "Harvard University",
+   "from": "14",
+   "to": "14:take-0.1"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "earthquake",
+    2
+   ],
+   "caption": "Earthquake rescue, Aegean Sea, 2020",
+   "from": "14:earthquake",
+   "to": "15-0.2"
   },
   {
    "type": "number",
    "text": "1",
    "on": "patient",
-   "from": "15:one",
+   "from": "15",
    "to": "16"
   },
   {
    "type": "number",
    "text": "9",
    "on": "v4",
-   "from": "15:nine",
+   "from": "15",
    "to": "16"
   },
   {
    "type": "check",
-   "on": "v4",
-   "from": "16:save",
+   "on": "v1",
+   "from": "15:nine",
+   "to": "16"
+  },
+  {
+   "type": "label",
+   "text": "YOU",
+   "color": "yellow",
+   "on": "you",
+   "from": "16",
    "to": "17"
   },
   {
    "type": "pill",
-   "text": "Would you sacrifice the one you might be?",
-   "from": "18:anyone"
+   "text": "Would you unplug the one you might be?",
+   "from": "17:unplug"
   }
  ],
  "sfx": [
   {
-   "at": "8:opposite",
-   "s": "clank",
-   "gain": 0.3
-  },
-  {
-   "at": "4:died",
+   "at": "1:Bobby",
    "s": "drop",
    "gain": 0.2
   },
   {
-   "at": "15:oxygen",
+   "at": "1:Tommy",
+   "s": "drop",
+   "gain": 0.2
+  },
+  {
+   "at": "5:yours",
+   "s": "pluck",
+   "gain": 0.25
+  },
+  {
+   "at": "8:average",
+   "s": "clank",
+   "gain": 0.3
+  },
+  {
+   "at": "12:one",
+   "s": "select",
+   "gain": 0.25
+  },
+  {
+   "at": "13:floor",
+   "s": "confirmation",
+   "gain": 0.25
+  },
+  {
+   "at": "14:oxygen",
    "s": "switch",
    "gain": 0.3
   }
@@ -1062,14 +1141,14 @@
   "https://greatergood.berkeley.edu/article/item/How_to_trick_your_mind_into_making_fair_decisions"
  ],
  "post": {
-  "caption": "John Rawls said that if you didn't know who you'd be, you'd protect the worst-off. When 81 real groups tried it, only one agreed with him.\nRawls's rule, Harsanyi's average, or the floor?",
+  "caption": "Behind the veil of ignorance, almost nobody chose the rule its inventor predicted: only one group in 81.\nWould you protect the worst-off or play the odds?",
   "tags": [
    "#philosophy",
    "#johnrawls",
    "#veilofignorance",
-   "#justice",
+   "#fairness",
    "#thoughtexperiment"
   ],
-  "youtube_title": "81 groups tried Rawls's veil of ignorance. One agreed."
+  "youtube_title": "Only 1 Group in 81 Chose What Rawls Predicted"
  }
 }
