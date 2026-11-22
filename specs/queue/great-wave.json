@@ -101,7 +101,18 @@
     0.3,
     2.6
    ],
-   "until": 3.2
+   "until": 3.0
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "christies",
+    0
+   ],
+   "caption": "Christie's New York: sold here in 2023",
+   "at": "1",
+   "to": "2-0.3"
   },
   {
    "type": "insert",
@@ -126,6 +137,17 @@
    "to": "5-0.3"
   },
   {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "wb1",
+    1
+   ],
+   "caption": "A carved printing woodblock, Edo Japan",
+   "at": "5",
+   "to": "6-0.3"
+  },
+  {
    "type": "highlight",
    "region": [
     0.349,
@@ -133,11 +155,33 @@
     0.09,
     0.17
    ],
-   "ring": "5:woodblocks",
-   "zoom": "5:woodblocks+0.35",
+   "ring": "6",
+   "zoom": "6+0.4",
    "label": "CARVED LINES",
    "labelAt": "6:lines",
    "out": "8-0.35"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "japonisme",
+    0
+   ],
+   "caption": "Van Gogh's copy of a Japanese print, 1887",
+   "at": "8",
+   "to": "9-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "vangogh",
+    1
+   ],
+   "caption": "Vincent van Gogh, self-portrait, 1887",
+   "at": "9",
+   "to": "9:waves-0.3"
   },
   {
    "type": "highlight",
@@ -147,11 +191,22 @@
     0.075,
     0.15
    ],
-   "ring": "9:claws",
-   "zoom": "9:claws+0.3",
+   "ring": "9:waves",
+   "zoom": "9:waves+0.35",
    "label": "CLAWS",
-   "labelAt": "9:caught",
-   "out": "10:Starry"
+   "labelAt": "9:claws",
+   "out": "10-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "starry",
+    1
+   ],
+   "caption": "The Starry Night, Van Gogh, 1889",
+   "at": "10",
+   "to": "11-0.3"
   },
   {
    "type": "insert",
