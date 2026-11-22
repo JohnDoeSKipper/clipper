@@ -2,7 +2,7 @@
  "paintings": {
   "girl-pearl-earring": {
    "channel": "paintings",
-   "skipped": "first automated video; Jared found it not informative enough"
+   "skipped": "made before the spine; remake it, then delete this entry"
   },
   "starry-night": {
    "channel": "paintings",
@@ -22,7 +22,7 @@
  "philosophy": {
   "experience-machine": {
    "channel": "philosophy",
-   "skipped": "first automated video; Jared found it not informative enough"
+   "skipped": "made before the spine; remake it, then delete this entry"
   },
   "trolley-problem": {
    "channel": "philosophy",

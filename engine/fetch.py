@@ -142,8 +142,8 @@ def run_request(path):
         d = os.path.join(ROOT, "inbox", item["id"])
         os.makedirs(d, exist_ok=True)
         meta = dict(id=item["id"], painting=None, inserts={})
-        cands = commons_search(item["painting"], limit=3, min_width=1500)
-        if not cands and item["painting"].lower().startswith("file:"):      # wrong title: search for its words instead
+        cands = commons_search(item["painting"], limit=3, min_width=1500) if item.get("painting") else []
+        if item.get("painting") and not cands and item["painting"].lower().startswith("file:"):      # wrong title: search for its words instead
             cands = commons_search(item.get("painting_search") or re.sub(r"\.\w+$", "", item["painting"][5:]), limit=3, min_width=1500)
         if cands:
             best = next((c for c in cands if c["width"] >= 2000), cands[0])
@@ -184,13 +184,23 @@ def run_request(path):
 
 def resolve_spec_assets(spec):
     """Phase 2: download the full-size files a spec points at (by inbox choice) just before rendering."""
-    if spec.get("channel") != "paintings":
-        return []
     credits = []
     d = os.path.join(ROOT, "inbox", spec["id"])
     # the picture list lives in inbox/<id>/ until the first render, then is kept in specs/meta/<id>.json for remakes
     found = [q for q in (os.path.join(d, "meta.json"), os.path.join(ROOT, "specs", "meta", spec["id"] + ".json")) if os.path.exists(q)]
     meta = json.load(open(found[0])) if found else None
+    if spec.get("channel") != "paintings":          # Philosophy: real photos shown as "photo" overlays
+        for ov in spec.get("overlays", []):
+            if ov.get("type") == "photo" and not os.path.exists(os.path.join(ROOT, ov.get("file", "__none__"))):
+                if meta is None:
+                    raise FileNotFoundError(f'no picture list for {spec["id"]}: push requests/{spec["id"]}.json first')
+                key, n = ov["pick"]
+                src = meta["inserts"][key][n]
+                ov["file"] = os.path.relpath(get(sized(src["url"], 1280), os.path.join(CACHE, "img", f"{spec['id']}_{key}_{n}.jpg")), ROOT)
+                if src.get("credit"):
+                    ov.setdefault("credit", src["credit"])
+                    credits.append(f'{ov.get("caption", key)}: {src["credit"]} (Wikimedia Commons)')
+        return credits
     needs = not os.path.exists(os.path.join(ROOT, spec["painting"].get("file", "__none__"))) or any(
         e.get("type") == "insert" and e.get("kind") == "image" and not os.path.exists(os.path.join(ROOT, e.get("file", "__none__"))) for e in spec["timeline"])
     if needs and meta is None:

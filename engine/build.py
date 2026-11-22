@@ -100,6 +100,40 @@ def check_story(spec, TL, out):
     print("   beats: " + " | ".join(beats))
 
 
+def check_coverage(spec, TL, out):
+    """Show what you say: every sentence must put something on screen that matches it."""
+    s = spec["script"]
+    num = lambda v: v if isinstance(v, (int, float)) else None
+    if spec["channel"] == "paintings":
+        spans = []
+        for e in spec["timeline"]:
+            a = num(e.get("ring", e.get("at", e.get("from"))))
+            b = num(e.get("out", e.get("to", e.get("until"))))
+            if isinstance(e.get("from"), list):
+                a = 0.0
+            if a is not None:
+                spans.append((a, b if b is not None else a + 4.0))
+        for i, x in enumerate(s):
+            if x.get("beat", "reveal1") not in ("reveal1", "reveal2", "reveal3", "turn"):
+                continue
+            t0, t1 = TL[i]["start"], TL[i]["end"]
+            cover = sum(max(0.0, min(t1, b) - max(t0, a)) for a, b in spans)
+            if cover < 0.4 * (t1 - t0):
+                out.append(f"sentence {i} ({x.get('beat')}) shows only the plain painting: ring the detail it talks about, or insert a picture of the person, place or thing it names")
+        n = sum(1 for e in spec["timeline"] if e.get("type") == "insert")
+        if n < 4:
+            out.append(f"{n} picture insert(s): show every person, place, object or other work the script names (usually 4-7 pictures)")
+    else:
+        starts = [num(v.get("at")) for v in spec.get("shots", []) + spec.get("actions", [])] + [num(v.get("from", v.get("at"))) for v in spec.get("overlays", [])]
+        starts = [t for t in starts if t is not None]
+        for i in range(1, len(s)):
+            t0, t1 = TL[i]["start"] - 0.25, TL[i]["end"]
+            if not any(t0 <= t <= t1 for t in starts):
+                out.append(f"sentence {i}: nothing on screen changes; show what it says (a prop action, an overlay, a photo or a new angle)")
+        if not any(o.get("type") == "photo" for o in spec.get("overlays", [])):
+            out.append('no real pictures: show the real people, places and documents the script names with "photo" overlays (request them first)')
+
+
 def narrate(spec, tmp):
     import voice as V
     v = {**DEFAULT_VOICE[spec["channel"]], **spec.get("voice", {})}
@@ -143,6 +177,19 @@ def draft_assets(spec):
     """Stand-ins so a Paintings draft can be drawn from the small previews in inbox/ (nothing is downloaded)."""
     from PIL import Image
     if spec["channel"] != "paintings":
+        d = os.path.join("inbox", spec["id"])
+        mp = [q for q in (os.path.join(ROOT, d, "meta.json"), os.path.join(ROOT, "specs", "meta", spec["id"] + ".json")) if os.path.exists(q)]
+        meta = json.load(open(mp[0])) if mp else {"inserts": {}}
+        for ov in spec.get("overlays", []):
+            if ov.get("type") == "photo" and not os.path.exists(os.path.join(ROOT, ov.get("file", "__none__"))):
+                key, n = ov["pick"]
+                found = meta["inserts"].get(key, [])
+                if n >= len(found):
+                    raise ValueError(f'photo pick ["{key}", {n}] does not exist in inbox/{spec["id"]}/meta.json (push requests/{spec["id"]}.json with look_for first)')
+                w, h = found[n]["width"], found[n]["height"]
+                ph = os.path.join(ROOT, "cache", "tmp", f'{spec["id"]}_{key}_{n}_ph.jpg')
+                Image.new("RGB", (800, max(200, round(800 * h / w))), "#6C7689").save(ph)
+                ov["file"] = os.path.relpath(ph, ROOT)
         return
     p, d = spec["painting"], os.path.join("inbox", spec["id"])
     if not os.path.exists(os.path.join(ROOT, p.get("file", "__none__"))):
@@ -174,6 +221,7 @@ def check(spec, TL):
         out.append(f"the video runs {total:.0f}s: over 90 s Facebook will not take it; cut to {lo}-{hi}s")
     elif not lo <= total <= hi:
         out.append(f"the video runs {total:.0f}s; aim for {lo}-{hi}s")
+    check_coverage(spec, TL, out)
     for i, s in enumerate(spec["script"]):
         if len(s["text"].split()) > 22:
             out.append(f"sentence {i} is long ({len(s['text'].split())} words); split it so captions and shots can keep up")

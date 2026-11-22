@@ -580,6 +580,7 @@ const ICONS = {
   brain: '<path d="M112 52 C84 40 56 60 60 88 C40 100 42 132 62 142 C64 170 96 182 112 164 Z" fill="#F7A1C8" stroke="#1D2742" stroke-width="7" stroke-linejoin="round"/><path d="M118 52 C146 40 174 60 170 88 C190 100 188 132 168 142 C166 170 134 182 118 164 Z" fill="#F7A1C8" stroke="#1D2742" stroke-width="7" stroke-linejoin="round"/>',
   zzz: '<text x="115" y="150" text-anchor="middle" font-family="InterB" font-size="96" fill="#8EC5FF" stroke="#1D2742" stroke-width="5">Zz</text>',
 };
+TEMPLATES.photo = o => `<div class="photo"><img src="${o.src || ''}">${o.caption ? `<div class="pcap">${o.caption}</div>` : ''}${o.credit ? `<div class="pcred">${o.credit}</div>` : ''}</div>`;
 TEMPLATES.icon = o => `<svg class="badge" viewBox="0 0 230 230" style="width:${o.size || 190}px;height:${o.size || 190}px"><circle cx="115" cy="115" r="106" fill="#fff" stroke="#1D2742" stroke-width="8"/>${ICONS[o.icon] || (warn.push('unknown icon ' + o.icon), '')}</svg>`;
 const OVER = (SPEC.overlays || []).map(o => {
   if (!TEMPLATES[o.type]) warn.push('unknown overlay type ' + o.type);
@@ -596,7 +597,7 @@ function drawOverlays(t) {
       if (b) tmp.copy(b.root.position).setY(b.root.position.y + (o.up ?? b.up ?? 2.4)); else tmp.set(...o.on);
       tmp.project(camera); ok = tmp.z < 1 && (!b || b.root.visible);
       x = (tmp.x * 0.5 + 0.5) * W; y = (-tmp.y * 0.5 + 0.5) * H;
-    } else if (on) { [x, y] = o.pos || (o.type === 'pill' ? [540, 1330] : o.type === 'question' ? [800, 580] : [540, 470]); }
+    } else if (on) { [x, y] = o.pos || (o.type === 'pill' ? [540, 1330] : o.type === 'question' ? [800, 580] : o.type === 'photo' ? [540, 820] : [540, 470]); }
     o.el.style.display = ok ? 'block' : 'none';
     if (!ok) continue;
     const k = easeOut((t - from) / 0.28);
@@ -605,6 +606,7 @@ function drawOverlays(t) {
     if (o.type === 'stop') sc = k;
     o.el.style.left = x + 'px'; o.el.style.top = y + 'px'; o.el.style.transform = `translate(-50%, -50%) scale(${sc})`;
     if (o.type === 'pill') o.el.style.opacity = clamp((t - from) / 0.3);
+    if (o.type === 'photo') { o.el.style.opacity = Math.min(clamp((t - from) / 0.25), clamp((to - t) / 0.25)); o.el.style.transform = `translate(-50%, -50%) scale(${0.92 + 0.08 * k}) rotate(${o.tilt ?? -1.5}deg)`; }
     const d = (t - from) / (o.draw || 0.35);
     if (o.type === 'check') o.paths[0].setAttribute('stroke-dashoffset', 1 - clamp(d));
     if (o.type === 'cross') { o.paths[0].setAttribute('stroke-dashoffset', 1 - clamp(d * 2)); o.paths[1].setAttribute('stroke-dashoffset', 1 - clamp(d * 2 - 1)); }

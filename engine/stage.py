@@ -82,6 +82,13 @@ def render(spec, TL, voice, sr, out, tmp, frames_only=None):
     js["TL"] = {"total": total, "sentences": [dict(start=s["scene_start"], end_scene=s["scene_end"], end=s["end"], chunks=s["_chunks"]) for s in TL]}
     work = os.path.join(HERE, "work", sid)
     os.makedirs(work, exist_ok=True)
+    from PIL import Image
+    for i, ov in enumerate(js.get("overlays", [])):      # real photos: copied next to the page so the browser can load them
+        if ov.get("type") == "photo" and ov.get("file"):
+            im = Image.open(os.path.join(C.ROOT, ov["file"])).convert("RGB")
+            im.thumbnail((1400, 1400))
+            im.save(os.path.join(work, f"photo_{i}.jpg"), quality=90)
+            ov["src"] = f"work/{sid}/photo_{i}.jpg"
     json.dump(js, open(os.path.join(work, "spec.json"), "w"), default=float)
     if not os.path.exists(os.path.join(HERE, "node_modules", "three")):
         subprocess.check_call(["npm", "install", "--no-audit", "--no-fund", "--silent"], cwd=HERE)
