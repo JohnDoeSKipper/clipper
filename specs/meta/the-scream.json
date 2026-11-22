@@ -12,7 +12,42 @@
   "desc": ""
  },
  "inserts": {
-  "oslofjord": [
+  "munch": [
+   {
+    "title": "File:Edvard Munch - Dive at Vaterland.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Edvard_Munch_-_Dive_at_Vaterland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Edvard_Munch_-_Dive_at_Vaterland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1024,
+    "height": 759,
+    "licence": "Public domain",
+    "artist": "Edvard Munch",
+    "credit": "",
+    "desc": "\u00ab\u0417\u043b\u0430\u0447\u043d\u043e\u0435 \u043c\u0435\u0441\u0442\u043e \u0432 \u0412\u0430\u0442\u0435\u0440\u043b\u0430\u043d\u043d\u0435\u00bb (\u043d\u043e\u0440\u0432. Bule i Vaterland). 1882\u20141883. \u041a\u0430\u0440\u0442\u043e\u043d, \u043c\u0430\u0441\u043b\u043e. 47 \u00d7 63,5 \u0441\u043c. \u041c\u0443\u0437\u0435\u0439 \u041c\u0443\u043d\u043a\u0430 (\u041e\u0441\u043b\u043e, \u041d\u043e\u0440\u0432\u0435\u0433\u0438\u044f)"
+   },
+   {
+    "title": "File:Edvard Munch - In the Caf\u00e9 - MM.M.00251 - Munch Museum.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Edvard_Munch_-_In_the_Caf%C3%A9_-_MM.M.00251_-_Munch_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Edvard_Munch_-_In_the_Caf%C3%A9_-_MM.M.00251_-_Munch_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1689,
+    "height": 2000,
+    "licence": "Public domain",
+    "artist": "Edvard Munch",
+    "credit": "",
+    "desc": ""
+   },
+   {
+    "title": "File:Edvard munch, morte nella stanza del malato, 1893.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Edvard_munch%2C_morte_nella_stanza_del_malato%2C_1893.jpg/3840px-Edvard_munch%2C_morte_nella_stanza_del_malato%2C_1893.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Edvard_munch%2C_morte_nella_stanza_del_malato%2C_1893.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4446,
+    "height": 4038,
+    "licence": "Public domain",
+    "artist": "Francesco Bini",
+    "credit": "",
+    "desc": "Paintings by Edvard Munch in the Nasjonalmuseet for kunst, arkitektur og design"
+   }
+  ],
+  "ekeberg": [
    {
     "title": "File:Oslojord from Ekeberg.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Oslojord_from_Ekeberg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
@@ -25,7 +60,164 @@
     "desc": "The Oslofjord, from Ekeberg in Oslo"
    }
   ],
-  "pastel": [
+  "despair": [
+   {
+    "title": "File:Fortvivlan.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Fortvivlan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Fortvivlan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1466,
+    "height": 2000,
+    "licence": "Public domain",
+    "artist": "Edvard Munch",
+    "credit": "",
+    "desc": "Despair 1892, oil on canvas"
+   }
+  ],
+  "mummy": [
+   {
+    "title": "File:Paris musee de l'homme momie chachapoya.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Paris_musee_de_l%27homme_momie_chachapoya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Paris_musee_de_l%27homme_momie_chachapoya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1800,
+    "height": 2810,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Velvet",
+    "credit": "Velvet / CC BY-SA 4.0",
+    "desc": "Momie Chachapoya au mus\u00e9e de l'homme. D\u00e9couverte en 1877, elle est pr\u00e9sent\u00e9e au mus\u00e9e d'ethnographie du Trocad\u00e9ro \u00e0 partir de 1882."
+   }
+  ],
+  "fair": [
+   {
+    "title": "File:L'Exposition universelle de Paris, 1889.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/L%27Exposition_universelle_de_Paris%2C_1889.jpg/3840px-L%27Exposition_universelle_de_Paris%2C_1889.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/9/9d/L%27Exposition_universelle_de_Paris%2C_1889.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 20114,
+    "height": 13345,
+    "licence": "Public domain",
+    "artist": "GTC",
+    "credit": "",
+    "desc": "Scarce and fantastic view of the 1889 World's Fair, held in Paris, and the event for which Gustave Eiffel designed his eponymous tower. This poster is notable f"
+   },
+   {
+    "title": "File:Eiffel tower at Exposition Universelle, Paris, 1889.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Eiffel_tower_at_Exposition_Universelle%2C_Paris%2C_1889.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Eiffel_tower_at_Exposition_Universelle%2C_Paris%2C_1889.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1518,
+    "height": 1082,
+    "licence": "Public domain",
+    "artist": "Neurdein",
+    "credit": "",
+    "desc": "View of the Eiffel tower and the grounds of the Exposition Universelle on the Champs de Mars with Seine and the Pont d'Iena in the foreground, Paris, presumably"
+   },
+   {
+    "title": "File:View of Exposition Universelle from Eiffel Tower, Paris, 1889.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/View_of_Exposition_Universelle_from_Eiffel_Tower%2C_Paris%2C_1889.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/4/42/View_of_Exposition_Universelle_from_Eiffel_Tower%2C_Paris%2C_1889.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1496,
+    "height": 1213,
+    "licence": "Public domain",
+    "artist": "Neurdein",
+    "credit": "",
+    "desc": "660. Exposition Universelle de 1889. -- Vue sur Auteuil, prise de la Tour Eiffel. ND. Phot. View of the Exposition Universelle on the Champ de Mars with Seine o"
+   }
+  ],
+  "notebook": [],
+  "krakatoa": [
+   {
+    "title": "File:Krakatoa eruption lithograph.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Krakatoa_eruption_lithograph.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/4/49/Krakatoa_eruption_lithograph.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2726,
+    "height": 3468,
+    "licence": "Public domain",
+    "artist": "Lithograph: Parker &amp; Coward, Britain;",
+    "credit": "",
+    "desc": "An 1888 lithograph of the 1883 eruption of Krakatoa."
+   }
+  ],
+  "nacreous": [],
+  "scharffenberg": [
+   {
+    "title": "File:Johan Scharffenberg ved Gamlebyen kirke.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Johan_Scharffenberg_ved_Gamlebyen_kirke.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Johan_Scharffenberg_ved_Gamlebyen_kirke.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3151,
+    "height": 4057,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Jan-Tore Egge",
+    "credit": "Jan-Tore Egge / CC BY-SA 4.0",
+    "desc": "Minnesmerke over Johan Scharffenberg utenfor Gamlebyen kirke, utf\u00f8rt av Annasif D\u00f8hlen 1976."
+   },
+   {
+    "title": "File:Johan Scharffenbergs vei.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Johan_Scharffenbergs_vei.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Johan_Scharffenbergs_vei.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2244,
+    "height": 1858,
+    "licence": "CC BY-SA 3.0",
+    "artist": "Jan-Tore Egge",
+    "credit": "Jan-Tore Egge / CC BY-SA 3.0",
+    "desc": "Johan Scharffenbergs vei p\u00e5 Skullerud i Oslo"
+   },
+   {
+    "title": "File:Fra Klingenbergomr\u00e5det.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Fra_Klingenbergomr%C3%A5det.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/2/22/Fra_Klingenbergomr%C3%A5det.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1200,
+    "height": 867,
+    "licence": "CC BY-SA 3.0",
+    "artist": "Kolbj\u00f8rn Juel S\u00f8rlie",
+    "credit": "Kolbj\u00f8rn Juel S\u00f8rlie / CC BY-SA 3.0",
+    "desc": "kjente personer og bygninger. Avbildet: Roald Engebret Gravning Amundsen, Bj\u00f8rn Bj\u00f8rnson, Brekke, Halfdan Christensen, Johanne Dybwad, Ragnar Fredriksen, Johan "
+   }
+  ],
+  "laura": [
+   {
+    "title": "File:Edvard Munch - Melancholy - MM.M.00012 - Munch Museum.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Edvard_Munch_-_Melancholy_-_MM.M.00012_-_Munch_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/1/10/Edvard_Munch_-_Melancholy_-_MM.M.00012_-_Munch_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2000,
+    "height": 1753,
+    "licence": "Public domain",
+    "artist": "Edvard Munch",
+    "credit": "",
+    "desc": ""
+   },
+   {
+    "title": "File:Edvard Munch - Melancholy (1911).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Edvard_Munch_-_Melancholy_%281911%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/d/df/Edvard_Munch_-_Melancholy_%281911%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1170,
+    "height": 1166,
+    "licence": "Public domain",
+    "artist": "Edvard Munch",
+    "credit": "",
+    "desc": ""
+   },
+   {
+    "title": "File:Munch - Melankoli, 1911, RES.A.00305.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Munch_-_Melankoli%2C_1911%2C_RES.A.00305.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Munch_-_Melankoli%2C_1911%2C_RES.A.00305.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3500,
+    "height": 3363,
+    "licence": "Public domain",
+    "artist": "Edvard Munch",
+    "credit": "",
+    "desc": ""
+   }
+  ],
+  "v1910": [
+   {
+    "title": "File:Edvard Munch - The Scream - Google Art Project.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Edvard_Munch_-_The_Scream_-_Google_Art_Project.jpg/3840px-Edvard_Munch_-_The_Scream_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/8/86/Edvard_Munch_-_The_Scream_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 6232,
+    "height": 7880,
+    "licence": "Public domain",
+    "artist": "Edvard Munch",
+    "credit": "",
+    "desc": "The Painting called \"Scream\""
+   },
    {
     "title": "File:Edvard Munch, 1893, The Scream, oil, tempera and pastel on cardboard, 91 x 73 cm, National Gallery of Norway.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
@@ -38,120 +230,15 @@
     "desc": ""
    },
    {
-    "title": "File:The Scream Pastel.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/The_Scream_Pastel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/f/f7/The_Scream_Pastel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 3003,
-    "height": 4000,
-    "licence": "Public domain",
-    "artist": "Edvard Munch",
-    "credit": "",
-    "desc": "This is one of several versions of the painting The Scream. This version, executed in 1895 in pastel on cardboard, was sold on 2 May 2012 for $119,922,500 the h"
-   },
-   {
-    "title": "File:Skrik 1893.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Skrik_1893.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/1/10/Skrik_1893.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 3464,
-    "height": 4620,
-    "licence": "Public domain",
-    "artist": "Edvard Munch",
-    "credit": "",
-    "desc": "As the earliest version of 'The Scream', this pastel appears to be the sketch in which Munch mapped out the essentials of the composition."
-   }
-  ],
-  "lithograph": [
-   {
-    "title": "File:Edvard Munch- The Scream (1895, signed 1896) (8477718108).jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Edvard_Munch-_The_Scream_%281895%2C_signed_1896%29_%288477718108%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Edvard_Munch-_The_Scream_%281895%2C_signed_1896%29_%288477718108%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 2448,
-    "height": 3264,
-    "licence": "CC BY 2.0",
-    "artist": "Maurizio Pesce from Milan, Italia",
-    "credit": "Maurizio Pesce from Milan, Italia / CC BY 2.0",
-    "desc": "Lithograph"
-   },
-   {
-    "title": "File:The Scream MET DP860367.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/The_Scream_MET_DP860367.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/1/12/The_Scream_MET_DP860367.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 2885,
-    "height": 3721,
-    "licence": "CC0",
-    "artist": "Edvard Munch",
-    "credit": "",
-    "desc": "Print; Prints"
-   },
-   {
-    "title": "File:Tingletangle (1895) by Edvard Munch. Original from The Art Institute of Chicago. Digitally enhanced by rawpixel. (50433875468).jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Tingletangle_%281895%29_by_Edvard_Munch._Original_from_The_Art_Institute_of_Chicago._Digitally_enhanced_by_rawpixel._%2850433875468%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/9/98/Tingletangle_%281895%29_by_Edvard_Munch._Original_from_The_Art_Institute_of_Chicago._Digitally_enhanced_by_rawpixel._%2850433875468%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 2500,
-    "height": 1683,
-    "licence": "CC BY 2.0",
-    "artist": "Rawpixel Ltd",
-    "credit": "Rawpixel Ltd / CC BY 2.0",
-    "desc": "Free download under CC Attribution (CC BY 4.0). Please credit the artist and rawpixel.com. Edvard Munch (1863\u20131944) was one of the most famous Expressionist Nor"
-   }
-  ],
-  "munch": [
-   {
-    "title": "File:Edvard Munch - Madonna (1894-1895).jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Edvard_Munch_-_Madonna_%281894-1895%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Edvard_Munch_-_Madonna_%281894-1895%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 3109,
-    "height": 4000,
-    "licence": "Public domain",
-    "artist": "Edvard Munch",
-    "credit": "",
-    "desc": "Madonna, oil painting by Edvard Munch, 1894-95"
-   },
-   {
-    "title": "File:Edvard Munch - Madonna - Google Art Project.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Edvard_Munch_-_Madonna_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Edvard_Munch_-_Madonna_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 3190,
-    "height": 4208,
+    "title": "File:Edvard Munch - The Scream, 1910 (Munch Museum).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Edvard_Munch_-_The_Scream%2C_1910_%28Munch_Museum%29.jpg/3840px-Edvard_Munch_-_The_Scream%2C_1910_%28Munch_Museum%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Edvard_Munch_-_The_Scream%2C_1910_%28Munch_Museum%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 10025,
+    "height": 12699,
     "licence": "Public domain",
     "artist": "Edvard Munch",
     "credit": "",
     "desc": ""
-   },
-   {
-    "title": "File:Edvard Munch - Madonna - Google Art Project (495100).jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Edvard_Munch_-_Madonna_-_Google_Art_Project_%28495100%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Edvard_Munch_-_Madonna_-_Google_Art_Project_%28495100%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 3144,
-    "height": 4176,
-    "licence": "Public domain",
-    "artist": "Edvard Munch",
-    "credit": "",
-    "desc": ""
-   }
-  ],
-  "krakatoa": [
-   {
-    "title": "File:Krakatoa eruption lithograph.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Krakatoa_eruption_lithograph.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/4/49/Krakatoa_eruption_lithograph.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 2726,
-    "height": 3468,
-    "licence": "Public domain",
-    "artist": "Lithograph: Parker &amp; Coward, Britain;",
-    "credit": "",
-    "desc": "An 1888 lithograph of the 1883 eruption of Krakatoa."
-   },
-   {
-    "title": "File:1883 Events Collage V 1.0.jpg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/1883_Events_Collage_V_1.0.jpg/3840px-1883_Events_Collage_V_1.0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1883_Events_Collage_V_1.0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 4096,
-    "height": 3704,
-    "licence": "CC0",
-    "artist": "From a variety of images credited above.",
-    "credit": "",
-    "desc": "Clockwise: 1883 eruption of Krakatoa Tonkin campaign 1883 Casamicciola earthquake Orient Express Cimbria (ship, 1867) Victoria Hall disaster First Madagascar ex"
    }
   ]
  }
