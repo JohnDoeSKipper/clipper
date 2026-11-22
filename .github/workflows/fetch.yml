@@ -30,7 +30,7 @@ jobs:
           shopt -s nullglob
           mkdir -p requests/done
           for r in requests/*.json; do
-            python engine/fetch.py request "$r" 2>&1 | tee -a "$RUNNER_TEMP/run.log" && git mv "$r" "requests/done/$(basename "$r")"
+            python engine/fetch.py request "$r" 2>&1 | tee -a "$RUNNER_TEMP/run.log" && git mv -f "$r" "requests/done/$(basename "$r")"
           done
       - name: Save the inbox
         run: |
