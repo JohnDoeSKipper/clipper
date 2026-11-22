@@ -1,6 +1,27 @@
 # Model scripts (newest first)
 The writer reads the top two of its channel before writing and matches or beats them: same spine (beats in order, every sentence linked to the one before), never the same facts or hooks. Each script the writer makes is added at the top in this format. Kept to the last 12.
 
+## the-scream (paintings, remade 2026-11-23)
+
+Angle: If the man in The Scream isn't screaming, what scream was Munch shutting out?
+Logline: Everyone thinks the man is screaming, but he is covering his ears against a scream Munch felt pass through nature at sunset, so he turned an ordinary man into a skull-like face, but the blood-red sky may have been real, therefore when someone wrote that only a madman could paint it, it turned out to be Munch himself.
+On-screen hook: LISTEN TO THE SKY
+
+[hook] The man in The Scream isn't screaming: he's covering his ears.
+[question / so] So what scream was Munch shutting out?
+[reveal1 / answer] In 1892, his notebook described a sunset walk with two friends.
+[reveal1 / detail] The sky turned blood red, and he sensed an infinite scream through nature.
+[reveal1 / so] So the scream is the landscape: Oslo's fjord, seen from Ekeberg hill.
+[reveal2 / but] But his first painting of it showed a plain man in a hat.
+[reveal2 / so] So for The Scream, he stripped the man to a hairless, skull-like face.
+[reveal2 / detail] It may echo a Peruvian mummy shown at the 1889 Paris World's Fair.
+[reveal3 / but] But that blood-red sky may have been real.
+[reveal3 / detail] Scientists blame ash from Krakatoa's 1883 eruption, or rare mother-of-pearl clouds.
+[turn / but] But someone pencilled into that sky: Could only have been painted by a madman.
+[turn / detail] Infrared shows it's Munch's own hand, written after a medical student questioned his sanity.
+[payoff / answer] So the scream he shuts out is nature's, and the madman label was his own.
+[payoff / but] But that scream is fading: in his 1910 version, the yellow is crumbling to white.
+
 ## ship-of-theseus (philosophy, model script 2026-11-23)
 
 Angle: If every part of something is replaced, is it still the same thing, and what does that make you?

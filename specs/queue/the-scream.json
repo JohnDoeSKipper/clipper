@@ -1,0 +1,266 @@
+{
+ "id": "the-scream",
+ "channel": "paintings",
+ "angle": "If the man in The Scream isn't screaming, what scream was Munch shutting out?",
+ "logline": "Everyone thinks the man is screaming, but he is covering his ears against a scream Munch felt pass through nature at sunset, so he turned an ordinary man into a skull-like face, but the blood-red sky may have been real, therefore when someone wrote that only a madman could paint it, it turned out to be Munch himself.",
+ "hook_text": "LISTEN TO THE SKY",
+ "hooks": [
+  "Munch pencilled 'only a madman could paint this' onto his own Scream.",
+  "The Scream began as a painting of an ordinary man in a hat."
+ ],
+ "painting": {
+  "title": "The Scream",
+  "artist": "Edvard Munch",
+  "year": "1893",
+  "museum": "National Museum, Oslo"
+ },
+ "script": [
+  {
+   "text": "The man in The Scream isn't screaming: he's covering his ears.",
+   "beat": "hook"
+  },
+  {
+   "text": "So what scream was Munch shutting out?",
+   "beat": "question",
+   "link": "so",
+   "say": "So what scream was Munk shutting out?"
+  },
+  {
+   "text": "In 1892, his notebook described a sunset walk with two friends.",
+   "beat": "reveal1",
+   "link": "answer",
+   "say": "In eighteen ninety-two, his notebook described a sunset walk with two friends."
+  },
+  {
+   "text": "The sky turned blood red, and he sensed an infinite scream through nature.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "So the scream is the landscape: Oslo's fjord, seen from Ekeberg hill.",
+   "beat": "reveal1",
+   "link": "so",
+   "say": "So the scream is the landscape: Oslo's fyord, seen from Ay-keh-berg hill."
+  },
+  {
+   "text": "But his first painting of it showed a plain man in a hat.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "So for The Scream, he stripped the man to a hairless, skull-like face.",
+   "beat": "reveal2",
+   "link": "so"
+  },
+  {
+   "text": "It may echo a Peruvian mummy shown at the 1889 Paris World's Fair.",
+   "beat": "reveal2",
+   "link": "detail",
+   "say": "It may echo a Peruvian mummy shown at the eighteen eighty-nine Paris World's Fair."
+  },
+  {
+   "text": "But that blood-red sky may have been real.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "Scientists blame ash from Krakatoa's 1883 eruption, or rare mother-of-pearl clouds.",
+   "beat": "reveal3",
+   "link": "detail",
+   "say": "Scientists blame ash from Krakatoa's eighteen eighty-three eruption, or rare mother-of-pearl clouds."
+  },
+  {
+   "text": "But someone pencilled into that sky: Could only have been painted by a madman.",
+   "beat": "turn",
+   "link": "but"
+  },
+  {
+   "text": "Infrared shows it's Munch's own hand, written after a medical student questioned his sanity.",
+   "beat": "turn",
+   "link": "detail",
+   "say": "Infrared shows it's Munk's own hand, written after a medical student questioned his sanity."
+  },
+  {
+   "text": "So the scream he shuts out is nature's, and the madman label was his own.",
+   "beat": "payoff",
+   "link": "answer"
+  },
+  {
+   "text": "But that scream is fading: in his 1910 version, the yellow is crumbling to white.",
+   "beat": "payoff",
+   "link": "but",
+   "say": "But that scream is fading: in his nineteen-ten version, the yellow is crumbling to white."
+  }
+ ],
+ "music": {
+  "piece": "chopin-prelude-e-minor"
+ },
+ "timeline": [
+  {
+   "type": "reveal",
+   "from": [
+    0.53,
+    0.58,
+    2.6
+   ],
+   "until": 3.0
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.53,
+    0.6,
+    0.12,
+    0.13
+   ],
+   "ring": "0:covering",
+   "zoom": "0:covering+0.4",
+   "label": "HANDS OVER EARS",
+   "labelAt": "0:ears",
+   "out": "2-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.07,
+    0.43,
+    0.06,
+    0.12
+   ],
+   "ring": "2",
+   "zoom": "2+0.4",
+   "label": "TWO FRIENDS",
+   "labelAt": "2:friends",
+   "out": "3-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.46,
+    0.17,
+    0.42,
+    0.13
+   ],
+   "ring": "3",
+   "zoom": "3+0.4",
+   "label": "BLOOD RED",
+   "labelAt": "3:blood",
+   "out": "4-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "ekeberg",
+    0
+   ],
+   "caption": "The Oslofjord from Ekeberg hill",
+   "at": "4",
+   "to": "5-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "despair",
+    0
+   ],
+   "caption": "Despair, Munch, 1892",
+   "at": "5",
+   "to": "6-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.53,
+    0.575,
+    0.075,
+    0.085
+   ],
+   "ring": "6",
+   "zoom": "6+0.4",
+   "label": "SKULL-LIKE",
+   "labelAt": "6:face",
+   "out": "7-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "mummy",
+    0
+   ],
+   "caption": "Chachapoya mummy, now in Paris",
+   "at": "7",
+   "to": "8-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.45,
+    0.12,
+    0.32,
+    0.08
+   ],
+   "ring": "8",
+   "zoom": "8+0.4",
+   "out": "9-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "krakatoa",
+    0
+   ],
+   "caption": "Krakatoa erupting, 1883 (lithograph)",
+   "at": "9",
+   "to": "10-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.15,
+    0.07,
+    0.13,
+    0.05
+   ],
+   "ring": "10",
+   "zoom": "10+0.4",
+   "label": "PENCIL LINE",
+   "labelAt": "10:madman",
+   "out": "12-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "v1910",
+    2
+   ],
+   "caption": "The Scream, 1910 version, Munch Museum",
+   "at": "13",
+   "to": "end"
+  }
+ ],
+ "sources": [
+  "https://www.munch.no/en/our-collection/5-things-you-should-know-about-the-scream",
+  "https://smarthistory.org/munch-the-scream/",
+  "https://nasjonalmuseet.no/en/collection/object/NG.M.00939",
+  "https://nasjonalmuseet.no/en/stories/explore-the-collection/munch-malet-av-gal-mann-engelsk",
+  "https://www.aps.org/apsnews/2004/05/the-back-page",
+  "https://www.smithsonianmag.com/smart-news/scream-might-have-been-inspired-rare-kind-cloud-180963052/",
+  "https://www.smithsonianmag.com/smart-news/humidity-screams-nightmare-180974900/"
+ ],
+ "post": {
+  "caption": "The man in The Scream isn't the one screaming, and the insult pencilled into its sky was written by Munch himself.\nWhat do you think he was hearing?",
+  "tags": [
+   "#arthistory",
+   "#edvardmunch",
+   "#thescream",
+   "#expressionism",
+   "#artfacts"
+  ],
+  "youtube_title": "The Scream Isn't Coming From the Man"
+ }
+}
