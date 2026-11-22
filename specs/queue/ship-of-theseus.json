@@ -419,9 +419,9 @@
   {
    "at": "14:bomb",
    "cam": {
-    "preset": "tight",
+    "preset": "close",
     "on": "you",
-    "azimuth": -25
+    "dist": 0.8
    },
    "focus": [
     "you"
@@ -730,16 +730,6 @@
   },
   {
    "type": "label",
-   "text": "THOMAS HOBBES, 1655",
-   "pos": [
-    540,
-    330
-   ],
-   "from": "7",
-   "to": "8"
-  },
-  {
-   "type": "label",
    "text": "THE OLD PLANKS",
    "on": "ship2",
    "up": 5.4,
@@ -827,6 +817,96 @@
    "type": "pill",
    "text": "What keeps you, you?",
    "from": "16:doing+0.3"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "sengu",
+    0
+   ],
+   "caption": "Ise's main sanctuary, rebuilt for the 62nd time in 2013",
+   "from": "1",
+   "to": "2-0.2"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "theseus",
+    1
+   ],
+   "caption": "Theseus, on an Athenian cup, about 440 BC",
+   "from": "4:hero",
+   "to": "5-0.2"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "trireme",
+    0
+   ],
+   "caption": "Olympias, a rebuilt Athenian trireme",
+   "from": "6",
+   "to": "7-0.2"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "hobbes",
+    1
+   ],
+   "caption": "Thomas Hobbes, by John Michael Wright",
+   "from": "7",
+   "to": "8-0.2"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "ise2",
+    0
+   ],
+   "caption": "Ise Grand Shrine (Naiku), Japan",
+   "from": "12",
+   "to": "12:pillars-0.1"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "uji",
+    1
+   ],
+   "caption": "Uji Bridge, Ise: its gates reuse the old shrine's pillars",
+   "from": "12:pillars",
+   "to": "13-0.2"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "karolinska",
+    0
+   ],
+   "caption": "Karolinska Institutet, Stockholm: the 2005 cell-dating study",
+   "from": "14",
+   "to": "14:bomb-0.1"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "bomb2",
+    0
+   ],
+   "caption": "Ivy Mike, a 1952 bomb test",
+   "from": "14:bomb",
+   "to": "14:younger-0.1"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "neuron",
+    0
+   ],
+   "caption": "A pyramidal neuron (Golgi stain)",
+   "from": "15:neurons",
+   "to": "16-0.2"
   }
  ],
  "sfx": [
