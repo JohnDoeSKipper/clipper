@@ -12,6 +12,11 @@
   "the-scream": {
    "channel": "paintings",
    "skipped": "made before the spine (jumps between points); remake it, then delete this entry"
+  },
+  "great-wave": {
+   "channel": "paintings",
+   "handed_out": "2026-11-23",
+   "at": "2026-11-23T02:28+08:00"
   }
  },
  "philosophy": {
@@ -27,6 +32,11 @@
   "veil-of-ignorance": {
    "channel": "philosophy",
    "skipped": "made before the spine (jumps between points); remake it, then delete this entry"
+  },
+  "ship-of-theseus": {
+   "channel": "philosophy",
+   "handed_out": "2026-11-23",
+   "at": "2026-11-23T02:28+08:00"
   }
  }
 }
