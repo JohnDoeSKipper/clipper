@@ -1,0 +1,147 @@
+{
+ "id": "platos-cave",
+ "painting": null,
+ "inserts": {
+  "plato": [
+   {
+    "title": "File:Plato Silanion Musei Capitolini MC1377.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Plato_Silanion_Musei_Capitolini_MC1377.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/8/88/Plato_Silanion_Musei_Capitolini_MC1377.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2400,
+    "height": 3600,
+    "licence": "CC BY 2.5",
+    "artist": "Marie-Lan Nguyen",
+    "credit": "Marie-Lan Nguyen / CC BY 2.5",
+    "desc": "Plato, copy of the portrait made by Silanion ca. 370 BC for the Academia in Athens"
+   },
+   {
+    "title": "File:Plato Silanion Musei Capitolini MC1377.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Plato_Silanion_Musei_Capitolini_MC1377.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/2/21/Plato_Silanion_Musei_Capitolini_MC1377.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2400,
+    "height": 3600,
+    "licence": "Public domain",
+    "artist": "Marie-Lan Nguyen",
+    "credit": "",
+    "desc": "Plato. Luni marble, copy of the portrait made by Silanion ca. 370 BC for the Academia in Athens. From the sacred area in Largo Argentina."
+   },
+   {
+    "title": "File:Plato Silanion Musei Capitolini MC1377 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Plato_Silanion_Musei_Capitolini_MC1377_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/7/74/Plato_Silanion_Musei_Capitolini_MC1377_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2400,
+    "height": 3378,
+    "licence": "Public domain",
+    "artist": "Marie-Lan Nguyen",
+    "credit": "",
+    "desc": ""
+   }
+  ],
+  "saenredam": [
+   {
+    "title": "File:Jan Pietersz Saenredam after Cornelis Cornelisz van Haarlem, Plato's Cave, 1604, NGA 62542.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Jan_Pietersz_Saenredam_after_Cornelis_Cornelisz_van_Haarlem%2C_Plato%27s_Cave%2C_1604%2C_NGA_62542.jpg/3840px-Jan_Pietersz_Saenredam_after_Cornelis_Cornelisz_van_Haarlem%2C_Plato%27s_Cave%2C_1604%2C_NGA_62542.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/8/85/Jan_Pietersz_Saenredam_after_Cornelis_Cornelisz_van_Haarlem%2C_Plato%27s_Cave%2C_1604%2C_NGA_62542.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4000,
+    "height": 2998,
+    "licence": "CC0",
+    "artist": "After Cornelis van Haarlem / Jan Saenredam",
+    "credit": "",
+    "desc": ""
+   },
+   {
+    "title": "File:Platon Cave Sanraedam 1604.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Platon_Cave_Sanraedam_1604.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Platon_Cave_Sanraedam_1604.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1600,
+    "height": 1166,
+    "licence": "Public domain",
+    "artist": "Jan Saenredam / After Cornelis van Haarlem",
+    "credit": "",
+    "desc": "Plato's Allegory of the cave"
+   },
+   {
+    "title": "File:Grot van Plato, RP-P-1887-A-11925.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Grot_van_Plato%2C_RP-P-1887-A-11925.jpg/3840px-Grot_van_Plato%2C_RP-P-1887-A-11925.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/6/65/Grot_van_Plato%2C_RP-P-1887-A-11925.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 7506,
+    "height": 4686,
+    "licence": "CC0",
+    "artist": "Rijksmuseum",
+    "credit": "",
+    "desc": "IdentificatieTitel(s): Grot van PlatoObjecttype: prent Objectnummer: RP-P-1887-A-11925Catalogusreferentie: Hollstein Dutch 116-1(2) Opschriften / Merken: verzam"
+   }
+  ],
+  "socrates": [
+   {
+    "title": "File:Socrate du Louvre.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Socrate_du_Louvre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Socrate_du_Louvre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1500,
+    "height": 2000,
+    "licence": "CC BY-SA 2.5",
+    "artist": "Copy of Lysippos (?)",
+    "credit": "Copy of Lysippos (?) / CC BY-SA 2.5",
+    "desc": "Portrait of Socrates. Marble, Roman artwork (1st century), perhaps a copy of a lost bronze statue made by Lysippos."
+   },
+   {
+    "title": "File:Socrates Louvre.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Socrates_Louvre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Socrates_Louvre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1944,
+    "height": 2592,
+    "licence": "Public domain",
+    "artist": "Copy of Lysippos (?)",
+    "credit": "",
+    "desc": "Portrait of Socrates. Marble, Roman artwork (1st century), perhaps a copy of a lost bronze statue made by Lysippos."
+   },
+   {
+    "title": "File:Socrates HEAD.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Socrates_HEAD.jpg/1920px-Socrates_HEAD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Socrates_HEAD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2848,
+    "height": 4272,
+    "licence": "CC BY-SA 2.0",
+    "artist": "kaelin",
+    "credit": "kaelin / CC BY-SA 2.0",
+    "desc": "Socrates"
+   }
+  ],
+  "republic": [],
+  "academy": [
+   {
+    "title": "File:MANNapoli 124545 plato's academy mosaic.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/MANNapoli_124545_plato%27s_academy_mosaic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/5/50/MANNapoli_124545_plato%27s_academy_mosaic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2392,
+    "height": 2441,
+    "licence": "Public domain",
+    "artist": "",
+    "credit": "",
+    "desc": "Plato's Academy mosaic. Roman mosaic of the 1st century BCE from Pompeii, now at the Museo Nazionale Archeologico, Naples."
+   },
+   {
+    "title": "File:MANNapoli 124545 plato's academy mosaic (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/MANNapoli_124545_plato%27s_academy_mosaic_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/8/84/MANNapoli_124545_plato%27s_academy_mosaic_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2163,
+    "height": 2196,
+    "licence": "Public domain",
+    "artist": "",
+    "credit": "",
+    "desc": "Plato's Academy mosaic. Roman mosaic of the 1st century BCE from Pompeii, now at the Museo Nazionale Archeologico, Naples."
+   },
+   {
+    "title": "File:Plato's Academy mosaic from Pompeii.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Plato%27s_Academy_mosaic_from_Pompeii.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/4/48/Plato%27s_Academy_mosaic_from_Pompeii.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1614,
+    "height": 1652,
+    "licence": "Public domain",
+    "artist": "Unknown authorUnknown author",
+    "credit": "",
+    "desc": "Plato\u2019s Academy mosaic \u2014 from the Villa of T. Siminius Stephanus in Pompeii."
+   }
+  ]
+ }
+}

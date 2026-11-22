@@ -1,0 +1,147 @@
+{
+ "id": "chinese-room",
+ "painting": null,
+ "inserts": {
+  "searle": [
+   {
+    "title": "File:John Searle speaking at Google 1.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/John_Searle_speaking_at_Google_1.jpg/3840px-John_Searle_speaking_at_Google_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/4/41/John_Searle_speaking_at_Google_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4645,
+    "height": 3097,
+    "licence": "CC BY-SA 4.0",
+    "artist": "FranksValli",
+    "credit": "FranksValli / CC BY-SA 4.0",
+    "desc": "John Searle giving his talk \"Consciousness in Artificial Intelligence\" at Google in Mountain View on November 23, 2015. Video: https://www.youtube.com/watch?v=r"
+   },
+   {
+    "title": "File:John Searle Signature.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/John_Searle_Signature.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/d/db/John_Searle_Signature.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1340,
+    "height": 350,
+    "licence": "CC BY-SA 4.0",
+    "artist": "FranksValli",
+    "credit": "FranksValli / CC BY-SA 4.0",
+    "desc": "Transparent and cleaned up version of https://commons.wikimedia.org/wiki/File:SearleSign.jpg"
+   },
+   {
+    "title": "File:John Searle speaking at Google 5.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/John_Searle_speaking_at_Google_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/3/30/John_Searle_speaking_at_Google_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2704,
+    "height": 4056,
+    "licence": "CC BY-SA 4.0",
+    "artist": "FranksValli",
+    "credit": "FranksValli / CC BY-SA 4.0",
+    "desc": "John Searle giving his talk \"Consciousness in Artificial Intelligence\" at Google in Mountain View on November 23, 2015. Video: https://www.youtube.com/watch?v=r"
+   }
+  ],
+  "turing": [
+   {
+    "title": "File:Alan Turing by Stephen Kettle 2007.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Alan_Turing_by_Stephen_Kettle_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Alan_Turing_by_Stephen_Kettle_2007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2544,
+    "height": 3264,
+    "licence": "CC BY-SA 4.0",
+    "artist": "DeFacto",
+    "credit": "DeFacto / CC BY-SA 4.0",
+    "desc": "Sculpture in slate of Alan Turing, the father of theoretical computer science and artificial intelligence, by Stephen Kettle (2007). Located in the Bletchley Pa"
+   },
+   {
+    "title": "File:Open University MMB 11 Alan Turing Building.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Open_University_MMB_11_Alan_Turing_Building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/9/98/Open_University_MMB_11_Alan_Turing_Building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2436,
+    "height": 3620,
+    "licence": "CC BY-SA 3.0",
+    "artist": "mattbuck (category)",
+    "credit": "mattbuck (category) / CC BY-SA 3.0",
+    "desc": "The Alan Turing Building on the Open University's Milton Keynes campus."
+   },
+   {
+    "title": "File:Alan Turing Way - geograph.org.uk - 4208929.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Alan_Turing_Way_-_geograph.org.uk_-_4208929.jpg/3840px-Alan_Turing_Way_-_geograph.org.uk_-_4208929.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/5/56/Alan_Turing_Way_-_geograph.org.uk_-_4208929.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3888,
+    "height": 2592,
+    "licence": "CC BY-SA 2.0",
+    "artist": "Peter McDermott",
+    "credit": "Peter McDermott / CC BY-SA 2.0",
+    "desc": "Alan Turing Way"
+   }
+  ],
+  "eliza": [],
+  "chinese": [
+   {
+    "title": "File:Dalian Liaoning China Water-Calligraphy-01.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Dalian_Liaoning_China_Water-Calligraphy-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/1/10/Dalian_Liaoning_China_Water-Calligraphy-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3500,
+    "height": 2333,
+    "licence": "CC BY-SA 3.0",
+    "artist": "CEphoto, Uwe Aranas",
+    "credit": "CEphoto, Uwe Aranas / CC BY-SA 3.0",
+    "desc": "Dalian Liaoning China: A man, lost in his water calligraphy drawing in the Zhongshan Square Park in Dalian"
+   },
+   {
+    "title": "File:64 Chinese Characters (9124122696).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/64_Chinese_Characters_%289124122696%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/2/28/64_Chinese_Characters_%289124122696%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2448,
+    "height": 3264,
+    "licence": "CC BY 2.0",
+    "artist": "Photo Dharma from Sadao, Thailand",
+    "credit": "Photo Dharma from Sadao, Thailand / CC BY 2.0",
+    "desc": "Malaysia"
+   },
+   {
+    "title": "File:Latin characters written on pillars in the style of Traditional Chinese characters in 2015.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Latin_characters_written_on_pillars_in_the_style_of_Traditional_Chinese_characters_in_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/8/81/Latin_characters_written_on_pillars_in_the_style_of_Traditional_Chinese_characters_in_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3072,
+    "height": 1728,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Vuong Tri Binh",
+    "credit": "Vuong Tri Binh / CC BY-SA 4.0",
+    "desc": "Latin characters written on pillars in the style of Traditional Chinese characters in 2015."
+   }
+  ],
+  "deepblue": [
+   {
+    "title": "File:IBM Deep Blue at Computer History Museum (9361685537).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/IBM_Deep_Blue_at_Computer_History_Museum_%289361685537%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/e/ee/IBM_Deep_Blue_at_Computer_History_Museum_%289361685537%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1067,
+    "height": 1600,
+    "licence": "CC BY 2.0",
+    "artist": "Anton Chiang from Cupertino, CA, USA",
+    "credit": "Anton Chiang from Cupertino, CA, USA / CC BY 2.0",
+    "desc": "Computer History Museum"
+   },
+   {
+    "title": "File:Say hello to Deep Blue (2586059148).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Say_hello_to_Deep_Blue_%282586059148%29.jpg/1920px-Say_hello_to_Deep_Blue_%282586059148%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Say_hello_to_Deep_Blue_%282586059148%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2112,
+    "height": 2816,
+    "licence": "CC BY 2.0",
+    "artist": "Erik Pitti from San Diego, CA, USA",
+    "credit": "Erik Pitti from San Diego, CA, USA / CC BY 2.0",
+    "desc": "&lt;a href=\"http://en.wikipedia.org/wiki/IBM_Deep_Blue\"&gt;Deep Blue&lt;/a&gt; is the computer that in 1997 bested &lt;a href=\"http://en.wikipedia.org/wiki/Garr"
+   },
+   {
+    "title": "File:One of Deep Blue's processors (2586060990).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/One_of_Deep_Blue%27s_processors_%282586060990%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/8/83/One_of_Deep_Blue%27s_processors_%282586060990%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2067,
+    "height": 2756,
+    "licence": "CC BY 2.0",
+    "artist": "Erik Pitti from San Diego, CA, USA",
+    "credit": "Erik Pitti from San Diego, CA, USA / CC BY 2.0",
+    "desc": "&lt;a href=\"http://en.wikipedia.org/wiki/IBM_Deep_Blue\"&gt;Deep Blue&lt;/a&gt; is the computer that in 1997 bested &lt;a href=\"http://en.wikipedia.org/wiki/Garr"
+   }
+  ]
+ }
+}
