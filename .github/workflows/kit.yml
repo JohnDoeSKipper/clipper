@@ -1,15 +1,16 @@
 name: Tonight's posting kit
 
-# 7 pm Malaysia time (11:00 UTC; minute 7 because GitHub delays runs on the hour).
-# Builds https://johndoeskipper.github.io/clipper/ with tonight's videos and captions,
-# then opens a reminder issue (GitHub sends it to your phone).
+# Builds https://johndoeskipper.github.io/clipper/ with today's videos and captions.
+# GitHub's scheduler can start a run hours late, so it runs four times a day
+# (8:07 am, 12:07, 4:07 pm, 6:07 pm Malaysia time) and after every render; every run
+# on the same Malaysia date shows the same videos. The reminder issue is opened once a day.
 on:
   schedule:
-    - cron: "7 11 * * *"
+    - cron: "7 0,4,8,10 * * *"
+  workflow_run:
+    workflows: ["Render videos"]
+    types: [completed]
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths: [".github/workflows/kit.yml"]
 
 permissions:
   contents: write
@@ -50,15 +51,16 @@ jobs:
           git config user.email "clipper-bot@users.noreply.github.com"
           git add catalog/posted.json
           git diff --cached --quiet || (git commit -m "Posting kit $(TZ=Asia/Kuala_Lumpur date +%F)" && git pull --rebase -q && git push)
-      - name: Remind
+      - name: Remind (once a day)
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SUMMARY: ${{ steps.kit.outputs.summary }}
         run: |
+          TITLE="Post tonight at 8 pm ($(TZ=Asia/Kuala_Lumpur date '+%a %d %b'))"
           gh label create posting --color 0a84ff --force >/dev/null
+          if gh issue list --label posting --state open --json title -q '.[].title' | grep -Fxq "$TITLE"; then echo "reminder already open"; exit 0; fi
           for n in $(gh issue list --label posting --state open --json number -q '.[].number'); do gh issue close "$n" >/dev/null; done
-          gh issue create --label posting \
-            --title "Post tonight at 8 pm ($(TZ=Asia/Kuala_Lumpur date '+%a %d %b'))" \
+          gh issue create --label posting --title "$TITLE" \
             --body "Open the kit on your phone: ${{ steps.deploy.outputs.page_url }}
 
           Tonight: $SUMMARY
