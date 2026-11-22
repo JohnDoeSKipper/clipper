@@ -465,8 +465,8 @@
  "actions": [
   {
    "id": "shrineOld",
-   "at": "0:tears",
-   "dur": 0.7,
+   "at": "0:and",
+   "dur": 0.45,
    "scale": 0.05,
    "ease": "inout"
   },
