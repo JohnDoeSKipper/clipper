@@ -12,6 +12,41 @@
   "desc": "Although it is often used in tsunami literature, there is no reason to suspect that Hokusai intended it to be interpreted in that way. The waves in this work ar"
  },
  "inserts": {
+  "prussian": [
+   {
+    "title": "File:Pigment Berliner Blau.JPG",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Pigment_Berliner_Blau.JPG/3840px-Pigment_Berliner_Blau.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Pigment_Berliner_Blau.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4830,
+    "height": 2553,
+    "licence": "CC0",
+    "artist": "Saalebaer",
+    "credit": "",
+    "desc": "The Pigment Prussian Blue was invented in 1706 and named after the country in which the invention took place."
+   },
+   {
+    "title": "File:Prussian blue.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Prussian_blue.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Prussian_blue.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1914,
+    "height": 420,
+    "licence": "Public domain",
+    "artist": "Picture created by publunch",
+    "credit": "",
+    "desc": "Prussian blue oil paint thinned with turpentine."
+   },
+   {
+    "title": "File:Prussian Blue Powder XRD Profile, Simulated.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Prussian_Blue_Powder_XRD_Profile%2C_Simulated.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Prussian_Blue_Powder_XRD_Profile%2C_Simulated.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1919,
+    "height": 1090,
+    "licence": "CC BY-SA 4.0",
+    "artist": "ClioBatali",
+    "credit": "ClioBatali / CC BY-SA 4.0",
+    "desc": "Images and video generated using CrystalMaker\u00ae: a crystal and molecular structures program for Mac and Windows. CrystalMaker Software Ltd, Oxford, England (www."
+   }
+  ],
   "redfuji": [
    {
     "title": "File:Katsushika Hokusai, published by Nishimuraya Yohachi (Eijud\u014d) - Fine Wind, Clear Weather (Gaif\u016b kaisei), also known as Red Fuji, from the series Thirty-six Views o... - Google Art Project - Cropped.jpg",
@@ -60,54 +95,252 @@
     "desc": ""
    }
   ],
-  "fuji": [
+  "vangogh": [
    {
-    "title": "File:Mount Fuji seen from JR Fujisawa Station 2022 Oct 31 05-20PM.jpeg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Mount_Fuji_seen_from_JR_Fujisawa_Station_2022_Oct_31_05-20PM.jpeg/3840px-Mount_Fuji_seen_from_JR_Fujisawa_Station_2022_Oct_31_05-20PM.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/7/74/Mount_Fuji_seen_from_JR_Fujisawa_Station_2022_Oct_31_05-20PM.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 4032,
-    "height": 3024,
-    "licence": "CC BY 4.0",
-    "artist": "Nesnad",
-    "credit": "Nesnad / CC BY 4.0",
-    "desc": "\u85e4\u6ca2\u99c5 (Fujisawa Station)"
-   }
-  ],
-  "prussian": [
-   {
-    "title": "File:Pigment Berliner Blau.JPG",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Pigment_Berliner_Blau.JPG/3840px-Pigment_Berliner_Blau.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Pigment_Berliner_Blau.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 4830,
-    "height": 2553,
-    "licence": "CC0",
-    "artist": "Saalebaer",
-    "credit": "",
-    "desc": "The Pigment Prussian Blue was invented in 1706 and named after the country in which the invention took place."
-   },
-   {
-    "title": "File:Prussian blue.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Prussian_blue.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Prussian_blue.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 1914,
-    "height": 420,
+    "title": "File:Vincent van Gogh - Self-Portrait - Google Art Project (454045).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%28454045%29.jpg/3840px-Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%28454045%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%28454045%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4747,
+    "height": 6000,
     "licence": "Public domain",
-    "artist": "Picture created by publunch",
+    "artist": "Vincent van Gogh",
     "credit": "",
-    "desc": "Prussian blue oil paint thinned with turpentine."
+    "desc": ""
    },
    {
-    "title": "File:Prussian Blue Powder XRD Profile, Simulated.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Prussian_Blue_Powder_XRD_Profile%2C_Simulated.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Prussian_Blue_Powder_XRD_Profile%2C_Simulated.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 1919,
-    "height": 1090,
-    "licence": "CC BY-SA 4.0",
-    "artist": "ClioBatali",
-    "credit": "ClioBatali / CC BY-SA 4.0",
-    "desc": "Images and video generated using CrystalMaker\u00ae: a crystal and molecular structures program for Mac and Windows. CrystalMaker Software Ltd, Oxford, England (www."
+    "title": "File:VanGogh 1887 Selbstbildnis.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/VanGogh_1887_Selbstbildnis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/3/38/VanGogh_1887_Selbstbildnis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1783,
+    "height": 2250,
+    "licence": "Public domain",
+    "artist": "Vincent van Gogh",
+    "credit": "",
+    "desc": ""
+   },
+   {
+    "title": "File:Vincent van Gogh - Self-Portrait - Google Art Project.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3142,
+    "height": 3820,
+    "licence": "Public domain",
+    "artist": "Vincent van Gogh",
+    "credit": "",
+    "desc": ""
    }
   ],
-  "woodblock": []
+  "letter": [
+   {
+    "title": "File:Vincent van Gogh - Head of a skeleton with a burning cigarette - Google Art Project.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Vincent_van_Gogh_-_Head_of_a_skeleton_with_a_burning_cigarette_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/8/87/Vincent_van_Gogh_-_Head_of_a_skeleton_with_a_burning_cigarette_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2481,
+    "height": 3289,
+    "licence": "Public domain",
+    "artist": "Vincent van Gogh",
+    "credit": "",
+    "desc": ""
+   },
+   {
+    "title": "File:Letter from Vincent Van Gogh to Theo Van Gogh 9 April 1885.jpeg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Letter_from_Vincent_Van_Gogh_to_Theo_Van_Gogh_9_April_1885.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/b/be/Letter_from_Vincent_Van_Gogh_to_Theo_Van_Gogh_9_April_1885.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1200,
+    "height": 946,
+    "licence": "Public domain",
+    "artist": "Vincent van Gogh",
+    "credit": "",
+    "desc": "A letter from Vincent Van Gogh to his brother Theo Van Gogh, Nuenen, Thursday, 9 April 1885. The letter includes a sketch of his first masterpiece The Potato Ea"
+   },
+   {
+    "title": "File:Vincent van Gogh - Sketch C Letter 902 - JH2116.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Vincent_van_Gogh_-_Sketch_C_Letter_902_-_JH2116.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/2/26/Vincent_van_Gogh_-_Sketch_C_Letter_902_-_JH2116.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2575,
+    "height": 1990,
+    "licence": "Public domain",
+    "artist": "Vincent van Gogh",
+    "credit": "",
+    "desc": ""
+   }
+  ],
+  "starry": [
+   {
+    "title": "File:Vincent van Gogh - Starry Night - Google Art Project.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Vincent_van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/3840px-Vincent_van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/0/01/Vincent_van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4331,
+    "height": 3346,
+    "licence": "Public domain",
+    "artist": "Vincent van Gogh",
+    "credit": "",
+    "desc": "Vincent van Gogh - Starry Night on the Rhone, 1888"
+   },
+   {
+    "title": "File:Van Gogh - Starry Night - Google Art Project.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/3840px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 44567,
+    "height": 35291,
+    "licence": "Public domain",
+    "artist": "Vincent van Gogh",
+    "credit": "",
+    "desc": ""
+   },
+   {
+    "title": "File:Vincent van Gogh - The yellow house ('The street').jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Vincent_van_Gogh_-_The_yellow_house_%28%27The_street%27%29.jpg/3840px-Vincent_van_Gogh_-_The_yellow_house_%28%27The_street%27%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Vincent_van_Gogh_-_The_yellow_house_%28%27The_street%27%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 6917,
+    "height": 5366,
+    "licence": "Public domain",
+    "artist": "Vincent van Gogh",
+    "credit": "",
+    "desc": ""
+   }
+  ],
+  "japonisme": [
+   {
+    "title": "File:Courtisane (naar Eisen) - s0116V1962 - Van Gogh Museum.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Courtisane_%28naar_Eisen%29_-_s0116V1962_-_Van_Gogh_Museum.jpg/3840px-Courtisane_%28naar_Eisen%29_-_s0116V1962_-_Van_Gogh_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Courtisane_%28naar_Eisen%29_-_s0116V1962_-_Van_Gogh_Museum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4582,
+    "height": 7648,
+    "licence": "Public domain",
+    "artist": "Vincent van Gogh",
+    "credit": "",
+    "desc": "Painting by Vincent van Gogh, 1887"
+   },
+   {
+    "title": "File:Vincent van Gogh - Courtesan- after Eisen - Google Art Project.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Vincent_van_Gogh_-_Courtesan-_after_Eisen_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Vincent_van_Gogh_-_Courtesan-_after_Eisen_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2102,
+    "height": 3508,
+    "licence": "Public domain",
+    "artist": "Vincent van Gogh",
+    "credit": "",
+    "desc": ""
+   },
+   {
+    "title": "File:Courtesan - after Eisen - My Dream.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Courtesan_-_after_Eisen_-_My_Dream.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Courtesan_-_after_Eisen_-_My_Dream.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2316,
+    "height": 3953,
+    "licence": "Public domain",
+    "artist": "Vincent van Gogh",
+    "credit": "",
+    "desc": ""
+   }
+  ],
+  "christies": [
+   {
+    "title": "File:Christie's (Manhattan, New York) 001.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Christie%27s_%28Manhattan%2C_New_York%29_001.jpg/3840px-Christie%27s_%28Manhattan%2C_New_York%29_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/0/04/Christie%27s_%28Manhattan%2C_New_York%29_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4000,
+    "height": 3000,
+    "licence": "CC BY-SA 3.0",
+    "artist": "Leonard J. DeFrancisci",
+    "credit": "Leonard J. DeFrancisci / CC BY-SA 3.0",
+    "desc": "Christie's, 20 Rockefeller Plaza, Manhattan, New York."
+   },
+   {
+    "title": "File:Nellybelle in front of Christies - panoramio.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Nellybelle_in_front_of_Christies_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Nellybelle_in_front_of_Christies_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3264,
+    "height": 1952,
+    "licence": "CC BY-SA 3.0",
+    "artist": "hill10003",
+    "credit": "hill10003 / CC BY-SA 3.0",
+    "desc": "Nellybelle in front of en:Christie's"
+   },
+   {
+    "title": "File:William-Adolphe Bouguereau (1825-1905) - Pieta (1876).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/William-Adolphe_Bouguereau_%281825-1905%29_-_Pieta_%281876%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/b/bc/William-Adolphe_Bouguereau_%281825-1905%29_-_Pieta_%281876%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1948,
+    "height": 3059,
+    "licence": "Public domain",
+    "artist": "William-Adolphe Bouguereau",
+    "credit": "",
+    "desc": "Piet\u00e0"
+   }
+  ],
+  "wb1": [
+   {
+    "title": "File:Sake gift certificate samurai woodblock print.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Sake_gift_certificate_samurai_woodblock_print.jpg/3840px-Sake_gift_certificate_samurai_woodblock_print.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Sake_gift_certificate_samurai_woodblock_print.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 6080,
+    "height": 4347,
+    "licence": "Public domain",
+    "artist": "self-scanned; original author unknown",
+    "credit": "",
+    "desc": "Taisho-era gift certificate, from a specific shop in Japan, for refined sake. Depicts a samurai on horseback, against a rayed, rising sun; framed by an array of"
+   },
+   {
+    "title": "File:Printer's woodblock for a Kitagawa Utamaro print MET 33 76 1 O1 sf.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Printer%27s_woodblock_for_a_Kitagawa_Utamaro_print_MET_33_76_1_O1_sf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/8/83/Printer%27s_woodblock_for_a_Kitagawa_Utamaro_print_MET_33_76_1_O1_sf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1500,
+    "height": 2000,
+    "licence": "CC0",
+    "artist": "",
+    "credit": "",
+    "desc": ""
+   },
+   {
+    "title": "File:Sake gift certificate samurai woodblock print reverse side.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Sake_gift_certificate_samurai_woodblock_print_reverse_side.jpg/3840px-Sake_gift_certificate_samurai_woodblock_print_reverse_side.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Sake_gift_certificate_samurai_woodblock_print_reverse_side.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 6080,
+    "height": 4347,
+    "licence": "Public domain",
+    "artist": "self-scanned; original author unknown",
+    "credit": "",
+    "desc": "Taish\u014d-era gift certificate for refined sake, from a specific shop in Japan. Depicts a samurai on horseback against a rayed, rising sun; framed by an array of t"
+   }
+  ],
+  "wb2": [],
+  "wb3": [],
+  "wb4": [
+   {
+    "title": "File:MET 49 46 1 O1 sf.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/MET_49_46_1_O1_sf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/f/f7/MET_49_46_1_O1_sf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1500,
+    "height": 2000,
+    "licence": "CC0",
+    "artist": "Utagawa Kunisada / Utagawa Hiroshige II",
+    "credit": "",
+    "desc": "Printer's Key Woodblock for the print Nachisan in Kii Province, No. 1 of the Saikoku Pilgrimage Route: Izumi Shikibu (Saikoku junrei ichiban Kish\u00fb Nachisan, Izu"
+   },
+   {
+    "title": "File:Courtesans of the Ogiya Brothel (5759528348).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Courtesans_of_the_Ogiya_Brothel_%285759528348%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Courtesans_of_the_Ogiya_Brothel_%285759528348%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2734,
+    "height": 3964,
+    "licence": "Public domain",
+    "artist": "thesandiegomuseumofartcollection",
+    "credit": "",
+    "desc": "Accession Number: 1957.154 Display Artist: Kikukawa Eizan Display Title: Courtesans of the Ogiya Brothel Creation Date: ca. 1810-1815 Height: 15 1/16 in. Width:"
+   },
+   {
+    "title": "File:Utagawa Kuninao - Book covers for Ono no Komachi ukiyo Genji, Part 13, Vols. 1 and 2.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Utagawa_Kuninao_-_Book_covers_for_Ono_no_Komachi_ukiyo_Genji%2C_Part_13%2C_Vols._1_and_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/9/93/Utagawa_Kuninao_-_Book_covers_for_Ono_no_Komachi_ukiyo_Genji%2C_Part_13%2C_Vols._1_and_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1600,
+    "height": 1201,
+    "licence": "Public domain",
+    "artist": "Utagawa Kuninao",
+    "credit": "",
+    "desc": ""
+   }
+  ]
  }
 }
