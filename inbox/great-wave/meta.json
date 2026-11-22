@@ -95,8 +95,6 @@
     "desc": ""
    }
   ],
-  "woodblock": [],
-  "printing": [],
   "vangogh": [
    {
     "title": "File:Vincent van Gogh - Self-Portrait - Google Art Project (454045).jpg",
@@ -270,6 +268,78 @@
     "artist": "William-Adolphe Bouguereau",
     "credit": "",
     "desc": "Piet\u00e0"
+   }
+  ],
+  "wb1": [
+   {
+    "title": "File:Sake gift certificate samurai woodblock print.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Sake_gift_certificate_samurai_woodblock_print.jpg/3840px-Sake_gift_certificate_samurai_woodblock_print.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Sake_gift_certificate_samurai_woodblock_print.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 6080,
+    "height": 4347,
+    "licence": "Public domain",
+    "artist": "self-scanned; original author unknown",
+    "credit": "",
+    "desc": "Taisho-era gift certificate, from a specific shop in Japan, for refined sake. Depicts a samurai on horseback, against a rayed, rising sun; framed by an array of"
+   },
+   {
+    "title": "File:Printer's woodblock for a Kitagawa Utamaro print MET 33 76 1 O1 sf.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Printer%27s_woodblock_for_a_Kitagawa_Utamaro_print_MET_33_76_1_O1_sf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/8/83/Printer%27s_woodblock_for_a_Kitagawa_Utamaro_print_MET_33_76_1_O1_sf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1500,
+    "height": 2000,
+    "licence": "CC0",
+    "artist": "",
+    "credit": "",
+    "desc": ""
+   },
+   {
+    "title": "File:Sake gift certificate samurai woodblock print reverse side.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Sake_gift_certificate_samurai_woodblock_print_reverse_side.jpg/3840px-Sake_gift_certificate_samurai_woodblock_print_reverse_side.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Sake_gift_certificate_samurai_woodblock_print_reverse_side.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 6080,
+    "height": 4347,
+    "licence": "Public domain",
+    "artist": "self-scanned; original author unknown",
+    "credit": "",
+    "desc": "Taish\u014d-era gift certificate for refined sake, from a specific shop in Japan. Depicts a samurai on horseback against a rayed, rising sun; framed by an array of t"
+   }
+  ],
+  "wb2": [],
+  "wb3": [],
+  "wb4": [
+   {
+    "title": "File:MET 49 46 1 O1 sf.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/MET_49_46_1_O1_sf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/f/f7/MET_49_46_1_O1_sf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1500,
+    "height": 2000,
+    "licence": "CC0",
+    "artist": "Utagawa Kunisada / Utagawa Hiroshige II",
+    "credit": "",
+    "desc": "Printer's Key Woodblock for the print Nachisan in Kii Province, No. 1 of the Saikoku Pilgrimage Route: Izumi Shikibu (Saikoku junrei ichiban Kish\u00fb Nachisan, Izu"
+   },
+   {
+    "title": "File:Courtesans of the Ogiya Brothel (5759528348).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Courtesans_of_the_Ogiya_Brothel_%285759528348%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Courtesans_of_the_Ogiya_Brothel_%285759528348%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2734,
+    "height": 3964,
+    "licence": "Public domain",
+    "artist": "thesandiegomuseumofartcollection",
+    "credit": "",
+    "desc": "Accession Number: 1957.154 Display Artist: Kikukawa Eizan Display Title: Courtesans of the Ogiya Brothel Creation Date: ca. 1810-1815 Height: 15 1/16 in. Width:"
+   },
+   {
+    "title": "File:Utagawa Kuninao - Book covers for Ono no Komachi ukiyo Genji, Part 13, Vols. 1 and 2.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Utagawa_Kuninao_-_Book_covers_for_Ono_no_Komachi_ukiyo_Genji%2C_Part_13%2C_Vols._1_and_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/9/93/Utagawa_Kuninao_-_Book_covers_for_Ono_no_Komachi_ukiyo_Genji%2C_Part_13%2C_Vols._1_and_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1600,
+    "height": 1201,
+    "licence": "Public domain",
+    "artist": "Utagawa Kuninao",
+    "credit": "",
+    "desc": ""
    }
   ]
  }

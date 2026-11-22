@@ -2,9 +2,6 @@
  "id": "ship-of-theseus",
  "painting": null,
  "inserts": {
-  "ise": [],
-  "sengu": [],
-  "torii": [],
   "theseus": [
    {
     "title": "File:Lekhytos with Theseus and the Minotaur - KAMA.jpg",
@@ -110,39 +107,308 @@
     "desc": ""
    }
   ],
+  "ise1": [
+   {
+    "title": "File:Ise-Grand-Shrine-Emperor-Meiji-Sadahide-Utagawa-1869.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Ise-Grand-Shrine-Emperor-Meiji-Sadahide-Utagawa-1869.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Ise-Grand-Shrine-Emperor-Meiji-Sadahide-Utagawa-1869.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2560,
+    "height": 1247,
+    "licence": "Public domain",
+    "artist": "Sadahide Utagawa (1807-1873), \u6b4c\u5ddd \u8c9e\u79c0",
+    "credit": "",
+    "desc": "This ukiyo-e depicts the appearance of Emperor Meiji (center) worshiping \"Ise Jingu\" on a portable shrine on March 11, 1869 (Meiji 2)."
+   },
+   {
+    "title": "File:Ise Ise-jingu Kagura-den 06.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Ise_Ise-jingu_Kagura-den_06.jpg/3840px-Ise_Ise-jingu_Kagura-den_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Ise_Ise-jingu_Kagura-den_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4930,
+    "height": 3864,
+    "licence": "CC BY 4.0",
+    "artist": "Zairon",
+    "credit": "Zairon / CC BY 4.0",
+    "desc": "Kagura-den of the Ise Shrine, Ise, Prefecture of Mie, Region of Kinki, Japan"
+   },
+   {
+    "title": "File:Ise Ise-jingu Kagura-den 01.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Ise_Ise-jingu_Kagura-den_01.jpg/3840px-Ise_Ise-jingu_Kagura-den_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/2/29/Ise_Ise-jingu_Kagura-den_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 5172,
+    "height": 3709,
+    "licence": "CC BY 4.0",
+    "artist": "Zairon",
+    "credit": "Zairon / CC BY 4.0",
+    "desc": "Kagura-den of the Ise Shrine, Ise, Prefecture of Mie, Region of Kinki, Japan"
+   }
+  ],
+  "ise2": [
+   {
+    "title": "File:Naiku Ise Shrine 46.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Naiku_Ise_Shrine_46.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/5/58/Naiku_Ise_Shrine_46.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1600,
+    "height": 1200,
+    "licence": "CC0",
+    "artist": "Brakeet",
+    "credit": "",
+    "desc": "K\u014dtai-jing\u016b (Naiku) at Ise city, Mie prefecture, Japan."
+   },
+   {
+    "title": "File:Naiku Ise Shrine 48.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Naiku_Ise_Shrine_48.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/1/13/Naiku_Ise_Shrine_48.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1600,
+    "height": 1200,
+    "licence": "CC0",
+    "artist": "Brakeet",
+    "credit": "",
+    "desc": "K\u014dtai-jing\u016b (Naiku) at Ise city, Mie prefecture, Japan."
+   },
+   {
+    "title": "File:Naiku Ise Shrine 47.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Naiku_Ise_Shrine_47.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Naiku_Ise_Shrine_47.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1600,
+    "height": 1200,
+    "licence": "CC0",
+    "artist": "Brakeet",
+    "credit": "",
+    "desc": "K\u014dtai-jing\u016b (Naiku) at Ise city, Mie prefecture, Japan."
+   }
+  ],
+  "ise3": [
+   {
+    "title": "File:Ise-Grand-Shrine-Emperor-Meiji-Sadahide-Utagawa-1869.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Ise-Grand-Shrine-Emperor-Meiji-Sadahide-Utagawa-1869.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Ise-Grand-Shrine-Emperor-Meiji-Sadahide-Utagawa-1869.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2560,
+    "height": 1247,
+    "licence": "Public domain",
+    "artist": "Sadahide Utagawa (1807-1873), \u6b4c\u5ddd \u8c9e\u79c0",
+    "credit": "",
+    "desc": "This ukiyo-e depicts the appearance of Emperor Meiji (center) worshiping \"Ise Jingu\" on a portable shrine on March 11, 1869 (Meiji 2)."
+   },
+   {
+    "title": "File:Iseyama koutai-jingu Honden.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Iseyama_koutai-jingu_Honden.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Iseyama_koutai-jingu_Honden.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2407,
+    "height": 1607,
+    "licence": "Public domain",
+    "artist": "\u685c\u7537\u7235",
+    "credit": "",
+    "desc": "\u4f0a\u52e2\u5c71\u7687\u5927\u795e\u5bae\u65b0\u672c\u6bbf"
+   },
+   {
+    "title": "File:Iseyama koutai-jingu Torii.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Iseyama_koutai-jingu_Torii.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Iseyama_koutai-jingu_Torii.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2304,
+    "height": 1728,
+    "licence": "Public domain",
+    "artist": "\u685c\u7537\u7235",
+    "credit": "",
+    "desc": "\u4f0a\u52e2\u5c71\u7687\u5927\u795e\u5bae\u5927\u968e\u6bb5\u3088\u308a2019\u5e74\u73fe\u5728\u306e\u5883\u5185\u98a8\u666f"
+   }
+  ],
+  "uji": [
+   {
+    "title": "File:Uji-bashi 01.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Uji-bashi_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Uji-bashi_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1024,
+    "height": 768,
+    "licence": "CC BY 2.5",
+    "artist": "No machine-readable author provided. N yotarou assumed (based on copyright claim",
+    "credit": "No machine-readable author provided. N yotarou assumed (based on copyright claim / CC BY 2.5",
+    "desc": "The Uji-bashi, the bridge in front of Kotaijingu(Naiku), Ise city, Mie Prefecture, Japan."
+   },
+   {
+    "title": "File:Ise Shrine Uji-bashi1.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Ise_Shrine_Uji-bashi1.jpg/3840px-Ise_Shrine_Uji-bashi1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Ise_Shrine_Uji-bashi1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4128,
+    "height": 3096,
+    "licence": "CC BY-SA 3.0",
+    "artist": "Yanajin33",
+    "credit": "Yanajin33 / CC BY-SA 3.0",
+    "desc": "Ise Jingu Uji Bridge"
+   },
+   {
+    "title": "File:Uji-bashi 06.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Uji-bashi_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/d/db/Uji-bashi_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3000,
+    "height": 2000,
+    "licence": "CC BY-SA 4.0",
+    "artist": "N yotarou",
+    "credit": "N yotarou / CC BY-SA 4.0",
+    "desc": "The Uji-bashi, the bridge in front of Kotaijingu(Naiku), Ise city, Mie Prefecture, Japan."
+   }
+  ],
+  "sengu": [
+   {
+    "title": "File:Shikinen-sengu 001.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Shikinen-sengu_001.jpg/3840px-Shikinen-sengu_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Shikinen-sengu_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4288,
+    "height": 2848,
+    "licence": "CC BY-SA 3.0",
+    "artist": "Ocdp",
+    "credit": "Ocdp / CC BY-SA 3.0",
+    "desc": "2013\u5e74\u3001\u7b2c62\u56de\u5f0f\u5e74\u9077\u5bae\u306e\u969b\u306e\u5185\u5bae\u6b63\u6bbf\u306e\u69d8\u5b50"
+   },
+   {
+    "title": "File:CBC crew at Jingu Shikinen Sengu.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/CBC_crew_at_Jingu_Shikinen_Sengu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/e/e0/CBC_crew_at_Jingu_Shikinen_Sengu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3809,
+    "height": 2249,
+    "licence": "CC BY-SA 3.0",
+    "artist": "Miyuki Meinaka",
+    "credit": "Miyuki Meinaka / CC BY-SA 3.0",
+    "desc": "They are Japanese TV crew who was collecting news about Jingu Shikinen Sengu."
+   },
+   {
+    "title": "File:Ise-Grand-Shrine-Emperor-Meiji-Sadahide-Utagawa-1869.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Ise-Grand-Shrine-Emperor-Meiji-Sadahide-Utagawa-1869.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Ise-Grand-Shrine-Emperor-Meiji-Sadahide-Utagawa-1869.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2560,
+    "height": 1247,
+    "licence": "Public domain",
+    "artist": "Sadahide Utagawa (1807-1873), \u6b4c\u5ddd \u8c9e\u79c0",
+    "credit": "",
+    "desc": "This ukiyo-e depicts the appearance of Emperor Meiji (center) worshiping \"Ise Jingu\" on a portable shrine on March 11, 1869 (Meiji 2)."
+   }
+  ],
   "bomb": [
    {
-    "title": "File:Nevada Test Site (Now Nevada National Security Site), North of Beatty and Las Vegas, Nevada (18199667635).jpg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Nevada_Test_Site_%28Now_Nevada_National_Security_Site%29%2C_North_of_Beatty_and_Las_Vegas%2C_Nevada_%2818199667635%29.jpg/3840px-Nevada_Test_Site_%28Now_Nevada_National_Security_Site%29%2C_North_of_Beatty_and_Las_Vegas%2C_Nevada_%2818199667635%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Nevada_Test_Site_%28Now_Nevada_National_Security_Site%29%2C_North_of_Beatty_and_Las_Vegas%2C_Nevada_%2818199667635%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 4000,
-    "height": 3000,
-    "licence": "CC BY-SA 2.0",
-    "artist": "Ken Lund from Reno, Nevada, USA",
-    "credit": "Ken Lund from Reno, Nevada, USA / CC BY-SA 2.0",
-    "desc": "The Nevada National Security Site (NNSS), previously the Nevada Test Site (NTS), is a United States Department of Energy reservation located in southeastern Nye"
+    "title": "File:Castle Bravo Shrimp Device 002 - restoration1.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Castle_Bravo_Shrimp_Device_002_-_restoration1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Castle_Bravo_Shrimp_Device_002_-_restoration1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3001,
+    "height": 2400,
+    "licence": "Public domain",
+    "artist": "Federal government of the United States Restored by: Bammesk",
+    "credit": "",
+    "desc": "Castle Bravo nuclear test. The Shrimp device in its shot cab. DTRIAC photo ID: IM-4: D-92-1"
    },
    {
-    "title": "File:Nevada Test Site (Now Nevada National Security Site), North of Beatty and Las Vegas, Nevada (18200767941).jpg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Nevada_Test_Site_%28Now_Nevada_National_Security_Site%29%2C_North_of_Beatty_and_Las_Vegas%2C_Nevada_%2818200767941%29.jpg/3840px-Nevada_Test_Site_%28Now_Nevada_National_Security_Site%29%2C_North_of_Beatty_and_Las_Vegas%2C_Nevada_%2818200767941%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Nevada_Test_Site_%28Now_Nevada_National_Security_Site%29%2C_North_of_Beatty_and_Las_Vegas%2C_Nevada_%2818200767941%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 4000,
-    "height": 3000,
-    "licence": "CC BY-SA 2.0",
-    "artist": "Ken Lund from Reno, Nevada, USA",
-    "credit": "Ken Lund from Reno, Nevada, USA / CC BY-SA 2.0",
-    "desc": "The Nevada National Security Site (NNSS), previously the Nevada Test Site (NTS), is a United States Department of Energy reservation located in southeastern Nye"
+    "title": "File:Castle Bravo Shrimp Device 002.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Castle_Bravo_Shrimp_Device_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/6/65/Castle_Bravo_Shrimp_Device_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3001,
+    "height": 2400,
+    "licence": "Public domain",
+    "artist": "Federal government of the United States",
+    "credit": "",
+    "desc": "Castle Bravo nuclear test. The Shrimp device in its shot cab. DTRIAC photo ID: IM-4: D-92-1"
    },
    {
-    "title": "File:Nevada Test Site (Now Nevada National Security Site), North of Beatty and Las Vegas, Nevada (17576751584).jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Nevada_Test_Site_%28Now_Nevada_National_Security_Site%29%2C_North_of_Beatty_and_Las_Vegas%2C_Nevada_%2817576751584%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/8/85/Nevada_Test_Site_%28Now_Nevada_National_Security_Site%29%2C_North_of_Beatty_and_Las_Vegas%2C_Nevada_%2817576751584%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 3000,
-    "height": 4000,
-    "licence": "CC BY-SA 2.0",
-    "artist": "Ken Lund from Reno, Nevada, USA",
-    "credit": "Ken Lund from Reno, Nevada, USA / CC BY-SA 2.0",
-    "desc": "The Nevada National Security Site (NNSS), previously the Nevada Test Site (NTS), is a United States Department of Energy reservation located in southeastern Nye"
+    "title": "File:Castle Bravo 005.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Castle_Bravo_005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/4/48/Castle_Bravo_005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1280,
+    "height": 724,
+    "licence": "Public domain",
+    "artist": "Federal government of the United States",
+    "credit": "",
+    "desc": "Castle Bravo nuclear test."
+   }
+  ],
+  "bomb2": [
+   {
+    "title": "File:IvyMike2.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/IvyMike2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/3/3d/IvyMike2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1470,
+    "height": 1098,
+    "licence": "Public domain",
+    "artist": "Photo courtesy of National Nuclear Security Administration / Nevada Site Office",
+    "credit": "",
+    "desc": "Nuclear weapon test Mike (yield 10.4 Mt) on Enewetak Atoll. The test was part of the Operation Ivy. Mike was the first hydrogen bomb ever tested, an experimenta"
+   },
+   {
+    "title": "File:\"Ivy Mike\" atmospheric nuclear test - November 1952 - Flickr - The Official CTBTO Photostream.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/%22Ivy_Mike%22_atmospheric_nuclear_test_-_November_1952_-_Flickr_-_The_Official_CTBTO_Photostream.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/4/4a/%22Ivy_Mike%22_atmospheric_nuclear_test_-_November_1952_-_Flickr_-_The_Official_CTBTO_Photostream.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2858,
+    "height": 2242,
+    "licence": "CC BY 2.0",
+    "artist": "The Official CTBTO Photostream",
+    "credit": "The Official CTBTO Photostream / CC BY 2.0",
+    "desc": "Ivy Mike (yield 10.4 mt) - an atmospheric nuclear test conducted by the U.S. at Enewetak Atoll on 1 November 1952. It was the world's first successful hydrogen "
+   },
+   {
+    "title": "File:\"Ivy Mike\" Nuclear test.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/%22Ivy_Mike%22_Nuclear_test.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/9/9b/%22Ivy_Mike%22_Nuclear_test.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3024,
+    "height": 4032,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Ravenator52",
+    "credit": "Ravenator52 / CC BY-SA 4.0",
+    "desc": "The mushroom cloud that followed the \"Ivy Mike\" Nuclear test in 1952"
+   }
+  ],
+  "neuron": [
+   {
+    "title": "File:Pyramidal hippocampal neuron with fake microelectrode.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Pyramidal_hippocampal_neuron_with_fake_microelectrode.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/8/83/Pyramidal_hippocampal_neuron_with_fake_microelectrode.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1332,
+    "height": 1024,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Laurens R. Krol",
+    "credit": "Laurens R. Krol / CC BY-SA 4.0",
+    "desc": "This is a photo of a golgi-stained pyramidal neuron in the hippocampus of an epileptic patient with 40 times magnification, with a fake microelectrode manipulat"
+   },
+   {
+    "title": "File:Layer V Pyramidal cell from mouse visual cortex.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Layer_V_Pyramidal_cell_from_mouse_visual_cortex.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/4/41/Layer_V_Pyramidal_cell_from_mouse_visual_cortex.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1075,
+    "height": 838,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Quorumetrix",
+    "credit": "Quorumetrix / CC BY-SA 4.0",
+    "desc": "Each of the points making up the Pyramidal cell shape represents one synapse. When the cell type of the incoming synapse is known to be from one of the cortical"
+   }
+  ],
+  "karolinska": [
+   {
+    "title": "File:Karolinska Institutet, infart fr\u00e5n Solnav\u00e4gen 20060723.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Karolinska_Institutet%2C_infart_fr%C3%A5n_Solnav%C3%A4gen_20060723.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Karolinska_Institutet%2C_infart_fr%C3%A5n_Solnav%C3%A4gen_20060723.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1941,
+    "height": 1353,
+    "licence": "Public domain",
+    "artist": "Oscar Franz\u00e9n",
+    "credit": "",
+    "desc": "Karolinska Institutet, infart fr\u00e5n Solnav\u00e4gen"
+   },
+   {
+    "title": "File:Karolinska Institutet Solna 19.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Karolinska_Institutet_Solna_19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/3/35/Karolinska_Institutet_Solna_19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3264,
+    "height": 1836,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Csisc",
+    "credit": "Csisc / CC BY-SA 4.0",
+    "desc": "C'est une photo du Karolinska Institutet de Solna \u00e0 Stockholm, Su\u00e8de."
+   },
+   {
+    "title": "File:Karolinska Institutet Solna 11.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Karolinska_Institutet_Solna_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Karolinska_Institutet_Solna_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3264,
+    "height": 1836,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Csisc",
+    "credit": "Csisc / CC BY-SA 4.0",
+    "desc": "C'est une photo du Karolinska Institutet de Solna \u00e0 Stockholm, Su\u00e8de."
    }
   ],
   "frisen": [
@@ -157,8 +423,6 @@
     "credit": "Frankie Fouganthin / CC BY-SA 4.0",
     "desc": "During the Nobel Day, December 10, 2016, SR P1 broadcast the Science Radio and Culture Radio directly from Kulturhuset in Stockholm."
    }
-  ],
-  "spalding": [],
-  "neuron": []
+  ]
  }
 }
