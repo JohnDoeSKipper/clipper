@@ -1,0 +1,40 @@
+name: Save Jared's feedback
+# Jared replies on an evening "Post tonight" issue; the reply is saved to feedback/inbox.md
+# and the writer applies it to the next videos.
+on:
+  issue_comment:
+    types: [created]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: feedback
+  cancel-in-progress: false
+
+jobs:
+  save:
+    if: ${{ !github.event.issue.pull_request && contains(github.event.issue.labels.*.name, 'posting') && github.event.comment.user.login == github.repository_owner }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Save
+        env:
+          TITLE: ${{ github.event.issue.title }}
+          BODY: ${{ github.event.comment.body }}
+          GH_TOKEN: ${{ github.token }}
+          NUM: ${{ github.event.issue.number }}
+        run: |
+          python3 - <<'PY'
+          import os, datetime
+          d = (datetime.datetime.utcnow() + datetime.timedelta(hours=8)).strftime("%Y-%m-%d")
+          body = os.environ["BODY"].strip().replace("\r", "")
+          with open("feedback/inbox.md", "a") as f:
+              f.write(f"- {d}, on \"{os.environ['TITLE']}\": " + body.replace("\n", "\n  ") + "\n")
+          PY
+          git config user.name "clipper-bot"
+          git config user.email "clipper-bot@users.noreply.github.com"
+          git add feedback/inbox.md
+          git commit -m "Feedback from Jared" && git pull --rebase -q && git push
+          gh issue comment "$NUM" --body "Saved. The writer applies it to the next videos tomorrow morning."

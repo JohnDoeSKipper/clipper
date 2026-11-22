@@ -5,28 +5,28 @@ The owner is Jared. He reviews videos and gives corrections; every correction is
 
 ## What you do each day
 
-**Jared reviews every script before a video is made.** You write drafts into `specs/review/`; GitHub opens an issue for each one; Jared replies `approve` or says what to change. Approval moves the draft to `specs/queue/` and starts the render by itself. You never render, and you never move a draft to `specs/queue/` unless Jared has approved it.
+**No approval step (Jared, 2026-11-22).** You write each script straight into `specs/queue/`; your push makes GitHub render it, and it is posted on a coming evening. Nobody reads it before it is made, so your own checks are the only gate: be strict. Jared watches every video after it is made; his feedback arrives in `feedback/inbox.md` and must improve the next videos.
 
-Output per day: up to **1 Paintings draft + 1 Philosophy draft**, plus picture requests to stay two paintings ahead.
+Output per day: up to **1 Paintings video + 1 Philosophy video**, plus picture requests to stay two paintings ahead.
 
 1. `git pull`, then `sh scripts/setup_draft.sh` (once per session).
-2. **Failures.** If `status/` holds a `.txt`, a workflow failed: read it, fix the cause if it is in a spec or request (otherwise report it), and delete the file. If `specs/failed/` has files: read the `.log` next to each, fix the spec, `git mv` it back to `specs/queue/` (it was already approved), delete the log.
-3. **Feedback first.** For each `specs/review/<id>.feedback.md`: rewrite that draft as Jared asks, keeping the standard below; redraw its draft sheet (step 7); delete the feedback file. If the feedback states a lasting rule ("never...", "always...", "for all paintings..."), also add it to "What Jared has asked for" and the corrections log. The rewritten version is posted on the same issue automatically.
-4. **Don't pile up.** Count drafts in `specs/review/` per channel that have no feedback file. If a channel already has 2 waiting, write no new draft for it today and say so in the report.
+2. **Failures.** If `status/` holds a `.txt`, a workflow failed: read it, fix the cause if it is in a spec or request (otherwise report it), and delete the file. If `specs/failed/` has files: read the `.log` next to each, fix the spec, `git mv` it back to `specs/queue/`, delete the log.
+3. **Feedback first.** Read `feedback/inbox.md`. Turn every point into a lasting rule: add it to "What Jared has asked for" and a dated line in the corrections log, so all future scripts follow it. If he asks for a particular video to be remade, do it (see Remaking). Then empty the file below its header, and say in the report what you changed.
+4. **Don't pile up.** For each channel count the videos ready to post: specs in `specs/queue/` plus specs in `specs/done/` of that channel whose id is not yet in `catalog/posted.json` under that channel. If there are 3 or more, make nothing for that channel today and say so.
 5. **Paintings.** In `topics/paintings.md`:
-   - A line marked `inbox` has pictures waiting in `inbox/<id>/`. Take the oldest: write its draft (see Writing the script, then Paintings), save it as `specs/review/<id>.json`, mark the line `drafted`.
+   - A line marked `inbox` has pictures waiting in `inbox/<id>/`. Take the oldest: write its spec (see Writing the script, then Paintings), save it as `specs/queue/<id>.json`, mark the line `made` (older lines marked `drafted` count as made).
    - Count lines marked `inbox` or `requested`. If fewer than 2, write `requests/<id>.json` for the next `todo` lines and mark them `requested`. (A `requested` line whose `inbox/<id>/meta.json` now exists becomes `inbox`.)
-6. **Philosophy.** Take the next `todo` line in `topics/philosophy.md`, write its draft as `specs/review/<id>.json`, mark it `drafted`.
-7. For each new or rewritten draft: `python engine/build.py specs/review/<id>.json --draft`. Fix every `WARNING`. Look at `out/<id>_sheet.jpg` **once**; fix what is wrong; redraw and look once more only if you changed staging. (The command also saves a small copy of the sheet next to the draft; the review issue shows it.)
-8. Write the report to `notes/<date>.md` (Malaysia date, `TZ=Asia/Kuala_Lumpur date +%F`), at most five short lines: what was drafted (with the Philosophy style and why, in five words), what was rewritten after feedback, what was requested, and anything Jared should know (first use of a music piece, a new prop, a problem you could not fix).
-9. `git add -A && git commit -m "<date>: <ids>" && git push`. End the run with the same report.
+6. **Philosophy.** Take the next `todo` line in `topics/philosophy.md`, write its spec as `specs/queue/<id>.json`, mark it `made`.
+7. **Check before you push.** For each new spec: `python engine/build.py specs/queue/<id>.json --draft`. Fix every `WARNING`. Look at `out/<id>_sheet.jpg` **once**; fix what is wrong; redraw and look once more only if you changed staging. Re-read the script once against the self-check below. Then add the script to the top of `catalog/approved-scripts.md` (same format; keep the newest 12).
+8. Write the report to `notes/<date>.md` (Malaysia date, `TZ=Asia/Kuala_Lumpur date +%F`), at most five short lines: what was made (with the Philosophy style and why, in five words), what feedback you applied, what was requested, and anything Jared should know (first use of a music piece, a new prop, a problem you could not fix).
+9. `git add -A && git commit -m "<date>: <ids>" && git push`. The push starts the render. End the run with the same report.
 
-**When Jared approves or asks for changes in a chat** instead of on GitHub: to approve, `git mv specs/review/<id>.json specs/queue/<id>.json`, delete its `_sheet.jpg` and feedback file, add its script to the top of `catalog/approved-scripts.md` (same format as the entries there), and push; the render starts and the issue closes by itself. For changes, rewrite the draft in `specs/review/` and push; the issue gets the new version.
+**When Jared gives feedback in a chat** instead of on GitHub: apply it as in step 3 (rules for future videos), and remake a video only if he asks.
 
 **Remaking a video** (when Jared asks): edit `specs/done/<id>.json` and `git mv` it to `specs/queue/`. A Paintings remake reuses the picture list kept in `specs/meta/<id>.json` (the previews are gone; to choose a different photo, pick another candidate by its title there, or push a new request).
 
 **Where to spend tokens.** Spend them on research and writing; that is what Jared judges. Save them everywhere else (Jared asked for token use to be kept as low as possible):
-- **Stop early.** After steps 2-4, if there is no failure, no feedback and both channels already have 2 drafts waiting, write a one-line report and end the run. Do not research or draw anything.
+- **Stop early.** After steps 2-4, if there is no failure, no feedback and both channels already have 3 videos ready, write a one-line report and end the run. Do not research or draw anything.
 - **Research lean.** Search in standard mode. Read pages with a focused question ("list the surprising, checkable facts about X with numbers and dates") instead of whole pages. About 6-10 page reads per video; stop once you have 6+ facts rated 4-5 with sources.
 - **Write once.** Write each spec in one go, then change it with small edits; never print a spec, a sheet or this file back. Do not open engine code or the examples unless a WARNING forces you to.
 - **Look once.** View each draft sheet once (twice only if you changed staging).
@@ -46,7 +46,7 @@ Jared's verdict on the first videos: *not informative enough, not interesting en
   - **Philosophy:** the Stanford Encyclopedia of Philosophy (or Internet Encyclopedia of Philosophy) entry; the original paper or book (who, when, and what problem the idea was invented to test); at least one empirical study or survey with numbers if one exists; one real-world case where the question matters today.
 - Build a fact bank in your scratch work (not in the spec): 15-20 specific, checkable facts, each tied to a source. Prefer facts with a number, a name, a material, a place, a date or a cause.
 - **Rate every fact for surprise** (1 = on the Wikipedia first paragraph, 3 = a curious adult might know, 5 = almost nobody knows and it changes the picture). Dig where the 5s live: conservation and X-ray studies, letters and diaries, sales and inventory records, the museum's own blog, the original paper's footnotes, follow-up experiments, court cases. Build the script around the 4s and 5s.
-- Read the top two scripts for your channel in `catalog/approved-scripts.md`. They are the standard Jared has accepted; match or beat them.
+- Read the top two scripts for your channel in `catalog/approved-scripts.md` (the most recent scripts made). Match or beat them, and never repeat their facts or hooks.
 
 ### 2. Choose the angle: one question
 Write it in `"angle"`: a single question the video answers. A topic is not an angle. "The Great Wave" is a topic; "How did a cheap souvenir print become the most famous image in Japanese art?" is an angle. Every sentence must move toward the answer.
@@ -225,10 +225,10 @@ Philosophy
 - Keep the in-house voice (engine default). Do not use other voice services.
 
 General
-- Jared reviews every script before its video is made. Drafts go to `specs/review/`, never straight to the queue.
+- No approval step (2026-11-22): scripts go straight to `specs/queue/` and are made. Jared watches every video and his feedback (in `feedback/inbox.md` or a chat) shapes the next ones.
 - Scripts must be informative, interesting and complex: real research, one clear question, an escalating story with a payoff (see "Writing the script"). Short, shallow fact lists are not acceptable.
 - Longer videos: 75-88 s on both channels, filled with surprising, little-known facts (at least 6 per video), never padding.
-- One video per channel is posted every day at 8 pm Malaysia time, automatically (`post.yml`). Keep at least one approved video ahead.
+- One video per channel every day: `kit.yml` builds the posting page at 7 pm and Jared posts by hand at 8 pm Malaysia time. Keep 1-3 videos ready per channel.
 - Free tools only. No paid services.
 - Quality first, token use second: spend effort on research and writing; save it everywhere else.
 
@@ -238,3 +238,4 @@ Add dated one-line entries here whenever Jared corrects a video, and fold lastin
 - 2026-11-17: first run on GitHub worked (picture search, both renderers, Releases). Music used so far: chopin-nocturne-op9-2 (Starry Night), bach-goldberg-aria (Girl with a Pearl Earring, not yet heard by Jared).
 - 2026-11-18: Jared found the first videos not informative, interesting or complex enough. Added the review step (GitHub issues) and the "Writing the script" standard; videos are now 60-80 s (Paintings) and 45-70 s (Philosophy).
 - 2026-11-21: Jared asked for longer videos with more surprising, less-known facts, and daily automatic posting at 8 pm MYT. Both channels now 75-88 s (Facebook API max 90 s); surprise rating added to research; post.yml posts to Instagram and Facebook.
+- 2026-11-22: Jared dropped the script approval step: scripts go straight to the queue; he watches each video and sends feedback for the next ones (reply on the evening reminder issue → `feedback/inbox.md`).
