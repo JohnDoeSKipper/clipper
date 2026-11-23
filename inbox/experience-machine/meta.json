@@ -1,0 +1,196 @@
+{
+ "id": "experience-machine",
+ "painting": null,
+ "inserts": {
+  "nozick": [
+   {
+    "title": "File:Robert Nozick 1977 Libertarian Review cover.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Robert_Nozick_1977_Libertarian_Review_cover.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Robert_Nozick_1977_Libertarian_Review_cover.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1268,
+    "height": 1273,
+    "licence": "Public domain",
+    "artist": "Libertarian Review",
+    "credit": "",
+    "desc": "Robert Nozick, from the cover of the December 1977 issue of The Libertarian Review."
+   },
+   {
+    "title": "File:The Libertarian Review December 1977 cover.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/The_Libertarian_Review_December_1977_cover.jpg/3840px-The_Libertarian_Review_December_1977_cover.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/c/c5/The_Libertarian_Review_December_1977_cover.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3974,
+    "height": 5000,
+    "licence": "Public domain",
+    "artist": "Libertarian Review",
+    "credit": "",
+    "desc": "Cover of the December 1977 issue of The Libertarian Review, featuring Robert Nozick."
+   },
+   {
+    "title": "File:Robert Nozick 1977 Libertarian Review cover (4x5 cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Robert_Nozick_1977_Libertarian_Review_cover_%284x5_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Robert_Nozick_1977_Libertarian_Review_cover_%284x5_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1018,
+    "height": 1273,
+    "licence": "Public domain",
+    "artist": "Libertarian Review",
+    "credit": "",
+    "desc": "Robert Nozick, from the cover of the December 1977 issue of The Libertarian Review."
+   }
+  ],
+  "rat": [],
+  "olds": [
+   {
+    "title": "File:James Ward 1843-1925.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/James_Ward_1843-1925.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/b/b5/James_Ward_1843-1925.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1062,
+    "height": 1428,
+    "licence": "Public domain",
+    "artist": "Materialscientist",
+    "credit": "",
+    "desc": "James Ward (27 January 1843 - 4 March 1925)"
+   },
+   {
+    "title": "File:James Sully b1842.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/James_Sully_b1842.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/7/7f/James_Sully_b1842.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1125,
+    "height": 1566,
+    "licence": "Public domain",
+    "artist": "Unknown authorUnknown author",
+    "credit": "",
+    "desc": "James Sully (3 March 1842 \u2013 1 November 1923)"
+   },
+   {
+    "title": "File:Dr. James Olds (7275631852).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Dr._James_Olds_%287275631852%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Dr._James_Olds_%287275631852%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2468,
+    "height": 1974,
+    "licence": "CC BY 2.0",
+    "artist": "TEDx GeorgeMasonU",
+    "credit": "TEDx GeorgeMasonU / CC BY 2.0",
+    "desc": "When TMI Kills: Cognitive Overload in the Age of I-Devices jolds@gmu.edu"
+   }
+  ],
+  "harvard": [
+   {
+    "title": "File:Harvard University - Emerson Hall (53667817797).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Harvard_University_-_Emerson_Hall_%2853667817797%29.jpg/3840px-Harvard_University_-_Emerson_Hall_%2853667817797%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/5/56/Harvard_University_-_Emerson_Hall_%2853667817797%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4096,
+    "height": 2731,
+    "licence": "CC BY 2.0",
+    "artist": "Chad Davis from Minneapolis, United States",
+    "credit": "Chad Davis from Minneapolis, United States / CC BY 2.0",
+    "desc": "Emerson Hall at Harvard University. Home to the Philosophy Department."
+   }
+  ],
+  "monaco": [
+   {
+    "title": "File:Circuit de Monaco, April 1, 2018 SkySat.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Circuit_de_Monaco%2C_April_1%2C_2018_SkySat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/4/45/Circuit_de_Monaco%2C_April_1%2C_2018_SkySat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1702,
+    "height": 1703,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Planet Labs, Inc.",
+    "credit": "Planet Labs, Inc. / CC BY-SA 4.0",
+    "desc": "Circuit de Monaco is a street circuit laid out on the city streets of Monte Carlo and La Condamine around the harbour of the principality of Monaco. It is home "
+   },
+   {
+    "title": "File:Circuit de Monaco, April 1, 2018 SkySat (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Circuit_de_Monaco%2C_April_1%2C_2018_SkySat_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Circuit_de_Monaco%2C_April_1%2C_2018_SkySat_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1280,
+    "height": 853,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Planet Labs, Inc.",
+    "credit": "Planet Labs, Inc. / CC BY-SA 4.0",
+    "desc": "Circuit de Monaco is a street circuit laid out on the city streets of Monte Carlo and La Condamine around the harbour of the principality of Monaco. It is home "
+   },
+   {
+    "title": "File:2005 Monaco GP2, Monaco Grand Prix Support Race, Monte Carlo, 21st May.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/2005_Monaco_GP2%2C_Monaco_Grand_Prix_Support_Race%2C_Monte_Carlo%2C_21st_May.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/5/50/2005_Monaco_GP2%2C_Monaco_Grand_Prix_Support_Race%2C_Monte_Carlo%2C_21st_May.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1800,
+    "height": 1181,
+    "licence": "CC BY 2.0",
+    "artist": "Interceptor73",
+    "credit": "Interceptor73 / CC BY 2.0",
+    "desc": "Taken from Sectuer Rocher overlooking the start/finish straight, the pits and the harbour section of the circuit. The GP2 cars prepare to go out on circuit. Tak"
+   }
+  ],
+  "prison": [
+   {
+    "title": "File:Robben Island Prison 31.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Robben_Island_Prison_31.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Robben_Island_Prison_31.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3131,
+    "height": 4696,
+    "licence": "CC BY-SA 3.0",
+    "artist": "HelenOnline",
+    "credit": "HelenOnline / CC BY-SA 3.0",
+    "desc": "Single cells in the B-Section courtyard of Robben Island Maximum Security Prison"
+   },
+   {
+    "title": "File:Camp 5 cell block.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Camp_5_cell_block.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Camp_5_cell_block.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2464,
+    "height": 1632,
+    "licence": "Public domain",
+    "artist": "Michael Billings",
+    "credit": "",
+    "desc": "GUANTANAMO BAY, Cuba - One of the tiers located inside the maximum security Camp 5 detention facility. Aug. 6, 2007. (JTF Guantanamo photo by Navy Petty Officer"
+   },
+   {
+    "title": "File:San Francisco (CA, USA), Alcatraz, Main Prison -- 2022 -- 3143.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/San_Francisco_%28CA%2C_USA%29%2C_Alcatraz%2C_Main_Prison_--_2022_--_3143.jpg/3840px-San_Francisco_%28CA%2C_USA%29%2C_Alcatraz%2C_Main_Prison_--_2022_--_3143.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/f/ff/San_Francisco_%28CA%2C_USA%29%2C_Alcatraz%2C_Main_Prison_--_2022_--_3143.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 5973,
+    "height": 4480,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Dietmar Rabich",
+    "credit": "Dietmar Rabich / CC BY-SA 4.0",
+    "desc": "Cells in Main Prison, Alcatraz Island, San Francisco, California, USAAlcatraz, the rocky island in San Francisco Bay, transformed from a strategic military base"
+   }
+  ],
+  "debrigard": [],
+  "family": [
+   {
+    "title": "File:Schwerin and Freudenberg family at the dinner table circa 1920.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Schwerin_and_Freudenberg_family_at_the_dinner_table_circa_1920.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Schwerin_and_Freudenberg_family_at_the_dinner_table_circa_1920.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2463,
+    "height": 1821,
+    "licence": "Public domain",
+    "artist": "Hans Bernhard Schwerin",
+    "credit": "",
+    "desc": "Schwerin and Freudenberg family at the dinner table circa 1930-1940"
+   },
+   {
+    "title": "File:Dinner table arrangement with food of a middle class Bangladeshi family 01.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Dinner_table_arrangement_with_food_of_a_middle_class_Bangladeshi_family_01.jpg/3840px-Dinner_table_arrangement_with_food_of_a_middle_class_Bangladeshi_family_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Dinner_table_arrangement_with_food_of_a_middle_class_Bangladeshi_family_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4608,
+    "height": 3456,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Afifa Afrin",
+    "credit": "Afifa Afrin / CC BY-SA 4.0",
+    "desc": "Dinner table arrangement with food of a middle class Bangladeshi family"
+   },
+   {
+    "title": "File:A Brazilian family in Rio de Janeiro by Jean-Baptiste Debret 1839.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/A_Brazilian_family_in_Rio_de_Janeiro_by_Jean-Baptiste_Debret_1839.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/1/14/A_Brazilian_family_in_Rio_de_Janeiro_by_Jean-Baptiste_Debret_1839.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2816,
+    "height": 2028,
+    "licence": "Public domain",
+    "artist": "Jean-Baptiste Debret",
+    "credit": "",
+    "desc": "The Dinner, a white couple being served and fanned by black slaves"
+   }
+  ]
+ }
+}
