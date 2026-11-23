@@ -13,6 +13,11 @@
    "channel": "paintings",
    "handed_out": "2026-11-23",
    "at": "2026-11-23T02:28+08:00"
+  },
+  "the-scream": {
+   "channel": "paintings",
+   "handed_out": "2026-11-24",
+   "at": "2026-11-24T04:05+08:00"
   }
  },
  "philosophy": {
@@ -29,6 +34,11 @@
    "channel": "philosophy",
    "handed_out": "2026-11-23",
    "at": "2026-11-23T02:28+08:00"
+  },
+  "veil-of-ignorance": {
+   "channel": "philosophy",
+   "handed_out": "2026-11-24",
+   "at": "2026-11-24T04:05+08:00"
   }
  }
 }
