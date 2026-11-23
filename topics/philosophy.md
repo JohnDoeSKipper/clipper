@@ -3,7 +3,7 @@ Status: `todo` → `drafted` (script waiting for Jared's review; once approved i
 Check what the original experiment or argument actually says (and whether later studies upheld it) before scripting.
 
 - queued | trolley-problem | The Trolley Problem | clay | lever, then bridge (sample video, already made)
-- queued | experience-machine | The Experience Machine (Nozick) | ps2 | pod in an office, a door out (example spec, rendered as a test)
+- made | experience-machine | The Experience Machine (Nozick) | ps2 | remade 2026-11-24. Spares: Hindriks & Douven pills (29% machine, 53% experience pill, 89% functioning pill); Olds's rats took 4x the foot-shock for brain reward than hungry rats take for food
 - made | ship-of-theseus | The Ship of Theseus | clay | ship on open sea; planks swapped one by one; a second ship built from the old planks
 - made | veil-of-ignorance | The Veil of Ignorance (Rawls) | clay | people behind a veil choosing a society before knowing who they will be; coin/crown/cash icons
 - inbox | chinese-room | The Chinese Room (Searle) | ps2 | a room, a person with a rule book, slips passed under a door; robot outside

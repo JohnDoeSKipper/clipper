@@ -1,6 +1,54 @@
 # Model scripts (newest first)
 The writer reads the top two of its channel before writing and matches or beats them: same spine (beats in order, every sentence linked to the one before), never the same facts or hooks. Each script the writer makes is added at the top in this format. Kept to the last 12.
 
+## experience-machine (philosophy, remade 2026-11-24)
+
+Angle: If a machine could give you a perfect life forever, why do most people refuse to plug in?
+Logline: Rats wired to pleasure stopped eating, so Nozick asked if you'd plug into a perfect-life machine, and most say no because they want reality, but when people are told they're already plugged in, most stay, so it isn't reality we defend but what we have, but a 2018 study showed what that is: when our loved ones plug in, we follow.
+On-screen hook: THEY CHOSE PLEASURE OVER FOOD
+
+[hook] Wired to a pleasure button, lab rats stopped eating.
+[hook / detail] They'd have starved if scientists hadn't stepped in.
+[question / so] So in 1974, Robert Nozick asked you: would you plug in?
+[question / detail] His machine makes you feel you're living a perfect life, forever.
+[reveal1 / answer] Most people say no, and Nozick thought he knew why.
+[reveal1 / because] We want to actually do things, not just feel that we did.
+[reveal1 / detail] Plugging in, he wrote, is a form of suicide.
+[reveal1 / so] So pleasure can't be all that matters, which is what he set out to prove.
+[reveal2 / but] But in 2010, philosopher Felipe De Brigard turned the question around.
+[reveal2 / detail] He told students: you're already in the machine; do you want out?
+[reveal2 / answer] Told nothing about their real life, nearly half stayed in.
+[reveal3 / but] Told their real life was a maximum-security prison, 87 percent stayed.
+[reveal3 / detail] Even as millionaire artists in Monaco, half stayed plugged in.
+[reveal3 / so] So we don't defend reality; we defend whatever we already have.
+[turn / but] But in 2018, a new study found what we're really holding on to.
+[turn / detail] 42 percent would plug in alone; if their loved ones plugged in too, 68 percent would.
+[payoff / answer] So we don't refuse the machine for truth; we refuse it for each other.
+[payoff / but] But if everyone you love plugged in tonight, would you stay out here alone?
+
+## girl-pearl-earring (paintings, remade 2026-11-24)
+
+Angle: If even her pearl is make-believe, who was the Girl with a Pearl Earring?
+Logline: Her famous pearl is two strokes of paint, so we ask who she was, but she was never meant to be anyone, so Vermeer dressed an imaginary girl in the costliest blue, but she ended up so dirty she sold for two guilders, then 2018 scans showed her black void was a green curtain, but the most personal find was eyelashes no one had seen.
+On-screen hook: THE PEARL ISN'T REAL
+
+[hook] The most famous pearl in art is two strokes of paint.
+[hook / detail] There's not even a hook to hang it.
+[question / so] So if the pearl is make-believe, who was she?
+[reveal1 / answer] The museum's answer: she was never meant to be anyone.
+[reveal1 / detail] She's a tronie: a study of an imaginary type.
+[reveal1 / so] That's why she wears a turban no Dutch girl wore.
+[reveal1 / detail] Its blue is ultramarine from Afghan lapis, once pricier than gold.
+[reveal2 / but] But by 1881, she was so dirty her signature was hidden.
+[reveal2 / detail] Victor de Stuers still spotted a Vermeer, but promised his friend not to bid.
+[reveal2 / so] So his friend Arnoldus des Tombe got her for two guilders and thirty cents.
+[reveal3 / but] But in 2018, scans showed the black behind her was once a green curtain.
+[reveal3 / because] Its paint decayed over the centuries, and the curtain sank into darkness.
+[turn / but] But the tiniest find was the most personal: she has eyelashes.
+[turn / detail] Fine brown hairs, too small for the naked eye.
+[payoff / answer] So who was she? An imaginary girl with an impossible pearl.
+[payoff / but] But Vermeer gave her eyelashes nobody would see for 350 years.
+
 ## veil-of-ignorance (philosophy, remade 2026-11-23)
 
 Angle: If you didn't know who you'd be, would you really protect the unlucky, as Rawls said?

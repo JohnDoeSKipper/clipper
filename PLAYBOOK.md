@@ -284,3 +284,4 @@ Add dated one-line entries here whenever Jared corrects a video, and fold lastin
 - 2026-11-22: Jared dropped the script approval step: scripts go straight to the queue; he watches each video and sends feedback for the next ones (reply on the evening reminder issue → `feedback/inbox.md`).
 - 2026-11-23: Jared: new videos are more educational but jump from point to point and cut abruptly. Added the spine (beats + links, checked by build.py), logline, fact budget 5-7, on-screen hook text, automatic beat pacing, a 1.6 s held ending, and camera glides between nearby shots.
 - 2026-11-23: Jared: add as many reference pictures as needed, source them all, and make the video show what the script says. Added "Show what you say", Philosophy `photo` overlays and picture requests, and draft-check warnings for sentences with nothing matching on screen.
+- 2026-11-24: last remakes done (girl-pearl-earring, experience-machine); the 2026-11-23 remake list is finished.

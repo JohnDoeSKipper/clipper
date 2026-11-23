@@ -1,0 +1,1066 @@
+{
+ "id": "experience-machine",
+ "channel": "philosophy",
+ "style": "ps2",
+ "title": "THE EXPERIENCE MACHINE",
+ "angle": "If a machine could give you a perfect life forever, why do most people refuse to plug in?",
+ "logline": "Rats wired to pleasure stopped eating, so Nozick asked if you'd plug into a perfect-life machine, and most say no because they want reality, but when people are told they're already plugged in, most stay, so it isn't reality we defend but what we have, but a 2018 study showed what that is: when our loved ones plug in, we follow.",
+ "hook_text": "THEY CHOSE PLEASURE OVER FOOD",
+ "hooks": [
+  "Told their real life was a prison, 87 percent chose the dream.",
+  "Most people refuse a perfect fake life, until you tell them they're already living one."
+ ],
+ "world": {
+  "scenery": "room"
+ },
+ "script": [
+  {
+   "text": "Wired to a pleasure button, lab rats stopped eating.",
+   "beat": "hook"
+  },
+  {
+   "text": "They'd have starved if scientists hadn't stepped in.",
+   "beat": "hook",
+   "link": "detail"
+  },
+  {
+   "text": "So in 1974, Robert Nozick asked you: would you plug in?",
+   "beat": "question",
+   "link": "so",
+   "say": "So in nineteen seventy-four, Robert Nozick asked you: would you plug in?"
+  },
+  {
+   "text": "His machine makes you feel you're living a perfect life, forever.",
+   "beat": "question",
+   "link": "detail"
+  },
+  {
+   "text": "Most people say no, and Nozick thought he knew why.",
+   "beat": "reveal1",
+   "link": "answer"
+  },
+  {
+   "text": "We want to actually do things, not just feel that we did.",
+   "beat": "reveal1",
+   "link": "because"
+  },
+  {
+   "text": "Plugging in, he wrote, is a form of suicide.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "So pleasure can't be all that matters, which is what he set out to prove.",
+   "beat": "reveal1",
+   "link": "so"
+  },
+  {
+   "text": "But in 2010, philosopher Felipe De Brigard turned the question around.",
+   "beat": "reveal2",
+   "link": "but",
+   "say": "But in twenty ten, philosopher Felipe De Brigard turned the question around."
+  },
+  {
+   "text": "He told students: you're already in the machine; do you want out?",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "Told nothing about their real life, nearly half stayed in.",
+   "beat": "reveal2",
+   "link": "answer"
+  },
+  {
+   "text": "Told their real life was a maximum-security prison, 87 percent stayed.",
+   "beat": "reveal3",
+   "link": "but",
+   "say": "Told their real life was a maximum-security prison, eighty-seven percent stayed."
+  },
+  {
+   "text": "Even as millionaire artists in Monaco, half stayed plugged in.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "So we don't defend reality; we defend whatever we already have.",
+   "beat": "reveal3",
+   "link": "so"
+  },
+  {
+   "text": "But in 2018, a new study found what we're really holding on to.",
+   "beat": "turn",
+   "link": "but",
+   "say": "But in twenty eighteen, a new study found what we're really holding on to."
+  },
+  {
+   "text": "42 percent would plug in alone; if their loved ones plugged in too, 68 percent would.",
+   "beat": "turn",
+   "link": "detail",
+   "say": "Forty-two percent would plug in alone; if their loved ones plugged in too, sixty-eight percent would."
+  },
+  {
+   "text": "So we don't refuse the machine for truth; we refuse it for each other.",
+   "beat": "payoff",
+   "link": "answer"
+  },
+  {
+   "text": "But if everyone you love plugged in tonight, would you stay out here alone?",
+   "beat": "payoff",
+   "link": "but"
+  }
+ ],
+ "objects": [
+  {
+   "id": "pod",
+   "kind": "pod",
+   "at": [
+    0,
+    0,
+    0
+   ],
+   "face": 20
+  },
+  {
+   "id": "you",
+   "kind": "person",
+   "look": "you",
+   "at": [
+    2.6,
+    0,
+    1.0
+   ],
+   "face": "pod"
+  },
+  {
+   "id": "dream",
+   "kind": "person",
+   "look": "you",
+   "ghost": true,
+   "at": [
+    0.38,
+    1.0,
+    1.05
+   ],
+   "face": 20,
+   "tip": -90,
+   "show": false
+  },
+  {
+   "id": "door",
+   "kind": "door",
+   "at": [
+    7.5,
+    0,
+    4.2
+   ],
+   "face": "pod"
+  },
+  {
+   "id": "button",
+   "kind": "button",
+   "at": [
+    -3.2,
+    0,
+    2.6
+   ],
+   "face": 30,
+   "tint": "#e0443a"
+  },
+  {
+   "id": "a",
+   "kind": "person",
+   "look": "a",
+   "at": [
+    -4,
+    0,
+    -3.6
+   ],
+   "face": 0,
+   "show": false
+  },
+  {
+   "id": "b",
+   "kind": "person",
+   "look": "b",
+   "at": [
+    -2,
+    0,
+    -3.6
+   ],
+   "face": 0,
+   "show": false
+  },
+  {
+   "id": "c",
+   "kind": "person",
+   "look": "c",
+   "at": [
+    0,
+    0,
+    -3.6
+   ],
+   "face": 0,
+   "show": false
+  },
+  {
+   "id": "d",
+   "kind": "person",
+   "look": "d",
+   "at": [
+    2,
+    0,
+    -3.6
+   ],
+   "face": 0,
+   "show": false
+  },
+  {
+   "id": "e",
+   "kind": "person",
+   "look": "e",
+   "at": [
+    4,
+    0,
+    -3.6
+   ],
+   "face": 0,
+   "show": false
+  },
+  {
+   "id": "f1",
+   "kind": "person",
+   "look": "elder",
+   "at": [
+    -5.4,
+    0,
+    -1.0
+   ],
+   "face": "you",
+   "show": false
+  },
+  {
+   "id": "f2",
+   "kind": "person",
+   "look": "one",
+   "at": [
+    -6.0,
+    0,
+    0.4
+   ],
+   "face": "you",
+   "scale": 0.7,
+   "show": false
+  },
+  {
+   "id": "f3",
+   "kind": "person",
+   "look": "stranger",
+   "at": [
+    -5.0,
+    0,
+    1.6
+   ],
+   "face": "you",
+   "show": false
+  }
+ ],
+ "groups": {
+  "crowd": [
+   "a",
+   "b",
+   "c",
+   "d",
+   "e"
+  ],
+  "family": [
+   "f1",
+   "f2",
+   "f3"
+  ]
+ },
+ "shots": [
+  {
+   "at": 0,
+   "cam": {
+    "preset": "close",
+    "on": "button"
+   },
+   "focus": [
+    "button"
+   ]
+  },
+  {
+   "at": "1",
+   "cam": {
+    "preset": "close",
+    "on": "button",
+    "azimuth": 40
+   },
+   "focus": [
+    "button"
+   ]
+  },
+  {
+   "at": "2",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "pod",
+     "you"
+    ]
+   },
+   "focus": [
+    "pod",
+    "you"
+   ]
+  },
+  {
+   "at": "3",
+   "cam": {
+    "pos": [
+     4.6,
+     2.3,
+     4.8
+    ],
+    "look": [
+     1.0,
+     1.0,
+     0.3
+    ],
+    "fov": 46
+   },
+   "focus": [
+    "pod",
+    "you"
+   ]
+  },
+  {
+   "at": "4",
+   "cam": {
+    "pos": [
+     0.5,
+     7.0,
+     7.0
+    ],
+    "look": [
+     0.8,
+     0,
+     -0.8
+    ],
+    "fov": 62
+   }
+  },
+  {
+   "at": "5",
+   "cam": {
+    "preset": "close",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "6",
+   "cam": {
+    "preset": "close",
+    "on": "pod"
+   },
+   "focus": [
+    "pod",
+    "dream"
+   ]
+  },
+  {
+   "at": "7",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "pod",
+     "you",
+     "door"
+    ]
+   }
+  },
+  {
+   "at": "8",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "pod",
+     "you"
+    ]
+   }
+  },
+  {
+   "at": "9",
+   "cam": {
+    "preset": "close",
+    "on": "pod",
+    "azimuth": 30
+   },
+   "focus": [
+    "pod",
+    "dream"
+   ]
+  },
+  {
+   "at": "10",
+   "cam": {
+    "pos": [
+     0.5,
+     7.0,
+     7.0
+    ],
+    "look": [
+     0.8,
+     0,
+     -0.8
+    ],
+    "fov": 62
+   }
+  },
+  {
+   "at": "11",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "a",
+     "b",
+     "pod"
+    ]
+   },
+   "focus": [
+    "a",
+    "b"
+   ]
+  },
+  {
+   "at": "12",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "c",
+     "d",
+     "e"
+    ]
+   },
+   "focus": [
+    "c",
+    "d",
+    "e"
+   ]
+  },
+  {
+   "at": "13",
+   "cam": {
+    "preset": "tight",
+    "on": "dream"
+   },
+   "focus": [
+    "dream"
+   ]
+  },
+  {
+   "at": "14",
+   "cam": {
+    "preset": "close",
+    "on": "pod",
+    "azimuth": -40
+   },
+   "focus": [
+    "pod"
+   ]
+  },
+  {
+   "at": "15",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "you",
+     "family",
+     "pod"
+    ]
+   }
+  },
+  {
+   "at": "15:loved",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "f1",
+     "f2",
+     "f3",
+     "pod"
+    ]
+   }
+  },
+  {
+   "at": "16",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "f1",
+     "f2",
+     "f3"
+    ]
+   },
+   "focus": [
+    "f1",
+    "f2",
+    "f3"
+   ]
+  },
+  {
+   "at": "16:refuse#2",
+   "cam": {
+    "preset": "close",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "17",
+   "cam": {
+    "preset": "close",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "17:stay",
+   "cam": {
+    "preset": "tight",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "id": "button",
+   "at": 0,
+   "dur": 0.01,
+   "scale": 1.6
+  },
+  {
+   "id": "button",
+   "at": "1",
+   "dur": 0.15,
+   "wobble": true
+  },
+  {
+   "id": "you",
+   "at": "2:plug",
+   "dur": 0.4,
+   "pose": "point"
+  },
+  {
+   "id": "dream",
+   "at": "3:perfect",
+   "dur": 0.4,
+   "show": true
+  },
+  {
+   "id": "you",
+   "at": "3:forever",
+   "dur": 0.4,
+   "pose": "think"
+  },
+  {
+   "id": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "at": "4-0.2",
+   "dur": 0.01,
+   "show": true
+  },
+  {
+   "id": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "at": "4:no",
+   "dur": 0.4,
+   "pose": "shrug"
+  },
+  {
+   "id": "you",
+   "at": "5",
+   "dur": 0.3,
+   "face": "door"
+  },
+  {
+   "id": "you",
+   "at": "5:do",
+   "until": "6-0.2",
+   "pos": [
+    5.0,
+    0,
+    2.8
+   ],
+   "walk": true,
+   "ease": "linear"
+  },
+  {
+   "id": "you",
+   "at": "6",
+   "dur": 0.3,
+   "face": "pod"
+  },
+  {
+   "id": "you",
+   "at": "7:pleasure",
+   "dur": 0.4,
+   "pose": "shrug"
+  },
+  {
+   "id": "you",
+   "at": "9",
+   "dur": 0.01,
+   "show": false
+  },
+  {
+   "id": "a",
+   "at": "10:half",
+   "until": "11-0.2",
+   "pos": [
+    -1.4,
+    0,
+    -1.4
+   ],
+   "walk": true
+  },
+  {
+   "id": "b",
+   "at": "10:half",
+   "until": "11-0.2",
+   "pos": [
+    -0.2,
+    0,
+    -1.8
+   ],
+   "walk": true
+  },
+  {
+   "id": [
+    "c",
+    "d",
+    "e"
+   ],
+   "at": "10:stayed",
+   "dur": 0.4,
+   "face": "door"
+  },
+  {
+   "id": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "at": "13",
+   "dur": 0.01,
+   "show": false
+  },
+  {
+   "id": "dream",
+   "at": "15-0.2",
+   "dur": 0.01,
+   "show": false
+  },
+  {
+   "id": "you",
+   "at": "15-0.2",
+   "dur": 0.01,
+   "show": true,
+   "pos": [
+    2.6,
+    0,
+    1.0
+   ]
+  },
+  {
+   "id": [
+    "f1",
+    "f2",
+    "f3"
+   ],
+   "at": "15-0.2",
+   "dur": 0.01,
+   "show": true
+  },
+  {
+   "id": "you",
+   "at": "15:alone",
+   "dur": 0.4,
+   "pose": "point"
+  },
+  {
+   "id": "f1",
+   "at": "15:loved",
+   "until": "16-0.3",
+   "pos": [
+    -2.8,
+    0,
+    0.4
+   ],
+   "walk": true
+  },
+  {
+   "id": "f2",
+   "at": "15:loved",
+   "until": "16-0.3",
+   "pos": [
+    -2.8,
+    0,
+    1.8
+   ],
+   "walk": true
+  },
+  {
+   "id": "f3",
+   "at": "15:loved",
+   "until": "16-0.3",
+   "pos": [
+    -3.8,
+    0,
+    -0.6
+   ],
+   "walk": true
+  },
+  {
+   "id": [
+    "f1",
+    "f2",
+    "f3"
+   ],
+   "at": "16",
+   "dur": 0.4,
+   "face": 190
+  },
+  {
+   "id": [
+    "f1",
+    "f2",
+    "f3"
+   ],
+   "at": "16:other",
+   "dur": 0.4,
+   "pose": "wave"
+  },
+  {
+   "id": "you",
+   "at": "16:other",
+   "dur": 0.4,
+   "pose": "cheer"
+  },
+  {
+   "id": [
+    "f1",
+    "f2",
+    "f3"
+   ],
+   "at": "17:tonight",
+   "dur": 0.3,
+   "show": false
+  },
+  {
+   "id": "you",
+   "at": "17:alone",
+   "dur": 0.4,
+   "pose": "sad"
+  },
+  {
+   "id": "you",
+   "at": "16",
+   "dur": 0.3,
+   "face": "f2"
+  },
+  {
+   "id": "you",
+   "at": "17",
+   "dur": 0.4,
+   "pose": "stand"
+  }
+ ],
+ "overlays": [
+  {
+   "type": "photo",
+   "pick": [
+    "rat",
+    0
+   ],
+   "caption": "A laboratory rat",
+   "from": 0,
+   "to": "1-0.2"
+  },
+  {
+   "type": "icon",
+   "icon": "skull",
+   "on": "button",
+   "up": 1.4,
+   "from": "1:starved",
+   "to": "2"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "nozick",
+    0
+   ],
+   "caption": "Robert Nozick, 1977",
+   "from": "2",
+   "to": "3-0.2"
+  },
+  {
+   "type": "label",
+   "text": "YOU",
+   "color": "yellow",
+   "on": "you",
+   "from": "3",
+   "to": "4"
+  },
+  {
+   "type": "icon",
+   "icon": "star",
+   "on": "pod",
+   "up": 2.4,
+   "from": "3:perfect",
+   "to": "4"
+  },
+  {
+   "type": "cross",
+   "from": "4:no-0.1",
+   "to": "5"
+  },
+  {
+   "type": "label",
+   "text": "DO, NOT JUST FEEL",
+   "pos": [
+    540,
+    330
+   ],
+   "from": "5:do",
+   "to": "6"
+  },
+  {
+   "type": "icon",
+   "icon": "skull",
+   "on": "pod",
+   "up": 2.4,
+   "from": "6:suicide",
+   "to": "7"
+  },
+  {
+   "type": "label",
+   "text": "PLEASURE ISN'T EVERYTHING",
+   "pos": [
+    540,
+    330
+   ],
+   "from": "7:pleasure",
+   "to": "8"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "duke",
+    0
+   ],
+   "caption": "Duke University, where De Brigard teaches",
+   "from": "8",
+   "to": "9-0.2"
+  },
+  {
+   "type": "label",
+   "text": "YOU",
+   "color": "yellow",
+   "on": "dream",
+   "from": "9",
+   "to": "10"
+  },
+  {
+   "type": "question",
+   "on": "pod",
+   "from": "9:out",
+   "to": "10"
+  },
+  {
+   "type": "label",
+   "text": "46% STAY",
+   "pos": [
+    540,
+    330
+   ],
+   "from": "10:half",
+   "to": "11"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "prison",
+    2
+   ],
+   "caption": "A maximum-security prison",
+   "from": "11",
+   "to": "12-0.2"
+  },
+  {
+   "type": "label",
+   "text": "87% STAY",
+   "pos": [
+    540,
+    330
+   ],
+   "from": "11:stayed",
+   "to": "12"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "monaco",
+    0
+   ],
+   "caption": "Monte Carlo, Monaco",
+   "from": "12",
+   "to": "13-0.2"
+  },
+  {
+   "type": "label",
+   "text": "50% STAY",
+   "pos": [
+    540,
+    330
+   ],
+   "from": "12:half",
+   "to": "13"
+  },
+  {
+   "type": "label",
+   "text": "STATUS QUO BIAS",
+   "pos": [
+    540,
+    330
+   ],
+   "from": "13:already",
+   "to": "14"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "family",
+    0
+   ],
+   "caption": "A family at the dinner table",
+   "from": "14",
+   "to": "15-0.2"
+  },
+  {
+   "type": "label",
+   "text": "42% ALONE",
+   "pos": [
+    540,
+    330
+   ],
+   "from": "15:alone",
+   "to": "15:68"
+  },
+  {
+   "type": "label",
+   "text": "68% WITH FAMILY",
+   "pos": [
+    540,
+    330
+   ],
+   "from": "15:68",
+   "to": "16"
+  },
+  {
+   "type": "icon",
+   "icon": "heart",
+   "on": "you",
+   "from": "16:other",
+   "to": "17"
+  },
+  {
+   "type": "pill",
+   "text": "Would you stay out here alone?",
+   "from": "17:tonight"
+  }
+ ],
+ "sfx": [
+  {
+   "at": "0:button",
+   "s": "click",
+   "gain": 0.3
+  },
+  {
+   "at": "1",
+   "s": "click",
+   "gain": 0.25,
+   "every": 0.35,
+   "until": "1:starved"
+  },
+  {
+   "at": "3:machine",
+   "s": "maximize",
+   "gain": 0.3
+  },
+  {
+   "at": "6:suicide",
+   "s": "bong",
+   "gain": 0.3
+  },
+  {
+   "at": "9:out",
+   "s": "switch",
+   "gain": 0.3
+  },
+  {
+   "at": "16:other",
+   "s": "confirmation",
+   "gain": 0.25
+  },
+  {
+   "at": "17:tonight",
+   "s": "drop",
+   "gain": 0.25
+  }
+ ],
+ "music": {
+  "mood": "dark"
+ },
+ "sources": [
+  "https://en.wikipedia.org/wiki/Experience_machine",
+  "https://philarchive.org/archive/ROWOIA",
+  "https://psychologytoday.com/blog/after-service/201609/how-powerful-is-status-quo-bias",
+  "https://researchcommons.waikato.ac.nz/server/api/core/bitstreams/8cabf343-2441-4a9e-939f-eef0e9813e19/content",
+  "https://calteches.library.caltech.edu/2807/1/olds.pdf"
+ ],
+ "post": {
+  "caption": "Most people refuse a machine that gives them a perfect life. Tell them they're already in it, and most refuse to leave.\nWould you plug in if everyone you love already had?",
+  "tags": [
+   "#philosophy",
+   "#thoughtexperiment",
+   "#experiencemachine",
+   "#nozick",
+   "#psychology"
+  ],
+  "youtube_title": "Why People Refuse a Perfect Fake Life"
+ }
+}

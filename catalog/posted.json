@@ -1,9 +1,5 @@
 {
  "paintings": {
-  "girl-pearl-earring": {
-   "channel": "paintings",
-   "skipped": "made before the spine; remake it, then delete this entry"
-  },
   "starry-night": {
    "channel": "paintings",
    "handed_out": "2026-11-22",
@@ -21,10 +17,6 @@
   }
  },
  "philosophy": {
-  "experience-machine": {
-   "channel": "philosophy",
-   "skipped": "made before the spine; remake it, then delete this entry"
-  },
   "trolley-problem": {
    "channel": "philosophy",
    "handed_out": "2026-11-22",

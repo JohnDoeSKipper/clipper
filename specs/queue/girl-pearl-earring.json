@@ -1,0 +1,301 @@
+{
+ "id": "girl-pearl-earring",
+ "channel": "paintings",
+ "angle": "If even her pearl is make-believe, who was the Girl with a Pearl Earring?",
+ "logline": "Her famous pearl is two strokes of paint, so we ask who she was, but she was never meant to be anyone, so Vermeer dressed an imaginary girl in the costliest blue, but she ended up so dirty she sold for two guilders, then 2018 scans showed her black void was a green curtain, but the most personal find was eyelashes no one had seen.",
+ "hook_text": "THE PEARL ISN'T REAL",
+ "hooks": [
+  "This face once sold for two guilders and thirty cents.",
+  "Scientists found something on her that nobody had seen for 350 years."
+ ],
+ "painting": {
+  "title": "Girl with a Pearl Earring",
+  "artist": "Johannes Vermeer",
+  "year": "c. 1665",
+  "museum": "Mauritshuis, The Hague"
+ },
+ "script": [
+  {
+   "text": "The most famous pearl in art is two strokes of paint.",
+   "beat": "hook"
+  },
+  {
+   "text": "There's not even a hook to hang it.",
+   "beat": "hook",
+   "link": "detail"
+  },
+  {
+   "text": "So if the pearl is make-believe, who was she?",
+   "beat": "question",
+   "link": "so"
+  },
+  {
+   "text": "The museum's answer: she was never meant to be anyone.",
+   "beat": "reveal1",
+   "link": "answer"
+  },
+  {
+   "text": "She's a tronie: a study of an imaginary type.",
+   "beat": "reveal1",
+   "link": "detail",
+   "say": "She's a troh-nee: a study of an imaginary type."
+  },
+  {
+   "text": "That's why she wears a turban no Dutch girl wore.",
+   "beat": "reveal1",
+   "link": "so"
+  },
+  {
+   "text": "Its blue is ultramarine from Afghan lapis, once pricier than gold.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "But by 1881, she was so dirty her signature was hidden.",
+   "beat": "reveal2",
+   "link": "but",
+   "say": "But by eighteen eighty-one, she was so dirty her signature was hidden."
+  },
+  {
+   "text": "Victor de Stuers still spotted a Vermeer, but promised his friend not to bid.",
+   "beat": "reveal2",
+   "link": "detail",
+   "say": "Victor de Stairs still spotted a Vermeer, but promised his friend not to bid."
+  },
+  {
+   "text": "So his friend Arnoldus des Tombe got her for two guilders and thirty cents.",
+   "beat": "reveal2",
+   "link": "so",
+   "say": "So his friend Arnoldus de Tom got her for two guilders and thirty cents."
+  },
+  {
+   "text": "But in 2018, scans showed the black behind her was once a green curtain.",
+   "beat": "reveal3",
+   "link": "but",
+   "say": "But in twenty eighteen, scans showed the black behind her was once a green curtain."
+  },
+  {
+   "text": "Its paint decayed over the centuries, and the curtain sank into darkness.",
+   "beat": "reveal3",
+   "link": "because"
+  },
+  {
+   "text": "But the tiniest find was the most personal: she has eyelashes.",
+   "beat": "turn",
+   "link": "but"
+  },
+  {
+   "text": "Fine brown hairs, too small for the naked eye.",
+   "beat": "turn",
+   "link": "detail"
+  },
+  {
+   "text": "So who was she? An imaginary girl with an impossible pearl.",
+   "beat": "payoff",
+   "link": "answer"
+  },
+  {
+   "text": "But Vermeer gave her eyelashes nobody would see for 350 years.",
+   "beat": "payoff",
+   "link": "but",
+   "say": "But Vermeer gave her eyelashes nobody would see for three hundred and fifty years."
+  }
+ ],
+ "music": {
+  "piece": "bach-prelude-c"
+ },
+ "timeline": [
+  {
+   "type": "reveal",
+   "from": [
+    0.625,
+    0.54,
+    2.6
+   ],
+   "until": 3.0
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.625,
+    0.545,
+    0.05,
+    0.045
+   ],
+   "ring": "1",
+   "zoom": "1+0.4",
+   "label": "NO HOOK",
+   "labelAt": "1:hook",
+   "out": "2-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "museum",
+    2
+   ],
+   "caption": "The Mauritshuis, The Hague",
+   "at": "3",
+   "to": "4-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "tronie",
+    1
+   ],
+   "caption": "Another Vermeer tronie, c. 1665-67",
+   "at": "4",
+   "to": "5-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.6,
+    0.4,
+    0.3,
+    0.32
+   ],
+   "ring": "5",
+   "zoom": "5+0.4",
+   "label": "A TURBAN IN DELFT",
+   "labelAt": "5:turban",
+   "out": "6-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "lapis",
+    1
+   ],
+   "caption": "Lapis lazuli, the stone behind ultramarine",
+   "at": "6",
+   "to": "7-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.12,
+    0.06,
+    0.1,
+    0.05
+   ],
+   "ring": "7",
+   "zoom": "7+0.4",
+   "label": "IVMEER",
+   "labelAt": "7:signature",
+   "out": "8-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "stuers",
+    0
+   ],
+   "caption": "Victor de Stuers, 1890",
+   "at": "8",
+   "to": "9-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.43,
+    0.44,
+    0.16,
+    0.15
+   ],
+   "ring": "9",
+   "zoom": "9+0.4",
+   "label": "2.30 GUILDERS",
+   "labelAt": "9:guilders",
+   "out": "10-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.85,
+    0.2,
+    0.14,
+    0.18
+   ],
+   "ring": "10",
+   "zoom": "10+0.4",
+   "label": "A GREEN CURTAIN",
+   "labelAt": "10:curtain",
+   "out": "11-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.15,
+    0.45,
+    0.13,
+    0.3
+   ],
+   "ring": "11",
+   "zoom": "11+0.4",
+   "label": "FADED TO BLACK",
+   "labelAt": "11:darkness",
+   "out": "12-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.41,
+    0.39,
+    0.12,
+    0.05
+   ],
+   "ring": "12",
+   "zoom": "12+0.4",
+   "out": "14-0.3",
+   "then": {
+    "region": [
+     0.46,
+     0.395,
+     0.04,
+     0.03
+    ],
+    "ring": "13",
+    "zoom": "13+0.3",
+    "label": "EYELASHES",
+    "labelAt": "13:hairs"
+   }
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.625,
+    0.545,
+    0.05,
+    0.045
+   ],
+   "ring": "14",
+   "zoom": "14+0.4",
+   "label": "TOO BIG TO BE REAL",
+   "labelAt": "14:pearl",
+   "out": "15-0.3"
+  }
+ ],
+ "sources": [
+  "https://www.mauritshuis.nl/en/our-collection/artworks/670-girl-with-a-pearl-earring",
+  "https://mauritshuis.nl/en/press-releases/closer-to-vermeer-and-the-girl",
+  "https://www.codart.nl/art-works/new-discoveries-and-insights-from-the-examination-of-vermeers-girl-with-a-pearl-earring/",
+  "https://mauritshuis.nl/en/our-collection/restoration-and-research/closer-to-vermeer-and-the-girl/girl-with-a-blog/how-much-is-the-girl-with-a-pearl-earring-of-vermeer-worth"
+ ],
+ "post": {
+  "caption": "The most famous pearl in art is two strokes of paint, and the black behind her was never black.\nWould you have spotted her under all that dirt?",
+  "tags": [
+   "#arthistory",
+   "#vermeer",
+   "#girlwithapearlearring",
+   "#dutchgoldenage",
+   "#artfacts"
+  ],
+  "youtube_title": "Her Famous Pearl Is Just Two Strokes of Paint"
+ }
+}
