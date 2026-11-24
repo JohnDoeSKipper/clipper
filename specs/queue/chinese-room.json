@@ -1,0 +1,1062 @@
+{
+ "id": "chinese-room",
+ "channel": "philosophy",
+ "style": "ps2",
+ "title": "THE CHINESE ROOM",
+ "angle": "If a machine talks exactly like us, does it understand a single word?",
+ "logline": "A chatbot now passes for human better than humans do, so we ask if it understands, but Searle showed a man can answer in Chinese without knowing a word, so programs only shuffle symbols, but critics said the whole room understands, so Searle memorised the room and still understood nothing, but Turing had warned we can't see understanding in anyone.",
+ "hook_text": "MORE HUMAN THAN HUMANS",
+ "hooks": [
+  "A man answers in perfect Chinese without knowing a word of it.",
+  "Cognitive science was once jokingly defined as proving one man wrong."
+ ],
+ "world": {
+  "scenery": "default"
+ },
+ "script": [
+  {
+   "text": "In 2025, a chatbot was judged human more often than real humans.",
+   "beat": "hook",
+   "say": "In twenty twenty-five, a chatbot was judged human more often than real humans."
+  },
+  {
+   "text": "Judges picked it as the human 73 percent of the time.",
+   "beat": "hook",
+   "link": "detail",
+   "say": "Judges picked it as the human seventy-three percent of the time."
+  },
+  {
+   "text": "So does a machine that talks like us understand a single word?",
+   "beat": "question",
+   "link": "so"
+  },
+  {
+   "text": "One philosopher spent 45 years saying no.",
+   "beat": "question",
+   "link": "answer",
+   "say": "One philosopher spent forty-five years saying no."
+  },
+  {
+   "text": "In 1980, John Searle imagined himself locked in a room.",
+   "beat": "reveal1",
+   "link": "because",
+   "say": "In nineteen eighty, John Surl imagined himself locked in a room."
+  },
+  {
+   "text": "Notes in Chinese slide under the door, and he speaks no Chinese.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "A rule book in English tells him which symbols to pass back out.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "So his answers look fluent, yet he understands nothing.",
+   "beat": "reveal1",
+   "link": "so"
+  },
+  {
+   "text": "But Searle wasn't talking about rooms: he meant computers.",
+   "beat": "reveal2",
+   "link": "but",
+   "say": "But Surl wasn't talking about rooms: he meant computers."
+  },
+  {
+   "text": "A program follows rules about symbols without knowing what they mean.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "So by his logic, Deep Blue beat the world chess champion without knowing it played chess.",
+   "beat": "reveal2",
+   "link": "so"
+  },
+  {
+   "text": "But critics answered: you don't understand Chinese, but the whole room does.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "One even defined cognitive science as the project of proving Searle wrong.",
+   "beat": "reveal3",
+   "link": "detail",
+   "say": "One even defined cognitive science as the project of proving Surl wrong."
+  },
+  {
+   "text": "So Searle replied: memorize the whole rule book, and you still won't understand a word.",
+   "beat": "reveal3",
+   "link": "so",
+   "say": "So Surl replied: memorize the whole rule book, and you still won't understand a word."
+  },
+  {
+   "text": "But Turing had already seen this coming in 1950.",
+   "beat": "turn",
+   "link": "but",
+   "say": "But Turing had already seen this coming in nineteen fifty."
+  },
+  {
+   "text": "You can't see inside anyone's head, he wrote, so we politely assume everyone thinks.",
+   "beat": "turn",
+   "link": "detail"
+  },
+  {
+   "text": "So Searle's answer stayed no: he died in 2025, the year chatbots passed Turing's test.",
+   "beat": "payoff",
+   "link": "answer",
+   "say": "So Surl's answer stayed no: he died in twenty twenty-five, the year chatbots passed Turing's test."
+  },
+  {
+   "text": "But if understanding can't be seen, how do you know anyone understands you?",
+   "beat": "payoff",
+   "link": "but"
+  }
+ ],
+ "objects": [
+  {
+   "id": "w1",
+   "kind": "wall",
+   "at": [
+    -2.75,
+    0,
+    0
+   ],
+   "face": 0
+  },
+  {
+   "id": "w2",
+   "kind": "wall",
+   "at": [
+    2.75,
+    0,
+    0
+   ],
+   "face": 0
+  },
+  {
+   "id": "door",
+   "kind": "door",
+   "at": [
+    0,
+    0,
+    0
+   ],
+   "face": 0
+  },
+  {
+   "id": "table",
+   "kind": "table",
+   "at": [
+    -1.6,
+    0,
+    -3.9
+   ],
+   "face": 0
+  },
+  {
+   "id": "searle",
+   "kind": "person",
+   "look": "elder",
+   "at": [
+    -1.6,
+    0,
+    -2.6
+   ],
+   "face": 180
+  },
+  {
+   "id": "book",
+   "kind": "book",
+   "at": [
+    -1.9,
+    1.07,
+    -3.9
+   ],
+   "face": 0,
+   "scale": 0.6
+  },
+  {
+   "id": "slip1",
+   "kind": "book",
+   "at": [
+    0.7,
+    0.02,
+    1.3
+   ],
+   "face": 0,
+   "scale": 0.25,
+   "tint": "#FFFFFF",
+   "show": false
+  },
+  {
+   "id": "slip2",
+   "kind": "book",
+   "at": [
+    -1.2,
+    1.07,
+    -3.7
+   ],
+   "face": 0,
+   "scale": 0.25,
+   "tint": "#FFFFFF",
+   "show": false
+  },
+  {
+   "id": "you",
+   "kind": "person",
+   "look": "you",
+   "at": [
+    1.4,
+    0,
+    1.35
+   ],
+   "face": "door"
+  },
+  {
+   "id": "r",
+   "kind": "robot",
+   "at": [
+    -3.4,
+    0,
+    3.4
+   ],
+   "face": 0
+  },
+  {
+   "id": "h",
+   "kind": "person",
+   "look": "stranger",
+   "at": [
+    -1.7,
+    0,
+    3.4
+   ],
+   "face": 0
+  },
+  {
+   "id": "c1",
+   "kind": "person",
+   "look": "a",
+   "at": [
+    3.8,
+    0,
+    3.8
+   ],
+   "face": "door",
+   "show": false
+  },
+  {
+   "id": "c2",
+   "kind": "person",
+   "look": "b",
+   "at": [
+    5.0,
+    0,
+    3.0
+   ],
+   "face": "door",
+   "show": false
+  },
+  {
+   "id": "slip1i",
+   "kind": "book",
+   "at": [
+    0.3,
+    0.02,
+    -0.6
+   ],
+   "face": 0,
+   "scale": 0.25,
+   "tint": "#FFFFFF",
+   "show": false
+  },
+  {
+   "id": "slip2o",
+   "kind": "book",
+   "at": [
+    0.3,
+    0.02,
+    0.9
+   ],
+   "face": 0,
+   "scale": 0.25,
+   "tint": "#FFFFFF",
+   "show": false
+  }
+ ],
+ "shots": [
+  {
+   "at": 0,
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "r",
+     "h"
+    ]
+   },
+   "focus": [
+    "r",
+    "h"
+   ]
+  },
+  {
+   "at": "1",
+   "cam": {
+    "preset": "close",
+    "on": "r"
+   },
+   "focus": [
+    "r"
+   ]
+  },
+  {
+   "at": "2",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "r",
+     "h"
+    ],
+    "azimuth": -30
+   },
+   "focus": [
+    "r",
+    "h"
+   ]
+  },
+  {
+   "at": "3",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "w1",
+     "w2",
+     "you",
+     "r"
+    ]
+   }
+  },
+  {
+   "at": "4",
+   "cam": {
+    "preset": "close",
+    "on": "searle"
+   },
+   "focus": [
+    "searle"
+   ]
+  },
+  {
+   "at": "5",
+   "cam": {
+    "pos": [
+     0.9,
+     2.0,
+     5.2
+    ],
+    "look": [
+     0.6,
+     1.1,
+     0.4
+    ],
+    "fov": 50
+   },
+   "focus": [
+    "you",
+    "door"
+   ]
+  },
+  {
+   "at": "5:speaks",
+   "cam": {
+    "preset": "close",
+    "on": "searle"
+   },
+   "focus": [
+    "searle"
+   ]
+  },
+  {
+   "at": "6",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "searle",
+     "book"
+    ]
+   },
+   "focus": [
+    "searle",
+    "book"
+   ]
+  },
+  {
+   "at": "7",
+   "cam": {
+    "pos": [
+     0.9,
+     2.0,
+     5.2
+    ],
+    "look": [
+     0.6,
+     1.1,
+     0.4
+    ],
+    "fov": 50
+   },
+   "focus": [
+    "you",
+    "door"
+   ]
+  },
+  {
+   "at": "7:yet",
+   "cam": {
+    "preset": "tight",
+    "on": "searle"
+   },
+   "focus": [
+    "searle"
+   ]
+  },
+  {
+   "at": "8",
+   "cam": {
+    "preset": "close",
+    "on": "r"
+   },
+   "focus": [
+    "r"
+   ]
+  },
+  {
+   "at": "9",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "r",
+     "h",
+     "door"
+    ]
+   }
+  },
+  {
+   "at": "10",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "w1",
+     "w2"
+    ]
+   }
+  },
+  {
+   "at": "11",
+   "cam": {
+    "pos": [
+     1.2,
+     2.4,
+     0.9
+    ],
+    "look": [
+     4.4,
+     1.1,
+     3.4
+    ],
+    "fov": 50
+   }
+  },
+  {
+   "at": "12",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "c1",
+     "c2"
+    ]
+   },
+   "focus": [
+    "c1",
+    "c2"
+   ]
+  },
+  {
+   "at": "13",
+   "cam": {
+    "preset": "close",
+    "on": "searle"
+   },
+   "focus": [
+    "searle"
+   ]
+  },
+  {
+   "at": "14",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "h"
+    ]
+   },
+   "focus": [
+    "you",
+    "h"
+   ]
+  },
+  {
+   "at": "15",
+   "cam": {
+    "pos": [
+     -1.0,
+     2.6,
+     12.5
+    ],
+    "look": [
+     -1.0,
+     1.2,
+     2.6
+    ],
+    "fov": 62
+   },
+   "focus": [
+    "you",
+    "h",
+    "r"
+   ]
+  },
+  {
+   "at": "16",
+   "cam": {
+    "preset": "close",
+    "on": "searle"
+   },
+   "focus": [
+    "searle"
+   ]
+  },
+  {
+   "at": "16:year",
+   "cam": {
+    "preset": "close",
+    "on": "r"
+   },
+   "focus": [
+    "r"
+   ]
+  },
+  {
+   "at": "17",
+   "cam": {
+    "preset": "tight",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "id": "r",
+   "at": "1:73",
+   "dur": 0.4,
+   "wobble": true
+  },
+  {
+   "id": "h",
+   "at": "1:73",
+   "dur": 0.4,
+   "pose": "shrug"
+  },
+  {
+   "id": "searle",
+   "at": "4:locked",
+   "dur": 0.4,
+   "pose": "think"
+  },
+  {
+   "id": "you",
+   "at": "5",
+   "dur": 0.4,
+   "pose": "reach"
+  },
+  {
+   "id": "slip1",
+   "at": "5",
+   "dur": 0.01,
+   "show": true
+  },
+  {
+   "id": "slip1",
+   "at": "5:slide",
+   "dur": 0.6,
+   "pos": [
+    0.4,
+    0.02,
+    0.6
+   ]
+  },
+  {
+   "id": "searle",
+   "at": "5:speaks",
+   "dur": 0.4,
+   "pose": "shrug"
+  },
+  {
+   "id": "slip1",
+   "at": "5:slide+0.6",
+   "dur": 0.01,
+   "show": false
+  },
+  {
+   "id": "slip1i",
+   "at": "5:slide+0.6",
+   "dur": 0.01,
+   "show": true
+  },
+  {
+   "id": "slip1i",
+   "at": "5:slide+0.7",
+   "dur": 0.5,
+   "pos": [
+    0.1,
+    0.02,
+    -1.4
+   ]
+  },
+  {
+   "id": "slip1i",
+   "at": "6",
+   "dur": 0.6,
+   "pos": [
+    -1.3,
+    1.07,
+    -3.6
+   ]
+  },
+  {
+   "id": "searle",
+   "at": "6:rule",
+   "dur": 0.4,
+   "pose": "point"
+  },
+  {
+   "id": "slip1i",
+   "at": "7",
+   "dur": 0.01,
+   "show": false
+  },
+  {
+   "id": "slip2",
+   "at": "7",
+   "dur": 0.01,
+   "show": true,
+   "pos": [
+    0.2,
+    0.02,
+    -1.4
+   ]
+  },
+  {
+   "id": "slip2",
+   "at": "7:answers",
+   "dur": 0.5,
+   "pos": [
+    0.3,
+    0.02,
+    -0.9
+   ]
+  },
+  {
+   "id": "slip2",
+   "at": "7:answers+0.5",
+   "dur": 0.01,
+   "show": false
+  },
+  {
+   "id": "slip2o",
+   "at": "7:answers+0.5",
+   "dur": 0.01,
+   "show": true
+  },
+  {
+   "id": "slip2o",
+   "at": "7:answers+0.55",
+   "dur": 0.5,
+   "pos": [
+    0.8,
+    0.02,
+    1.5
+   ]
+  },
+  {
+   "id": "you",
+   "at": "7:fluent",
+   "dur": 0.4,
+   "pose": "cheer"
+  },
+  {
+   "id": "searle",
+   "at": "7:nothing",
+   "dur": 0.4,
+   "pose": "shrug"
+  },
+  {
+   "id": "r",
+   "at": "8:computers",
+   "dur": 0.4,
+   "wobble": true
+  },
+  {
+   "id": [
+    "c1",
+    "c2"
+   ],
+   "at": "11-0.2",
+   "dur": 0.01,
+   "show": true
+  },
+  {
+   "id": "c1",
+   "at": "11:whole",
+   "dur": 0.4,
+   "pose": "point"
+  },
+  {
+   "id": "c2",
+   "at": "11:whole",
+   "dur": 0.4,
+   "pose": "point"
+  },
+  {
+   "id": "c1",
+   "at": "12",
+   "dur": 0.4,
+   "face": 0
+  },
+  {
+   "id": "c2",
+   "at": "12",
+   "dur": 0.4,
+   "face": 0
+  },
+  {
+   "id": "c1",
+   "at": "12:wrong",
+   "dur": 0.4,
+   "pose": "cheer"
+  },
+  {
+   "id": "book",
+   "at": "13:memorize",
+   "dur": 0.6,
+   "scale": 0.01
+  },
+  {
+   "id": "searle",
+   "at": "13:memorize",
+   "dur": 0.4,
+   "pose": "think"
+  },
+  {
+   "id": "searle",
+   "at": "13:still",
+   "dur": 0.4,
+   "pose": "shrug"
+  },
+  {
+   "id": "you",
+   "at": "15",
+   "dur": 0.4,
+   "pose": "think"
+  },
+  {
+   "id": "you",
+   "at": "15",
+   "dur": 0.4,
+   "face": 0
+  },
+  {
+   "id": "searle",
+   "at": "16:died",
+   "dur": 0.4,
+   "pose": "sad"
+  },
+  {
+   "id": "you",
+   "at": "17",
+   "dur": 0.4,
+   "pose": "stand"
+  },
+  {
+   "id": "you",
+   "at": "17:how",
+   "dur": 0.4,
+   "pose": "shrug"
+  }
+ ],
+ "overlays": [
+  {
+   "type": "question",
+   "on": "r",
+   "from": "0:human",
+   "to": "1"
+  },
+  {
+   "type": "question",
+   "on": "h",
+   "from": "0:real",
+   "to": "1"
+  },
+  {
+   "type": "number",
+   "text": "73%",
+   "on": "r",
+   "from": "1:73",
+   "to": "2"
+  },
+  {
+   "type": "label",
+   "text": "PICKED AS HUMAN",
+   "pos": [
+    540,
+    330
+   ],
+   "from": "1:human",
+   "to": "2"
+  },
+  {
+   "type": "question",
+   "on": "r",
+   "from": "2:understand",
+   "to": "3"
+  },
+  {
+   "type": "label",
+   "text": "45 YEARS OF NO",
+   "pos": [
+    540,
+    330
+   ],
+   "from": "3:45",
+   "to": "4"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "searle",
+    0
+   ],
+   "caption": "John Searle (1932-2025)",
+   "from": "4",
+   "to": "5-0.2"
+  },
+  {
+   "type": "label",
+   "text": "YOU",
+   "color": "yellow",
+   "on": "you",
+   "from": "5",
+   "to": "5:speaks"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "chinese",
+    1
+   ],
+   "caption": "Written Chinese",
+   "from": "5:Chinese#2",
+   "to": "6-0.2",
+   "pos": [
+    540,
+    820
+   ]
+  },
+  {
+   "type": "label",
+   "text": "RULE BOOK",
+   "on": "book",
+   "from": "6:rule",
+   "to": "7"
+  },
+  {
+   "type": "check",
+   "on": "you",
+   "from": "7:fluent",
+   "to": "7:yet"
+  },
+  {
+   "type": "question",
+   "on": "searle",
+   "from": "7:nothing",
+   "to": "8"
+  },
+  {
+   "type": "label",
+   "text": "HE MEANT COMPUTERS",
+   "pos": [
+    540,
+    330
+   ],
+   "from": "8:computers",
+   "to": "9"
+  },
+  {
+   "type": "label",
+   "text": "SYMBOLS, NO MEANING",
+   "pos": [
+    540,
+    330
+   ],
+   "from": "9:symbols",
+   "to": "10"
+  },
+  {
+   "type": "cross",
+   "from": "9:without",
+   "to": "10"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "deepblue",
+    0
+   ],
+   "caption": "IBM's Deep Blue, which beat Kasparov in 1997",
+   "from": "10",
+   "to": "11-0.2"
+  },
+  {
+   "type": "label",
+   "text": "THE WHOLE ROOM UNDERSTANDS?",
+   "pos": [
+    540,
+    330
+   ],
+   "from": "11:whole",
+   "to": "12"
+  },
+  {
+   "type": "label",
+   "text": "PROVE SEARLE WRONG",
+   "pos": [
+    540,
+    330
+   ],
+   "from": "12:proving",
+   "to": "13"
+  },
+  {
+   "type": "icon",
+   "icon": "brain",
+   "on": "searle",
+   "from": "13:memorize",
+   "to": "13:still"
+  },
+  {
+   "type": "xmark",
+   "on": "searle",
+   "from": "13:still",
+   "to": "14"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "turing",
+    0
+   ],
+   "caption": "Alan Turing, in slate at Bletchley Park",
+   "from": "14",
+   "to": "15-0.2"
+  },
+  {
+   "type": "icon",
+   "icon": "eye",
+   "on": "you",
+   "from": "15:see",
+   "to": "15:politely"
+  },
+  {
+   "type": "label",
+   "text": "THE POLITE CONVENTION",
+   "pos": [
+    540,
+    330
+   ],
+   "from": "15:politely",
+   "to": "16"
+  },
+  {
+   "type": "check",
+   "on": "r",
+   "from": "16:passed",
+   "to": "17"
+  },
+  {
+   "type": "pill",
+   "text": "How do you know anyone understands you?",
+   "from": "17:how"
+  }
+ ],
+ "sfx": [
+  {
+   "at": "5:slide",
+   "s": "whoosh",
+   "gain": 0.3
+  },
+  {
+   "at": "6:rule",
+   "s": "pluck",
+   "gain": 0.25
+  },
+  {
+   "at": "6:symbols",
+   "s": "select",
+   "gain": 0.25
+  },
+  {
+   "at": "7:answers",
+   "s": "whoosh",
+   "gain": 0.3
+  },
+  {
+   "at": "8:computers",
+   "s": "switch",
+   "gain": 0.3
+  },
+  {
+   "at": "13:memorize",
+   "s": "maximize",
+   "gain": 0.3
+  },
+  {
+   "at": "16:died",
+   "s": "bong",
+   "gain": 0.25
+  }
+ ],
+ "music": {
+  "mood": "wonder"
+ },
+ "sources": [
+  "https://plato.stanford.edu/entries/chinese-room/",
+  "https://arxiv.org/abs/2503.23674",
+  "https://today.ucsd.edu/story/ai-can-seem-more-human-than-real-humans-in-a-classic-turing-test-study-finds",
+  "https://dailynous.com/2025/09/28/john-searle-1932-2025/"
+ ],
+ "post": {
+  "caption": "In 2025 a chatbot was picked as human more often than real humans. One philosopher spent 45 years arguing it still understands nothing.\nDoes it understand you?",
+  "tags": [
+   "#philosophy",
+   "#chineseroom",
+   "#artificialintelligence",
+   "#johnsearle",
+   "#thoughtexperiment"
+  ],
+  "youtube_title": "It Passed for Human. Does It Understand a Word?"
+ }
+}
