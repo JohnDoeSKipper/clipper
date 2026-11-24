@@ -8,9 +8,9 @@ Check what the original experiment or argument actually says (and whether later 
 - made | veil-of-ignorance | The Veil of Ignorance (Rawls) | clay | people behind a veil choosing a society before knowing who they will be; coin/crown/cash icons
 - inbox | chinese-room | The Chinese Room (Searle) | ps2 | a room, a person with a rule book, slips passed under a door; robot outside
 - inbox | platos-cave | Plato's Cave | ps2 | fire, wall, people facing shadows; one walks out
-- todo | drowning-child | The Drowning Child (Singer) | clay | pond, child, new shoes; then the same child far away
-- todo | marys-room | Mary's Room | ps2 | grey room, screen, books; a door; a red ball outside
-- todo | brain-in-a-vat | Brain in a Vat | ps2 | brainjar, cables, screen; "how would you know?"
+- requested | drowning-child | The Drowning Child (Singer) | clay | pond, child, new shoes; then the same child far away
+- requested | marys-room | Mary's Room | ps2 | grey room, screen, books; a door; a red ball outside
+- requested | brain-in-a-vat | Brain in a Vat | ps2 | brainjar, cables, screen; "how would you know?"
 - todo | prisoners-dilemma | The Prisoner's Dilemma | clay | two rooms with a wall between; number overlays for years
 - todo | ring-of-gyges | The Ring of Gyges | ps2 | a ring that makes you a ghost; would you still be good?
 - todo | teleporter | The Teleporter Problem (Parfit) | ps2 | two pods; the original is destroyed... or not

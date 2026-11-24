@@ -1,0 +1,18 @@
+{
+ "items": [
+  {
+   "id": "las-meninas",
+   "painting": "File:Las Meninas, by Diego Velázquez, from Prado in Google Earth.jpg",
+   "look_for": {
+    "velazquez": "Velázquez self-portrait",
+    "philip": "Philip IV of Spain Velázquez portrait",
+    "mariana": "Mariana of Austria Velázquez portrait",
+    "margarita": "Infanta Margarita Teresa Velázquez",
+    "prado": "Museo del Prado building Madrid",
+    "alcazar": "Royal Alcazar of Madrid",
+    "arnolfini": "Arnolfini Portrait mirror detail",
+    "santiago": "Cross of Order of Santiago"
+   }
+  }
+ ]
+}

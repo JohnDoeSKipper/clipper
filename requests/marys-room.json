@@ -1,0 +1,14 @@
+{
+ "items": [
+  {
+   "id": "marys-room",
+   "look_for": {
+    "jackson": "Frank Jackson philosopher",
+    "spectrum": "visible light spectrum",
+    "retina": "cone cells retina",
+    "pingelap": "Pingelap atoll",
+    "tomato": "red ripe tomato"
+   }
+  }
+ ]
+}

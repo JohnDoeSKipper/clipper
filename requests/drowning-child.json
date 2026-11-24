@@ -1,0 +1,17 @@
+{
+ "items": [
+  {
+   "id": "drowning-child",
+   "look_for": {
+    "singer": "Peter Singer philosopher",
+    "bengal": "Bangladesh 1971 refugees camp",
+    "pond": "small pond park",
+    "shoes": "leather shoes pair",
+    "bednet": "mosquito bed net malaria",
+    "princeton": "Princeton University Nassau Hall",
+    "oxford": "Oxford University Radcliffe Camera",
+    "famine": "famine relief food aid"
+   }
+  }
+ ]
+}

@@ -102,20 +102,24 @@ def main():
     today = now.strftime("%Y-%m-%d")
     cards, summary = [], []
     for acc in cfg["accounts"]:
-        # a video already handed out today stays tonight's video if the kit is rebuilt
+        # videos already handed out today stay tonight's videos if the kit is rebuilt;
+        # posting.json "tonight" {"YYYY-MM-DD": n} hands out n videos per account that night (default 1)
+        n = int(cfg.get("tonight", {}).get(today, 1))
         done = ledger.get(acc["name"], {})
         again = [v for v, r in done.items() if r.get("handed_out") == today]
-        item = None
+        items = []
         if again:
             from post import ready_videos
-            item = next((v for v in ready_videos() if v[1] == again[0]), None)
-        if not item:
+            items = [v for v in ready_videos() if v[1] in again]
+        while len(items) < n:
             item = pick(acc, ledger)
-            if item and not DRY:
-                ledger.setdefault(acc["name"], {})[item[1]] = {
-                    "channel": item[2], "handed_out": today, "at": now.isoformat(timespec="minutes")}
-        cards.append(card(acc, item, today))
-        summary.append(f"{acc['name']}: {item[1] if item else 'nothing new'}")
+            if not item:
+                break
+            ledger.setdefault(acc["name"], {})[item[1]] = {
+                "channel": item[2], "handed_out": today, "at": now.isoformat(timespec="minutes")}
+            items.append(item)
+        cards.extend(card(acc, it, today) for it in items) if items else cards.append(card(acc, None, today))
+        summary.append(f"{acc['name']}: {', '.join(it[1] for it in items) if items else 'nothing new'}")
     page = (PAGE.replace("__DATE__", now.strftime("%A %d %B %Y"))
                 .replace("__CARDS__", "\n".join(cards))
                 .replace("__REPO__", os.environ.get("GITHUB_REPOSITORY", "JohnDoeSKipper/clipper")))

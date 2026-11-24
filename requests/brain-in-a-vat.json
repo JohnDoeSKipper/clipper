@@ -1,0 +1,14 @@
+{
+ "items": [
+  {
+   "id": "brain-in-a-vat",
+   "look_for": {
+    "putnam": "Hilary Putnam",
+    "descartes": "René Descartes portrait Frans Hals",
+    "eeg": "EEG electrodes head",
+    "neuron": "neuron microscope",
+    "bci": "brain computer interface electrode array"
+   }
+  }
+ ]
+}
