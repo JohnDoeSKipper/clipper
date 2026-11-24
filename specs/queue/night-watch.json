@@ -1,0 +1,300 @@
+{
+ "id": "night-watch",
+ "channel": "paintings",
+ "angle": "How much of The Night Watch we see today is the painting Rembrandt actually made?",
+ "logline": "It isn't a night scene, but darkened varnish gave it its name, so we ask what else isn't Rembrandt's, and the answer starts with a daylight militia march, but in 1715 it was trimmed to fit the town hall, so two men vanished, but a small copy kept them, so in 2021 AI printed the edges back, but it had nearly been lost entirely in a wartime cave.",
+ "hook_text": "DAYLIGHT UNDER DIRT",
+ "hooks": [
+  "In 1715, Amsterdam cut this painting down to fit a room.",
+  "To see this painting whole, you have to go to London."
+ ],
+ "painting": {
+  "title": "The Night Watch",
+  "artist": "Rembrandt van Rijn",
+  "year": "1642",
+  "museum": "Rijksmuseum, Amsterdam"
+ },
+ "script": [
+  {
+   "text": "The Night Watch isn't set at night.",
+   "beat": "hook"
+  },
+  {
+   "text": "Its daylight sank under darkened varnish, and the nickname stuck.",
+   "beat": "hook",
+   "link": "because"
+  },
+  {
+   "text": "So how much of what we see is really Rembrandt's painting?",
+   "beat": "question",
+   "link": "so"
+  },
+  {
+   "text": "He painted a militia company marching out, in 1642.",
+   "beat": "reveal1",
+   "link": "answer",
+   "say": "He painted a militia company marching out, in sixteen forty-two."
+  },
+  {
+   "text": "Captain Banninck Cocq gives the order, his hand's shadow falling on his lieutenant's coat.",
+   "beat": "reveal1",
+   "link": "detail",
+   "say": "Captain Banning Cock gives the order, his hand's shadow falling on his lieutenant's coat."
+  },
+  {
+   "text": "So a group portrait that should stand in rows suddenly moves.",
+   "beat": "reveal1",
+   "link": "so"
+  },
+  {
+   "text": "But in 1715, it moved to Amsterdam's town hall, and didn't fit.",
+   "beat": "reveal2",
+   "link": "but",
+   "say": "But in seventeen fifteen, it moved to Amsterdam's town hall, and didn't fit."
+  },
+  {
+   "text": "So they trimmed strips off all four sides, most from the left.",
+   "beat": "reveal2",
+   "link": "so"
+  },
+  {
+   "text": "Two men on the left edge vanished.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "But Gerrit Lundens had painted a small copy before the cut.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "So in 2021, the Rijksmuseum trained an AI on it and printed the lost edges back.",
+   "beat": "reveal3",
+   "link": "so",
+   "say": "So in twenty twenty-one, the Rijksmuseum trained an A.I. on it and printed the lost edges back."
+  },
+  {
+   "text": "For the first time in three hundred years, it hung complete.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "But in the war, it was rolled up and hidden in a cave.",
+   "beat": "turn",
+   "link": "but"
+  },
+  {
+   "text": "So it isn't night, isn't its name, and isn't its full size.",
+   "beat": "payoff",
+   "link": "answer"
+  },
+  {
+   "text": "But in a small copy in London, Rembrandt's whole company still marches out.",
+   "beat": "payoff",
+   "link": "but"
+  }
+ ],
+ "music": {
+  "piece": "mozart-fantasia-d-minor"
+ },
+ "timeline": [
+  {
+   "type": "reveal",
+   "from": [
+    0.55,
+    0.62,
+    2.4
+   ],
+   "until": 3.0
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.5,
+    0.17,
+    0.42,
+    0.13
+   ],
+   "ring": "1",
+   "zoom": "1+0.4",
+   "label": "DARKENED VARNISH",
+   "labelAt": "1:varnish",
+   "out": "2-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "rembrandt",
+    0
+   ],
+   "caption": "Rembrandt, self-portrait, 1640",
+   "at": "2",
+   "to": "3-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.5,
+    0.58,
+    0.36,
+    0.3
+   ],
+   "ring": "3",
+   "zoom": "3+0.4",
+   "label": "A MILITIA COMPANY",
+   "labelAt": "3:militia",
+   "out": "4-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.535,
+    0.62,
+    0.13,
+    0.34
+   ],
+   "ring": "4",
+   "zoom": "4+0.4",
+   "out": "5-0.3",
+   "then": {
+    "region": [
+     0.59,
+     0.67,
+     0.045,
+     0.05
+    ],
+    "ring": "4:shadow",
+    "zoom": "4:shadow+0.3",
+    "label": "HIS HAND'S SHADOW",
+    "labelAt": "4:falling"
+   }
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.2,
+    0.6,
+    0.09,
+    0.22
+   ],
+   "ring": "5",
+   "zoom": "5+0.4",
+   "label": "LOADING MID-STRIDE",
+   "labelAt": "5:moves",
+   "out": "6-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "map",
+   "place": "Amsterdam Town Hall",
+   "sub": "Dam Square, 1715",
+   "lat": 52.373,
+   "lon": 4.891,
+   "at": "6",
+   "to": "7-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "lundens",
+    2
+   ],
+   "caption": "The lines mark what was cut in 1715",
+   "at": "7",
+   "to": "8-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.06,
+    0.55,
+    0.06,
+    0.38
+   ],
+   "ring": "8",
+   "zoom": "8+0.4",
+   "label": "CUT AWAY HERE",
+   "labelAt": "8:vanished",
+   "labelSide": 1,
+   "out": "9-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "lundens",
+    1
+   ],
+   "caption": "Gerrit Lundens's copy, London",
+   "at": "9",
+   "to": "10-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "gallery",
+    2
+   ],
+   "caption": "The Night Watch at the Rijksmuseum",
+   "at": "10",
+   "to": "11-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.06,
+    0.55,
+    0.06,
+    0.38
+   ],
+   "ring": "11",
+   "zoom": "11+0.4",
+   "label": "EDGES PRINTED BACK",
+   "labelAt": "11:complete",
+   "labelSide": 1,
+   "out": "12-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "map",
+   "place": "Maastricht caves",
+   "sub": "Its hiding place, WWII",
+   "lat": 50.83,
+   "lon": 5.69,
+   "at": "12",
+   "to": "13-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "lundens",
+    1
+   ],
+   "caption": "Lundens's copy, National Gallery, London",
+   "at": "14",
+   "to": "end"
+  }
+ ],
+ "sources": [
+  "https://www.rijksmuseum.nl/en/stories/10-things/story/10-things-about-rembrandt-s-night-watch",
+  "https://www.rijksmuseum.nl/en/press/press-releases/for-the-first-time-in-300-years-the-night-watch-is-complete-again",
+  "https://nationalgallery.org.uk/paintings/NG289",
+  "https://smarthistory.org/?p=20258",
+  "https://en.wikipedia.org/wiki/Caves_of_Maastricht"
+ ],
+ "post": {
+  "caption": "The Night Watch isn't set at night, and the edges Rembrandt painted were cut off in 1715 to fit the town hall.\nWould you trust an AI to paint the missing pieces back?",
+  "tags": [
+   "#arthistory",
+   "#rembrandt",
+   "#thenightwatch",
+   "#dutchgoldenage",
+   "#rijksmuseum"
+  ],
+  "youtube_title": "The Night Watch Isn't Set at Night"
+ }
+}
