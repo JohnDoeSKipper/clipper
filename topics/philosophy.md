@@ -6,9 +6,9 @@ Check what the original experiment or argument actually says (and whether later 
 - made | experience-machine | The Experience Machine (Nozick) | ps2 | remade 2026-11-24. Spares: Hindriks & Douven pills (29% machine, 53% experience pill, 89% functioning pill); Olds's rats took 4x the foot-shock for brain reward than hungry rats take for food
 - made | ship-of-theseus | The Ship of Theseus | clay | ship on open sea; planks swapped one by one; a second ship built from the old planks
 - made | veil-of-ignorance | The Veil of Ignorance (Rawls) | clay | people behind a veil choosing a society before knowing who they will be; coin/crown/cash icons
-- inbox | chinese-room | The Chinese Room (Searle) | ps2 | a room, a person with a rule book, slips passed under a door; robot outside
-- inbox | platos-cave | Plato's Cave | ps2 | fire, wall, people facing shadows; one walks out
-- requested | drowning-child | The Drowning Child (Singer) | clay | pond, child, new shoes; then the same child far away
+- made | chinese-room | The Chinese Room (Searle) | ps2 | a room, a person with a rule book, slips passed under a door; robot outside | made 2026-11-24. Spares: aimed at Roger Schank's Yale story program (the burnt hamburger); Leibniz's mill (1714); Ned Block's China brain (1978); Turing predicted a 70% spot rate after 5 minutes by 2000
+- made | platos-cave | Plato's Cave | ps2 | fire, wall, people facing shadows; one walks out | made 2026-11-24. Spares: the Republic's first word 'katebēn' (I went down) echoes 520c; education as turning the soul (518c); stages: shadows, reflections, things, night sky, sun; the newly sighted children improved within days
+- made | drowning-child | The Drowning Child (Singer) | clay | pond, child, new shoes; then the same child far away | made 2026-11-24. Spares: later version swaps muddy clothes for expensive shoes (2009); Giving What We Can 10% pledge (Toby Ord, 2009); Schwitzgebel, Cokelet & Singer 2020 meat-ethics class cut meat buying (figure unchecked)
 - requested | marys-room | Mary's Room | ps2 | grey room, screen, books; a door; a red ball outside
 - requested | brain-in-a-vat | Brain in a Vat | ps2 | brainjar, cables, screen; "how would you know?"
 - todo | prisoners-dilemma | The Prisoner's Dilemma | clay | two rooms with a wall between; number overlays for years

@@ -225,7 +225,7 @@ Staging the structure: the hook on a striking image of the dilemma → the set-u
 ```
 Full working examples: `specs/examples/trolley-problem.json` (hand-set cameras, the video Jared approved) and `specs/examples/experience-machine.json` (presets). Open one only if you are unsure of something.
 
-**The stage.** Units are metres; a person is 2.2 tall. `at` = `[x, y, z]`: x right, y up, z towards the default viewer. Keep the action within about 8 m of the origin. `face` = degrees (0 faces +z) or the id of something to look at.
+**The stage.** Units are metres; a person is 2.2 tall. `at` = `[x, y, z]`: x right, y up, z towards the default viewer. Keep the action within about 8 m of the origin. `face` = degrees (0 faces +z) or the id of something to look at (never an `[x, y, z]` list: that silently hides the person).
 - `world.scenery`: `default` (clay: park with hills and lollipop trees; ps2: city at sunset) · `room` (an office: peach and mint in clay, sunset windows in ps2; walls 13 m left/right and 11 m front/back of the origin) · `open` (bare ground and sky; set `world.ground` to a colour for sea, sand, snow) · `none`.
 - **People**: `kind: "person"`, `look`: `you` (yellow; always the viewer's stand-in), `stranger`, `one`, `elder`, or `a`-`e` for a varied crowd. `"ghost": true` = see-through (imagined or possible outcomes). `"behave": "panic"` = waving for help.
   Poses: `stand pull push think pushed point reach cheer shrug wave sad shock sit carry`. `"tip": -90` lays someone on their back.
@@ -285,3 +285,4 @@ Add dated one-line entries here whenever Jared corrects a video, and fold lastin
 - 2026-11-23: Jared: new videos are more educational but jump from point to point and cut abruptly. Added the spine (beats + links, checked by build.py), logline, fact budget 5-7, on-screen hook text, automatic beat pacing, a 1.6 s held ending, and camera glides between nearby shots.
 - 2026-11-23: Jared: add as many reference pictures as needed, source them all, and make the video show what the script says. Added "Show what you say", Philosophy `photo` overlays and picture requests, and draft-check warnings for sentences with nothing matching on screen.
 - 2026-11-24: last remakes done (girl-pearl-earring, experience-machine); the 2026-11-23 remake list is finished.
+- 2026-11-24: Jared (chat) asked for 3 extra videos per channel and 4 posts per channel tonight: made mona-lisa, night-watch, las-meninas, chinese-room, platos-cave, drowning-child; `catalog/posting.json` "tonight" {date: n} now sets how many videos per account the kit hands out that night (default 1). One-off, not a new daily rate.
