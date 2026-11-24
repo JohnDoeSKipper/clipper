@@ -1,15 +1,3 @@
-{
- "items": [
-  {
-   "id": "arnolfini",
-   "painting": "Arnolfini Portrait Van Eyck National Gallery",
-   "look_for": {
-    "mirror": "Arnolfini Portrait convex mirror detail",
-    "bruges": "Bruges canal medieval houses",
-    "vaneyck": "Jan van Eyck Man in a Red Turban",
-    "gallery": "National Gallery London Trafalgar Square",
-    "merode": "Mérode Altarpiece"
-   }
-  }
- ]
-}
+{"items": [{"id": "arnolfini",
+  "painting": "File:Van Eyck - Arnolfini Portrait.jpg",
+  "look_for": {"margaret": "Portrait of Margaret van Eyck Groeningemuseum", "vaneyck": "Jan van Eyck Man in a Red Turban", "bruges": "Bruges canal medieval houses", "berlin": "Gemäldegalerie Berlin Kulturforum building", "gallery": "National Gallery London Trafalgar Square"}}]}

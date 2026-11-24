@@ -12,40 +12,39 @@
   "desc": ""
  },
  "inserts": {
-  "mirror": [],
-  "bruges": [
+  "margaret": [
    {
-    "title": "File:Canal Cruise at Bruges (5524506275).jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Canal_Cruise_at_Bruges_%285524506275%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Canal_Cruise_at_Bruges_%285524506275%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 1200,
-    "height": 754,
-    "licence": "CC BY-SA 2.0",
-    "artist": "InSapphoWeTrust from Los Angeles, California, USA",
-    "credit": "InSapphoWeTrust from Los Angeles, California, USA / CC BY-SA 2.0",
-    "desc": "I am in the midst of a day trip to the Flemish medieval town of Brugge. In English, it is usually referred to by its French name, Bruges. Brugge used to be a bo"
+    "title": "File:Margareta van Eyck.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Margareta_van_Eyck.jpg/3840px-Margareta_van_Eyck.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/7/70/Margareta_van_Eyck.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 5155,
+    "height": 6588,
+    "licence": "Public domain",
+    "artist": "Jan van Eyck",
+    "credit": "",
+    "desc": ""
    },
    {
-    "title": "File:Town Square, Bruges (5524506167).jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Town_Square%2C_Bruges_%285524506167%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/4/49/Town_Square%2C_Bruges_%285524506167%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 1200,
-    "height": 658,
-    "licence": "CC BY-SA 2.0",
-    "artist": "InSapphoWeTrust from Los Angeles, California, USA",
-    "credit": "InSapphoWeTrust from Los Angeles, California, USA / CC BY-SA 2.0",
-    "desc": "This is a secondary square near the town hall in the Flemish medieval town of Brugge, usually known in English by its French name Bruges. Brugge used to be a bo"
+    "title": "File:Eyck, Jan van - Portret van Margareta van Eyck.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Eyck%2C_Jan_van_-_Portret_van_Margareta_van_Eyck.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Eyck%2C_Jan_van_-_Portret_van_Margareta_van_Eyck.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3578,
+    "height": 4500,
+    "licence": "Public domain",
+    "artist": "Jan van Eyck",
+    "credit": "",
+    "desc": ""
    },
    {
-    "title": "File:Grand Markt, Brugge (5296746693).jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Grand_Markt%2C_Brugge_%285296746693%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/8/82/Grand_Markt%2C_Brugge_%285296746693%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 1200,
-    "height": 658,
-    "licence": "CC BY-SA 2.0",
-    "artist": "InSapphoWeTrust from Los Angeles, California, USA",
-    "credit": "InSapphoWeTrust from Los Angeles, California, USA / CC BY-SA 2.0",
-    "desc": "I am visiting Brugge (known as Bruges in French and English) in West Flanders. Loving the Dutch architecture. This is my first-ever visit to a Dutch-influenced "
+    "title": "File:Portret van Margareta van Eyck, 1439, Groeningemuseum, 0040160000.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Portret_van_Margareta_van_Eyck%2C_1439%2C_Groeningemuseum%2C_0040160000.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Portret_van_Margareta_van_Eyck%2C_1439%2C_Groeningemuseum%2C_0040160000.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1525,
+    "height": 2000,
+    "licence": "CC0",
+    "artist": "Jan van Eyck",
+    "credit": "",
+    "desc": "Portret van Margareta van Eyck (Jan van Eyck, 1439); collection: Musea Brugge - Groeningemuseum"
    }
   ],
   "vaneyck": [
@@ -83,6 +82,76 @@
     "desc": ""
    }
   ],
+  "bruges": [
+   {
+    "title": "File:Canal Cruise at Bruges (5524506275).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Canal_Cruise_at_Bruges_%285524506275%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Canal_Cruise_at_Bruges_%285524506275%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1200,
+    "height": 754,
+    "licence": "CC BY-SA 2.0",
+    "artist": "InSapphoWeTrust from Los Angeles, California, USA",
+    "credit": "InSapphoWeTrust from Los Angeles, California, USA / CC BY-SA 2.0",
+    "desc": "I am in the midst of a day trip to the Flemish medieval town of Brugge. In English, it is usually referred to by its French name, Bruges. Brugge used to be a bo"
+   },
+   {
+    "title": "File:Town Square, Bruges (5524506167).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Town_Square%2C_Bruges_%285524506167%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/4/49/Town_Square%2C_Bruges_%285524506167%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1200,
+    "height": 658,
+    "licence": "CC BY-SA 2.0",
+    "artist": "InSapphoWeTrust from Los Angeles, California, USA",
+    "credit": "InSapphoWeTrust from Los Angeles, California, USA / CC BY-SA 2.0",
+    "desc": "This is a secondary square near the town hall in the Flemish medieval town of Brugge, usually known in English by its French name Bruges. Brugge used to be a bo"
+   },
+   {
+    "title": "File:Grand Markt, Brugge (5296746693).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Grand_Markt%2C_Brugge_%285296746693%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/8/82/Grand_Markt%2C_Brugge_%285296746693%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1200,
+    "height": 658,
+    "licence": "CC BY-SA 2.0",
+    "artist": "InSapphoWeTrust from Los Angeles, California, USA",
+    "credit": "InSapphoWeTrust from Los Angeles, California, USA / CC BY-SA 2.0",
+    "desc": "I am visiting Brugge (known as Bruges in French and English) in West Flanders. Loving the Dutch architecture. This is my first-ever visit to a Dutch-influenced "
+   }
+  ],
+  "berlin": [
+   {
+    "title": "File:Gem\u00e4ldegalerie am Kulturforum Berlin.JPG",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Gem%C3%A4ldegalerie_am_Kulturforum_Berlin.JPG/3840px-Gem%C3%A4ldegalerie_am_Kulturforum_Berlin.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/6/62/Gem%C3%A4ldegalerie_am_Kulturforum_Berlin.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 5184,
+    "height": 3456,
+    "licence": "CC0",
+    "artist": "User:Oursana",
+    "credit": "",
+    "desc": "Fassade der Gem\u00e4ldegalerie am Kulturforum Berlin mit Vorplatz"
+   },
+   {
+    "title": "File:Kulturforum 2015.JPG",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Kulturforum_2015.JPG/3840px-Kulturforum_2015.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/8/81/Kulturforum_2015.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 5184,
+    "height": 3456,
+    "licence": "CC BY 3.0",
+    "artist": "Oursana",
+    "credit": "Oursana / CC BY 3.0",
+    "desc": "Berlin, Germany: Kulturforum (museums)"
+   },
+   {
+    "title": "File:Kulturforum.Berlin.Portal.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Kulturforum.Berlin.Portal.jpg/3840px-Kulturforum.Berlin.Portal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/3/31/Kulturforum.Berlin.Portal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 10368,
+    "height": 4147,
+    "licence": "CC0",
+    "artist": "Membeth",
+    "credit": "",
+    "desc": "Kulturforum in Berlin, Portalbereich der Gem\u00e4ldegalerie, des Kupferstichkabinetts, der Kunstbibliothek und des Kunstgewerbemuseums"
+   }
+  ],
   "gallery": [
    {
     "title": "File:Trafalgar Square 360 Panorama Cropped Sky, London - Jun 2009.jpg",
@@ -116,41 +185,6 @@
     "artist": "Diliff",
     "credit": "Diliff / CC BY-SA 3.0",
     "desc": "A perspective corrected image of Trafalgar Square in London, England. Taken by me with a Canon 5D and 17-40mm f/4L lens."
-   }
-  ],
-  "merode": [
-   {
-    "title": "File:Annunciation Triptych (Merode Altarpiece) MET DP273206.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Annunciation_Triptych_%28Merode_Altarpiece%29_MET_DP273206.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Annunciation_Triptych_%28Merode_Altarpiece%29_MET_DP273206.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 1959,
-    "height": 996,
-    "licence": "CC0",
-    "artist": "Robert Campin",
-    "credit": "",
-    "desc": "Annunciation"
-   },
-   {
-    "title": "File:Robert Campin - Triptych with the Annunciation, known as the \"Merode Altarpiece\" - Google Art Project.jpg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Robert_Campin_-_Triptych_with_the_Annunciation%2C_known_as_the_%22Merode_Altarpiece%22_-_Google_Art_Project.jpg/3840px-Robert_Campin_-_Triptych_with_the_Annunciation%2C_known_as_the_%22Merode_Altarpiece%22_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Robert_Campin_-_Triptych_with_the_Annunciation%2C_known_as_the_%22Merode_Altarpiece%22_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 4000,
-    "height": 2027,
-    "licence": "Public domain",
-    "artist": "Workshop of Robert Campin",
-    "credit": "",
-    "desc": "Annunciation"
-   },
-   {
-    "title": "File:Annunciation Triptych (Merode Altarpiece) MET DT7261.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Annunciation_Triptych_%28Merode_Altarpiece%29_MET_DT7261.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Annunciation_Triptych_%28Merode_Altarpiece%29_MET_DT7261.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 2677,
-    "height": 3722,
-    "licence": "CC0",
-    "artist": "Robert Campin",
-    "credit": "",
-    "desc": "South Netherlandish; Altarpiece; Paintings-Panels"
    }
   ]
  }
