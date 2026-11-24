@@ -1,0 +1,321 @@
+{
+ "id": "arnolfini",
+ "channel": "paintings",
+ "angle": "Who are the man and woman in the Arnolfini Portrait?",
+ "answer": "Nobody knows: the Arnolfini name rests on a 1516 nickname, the likeliest Arnolfini's wife was already dead, and the newest theory (Van Eyck and his wife) is contradicted by her eyes; the only certain name is the painter's.",
+ "logline": "Van Eyck signed himself as a witness, so who did he witness? A 1516 nickname became 'Arnolfini', so a rich merchant seemed right, but the likeliest Arnolfini's wife was dead by 1433, so the candle may be a memorial, but a Berlin curator now says it is Van Eyck and Margaret, because Saint Margaret is carved beside her, but Margaret's eyes are the wrong colour, so the couple stays unnamed and only the painter's name is certain.",
+ "hook_text": "WHO ARE THESE TWO?",
+ "hooks": [
+  "This famous couple has no confirmed names, after almost 600 years.",
+  "One candle burns above them. The other has been snuffed out."
+ ],
+ "painting": {
+  "title": "The Arnolfini Portrait",
+  "artist": "Jan van Eyck",
+  "year": "1434",
+  "museum": "National Gallery, London"
+ },
+ "script": [
+  {
+   "text": "Above the mirror, the painter wrote: Jan van Eyck was here, 1434.",
+   "beat": "hook",
+   "say": "Above the mirror, the painter wrote: Jan van Ike was here, fourteen thirty-four."
+  },
+  {
+   "text": "In the mirror, two men stand in the doorway.",
+   "beat": "hook",
+   "link": "detail"
+  },
+  {
+   "text": "So who is the couple he watched?",
+   "beat": "question",
+   "link": "so"
+  },
+  {
+   "text": "Their name comes from a 1516 inventory: Hernoul le Fin, with his wife.",
+   "beat": "reveal1",
+   "say": "Their name comes from a fifteen sixteen inventory: Air-nool luh Fan, with his wife.",
+   "link": "answer"
+  },
+  {
+   "text": "In the 1860s, that was read as Arnolfini, Italian merchants in Bruges.",
+   "beat": "reveal1",
+   "say": "In the eighteen-sixties, that was read as Ar-nol-fee-nee, Italian merchants in Bruges.",
+   "link": "so"
+  },
+  {
+   "text": "So the oranges fit: costly fruit for a rich merchant.",
+   "beat": "reveal1",
+   "link": "so"
+  },
+  {
+   "text": "But the likeliest Arnolfini, Giovanni di Nicolao, had lost his wife.",
+   "beat": "reveal2",
+   "say": "But the likeliest Ar-nol-fee-nee, Jo-vah-nee dee Nee-co-lah-oh, had lost his wife.",
+   "link": "but"
+  },
+  {
+   "text": "She had died by 1433, a year before this date.",
+   "say": "She had died by fourteen thirty-three, a year before this date.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "So some read the chandelier as a memorial: one candle lit, one snuffed out.",
+   "beat": "reveal2",
+   "link": "so"
+  },
+  {
+   "text": "But a Berlin curator now has a bolder answer.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "The man, he says, is Van Eyck himself, and the woman his wife, Margaret.",
+   "say": "The man, he says, is van Ike himself, and the woman his wife, Margaret.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "Because on the bedpost beside her stands a carving of Saint Margaret.",
+   "beat": "reveal3",
+   "link": "because"
+  },
+  {
+   "text": "But Van Eyck's portrait of Margaret shows grey-blue eyes; these are brown.",
+   "beat": "turn",
+   "say": "But van Ike's portrait of Margaret shows grey-blue eyes; these are brown.",
+   "link": "but"
+  },
+  {
+   "text": "So after six centuries, the couple still has no certain name.",
+   "beat": "payoff",
+   "link": "answer"
+  },
+  {
+   "text": "But we know who stood at the door: Jan van Eyck was here.",
+   "beat": "payoff",
+   "say": "But we know who stood at the door: Jan van Ike was here.",
+   "link": "but"
+  }
+ ],
+ "music": {
+  "piece": "mussorgsky-old-castle"
+ },
+ "timeline": [
+  {
+   "type": "reveal",
+   "from": [
+    0.494,
+    0.205,
+    3.0
+   ],
+   "until": 3.3
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.507,
+    0.298,
+    0.085,
+    0.065
+   ],
+   "ring": "1:mirror",
+   "zoom": "1:mirror+0.4",
+   "out": "2-0.3",
+   "then": {
+    "region": [
+     0.505,
+     0.29,
+     0.03,
+     0.03
+    ],
+    "ring": "1:men",
+    "zoom": "1:men+0.4",
+    "label": "TWO VISITORS",
+    "labelAt": "1:doorway"
+   }
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.28,
+    0.2,
+    0.1,
+    0.07
+   ],
+   "ring": "3:Hernoul",
+   "zoom": "3:Hernoul+0.4",
+   "label": "HERNOUL LE FIN",
+   "labelAt": "3:Fin",
+   "out": "4-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "bruges",
+    2
+   ],
+   "caption": "Bruges, where Italian merchants traded",
+   "at": "4",
+   "to": "5-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.093,
+    0.493,
+    0.065,
+    0.065
+   ],
+   "ring": "5:oranges",
+   "zoom": "5:oranges+0.4",
+   "label": "IMPORTED ORANGES",
+   "labelAt": "5:costly",
+   "out": "6-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.28,
+    0.2,
+    0.1,
+    0.07
+   ],
+   "ring": "6:Giovanni",
+   "zoom": "6:Giovanni+0.4",
+   "out": "7-0.4"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.754,
+    0.24,
+    0.075,
+    0.065
+   ],
+   "ring": "7",
+   "zoom": "7+0.5",
+   "label": "DEAD BY 1433?",
+   "labelAt": "7:1433",
+   "out": "8-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.514,
+    0.117,
+    0.14,
+    0.08
+   ],
+   "ring": "8:chandelier",
+   "zoom": "8:chandelier+0.4",
+   "out": "9-0.3",
+   "then": {
+    "region": [
+     0.42,
+     0.07,
+     0.025,
+     0.035
+    ],
+    "ring": "8:candle",
+    "zoom": "8:candle+0.3",
+    "label": "ONE CANDLE LIT",
+    "labelAt": "8:lit"
+   }
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "berlin",
+    0
+   ],
+   "caption": "Gemäldegalerie, Berlin",
+   "at": "9",
+   "to": "10-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "vaneyck",
+    1
+   ],
+   "caption": "Van Eyck, possibly a self-portrait, 1433",
+   "at": "10",
+   "to": "11-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.674,
+    0.22,
+    0.035,
+    0.05
+   ],
+   "ring": "11:bedpost",
+   "zoom": "11:bedpost+0.4",
+   "label": "SAINT MARGARET",
+   "labelAt": "11:Saint",
+   "out": "12-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "margaret",
+    0
+   ],
+   "caption": "Margaret van Eyck, 1439",
+   "at": "12",
+   "to": "12:these-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.754,
+    0.234,
+    0.05,
+    0.03
+   ],
+   "ring": "12:these",
+   "zoom": "12:these+0.3",
+   "label": "BROWN EYES",
+   "labelAt": "12:brown",
+   "out": "13-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.5,
+    0.25,
+    0.1,
+    0.09
+   ],
+   "ring": "14:door",
+   "zoom": "14:door+0.4",
+   "label": "HE WAS HERE",
+   "labelAt": "14:here",
+   "out": "end"
+  }
+ ],
+ "sources": [
+  "https://www.nationalgallery.org.uk/paintings/jan-van-eyck-the-arnolfini-portrait",
+  "https://www.theartnewspaper.com/2026/11/16/has-the-pair-in-jan-van-eycks-arnolfini-portrait-been-misidentified",
+  "https://nationalgallery.org.uk/paintings/catalogues/campbell-1998/the-arnolfini-portrait",
+  "https://www.historyhit.com/the-arnolfini-portrait-jan-van-eycks-most-mysterious-painting/"
+ ],
+ "post": {
+  "caption": "For over 150 years we've called them the Arnolfini couple. A new theory says they are someone else entirely, and her eyes may give the answer.\nMerchant and wife, or painter and wife?",
+  "tags": [
+   "#arthistory",
+   "#vaneyck",
+   "#arnolfiniportrait",
+   "#nationalgallery",
+   "#renaissanceart"
+  ],
+  "youtube_title": "Who Is Actually in the Arnolfini Portrait?"
+ }
+}

@@ -1,6 +1,28 @@
 # Model scripts (newest first)
 The writer reads the top two of its channel before writing and matches or beats them: same spine (beats in order, every sentence linked to the one before), never the same facts or hooks. Each script the writer makes is added at the top in this format. Kept to the last 12.
 
+## arnolfini (paintings, 2026-11-25)
+
+Angle: Who are the man and woman in the Arnolfini Portrait?
+Logline: Van Eyck signed himself as a witness, so who did he witness? A 1516 nickname became 'Arnolfini', so a rich merchant seemed right, but the likeliest Arnolfini's wife was dead by 1433, so the candle may be a memorial, but a Berlin curator now says it is Van Eyck and Margaret, because Saint Margaret is carved beside her, but Margaret's eyes are the wrong colour, so the couple stays unnamed and only the painter's name is certain.
+On-screen hook: WHO ARE THESE TWO?
+
+[hook] Above the mirror, the painter wrote: Jan van Eyck was here, 1434.
+[hook / detail] In the mirror, two men stand in the doorway.
+[question / so] So who is the couple he watched?
+[reveal1 / answer] Their name comes from a 1516 inventory: Hernoul le Fin, with his wife.
+[reveal1 / so] In the 1860s, that was read as Arnolfini, Italian merchants in Bruges.
+[reveal1 / so] So the oranges fit: costly fruit for a rich merchant.
+[reveal2 / but] But the likeliest Arnolfini, Giovanni di Nicolao, had lost his wife.
+[reveal2 / detail] She had died by 1433, a year before this date.
+[reveal2 / so] So some read the chandelier as a memorial: one candle lit, one snuffed out.
+[reveal3 / but] But a Berlin curator now has a bolder answer.
+[reveal3 / detail] The man, he says, is Van Eyck himself, and the woman his wife, Margaret.
+[reveal3 / because] Because on the bedpost beside her stands a carving of Saint Margaret.
+[turn / but] But Van Eyck's portrait of Margaret shows grey-blue eyes; these are brown.
+[payoff / answer] So after six centuries, the couple still has no certain name.
+[payoff / but] But we know who stood at the door: Jan van Eyck was here.
+
 ## drowning-child (philosophy, 2026-11-24)
 
 Angle: You would ruin your clothes to save a drowning child nearby, so why not one far away?
@@ -259,25 +281,3 @@ On-screen hook: SAME SHRINE? EVERY PART IS NEW
 [turn / detail] Scientists dated your cells with carbon from Cold War bomb tests, and most are younger than you.
 [payoff / but] But the neurons of your cortex seem to be as old as you.
 [payoff / so] So what keeps you you: the parts that stayed, or the job they keep doing?
-
-## great-wave (paintings, model script 2026-11-23)
-
-Angle: How did a print that cost two bowls of noodles become the world's most famous wave?
-Logline: It was a cheap souvenir, but a new blue that never faded made it a hit, so thousands were printed until the blocks wore out, but its fame was made in Van Gogh's Europe, therefore a beginner's souvenir became priceless.
-On-screen hook: FROM NOODLE MONEY TO MILLIONS
-
-[hook] This wave once cost about two bowls of noodles.
-[hook / but] In 2023, one copy sold for 2.76 million dollars.
-[question / so] So how does a cheap print become the world's most famous wave?
-[reveal1 / answer] It starts with a new blue from China that never faded.
-[reveal1 / so] The series sold so well that the publisher added ten more views.
-[reveal2 / but] But a hit print wore out its own woodblocks.
-[reveal2 / detail] Thousands were pulled, each one blurring the carved lines a little more.
-[reveal2 / so] That's why crisp early copies are so rare, and so fought over.
-[reveal3 / but] But its fame was made far from Japan.
-[reveal3 / detail] In 1888, Van Gogh wrote to his brother that its waves are claws, and the boat is caught.
-[reveal3 / so] A year later he painted Starry Night, and one expert sees this wave in its sky.
-[turn / but] Yet Hokusai thought he had barely started.
-[turn / detail] He wrote that nothing he drew before seventy was worth noticing.
-[payoff / answer] So a new blue, worn woodblocks and Van Gogh's Europe made a cheap print priceless.
-[payoff / detail] Its maker died at eighty-nine, asking for five more years to become a real artist.
