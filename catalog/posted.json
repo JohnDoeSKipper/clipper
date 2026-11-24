@@ -19,6 +19,16 @@
    "channel": "paintings",
    "handed_out": "2026-11-24",
    "at": "2026-11-24T18:34+08:00"
+  },
+  "las-meninas": {
+   "channel": "paintings",
+   "handed_out": "2026-11-24",
+   "at": "2026-11-24T19:56+08:00"
+  },
+  "mona-lisa": {
+   "channel": "paintings",
+   "handed_out": "2026-11-24",
+   "at": "2026-11-24T19:56+08:00"
   }
  },
  "philosophy": {
@@ -41,6 +51,16 @@
    "channel": "philosophy",
    "handed_out": "2026-11-24",
    "at": "2026-11-24T18:34+08:00"
+  },
+  "chinese-room": {
+   "channel": "philosophy",
+   "handed_out": "2026-11-24",
+   "at": "2026-11-24T19:56+08:00"
+  },
+  "drowning-child": {
+   "channel": "philosophy",
+   "handed_out": "2026-11-24",
+   "at": "2026-11-24T19:56+08:00"
   }
  }
 }
