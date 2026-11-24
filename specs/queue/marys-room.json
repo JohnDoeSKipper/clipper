@@ -1,0 +1,813 @@
+{
+ "id": "marys-room",
+ "channel": "philosophy",
+ "style": "ps2",
+ "title": "MARY'S ROOM",
+ "angle": "If Mary knows every physical fact about colour, does seeing red teach her anything new?",
+ "answer": "Jackson said yes, so the mind isn't all physical; Lewis said she only gains an ability, and Jackson came round; but the colour-cured monkeys show that tests reveal what is picked out, never what it is like.",
+ "logline": "Gene therapy let colour-blind monkeys pick out red, so we ask if seeing teaches what books can't; Jackson's Mary knows every physical fact, but on seeing a tomato she seems to learn something, so physicalism looks false, but Lewis said she gains only know-how, so Jackson himself switched sides, but nobody can tell what the monkeys see, because tests show only what is picked out, so seeing gives something no book can, but what then is an AI that has read everything missing?",
+ "hook_text": "RED, BY INJECTION",
+ "hooks": [
+  "Imagine knowing everything about red without ever seeing it.",
+  "The philosopher who locked Mary in a grey room later let himself out."
+ ],
+ "world": {
+  "scenery": "open",
+  "ground": "#7d7d7d"
+ },
+ "script": [
+  {
+   "text": "In 2009, two colour-blind monkeys picked out red for the first time.",
+   "beat": "hook",
+   "say": "In two thousand nine, two colour-blind monkeys picked out red for the first time."
+  },
+  {
+   "text": "Gene therapy had put a human colour gene into their eyes.",
+   "beat": "hook",
+   "link": "because"
+  },
+  {
+   "text": "So can seeing red teach you something no book can?",
+   "beat": "question",
+   "link": "so"
+  },
+  {
+   "text": "In 1982, Frank Jackson imagined Mary, a brilliant scientist of vision.",
+   "beat": "reveal1",
+   "say": "In nineteen eighty-two, Frank Jackson imagined Mary, a brilliant scientist of vision.",
+   "link": "answer"
+  },
+  {
+   "text": "She lives in a black-and-white room, watching a black-and-white screen.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "She knows every physical fact about colour, down to each neuron.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "So if everything is physical, she knows it all.",
+   "beat": "reveal1",
+   "link": "so"
+  },
+  {
+   "text": "But then the door opens, and Mary sees a ripe tomato.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "Surely, Jackson said, she learns what seeing red is like.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "So something about the mind isn't physical.",
+   "beat": "reveal2",
+   "link": "so"
+  },
+  {
+   "text": "But David Lewis said Mary gains no new fact, only new abilities.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "She can now imagine, remember and recognise red: know-how, not a fact.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "That reply won over Frank Jackson himself.",
+   "beat": "reveal3",
+   "link": "so"
+  },
+  {
+   "text": "In the late 1990s he switched sides. I have capitulated, he wrote.",
+   "beat": "reveal3",
+   "say": "In the late nineteen-nineties he switched sides. I have capitulated, he wrote.",
+   "link": "detail"
+  },
+  {
+   "text": "But nobody knows what they see: one scientist suspects just another shade of yellow.",
+   "beat": "turn",
+   "link": "but"
+  },
+  {
+   "text": "Because tests show what they can pick out, not what it's like.",
+   "beat": "turn",
+   "link": "because"
+  },
+  {
+   "text": "So seeing red teaches something no book can, even if it's only a skill.",
+   "beat": "payoff",
+   "link": "answer"
+  },
+  {
+   "text": "But an AI has read every word about red. What is it missing?",
+   "beat": "payoff",
+   "link": "but"
+  }
+ ],
+ "objects": [
+  {
+   "id": "mary",
+   "kind": "person",
+   "look": "elder",
+   "at": [
+    0,
+    0,
+    0.4
+   ],
+   "face": "screen"
+  },
+  {
+   "id": "screen",
+   "kind": "screen",
+   "at": [
+    -1.0,
+    0,
+    -1.3
+   ],
+   "face": 30
+  },
+  {
+   "id": "book1",
+   "kind": "book",
+   "tint": "#9a9a9a",
+   "at": [
+    1.4,
+    0,
+    -1.0
+   ],
+   "face": -20
+  },
+  {
+   "id": "wall_b",
+   "kind": "wall",
+   "tint": "#9a9a9a",
+   "at": [
+    0,
+    0,
+    -3.2
+   ],
+   "face": 0
+  },
+  {
+   "id": "door",
+   "kind": "door",
+   "at": [
+    2.9,
+    0,
+    -3.2
+   ],
+   "face": 0
+  },
+  {
+   "id": "stand",
+   "kind": "pedestal",
+   "at": [
+    2.9,
+    0,
+    -5.0
+   ],
+   "face": 0
+  },
+  {
+   "id": "tomato",
+   "kind": "ball",
+   "tint": "#E0281E",
+   "scale": 0.55,
+   "at": [
+    2.9,
+    1.1,
+    -5.0
+   ]
+  },
+  {
+   "id": "robot",
+   "kind": "robot",
+   "tint": "#B8C2CC",
+   "at": [
+    6.2,
+    0,
+    2.6
+   ],
+   "face": "you",
+   "show": false
+  },
+  {
+   "id": "book3",
+   "kind": "book",
+   "tint": "#E0281E",
+   "at": [
+    7.2,
+    0,
+    2.0
+   ],
+   "face": 15,
+   "show": false
+  },
+  {
+   "id": "you",
+   "kind": "person",
+   "look": "you",
+   "at": [
+    4.6,
+    0,
+    3.6
+   ],
+   "face": "robot",
+   "show": false
+  }
+ ],
+ "shots": [
+  {
+   "at": 0,
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "mary",
+     "screen",
+     "door"
+    ]
+   }
+  },
+  {
+   "at": "1",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "mary",
+     "screen"
+    ]
+   },
+   "focus": [
+    "mary"
+   ]
+  },
+  {
+   "at": "2",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "mary",
+     "door"
+    ]
+   },
+   "focus": [
+    "mary"
+   ]
+  },
+  {
+   "at": "3",
+   "cam": {
+    "preset": "close",
+    "on": "mary"
+   },
+   "focus": [
+    "mary"
+   ]
+  },
+  {
+   "at": "4",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "mary",
+     "screen",
+     "book1",
+     "door"
+    ]
+   }
+  },
+  {
+   "at": "5",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "mary",
+     "screen"
+    ]
+   },
+   "focus": [
+    "mary",
+    "screen"
+   ]
+  },
+  {
+   "at": "6",
+   "cam": {
+    "preset": "tight",
+    "on": "mary"
+   },
+   "focus": [
+    "mary"
+   ]
+  },
+  {
+   "at": "7",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "mary",
+     "door"
+    ]
+   },
+   "focus": [
+    "mary",
+    "door"
+   ]
+  },
+  {
+   "at": "7:tomato-0.4",
+   "cam": {
+    "preset": "close",
+    "on": "tomato"
+   },
+   "focus": [
+    "tomato"
+   ]
+  },
+  {
+   "at": "9",
+   "cam": {
+    "preset": "tight",
+    "on": "mary"
+   },
+   "focus": [
+    "mary"
+   ]
+  },
+  {
+   "at": "10",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "mary",
+     "tomato"
+    ]
+   },
+   "focus": [
+    "mary",
+    "tomato"
+   ]
+  },
+  {
+   "at": "11",
+   "cam": {
+    "preset": "close",
+    "on": "mary"
+   },
+   "focus": [
+    "mary"
+   ]
+  },
+  {
+   "at": "12",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "mary",
+     "door",
+     "tomato"
+    ]
+   }
+  },
+  {
+   "at": "13",
+   "cam": {
+    "preset": "tight",
+    "on": "mary"
+   },
+   "focus": [
+    "mary"
+   ]
+  },
+  {
+   "at": "14",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "mary",
+     "tomato"
+    ]
+   },
+   "focus": [
+    "mary",
+    "tomato"
+   ]
+  },
+  {
+   "at": "15",
+   "cam": {
+    "preset": "close",
+    "on": "tomato"
+   },
+   "focus": [
+    "tomato"
+   ]
+  },
+  {
+   "at": "16",
+   "cam": {
+    "preset": "tight",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "17",
+   "cam": {
+    "preset": "close",
+    "on": "robot"
+   },
+   "focus": [
+    "robot"
+   ]
+  },
+  {
+   "at": "17:What-0.2",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "robot",
+     "you"
+    ]
+   },
+   "focus": [
+    "robot",
+    "you"
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "id": "mary",
+   "at": "3:Mary",
+   "dur": 0.4,
+   "pose": "wave"
+  },
+  {
+   "id": "mary",
+   "at": "4",
+   "dur": 0.4,
+   "pose": "stand"
+  },
+  {
+   "id": "mary",
+   "at": "5:neuron",
+   "dur": 0.4,
+   "pose": "think"
+  },
+  {
+   "id": "mary",
+   "at": "6",
+   "dur": 0.4,
+   "pose": "shrug"
+  },
+  {
+   "id": "door",
+   "at": "7:door",
+   "dur": 0.6,
+   "part": "leaf",
+   "rot": [
+    0,
+    -100,
+    0
+   ]
+  },
+  {
+   "id": "mary",
+   "at": "7:door+0.2",
+   "dur": 0.3,
+   "pose": "stand",
+   "face": "door"
+  },
+  {
+   "id": "mary",
+   "at": "7:door+0.5",
+   "until": "8+0.4",
+   "pos": [
+    2.7,
+    0,
+    -2.0
+   ],
+   "walk": true,
+   "ease": "linear"
+  },
+  {
+   "id": "mary",
+   "at": "9",
+   "dur": 0.4,
+   "face": "tomato",
+   "pose": "shock"
+  },
+  {
+   "id": "tomato",
+   "at": "7:tomato",
+   "dur": 0.5,
+   "wobble": true
+  },
+  {
+   "id": "mary",
+   "at": "10",
+   "dur": 0.4,
+   "pose": "stand"
+  },
+  {
+   "id": "mary",
+   "at": "11:imagine",
+   "dur": 0.3,
+   "pose": "think"
+  },
+  {
+   "id": "mary",
+   "at": "11:recognise",
+   "dur": 0.3,
+   "pose": "point"
+  },
+  {
+   "id": "mary",
+   "at": "13:capitulated",
+   "dur": 0.4,
+   "pose": "shrug"
+  },
+  {
+   "id": [
+    "you",
+    "robot",
+    "book3"
+   ],
+   "at": "16-0.3",
+   "show": true
+  },
+  {
+   "id": "you",
+   "at": "16",
+   "dur": 0.4,
+   "pose": "think"
+  },
+  {
+   "id": "robot",
+   "at": "17:missing",
+   "dur": 0.5,
+   "wobble": true
+  }
+ ],
+ "overlays": [
+  {
+   "type": "photo",
+   "pick": [
+    "monkey",
+    0
+   ],
+   "caption": "A squirrel monkey, the species treated in 2009",
+   "from": 0,
+   "to": "1-0.2"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "monkey",
+    1
+   ],
+   "caption": "Males are born red-green colour-blind",
+   "from": "1",
+   "to": "2-0.2"
+  },
+  {
+   "type": "question",
+   "on": "mary",
+   "from": "2:red",
+   "to": "3"
+  },
+  {
+   "type": "label",
+   "text": "FRANK JACKSON, 1982",
+   "pos": [
+    540,
+    380
+   ],
+   "from": "3:Jackson",
+   "to": "3:Mary"
+  },
+  {
+   "type": "label",
+   "text": "MARY",
+   "on": "mary",
+   "from": "3:Mary",
+   "to": "4:watching"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "tv",
+    0
+   ],
+   "caption": "A black-and-white TV of the 1950s",
+   "from": "4:watching",
+   "to": "5-0.2"
+  },
+  {
+   "type": "icon",
+   "icon": "brain",
+   "on": "mary",
+   "from": "5:neuron",
+   "to": "6"
+  },
+  {
+   "type": "check",
+   "on": "mary",
+   "from": "6:all",
+   "to": "7"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "tomato",
+    2
+   ],
+   "caption": "Her first red",
+   "from": "8",
+   "to": "9-0.2"
+  },
+  {
+   "type": "label",
+   "text": "NOT PHYSICAL?",
+   "pos": [
+    540,
+    420
+   ],
+   "from": "9:physical",
+   "to": "10"
+  },
+  {
+   "type": "label",
+   "text": "DAVID LEWIS",
+   "pos": [
+    540,
+    380
+   ],
+   "from": "10",
+   "to": "11"
+  },
+  {
+   "type": "icon",
+   "icon": "brain",
+   "pos": [
+    300,
+    500
+   ],
+   "from": "11:imagine",
+   "to": "12"
+  },
+  {
+   "type": "icon",
+   "icon": "clock",
+   "pos": [
+    540,
+    440
+   ],
+   "from": "11:remember",
+   "to": "12"
+  },
+  {
+   "type": "icon",
+   "icon": "eye",
+   "pos": [
+    780,
+    500
+   ],
+   "from": "11:recognise",
+   "to": "12"
+  },
+  {
+   "type": "label",
+   "text": "FRANK JACKSON",
+   "pos": [
+    540,
+    380
+   ],
+   "from": "12",
+   "to": "13"
+  },
+  {
+   "type": "label",
+   "text": "I HAVE CAPITULATED",
+   "pos": [
+    540,
+    420
+   ],
+   "from": "13:capitulated",
+   "to": "14"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "monkey",
+    2
+   ],
+   "caption": "What does red look like to them?",
+   "from": "14",
+   "to": "15-0.2"
+  },
+  {
+   "type": "check",
+   "pos": [
+    400,
+    460
+   ],
+   "from": "15:pick",
+   "to": "15:like"
+  },
+  {
+   "type": "xmark",
+   "pos": [
+    680,
+    460
+   ],
+   "from": "15:like",
+   "to": "16"
+  },
+  {
+   "type": "label",
+   "text": "YOU",
+   "color": "yellow",
+   "on": "you",
+   "from": "16",
+   "to": "17"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "datacenter",
+    0
+   ],
+   "caption": "Where AI models are trained",
+   "from": "17",
+   "to": "17:What-0.2"
+  },
+  {
+   "type": "pill",
+   "text": "What is the AI missing?",
+   "from": "17:missing+0.3"
+  }
+ ],
+ "sfx": [
+  {
+   "at": "7:door",
+   "s": "whoosh",
+   "gain": 0.3
+  },
+  {
+   "at": "7:tomato",
+   "s": "bong",
+   "gain": 0.3
+  },
+  {
+   "at": "11:imagine",
+   "s": "pluck",
+   "gain": 0.25
+  },
+  {
+   "at": "11:remember",
+   "s": "pluck",
+   "gain": 0.25
+  },
+  {
+   "at": "11:recognise",
+   "s": "pluck",
+   "gain": 0.25
+  },
+  {
+   "at": "13:capitulated",
+   "s": "drop",
+   "gain": 0.3
+  }
+ ],
+ "music": {
+  "mood": "wonder"
+ },
+ "sources": [
+  "https://iep.utm.edu/know-arg/",
+  "https://courses.grainger.illinois.edu/PHYS419/sp2021/Jackson1986_WhatMaryDidntKnow.pdf",
+  "https://en.wikipedia.org/wiki/Frank_Cameron_Jackson",
+  "https://www.sciencenews.org/article/monkeys-get-full-color-vision",
+  "https://www.npr.org/2009/09/17/112897277/thanks-to-gene-therapy-monkeys-see-in-full-color",
+  "https://www.scientificamerican.com/article/gene-therapy-cures-colorblindness/"
+ ],
+ "post": {
+  "caption": "She knows every physical fact about red, but has never seen it. When she finally does, does she learn anything?\nNew fact, or just a new skill?",
+  "tags": [
+   "#philosophy",
+   "#marysroom",
+   "#consciousness",
+   "#thoughtexperiment",
+   "#philosophyofmind"
+  ],
+  "youtube_title": "She Knew Everything About Red, Then She Saw It"
+ }
+}

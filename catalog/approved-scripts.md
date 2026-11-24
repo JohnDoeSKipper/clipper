@@ -1,6 +1,31 @@
 # Model scripts (newest first)
 The writer reads the top two of its channel before writing and matches or beats them: same spine (beats in order, every sentence linked to the one before), never the same facts or hooks. Each script the writer makes is added at the top in this format. Kept to the last 12.
 
+## marys-room (philosophy, 2026-11-25)
+
+Angle: If Mary knows every physical fact about colour, does seeing red teach her anything new?
+Logline: Gene therapy let colour-blind monkeys pick out red, so we ask if seeing teaches what books can't; Jackson's Mary knows every physical fact, but on seeing a tomato she seems to learn something, so physicalism looks false, but Lewis said she gains only know-how, so Jackson himself switched sides, but nobody can tell what the monkeys see, because tests show only what is picked out, so seeing gives something no book can, but what then is an AI that has read everything missing?
+On-screen hook: RED, BY INJECTION
+
+[hook] In 2009, two colour-blind monkeys picked out red for the first time.
+[hook / because] Gene therapy had put a human colour gene into their eyes.
+[question / so] So can seeing red teach you something no book can?
+[reveal1 / answer] In 1982, Frank Jackson imagined Mary, a brilliant scientist of vision.
+[reveal1 / detail] She lives in a black-and-white room, watching a black-and-white screen.
+[reveal1 / detail] She knows every physical fact about colour, down to each neuron.
+[reveal1 / so] So if everything is physical, she knows it all.
+[reveal2 / but] But then the door opens, and Mary sees a ripe tomato.
+[reveal2 / detail] Surely, Jackson said, she learns what seeing red is like.
+[reveal2 / so] So something about the mind isn't physical.
+[reveal3 / but] But David Lewis said Mary gains no new fact, only new abilities.
+[reveal3 / detail] She can now imagine, remember and recognise red: know-how, not a fact.
+[reveal3 / so] That reply won over Frank Jackson himself.
+[reveal3 / detail] In the late 1990s he switched sides. I have capitulated, he wrote.
+[turn / but] But nobody knows what they see: one scientist suspects just another shade of yellow.
+[turn / because] Because tests show what they can pick out, not what it's like.
+[payoff / answer] So seeing red teaches something no book can, even if it's only a skill.
+[payoff / but] But an AI has read every word about red. What is it missing?
+
 ## arnolfini (paintings, 2026-11-25)
 
 Angle: Who are the man and woman in the Arnolfini Portrait?
@@ -257,27 +282,3 @@ On-screen hook: LISTEN TO THE SKY
 [turn / detail] Infrared shows it's Munch's own hand, written after a medical student questioned his sanity.
 [payoff / answer] So the scream he shuts out is nature's, and the madman label was his own.
 [payoff / but] But that scream is fading: in his 1910 version, the yellow is crumbling to white.
-
-## ship-of-theseus (philosophy, model script 2026-11-23)
-
-Angle: If every part of something is replaced, is it still the same thing, and what does that make you?
-Logline: Japan rebuilds its holiest shrine every twenty years but calls it 1,300 years old, so we ask whether a replaced thing is the same, but Hobbes's second ship makes it worse, so researchers asked thousands of people, therefore the answer is the job it does, but you are replaced too.
-On-screen hook: SAME SHRINE? EVERY PART IS NEW
-
-[hook] Every twenty years, Japan tears down its holiest shrine and rebuilds it.
-[hook / but] Yet the shrine is said to be thirteen centuries old.
-[question / so] So if every part is replaced, is it still the same thing?
-[question / detail] The answer, it turns out, is about you.
-[reveal1 / answer] Ancient Athens tried it for real, with the ship of the hero Theseus.
-[reveal1 / detail] For centuries, as each plank rotted, they swapped in a new one.
-[reveal1 / so] So philosophers argued: was it still his ship?
-[reveal2 / but] But in 1655, Thomas Hobbes made it much worse.
-[reveal2 / detail] Suppose someone kept every old plank and rebuilt the original ship beside it.
-[reveal2 / so] Now there are two ships, and only one can be Theseus's.
-[reveal3 / so] So researchers asked about three thousand people in twenty-two countries.
-[reveal3 / detail] Again and again, one question tipped the answer: does it still do its job?
-[reveal3 / detail] Ise agrees: the new shrine does the job, and its old pillars become gates at other shrines.
-[turn / but] But you are a ship of Theseus too.
-[turn / detail] Scientists dated your cells with carbon from Cold War bomb tests, and most are younger than you.
-[payoff / but] But the neurons of your cortex seem to be as old as you.
-[payoff / so] So what keeps you you: the parts that stayed, or the job they keep doing?
