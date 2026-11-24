@@ -1,0 +1,328 @@
+{
+ "id": "las-meninas",
+ "channel": "paintings",
+ "angle": "If the king and queen are only a reflection, who is Las Meninas really a painting of?",
+ "logline": "The royals appear only in a mirror, but the painter stands life-size, so who is it of? Velázquez painted himself in the palace as a court official, but Spain barred anyone who worked with his hands for money from nobility, so witnesses swore he never sold a painting, and he was knighted three years later, therefore the red cross on his chest was painted in afterwards, the verdict on the painting's own argument.",
+ "hook_text": "THE KING IS JUST A REFLECTION",
+ "hooks": [
+  "This painter was knighted three years after he finished painting himself.",
+  "The real subject of Las Meninas isn't the princess in the middle."
+ ],
+ "painting": {
+  "title": "Las Meninas",
+  "artist": "Diego Velázquez",
+  "year": "1656",
+  "museum": "Museo del Prado, Madrid"
+ },
+ "script": [
+  {
+   "text": "Spain's king and queen appear here only in a mirror.",
+   "beat": "hook"
+  },
+  {
+   "text": "But the painter stands life-size, looking straight at you.",
+   "beat": "hook",
+   "link": "but"
+  },
+  {
+   "text": "So who is Las Meninas really a painting of?",
+   "beat": "question",
+   "link": "so",
+   "say": "So who is Lass Meh-nee-nass really a painting of?"
+  },
+  {
+   "text": "His belt holds the keys of a palace official.",
+   "beat": "reveal1",
+   "link": "answer"
+  },
+  {
+   "text": "He wasn't just the king's painter; he was a palace chamberlain.",
+   "beat": "reveal1",
+   "link": "because"
+  },
+  {
+   "text": "So he painted himself inside the palace, beside the king's daughter.",
+   "beat": "reveal1",
+   "link": "so"
+  },
+  {
+   "text": "But in Spain, paid manual work barred you from nobility.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "So when he sought a knighthood, painting itself went on trial.",
+   "beat": "reveal2",
+   "link": "so"
+  },
+  {
+   "text": "Investigators questioned 148 witnesses about him.",
+   "beat": "reveal2",
+   "link": "detail",
+   "say": "Investigators questioned a hundred and forty-eight witnesses about him."
+  },
+  {
+   "text": "They swore he painted for the king's pleasure, never for sale.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "But even that wasn't enough: his ancestry needed a special waiver.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "So he was knighted only in 1659, three years after finishing this.",
+   "beat": "reveal3",
+   "link": "so",
+   "say": "So he was knighted only in sixteen fifty-nine, three years after finishing this."
+  },
+  {
+   "text": "But look at his chest: the red cross of Santiago was painted in later.",
+   "beat": "turn",
+   "link": "but",
+   "say": "But look at his chest: the red cross of Santiahgo was painted in later."
+  },
+  {
+   "text": "The story goes the king painted it himself, after Velázquez died.",
+   "beat": "turn",
+   "link": "detail",
+   "say": "The story goes the king painted it himself, after Velaskez died."
+  },
+  {
+   "text": "So it's a painting of the painter, pleading that his art is noble.",
+   "beat": "payoff",
+   "link": "answer"
+  },
+  {
+   "text": "Its verdict is right there, in red, over his heart.",
+   "beat": "payoff",
+   "link": "detail"
+  }
+ ],
+ "music": {
+  "piece": "bach-goldberg-aria"
+ },
+ "timeline": [
+  {
+   "type": "reveal",
+   "from": [
+    0.418,
+    0.565,
+    2.6
+   ],
+   "until": 3.0
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.418,
+    0.565,
+    0.05,
+    0.055
+   ],
+   "ring": "0:mirror",
+   "zoom": "0:mirror+0.4",
+   "label": "PHILIP IV + MARIANA",
+   "labelAt": "0:mirror+0.6",
+   "out": "1-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.235,
+    0.63,
+    0.11,
+    0.15
+   ],
+   "ring": "1",
+   "zoom": "1+0.4",
+   "label": "VELÁZQUEZ",
+   "labelAt": "1:painter",
+   "out": "2-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.245,
+    0.69,
+    0.05,
+    0.05
+   ],
+   "ring": "3",
+   "zoom": "3+0.4",
+   "label": "THE KEYS",
+   "labelAt": "3:keys",
+   "out": "4-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "philip",
+    1
+   ],
+   "caption": "Philip IV, painted by Velázquez",
+   "at": "4",
+   "to": "5-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "alcazar",
+    0
+   ],
+   "caption": "Model of the Alcázar palace, Madrid",
+   "at": "5",
+   "to": "5:beside-0.2"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "margarita",
+    0
+   ],
+   "caption": "Infanta Margarita, by Velázquez, 1659",
+   "at": "5:beside",
+   "to": "6-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.24,
+    0.635,
+    0.08,
+    0.07
+   ],
+   "ring": "6",
+   "zoom": "6+0.4",
+   "label": "PAID MANUAL WORK",
+   "labelAt": "6:manual",
+   "out": "7-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "santiago",
+    0
+   ],
+   "caption": "Emblem of the Order of Santiago",
+   "at": "7",
+   "to": "8-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.245,
+    0.54,
+    0.05,
+    0.05
+   ],
+   "ring": "8",
+   "zoom": "8+0.4",
+   "label": "148 WITNESSES",
+   "labelAt": "8:witnesses",
+   "out": "9-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "philip",
+    2
+   ],
+   "caption": "Philip IV, his patron for 37 years",
+   "at": "9",
+   "to": "10-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.235,
+    0.63,
+    0.11,
+    0.15
+   ],
+   "ring": "10",
+   "zoom": "10+0.4",
+   "label": "NOT NOBLE ENOUGH",
+   "labelAt": "10:ancestry",
+   "out": "11-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.08,
+    0.55,
+    0.08,
+    0.38
+   ],
+   "ring": "11",
+   "zoom": "11+0.4",
+   "label": "PAINTED 1656",
+   "labelAt": "11:finishing",
+   "out": "12-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.238,
+    0.613,
+    0.03,
+    0.035
+   ],
+   "ring": "12",
+   "zoom": "12+0.4",
+   "label": "ADDED AFTER 1659",
+   "labelAt": "12:cross",
+   "out": "13-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.418,
+    0.565,
+    0.05,
+    0.055
+   ],
+   "ring": "13",
+   "zoom": "13+0.4",
+   "label": "THE KING",
+   "labelAt": "13:king",
+   "out": "14-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.238,
+    0.613,
+    0.03,
+    0.035
+   ],
+   "ring": "15",
+   "zoom": "15+0.4",
+   "out": "end"
+  }
+ ],
+ "sources": [
+  "https://smarthistory.org/diego-velazquez-las-meninas",
+  "https://en.wikipedia.org/wiki/Las_Meninas",
+  "https://www.spainthenandnow.com/spanish-art/velazquez-las-meninas-introduction-and-status-symbol",
+  "https://www.mentalfloss.com/art/14-things-know-about-velazquezs-las-meninas",
+  "https://eclecticlight.co/2019/03/12/more-than-portraits-the-paintings-of-diego-velazquez-8-las-meninas/"
+ ],
+ "post": {
+  "caption": "The king of Spain is only a reflection in this painting, and the red cross on the painter's chest wasn't there when he finished it.\nWho do you think it's really about?",
+  "tags": [
+   "#arthistory",
+   "#velazquez",
+   "#lasmeninas",
+   "#spanishart",
+   "#artfacts"
+  ],
+  "youtube_title": "Why Velázquez's Red Cross Was Painted In Later"
+ }
+}
