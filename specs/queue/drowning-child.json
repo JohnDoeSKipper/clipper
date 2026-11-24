@@ -1,0 +1,880 @@
+{
+ "id": "drowning-child",
+ "channel": "philosophy",
+ "style": "clay",
+ "title": "THE DROWNING CHILD",
+ "angle": "You would ruin your clothes to save a drowning child nearby, so why not one far away?",
+ "logline": "Australia gave Bengal's refugees less than a twelfth of an opera house, so Singer asked why we save the child nearby but not the far one, and argued distance makes no moral difference, but our minds give to one face, not to millions, and adding the facts even made people give less, so what stops us isn't distance but a missing face.",
+ "hook_text": "ONE BUILDING > 9 MILLION LIVES",
+ "hooks": [
+  "A photo of one hungry girl raised twice what the statistics did.",
+  "Adding facts about millions of starving children made people give less."
+ ],
+ "world": {
+  "scenery": "default"
+ },
+ "script": [
+  {
+   "text": "Australia gave nine million refugees under a twelfth of an opera house.",
+   "beat": "hook"
+  },
+  {
+   "text": "In 1971, Peter Singer, a young Australian philosopher at Oxford, did that sum.",
+   "beat": "hook",
+   "link": "detail",
+   "say": "In nineteen seventy-one, Peter Singer, a young Australian philosopher at Oxford, did that sum."
+  },
+  {
+   "text": "So he asked: why save a child nearby, but not one far away?",
+   "beat": "question",
+   "link": "so"
+  },
+  {
+   "text": "His answer starts at a shallow pond, with a child drowning in it.",
+   "beat": "reveal1",
+   "link": "answer"
+  },
+  {
+   "text": "Your clothes get muddy, he wrote, but that's nothing next to a life.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "So if you can stop something that bad at little cost, you ought to.",
+   "beat": "reveal1",
+   "link": "so"
+  },
+  {
+   "text": "Ten yards away or ten thousand miles, he argued, makes no moral difference.",
+   "beat": "reveal1",
+   "link": "so"
+  },
+  {
+   "text": "But our minds don't follow his argument.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "In a 2007 study, people read about Rokia, a starving seven-year-old girl in Mali.",
+   "beat": "reveal2",
+   "link": "detail",
+   "say": "In a two thousand seven study, people read about Rokia, a starving seven-year-old girl in Mali."
+  },
+  {
+   "text": "They gave her two dollars thirty-eight on average.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "Others read statistics about millions starving in Africa, and gave just a dollar fourteen.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "So researchers showed people Rokia and the statistics together.",
+   "beat": "reveal3",
+   "link": "so"
+  },
+  {
+   "text": "Giving fell to a dollar forty-three: the facts made people give less.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "Numbers switch off the feeling that one face switches on.",
+   "beat": "reveal3",
+   "link": "because"
+  },
+  {
+   "text": "But today, the child far away has a price.",
+   "beat": "turn",
+   "link": "but"
+  },
+  {
+   "text": "GiveWell estimates about five thousand dollars of bed nets saves one life.",
+   "beat": "turn",
+   "link": "detail"
+  },
+  {
+   "text": "So distance isn't what stops us; it's that we never see a face.",
+   "beat": "payoff",
+   "link": "answer"
+  },
+  {
+   "text": "But now that you've seen the pond, will you walk past it?",
+   "beat": "payoff",
+   "link": "but"
+  }
+ ],
+ "objects": [
+  {
+   "id": "pond",
+   "kind": "pond",
+   "at": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "id": "child",
+   "kind": "person",
+   "look": "one",
+   "at": [
+    0.3,
+    -0.75,
+    0.2
+   ],
+   "face": 30,
+   "scale": 0.55,
+   "behave": "panic"
+  },
+  {
+   "id": "you",
+   "kind": "person",
+   "look": "you",
+   "at": [
+    3.6,
+    0,
+    2.2
+   ],
+   "face": "pond"
+  },
+  {
+   "id": "opera",
+   "kind": "house",
+   "at": [
+    -5.5,
+    0,
+    3.5
+   ],
+   "face": 20,
+   "tint": "#F4F1EA",
+   "scale": 1.3
+  },
+  {
+   "id": "far",
+   "kind": "person",
+   "look": "b",
+   "at": [
+    -6.5,
+    0,
+    -8.5
+   ],
+   "face": 15,
+   "scale": 0.55
+  },
+  {
+   "id": "rokia",
+   "kind": "person",
+   "look": "c",
+   "at": [
+    6.0,
+    0,
+    -4.5
+   ],
+   "face": 0,
+   "scale": 0.55
+  },
+  {
+   "id": "s1",
+   "kind": "person",
+   "look": "a",
+   "at": [
+    7.3,
+    0,
+    -5.4
+   ],
+   "face": 0,
+   "scale": 0.5,
+   "show": false
+  },
+  {
+   "id": "s2",
+   "kind": "person",
+   "look": "d",
+   "at": [
+    8.2,
+    0,
+    -4.6
+   ],
+   "face": 0,
+   "scale": 0.5,
+   "show": false
+  },
+  {
+   "id": "s3",
+   "kind": "person",
+   "look": "e",
+   "at": [
+    8.8,
+    0,
+    -5.6
+   ],
+   "face": 0,
+   "scale": 0.5,
+   "show": false
+  },
+  {
+   "id": "s4",
+   "kind": "person",
+   "look": "b",
+   "at": [
+    7.6,
+    0,
+    -6.4
+   ],
+   "face": 0,
+   "scale": 0.5,
+   "show": false
+  },
+  {
+   "id": "s5",
+   "kind": "person",
+   "look": "a",
+   "at": [
+    9.4,
+    0,
+    -4.8
+   ],
+   "face": 0,
+   "scale": 0.5,
+   "show": false
+  }
+ ],
+ "groups": {
+  "stats": [
+   "s1",
+   "s2",
+   "s3",
+   "s4",
+   "s5"
+  ]
+ },
+ "shots": [
+  {
+   "at": 0,
+   "cam": {
+    "preset": "mid",
+    "on": "opera"
+   },
+   "focus": [
+    "opera"
+   ]
+  },
+  {
+   "at": "0:opera",
+   "cam": {
+    "preset": "close",
+    "on": "opera"
+   },
+   "focus": [
+    "opera"
+   ]
+  },
+  {
+   "at": "1",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "pond"
+    ]
+   },
+   "focus": [
+    "you",
+    "pond"
+   ]
+  },
+  {
+   "at": "2",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "pond",
+     "you",
+     "far"
+    ]
+   }
+  },
+  {
+   "at": "3",
+   "cam": {
+    "pos": [
+     1.8,
+     1.7,
+     4.6
+    ],
+    "look": [
+     0.3,
+     0.3,
+     0.2
+    ],
+    "fov": 40
+   },
+   "focus": [
+    "child",
+    "pond"
+   ]
+  },
+  {
+   "at": "4",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "child"
+    ]
+   },
+   "focus": [
+    "you",
+    "child"
+   ]
+  },
+  {
+   "at": "5",
+   "cam": {
+    "preset": "close",
+    "on": [
+     "you",
+     "child"
+    ]
+   },
+   "focus": [
+    "you",
+    "child"
+   ]
+  },
+  {
+   "at": "6",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "you",
+     "child",
+     "far"
+    ]
+   }
+  },
+  {
+   "at": "7",
+   "cam": {
+    "preset": "close",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "8",
+   "cam": {
+    "preset": "mid",
+    "on": "rokia"
+   },
+   "focus": [
+    "rokia"
+   ]
+  },
+  {
+   "at": "9",
+   "cam": {
+    "preset": "close",
+    "on": "rokia"
+   },
+   "focus": [
+    "rokia"
+   ]
+  },
+  {
+   "at": "10",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "rokia",
+     "far"
+    ]
+   }
+  },
+  {
+   "at": "11",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "rokia",
+     "stats"
+    ]
+   }
+  },
+  {
+   "at": "12",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "rokia",
+     "s1",
+     "s2"
+    ]
+   },
+   "focus": [
+    "rokia",
+    "s1",
+    "s2"
+   ]
+  },
+  {
+   "at": "13",
+   "cam": {
+    "preset": "close",
+    "on": "rokia",
+    "azimuth": -30
+   },
+   "focus": [
+    "rokia"
+   ]
+  },
+  {
+   "at": "14",
+   "cam": {
+    "preset": "close",
+    "on": "far"
+   },
+   "focus": [
+    "far"
+   ]
+  },
+  {
+   "at": "15",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "far"
+    ],
+    "azimuth": 30
+   },
+   "focus": [
+    "far"
+   ]
+  },
+  {
+   "at": "16",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "child"
+    ]
+   },
+   "focus": [
+    "you",
+    "child"
+   ]
+  },
+  {
+   "at": "16:face",
+   "cam": {
+    "preset": "close",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "17",
+   "cam": {
+    "preset": "tight",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "id": "you",
+   "at": "2:asked",
+   "dur": 0.4,
+   "pose": "think"
+  },
+  {
+   "id": "you",
+   "at": "4",
+   "dur": 0.3,
+   "pose": "stand"
+  },
+  {
+   "id": "you",
+   "at": "4+0.2",
+   "until": "4:muddy",
+   "pos": [
+    1.6,
+    0,
+    1.2
+   ],
+   "walk": true
+  },
+  {
+   "id": "you",
+   "at": "4:muddy",
+   "dur": 0.4,
+   "pose": "reach"
+  },
+  {
+   "id": "child",
+   "at": "5",
+   "dur": 0.6,
+   "pos": [
+    2.4,
+    0,
+    2.4
+   ]
+  },
+  {
+   "id": "child",
+   "at": "5",
+   "dur": 0.01,
+   "behave": "none"
+  },
+  {
+   "id": "you",
+   "at": "5",
+   "until": "5+0.6",
+   "pos": [
+    3.2,
+    0,
+    1.6
+   ],
+   "walk": true
+  },
+  {
+   "id": "child",
+   "at": "5:ought",
+   "dur": 0.4,
+   "pose": "cheer"
+  },
+  {
+   "id": "you",
+   "at": "5:ought",
+   "dur": 0.4,
+   "pose": "cheer"
+  },
+  {
+   "id": "you",
+   "at": "6:miles",
+   "dur": 0.4,
+   "pose": "point"
+  },
+  {
+   "id": "far",
+   "at": "6:miles",
+   "dur": 0.4,
+   "pose": "wave"
+  },
+  {
+   "id": "you",
+   "at": "7",
+   "dur": 0.4,
+   "pose": "shrug"
+  },
+  {
+   "id": "rokia",
+   "at": "8:starving",
+   "dur": 0.4,
+   "pose": "sad"
+  },
+  {
+   "id": [
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5"
+   ],
+   "at": "11-0.2",
+   "dur": 0.01,
+   "show": true
+  },
+  {
+   "id": "rokia",
+   "at": "12:fell",
+   "dur": 0.4,
+   "pose": "sad"
+  },
+  {
+   "id": "far",
+   "at": "14",
+   "dur": 0.4,
+   "pose": "sad"
+  },
+  {
+   "id": "you",
+   "at": "16",
+   "dur": 0.3,
+   "pose": "stand"
+  },
+  {
+   "id": "you",
+   "at": "16:face",
+   "dur": 0.4,
+   "pose": "think"
+  },
+  {
+   "id": "you",
+   "at": "17:walk",
+   "dur": 0.4,
+   "pose": "shrug"
+  }
+ ],
+ "overlays": [
+  {
+   "type": "photo",
+   "pick": [
+    "bengal",
+    1
+   ],
+   "caption": "Refugee camp near Calcutta, 1971",
+   "from": 0,
+   "to": "0:opera-0.1"
+  },
+  {
+   "type": "label",
+   "text": "OPERA HOUSE",
+   "on": "opera",
+   "from": "0:opera",
+   "to": "1"
+  },
+  {
+   "type": "icon",
+   "icon": "coin",
+   "from": "0:twelfth",
+   "to": "1",
+   "on": "opera"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "singer",
+    1
+   ],
+   "caption": "Peter Singer",
+   "from": "1",
+   "to": "1:Oxford-0.1"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "oxford",
+    1
+   ],
+   "caption": "Oxford, where Singer wrote it",
+   "from": "1:Oxford",
+   "to": "2-0.2"
+  },
+  {
+   "type": "label",
+   "text": "YOU",
+   "color": "yellow",
+   "on": "you",
+   "from": "2",
+   "to": "3"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "pond",
+    1
+   ],
+   "caption": "A shallow pond",
+   "from": "3",
+   "to": "3:child-0.1"
+  },
+  {
+   "type": "label",
+   "text": "MUDDY CLOTHES",
+   "pos": [
+    540,
+    330
+   ],
+   "from": "4:muddy",
+   "to": "5"
+  },
+  {
+   "type": "check",
+   "on": "child",
+   "from": "5:ought",
+   "to": "6"
+  },
+  {
+   "type": "label",
+   "text": "10 YARDS",
+   "on": "child",
+   "from": "6",
+   "to": "6:miles"
+  },
+  {
+   "type": "label",
+   "text": "10,000 MILES",
+   "on": "far",
+   "from": "6:miles",
+   "to": "7"
+  },
+  {
+   "type": "question",
+   "on": "you",
+   "from": "7:minds",
+   "to": "8"
+  },
+  {
+   "type": "label",
+   "text": "ROKIA, 7 · MALI",
+   "on": "rokia",
+   "from": "8:Rokia",
+   "to": "9"
+  },
+  {
+   "type": "number",
+   "text": "$2.38",
+   "on": "rokia",
+   "from": "9:two",
+   "to": "10"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "famine",
+    1
+   ],
+   "caption": "Food aid queue, Rwanda",
+   "from": "10",
+   "to": "11-0.2"
+  },
+  {
+   "type": "label",
+   "text": "MILLIONS: $1.14",
+   "pos": [
+    540,
+    330
+   ],
+   "from": "10:dollar",
+   "to": "11"
+  },
+  {
+   "type": "label",
+   "text": "ROKIA + STATISTICS",
+   "pos": [
+    540,
+    330
+   ],
+   "from": "11:together",
+   "to": "12"
+  },
+  {
+   "type": "number",
+   "text": "$1.43",
+   "on": "rokia",
+   "from": "12:dollar",
+   "to": "13"
+  },
+  {
+   "type": "icon",
+   "icon": "heart",
+   "on": "rokia",
+   "from": "13:face",
+   "to": "14"
+  },
+  {
+   "type": "icon",
+   "icon": "coin",
+   "on": "far",
+   "from": "14:price",
+   "to": "15"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "bednet",
+    0
+   ],
+   "caption": "Children under a mosquito net",
+   "from": "15",
+   "to": "16-0.2"
+  },
+  {
+   "type": "label",
+   "text": "≈ $5,000 = ONE LIFE",
+   "pos": [
+    540,
+    330
+   ],
+   "from": "15:five",
+   "to": "16"
+  },
+  {
+   "type": "label",
+   "text": "YOU",
+   "color": "yellow",
+   "on": "you",
+   "from": "16",
+   "to": "17"
+  },
+  {
+   "type": "pill",
+   "text": "Will you walk past it?",
+   "from": "17:walk"
+  }
+ ],
+ "sfx": [
+  {
+   "at": "3:drowning",
+   "s": "drop",
+   "gain": 0.3
+  },
+  {
+   "at": "4:muddy",
+   "s": "whoosh",
+   "gain": 0.25
+  },
+  {
+   "at": "5",
+   "s": "whoosh",
+   "gain": 0.3
+  },
+  {
+   "at": "9:two",
+   "s": "pluck",
+   "gain": 0.25
+  },
+  {
+   "at": "12:fell",
+   "s": "error",
+   "gain": 0.25
+  },
+  {
+   "at": "14:price",
+   "s": "tick",
+   "gain": 0.3
+  }
+ ],
+ "music": {
+  "mood": "warm"
+ },
+ "sources": [
+  "https://en.wikipedia.org/wiki/Famine,_Affluence,_and_Morality",
+  "https://faculty.uca.edu/rnovy/Singer--FamineAffluence&Morality.htm",
+  "https://www.gsb.stanford.edu/insights/increase-charitable-donations-appeal-heart-not-head",
+  "https://www.givewell.org/how-much-does-it-cost-to-save-a-life/february-2024-version"
+ ],
+ "post": {
+  "caption": "One photo of a hungry seven-year-old raised twice as much as the facts about millions. Then the facts made people give even less.\nWould you save the child far away?",
+  "tags": [
+   "#philosophy",
+   "#thoughtexperiment",
+   "#petersinger",
+   "#ethics",
+   "#effectivealtruism"
+  ],
+  "youtube_title": "Why We Save One Child but Ignore Millions"
+ }
+}
