@@ -108,41 +108,7 @@
     "desc": "Ripe Red Tomatoes"
    }
   ],
-  "lewis": [
-   {
-    "title": "File:David Lewis 1968.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/David_Lewis_1968.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/c/c6/David_Lewis_1968.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 2328,
-    "height": 3612,
-    "licence": "Public domain",
-    "artist": "Unknown authorUnknown author",
-    "credit": "",
-    "desc": "David Lewis"
-   },
-   {
-    "title": "File:David Lewis 1968 Edit.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/David_Lewis_1968_Edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/2/2f/David_Lewis_1968_Edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 2328,
-    "height": 3612,
-    "licence": "Public domain",
-    "artist": "Unknown authorUnknown author",
-    "credit": "",
-    "desc": "David Lewis"
-   },
-   {
-    "title": "File:David Lewis 1968 Edit Alt.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/David_Lewis_1968_Edit_Alt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/c/c2/David_Lewis_1968_Edit_Alt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 2328,
-    "height": 3612,
-    "licence": "Public domain",
-    "artist": "Unknown authorUnknown author",
-    "credit": "",
-    "desc": "David Lewis"
-   }
-  ],
+  "lewis": [],
   "dennett": [
    {
     "title": "File:Daniel Dennett 2.jpg",
