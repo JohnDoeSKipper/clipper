@@ -1,0 +1,181 @@
+{
+ "id": "marys-room",
+ "painting": null,
+ "inserts": {
+  "jackson": [
+   {
+    "title": "File:Mary colour scientist.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Mary_colour_scientist.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Mary_colour_scientist.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2462,
+    "height": 3508,
+    "licence": "CC BY-SA 3.0",
+    "artist": "Jahooly",
+    "credit": "Jahooly / CC BY-SA 3.0",
+    "desc": "An illustration of the 'Mary's room' thought experiment devised by the philosopher Frank Jackson in his article \"Epiphenomenal Qualia\" (1982) and extended in \"W"
+   },
+   {
+    "title": "File:Miroslav Pet\u0159\u00ed\u010dek (2019).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Miroslav_Pet%C5%99%C3%AD%C4%8Dek_%282019%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Miroslav_Pet%C5%99%C3%AD%C4%8Dek_%282019%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1280,
+    "height": 1024,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Jind\u0159ich Nosek (NoJin)",
+    "credit": "Jind\u0159ich Nosek (NoJin) / CC BY-SA 4.0",
+    "desc": "Miroslav Pet\u0159\u00ed\u010dek (2019)"
+   },
+   {
+    "title": "File:G m\u00edra pet\u0159\u00ed\u010dek.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/G_m%C3%ADra_pet%C5%99%C3%AD%C4%8Dek.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/4/44/G_m%C3%ADra_pet%C5%99%C3%AD%C4%8Dek.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2816,
+    "height": 2112,
+    "licence": "Public domain",
+    "artist": "Antonin Stefka",
+    "credit": "",
+    "desc": "Miroslav Pet\u0159\u00ed\u010dek - \u010desk\u00fd filozof"
+   }
+  ],
+  "spectrum": [
+   {
+    "title": "File:Saturn's rings in visible light and radio.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Saturn%27s_rings_in_visible_light_and_radio.jpg/3840px-Saturn%27s_rings_in_visible_light_and_radio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Saturn%27s_rings_in_visible_light_and_radio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 5776,
+    "height": 864,
+    "licence": "Public domain",
+    "artist": "NASA / JPL / Space Science Institute",
+    "credit": "",
+    "desc": "Cassini instruments provide complementary information about the structure of Saturn's rings. Narrow and wide angle cameras provide images in the visible region "
+   },
+   {
+    "title": "File:Light painting gnangarra-1.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Light_painting_gnangarra-1.jpg/3840px-Light_painting_gnangarra-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Light_painting_gnangarra-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3862,
+    "height": 2941,
+    "licence": "CC BY 2.5 au",
+    "artist": "Gnangarra",
+    "credit": "Gnangarra / CC BY 2.5 au",
+    "desc": "Light painting, orb and domes on the bank of the Swan River, Perth, Western Australia."
+   },
+   {
+    "title": "File:Seattle Great Wheel, Seattle, Washington, Estados Unidos, 2017-09-02, DD 16.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Seattle_Great_Wheel%2C_Seattle%2C_Washington%2C_Estados_Unidos%2C_2017-09-02%2C_DD_16.jpg/3840px-Seattle_Great_Wheel%2C_Seattle%2C_Washington%2C_Estados_Unidos%2C_2017-09-02%2C_DD_16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/7/71/Seattle_Great_Wheel%2C_Seattle%2C_Washington%2C_Estados_Unidos%2C_2017-09-02%2C_DD_16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4609,
+    "height": 5826,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Diego Delso",
+    "credit": "Diego Delso / CC BY-SA 4.0",
+    "desc": "Long exposure of the Seattle Great Wheel, Elliott Bay, Seattle, Washington, USA. The giant Ferris wheel is 175 feet (53.3 m) high and was the tallest Ferris whe"
+   }
+  ],
+  "retina": [
+   {
+    "title": "File:Cone-bipolar cell synapses.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Cone-bipolar_cell_synapses.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/0/03/Cone-bipolar_cell_synapses.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1095,
+    "height": 367,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Christian Behrens Timm Schubert Silke Haverkamp Thomas Euler Philipp Berens",
+    "credit": "Christian Behrens Timm Schubert Silke Haverkamp Thomas Euler Philipp Berens / CC BY-SA 4.0",
+    "desc": "Invaginating ON-CBC contact (A). Basal/flat OFF-CBC contact (B). Schematic drawing"
+   },
+   {
+    "title": "File:Cones in human retina after Greeff.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Cones_in_human_retina_after_Greeff.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Cones_in_human_retina_after_Greeff.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1853,
+    "height": 2101,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Richard Greeff",
+    "credit": "Richard Greeff / CC BY-SA 4.0",
+    "desc": "Cones in human retina. Drawing by Richard Greeff, 1900"
+   },
+   {
+    "title": "File:Transmutation of cones Walls 1942.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Transmutation_of_cones_Walls_1942.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/d/de/Transmutation_of_cones_Walls_1942.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2484,
+    "height": 540,
+    "licence": "CC BY 2.5",
+    "artist": "Walls, Gordon Lynn , 1905-1962",
+    "credit": "Walls, Gordon Lynn , 1905-1962 / CC BY 2.5",
+    "desc": "Cone photoreceptors of colubroid snakes. G.L.Walls drawing, 1942."
+   }
+  ],
+  "pingelap": [
+   {
+    "title": "File:Pingelap Atoll - Marplot Map (1-25,000).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Pingelap_Atoll_-_Marplot_Map_%281-25%2C000%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/2/29/Pingelap_Atoll_-_Marplot_Map_%281-25%2C000%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1240,
+    "height": 904,
+    "licence": "CC BY 2.0",
+    "artist": "Mr Minton",
+    "credit": "Mr Minton / CC BY 2.0",
+    "desc": "A map of the Pingelap AtollPingelap Atoll - Marplot Map (1-25,000)"
+   },
+   {
+    "title": "File:Pingelap airdrop.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Pingelap_airdrop.jpg/3840px-Pingelap_airdrop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/2/24/Pingelap_airdrop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4288,
+    "height": 2848,
+    "licence": "Public domain",
+    "artist": "U.S. Air Force photo by Senior Airman Carlin Leslie",
+    "credit": "",
+    "desc": "Two packages land on the runway at Pingelap Island, part of Pohnpei State of the Federated States of Micronesia, after a successful air drop during Operation Ch"
+   },
+   {
+    "title": "File:Flag of Pingelap, Phonpei, Federated States of Micronesia.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Flag_of_Pingelap%2C_Phonpei%2C_Federated_States_of_Micronesia.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/d/df/Flag_of_Pingelap%2C_Phonpei%2C_Federated_States_of_Micronesia.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3111,
+    "height": 1680,
+    "licence": "CC BY 3.0",
+    "artist": "Senix (talk)",
+    "credit": "Senix (talk) / CC BY 3.0",
+    "desc": "Flag of Pingelap, Phonpei, Federated States of Micronesia"
+   }
+  ],
+  "tomato": [
+   {
+    "title": "File:Organic home-grown tomatoes - unripe to ripe.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Organic_home-grown_tomatoes_-_unripe_to_ripe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Organic_home-grown_tomatoes_-_unripe_to_ripe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3130,
+    "height": 3130,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Michal Klajban",
+    "credit": "Michal Klajban / CC BY-SA 4.0",
+    "desc": "Organic home-grown tomatoes arranged in a circle. Christchurch, New Zealand."
+   },
+   {
+    "title": "File:Ripe tomatoes.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Ripe_tomatoes.jpg/3840px-Ripe_tomatoes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Ripe_tomatoes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4064,
+    "height": 3048,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Geems04",
+    "credit": "Geems04 / CC BY-SA 4.0",
+    "desc": "Food photography"
+   },
+   {
+    "title": "File:Ripe Red Tomatoes.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Ripe_Red_Tomatoes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/3/38/Ripe_Red_Tomatoes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1566,
+    "height": 1920,
+    "licence": "CC0",
+    "artist": "Glenda Green",
+    "credit": "",
+    "desc": "Ripe Red Tomatoes"
+   }
+  ]
+ }
+}

@@ -1,0 +1,170 @@
+{
+ "id": "brain-in-a-vat",
+ "painting": null,
+ "inserts": {
+  "putnam": [
+   {
+    "title": "File:Hilary Putnam.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Hilary_Putnam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/6/62/Hilary_Putnam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2028,
+    "height": 2902,
+    "licence": "CC BY-SA 2.5",
+    "artist": "Unknown authorUnknown author",
+    "credit": "Unknown authorUnknown author / CC BY-SA 2.5",
+    "desc": "Philosopher Hilary Putnam"
+   },
+   {
+    "title": "File:Jonathan Westphal.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Jonathan_Westphal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Jonathan_Westphal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2448,
+    "height": 2448,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Jonathan Westphal.pdf: Thewikibeagles derivative work: Sebastian Wallroth",
+    "credit": "Jonathan Westphal.pdf: Thewikibeagles derivative work: Sebastian Wallroth / CC BY-SA 4.0",
+    "desc": "Jonathan Westphal on a train from Cambridge to London"
+   },
+   {
+    "title": "File:Helix, v.5, no.1, Oct. 17, 1968 - DPLA - 3b0fdfed89e4029ac2e8d2102d75a101 (page 13).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Helix%2C_v.5%2C_no.1%2C_Oct._17%2C_1968_-_DPLA_-_3b0fdfed89e4029ac2e8d2102d75a101_%28page_13%29.jpg/3840px-Helix%2C_v.5%2C_no.1%2C_Oct._17%2C_1968_-_DPLA_-_3b0fdfed89e4029ac2e8d2102d75a101_%28page_13%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/0/02/Helix%2C_v.5%2C_no.1%2C_Oct._17%2C_1968_-_DPLA_-_3b0fdfed89e4029ac2e8d2102d75a101_%28page_13%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4742,
+    "height": 6491,
+    "licence": "Public domain",
+    "artist": "Dorpat, Paul",
+    "credit": "",
+    "desc": "Cover: George Washington dollar portrait. Page 5 article discusses the Nisqually River fish-in. Page 9 includes interview with Flo Ware, Peace and Freedom Party"
+   }
+  ],
+  "descartes": [
+   {
+    "title": "File:Frans Hals, Portrait of Ren\u00e9 Descartes.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Frans_Hals%2C_Portrait_of_Ren%C3%A9_Descartes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/1/12/Frans_Hals%2C_Portrait_of_Ren%C3%A9_Descartes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2178,
+    "height": 2958,
+    "licence": "Public domain",
+    "artist": "Frans Hals",
+    "credit": "",
+    "desc": ""
+   },
+   {
+    "title": "File:Frans Hals, Portrait of Ren\u00e9 Descartes - digitally modified derivative.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Frans_Hals%2C_Portrait_of_Ren%C3%A9_Descartes_-_digitally_modified_derivative.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Frans_Hals%2C_Portrait_of_Ren%C3%A9_Descartes_-_digitally_modified_derivative.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2178,
+    "height": 2958,
+    "licence": "Public domain",
+    "artist": "Frans Hals",
+    "credit": "",
+    "desc": ""
+   },
+   {
+    "title": "File:Frans Hals, Portrait of Ren\u00e9 Descartes (cleaned up).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Frans_Hals%2C_Portrait_of_Ren%C3%A9_Descartes_%28cleaned_up%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/8/85/Frans_Hals%2C_Portrait_of_Ren%C3%A9_Descartes_%28cleaned_up%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2178,
+    "height": 2958,
+    "licence": "Public domain",
+    "artist": "Frans Hals",
+    "credit": "",
+    "desc": "Cleaned up version of Frans Hals' portrait of Ren\u00e9 Descartes"
+   }
+  ],
+  "eeg": [
+   {
+    "title": "File:Dup15q EEG signature.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Dup15q_EEG_signature.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Dup15q_EEG_signature.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1597,
+    "height": 756,
+    "licence": "CC BY 4.0",
+    "artist": "Frohlich, J., Senturk, D., Saravanapandian, V., Golshani, P., Reiter, L.T., Sank",
+    "credit": "Frohlich, J., Senturk, D., Saravanapandian, V., Golshani, P., Reiter, L.T., Sank / CC BY 4.0",
+    "desc": "Spontaneous EEG recordings (right) from a 28-month-old child with Dup15q syndrome show diffuse beta frequency oscillations that represent an electrophysiologica"
+   },
+   {
+    "title": "File:EEG Recording Cap.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/EEG_Recording_Cap.jpg/3840px-EEG_Recording_Cap.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/4/41/EEG_Recording_Cap.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 5184,
+    "height": 3456,
+    "licence": "CC BY 2.0",
+    "artist": "Chris Hope",
+    "credit": "Chris Hope / CC BY 2.0",
+    "desc": "A cap holds electrodes in place while recording an EEG."
+   },
+   {
+    "title": "File:O'Donnell-Luria\u2013Rodan syndrome \u2014 EEG before and after anti-seizure treatment.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/O%27Donnell-Luria%E2%80%93Rodan_syndrome_%E2%80%94_EEG_before_and_after_anti-seizure_treatment.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/6/6c/O%27Donnell-Luria%E2%80%93Rodan_syndrome_%E2%80%94_EEG_before_and_after_anti-seizure_treatment.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1148,
+    "height": 627,
+    "licence": "CC BY 4.0",
+    "artist": "Yang Li; Lijuan Fan; Rong Luo; Zuozhen Yang; Meng Yuan; Jinxiu Zhang; Jing Gan",
+    "credit": "Yang Li; Lijuan Fan; Rong Luo; Zuozhen Yang; Meng Yuan; Jinxiu Zhang; Jing Gan / CC BY 4.0",
+    "desc": "EEG before and after anti-seizure treatment in O'Donnell-Luria\u2013Rodan syndrome"
+   }
+  ],
+  "neuron": [
+   {
+    "title": "File:Rat primary cortical neuron culture, deconvolved z-stack overlay (30614937102).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Rat_primary_cortical_neuron_culture%2C_deconvolved_z-stack_overlay_%2830614937102%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/7/75/Rat_primary_cortical_neuron_culture%2C_deconvolved_z-stack_overlay_%2830614937102%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2752,
+    "height": 2208,
+    "licence": "CC BY 2.0",
+    "artist": "ZEISS Microscopy from Germany",
+    "credit": "ZEISS Microscopy from Germany / CC BY 2.0",
+    "desc": "Images donated as part of a GLAM collaboration with Carl Zeiss Microscopy - please contact Andy Mabbett for details."
+   },
+   {
+    "title": "File:Neuron in tissue culture.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Neuron_in_tissue_culture.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/7/70/Neuron_in_tissue_culture.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1315,
+    "height": 1033,
+    "licence": "CC BY-SA 3.0",
+    "artist": "GerryShaw",
+    "credit": "GerryShaw / CC BY-SA 3.0",
+    "desc": "Cortical neuron stained with antibody to neurofilament subunit NF-L in green. In red are neuronal stem cells stained with antibody to alpha-internexin. Image cr"
+   },
+   {
+    "title": "File:Cultured Rat Hippocampal Neuron (24327909026).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Cultured_Rat_Hippocampal_Neuron_%2824327909026%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Cultured_Rat_Hippocampal_Neuron_%2824327909026%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1918,
+    "height": 1219,
+    "licence": "CC BY 2.0",
+    "artist": "ZEISS Microscopy from Germany",
+    "credit": "ZEISS Microscopy from Germany / CC BY 2.0",
+    "desc": "Cultured Rat Hippocampal Neuron; green: AlexaFluor 488-Anti Beta III Tubulin - This antibody was raised against microtubules derived from rat brain. - mikrotubu"
+   }
+  ],
+  "bci": [
+   {
+    "title": "File:Interfacing organoids with 3D microelectrode arrays (MEAs) to allow electrophysiological output recording.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Interfacing_organoids_with_3D_microelectrode_arrays_%28MEAs%29_to_allow_electrophysiological_output_recording.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Interfacing_organoids_with_3D_microelectrode_arrays_%28MEAs%29_to_allow_electrophysiological_output_recording.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3031,
+    "height": 5138,
+    "licence": "CC BY 4.0",
+    "artist": "Authors of the study: Lena Smirnova Brian S. Caffo David H. Gracias Qi Huang Itz",
+    "credit": "Authors of the study: Lena Smirnova Brian S. Caffo David H. Gracias Qi Huang Itz / CC BY 4.0",
+    "desc": "\"Interfacing organoids with 3D microelectrode arrays (MEAs) to allow electrophysiological output recording. (A) Organoid-MEA interfaces were inspired by the ele"
+   },
+   {
+    "title": "File:Invasive and partially invasive BCIs.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Invasive_and_partially_invasive_BCIs.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Invasive_and_partially_invasive_BCIs.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2048,
+    "height": 1536,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Amcclanahan",
+    "credit": "Amcclanahan / CC BY-SA 4.0",
+    "desc": "This illustration was created to depict where, anatomically, various BCIs are commonly implanted. ECoG arrays are often implanted overlying brain tissue. Endova"
+   }
+  ]
+ }
+}

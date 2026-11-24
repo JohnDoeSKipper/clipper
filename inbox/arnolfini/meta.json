@@ -1,0 +1,157 @@
+{
+ "id": "arnolfini",
+ "painting": {
+  "title": "File:Van Eyck - Arnolfini Portrait.jpg",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Van_Eyck_-_Arnolfini_Portrait.jpg/3840px-Van_Eyck_-_Arnolfini_Portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "full": "https://upload.wikimedia.org/wikipedia/commons/3/33/Van_Eyck_-_Arnolfini_Portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "width": 4386,
+  "height": 6000,
+  "licence": "Public domain",
+  "artist": "Jan van Eyck",
+  "credit": "",
+  "desc": ""
+ },
+ "inserts": {
+  "mirror": [],
+  "bruges": [
+   {
+    "title": "File:Canal Cruise at Bruges (5524506275).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Canal_Cruise_at_Bruges_%285524506275%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Canal_Cruise_at_Bruges_%285524506275%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1200,
+    "height": 754,
+    "licence": "CC BY-SA 2.0",
+    "artist": "InSapphoWeTrust from Los Angeles, California, USA",
+    "credit": "InSapphoWeTrust from Los Angeles, California, USA / CC BY-SA 2.0",
+    "desc": "I am in the midst of a day trip to the Flemish medieval town of Brugge. In English, it is usually referred to by its French name, Bruges. Brugge used to be a bo"
+   },
+   {
+    "title": "File:Town Square, Bruges (5524506167).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Town_Square%2C_Bruges_%285524506167%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/4/49/Town_Square%2C_Bruges_%285524506167%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1200,
+    "height": 658,
+    "licence": "CC BY-SA 2.0",
+    "artist": "InSapphoWeTrust from Los Angeles, California, USA",
+    "credit": "InSapphoWeTrust from Los Angeles, California, USA / CC BY-SA 2.0",
+    "desc": "This is a secondary square near the town hall in the Flemish medieval town of Brugge, usually known in English by its French name Bruges. Brugge used to be a bo"
+   },
+   {
+    "title": "File:Grand Markt, Brugge (5296746693).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Grand_Markt%2C_Brugge_%285296746693%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/8/82/Grand_Markt%2C_Brugge_%285296746693%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1200,
+    "height": 658,
+    "licence": "CC BY-SA 2.0",
+    "artist": "InSapphoWeTrust from Los Angeles, California, USA",
+    "credit": "InSapphoWeTrust from Los Angeles, California, USA / CC BY-SA 2.0",
+    "desc": "I am visiting Brugge (known as Bruges in French and English) in West Flanders. Loving the Dutch architecture. This is my first-ever visit to a Dutch-influenced "
+   }
+  ],
+  "vaneyck": [
+   {
+    "title": "File:Portrait of a Man in a Turban (Jan van Eyck).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Portrait_of_a_Man_in_a_Turban_%28Jan_van_Eyck%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/2/26/Portrait_of_a_Man_in_a_Turban_%28Jan_van_Eyck%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2024,
+    "height": 2746,
+    "licence": "Public domain",
+    "artist": "Jan van Eyck",
+    "credit": "",
+    "desc": ""
+   },
+   {
+    "title": "File:Portrait of a Man by Jan van Eyck-small.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Portrait_of_a_Man_by_Jan_van_Eyck-small.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Portrait_of_a_Man_by_Jan_van_Eyck-small.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2356,
+    "height": 3233,
+    "licence": "Public domain",
+    "artist": "Jan van Eyck",
+    "credit": "",
+    "desc": "Portrait of a Man label QS:Lit,\"Ritratto di un uomo\" label QS:Lhu,\"F\u00e9rfi portr\u00e9\" label QS:Let,\"Mehe portree\" label QS:Lca,\"Retrat d'un home\" label QS:Lcy,\"Portr"
+   },
+   {
+    "title": "File:Portrait of a Man in a Turban (Jan van Eyck) with frame.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Portrait_of_a_Man_in_a_Turban_%28Jan_van_Eyck%29_with_frame.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Portrait_of_a_Man_in_a_Turban_%28Jan_van_Eyck%29_with_frame.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3315,
+    "height": 4226,
+    "licence": "Public domain",
+    "artist": "Jan van Eyck",
+    "credit": "",
+    "desc": ""
+   }
+  ],
+  "gallery": [
+   {
+    "title": "File:Trafalgar Square 360 Panorama Cropped Sky, London - Jun 2009.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Trafalgar_Square_360_Panorama_Cropped_Sky%2C_London_-_Jun_2009.jpg/3840px-Trafalgar_Square_360_Panorama_Cropped_Sky%2C_London_-_Jun_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Trafalgar_Square_360_Panorama_Cropped_Sky%2C_London_-_Jun_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 9932,
+    "height": 2075,
+    "licence": "CC BY-SA 3.0",
+    "artist": "Diliff",
+    "credit": "Diliff / CC BY-SA 3.0",
+    "desc": "An 8 segment, 360 degree panoramic image taken with a Canon 5D and 17-40mm f/4L lens at 17mm and panoramic head on tripod. This is a cropped version of the one "
+   },
+   {
+    "title": "File:Trafalgar Square, fountain and National Gallery - 01.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Trafalgar_Square%2C_fountain_and_National_Gallery_-_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/9/90/Trafalgar_Square%2C_fountain_and_National_Gallery_-_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2699,
+    "height": 3599,
+    "licence": "CC BY-SA 3.0",
+    "artist": "Carlos Delgado",
+    "credit": "Carlos Delgado / CC BY-SA 3.0",
+    "desc": "Trafalgar Square, fountain and National Gallery, London, England."
+   },
+   {
+    "title": "File:Trafalgar Square, London 2 - Jun 2009.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Trafalgar_Square%2C_London_2_-_Jun_2009.jpg/3840px-Trafalgar_Square%2C_London_2_-_Jun_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Trafalgar_Square%2C_London_2_-_Jun_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4161,
+    "height": 2754,
+    "licence": "CC BY-SA 3.0",
+    "artist": "Diliff",
+    "credit": "Diliff / CC BY-SA 3.0",
+    "desc": "A perspective corrected image of Trafalgar Square in London, England. Taken by me with a Canon 5D and 17-40mm f/4L lens."
+   }
+  ],
+  "merode": [
+   {
+    "title": "File:Annunciation Triptych (Merode Altarpiece) MET DP273206.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Annunciation_Triptych_%28Merode_Altarpiece%29_MET_DP273206.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Annunciation_Triptych_%28Merode_Altarpiece%29_MET_DP273206.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1959,
+    "height": 996,
+    "licence": "CC0",
+    "artist": "Robert Campin",
+    "credit": "",
+    "desc": "Annunciation"
+   },
+   {
+    "title": "File:Robert Campin - Triptych with the Annunciation, known as the \"Merode Altarpiece\" - Google Art Project.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Robert_Campin_-_Triptych_with_the_Annunciation%2C_known_as_the_%22Merode_Altarpiece%22_-_Google_Art_Project.jpg/3840px-Robert_Campin_-_Triptych_with_the_Annunciation%2C_known_as_the_%22Merode_Altarpiece%22_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Robert_Campin_-_Triptych_with_the_Annunciation%2C_known_as_the_%22Merode_Altarpiece%22_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4000,
+    "height": 2027,
+    "licence": "Public domain",
+    "artist": "Workshop of Robert Campin",
+    "credit": "",
+    "desc": "Annunciation"
+   },
+   {
+    "title": "File:Annunciation Triptych (Merode Altarpiece) MET DT7261.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Annunciation_Triptych_%28Merode_Altarpiece%29_MET_DT7261.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Annunciation_Triptych_%28Merode_Altarpiece%29_MET_DT7261.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2677,
+    "height": 3722,
+    "licence": "CC0",
+    "artist": "Robert Campin",
+    "credit": "",
+    "desc": "South Netherlandish; Altarpiece; Paintings-Panels"
+   }
+  ]
+ }
+}
