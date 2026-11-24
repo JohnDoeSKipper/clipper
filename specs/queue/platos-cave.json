@@ -1,0 +1,1167 @@
+{
+ "id": "platos-cave",
+ "channel": "philosophy",
+ "style": "ps2",
+ "title": "PLATO'S CAVE",
+ "angle": "In Plato's cave, why would the prisoners kill the one who sets them free?",
+ "logline": "Plato says the prisoners would kill their rescuer, because all they know are shadows of copies, but freedom first blinds the freed man, and real newly sighted children show how hard learning to see is, so when he returns blind in the dark they laugh and would kill him, because Athens had just executed Socrates, but Plato says the freed must go back down anyway.",
+ "hook_text": "THE RESCUER DIES",
+ "hooks": [
+  "Plato's prisoners aren't even watching shadows of real things.",
+  "Plato's most famous story is about the trial that killed his teacher."
+ ],
+ "world": {
+  "scenery": "open",
+  "ground": "#2e2925"
+ },
+ "script": [
+  {
+   "text": "Plato said the prisoners in his cave would kill their rescuer.",
+   "beat": "hook"
+  },
+  {
+   "text": "So why would anyone kill the person who sets them free?",
+   "beat": "question",
+   "link": "so"
+  },
+  {
+   "text": "Plato pictured prisoners chained since childhood, unable to turn their heads.",
+   "beat": "reveal1",
+   "link": "answer"
+  },
+  {
+   "text": "Behind them, people carry carved figures past a fire, like a puppet show.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "So all the prisoners ever see are shadows of copies.",
+   "beat": "reveal1",
+   "link": "so"
+  },
+  {
+   "text": "Strange prisoners, says his listener. Like us, Socrates replies.",
+   "beat": "reveal1",
+   "link": "but"
+  },
+  {
+   "text": "But freedom hurts: dragged into the sunlight, the freed man is blinded.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "At first he trusts the shadows more than the real things.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "That's real: in 2011, scientists tested children who'd just gained sight through surgery.",
+   "beat": "reveal2",
+   "link": "detail",
+   "say": "That's real: in twenty eleven, scientists tested children who'd just gained sight through surgery."
+  },
+  {
+   "text": "Shapes they knew by touch, they couldn't pick out by sight at first.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "But the worst comes when he goes back down.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "His eyes, used to the sun, can't see in the dark.",
+   "beat": "reveal3",
+   "link": "because"
+  },
+  {
+   "text": "The prisoners laugh: going up, they say, ruined his eyes.",
+   "beat": "reveal3",
+   "link": "so"
+  },
+  {
+   "text": "So they'd kill anyone who tried to lead them up.",
+   "beat": "reveal3",
+   "link": "so"
+  },
+  {
+   "text": "Because Plato had watched it happen: Athens executed his teacher Socrates in 399 BC.",
+   "beat": "turn",
+   "link": "because",
+   "say": "Because Plato had watched it happen: Athens executed his teacher Socrates in three ninety-nine B C."
+  },
+  {
+   "text": "Thirty more votes for him, Socrates said, and he'd have walked free.",
+   "beat": "turn",
+   "link": "detail"
+  },
+  {
+   "text": "So they'd kill him because the light makes the freed look blind and foolish.",
+   "beat": "payoff",
+   "link": "answer"
+  },
+  {
+   "text": "But Plato insisted the freed must go back down: knowing Socrates' fate, would you?",
+   "beat": "payoff",
+   "link": "but"
+  }
+ ],
+ "objects": [
+  {
+   "id": "cavewall",
+   "kind": "wall",
+   "at": [
+    7.0,
+    0,
+    0
+   ],
+   "face": -90,
+   "scale": 2.5
+  },
+  {
+   "id": "shadow1",
+   "kind": "cat",
+   "at": [
+    4.8,
+    1.2,
+    -1.6
+   ],
+   "face": -90,
+   "tint": "#141414",
+   "scale": 2.2,
+   "show": false
+  },
+  {
+   "id": "a",
+   "kind": "person",
+   "look": "a",
+   "at": [
+    1.5,
+    0,
+    -1.1
+   ],
+   "face": 90
+  },
+  {
+   "id": "b",
+   "kind": "person",
+   "look": "b",
+   "at": [
+    1.5,
+    0,
+    0
+   ],
+   "face": 90
+  },
+  {
+   "id": "you",
+   "kind": "person",
+   "look": "you",
+   "at": [
+    1.5,
+    0,
+    1.1
+   ],
+   "face": 90
+  },
+  {
+   "id": "lowwall",
+   "kind": "wall",
+   "at": [
+    -1,
+    0,
+    0
+   ],
+   "face": 90,
+   "scale": 0.45
+  },
+  {
+   "id": "c",
+   "kind": "person",
+   "look": "c",
+   "at": [
+    -2.2,
+    0,
+    -4.5
+   ],
+   "face": 0
+  },
+  {
+   "id": "d",
+   "kind": "person",
+   "look": "d",
+   "at": [
+    -2.2,
+    0,
+    -6.5
+   ],
+   "face": 0
+  },
+  {
+   "id": "fire",
+   "kind": "fire",
+   "at": [
+    -4.5,
+    0,
+    0
+   ]
+  },
+  {
+   "id": "ball",
+   "kind": "ball",
+   "at": [
+    -3.5,
+    0,
+    7.9
+   ],
+   "scale": 0.6,
+   "show": false
+  },
+  {
+   "id": "block",
+   "kind": "block",
+   "at": [
+    -2.7,
+    0,
+    8.0
+   ],
+   "scale": 0.6,
+   "show": false
+  }
+ ],
+ "shots": [
+  {
+   "at": 0,
+   "cam": {
+    "pos": [
+     5.2,
+     2.4,
+     0
+    ],
+    "look": [
+     0,
+     1.0,
+     0
+    ],
+    "fov": 70
+   }
+  },
+  {
+   "at": "1",
+   "cam": {
+    "pos": [
+     3.9,
+     1.9,
+     1.7
+    ],
+    "look": [
+     1.5,
+     1.5,
+     1.1
+    ],
+    "fov": 44
+   }
+  },
+  {
+   "at": "2",
+   "cam": {
+    "pos": [
+     5.2,
+     2.4,
+     0
+    ],
+    "look": [
+     0,
+     1.0,
+     0
+    ],
+    "fov": 70
+   }
+  },
+  {
+   "at": "3",
+   "cam": {
+    "pos": [
+     2.0,
+     2.6,
+     5.0
+    ],
+    "look": [
+     -2.2,
+     1.0,
+     0
+    ],
+    "fov": 60
+   }
+  },
+  {
+   "at": "4",
+   "cam": {
+    "pos": [
+     3.2,
+     1.8,
+     5.5
+    ],
+    "look": [
+     4.2,
+     1.2,
+     -1.0
+    ],
+    "fov": 55
+   }
+  },
+  {
+   "at": "5",
+   "cam": {
+    "pos": [
+     4.0,
+     1.7,
+     -0.6
+    ],
+    "look": [
+     1.5,
+     1.0,
+     -0.55
+    ],
+    "fov": 55
+   }
+  },
+  {
+   "at": "5:Like",
+   "cam": {
+    "pos": [
+     5.2,
+     2.4,
+     0
+    ],
+    "look": [
+     0,
+     1.0,
+     0
+    ],
+    "fov": 70
+   }
+  },
+  {
+   "at": "6",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "fire"
+    ]
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "6:sunlight",
+   "cam": {
+    "preset": "close",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "7",
+   "cam": {
+    "pos": [
+     -2.6,
+     1.5,
+     10.2
+    ],
+    "look": [
+     -3.1,
+     1.1,
+     7
+    ],
+    "fov": 40
+   }
+  },
+  {
+   "at": "8",
+   "cam": {
+    "pos": [
+     -3.0,
+     2.2,
+     12.0
+    ],
+    "look": [
+     -3.1,
+     0.6,
+     7.6
+    ],
+    "fov": 60
+   }
+  },
+  {
+   "at": "8:tested",
+   "cam": {
+    "pos": [
+     -3.1,
+     1.4,
+     10.4
+    ],
+    "look": [
+     -3.1,
+     0.3,
+     8.0
+    ],
+    "fov": 50
+   }
+  },
+  {
+   "at": "9",
+   "cam": {
+    "pos": [
+     -3.0,
+     1.6,
+     9.6
+    ],
+    "look": [
+     -3.1,
+     1.3,
+     7
+    ],
+    "fov": 44
+   }
+  },
+  {
+   "at": "9:sight",
+   "cam": {
+    "pos": [
+     -2.6,
+     1.5,
+     10.2
+    ],
+    "look": [
+     -3.1,
+     1.1,
+     7
+    ],
+    "fov": 40
+   }
+  },
+  {
+   "at": "10",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "you",
+     "b",
+     "fire"
+    ]
+   }
+  },
+  {
+   "at": "11",
+   "cam": {
+    "pos": [
+     3.9,
+     1.9,
+     1.7
+    ],
+    "look": [
+     1.5,
+     1.5,
+     1.1
+    ],
+    "fov": 44
+   }
+  },
+  {
+   "at": "12",
+   "cam": {
+    "pos": [
+     5.2,
+     2.4,
+     0
+    ],
+    "look": [
+     0,
+     1.0,
+     0
+    ],
+    "fov": 70
+   }
+  },
+  {
+   "at": "12:ruined",
+   "cam": {
+    "pos": [
+     5.2,
+     2.4,
+     0
+    ],
+    "look": [
+     0,
+     1.0,
+     0
+    ],
+    "fov": 70
+   }
+  },
+  {
+   "at": "13",
+   "cam": {
+    "pos": [
+     5.2,
+     2.4,
+     0
+    ],
+    "look": [
+     0,
+     1.0,
+     0
+    ],
+    "fov": 70
+   }
+  },
+  {
+   "at": "13:kill",
+   "cam": {
+    "pos": [
+     3.9,
+     1.9,
+     1.7
+    ],
+    "look": [
+     1.5,
+     1.5,
+     1.1
+    ],
+    "fov": 44
+   }
+  },
+  {
+   "at": "13:lead",
+   "cam": {
+    "pos": [
+     5.2,
+     2.4,
+     0
+    ],
+    "look": [
+     0,
+     1.0,
+     0
+    ],
+    "fov": 70
+   }
+  },
+  {
+   "at": "14",
+   "cam": {
+    "pos": [
+     5.2,
+     2.4,
+     0
+    ],
+    "look": [
+     0,
+     1.0,
+     0
+    ],
+    "fov": 70
+   }
+  },
+  {
+   "at": "15",
+   "cam": {
+    "pos": [
+     3.9,
+     1.9,
+     1.7
+    ],
+    "look": [
+     1.5,
+     1.5,
+     1.1
+    ],
+    "fov": 44
+   }
+  },
+  {
+   "at": "15:said",
+   "cam": {
+    "pos": [
+     3.4,
+     1.6,
+     1.5
+    ],
+    "look": [
+     1.5,
+     1.3,
+     1.1
+    ],
+    "fov": 44
+   }
+  },
+  {
+   "at": "16",
+   "cam": {
+    "pos": [
+     5.2,
+     2.4,
+     0
+    ],
+    "look": [
+     0,
+     1.0,
+     0
+    ],
+    "fov": 70
+   }
+  },
+  {
+   "at": "16:blind",
+   "cam": {
+    "pos": [
+     3.9,
+     1.9,
+     1.7
+    ],
+    "look": [
+     1.5,
+     1.5,
+     1.1
+    ],
+    "fov": 44
+   }
+  },
+  {
+   "at": "17",
+   "cam": {
+    "pos": [
+     5.2,
+     2.4,
+     0
+    ],
+    "look": [
+     0,
+     1.0,
+     0
+    ],
+    "fov": 70
+   }
+  },
+  {
+   "at": "17:knowing",
+   "cam": {
+    "pos": [
+     3.4,
+     1.6,
+     1.5
+    ],
+    "look": [
+     1.5,
+     1.3,
+     1.1
+    ],
+    "fov": 44
+   }
+  }
+ ],
+ "actions": [
+  {
+   "id": [
+    "a",
+    "b",
+    "you"
+   ],
+   "at": 0,
+   "dur": 0.01,
+   "pose": "sit"
+  },
+  {
+   "id": "you",
+   "at": "0:kill",
+   "dur": 0.4,
+   "pose": "shock"
+  },
+  {
+   "id": "you",
+   "at": "1",
+   "dur": 0.3,
+   "pose": "sit"
+  },
+  {
+   "id": [
+    "c",
+    "d"
+   ],
+   "at": "3",
+   "dur": 0.3,
+   "pose": "carry"
+  },
+  {
+   "id": "c",
+   "at": "3:carry",
+   "until": "5",
+   "pos": [
+    -2.2,
+    0,
+    4.0
+   ],
+   "walk": true,
+   "ease": "linear"
+  },
+  {
+   "id": "d",
+   "at": "3:carry",
+   "until": "5",
+   "pos": [
+    -2.2,
+    0,
+    2.0
+   ],
+   "walk": true,
+   "ease": "linear"
+  },
+  {
+   "id": "shadow1",
+   "at": "4:shadows",
+   "dur": 0.4,
+   "show": true
+  },
+  {
+   "id": "shadow1",
+   "at": "4:shadows",
+   "until": "5-0.1",
+   "pos": [
+    4.8,
+    1.2,
+    0.2
+   ],
+   "ease": "linear"
+  },
+  {
+   "id": [
+    "a",
+    "b"
+   ],
+   "at": "5:Like",
+   "dur": 0.4,
+   "pose": "shrug"
+  },
+  {
+   "id": "you",
+   "at": "6",
+   "dur": 0.3,
+   "pose": "stand"
+  },
+  {
+   "id": "you",
+   "at": "6",
+   "dur": 0.3,
+   "face": -38
+  },
+  {
+   "id": "you",
+   "at": "6:dragged",
+   "until": "7-0.3",
+   "pos": [
+    -3.1,
+    0,
+    7.0
+   ],
+   "walk": true
+  },
+  {
+   "id": "you",
+   "at": "6:blinded",
+   "dur": 0.4,
+   "pose": "shock"
+  },
+  {
+   "id": "you",
+   "at": "7",
+   "dur": 0.3,
+   "face": 0
+  },
+  {
+   "id": "you",
+   "at": "7:trusts",
+   "dur": 0.4,
+   "pose": "think"
+  },
+  {
+   "id": [
+    "ball",
+    "block"
+   ],
+   "at": "8:tested",
+   "dur": 0.4,
+   "show": true
+  },
+  {
+   "id": "you",
+   "at": "9",
+   "dur": 0.4,
+   "pose": "reach"
+  },
+  {
+   "id": "you",
+   "at": "9:sight",
+   "dur": 0.4,
+   "pose": "shrug"
+  },
+  {
+   "id": [
+    "ball",
+    "block"
+   ],
+   "at": "10",
+   "dur": 0.3,
+   "show": false
+  },
+  {
+   "id": "you",
+   "at": "10:back",
+   "until": "11",
+   "pos": [
+    1.5,
+    0,
+    1.1
+   ],
+   "walk": true
+  },
+  {
+   "id": "you",
+   "at": "11",
+   "dur": 0.3,
+   "face": 90
+  },
+  {
+   "id": "you",
+   "at": "11:dark",
+   "dur": 0.4,
+   "pose": "shrug"
+  },
+  {
+   "id": [
+    "a",
+    "b"
+   ],
+   "at": "12",
+   "dur": 0.3,
+   "face": "you"
+  },
+  {
+   "id": [
+    "a",
+    "b"
+   ],
+   "at": "12:laugh",
+   "dur": 0.4,
+   "pose": "point"
+  },
+  {
+   "id": [
+    "a",
+    "b"
+   ],
+   "at": "13:kill",
+   "dur": 0.4,
+   "pose": "push"
+  },
+  {
+   "id": "you",
+   "at": "13:kill",
+   "dur": 0.4,
+   "pose": "shock"
+  },
+  {
+   "id": [
+    "a",
+    "b"
+   ],
+   "at": "16",
+   "dur": 0.3,
+   "pose": "point"
+  },
+  {
+   "id": "you",
+   "at": "16:foolish",
+   "dur": 0.4,
+   "pose": "sad"
+  },
+  {
+   "id": "you",
+   "at": "17:back",
+   "dur": 0.4,
+   "pose": "think"
+  },
+  {
+   "id": "you",
+   "at": "17:knowing",
+   "dur": 0.4,
+   "pose": "stand"
+  },
+  {
+   "id": "shadow1",
+   "at": "5",
+   "dur": 0.3,
+   "show": false
+  }
+ ],
+ "overlays": [
+  {
+   "type": "photo",
+   "pick": [
+    "plato",
+    0
+   ],
+   "caption": "Plato, Roman copy of a portrait c. 370 BC",
+   "from": 0,
+   "to": "0:cave"
+  },
+  {
+   "type": "icon",
+   "icon": "skull",
+   "on": "you",
+   "from": "0:kill",
+   "to": "1"
+  },
+  {
+   "type": "label",
+   "text": "YOU",
+   "color": "yellow",
+   "on": "you",
+   "from": "1",
+   "to": "2"
+  },
+  {
+   "type": "question",
+   "on": "you",
+   "from": "1:why",
+   "to": "2"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "saenredam",
+    1
+   ],
+   "caption": "Plato's cave, engraving by Jan Saenredam, 1604",
+   "from": "2",
+   "to": "3-0.2"
+  },
+  {
+   "type": "label",
+   "text": "PUPPET SHOW",
+   "pos": [
+    540,
+    330
+   ],
+   "from": "3:puppet",
+   "to": "4"
+  },
+  {
+   "type": "label",
+   "text": "SHADOWS OF COPIES",
+   "pos": [
+    540,
+    330
+   ],
+   "from": "4:shadows",
+   "to": "5"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "socrates",
+    0
+   ],
+   "caption": "Socrates, Roman marble, Louvre",
+   "from": "5:Like",
+   "to": "6-0.2"
+  },
+  {
+   "type": "icon",
+   "icon": "star",
+   "on": [
+    -5.5,
+    3.5,
+    9.5
+   ],
+   "from": "6:sunlight",
+   "to": "7"
+  },
+  {
+   "type": "label",
+   "text": "THE SHADOWS FEEL TRUER",
+   "pos": [
+    540,
+    330
+   ],
+   "from": "7:trusts",
+   "to": "8"
+  },
+  {
+   "type": "label",
+   "text": "2011: NEWLY SIGHTED CHILDREN",
+   "pos": [
+    540,
+    330
+   ],
+   "from": "8:tested",
+   "to": "9"
+  },
+  {
+   "type": "icon",
+   "icon": "eye",
+   "on": "you",
+   "from": "9",
+   "to": "10"
+  },
+  {
+   "type": "question",
+   "on": "ball",
+   "from": "9:sight",
+   "to": "10"
+  },
+  {
+   "type": "label",
+   "text": "BLIND IN THE DARK",
+   "pos": [
+    540,
+    330
+   ],
+   "from": "11:dark",
+   "to": "12"
+  },
+  {
+   "type": "icon",
+   "icon": "skull",
+   "on": "you",
+   "from": "13:kill",
+   "to": "14"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "socrates",
+    2
+   ],
+   "caption": "Socrates, executed by Athens in 399 BC",
+   "from": "14",
+   "to": "15-0.2"
+  },
+  {
+   "type": "label",
+   "text": "30 VOTES FROM FREEDOM",
+   "pos": [
+    540,
+    330
+   ],
+   "from": "15:Thirty",
+   "to": "16"
+  },
+  {
+   "type": "number",
+   "text": "30",
+   "on": "you",
+   "from": "15:Thirty",
+   "to": "16"
+  },
+  {
+   "type": "label",
+   "text": "BLIND AND FOOLISH",
+   "pos": [
+    540,
+    330
+   ],
+   "from": "16:blind",
+   "to": "17"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "plato",
+    2
+   ],
+   "caption": "Plato, who founded his school after the trial",
+   "from": "17",
+   "to": "17:knowing-0.1"
+  },
+  {
+   "type": "pill",
+   "text": "Would you go back down?",
+   "from": "17:knowing"
+  }
+ ],
+ "sfx": [
+  {
+   "at": "0:kill",
+   "s": "bong",
+   "gain": 0.3
+  },
+  {
+   "at": "3:carry",
+   "s": "whoosh",
+   "gain": 0.25
+  },
+  {
+   "at": "4:shadows",
+   "s": "whoosh",
+   "gain": 0.25
+  },
+  {
+   "at": "6:dragged",
+   "s": "clank",
+   "gain": 0.3
+  },
+  {
+   "at": "6:blinded",
+   "s": "maximize",
+   "gain": 0.3
+  },
+  {
+   "at": "8:tested",
+   "s": "drop",
+   "gain": 0.25
+  },
+  {
+   "at": "9:sight",
+   "s": "error",
+   "gain": 0.25
+  },
+  {
+   "at": "12:laugh",
+   "s": "scratch",
+   "gain": 0.25
+  },
+  {
+   "at": "13:kill",
+   "s": "thud",
+   "gain": 0.3
+  }
+ ],
+ "music": {
+  "mood": "dark"
+ },
+ "sources": [
+  "https://cts.perseids.org/read/greekLit/tlg0059/tlg030/perseus-eng2/7.520-7.526",
+  "https://people.bu.edu/wwildman/WeirdWildWeb/courses/wphil/readings/wphil_rdg02b_republic_cave.htm",
+  "https://plato.stanford.edu/entries/plato/",
+  "https://doi.org/10.1038/nn.2795",
+  "https://www.discovermagazine.com/health/when-the-blind-can-suddenly-see-do-they-know-what-theyre-looking-at",
+  "https://faculty.fiu.edu/~hauptli/Plato'sApologyLectureSupplement.htm"
+ ],
+ "post": {
+  "caption": "In Plato's cave, the prisoners would kill the person who frees them. Plato wasn't guessing: he had watched it happen.\nWould you go back into the cave?",
+  "tags": [
+   "#philosophy",
+   "#plato",
+   "#allegoryofthecave",
+   "#socrates",
+   "#thoughtexperiment"
+  ],
+  "youtube_title": "Why Plato's Prisoners Would Kill Their Rescuer"
+ }
+}
