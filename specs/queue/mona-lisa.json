@@ -1,0 +1,260 @@
+{
+ "id": "mona-lisa",
+ "channel": "paintings",
+ "angle": "Why does a copy in Madrid show us the real Mona Lisa better than the original in Paris?",
+ "logline": "Madrid's 'dull copy' was hidden under black paint, but the original is hidden too, under yellow varnish nobody dares remove because her skin is glazes thinner than a hair, so her blue sky looks green, but in 2012 the copy's black came off and showed blue mountains and red sleeves, and infrared proved a pupil painted it beside Leonardo, therefore the murky face we know is partly the work of time.",
+ "hook_text": "HER TWIN WAS PAINTED BLACK",
+ "hooks": [
+  "The Mona Lisa you know is wearing five centuries of yellow varnish.",
+  "One of Leonardo's pupils copied the Mona Lisa while watching him paint it."
+ ],
+ "painting": {
+  "title": "Mona Lisa",
+  "artist": "Leonardo da Vinci",
+  "year": "c. 1503-1519",
+  "museum": "Musée du Louvre, Paris"
+ },
+ "script": [
+  {
+   "text": "Madrid's Prado owns a second Mona Lisa, once hidden under black paint.",
+   "beat": "hook",
+   "say": "Madrid's Prado owns a second Mona Leesa, once hidden under black paint."
+  },
+  {
+   "text": "For centuries, experts dismissed it as a dull copy.",
+   "beat": "hook",
+   "link": "detail"
+  },
+  {
+   "text": "So why does that copy show the real Mona Lisa better than Paris?",
+   "beat": "question",
+   "link": "so",
+   "say": "So why does that copy show the real Mona Leesa better than Paris?"
+  },
+  {
+   "text": "Because the original sits under centuries of yellowed varnish.",
+   "beat": "reveal1",
+   "link": "answer"
+  },
+  {
+   "text": "Beneath it, her skin is built from glazes thinner than a human hair.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "So stripping the varnish could strip Leonardo too, and the Louvre won't risk it.",
+   "beat": "reveal1",
+   "link": "so",
+   "say": "So stripping the varnish could strip Leonardo too, and the Loov won't risk it."
+  },
+  {
+   "text": "Which leaves his blue sky looking murky green and brown.",
+   "beat": "reveal1",
+   "link": "so"
+  },
+  {
+   "text": "But in 2012, Prado restorers removed the black, added sometime after 1750.",
+   "beat": "reveal2",
+   "link": "but",
+   "say": "But in twenty twelve, Prado restorers removed the black, added sometime after seventeen fifty."
+  },
+  {
+   "text": "Underneath: icy blue mountains, a winding river and bright red sleeves.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "But infrared showed more: when Leonardo changed his mind, the copy changed too.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "So a pupil painted it beside her, in Leonardo's studio, as he worked.",
+   "beat": "reveal3",
+   "link": "so"
+  },
+  {
+   "text": "Which means the murky face we know is partly the work of time.",
+   "beat": "turn",
+   "link": "so"
+  },
+  {
+   "text": "So the copy wins because its black came off, and her yellow won't.",
+   "beat": "payoff",
+   "link": "answer"
+  },
+  {
+   "text": "But Leonardo's blue is still there, under the haze, behind her smile.",
+   "beat": "payoff",
+   "link": "but"
+  }
+ ],
+ "music": {
+  "piece": "satie-gnossienne-1"
+ },
+ "timeline": [
+  {
+   "type": "reveal",
+   "from": [
+    0.45,
+    0.24,
+    2.6
+   ],
+   "until": 3.0
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "copy",
+    1
+   ],
+   "caption": "The Prado's Mona Lisa, Madrid",
+   "at": "1",
+   "to": "2-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.5,
+    0.1,
+    0.42,
+    0.08
+   ],
+   "ring": "3",
+   "zoom": "3+0.4",
+   "label": "YELLOWED VARNISH",
+   "labelAt": "3:varnish",
+   "out": "4-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.45,
+    0.26,
+    0.12,
+    0.11
+   ],
+   "ring": "4",
+   "zoom": "4+0.4",
+   "label": "THINNER THAN A HAIR",
+   "labelAt": "4:glazes",
+   "out": "5-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "louvre",
+    0
+   ],
+   "caption": "Her room at the Louvre, Paris",
+   "at": "5",
+   "to": "6-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.8,
+    0.27,
+    0.17,
+    0.12
+   ],
+   "ring": "6",
+   "zoom": "6+0.4",
+   "label": "BLUE, NOW GREEN",
+   "labelAt": "6:green",
+   "out": "7-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "map",
+   "place": "Madrid",
+   "sub": "Museo del Prado, 2012",
+   "lat": 40.414,
+   "lon": -3.692,
+   "at": "7",
+   "to": "8-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "copy",
+    1
+   ],
+   "caption": "The Prado copy after cleaning",
+   "at": "8",
+   "to": "9-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "leonardo",
+    0
+   ],
+   "caption": "Leonardo da Vinci, presumed self-portrait",
+   "at": "9",
+   "to": "10-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.14,
+    0.47,
+    0.13,
+    0.1
+   ],
+   "ring": "10",
+   "zoom": "10+0.4",
+   "label": "PAINTED SIDE BY SIDE",
+   "labelAt": "10:beside",
+   "out": "11-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.45,
+    0.26,
+    0.12,
+    0.11
+   ],
+   "ring": "11",
+   "zoom": "11+0.4",
+   "label": "THE WORK OF TIME",
+   "labelAt": "11:time",
+   "out": "12-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.74,
+    0.24,
+    0.2,
+    0.12
+   ],
+   "ring": "13",
+   "zoom": "13+0.4",
+   "out": "end"
+  }
+ ],
+ "sources": [
+  "https://en.wikipedia.org/wiki/Mona_Lisa_(Prado)",
+  "https://www.nbcnews.com/news/amp/wbna46254192",
+  "https://www.npr.org/transcripts/146288063",
+  "https://monalisa.org/2012/09/11/prado/",
+  "https://www.deseret.com/1998/8/29/19398939/scrub-mona-lisa-s-face-louvre-demurs/"
+ ],
+ "post": {
+  "caption": "The Mona Lisa has a twin, painted beside her in Leonardo's studio, and it shows colours the original has lost.\nWould you let the Louvre clean her?",
+  "tags": [
+   "#arthistory",
+   "#monalisa",
+   "#leonardodavinci",
+   "#renaissance",
+   "#artfacts"
+  ],
+  "youtube_title": "The Mona Lisa's Twin Was Hiding Under Black Paint"
+ }
+}
