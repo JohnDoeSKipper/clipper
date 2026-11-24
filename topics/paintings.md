@@ -10,9 +10,9 @@ The leads are starting points from memory, not facts: check each one before it g
 - made | mona-lisa | Mona Lisa, Leonardo | famous because it was stolen in 1911; no eyebrows; the landscape that doesn't line up | made 2026-11-24. Spares: 1911 theft by Vincenzo Peruggia, who helped build its glass case; crowds queued to see the empty wall; back Dec 1913; Napoleon hung it in his bedroom; Agostino Vespucci's 1503 margin note (found 2005) names the sitter
 - made | night-watch | The Night Watch, Rembrandt | not a night scene (dark varnish); trimmed to fit a wall; the glowing girl | made 2026-11-24. Spares: the glowing girl carries a dead chicken (claws = the arquebusiers' emblem); knife attacks 1911 and 1975, acid 1990; Operation Night Watch glass room since 2019; strips cut: left 64.4 cm, top 23.3, bottom 11.3, right 7
 - made | las-meninas | Las Meninas, Velázquez | who is being painted; the mirror; the painter looking at us; the red cross added later | made 2026-11-24. Spares: title only from the 1843 Prado catalogue; the Arnolfini Portrait hung in the same royal collection; back-wall copies of Rubens/Jordaens show mortals challenging gods at art; survived the 1734 Alcázar fire; Giordano: 'the theology of painting'
-- requested | arnolfini | The Arnolfini Portrait, Van Eyck | the convex mirror with two visitors; "Jan van Eyck was here"; one candle
-- requested | birth-of-venus | The Birth of Venus, Botticelli | impossible anatomy on purpose; painted on canvas when wood was normal; hidden for decades
-- todo | the-kiss | The Kiss, Klimt | real gold leaf; rectangles and circles; the cliff edge under her feet
+- inbox | arnolfini | The Arnolfini Portrait, Van Eyck | the convex mirror with two visitors; "Jan van Eyck was here"; one candle
+- inbox | birth-of-venus | The Birth of Venus, Botticelli | impossible anatomy on purpose; painted on canvas when wood was normal; hidden for decades
+- requested | the-kiss | The Kiss, Klimt | real gold leaf; rectangles and circles; the cliff edge under her feet
 - todo | grande-jatte | A Sunday on La Grande Jatte, Seurat | millions of dots; two years of work; the monkey; the painted border
 - todo | third-of-may | The Third of May 1808, Goya | the lantern; the white shirt and the pose; faceless soldiers
 - todo | wanderer-fog | Wanderer above the Sea of Fog, Friedrich | we never see his face; a landscape stitched from several places
