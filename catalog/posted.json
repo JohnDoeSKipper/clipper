@@ -14,6 +14,11 @@
    "channel": "paintings",
    "handed_out": "2026-11-24",
    "at": "2026-11-24T04:05+08:00"
+  },
+  "girl-pearl-earring": {
+   "channel": "paintings",
+   "handed_out": "2026-11-24",
+   "at": "2026-11-24T18:34+08:00"
   }
  },
  "philosophy": {
@@ -31,6 +36,11 @@
    "channel": "philosophy",
    "handed_out": "2026-11-24",
    "at": "2026-11-24T04:05+08:00"
+  },
+  "experience-machine": {
+   "channel": "philosophy",
+   "handed_out": "2026-11-24",
+   "at": "2026-11-24T18:34+08:00"
   }
  }
 }
