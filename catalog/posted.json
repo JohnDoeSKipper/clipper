@@ -34,6 +34,11 @@
    "channel": "paintings",
    "handed_out": "2026-11-25",
    "at": "2026-11-25T04:37+08:00"
+  },
+  "arnolfini": {
+   "channel": "paintings",
+   "handed_out": "2026-11-26",
+   "at": "2026-11-26T03:53+08:00"
   }
  },
  "philosophy": {
@@ -71,6 +76,11 @@
    "channel": "philosophy",
    "handed_out": "2026-11-25",
    "at": "2026-11-25T04:37+08:00"
+  },
+  "marys-room": {
+   "channel": "philosophy",
+   "handed_out": "2026-11-26",
+   "at": "2026-11-26T03:53+08:00"
   }
  }
 }
