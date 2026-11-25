@@ -1,6 +1,52 @@
 # Model scripts (newest first)
 The writer reads the top two of its channel before writing and matches or beats them: same spine (beats in order, every sentence linked to the one before), never the same facts or hooks. Each script the writer makes is added at the top in this format. Kept to the last 12.
 
+## brain-in-a-vat (philosophy, 2026-11-26)
+
+Angle: If your whole world reached you as signals on a wire, could you ever prove it is real?
+Logline: Cells in a dish played Pong through pulses, so could you prove your world is real? Descartes feared a demon, so Putnam made it a computer feeding a brain in a vat, but every test you run is fed in too, because the computer sends the pinch, as the Pong cells learned from signals without knowing a game existed, but Putnam found a way out in words, because a word only points at what it is connected to, so a lifelong vat-brain's 'I am in a vat' is false, but that only works from birth, so a brain moved last night would notice nothing, so you cannot prove it.
+On-screen hook: BRAIN CELLS, NO BODY, PLAYING PONG
+
+[hook] In 2022, 800,000 brain cells in a dish learned to play Pong.
+[hook / detail] The ball reached them only as electrical pulses.
+[question / so] So if your world arrived as pulses, could you prove it's real?
+[reveal1 / answer] The worry goes back to 1641: Descartes feared a demon was fooling his senses.
+[reveal1 / detail] Hilary Putnam's 1981 version swaps the demon for a computer, feeding a brain in a vat.
+[reveal2 / but] But you can't test your way out.
+[reveal2 / because] Pinch yourself, and the computer simply sends the pinch.
+[reveal2 / detail] The Pong cells were taught this way: a hit brought a steady signal, a miss brought noise.
+[reveal2 / so] They improved without ever knowing there was a game.
+[reveal3 / but] But Putnam found a stranger way out: words.
+[reveal3 / detail] An ant whose trail looks like Winston Churchill hasn't drawn him; it has no link to him.
+[reveal3 / so] So a lifelong vat-brain has never met a real vat; its word vat means images.
+[reveal3 / so] So when it thinks, I am a brain in a vat, the thought comes out false.
+[turn / but] But the trick only works if you've been in the vat since birth.
+[turn / detail] A brain moved there last night still means real vats, and would notice nothing.
+[payoff / answer] So no, you can't prove it; you can only prove a lifelong vat-brain couldn't say it.
+[payoff / but] But those Pong cells never knew they were in a dish. Would you?
+
+## birth-of-venus (paintings, 2026-11-26)
+
+Angle: How did a cheap canvas made for a country house become the face of the Renaissance?
+Logline: It is painted on sewn canvas while serious Florentine pictures went on wood, because canvas was for cheap, cheerful villa decoration, so Botticelli made cloth glow with a blue ground and gold, but out at the villa it left no record, so its first mention came decades later from Vasari, but that obscurity may have saved it, because Savonarola's Florence burned vanities and very likely its copies, so it stayed safe until 1815, but even its title is a 19th-century label for a goddess being blown ashore, not born, so the cheapness that hid her is what saved her.
+On-screen hook: THE RENAISSANCE, ON CHEAP CLOTH
+
+[hook] Botticelli's Venus is painted on two strips of sewn canvas.
+[hook / but] Serious Florentine paintings, like his Primavera, went on wood.
+[question / so] So how did cheap cloth become the face of the Renaissance?
+[reveal1 / answer] Canvas was the cheap choice for country villas, decorated simply and cheerfully.
+[reveal1 / so] So Botticelli made the cloth glow with a blue-tinted ground.
+[reveal1 / detail] Then, once it was framed, real gold went into her hair.
+[reveal2 / but] But at the villa, it left no record, not even in a Medici inventory.
+[reveal2 / so] Its first written mention came decades later, from Giorgio Vasari.
+[reveal3 / but] But being out of sight may have saved her.
+[reveal3 / because] In 1497, Savonarola had Florentines burn their vanities in the main square.
+[reveal3 / detail] Copies of this Venus from Botticelli's workshop very likely burned.
+[reveal3 / so] The original stayed at the villa until 1815, then went to the Uffizi.
+[turn / but] But even its name came late: the title dates from the 1800s.
+[turn / detail] She isn't even being born; the winds are blowing her ashore.
+[payoff / answer] So the cheap cloth that hid her is what saved her.
+
 ## marys-room (philosophy, 2026-11-25)
 
 Angle: If Mary knows every physical fact about colour, does seeing red teach her anything new?
@@ -236,49 +282,3 @@ On-screen hook: THE PEARL ISN'T REAL
 [turn / detail] Fine brown hairs, too small for the naked eye.
 [payoff / answer] So who was she? An imaginary girl with an impossible pearl.
 [payoff / but] But Vermeer gave her eyelashes nobody would see for 350 years.
-
-## veil-of-ignorance (philosophy, remade 2026-11-23)
-
-Angle: If you didn't know who you'd be, would you really protect the unlucky, as Rawls said?
-Logline: Rawls lost two brothers to illnesses he caught first, so he asked what rules you'd pick without knowing your luck, and answered: protect the worst-off, but Harsanyi used the same veil to say raise the average, so researchers tested real people, who chose an average with a floor, but in a hospital the veil even pushed people to sacrifice the one.
-On-screen hook: LUCK DECIDED WHO LIVED
-
-[hook] John Rawls's childhood illnesses killed two of his little brothers.
-[hook / detail] His diphtheria spread to Bobby; the next winter, his pneumonia spread to Tommy.
-[question / so] So Rawls asked: what rules would you pick without knowing your luck?
-[question / detail] Rich or poor, healthy or sick, you might be anyone.
-[reveal1 / answer] His answer, in 1971: make the worst-off life as good as possible.
-[reveal1 / because] Because behind this veil of ignorance, the worst-off life might be yours.
-[reveal1 / so] So a fair society is judged by its bottom, not its average.
-[reveal2 / but] But economist John Harsanyi had used the same veil earlier.
-[reveal2 / detail] His answer was the opposite: raise the average, even if a few lose badly.
-[reveal2 / so] So one blindfold gave two thinkers two different societies.
-[reveal3 / so] So researchers put real people behind the veil.
-[reveal3 / detail] Eighty-one groups in America, Canada and Poland had to agree on one rule.
-[reveal3 / detail] Only one group chose Rawls's rule; only ten chose Harsanyi's.
-[reveal3 / but] Most chose a mix: raise the average, but guarantee everyone a floor.
-[turn / but] But in 2019, a Harvard team asked: take one patient off oxygen to save nine earthquake victims?
-[turn / detail] Imagining they could be any of the ten, more people chose the nine.
-[payoff / answer] So behind the veil, we protect a floor, then play the odds.
-[payoff / but] But if you could be anyone, would you unplug the one you might be?
-
-## the-scream (paintings, remade 2026-11-23)
-
-Angle: If the man in The Scream isn't screaming, what scream was Munch shutting out?
-Logline: Everyone thinks the man is screaming, but he is covering his ears against a scream Munch felt pass through nature at sunset, so he turned an ordinary man into a skull-like face, but the blood-red sky may have been real, therefore when someone wrote that only a madman could paint it, it turned out to be Munch himself.
-On-screen hook: LISTEN TO THE SKY
-
-[hook] The man in The Scream isn't screaming: he's covering his ears.
-[question / so] So what scream was Munch shutting out?
-[reveal1 / answer] In 1892, his notebook described a sunset walk with two friends.
-[reveal1 / detail] The sky turned blood red, and he sensed an infinite scream through nature.
-[reveal1 / so] So the scream is the landscape: Oslo's fjord, seen from Ekeberg hill.
-[reveal2 / but] But his first painting of it showed a plain man in a hat.
-[reveal2 / so] So for The Scream, he stripped the man to a hairless, skull-like face.
-[reveal2 / detail] It may echo a Peruvian mummy shown at the 1889 Paris World's Fair.
-[reveal3 / but] But that blood-red sky may have been real.
-[reveal3 / detail] Scientists blame ash from Krakatoa's 1883 eruption, or rare mother-of-pearl clouds.
-[turn / but] But someone pencilled into that sky: Could only have been painted by a madman.
-[turn / detail] Infrared shows it's Munch's own hand, written after a medical student questioned his sanity.
-[payoff / answer] So the scream he shuts out is nature's, and the madman label was his own.
-[payoff / but] But that scream is fading: in his 1910 version, the yellow is crumbling to white.

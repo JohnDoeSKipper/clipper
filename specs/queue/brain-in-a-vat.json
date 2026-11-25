@@ -1,0 +1,771 @@
+{
+ "id": "brain-in-a-vat",
+ "channel": "philosophy",
+ "style": "ps2",
+ "title": "BRAIN IN A VAT",
+ "angle": "If your whole world reached you as signals on a wire, could you ever prove it is real?",
+ "answer": "No test from inside can prove it; Putnam only showed that a brain envatted since birth could never truly say it is in a vat, and that trick fails for a brain moved there last night.",
+ "logline": "Cells in a dish played Pong through pulses, so could you prove your world is real? Descartes feared a demon, so Putnam made it a computer feeding a brain in a vat, but every test you run is fed in too, because the computer sends the pinch, as the Pong cells learned from signals without knowing a game existed, but Putnam found a way out in words, because a word only points at what it is connected to, so a lifelong vat-brain's 'I am in a vat' is false, but that only works from birth, so a brain moved last night would notice nothing, so you cannot prove it.",
+ "hook_text": "BRAIN CELLS, NO BODY, PLAYING PONG",
+ "hooks": [
+  "Your brain has never seen the world. It only gets signals.",
+  "A philosopher proved you can't say you're a brain in a vat. Almost."
+ ],
+ "world": {
+  "scenery": "room"
+ },
+ "script": [
+  {
+   "text": "In 2022, 800,000 brain cells in a dish learned to play Pong.",
+   "say": "In twenty twenty-two, eight hundred thousand brain cells in a dish learned to play Pong.",
+   "beat": "hook"
+  },
+  {
+   "text": "The ball reached them only as electrical pulses.",
+   "beat": "hook",
+   "link": "detail"
+  },
+  {
+   "text": "So if your world arrived as pulses, could you prove it's real?",
+   "beat": "question",
+   "link": "so"
+  },
+  {
+   "text": "The worry goes back to 1641: Descartes feared a demon was fooling his senses.",
+   "say": "The worry goes back to sixteen forty-one: Day-cart feared a demon was fooling his senses.",
+   "beat": "reveal1",
+   "link": "answer"
+  },
+  {
+   "text": "Hilary Putnam's 1981 version swaps the demon for a computer, feeding a brain in a vat.",
+   "say": "Hilary Putnam's nineteen eighty-one version swaps the demon for a computer, feeding a brain in a vat.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "But you can't test your way out.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "Pinch yourself, and the computer simply sends the pinch.",
+   "beat": "reveal2",
+   "link": "because"
+  },
+  {
+   "text": "The Pong cells were taught this way: a hit brought a steady signal, a miss brought noise.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "They improved without ever knowing there was a game.",
+   "beat": "reveal2",
+   "link": "so"
+  },
+  {
+   "text": "But Putnam found a stranger way out: words.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "An ant whose trail looks like Winston Churchill hasn't drawn him; it has no link to him.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "So a lifelong vat-brain has never met a real vat; its word vat means images.",
+   "beat": "reveal3",
+   "link": "so"
+  },
+  {
+   "text": "So when it thinks, I am a brain in a vat, the thought comes out false.",
+   "beat": "reveal3",
+   "link": "so"
+  },
+  {
+   "text": "But the trick only works if you've been in the vat since birth.",
+   "beat": "turn",
+   "link": "but"
+  },
+  {
+   "text": "A brain moved there last night still means real vats, and would notice nothing.",
+   "beat": "turn",
+   "link": "detail"
+  },
+  {
+   "text": "So no, you can't prove it; you can only prove a lifelong vat-brain couldn't say it.",
+   "beat": "payoff",
+   "link": "answer"
+  },
+  {
+   "text": "But those Pong cells never knew they were in a dish. Would you?",
+   "beat": "payoff",
+   "link": "but"
+  }
+ ],
+ "objects": [
+  {
+   "id": "jar",
+   "kind": "brainjar",
+   "at": [
+    0,
+    0,
+    0
+   ],
+   "face": 20
+  },
+  {
+   "id": "screen",
+   "kind": "screen",
+   "at": [
+    -2.6,
+    0,
+    -1.6
+   ],
+   "face": "jar"
+  },
+  {
+   "id": "cable",
+   "kind": "arrows",
+   "smooth": true,
+   "path": [
+    [
+     -2.2,
+     -1.3
+    ],
+    [
+     -1.3,
+     -0.9
+    ],
+    [
+     -0.4,
+     -0.3
+    ]
+   ],
+   "show": false
+  },
+  {
+   "id": "you",
+   "kind": "person",
+   "look": "you",
+   "at": [
+    2.8,
+    0,
+    1.8
+   ],
+   "face": "jar",
+   "show": false
+  },
+  {
+   "id": "trail",
+   "kind": "arrows",
+   "smooth": true,
+   "path": [
+    [
+     3.2,
+     -2.2
+    ],
+    [
+     4.2,
+     -2.9
+    ],
+    [
+     5.2,
+     -2.0
+    ],
+    [
+     6.2,
+     -2.8
+    ]
+   ],
+   "show": false
+  },
+  {
+   "id": "late",
+   "kind": "person",
+   "look": "you",
+   "ghost": true,
+   "at": [
+    6.4,
+    0,
+    3.6
+   ],
+   "face": "jar",
+   "show": false
+  }
+ ],
+ "shots": [
+  {
+   "at": 0,
+   "cam": {
+    "preset": "close",
+    "on": "jar"
+   },
+   "focus": [
+    "jar"
+   ]
+  },
+  {
+   "at": "1",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "jar",
+     "screen"
+    ]
+   },
+   "focus": [
+    "jar",
+    "screen"
+   ]
+  },
+  {
+   "at": "2",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "jar"
+    ]
+   },
+   "focus": [
+    "you",
+    "jar"
+   ]
+  },
+  {
+   "at": "3",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "jar",
+     "screen",
+     "you"
+    ]
+   }
+  },
+  {
+   "at": "4",
+   "cam": {
+    "preset": "close",
+    "on": "jar",
+    "side": -1
+   },
+   "focus": [
+    "jar"
+   ]
+  },
+  {
+   "at": "4:computer",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "screen",
+     "jar"
+    ]
+   },
+   "focus": [
+    "screen",
+    "jar"
+   ]
+  },
+  {
+   "at": "5",
+   "cam": {
+    "preset": "close",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "6",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "jar"
+    ]
+   },
+   "focus": [
+    "you",
+    "jar"
+   ]
+  },
+  {
+   "at": "7",
+   "cam": {
+    "preset": "close",
+    "on": "jar"
+   },
+   "focus": [
+    "jar"
+   ]
+  },
+  {
+   "at": "8",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "jar",
+     "screen"
+    ]
+   },
+   "focus": [
+    "jar",
+    "screen"
+   ]
+  },
+  {
+   "at": "9",
+   "cam": {
+    "preset": "tight",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "10",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "trail",
+     "you"
+    ]
+   }
+  },
+  {
+   "at": "11",
+   "cam": {
+    "preset": "close",
+    "on": "jar"
+   },
+   "focus": [
+    "jar"
+   ]
+  },
+  {
+   "at": "12",
+   "cam": {
+    "preset": "close",
+    "on": "jar",
+    "side": 1
+   },
+   "focus": [
+    "jar"
+   ]
+  },
+  {
+   "at": "13",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "jar",
+     "you",
+     "late"
+    ]
+   }
+  },
+  {
+   "at": "14:night",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "late",
+     "jar"
+    ]
+   },
+   "focus": [
+    "late",
+    "jar"
+   ]
+  },
+  {
+   "at": "15",
+   "cam": {
+    "preset": "close",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "16",
+   "cam": {
+    "preset": "tight",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "id": "cable",
+   "at": "1",
+   "dur": 0.4,
+   "show": true
+  },
+  {
+   "id": "you",
+   "at": "2",
+   "dur": 0.3,
+   "show": true
+  },
+  {
+   "id": "you",
+   "at": "2:prove",
+   "dur": 0.4,
+   "pose": "think"
+  },
+  {
+   "id": "you",
+   "at": "5",
+   "dur": 0.4,
+   "pose": "shrug"
+  },
+  {
+   "id": "you",
+   "at": "6:Pinch",
+   "dur": 0.4,
+   "pose": "reach"
+  },
+  {
+   "id": "you",
+   "at": "7",
+   "dur": 0.4,
+   "pose": "stand"
+  },
+  {
+   "id": "jar",
+   "at": "8",
+   "dur": 1.2,
+   "wobble": true
+  },
+  {
+   "id": "you",
+   "at": "9",
+   "dur": 0.4,
+   "pose": "point"
+  },
+  {
+   "id": "trail",
+   "at": "10",
+   "dur": 0.4,
+   "show": true
+  },
+  {
+   "id": "trail",
+   "at": "11",
+   "dur": 0.4,
+   "show": false
+  },
+  {
+   "id": "you",
+   "at": "10:link",
+   "dur": 0.4,
+   "pose": "think"
+  },
+  {
+   "id": "you",
+   "at": "12:false",
+   "dur": 0.4,
+   "pose": "cheer"
+  },
+  {
+   "id": "late",
+   "at": "13:birth",
+   "dur": 0.4,
+   "show": true
+  },
+  {
+   "id": "late",
+   "at": "14",
+   "until": "14:nothing",
+   "pos": [
+    1.5,
+    0,
+    1.2
+   ],
+   "walk": true,
+   "ease": "linear"
+  },
+  {
+   "id": "you",
+   "at": "13",
+   "dur": 0.4,
+   "pose": "shock"
+  },
+  {
+   "id": "you",
+   "at": "15",
+   "dur": 0.4,
+   "pose": "sad"
+  },
+  {
+   "id": "you",
+   "at": "16",
+   "dur": 0.4,
+   "pose": "stand"
+  }
+ ],
+ "overlays": [
+  {
+   "type": "photo",
+   "pick": [
+    "neuron",
+    0
+   ],
+   "caption": "Brain cells grown in a dish",
+   "from": "0:cells",
+   "to": "1-0.2"
+  },
+  {
+   "type": "label",
+   "text": "800,000 CELLS",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "0:800000",
+   "to": "1-0.2"
+  },
+  {
+   "type": "label",
+   "text": "PULSES, NOT PICTURES",
+   "on": "cable",
+   "from": "1:pulses",
+   "to": "2-0.2"
+  },
+  {
+   "type": "label",
+   "text": "YOU",
+   "color": "yellow",
+   "on": "you",
+   "from": "2",
+   "to": "2:prove"
+  },
+  {
+   "type": "question",
+   "on": "you",
+   "from": "2:prove",
+   "to": "3"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "descartes",
+    0
+   ],
+   "caption": "René Descartes, by Frans Hals",
+   "from": "3",
+   "to": "4-0.2"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "putnam",
+    0
+   ],
+   "caption": "Hilary Putnam (1926-2016)",
+   "from": "4",
+   "to": "4:computer-0.1"
+  },
+  {
+   "type": "icon",
+   "icon": "bolt",
+   "on": "jar",
+   "from": "4:feeding",
+   "to": "5"
+  },
+  {
+   "type": "cross",
+   "pos": [
+    540,
+    420
+   ],
+   "from": "5:test",
+   "to": "6"
+  },
+  {
+   "type": "icon",
+   "icon": "bolt",
+   "on": "you",
+   "from": "6:sends",
+   "to": "7"
+  },
+  {
+   "type": "check",
+   "pos": [
+    380,
+    420
+   ],
+   "from": "7:hit",
+   "to": "8"
+  },
+  {
+   "type": "xmark",
+   "pos": [
+    700,
+    420
+   ],
+   "from": "7:miss",
+   "to": "8"
+  },
+  {
+   "type": "question",
+   "on": "jar",
+   "from": "8:knowing",
+   "to": "9"
+  },
+  {
+   "type": "label",
+   "text": "WORDS",
+   "pos": [
+    540,
+    380
+   ],
+   "from": "9:words",
+   "to": "10"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "churchill",
+    1
+   ],
+   "caption": "Winston Churchill, 1941",
+   "from": "10:Churchill",
+   "to": "10:link-0.2"
+  },
+  {
+   "type": "label",
+   "text": "NO LINK, NO MEANING",
+   "pos": [
+    540,
+    330
+   ],
+   "from": "10:link",
+   "to": "11"
+  },
+  {
+   "type": "label",
+   "text": "VAT = AN IMAGE",
+   "on": "jar",
+   "from": "11:images",
+   "to": "12"
+  },
+  {
+   "type": "label",
+   "text": "I AM A BRAIN IN A VAT",
+   "pos": [
+    540,
+    380
+   ],
+   "from": "12:thinks",
+   "to": "13"
+  },
+  {
+   "type": "cross",
+   "pos": [
+    540,
+    380
+   ],
+   "from": "12:false",
+   "to": "13"
+  },
+  {
+   "type": "label",
+   "text": "SINCE BIRTH",
+   "pos": [
+    540,
+    380
+   ],
+   "from": "13:birth",
+   "to": "14"
+  },
+  {
+   "type": "icon",
+   "icon": "clock",
+   "on": "late",
+   "from": "14:night",
+   "to": "15"
+  },
+  {
+   "type": "icon",
+   "icon": "lock",
+   "on": "you",
+   "from": "15:prove",
+   "to": "16"
+  },
+  {
+   "type": "pill",
+   "text": "Would you know?",
+   "from": "16:Would"
+  }
+ ],
+ "sfx": [
+  {
+   "at": "1:pulses",
+   "s": "tick",
+   "gain": 0.25,
+   "every": 0.4,
+   "until": "2"
+  },
+  {
+   "at": "6:Pinch",
+   "s": "pluck",
+   "gain": 0.3
+  },
+  {
+   "at": "6:sends",
+   "s": "click",
+   "gain": 0.3
+  },
+  {
+   "at": "7:steady",
+   "s": "confirmation",
+   "gain": 0.25
+  },
+  {
+   "at": "7:noise",
+   "s": "scratch",
+   "gain": 0.3
+  },
+  {
+   "at": "10",
+   "s": "whoosh",
+   "gain": 0.25
+  },
+  {
+   "at": "14",
+   "s": "drop",
+   "gain": 0.25
+  }
+ ],
+ "music": {
+  "mood": "dark"
+ },
+ "sources": [
+  "https://plato.stanford.edu/archives/win2011/entries/brain-vat",
+  "https://iep.utm.edu/brain-in-a-vat-argument/",
+  "https://www.monash.edu/medicine/news/latest/2022-articles/brain-cells-in-a-dish-learn-to-play-pong",
+  "https://www.npr.org/sections/health-shots/2022/10/14/1128875298/brain-cells-neurons-learn-video-game-pong"
+ ],
+ "post": {
+  "caption": "800,000 brain cells in a dish learned Pong without ever knowing there was a game. A philosopher found one strange way to prove you're not in the same position, and it only half works.\nCould you tell?",
+  "tags": [
+   "#philosophy",
+   "#braininavat",
+   "#thoughtexperiment",
+   "#simulationtheory",
+   "#neuroscience"
+  ],
+  "youtube_title": "Can You Prove You're Not a Brain in a Vat?"
+ }
+}
