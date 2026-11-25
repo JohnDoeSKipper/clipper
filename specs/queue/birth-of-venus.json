@@ -1,0 +1,274 @@
+{
+ "id": "birth-of-venus",
+ "channel": "paintings",
+ "angle": "How did a cheap canvas made for a country house become the face of the Renaissance?",
+ "answer": "Its cheapness kept it out of sight: as a villa decoration it went unrecorded and far from Savonarola's bonfires, which very likely burned its copies, until it reached the Uffizi in 1815 and got its famous name.",
+ "logline": "It is painted on sewn canvas while serious Florentine pictures went on wood, because canvas was for cheap, cheerful villa decoration, so Botticelli made cloth glow with a blue ground and gold, but out at the villa it left no record, so its first mention came decades later from Vasari, but that obscurity may have saved it, because Savonarola's Florence burned vanities and very likely its copies, so it stayed safe until 1815, but even its title is a 19th-century label for a goddess being blown ashore, not born, so the cheapness that hid her is what saved her.",
+ "hook_text": "THE RENAISSANCE, ON CHEAP CLOTH",
+ "hooks": [
+  "The most famous goddess of the Renaissance was a cheap country-house decoration.",
+  "Florence burned pictures like this one. The original was hiding in the countryside."
+ ],
+ "painting": {
+  "title": "The Birth of Venus",
+  "artist": "Sandro Botticelli",
+  "year": "c. 1485",
+  "museum": "Uffizi Gallery, Florence"
+ },
+ "script": [
+  {
+   "text": "Botticelli's Venus is painted on two strips of sewn canvas.",
+   "beat": "hook"
+  },
+  {
+   "text": "Serious Florentine paintings, like his Primavera, went on wood.",
+   "beat": "hook",
+   "link": "but"
+  },
+  {
+   "text": "So how did cheap cloth become the face of the Renaissance?",
+   "beat": "question",
+   "link": "so"
+  },
+  {
+   "text": "Canvas was the cheap choice for country villas, decorated simply and cheerfully.",
+   "beat": "reveal1",
+   "link": "answer"
+  },
+  {
+   "text": "So Botticelli made the cloth glow with a blue-tinted ground.",
+   "beat": "reveal1",
+   "link": "so"
+  },
+  {
+   "text": "Then, once it was framed, real gold went into her hair.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "But at the villa, it left no record, not even in a Medici inventory.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "Its first written mention came decades later, from Giorgio Vasari.",
+   "beat": "reveal2",
+   "link": "so"
+  },
+  {
+   "text": "But being out of sight may have saved her.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "In 1497, Savonarola had Florentines burn their vanities in the main square.",
+   "say": "In fourteen ninety-seven, Savonarola had Florentines burn their vanities in the main square.",
+   "beat": "reveal3",
+   "link": "because"
+  },
+  {
+   "text": "Copies of this Venus from Botticelli's workshop very likely burned.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "The original stayed at the villa until 1815, then went to the Uffizi.",
+   "say": "The original stayed at the villa until eighteen fifteen, then went to the Uffizi.",
+   "beat": "reveal3",
+   "link": "so"
+  },
+  {
+   "text": "But even its name came late: the title dates from the 1800s.",
+   "say": "But even its name came late: the title dates from the eighteen hundreds.",
+   "beat": "turn",
+   "link": "but"
+  },
+  {
+   "text": "She isn't even being born; the winds are blowing her ashore.",
+   "beat": "turn",
+   "link": "detail"
+  },
+  {
+   "text": "So the cheap cloth that hid her is what saved her.",
+   "beat": "payoff",
+   "link": "answer"
+  }
+ ],
+ "music": {
+  "piece": "bach-prelude-c"
+ },
+ "timeline": [
+  {
+   "type": "reveal",
+   "from": [
+    0.552,
+    0.15,
+    2.8
+   ],
+   "until": 3.2
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "primavera",
+    0
+   ],
+   "caption": "Botticelli's Primavera, painted on wood",
+   "at": "1",
+   "to": "2-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "castello",
+    0
+   ],
+   "caption": "Villa di Castello, a Medici country house",
+   "at": "3",
+   "to": "4-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.28,
+    0.55,
+    0.13,
+    0.1
+   ],
+   "ring": "4",
+   "zoom": "4+0.4",
+   "label": "BLUE-TINTED GROUND",
+   "labelAt": "4:ground",
+   "out": "5-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.6,
+    0.33,
+    0.06,
+    0.2
+   ],
+   "ring": "5",
+   "zoom": "5+0.4",
+   "label": "REAL GOLD",
+   "labelAt": "5:gold",
+   "out": "6-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "map",
+   "place": "Castello",
+   "sub": "outside Florence",
+   "lat": 43.82,
+   "lon": 11.23,
+   "at": "6",
+   "to": "7-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "vasari",
+    0
+   ],
+   "caption": "Giorgio Vasari, from his Lives of the Artists",
+   "at": "7",
+   "to": "8-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.53,
+    0.47,
+    0.1,
+    0.36
+   ],
+   "ring": "8",
+   "zoom": "8+0.4",
+   "label": "OUT OF SIGHT",
+   "labelAt": "8:sight",
+   "out": "9-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "bonfire",
+    1
+   ],
+   "caption": "Savonarola preaching against luxury",
+   "at": "9",
+   "to": "10-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "savonarola",
+    2
+   ],
+   "caption": "Piazza della Signoria, the square of the bonfires",
+   "at": "10",
+   "to": "11-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "uffizi",
+    1
+   ],
+   "caption": "The Uffizi, its home since 1815",
+   "at": "11",
+   "to": "12-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.53,
+    0.47,
+    0.1,
+    0.36
+   ],
+   "ring": "12",
+   "zoom": "12+0.4",
+   "label": "A 19TH-CENTURY TITLE",
+   "labelAt": "12:title",
+   "out": "13-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.2,
+    0.3,
+    0.19,
+    0.25
+   ],
+   "ring": "13",
+   "zoom": "13+0.4",
+   "label": "BLOWN ASHORE",
+   "labelAt": "13:ashore",
+   "out": "14-0.3"
+  }
+ ],
+ "sources": [
+  "https://www.uffizi.it/en/artworks/birth-of-venus",
+  "https://www.finestresullarte.info/en/works-and-artists/botticelli-s-venus-a-symbol-of-the-renaissance",
+  "https://en.wikipedia.org/wiki/The_Birth_of_Venus",
+  "https://smarthistory.org/?p=19731"
+ ],
+ "post": {
+  "caption": "The most famous goddess of the Renaissance is painted on cheap cloth, and that may be why she survived Florence's bonfires.\nWood or canvas: which would you have bet on?",
+  "tags": [
+   "#arthistory",
+   "#botticelli",
+   "#birthofvenus",
+   "#renaissance",
+   "#uffizi"
+  ],
+  "youtube_title": "Why Botticelli's Venus Is Painted on Cheap Cloth"
+ }
+}
