@@ -12,7 +12,7 @@ Check what the original experiment or argument actually says (and whether later 
 - made | marys-room | Mary's Room | ps2 | grey room, screen, books; a door; a red ball outside | made 2026-11-25. Spares: monkeys named Dalton (after John Dalton) and Sam; about 20 weeks to work; experts polled beforehand all said it could not work; Dennett's blue-banana trick; PhilPapers 2020: 51.9% physicalism, 32.1% non-physicalism; Pingelap atoll achromatopsia
 - inbox | brain-in-a-vat | Brain in a Vat | ps2 | brainjar, cables, screen; "how would you know?"
 - inbox | prisoners-dilemma | The Prisoner's Dilemma | clay | two rooms with a wall between; number overlays for years
-- todo | ring-of-gyges | The Ring of Gyges | ps2 | a ring that makes you a ghost; would you still be good?
+- requested | ring-of-gyges | The Ring of Gyges | ps2 | a ring that makes you a ghost; would you still be good?
 - todo | teleporter | The Teleporter Problem (Parfit) | ps2 | two pods; the original is destroyed... or not
 - todo | marshmallow-test | The Marshmallow Test | clay | child, table, one treat now or two later; what the follow-up studies found
 - todo | bystander-effect | The Bystander Effect | clay | one person in trouble, a growing crowd doing nothing; numbers

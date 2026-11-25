@@ -13,7 +13,7 @@ The leads are starting points from memory, not facts: check each one before it g
 - made | arnolfini | The Arnolfini Portrait, Van Eyck | the convex mirror with two visitors; "Jan van Eyck was here"; one candle | made 2026-11-25. Spares: 1700 Spanish inventory called her a pregnant German woman (NG: not pregnant); Van Eyck thumbprint by the dog's leg; dog, oranges, chandelier painted late without underdrawing; Colonel James Hay took it after Vitoria 1813; NG bought it 1842 for 600 guineas, its first Netherlandish painting; Velázquez may have seen it before Las Meninas
 - inbox | birth-of-venus | The Birth of Venus, Botticelli | impossible anatomy on purpose; painted on canvas when wood was normal; hidden for decades
 - inbox | the-kiss | The Kiss, Klimt | real gold leaf; rectangles and circles; the cliff edge under her feet
-- todo | grande-jatte | A Sunday on La Grande Jatte, Seurat | millions of dots; two years of work; the monkey; the painted border
+- requested | grande-jatte | A Sunday on La Grande Jatte, Seurat | millions of dots; two years of work; the monkey; the painted border
 - todo | third-of-may | The Third of May 1808, Goya | the lantern; the white shirt and the pose; faceless soldiers
 - todo | wanderer-fog | Wanderer above the Sea of Fog, Friedrich | we never see his face; a landscape stitched from several places
 - todo | earthly-delights | The Garden of Earthly Delights, Bosch | a triptych that closes; music written on a figure; the tree-man who may be Bosch
