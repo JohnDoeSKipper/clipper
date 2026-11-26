@@ -1,0 +1,310 @@
+{
+ "id": "the-kiss",
+ "channel": "paintings",
+ "angle": "How did the painter Vienna called a pornographer make the picture Austria loves most?",
+ "answer": "After the faculty-painting scandal he gave the state's money back, then wrapped the same desire in the gold and pattern of Byzantine church mosaics, so the very ministry that had rejected him bought The Kiss in 1908, unfinished, while the rejected paintings were later lost to fire.",
+ "logline": "Professors called his university nudes pornography, so he quit and handed back the state's money, but Ravenna's gold mosaics had given him a new language, so The Kiss covers its lovers in gold, silver and pattern with only skin bare, but in 1908 the state bought it mid-show, unfinished, from the same ministry he had refused, but the rejected paintings burned in 1945, so the gold that wrapped the lovers is what made the scandal Austria's treasure.",
+ "hook_text": "THEN THE SAME STATE BOUGHT THE KISS",
+ "hooks": [
+  "The government that called Klimt obscene paid 25,000 crowns for The Kiss.",
+  "Klimt gave the state its money back. Three years later, it bought The Kiss."
+ ],
+ "painting": {
+  "title": "The Kiss",
+  "artist": "Gustav Klimt",
+  "year": "1907-1908",
+  "museum": "Belvedere, Vienna"
+ },
+ "script": [
+  {
+   "text": "Eighty-seven professors protested Klimt's paintings for their university.",
+   "beat": "hook"
+  },
+  {
+   "text": "They called his ceiling nudes pornography.",
+   "beat": "hook",
+   "link": "detail"
+  },
+  {
+   "text": "So how did this scandal make Austria's most loved painting?",
+   "beat": "question",
+   "link": "so"
+  },
+  {
+   "text": "In 1905, Klimt quit, handing back the state's 30,000-crown advance.",
+   "say": "In nineteen oh five, Klimt quit, handing back the state's thirty-thousand-crown advance.",
+   "beat": "reveal1",
+   "link": "answer"
+  },
+  {
+   "text": "\"I reject all state support,\" he declared.",
+   "beat": "reveal1",
+   "link": "so"
+  },
+  {
+   "text": "But in 1903, Ravenna's gold mosaics had shown him a new language.",
+   "say": "But in nineteen oh three, Ravenna's gold mosaics had shown him a new language.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "So in The Kiss, he laid on real gold, silver and platinum.",
+   "beat": "reveal2",
+   "link": "so"
+  },
+  {
+   "text": "His robe: black and white rectangles. Hers: circles and flowers.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "Of their bodies, only faces, hands, shoulders and feet are bare.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "But the twist came in 1908, at Vienna's Kunstschau.",
+   "say": "But the twist came in nineteen oh eight, at Vienna's Koonst-show.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "He showed it as Lovers, and the state bought it mid-show.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "It paid 25,000 crowns, though Klimt was still finishing it.",
+   "say": "It paid twenty-five thousand crowns, though Klimt was still finishing it.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "The same ministry whose money he had handed back.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "But the rejected paintings were lost in a castle fire in 1945.",
+   "say": "But the rejected paintings were lost in a castle fire in nineteen forty-five.",
+   "beat": "turn",
+   "link": "but"
+  },
+  {
+   "text": "Only photographs survive.",
+   "beat": "turn",
+   "link": "detail"
+  },
+  {
+   "text": "So he didn't hide the lovers; he wrapped them in church gold.",
+   "beat": "payoff",
+   "link": "answer"
+  },
+  {
+   "text": "The state that called him a pornographer still owns them.",
+   "beat": "payoff",
+   "link": "so"
+  }
+ ],
+ "music": {
+  "piece": "debussy-arabesque-1"
+ },
+ "timeline": [
+  {
+   "type": "reveal",
+   "from": [
+    0.56,
+    0.13,
+    2.6
+   ],
+   "until": 3.2
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "medicine",
+    0
+   ],
+   "caption": "Medicine, one of his university ceiling paintings",
+   "at": "1",
+   "to": "2-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "klimt",
+    0
+   ],
+   "caption": "Gustav Klimt, photographed by Moriz Nähr",
+   "at": "3",
+   "to": "4-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "klimt",
+    1
+   ],
+   "caption": "Klimt's studio, photographed by Moriz Nähr",
+   "at": "4",
+   "to": "5-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "ravenna",
+    0
+   ],
+   "caption": "Apse mosaic, San Vitale, Ravenna",
+   "at": "5",
+   "to": "6-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.13,
+    0.3,
+    0.1,
+    0.12
+   ],
+   "ring": "6",
+   "zoom": "6+0.4",
+   "label": "REAL GOLD LEAF",
+   "labelAt": "6:gold",
+   "out": "7-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.45,
+    0.42,
+    0.2,
+    0.2
+   ],
+   "ring": "7",
+   "zoom": "7+0.4",
+   "label": "RECTANGLES AND CIRCLES",
+   "labelAt": "7:rectangles",
+   "out": "8-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.55,
+    0.15,
+    0.1,
+    0.09
+   ],
+   "ring": "8",
+   "zoom": "8+0.4",
+   "label": "ONLY SKIN IS BARE",
+   "labelAt": "8:bare",
+   "out": "9-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "kunstschau",
+    0
+   ],
+   "caption": "Poster for the 1908 Kunstschau, Vienna",
+   "at": "9",
+   "to": "10-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.5,
+    0.42,
+    0.22,
+    0.36
+   ],
+   "ring": "10",
+   "zoom": "10+0.4",
+   "label": "LIEBESPAAR: LOVERS",
+   "labelAt": "10:Lovers",
+   "out": "11-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.75,
+    0.72,
+    0.07,
+    0.08
+   ],
+   "ring": "11",
+   "zoom": "11+0.4",
+   "label": "STILL BEING CHANGED",
+   "labelAt": "11:finishing",
+   "out": "12-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "immendorf",
+    1
+   ],
+   "caption": "Philosophy, the commission he gave back",
+   "at": "12",
+   "to": "13-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "immendorf",
+    0
+   ],
+   "caption": "Schloss Immendorf, Lower Austria",
+   "at": "13",
+   "to": "14-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "immendorf",
+    2
+   ],
+   "caption": "Jurisprudence, known only from photographs",
+   "at": "14",
+   "to": "15-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "belvedere",
+    1
+   ],
+   "caption": "The Belvedere, Vienna, where it hangs",
+   "at": "16",
+   "to": "16:still"
+  }
+ ],
+ "sources": [
+  "https://artsandculture.google.com/story/zQURmESPplFKJQ",
+  "https://artsandculture.google.com/story/ngVxcbSh0giqKw",
+  "https://www.belvedere.at/en/stories/why-did-gustav-klimt-use-gold",
+  "https://artsandculture.google.com/story/nwWxIZNv_3ZAIA",
+  "https://en.wikipedia.org/wiki/Klimt_University_of_Vienna_Ceiling_Paintings"
+ ],
+ "post": {
+  "caption": "Professors called Klimt's university paintings pornography, so he gave the state its money back. Three years later, the same ministry paid 25,000 crowns for The Kiss, before he had even finished it.\nScandal or gold: which made The Kiss famous?",
+  "tags": [
+   "#arthistory",
+   "#klimt",
+   "#thekiss",
+   "#vienna",
+   "#artnouveau"
+  ],
+  "youtube_title": "Vienna Called Klimt Obscene, Then Bought The Kiss"
+ }
+}
