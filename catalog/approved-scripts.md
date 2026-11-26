@@ -1,6 +1,28 @@
 # Model scripts (newest first)
 The writer reads the top two of its channel before writing and matches or beats them: same spine (beats in order, every sentence linked to the one before), never the same facts or hooks. Each script the writer makes is added at the top in this format. Kept to the last 12.
 
+## grande-jatte (paintings, 2026-11-27)
+
+Angle: Why is Seurat's sunny afternoon darker today than the one he painted?
+Logline: It has left Chicago only once, into a museum fire, but it was already fading, so why? Seurat wanted to paint light with science, so he set dots of pure colour for the eye to mix, but it took two years, studies, a painted border and a sly monkey, but his brightest yellow was the new zinc yellow, which soon turned brown, so the sunlit greens are now olive, but scientists rebuilt the lost colours on a computer, so the painting built to shimmer has dimmed.
+On-screen hook: LENT ONCE. INTO A FIRE.
+
+[hook] This painting has left Chicago once, and that museum caught fire.
+[hook / but] It escaped the 1958 blaze, but it was already fading.
+[question / so] So why is Seurat's sunny afternoon darker than the one he painted?
+[reveal1 / answer] Seurat was twenty-four, and he wanted to paint light with science.
+[reveal1 / because] Chemist Michel Chevreul showed that colours side by side change each other.
+[reveal1 / so] So he laid tiny dots of pure colour for your eye to mix.
+[reveal2 / but] But it took him two years and dozens of studies.
+[reveal2 / detail] Around 1889, he even painted a border of dots around the edge.
+[reveal2 / detail] Look at this lady: she walks a monkey on a leash.
+[reveal2 / detail] In Paris slang, a female monkey also meant a prostitute.
+[reveal3 / but] But his brightest yellows came from a new pigment: zinc yellow.
+[reveal3 / detail] Soon after he finished, it began turning brown.
+[reveal3 / so] So the sunlit greens and oranges are now olive and rust.
+[turn / but] But scientists have rebuilt the lost yellows on a computer.
+[payoff / so] So the painting built to shimmer has dimmed; only a screen shows the Sunday Paris saw.
+
 ## ring-of-gyges (philosophy, 2026-11-27)
 
 Angle: If you could never be caught, would you still be good?
@@ -263,28 +285,3 @@ On-screen hook: THE KING IS JUST A REFLECTION
 [turn / detail] The story goes the king painted it himself, after Velázquez died.
 [payoff / answer] So it's a painting of the painter, pleading that his art is noble.
 [payoff / detail] Its verdict is right there, in red, over his heart.
-
-## platos-cave (philosophy, 2026-11-24)
-
-Angle: In Plato's cave, why would the prisoners kill the one who sets them free?
-Logline: Plato says the prisoners would kill their rescuer, because all they know are shadows of copies, but freedom first blinds the freed man, and real newly sighted children show how hard learning to see is, so when he returns blind in the dark they laugh and would kill him, because Athens had just executed Socrates, but Plato says the freed must go back down anyway.
-On-screen hook: THE RESCUER DIES
-
-[hook] Plato said the prisoners in his cave would kill their rescuer.
-[question / so] So why would anyone kill the person who sets them free?
-[reveal1 / answer] Plato pictured prisoners chained since childhood, unable to turn their heads.
-[reveal1 / detail] Behind them, people carry carved figures past a fire, like a puppet show.
-[reveal1 / so] So all the prisoners ever see are shadows of copies.
-[reveal1 / but] Strange prisoners, says his listener. Like us, Socrates replies.
-[reveal2 / but] But freedom hurts: dragged into the sunlight, the freed man is blinded.
-[reveal2 / detail] At first he trusts the shadows more than the real things.
-[reveal2 / detail] That's real: in 2011, scientists tested children who'd just gained sight through surgery.
-[reveal2 / detail] Shapes they knew by touch, they couldn't pick out by sight at first.
-[reveal3 / but] But the worst comes when he goes back down.
-[reveal3 / because] His eyes, used to the sun, can't see in the dark.
-[reveal3 / so] The prisoners laugh: going up, they say, ruined his eyes.
-[reveal3 / so] So they'd kill anyone who tried to lead them up.
-[turn / because] Because Plato had watched it happen: Athens executed his teacher Socrates in 399 BC.
-[turn / detail] Thirty more votes for him, Socrates said, and he'd have walked free.
-[payoff / answer] So they'd kill him because the light makes the freed look blind and foolish.
-[payoff / but] But Plato insisted the freed must go back down: knowing Socrates' fate, would you?

@@ -1,0 +1,296 @@
+{
+ "id": "grande-jatte",
+ "channel": "paintings",
+ "angle": "Why is Seurat's sunny afternoon darker today than the one he painted?",
+ "answer": "Seurat built the picture from dots of pure colour so the eye would mix them into shimmering light, but his brightest yellow was the new zinc yellow, which began turning brown soon after he finished, so the lime greens and oranges are now olive and rust; only a computer reconstruction shows the colours Paris saw.",
+ "logline": "It has left Chicago only once, into a museum fire, but it was already fading, so why? Seurat wanted to paint light with science, so he set dots of pure colour for the eye to mix, but it took two years, studies, a painted border and a sly monkey, but his brightest yellow was the new zinc yellow, which soon turned brown, so the sunlit greens are now olive, but scientists rebuilt the lost colours on a computer, so the painting built to shimmer has dimmed.",
+ "hook_text": "LENT ONCE. INTO A FIRE.",
+ "hooks": [
+  "Seurat's sunny park has been turning brown since the 1880s.",
+  "The brightest colour in this painting went brown within years."
+ ],
+ "painting": {
+  "title": "A Sunday on La Grande Jatte — 1884",
+  "artist": "Georges Seurat",
+  "year": "1884-86",
+  "museum": "Art Institute of Chicago"
+ },
+ "script": [
+  {
+   "text": "This painting has left Chicago once, and that museum caught fire.",
+   "beat": "hook"
+  },
+  {
+   "text": "It escaped the 1958 blaze, but it was already fading.",
+   "say": "It escaped the nineteen fifty-eight blaze, but it was already fading.",
+   "beat": "hook",
+   "link": "but"
+  },
+  {
+   "text": "So why is Seurat's sunny afternoon darker than the one he painted?",
+   "say": "So why is Sur-ah's sunny afternoon darker than the one he painted?",
+   "beat": "question",
+   "link": "so"
+  },
+  {
+   "text": "Seurat was twenty-four, and he wanted to paint light with science.",
+   "say": "Sur-ah was twenty-four, and he wanted to paint light with science.",
+   "beat": "reveal1",
+   "link": "answer"
+  },
+  {
+   "text": "Chemist Michel Chevreul showed that colours side by side change each other.",
+   "say": "Chemist Michel Shev-rull showed that colours side by side change each other.",
+   "beat": "reveal1",
+   "link": "because"
+  },
+  {
+   "text": "So he laid tiny dots of pure colour for your eye to mix.",
+   "beat": "reveal1",
+   "link": "so"
+  },
+  {
+   "text": "But it took him two years and dozens of studies.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "Around 1889, he even painted a border of dots around the edge.",
+   "say": "Around eighteen eighty-nine, he even painted a border of dots around the edge.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "Look at this lady: she walks a monkey on a leash.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "In Paris slang, a female monkey also meant a prostitute.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "But his brightest yellows came from a new pigment: zinc yellow.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "Soon after he finished, it began turning brown.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "So the sunlit greens and oranges are now olive and rust.",
+   "beat": "reveal3",
+   "link": "so"
+  },
+  {
+   "text": "But scientists have rebuilt the lost yellows on a computer.",
+   "beat": "turn",
+   "link": "but"
+  },
+  {
+   "text": "So the painting built to shimmer has dimmed; only a screen shows the Sunday Paris saw.",
+   "beat": "payoff",
+   "link": "so"
+  }
+ ],
+ "music": {
+  "piece": "satie-gymnopedie-1"
+ },
+ "timeline": [
+  {
+   "type": "reveal",
+   "from": [
+    0.455,
+    0.5,
+    2.6
+   ],
+   "until": 3.2
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "aic",
+    0
+   ],
+   "caption": "The Art Institute of Chicago, its home",
+   "at": "1",
+   "to": "2-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "seurat",
+    1
+   ],
+   "caption": "Georges Seurat, 1888",
+   "at": "3",
+   "to": "4-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "chevreul",
+    1
+   ],
+   "caption": "One of Chevreul's colour circles",
+   "at": "4",
+   "to": "5-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.33,
+    0.47,
+    0.05,
+    0.05
+   ],
+   "ring": "5",
+   "zoom": "5+0.4",
+   "label": "DOTS OF PURE COLOUR",
+   "labelAt": "5:dots",
+   "out": "6-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "study",
+    0
+   ],
+   "caption": "A study for the painting, 1884",
+   "at": "6",
+   "to": "7-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.06,
+    0.08,
+    0.06,
+    0.07
+   ],
+   "ring": "7",
+   "zoom": "7+0.4",
+   "label": "A PAINTED BORDER",
+   "labelAt": "7:border",
+   "out": "8-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.8,
+    0.6,
+    0.14,
+    0.33
+   ],
+   "ring": "8",
+   "zoom": "8+0.4",
+   "out": "9-0.3",
+   "then": {
+    "region": [
+     0.735,
+     0.815,
+     0.05,
+     0.06
+    ],
+    "ring": "8:monkey",
+    "zoom": "8:monkey+0.4"
+   }
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.735,
+    0.815,
+    0.06,
+    0.07
+   ],
+   "ring": "9",
+   "zoom": "9+0.4",
+   "label": "SINGESSE",
+   "labelAt": "9:monkey",
+   "out": "10-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.36,
+    0.43,
+    0.14,
+    0.08
+   ],
+   "ring": "10",
+   "zoom": "10+0.4",
+   "label": "ZINC YELLOW",
+   "labelAt": "10:zinc",
+   "out": "11-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.62,
+    0.38,
+    0.1,
+    0.07
+   ],
+   "ring": "11",
+   "zoom": "11+0.4",
+   "label": "TURNING BROWN",
+   "labelAt": "11:brown",
+   "out": "12-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.22,
+    0.82,
+    0.09,
+    0.08
+   ],
+   "ring": "12",
+   "zoom": "12+0.4",
+   "label": "ONCE ORANGE",
+   "labelAt": "12:oranges",
+   "out": "13-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.45,
+    0.45,
+    0.3,
+    0.16
+   ],
+   "ring": "13",
+   "zoom": "13+0.4",
+   "label": "ONCE LIME GREEN",
+   "labelAt": "13:computer",
+   "out": "14-0.3"
+  }
+ ],
+ "sources": [
+  "https://www.artic.edu/artworks/27992/a-sunday-on-la-grande-jatte-1884",
+  "https://archive.artic.edu/sciarttech/2e3.html",
+  "https://www.rit.edu/news/color-science-rejuvenates-seurats-masterpiece-la-grande-jatte",
+  "https://pubs.rsc.org/en/content/articlehtml/2011/ja/c0ja00151a",
+  "https://news.artnet.com/art-world/art-bites-moma-1958-fire-monet-2468112",
+  "https://www.britannica.com/topic/A-Sunday-on-La-Grande-Jatte-1884"
+ ],
+ "post": {
+  "caption": "Seurat painted this park with science, dot by dot, so it would shimmer. Then his brightest yellow started turning brown, and the Sunday you see is not the one Paris saw.\nWould you rather see it as it is, or as it was?",
+  "tags": [
+   "#arthistory",
+   "#seurat",
+   "#pointillism",
+   "#artinstituteofchicago",
+   "#conservation"
+  ],
+  "youtube_title": "Seurat's Sunny Park Has Been Turning Brown"
+ }
+}
