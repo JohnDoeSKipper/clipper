@@ -12,75 +12,87 @@
   "desc": ""
  },
  "inserts": {
-  "closed": [],
-  "bosch": [
+  "closed": [
    {
-    "title": "File:Jheronimus Bosch.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Jheronimus_Bosch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/5/51/Jheronimus_Bosch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 2492,
-    "height": 3508,
+    "title": "File:Jheronimus Bosch 023 outer left wing detail.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Jheronimus_Bosch_023_outer_left_wing_detail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/3/31/Jheronimus_Bosch_023_outer_left_wing_detail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1433,
+    "height": 314,
     "licence": "Public domain",
-    "artist": "Attributed to Jacques Le Boucq",
+    "artist": "",
     "credit": "",
     "desc": ""
    },
    {
-    "title": "File:Jheronimus Bosch (cropped).jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Jheronimus_Bosch_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Jheronimus_Bosch_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 1658,
-    "height": 1932,
+    "title": "File:Jheronimus Bosch 023 outer right wing detail.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Jheronimus_Bosch_023_outer_right_wing_detail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Jheronimus_Bosch_023_outer_right_wing_detail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1430,
+    "height": 311,
     "licence": "Public domain",
-    "artist": "Attributed to Jacques Le Boucq",
+    "artist": "",
     "credit": "",
-    "desc": "Portrait of Hieronymus Bosch [detail]."
+    "desc": ""
    },
    {
-    "title": "File:Portrait of Jheronimus Bosch 001 from Vermeylen 1939.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Portrait_of_Jheronimus_Bosch_001_from_Vermeylen_1939.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/6/62/Portrait_of_Jheronimus_Bosch_001_from_Vermeylen_1939.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 1653,
-    "height": 2261,
+    "title": "File:El Bosco - Tr\u00edptico del Jard\u00edn de las delicias.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/El_Bosco_-_Tr%C3%ADptico_del_Jard%C3%ADn_de_las_delicias.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/3/39/El_Bosco_-_Tr%C3%ADptico_del_Jard%C3%ADn_de_las_delicias.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1806,
+    "height": 1920,
     "licence": "Public domain",
-    "artist": "Attributed to Jacques Le Boucq",
+    "artist": "Hieronymus Bosch",
     "credit": "",
-    "desc": "Portret van Jheronimus Bosch"
+    "desc": "Tr\u00edptico del Jard\u00edn de las delicias"
    }
   ],
-  "denbosch": [
+  "closed2": [
    {
-    "title": "File:'s-Hertogenbosch-Sint-Janskathedraal-38-2010-gje.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/%27s-Hertogenbosch-Sint-Janskathedraal-38-2010-gje.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/1/1b/%27s-Hertogenbosch-Sint-Janskathedraal-38-2010-gje.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 3456,
-    "height": 4750,
-    "licence": "CC BY-SA 4.0",
-    "artist": "Gerd Eichmann",
-    "credit": "Gerd Eichmann / CC BY-SA 4.0",
-    "desc": "Saint John's Cathedral in s-Hertogenbosch"
+    "title": "File:Hieronymus Bosch 097.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Hieronymus_Bosch_097.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/6/67/Hieronymus_Bosch_097.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1000,
+    "height": 2807,
+    "licence": "Public domain",
+    "artist": "Hieronymus Bosch",
+    "credit": "",
+    "desc": "Outer left wing of a Last Judgment triptych."
+   }
+  ],
+  "nassau": [
+   {
+    "title": "File:Jan Gossaert - Henry III of Nassau-Breda - Google Art Project.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Jan_Gossaert_-_Henry_III_of_Nassau-Breda_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Jan_Gossaert_-_Henry_III_of_Nassau-Breda_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3590,
+    "height": 4549,
+    "licence": "Public domain",
+    "artist": "Jan Gossaert",
+    "credit": "",
+    "desc": ""
    },
    {
-    "title": "File:'s-Hertogenbosch-Sint-Janskathedraal-08-Strebewerk-2010-gje.jpg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/%27s-Hertogenbosch-Sint-Janskathedraal-08-Strebewerk-2010-gje.jpg/3840px-%27s-Hertogenbosch-Sint-Janskathedraal-08-Strebewerk-2010-gje.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/f/f9/%27s-Hertogenbosch-Sint-Janskathedraal-08-Strebewerk-2010-gje.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 5184,
-    "height": 3456,
-    "licence": "CC BY-SA 4.0",
-    "artist": "Gerd Eichmann",
-    "credit": "Gerd Eichmann / CC BY-SA 4.0",
-    "desc": "Saint John's Cathedral in s-Hertogenbosch"
+    "title": "File:Portret van Hendrik III, graaf van Nassau- Breda, RP-P-OB-106.013.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Portret_van_Hendrik_III%2C_graaf_van_Nassau-_Breda%2C_RP-P-OB-106.013.jpg/3840px-Portret_van_Hendrik_III%2C_graaf_van_Nassau-_Breda%2C_RP-P-OB-106.013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/7/73/Portret_van_Hendrik_III%2C_graaf_van_Nassau-_Breda%2C_RP-P-OB-106.013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 5072,
+    "height": 6212,
+    "licence": "CC0",
+    "artist": "Rijksmuseum",
+    "credit": "",
+    "desc": "IdentificatieTitel(s): Portret van Hendrik III, graaf van Nassau- BredaObjecttype: prent Objectnummer: RP-P-OB-106.013Catalogusreferentie: Van Someren 900 Omsch"
    },
    {
-    "title": "File:'s-Hertogenbosch-Sint-Janskathedraal-22-Mittelschiff-2010-gje.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/%27s-Hertogenbosch-Sint-Janskathedraal-22-Mittelschiff-2010-gje.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/0/0c/%27s-Hertogenbosch-Sint-Janskathedraal-22-Mittelschiff-2010-gje.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 3456,
-    "height": 5064,
-    "licence": "CC BY-SA 4.0",
-    "artist": "Gerd Eichmann",
-    "credit": "Gerd Eichmann / CC BY-SA 4.0",
-    "desc": "Saint John's Cathedral in s-Hertogenbosch"
+    "title": "File:Portret van Hendrik III, graaf van Nassau- Breda, RP-P-OB-106.063-4.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Portret_van_Hendrik_III%2C_graaf_van_Nassau-_Breda%2C_RP-P-OB-106.063-4.jpg/3840px-Portret_van_Hendrik_III%2C_graaf_van_Nassau-_Breda%2C_RP-P-OB-106.063-4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/7/79/Portret_van_Hendrik_III%2C_graaf_van_Nassau-_Breda%2C_RP-P-OB-106.063-4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4421,
+    "height": 5756,
+    "licence": "CC0",
+    "artist": "Rijksmuseum",
+    "credit": "",
+    "desc": "IdentificatieTitel(s): Portret van Hendrik III, graaf van Nassau- Breda Comites Nassoviae (serietitel)Objecttype: prent Objectnummer: RP-P-OB-106.063-4Catalogus"
    }
   ],
   "escorial": [
@@ -118,39 +130,109 @@
     "desc": "Fresco in the vault of the main staircase of the Monastery of San Lorenzo de El Escorial. The painting belongs to a cycle of frescos entitled The Triumph of the"
    }
   ],
-  "nassau": [
+  "alba": [
    {
-    "title": "File:Jan Gossaert - Henry III of Nassau-Breda - Google Art Project.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Jan_Gossaert_-_Henry_III_of_Nassau-Breda_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Jan_Gossaert_-_Henry_III_of_Nassau-Breda_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 3590,
-    "height": 4549,
+    "title": "File:Rubens - Don Fernando \u00c1lvarez de Toledo, III duque de Alba, Fundaci\u00f3n Casa de Alba.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Rubens_-_Don_Fernando_%C3%81lvarez_de_Toledo%2C_III_duque_de_Alba%2C_Fundaci%C3%B3n_Casa_de_Alba.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/4/41/Rubens_-_Don_Fernando_%C3%81lvarez_de_Toledo%2C_III_duque_de_Alba%2C_Fundaci%C3%B3n_Casa_de_Alba.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1772,
+    "height": 2392,
     "licence": "Public domain",
-    "artist": "Jan Gossaert",
+    "artist": "Peter Paul Rubens",
     "credit": "",
     "desc": ""
    },
    {
-    "title": "File:Portret van Hendrik III, graaf van Nassau- Breda, RP-P-OB-106.013.jpg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Portret_van_Hendrik_III%2C_graaf_van_Nassau-_Breda%2C_RP-P-OB-106.013.jpg/3840px-Portret_van_Hendrik_III%2C_graaf_van_Nassau-_Breda%2C_RP-P-OB-106.013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/7/73/Portret_van_Hendrik_III%2C_graaf_van_Nassau-_Breda%2C_RP-P-OB-106.013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 5072,
-    "height": 6212,
-    "licence": "CC0",
-    "artist": "Rijksmuseum",
+    "title": "File:Fernando \u00c1lvarez de Toledo, III Duque de Alba, retratado por Antonio Moro.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Fernando_%C3%81lvarez_de_Toledo%2C_III_Duque_de_Alba%2C_retratado_por_Antonio_Moro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/7/74/Fernando_%C3%81lvarez_de_Toledo%2C_III_Duque_de_Alba%2C_retratado_por_Antonio_Moro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3335,
+    "height": 4271,
+    "licence": "Public domain",
+    "artist": "Antonis Mor",
     "credit": "",
-    "desc": "IdentificatieTitel(s): Portret van Hendrik III, graaf van Nassau- BredaObjecttype: prent Objectnummer: RP-P-OB-106.013Catalogusreferentie: Van Someren 900 Omsch"
+    "desc": ""
    },
    {
-    "title": "File:Portret van Hendrik III, graaf van Nassau- Breda, RP-P-OB-106.063-4.jpg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Portret_van_Hendrik_III%2C_graaf_van_Nassau-_Breda%2C_RP-P-OB-106.063-4.jpg/3840px-Portret_van_Hendrik_III%2C_graaf_van_Nassau-_Breda%2C_RP-P-OB-106.063-4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/7/79/Portret_van_Hendrik_III%2C_graaf_van_Nassau-_Breda%2C_RP-P-OB-106.063-4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 4421,
-    "height": 5756,
-    "licence": "CC0",
-    "artist": "Rijksmuseum",
+    "title": "File:Portrait of Fernando \u00c1lvarez de Toledo, 3rd Duke of Alba (1508-1582) - by Antonis Mor.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Portrait_of_Fernando_%C3%81lvarez_de_Toledo%2C_3rd_Duke_of_Alba_%281508-1582%29_-_by_Antonis_Mor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Portrait_of_Fernando_%C3%81lvarez_de_Toledo%2C_3rd_Duke_of_Alba_%281508-1582%29_-_by_Antonis_Mor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3305,
+    "height": 4258,
+    "licence": "Public domain",
+    "artist": "Antonis Mor",
     "credit": "",
-    "desc": "IdentificatieTitel(s): Portret van Hendrik III, graaf van Nassau- Breda Comites Nassoviae (serietitel)Objecttype: prent Objectnummer: RP-P-OB-106.063-4Catalogus"
+    "desc": ""
+   }
+  ],
+  "orange": [
+   {
+    "title": "File:William I, Prince of Orange by Adriaen Thomasz. Key Museo Thyssen-Bornemisza 208 (1928.7) - WGA12161.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/William_I%2C_Prince_of_Orange_by_Adriaen_Thomasz._Key_Museo_Thyssen-Bornemisza_208_%281928.7%29_-_WGA12161.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/7/70/William_I%2C_Prince_of_Orange_by_Adriaen_Thomasz._Key_Museo_Thyssen-Bornemisza_208_%281928.7%29_-_WGA12161.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2023,
+    "height": 2750,
+    "licence": "Public domain",
+    "artist": "Adriaen Thomasz. Key",
+    "credit": "",
+    "desc": ""
+   },
+   {
+    "title": "File:Den Haag - Mauritshuis - Adriaen Thomasz Key (c. 1544 - 1589) - William of Orange (William the Silent) 1579.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Den_Haag_-_Mauritshuis_-_Adriaen_Thomasz_Key_%28c._1544_-_1589%29_-_William_of_Orange_%28William_the_Silent%29_1579.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Den_Haag_-_Mauritshuis_-_Adriaen_Thomasz_Key_%28c._1544_-_1589%29_-_William_of_Orange_%28William_the_Silent%29_1579.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3485,
+    "height": 4429,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Txllxt TxllxT",
+    "credit": "Txllxt TxllxT / CC BY-SA 4.0",
+    "desc": "Den Haag - Mauritshuis - Adriaen Thomasz Key (c. 1544 - 1589) - William of Orange (William the Silent) 1579"
+   },
+   {
+    "title": "File:Portrait of William I, Prince of Orange, by Adriaen Thomasz Key.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Portrait_of_William_I%2C_Prince_of_Orange%2C_by_Adriaen_Thomasz_Key.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/1/14/Portrait_of_William_I%2C_Prince_of_Orange%2C_by_Adriaen_Thomasz_Key.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1389,
+    "height": 1719,
+    "licence": "Public domain",
+    "artist": "Holly Cheng",
+    "credit": "",
+    "desc": "Portrait of William I, Prince of Orange, by Adriaen Thomasz Key"
+   }
+  ],
+  "philip": [
+   {
+    "title": "File:Portrait of Philip II of Spain by Sofonisba Anguissola - 002b.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Portrait_of_Philip_II_of_Spain_by_Sofonisba_Anguissola_-_002b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Portrait_of_Philip_II_of_Spain_by_Sofonisba_Anguissola_-_002b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2480,
+    "height": 3051,
+    "licence": "Public domain",
+    "artist": "Sofonisba Anguissola",
+    "credit": "",
+    "desc": ""
+   },
+   {
+    "title": "File:Felipe II por Sofonisba Anguissola, 1573.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Felipe_II_por_Sofonisba_Anguissola%2C_1573.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Felipe_II_por_Sofonisba_Anguissola%2C_1573.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1597,
+    "height": 1920,
+    "licence": "Public domain",
+    "artist": "Sofonisba Anguissola",
+    "credit": "",
+    "desc": ""
+   },
+   {
+    "title": "File:King Philip II of Spain, by Sofonisba Anguissola (Museo del Prado, Madrid).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/King_Philip_II_of_Spain%2C_by_Sofonisba_Anguissola_%28Museo_del_Prado%2C_Madrid%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/a/a2/King_Philip_II_of_Spain%2C_by_Sofonisba_Anguissola_%28Museo_del_Prado%2C_Madrid%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2350,
+    "height": 2821,
+    "licence": "Public domain",
+    "artist": "Sofonisba Anguissola",
+    "credit": "",
+    "desc": ""
    }
   ]
  }
