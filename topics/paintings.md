@@ -24,15 +24,15 @@ The leads are starting points from memory, not facts: check each one before it g
 - inbox | cafe-terrace | Café Terrace at Night, Van Gogh | his first starry sky; no black paint; the café is still there
 - made | school-of-athens | The School of Athens, Raphael | Plato has Leonardo's face; Michelangelo sulking on the steps; Raphael looking at us
 - inbox | creation-of-adam | The Creation of Adam, Michelangelo | the gap between the fingers; the brain-shaped cloak; painted standing up, not lying down
-- requested | saturn | Saturn Devouring His Son, Goya | painted on his dining-room wall; never meant to be seen; never titled by him
-- requested | fighting-temeraire | The Fighting Temeraire, Turner | a hero ship towed to scrap; the sun sets in the wrong place; he never sold it
-- requested | whistlers-mother | Whistler's Mother, Whistler | the model didn't show up; its real title is about grey and black
-- todo | milkmaid | The Milkmaid, Vermeer | the nail hole and the erased basket; the trickle of milk; expensive blue on a servant
-- todo | sleeping-gypsy | The Sleeping Gypsy, Rousseau | a toll clerk who never saw a desert; the lion that does not attack
-- todo | folies-bergere | A Bar at the Folies-Bergère, Manet | the reflection that cannot be right; the trapeze feet; the beer label
-- todo | death-of-marat | The Death of Marat, David | propaganda painted by a friend; the letter; the bath he lived in
-- todo | ophelia | Ophelia, Millais | the model lay in a bathtub and fell ill; every flower has a meaning
-- todo | hunters-in-snow | The Hunters in the Snow, Bruegel | one small fox; the Little Ice Age; Alps that Belgium doesn't have
+- inbox | saturn | Saturn Devouring His Son, Goya | painted on his dining-room wall; never meant to be seen; never titled by him
+- inbox | fighting-temeraire | The Fighting Temeraire, Turner | a hero ship towed to scrap; the sun sets in the wrong place; he never sold it
+- inbox | whistlers-mother | Whistler's Mother, Whistler | the model didn't show up; its real title is about grey and black
+- requested | milkmaid | The Milkmaid, Vermeer | the nail hole and the erased basket; the trickle of milk; expensive blue on a servant
+- requested | sleeping-gypsy | The Sleeping Gypsy, Rousseau | a toll clerk who never saw a desert; the lion that does not attack
+- requested | folies-bergere | A Bar at the Folies-Bergère, Manet | the reflection that cannot be right; the trapeze feet; the beer label
+- requested | death-of-marat | The Death of Marat, David | propaganda painted by a friend; the letter; the bath he lived in
+- requested | ophelia | Ophelia, Millais | the model lay in a bathtub and fell ill; every flower has a meaning
+- requested | hunters-in-snow | The Hunters in the Snow, Bruegel | one small fox; the Little Ice Age; Alps that Belgium doesn't have
 - todo | calling-matthew | The Calling of Saint Matthew, Caravaggio | which one is Matthew; light as a pointing finger; a hand borrowed from Michelangelo
 - todo | judith | Judith Slaying Holofernes, Artemisia Gentileschi | painted by a woman who went through a trial; the blood; compare Caravaggio's version
 - todo | wheatfield-crows | Wheatfield with Crows, Van Gogh | not his last painting, whatever the legend says; three paths going nowhere

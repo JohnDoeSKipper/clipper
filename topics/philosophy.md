@@ -24,15 +24,15 @@ Check what the original experiment or argument actually says (and whether later 
 - inbox | violinist | The Violinist (Thomson) | ps2 | you wake up connected to a stranger for nine months
 - skipped | swampman | Swampman | ps2 | lightning, a perfect copy walks home; is it you? (skipped 2026-11-27: too close to teleporter)
 - inbox | monty-hall | The Monty Hall Problem | clay | three doors, a prize; why switching wins two times in three
-- requested | survivorship-bias | Survivorship Bias | ps2 | returning planes with bullet holes; armour goes where there are none
-- requested | sunk-cost | The Sunk Cost Fallacy | clay | a bad film and a paid ticket; a walk to the door
-- requested | invisible-gorilla | The Invisible Gorilla | clay | count the passes; what you missed
-- todo | achilles-tortoise | Achilles and the Tortoise (Zeno) | clay | a race where the runner can never catch up; arrows and halving distances
-- todo | lifeboat | The Lifeboat Dilemma | clay | a boat on open sea with one seat too few
-- todo | newcombs-paradox | Newcomb's Paradox | ps2 | a glass box and a closed box; a predictor robot that is never wrong
-- todo | laplaces-demon | Laplace's Demon | ps2 | a mind that knows every atom; is your next choice already written?
-- todo | grandfather-paradox | The Grandfather Paradox | ps2 | a time-travel door; you meet your grandfather
+- inbox | survivorship-bias | Survivorship Bias | ps2 | returning planes with bullet holes; armour goes where there are none
+- inbox | sunk-cost | The Sunk Cost Fallacy | clay | a bad film and a paid ticket; a walk to the door
+- inbox | invisible-gorilla | The Invisible Gorilla | clay | count the passes; what you missed
+- requested | achilles-tortoise | Achilles and the Tortoise (Zeno) | clay | a race where the runner can never catch up; arrows and halving distances
+- requested | lifeboat | The Lifeboat Dilemma | clay | a boat on open sea with one seat too few
+- requested | newcombs-paradox | Newcomb's Paradox | ps2 | a glass box and a closed box; a predictor robot that is never wrong
+- requested | laplaces-demon | Laplace's Demon | ps2 | a mind that knows every atom; is your next choice already written?
+- requested | grandfather-paradox | The Grandfather Paradox | ps2 | a time-travel door; you meet your grandfather
 - todo | spotlight-effect | The Spotlight Effect | clay | you think everyone noticed your stain; nobody did
-- todo | milgram | The Milgram Experiment | ps2 | a button, a man in a coat saying "please continue"; how far people went
+- requested | milgram | The Milgram Experiment | ps2 | a button, a man in a coat saying "please continue"; how far people went
 - todo | paradox-of-choice | The Paradox of Choice | clay | 6 jams against 24 jams; more options, fewer buyers (and the replication doubts)
 - todo | hedonic-treadmill | The Hedonic Treadmill | clay | cash, crown, house; a year later the same face
