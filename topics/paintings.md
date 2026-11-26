@@ -18,7 +18,7 @@ The leads are starting points from memory, not facts: check each one before it g
 - made | wanderer-fog | Wanderer above the Sea of Fog, Friedrich | we never see his face; a landscape stitched from several places
 - made | earthly-delights | The Garden of Earthly Delights, Bosch | a triptych that closes; music written on a figure; the tree-man who may be Bosch
 - made | ambassadors | The Ambassadors, Holbein | the stretched skull you can only see from the side; the broken lute string
-- inbox | liberty-leading | Liberty Leading the People, Delacroix | it is 1830, not 1789; the boy who became Gavroche; hidden away as too dangerous
+- made | liberty-leading | Liberty Leading the People, Delacroix | it is 1830, not 1789; the boy who became Gavroche; hidden away as too dangerous
 - inbox | raft-medusa | The Raft of the Medusa, Géricault | a real scandal; he studied corpses; the tiny ship on the horizon
 - inbox | impression-sunrise | Impression, Sunrise, Monet | the insult that named Impressionism; the sun is no brighter than the sky
 - requested | cafe-terrace | Café Terrace at Night, Van Gogh | his first starry sky; no black paint; the café is still there

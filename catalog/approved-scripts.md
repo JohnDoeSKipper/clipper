@@ -1,6 +1,29 @@
 # Model scripts (newest first)
 The writer reads the top two of its channel before writing and matches or beats them: same spine (beats in order, every sentence linked to the one before), never the same facts or hooks. Each script the writer makes is added at the top in this format. Kept to the last 12.
 
+## liberty-leading (paintings, 2026-11-27)
+
+Angle: Why did France hide the painting that now stands for France?
+Logline: A king bought it and hid it, so why? It shows July 1830, not 1789, and Delacroix painted it since he didn't fight, but this Liberty is a barefoot woman of the streets beside a boy with pistols, but the revolution had made Louis-Philippe king, so his government bought it, but after the 1832 uprising it vanished into storage, because it cheered the overthrow of kings, but in 1874 the Republic put it in the Louvre, so the painting a king hid became the face of the republic.
+On-screen hook: BOUGHT BY THE KING. THEN HIDDEN.
+
+[hook] France's new king bought this painting, then hid it away.
+[hook / but] Today it stands for France; for years it was too dangerous to hang.
+[question / so] So why did France hide the painting that now stands for it?
+[reveal1 / answer] It isn't 1789: it's July 1830, when Paris toppled Charles the Tenth.
+[reveal1 / detail] Delacroix didn't fight; at least I'll paint for her, he told his brother.
+[reveal1 / detail] Behind the smoke: Notre-Dame, flying the tricolour.
+[reveal2 / but] But this Liberty is no marble goddess.
+[reveal2 / detail] She's a barefoot woman of the streets, striding over the dead.
+[reveal2 / detail] Beside her, a boy with two pistols, perhaps the model for Hugo's Gavroche.
+[reveal3 / but] But the revolution had crowned a new king, Louis-Philippe.
+[reveal3 / so] His government bought it at the 1831 Salon for 3,000 francs.
+[reveal3 / but] Then, after a Paris uprising in 1832, it vanished into storage.
+[reveal3 / because] Cheering a king's fall set a bad example for his subjects.
+[turn / but] But in 1874, the new Republic hung it in the Louvre.
+[turn / detail] Later still, it went onto the 100-franc note.
+[payoff / so] So the painting a king hid became the face of the republic.
+
 ## ambassadors (paintings, 2026-11-27)
 
 Angle: Why did Holbein smear a hidden skull across a portrait of two rich young men?
@@ -258,27 +281,3 @@ On-screen hook: BETRAYAL WINS. THEY COOPERATED ANYWAY
 [turn / detail] In the RAND game's final round, both players betrayed.
 [payoff / answer] So we cooperate because life is rarely played once.
 [payoff / but] But if this were your last round with someone, would you keep your word?
-
-## the-kiss (paintings, 2026-11-27)
-
-Angle: How did the painter Vienna called a pornographer make the picture Austria loves most?
-Logline: Professors called his university nudes pornography, so he quit and handed back the state's money, but Ravenna's gold mosaics had given him a new language, so The Kiss covers its lovers in gold, silver and pattern with only skin bare, but in 1908 the state bought it mid-show, unfinished, from the same ministry he had refused, but the rejected paintings burned in 1945, so the gold that wrapped the lovers is what made the scandal Austria's treasure.
-On-screen hook: THEN THE SAME STATE BOUGHT THE KISS
-
-[hook] Eighty-seven professors protested Klimt's paintings for their university.
-[hook / detail] They called his ceiling nudes pornography.
-[question / so] So how did this scandal make Austria's most loved painting?
-[reveal1 / answer] In 1905, Klimt quit, handing back the state's 30,000-crown advance.
-[reveal1 / so] "I reject all state support," he declared.
-[reveal2 / but] But in 1903, Ravenna's gold mosaics had shown him a new language.
-[reveal2 / so] So in The Kiss, he laid on real gold, silver and platinum.
-[reveal2 / detail] His robe: black and white rectangles. Hers: circles and flowers.
-[reveal2 / detail] Of their bodies, only faces, hands, shoulders and feet are bare.
-[reveal3 / but] But the twist came in 1908, at Vienna's Kunstschau.
-[reveal3 / detail] He showed it as Lovers, and the state bought it mid-show.
-[reveal3 / detail] It paid 25,000 crowns, though Klimt was still finishing it.
-[reveal3 / detail] The same ministry whose money he had handed back.
-[turn / but] But the rejected paintings were lost in a castle fire in 1945.
-[turn / detail] Only photographs survive.
-[payoff / answer] So he didn't hide the lovers; he wrapped them in church gold.
-[payoff / so] The state that called him a pornographer still owns them.

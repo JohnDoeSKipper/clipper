@@ -1,0 +1,321 @@
+{
+ "id": "liberty-leading",
+ "channel": "paintings",
+ "angle": "Why did France hide the painting that now stands for France?",
+ "answer": "It celebrates the July 1830 revolution that put Louis-Philippe on the throne, so his government bought it, but a painting cheering the overthrow of a king was a bad example after the June 1832 uprising, so it went into storage and back to the artist; only the Third Republic put it in the Louvre in 1874.",
+ "logline": "A king bought it and hid it, so why? It shows July 1830, not 1789, and Delacroix painted it since he didn't fight, but this Liberty is a barefoot woman of the streets beside a boy with pistols, but the revolution had made Louis-Philippe king, so his government bought it, but after the 1832 uprising it vanished into storage, because it cheered the overthrow of kings, but in 1874 the Republic put it in the Louvre, so the painting a king hid became the face of the republic.",
+ "hook_text": "BOUGHT BY THE KING. THEN HIDDEN.",
+ "hooks": [
+  "This is not the French Revolution of 1789.",
+  "The king who bought this painting was afraid to hang it."
+ ],
+ "painting": {
+  "title": "Liberty Leading the People",
+  "artist": "Eugène Delacroix",
+  "year": "1830",
+  "museum": "Musée du Louvre, Paris"
+ },
+ "script": [
+  {
+   "text": "France's new king bought this painting, then hid it away.",
+   "beat": "hook"
+  },
+  {
+   "text": "Today it stands for France; for years it was too dangerous to hang.",
+   "beat": "hook",
+   "link": "but"
+  },
+  {
+   "text": "So why did France hide the painting that now stands for it?",
+   "beat": "question",
+   "link": "so"
+  },
+  {
+   "text": "It isn't 1789: it's July 1830, when Paris toppled Charles the Tenth.",
+   "beat": "reveal1",
+   "link": "answer",
+   "say": "It isn't seventeen eighty-nine: it's July eighteen thirty, when Paris toppled Charles the Tenth."
+  },
+  {
+   "text": "Delacroix didn't fight; at least I'll paint for her, he told his brother.",
+   "beat": "reveal1",
+   "link": "detail",
+   "say": "Della-kwah didn't fight; at least I'll paint for her, he told his brother."
+  },
+  {
+   "text": "Behind the smoke: Notre-Dame, flying the tricolour.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "But this Liberty is no marble goddess.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "She's a barefoot woman of the streets, striding over the dead.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "Beside her, a boy with two pistols, perhaps the model for Hugo's Gavroche.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "But the revolution had crowned a new king, Louis-Philippe.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "His government bought it at the 1831 Salon for 3,000 francs.",
+   "say": "His government bought it at the eighteen thirty-one Salon for three thousand francs.",
+   "beat": "reveal3",
+   "link": "so"
+  },
+  {
+   "text": "Then, after a Paris uprising in 1832, it vanished into storage.",
+   "beat": "reveal3",
+   "link": "but",
+   "say": "Then, after a Paris uprising in eighteen thirty-two, it vanished into storage."
+  },
+  {
+   "text": "Cheering a king's fall set a bad example for his subjects.",
+   "beat": "reveal3",
+   "link": "because"
+  },
+  {
+   "text": "But in 1874, the new Republic hung it in the Louvre.",
+   "say": "But in eighteen seventy-four, the new Republic hung it in the Louvre.",
+   "beat": "turn",
+   "link": "but"
+  },
+  {
+   "text": "Later still, it went onto the 100-franc note.",
+   "beat": "turn",
+   "link": "detail",
+   "say": "Later still, it went onto the hundred-franc note."
+  },
+  {
+   "text": "So the painting a king hid became the face of the republic.",
+   "beat": "payoff",
+   "link": "so"
+  }
+ ],
+ "music": {
+  "piece": "chopin-nocturne-e-minor"
+ },
+ "timeline": [
+  {
+   "type": "reveal",
+   "from": [
+    0.6,
+    0.14,
+    2.6
+   ],
+   "until": 3.2
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "charles",
+    1
+   ],
+   "caption": "Charles X, toppled in July 1830",
+   "at": "3",
+   "to": "3:toppled-0.1"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "barricade",
+    0
+   ],
+   "caption": "Building a barricade, 28 July 1830",
+   "at": "3:toppled",
+   "to": "4-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "delacroix",
+    1
+   ],
+   "caption": "Eugène Delacroix, photographed by Nadar",
+   "at": "4",
+   "to": "5-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.88,
+    0.41,
+    0.06,
+    0.07
+   ],
+   "ring": "5",
+   "zoom": "5+0.4",
+   "label": "NOTRE-DAME",
+   "labelAt": "5:Notre-Dame",
+   "out": "6-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.57,
+    0.42,
+    0.13,
+    0.32
+   ],
+   "ring": "6",
+   "zoom": "6+0.4",
+   "out": "7-0.3",
+   "then": {
+    "region": [
+     0.605,
+     0.67,
+     0.045,
+     0.045
+    ],
+    "ring": "6:goddess",
+    "zoom": "6:goddess+0.3"
+   }
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.3,
+    0.83,
+    0.25,
+    0.12
+   ],
+   "ring": "7",
+   "zoom": "7+0.4",
+   "label": "OVER THE DEAD",
+   "labelAt": "7:dead",
+   "out": "8-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.74,
+    0.47,
+    0.09,
+    0.2
+   ],
+   "ring": "8",
+   "zoom": "8+0.4",
+   "label": "TWO PISTOLS",
+   "labelAt": "8:pistols",
+   "out": "8:Hugo's-0.2"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "gavroche",
+    1
+   ],
+   "caption": "Gavroche, drawn by Gustave Brion",
+   "at": "8:Hugo's",
+   "to": "9-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "louisphilippe",
+    0
+   ],
+   "caption": "Louis-Philippe, by Winterhalter, 1841",
+   "at": "9",
+   "to": "10-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.24,
+    0.33,
+    0.08,
+    0.13
+   ],
+   "ring": "10",
+   "zoom": "10+0.4",
+   "label": "3,000 FRANCS",
+   "labelAt": "10:francs",
+   "out": "11-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "barricade",
+    1
+   ],
+   "caption": "Street fighting in Paris, 1830",
+   "at": "11",
+   "to": "12-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.56,
+    0.12,
+    0.17,
+    0.1
+   ],
+   "ring": "12",
+   "zoom": "12+0.4",
+   "label": "LIBERTY",
+   "labelAt": "12:fall",
+   "out": "13-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.45,
+    0.08,
+    0.15,
+    0.08
+   ],
+   "ring": "13",
+   "zoom": "13+0.4",
+   "label": "LOUVRE, 1874",
+   "labelAt": "13:Louvre",
+   "out": "14-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "banknote",
+    2
+   ],
+   "caption": "The French 100-franc note, 1979",
+   "at": "14",
+   "to": "15-0.3"
+  }
+ ],
+ "sources": [
+  "https://www.louvre.fr/en/explore/the-palace/liberty-leading-the-people",
+  "https://www.britannica.com/topic/Liberty-Leading-the-People",
+  "https://www.ebsco.com/research-starters/visual-arts/liberty-leading-people-delacroix",
+  "https://eclecticlight.co/2023/06/16/paintings-of-eugene-delacroix-5-liberty/",
+  "https://www.thehistoryblog.com/archives/70113",
+  "https://en.wikipedia.org/wiki/Liberty_Leading_the_People"
+ ],
+ "post": {
+  "caption": "The new king of France bought Liberty Leading the People in 1831. A year later it disappeared into storage: a picture cheering the fall of a king was a bad example for his own subjects.\nShould governments ever hide art?",
+  "tags": [
+   "#arthistory",
+   "#delacroix",
+   "#libertyleadingthepeople",
+   "#louvre",
+   "#frenchhistory"
+  ],
+  "youtube_title": "The King Who Bought Liberty, Then Hid It"
+ }
+}
