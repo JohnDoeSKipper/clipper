@@ -1,6 +1,31 @@
 # Model scripts (newest first)
 The writer reads the top two of its channel before writing and matches or beats them: same spine (beats in order, every sentence linked to the one before), never the same facts or hooks. Each script the writer makes is added at the top in this format. Kept to the last 12.
 
+## teleporter (philosophy, 2026-11-27)
+
+Angle: If a machine destroyed you here and rebuilt you perfectly on Mars, would you arrive, or die?
+Logline: Real teleportation destroys the original, so would a teleporter kill you? Parfit's machine rebuilds you on Mars from new matter, but then he made it copy without destroying, so two of you exist and one is dying, but he argued the question itself is the mistake, because split-brain surgery shows one person could become two, so identity is not what matters, but philosophers are still split, so you would arrive in every way that matters, unless you also distrust waking up.
+On-screen hook: THE ORIGINAL IS DESTROYED
+
+[hook] Physicists really do teleport particles, and the original is always destroyed.
+[hook / because] Physics forbids a perfect copy, so the original has to go.
+[question / so] So if a machine did that to you, would you arrive, or die?
+[reveal1 / answer] Philosopher Derek Parfit built that machine on paper in 1984.
+[reveal1 / detail] A scanner records every cell of your body, then destroys it.
+[reveal1 / so] On Mars, a replicator rebuilds you from new matter.
+[reveal2 / but] But then Parfit changed the scanner: it copies you without destroying you.
+[reveal2 / detail] On Earth, you learn the scan damaged your heart: you'll die in days.
+[reveal2 / detail] On a screen, you watch yourself on Mars, starting to speak.
+[reveal2 / so] So which one is you: the one dying, or the one who lives?
+[reveal3 / but] But Parfit argued the question itself is the mistake.
+[reveal3 / because] Surgeons can cut the bridge between the brain's halves, and each half acts alone.
+[reveal3 / so] Put each half in a new body, and both would remember being you.
+[reveal3 / so] So identity, he concluded, isn't what matters; your memories and character carrying on is.
+[turn / but] But philosophers are split: 36 percent say you'd survive it, 31 percent say you'd die.
+[turn / detail] That's from a 2020 survey of 931 professors.
+[payoff / answer] So if he's right, you'd arrive, in every way that matters.
+[payoff / but] But sleep breaks your stream of thought nightly: why trust waking up, but not the machine?
+
 ## prisoners-dilemma (philosophy, 2026-11-27)
 
 Angle: If betraying is always the smart move, why do people keep cooperating?
@@ -263,24 +288,3 @@ On-screen hook: MORE HUMAN THAN HUMANS
 [turn / detail] You can't see inside anyone's head, he wrote, so we politely assume everyone thinks.
 [payoff / answer] So Searle's answer stayed no: he died in 2025, the year chatbots passed Turing's test.
 [payoff / but] But if understanding can't be seen, how do you know anyone understands you?
-
-## mona-lisa (paintings, 2026-11-24)
-
-Angle: Why does a copy in Madrid show us the real Mona Lisa better than the original in Paris?
-Logline: Madrid's 'dull copy' was hidden under black paint, but the original is hidden too, under yellow varnish nobody dares remove because her skin is glazes thinner than a hair, so her blue sky looks green, but in 2012 the copy's black came off and showed blue mountains and red sleeves, and infrared proved a pupil painted it beside Leonardo, therefore the murky face we know is partly the work of time.
-On-screen hook: HER TWIN WAS PAINTED BLACK
-
-[hook] Madrid's Prado owns a second Mona Lisa, once hidden under black paint.
-[hook / detail] For centuries, experts dismissed it as a dull copy.
-[question / so] So why does that copy show the real Mona Lisa better than Paris?
-[reveal1 / answer] Because the original sits under centuries of yellowed varnish.
-[reveal1 / detail] Beneath it, her skin is built from glazes thinner than a human hair.
-[reveal1 / so] So stripping the varnish could strip Leonardo too, and the Louvre won't risk it.
-[reveal1 / so] Which leaves his blue sky looking murky green and brown.
-[reveal2 / but] But in 2012, Prado restorers removed the black, added sometime after 1750.
-[reveal2 / detail] Underneath: icy blue mountains, a winding river and bright red sleeves.
-[reveal3 / but] But infrared showed more: when Leonardo changed his mind, the copy changed too.
-[reveal3 / so] So a pupil painted it beside her, in Leonardo's studio, as he worked.
-[turn / so] Which means the murky face we know is partly the work of time.
-[payoff / answer] So the copy wins because its black came off, and her yellow won't.
-[payoff / but] But Leonardo's blue is still there, under the haze, behind her smile.

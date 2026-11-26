@@ -1,0 +1,836 @@
+{
+ "id": "teleporter",
+ "channel": "philosophy",
+ "style": "ps2",
+ "title": "THE TELEPORTER",
+ "angle": "If a machine destroyed you here and rebuilt you perfectly on Mars, would you arrive, or die?",
+ "answer": "Parfit's branch-line and split-brain cases show that 'which one is me?' can have no answer while nothing we care about is missing, so identity is not what matters: memory and character carrying on is, and by that test you would arrive; philosophers still split roughly evenly.",
+ "logline": "Real teleportation destroys the original, so would a teleporter kill you? Parfit's machine rebuilds you on Mars from new matter, but then he made it copy without destroying, so two of you exist and one is dying, but he argued the question itself is the mistake, because split-brain surgery shows one person could become two, so identity is not what matters, but philosophers are still split, so you would arrive in every way that matters, unless you also distrust waking up.",
+ "hook_text": "THE ORIGINAL IS DESTROYED",
+ "hooks": [
+  "Physics forbids a perfect copy of you. So what would a teleporter do?",
+  "A perfect copy of you wakes up on Mars. Did you survive?"
+ ],
+ "world": {
+  "scenery": "room"
+ },
+ "script": [
+  {
+   "text": "Physicists really do teleport particles, and the original is always destroyed.",
+   "beat": "hook"
+  },
+  {
+   "text": "Physics forbids a perfect copy, so the original has to go.",
+   "beat": "hook",
+   "link": "because"
+  },
+  {
+   "text": "So if a machine did that to you, would you arrive, or die?",
+   "beat": "question",
+   "link": "so"
+  },
+  {
+   "text": "Philosopher Derek Parfit built that machine on paper in 1984.",
+   "say": "Philosopher Derek Parfit built that machine on paper in nineteen eighty-four.",
+   "beat": "reveal1",
+   "link": "answer"
+  },
+  {
+   "text": "A scanner records every cell of your body, then destroys it.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "On Mars, a replicator rebuilds you from new matter.",
+   "beat": "reveal1",
+   "link": "so"
+  },
+  {
+   "text": "But then Parfit changed the scanner: it copies you without destroying you.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "On Earth, you learn the scan damaged your heart: you'll die in days.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "On a screen, you watch yourself on Mars, starting to speak.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "So which one is you: the one dying, or the one who lives?",
+   "beat": "reveal2",
+   "link": "so"
+  },
+  {
+   "text": "But Parfit argued the question itself is the mistake.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "Surgeons can cut the bridge between the brain's halves, and each half acts alone.",
+   "beat": "reveal3",
+   "link": "because"
+  },
+  {
+   "text": "Put each half in a new body, and both would remember being you.",
+   "beat": "reveal3",
+   "link": "so"
+  },
+  {
+   "text": "So identity, he concluded, isn't what matters; your memories and character carrying on is.",
+   "beat": "reveal3",
+   "link": "so"
+  },
+  {
+   "text": "But philosophers are split: 36 percent say you'd survive it, 31 percent say you'd die.",
+   "say": "But philosophers are split: thirty-six percent say you'd survive it, thirty-one percent say you'd die.",
+   "beat": "turn",
+   "link": "but"
+  },
+  {
+   "text": "That's from a 2020 survey of 931 professors.",
+   "say": "That's from a twenty twenty survey of nine hundred and thirty-one professors.",
+   "beat": "turn",
+   "link": "detail"
+  },
+  {
+   "text": "So if he's right, you'd arrive, in every way that matters.",
+   "beat": "payoff",
+   "link": "answer"
+  },
+  {
+   "text": "But sleep breaks your stream of thought nightly: why trust waking up, but not the machine?",
+   "beat": "payoff",
+   "link": "but"
+  }
+ ],
+ "objects": [
+  {
+   "id": "podA",
+   "kind": "pod",
+   "at": [
+    -2.6,
+    0,
+    0
+   ],
+   "face": 15
+  },
+  {
+   "id": "podB",
+   "kind": "pod",
+   "at": [
+    2.6,
+    0,
+    0
+   ],
+   "face": -15
+  },
+  {
+   "id": "you",
+   "kind": "person",
+   "look": "you",
+   "at": [
+    -2.4,
+    0,
+    2.2
+   ],
+   "face": "podA"
+  },
+  {
+   "id": "copy",
+   "kind": "person",
+   "look": "you",
+   "at": [
+    2.6,
+    0,
+    1.7
+   ],
+   "face": 0,
+   "show": false
+  },
+  {
+   "id": "scr",
+   "kind": "screen",
+   "at": [
+    0,
+    0,
+    -2.2
+   ],
+   "face": 0,
+   "show": false
+  },
+  {
+   "id": "g1",
+   "kind": "person",
+   "look": "you",
+   "ghost": true,
+   "at": [
+    -1.1,
+    0,
+    3.4
+   ],
+   "face": 20,
+   "show": false
+  },
+  {
+   "id": "g2",
+   "kind": "person",
+   "look": "you",
+   "ghost": true,
+   "at": [
+    1.1,
+    0,
+    3.4
+   ],
+   "face": -20,
+   "show": false
+  },
+  {
+   "id": "jar",
+   "kind": "brainjar",
+   "at": [
+    0,
+    0,
+    3.4
+   ],
+   "face": 0,
+   "show": false
+  }
+ ],
+ "shots": [
+  {
+   "at": 0,
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "podA",
+     "podB"
+    ]
+   },
+   "focus": [
+    "podA",
+    "podB"
+   ]
+  },
+  {
+   "at": "1",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "podA",
+     "podB"
+    ]
+   }
+  },
+  {
+   "at": "2",
+   "cam": {
+    "preset": "close",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "3",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "podA"
+    ]
+   },
+   "focus": [
+    "you",
+    "podA"
+   ]
+  },
+  {
+   "at": "4",
+   "cam": {
+    "preset": "close",
+    "on": "podA"
+   },
+   "focus": [
+    "podA"
+   ]
+  },
+  {
+   "at": "5",
+   "cam": {
+    "preset": "close",
+    "on": "podB"
+   },
+   "focus": [
+    "podB",
+    "copy"
+   ]
+  },
+  {
+   "at": "6",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "copy"
+    ]
+   },
+   "focus": [
+    "you",
+    "copy"
+   ]
+  },
+  {
+   "at": "7",
+   "cam": {
+    "preset": "close",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "8",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "scr"
+    ]
+   },
+   "focus": [
+    "you",
+    "scr"
+   ]
+  },
+  {
+   "at": "9",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "copy"
+    ]
+   },
+   "focus": [
+    "you",
+    "copy"
+   ]
+  },
+  {
+   "at": "10",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "you",
+     "copy"
+    ]
+   }
+  },
+  {
+   "at": "11",
+   "cam": {
+    "preset": "close",
+    "on": "jar"
+   },
+   "focus": [
+    "jar"
+   ]
+  },
+  {
+   "at": "12",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "g1",
+     "g2"
+    ]
+   },
+   "focus": [
+    "g1",
+    "g2"
+   ]
+  },
+  {
+   "at": "13",
+   "cam": {
+    "preset": "tight",
+    "on": "copy"
+   },
+   "focus": [
+    "copy"
+   ]
+  },
+  {
+   "at": "13:memories",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "copy"
+    ],
+    "side": -1
+   },
+   "focus": [
+    "you",
+    "copy"
+   ]
+  },
+  {
+   "at": "14",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "podA",
+     "podB"
+    ]
+   }
+  },
+  {
+   "at": "15",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "copy"
+    ],
+    "side": 1
+   },
+   "focus": [
+    "you",
+    "copy"
+   ]
+  },
+  {
+   "at": "16",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "copy",
+     "podB"
+    ]
+   },
+   "focus": [
+    "copy",
+    "podB"
+   ]
+  },
+  {
+   "at": "17",
+   "cam": {
+    "preset": "tight",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "17:nightly",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "podA"
+    ]
+   },
+   "focus": [
+    "you"
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "id": "you",
+   "at": "4",
+   "until": "4:body",
+   "pos": [
+    -2.6,
+    0,
+    1.7
+   ],
+   "walk": true,
+   "ease": "linear"
+  },
+  {
+   "id": "you",
+   "at": "4:destroys",
+   "dur": 0.3,
+   "show": false
+  },
+  {
+   "id": "copy",
+   "at": "5:rebuilds",
+   "dur": 0.4,
+   "show": true
+  },
+  {
+   "id": "copy",
+   "at": "6",
+   "dur": 0.4,
+   "pose": "stand"
+  },
+  {
+   "id": "you",
+   "at": "6",
+   "dur": 0.1,
+   "pos": [
+    -2.6,
+    0,
+    1.7
+   ]
+  },
+  {
+   "id": "you",
+   "at": "6:copies",
+   "dur": 0.4,
+   "show": true
+  },
+  {
+   "id": "you",
+   "at": "7:heart",
+   "dur": 0.4,
+   "pose": "sad"
+  },
+  {
+   "id": "scr",
+   "at": "8",
+   "dur": 0.4,
+   "show": true
+  },
+  {
+   "id": "you",
+   "at": "8:watch",
+   "dur": 0.4,
+   "pose": "shock"
+  },
+  {
+   "id": "copy",
+   "at": "8:speak",
+   "dur": 0.4,
+   "pose": "point"
+  },
+  {
+   "id": [
+    "you",
+    "copy"
+   ],
+   "at": "9",
+   "dur": 0.4,
+   "pose": "shrug"
+  },
+  {
+   "id": [
+    "you",
+    "copy"
+   ],
+   "at": "10",
+   "dur": 0.4,
+   "pose": "stand"
+  },
+  {
+   "id": "scr",
+   "at": "10",
+   "dur": 0.3,
+   "show": false
+  },
+  {
+   "id": "jar",
+   "at": "11",
+   "dur": 0.4,
+   "show": true
+  },
+  {
+   "id": "jar",
+   "at": "11:cut",
+   "dur": 0.5,
+   "wobble": true
+  },
+  {
+   "id": "jar",
+   "at": "12",
+   "dur": 0.3,
+   "show": false
+  },
+  {
+   "id": "g1",
+   "at": "12:half",
+   "dur": 0.4,
+   "show": true
+  },
+  {
+   "id": "g2",
+   "at": "12:half+0.3",
+   "dur": 0.4,
+   "show": true
+  },
+  {
+   "id": [
+    "g1",
+    "g2"
+   ],
+   "at": "12:remember",
+   "dur": 0.4,
+   "pose": "point"
+  },
+  {
+   "id": [
+    "g1",
+    "g2"
+   ],
+   "at": "13",
+   "dur": 0.3,
+   "show": false
+  },
+  {
+   "id": "copy",
+   "at": "13:memories",
+   "dur": 0.4,
+   "pose": "think"
+  },
+  {
+   "id": "copy",
+   "at": "14",
+   "dur": 0.4,
+   "pose": "stand"
+  },
+  {
+   "id": "copy",
+   "at": "16:arrive",
+   "dur": 0.4,
+   "pose": "wave"
+  },
+  {
+   "id": "you",
+   "at": "17",
+   "dur": 0.4,
+   "pose": "think"
+  }
+ ],
+ "overlays": [
+  {
+   "type": "label",
+   "text": "ORIGINAL: DESTROYED",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "0:destroyed",
+   "to": "1"
+  },
+  {
+   "type": "label",
+   "text": "NO PERFECT COPIES",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "1:copy",
+   "to": "2"
+  },
+  {
+   "type": "question",
+   "on": "you",
+   "from": "2:arrive",
+   "to": "3"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "parfit",
+    0
+   ],
+   "caption": "Derek Parfit, Reasons and Persons, 1984",
+   "from": "3",
+   "to": "4-0.2"
+  },
+  {
+   "type": "label",
+   "text": "YOU",
+   "color": "yellow",
+   "on": "you",
+   "from": "4",
+   "to": "4:destroys"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "mars",
+    0
+   ],
+   "caption": "Mars, photographed by the Curiosity rover",
+   "from": "5",
+   "to": "5:matter+0.4",
+   "pos": [
+    540,
+    700
+   ]
+  },
+  {
+   "type": "label",
+   "text": "EARTH",
+   "on": "podA",
+   "from": "6",
+   "to": "7"
+  },
+  {
+   "type": "label",
+   "text": "MARS",
+   "on": "podB",
+   "from": "6",
+   "to": "7"
+  },
+  {
+   "type": "icon",
+   "icon": "heart",
+   "on": "you",
+   "from": "7:heart",
+   "to": "7:days"
+  },
+  {
+   "type": "icon",
+   "icon": "clock",
+   "on": "you",
+   "from": "7:days",
+   "to": "8"
+  },
+  {
+   "type": "question",
+   "on": "you",
+   "from": "9:you",
+   "to": "10"
+  },
+  {
+   "type": "question",
+   "on": "copy",
+   "from": "9:lives",
+   "to": "10"
+  },
+  {
+   "type": "label",
+   "text": "WHICH ONE IS YOU?",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "10",
+   "to": "11"
+  },
+  {
+   "type": "xmark",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "10:mistake",
+   "to": "11"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "brain",
+    0
+   ],
+   "caption": "The corpus callosum, the bridge surgeons cut",
+   "from": "11:halves",
+   "to": "12-0.2"
+  },
+  {
+   "type": "label",
+   "text": "MEMORY + CHARACTER",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "13:memories",
+   "to": "14"
+  },
+  {
+   "type": "label",
+   "text": "931 PROFESSORS, 2020",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "15",
+   "to": "16"
+  },
+  {
+   "type": "check",
+   "on": "copy",
+   "from": "16:arrive",
+   "to": "17"
+  },
+  {
+   "type": "icon",
+   "icon": "zzz",
+   "on": "you",
+   "from": "17:sleep",
+   "to": "17:waking"
+  },
+  {
+   "type": "pill",
+   "text": "Would you step in?",
+   "from": "17:waking"
+  }
+ ],
+ "sfx": [
+  {
+   "at": "4:destroys",
+   "s": "whoosh",
+   "gain": 0.35
+  },
+  {
+   "at": "5:rebuilds",
+   "s": "maximize",
+   "gain": 0.3
+  },
+  {
+   "at": "6:copies",
+   "s": "switch",
+   "gain": 0.3
+  },
+  {
+   "at": "8",
+   "s": "click",
+   "gain": 0.3
+  },
+  {
+   "at": "11:cut",
+   "s": "scratch",
+   "gain": 0.25
+  },
+  {
+   "at": "12:half",
+   "s": "drop",
+   "gain": 0.25
+  }
+ ],
+ "music": {
+  "mood": "wonder"
+ },
+ "sources": [
+  "https://plato.stanford.edu/entries/identity-personal/",
+  "https://arxiv.org/abs/1707.00934",
+  "https://consc.net/ppsurvey.html",
+  "https://carneades.pomona.edu/2023-PoP/20.ParfitBranchLine.html",
+  "https://www3.nd.edu/~jspeaks/courses/2007-8/20229/_HANDOUTS/personal-identity-teletransport-split-brain.pdf"
+ ],
+ "post": {
+  "caption": "Real quantum teleportation always destroys the original: physics forbids a perfect copy. Derek Parfit asked what happens when the machine forgets to, and your copy waves at you from Mars.\nWould you step into the teleporter?",
+  "tags": [
+   "#philosophy",
+   "#thoughtexperiment",
+   "#parfit",
+   "#personalidentity",
+   "#teleportation"
+  ],
+  "youtube_title": "If a Teleporter Copies You, Which One Is You?"
+ }
+}
