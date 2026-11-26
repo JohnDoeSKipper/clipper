@@ -1,0 +1,864 @@
+{
+ "id": "prisoners-dilemma",
+ "channel": "philosophy",
+ "style": "clay",
+ "title": "THE PRISONER'S DILEMMA",
+ "angle": "If betraying is always the smart move, why do people keep cooperating?",
+ "answer": "Because real life is rarely a one-shot game: when you will meet again, a nice-but-retaliating rule like Tit for Tat beats betrayal, as RAND's test players and World War One trench truces showed; cooperation collapses only when there is no next time.",
+ "logline": "RAND built a game where betrayal always pays, but its test players kept cooperating, so why? In one round betraying wins, but they played a hundred rounds, so Axelrod's tournament found that copying your partner's last move wins, but the strongest proof came from World War One trenches, where enemies facing each other for months kept quiet hours and punished breaches three for one, but it only works while there is a next time, because on the last round both RAND players betrayed, so we cooperate because life is rarely played once.",
+ "hook_text": "BETRAYAL WINS. THEY COOPERATED ANYWAY",
+ "hooks": [
+  "Enemy soldiers in World War One kept a breakfast truce. Game theory explains why.",
+  "The smartest move in this game is betrayal. Almost nobody plays it."
+ ],
+ "world": {
+  "scenery": "room"
+ },
+ "script": [
+  {
+   "text": "In 1950, two RAND scientists invented a game where betrayal always pays.",
+   "say": "In nineteen fifty, two Rand scientists invented a game where betrayal always pays.",
+   "beat": "hook"
+  },
+  {
+   "text": "But the colleagues they tested it on kept choosing to cooperate.",
+   "beat": "hook",
+   "link": "but"
+  },
+  {
+   "text": "So if betraying is the smart move, why do people cooperate?",
+   "beat": "question",
+   "link": "so"
+  },
+  {
+   "text": "Picture two prisoners in separate rooms: stay silent, or betray?",
+   "beat": "reveal1",
+   "link": "answer"
+  },
+  {
+   "text": "Both silent: one year each. Both betray: five years each.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "Betray a silent partner, and you walk free; he gets ten.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "So whatever your partner does, betraying cuts your sentence.",
+   "beat": "reveal1",
+   "link": "so"
+  },
+  {
+   "text": "But the RAND players weren't playing once; they played a hundred rounds.",
+   "say": "But the Rand players weren't playing once; they played a hundred rounds.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "One cooperated 68 times, the other 78.",
+   "say": "One cooperated sixty-eight times, the other seventy-eight.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "So in 1980, Robert Axelrod ran a tournament of programs playing it again and again.",
+   "say": "So in nineteen eighty, Robert Axelrod ran a tournament of programs playing it again and again.",
+   "beat": "reveal2",
+   "link": "so"
+  },
+  {
+   "text": "The simplest entry won, Tit for Tat: be nice first, then copy their last move.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "But the strongest proof came from soldiers in trenches.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "In World War One, enemy units faced each other for months.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "So they made quiet deals: eight to nine a.m. was kept for private business.",
+   "say": "So they made quiet deals: eight to nine in the morning was kept for private business.",
+   "beat": "reveal3",
+   "link": "so"
+  },
+  {
+   "text": "Break the peace, and they fired back, often three shells for one.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "But it only works while there's a next time.",
+   "beat": "turn",
+   "link": "but"
+  },
+  {
+   "text": "In the RAND game's final round, both players betrayed.",
+   "say": "In the Rand game's final round, both players betrayed.",
+   "beat": "turn",
+   "link": "detail"
+  },
+  {
+   "text": "So we cooperate because life is rarely played once.",
+   "beat": "payoff",
+   "link": "answer"
+  },
+  {
+   "text": "But if this were your last round with someone, would you keep your word?",
+   "beat": "payoff",
+   "link": "but"
+  }
+ ],
+ "objects": [
+  {
+   "id": "w",
+   "kind": "wall",
+   "tint": "#C9D3E0",
+   "at": [
+    0,
+    0,
+    -0.6
+   ],
+   "face": 90,
+   "scale": 0.7
+  },
+  {
+   "id": "you",
+   "kind": "person",
+   "look": "you",
+   "at": [
+    -1.6,
+    0,
+    0.9
+   ],
+   "face": 25
+  },
+  {
+   "id": "other",
+   "kind": "person",
+   "look": "stranger",
+   "at": [
+    1.6,
+    0,
+    0.9
+   ],
+   "face": -25
+  },
+  {
+   "id": "r1",
+   "kind": "robot",
+   "at": [
+    -1.5,
+    0,
+    3.3
+   ],
+   "face": 60,
+   "show": false
+  },
+  {
+   "id": "r2",
+   "kind": "robot",
+   "at": [
+    1.5,
+    0,
+    3.3
+   ],
+   "face": -60,
+   "show": false
+  }
+ ],
+ "shots": [
+  {
+   "at": 0,
+   "cam": {
+    "preset": "close",
+    "on": "you",
+    "dist": 0.9
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "1",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "other"
+    ]
+   },
+   "focus": [
+    "you",
+    "other"
+   ]
+  },
+  {
+   "at": "2",
+   "cam": {
+    "preset": "tight",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "3",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "w",
+     "you",
+     "other"
+    ]
+   }
+  },
+  {
+   "at": "4",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "other"
+    ]
+   },
+   "focus": [
+    "you",
+    "other"
+   ]
+  },
+  {
+   "at": "5",
+   "cam": {
+    "preset": "close",
+    "on": "other"
+   },
+   "focus": [
+    "other"
+   ]
+  },
+  {
+   "at": "6",
+   "cam": {
+    "preset": "tight",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "7",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "w",
+     "you",
+     "other"
+    ]
+   }
+  },
+  {
+   "at": "8",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "other"
+    ],
+    "side": 1
+   },
+   "focus": [
+    "you",
+    "other"
+   ]
+  },
+  {
+   "at": "9",
+   "cam": {
+    "preset": "close",
+    "on": "you",
+    "side": -1
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "10",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "r1",
+     "r2"
+    ]
+   },
+   "focus": [
+    "r1",
+    "r2"
+   ]
+  },
+  {
+   "at": "11",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "you",
+     "other"
+    ]
+   }
+  },
+  {
+   "at": "12",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "other"
+    ],
+    "side": -1
+   },
+   "focus": [
+    "you",
+    "other"
+   ]
+  },
+  {
+   "at": "13",
+   "cam": {
+    "preset": "close",
+    "on": "other"
+   },
+   "focus": [
+    "other"
+   ]
+  },
+  {
+   "at": "14",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "other"
+    ]
+   },
+   "focus": [
+    "you",
+    "other"
+   ]
+  },
+  {
+   "at": "15",
+   "cam": {
+    "preset": "tight",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "16",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "other"
+    ],
+    "side": -1
+   },
+   "focus": [
+    "you",
+    "other"
+   ]
+  },
+  {
+   "at": "17",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "w",
+     "you",
+     "other"
+    ]
+   }
+  },
+  {
+   "at": "18",
+   "cam": {
+    "preset": "tight",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "id": "you",
+   "at": "3:silent",
+   "dur": 0.4,
+   "pose": "think"
+  },
+  {
+   "id": "other",
+   "at": "3:betray",
+   "dur": 0.4,
+   "pose": "think"
+  },
+  {
+   "id": [
+    "you",
+    "other"
+   ],
+   "at": "4",
+   "dur": 0.4,
+   "pose": "stand"
+  },
+  {
+   "id": "you",
+   "at": "5:free",
+   "dur": 0.4,
+   "pose": "cheer"
+  },
+  {
+   "id": "other",
+   "at": "5:ten",
+   "dur": 0.4,
+   "pose": "sad"
+  },
+  {
+   "id": [
+    "you",
+    "other"
+   ],
+   "at": "6+0.2",
+   "dur": 0.4,
+   "pose": "stand"
+  },
+  {
+   "id": "you",
+   "at": "6:betraying",
+   "dur": 0.4,
+   "pose": "point"
+  },
+  {
+   "id": "you",
+   "at": "7",
+   "dur": 0.4,
+   "pose": "stand"
+  },
+  {
+   "id": [
+    "r1",
+    "r2"
+   ],
+   "at": "10",
+   "dur": 0.4,
+   "show": true
+  },
+  {
+   "id": "r1",
+   "at": "10:nice",
+   "dur": 0.5,
+   "wobble": true
+  },
+  {
+   "id": "r2",
+   "at": "10:copy",
+   "dur": 0.5,
+   "wobble": true
+  },
+  {
+   "id": [
+    "r1",
+    "r2"
+   ],
+   "at": "11",
+   "dur": 0.3,
+   "show": false
+  },
+  {
+   "id": "you",
+   "at": "14:fired",
+   "dur": 0.4,
+   "pose": "point"
+  },
+  {
+   "id": "other",
+   "at": "14:fired",
+   "dur": 0.4,
+   "pose": "shock"
+  },
+  {
+   "id": [
+    "you",
+    "other"
+   ],
+   "at": "15",
+   "dur": 0.4,
+   "pose": "stand"
+  },
+  {
+   "id": "you",
+   "at": "15:next",
+   "dur": 0.4,
+   "pose": "think"
+  },
+  {
+   "id": [
+    "you",
+    "other"
+   ],
+   "at": "16:betrayed",
+   "dur": 0.4,
+   "pose": "point"
+  },
+  {
+   "id": [
+    "you",
+    "other"
+   ],
+   "at": "17",
+   "dur": 0.4,
+   "pose": "wave"
+  },
+  {
+   "id": "you",
+   "at": "18",
+   "dur": 0.4,
+   "pose": "think"
+  }
+ ],
+ "overlays": [
+  {
+   "type": "photo",
+   "pick": [
+    "rand",
+    0
+   ],
+   "caption": "RAND Corporation, Santa Monica",
+   "from": "0:RAND",
+   "to": "1-0.2"
+  },
+  {
+   "type": "check",
+   "on": "you",
+   "from": "1:cooperate",
+   "to": "2"
+  },
+  {
+   "type": "check",
+   "on": "other",
+   "from": "1:cooperate+0.2",
+   "to": "2"
+  },
+  {
+   "type": "question",
+   "on": "you",
+   "from": "2:why",
+   "to": "3"
+  },
+  {
+   "type": "label",
+   "text": "YOU",
+   "color": "yellow",
+   "on": "you",
+   "from": "3",
+   "to": "4"
+  },
+  {
+   "type": "label",
+   "text": "SILENT OR BETRAY?",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "3:silent",
+   "to": "4-0.2"
+  },
+  {
+   "type": "number",
+   "text": "1",
+   "on": "you",
+   "from": "4:silent",
+   "to": "4:betray-0.1"
+  },
+  {
+   "type": "number",
+   "text": "1",
+   "on": "other",
+   "from": "4:silent",
+   "to": "4:betray-0.1"
+  },
+  {
+   "type": "number",
+   "text": "5",
+   "on": "you",
+   "from": "4:betray",
+   "to": "5"
+  },
+  {
+   "type": "number",
+   "text": "5",
+   "on": "other",
+   "from": "4:betray",
+   "to": "5"
+  },
+  {
+   "type": "number",
+   "text": "0",
+   "on": "you",
+   "from": "5:free",
+   "to": "6"
+  },
+  {
+   "type": "number",
+   "text": "10",
+   "on": "other",
+   "from": "5:ten",
+   "to": "6"
+  },
+  {
+   "type": "label",
+   "text": "BETRAYING ALWAYS WINS",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "6:betraying",
+   "to": "7"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "rand",
+    1
+   ],
+   "caption": "RAND, where the game was born in 1950",
+   "from": "7",
+   "to": "7:hundred-0.2"
+  },
+  {
+   "type": "label",
+   "text": "100 ROUNDS",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "7:hundred",
+   "to": "8"
+  },
+  {
+   "type": "number",
+   "text": "68",
+   "on": "you",
+   "from": "8:68",
+   "to": "9"
+  },
+  {
+   "type": "number",
+   "text": "78",
+   "on": "other",
+   "from": "8:78",
+   "to": "9"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "axelrod",
+    0
+   ],
+   "caption": "Robert Axelrod, political scientist",
+   "from": "9:Axelrod",
+   "to": "10-0.2"
+  },
+  {
+   "type": "label",
+   "text": "TIT FOR TAT",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "10:Tat",
+   "to": "11"
+  },
+  {
+   "type": "check",
+   "on": "r1",
+   "from": "10:nice",
+   "to": "11"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "trench",
+    0
+   ],
+   "caption": "Scottish Rifles on the Western Front, 1914-15",
+   "from": "11",
+   "to": "12-0.2"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "germans",
+    0
+   ],
+   "caption": "German soldiers in their trench",
+   "from": "12",
+   "to": "13-0.2"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "breakfast",
+    0
+   ],
+   "caption": "Soldiers resting in a dugout",
+   "from": "13",
+   "to": "13:private-0.2"
+  },
+  {
+   "type": "icon",
+   "icon": "clock",
+   "pos": [
+    540,
+    600
+   ],
+   "from": "13:private",
+   "to": "14"
+  },
+  {
+   "type": "number",
+   "text": "3",
+   "on": "you",
+   "from": "14:three",
+   "to": "15"
+  },
+  {
+   "type": "number",
+   "text": "1",
+   "on": "other",
+   "from": "14:one",
+   "to": "15"
+  },
+  {
+   "type": "icon",
+   "icon": "clock",
+   "on": "you",
+   "from": "15:next",
+   "to": "16"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "rand",
+    0
+   ],
+   "caption": "The RAND experiment, 1950",
+   "from": "16",
+   "to": "16:both-0.2"
+  },
+  {
+   "type": "cross",
+   "on": "you",
+   "from": "16:betrayed",
+   "to": "17"
+  },
+  {
+   "type": "cross",
+   "on": "other",
+   "from": "16:betrayed",
+   "to": "17"
+  },
+  {
+   "type": "check",
+   "on": "you",
+   "from": "17:cooperate",
+   "to": "18"
+  },
+  {
+   "type": "check",
+   "on": "other",
+   "from": "17:cooperate+0.2",
+   "to": "18"
+  },
+  {
+   "type": "pill",
+   "text": "Last round. Keep your word?",
+   "from": "18:word+0.3"
+  }
+ ],
+ "sfx": [
+  {
+   "at": "5:free",
+   "s": "select",
+   "gain": 0.3
+  },
+  {
+   "at": "5:ten",
+   "s": "drop",
+   "gain": 0.3
+  },
+  {
+   "at": "7:hundred",
+   "s": "tick",
+   "gain": 0.22,
+   "every": 0.25,
+   "until": "8"
+  },
+  {
+   "at": "10:nice",
+   "s": "click",
+   "gain": 0.3
+  },
+  {
+   "at": "10:copy",
+   "s": "click",
+   "gain": 0.3
+  },
+  {
+   "at": "14:three",
+   "s": "thud",
+   "gain": 0.35,
+   "every": 0.3,
+   "until": "14:one"
+  },
+  {
+   "at": "16:betrayed",
+   "s": "error",
+   "gain": 0.3
+  }
+ ],
+ "music": {
+  "mood": "tense"
+ },
+ "sources": [
+  "https://plato.stanford.edu/entries/prisoner-dilemma/",
+  "https://cs.stanford.edu/people/eroberts/courses/soco/projects/game-theory/flood.html",
+  "https://ee.stanford.edu/~hellman/Breakthrough/book/chapters/axelrod.html",
+  "https://gwern.net/doc/economics/1984-axelrod-theevolutionofcooperation-ch4-theliveandletlivesysteminwwi.html",
+  "https://en.wikipedia.org/wiki/Live_and_let_live_(World_War_I)"
+ ],
+ "post": {
+  "caption": "In 1950, RAND scientists built a game where betrayal always pays. Their own test players cooperated anyway, and so did enemy soldiers in the trenches of World War One.\nStay silent or betray?",
+  "tags": [
+   "#philosophy",
+   "#prisonersdilemma",
+   "#gametheory",
+   "#thoughtexperiment",
+   "#psychology"
+  ],
+  "youtube_title": "Why Do People Cooperate When Betrayal Always Pays?"
+ }
+}

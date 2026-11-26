@@ -1,6 +1,56 @@
 # Model scripts (newest first)
 The writer reads the top two of its channel before writing and matches or beats them: same spine (beats in order, every sentence linked to the one before), never the same facts or hooks. Each script the writer makes is added at the top in this format. Kept to the last 12.
 
+## prisoners-dilemma (philosophy, 2026-11-27)
+
+Angle: If betraying is always the smart move, why do people keep cooperating?
+Logline: RAND built a game where betrayal always pays, but its test players kept cooperating, so why? In one round betraying wins, but they played a hundred rounds, so Axelrod's tournament found that copying your partner's last move wins, but the strongest proof came from World War One trenches, where enemies facing each other for months kept quiet hours and punished breaches three for one, but it only works while there is a next time, because on the last round both RAND players betrayed, so we cooperate because life is rarely played once.
+On-screen hook: BETRAYAL WINS. THEY COOPERATED ANYWAY
+
+[hook] In 1950, two RAND scientists invented a game where betrayal always pays.
+[hook / but] But the colleagues they tested it on kept choosing to cooperate.
+[question / so] So if betraying is the smart move, why do people cooperate?
+[reveal1 / answer] Picture two prisoners in separate rooms: stay silent, or betray?
+[reveal1 / detail] Both silent: one year each. Both betray: five years each.
+[reveal1 / detail] Betray a silent partner, and you walk free; he gets ten.
+[reveal1 / so] So whatever your partner does, betraying cuts your sentence.
+[reveal2 / but] But the RAND players weren't playing once; they played a hundred rounds.
+[reveal2 / detail] One cooperated 68 times, the other 78.
+[reveal2 / so] So in 1980, Robert Axelrod ran a tournament of programs playing it again and again.
+[reveal2 / detail] The simplest entry won, Tit for Tat: be nice first, then copy their last move.
+[reveal3 / but] But the strongest proof came from soldiers in trenches.
+[reveal3 / detail] In World War One, enemy units faced each other for months.
+[reveal3 / so] So they made quiet deals: eight to nine a.m. was kept for private business.
+[reveal3 / detail] Break the peace, and they fired back, often three shells for one.
+[turn / but] But it only works while there's a next time.
+[turn / detail] In the RAND game's final round, both players betrayed.
+[payoff / answer] So we cooperate because life is rarely played once.
+[payoff / but] But if this were your last round with someone, would you keep your word?
+
+## the-kiss (paintings, 2026-11-27)
+
+Angle: How did the painter Vienna called a pornographer make the picture Austria loves most?
+Logline: Professors called his university nudes pornography, so he quit and handed back the state's money, but Ravenna's gold mosaics had given him a new language, so The Kiss covers its lovers in gold, silver and pattern with only skin bare, but in 1908 the state bought it mid-show, unfinished, from the same ministry he had refused, but the rejected paintings burned in 1945, so the gold that wrapped the lovers is what made the scandal Austria's treasure.
+On-screen hook: THEN THE SAME STATE BOUGHT THE KISS
+
+[hook] Eighty-seven professors protested Klimt's paintings for their university.
+[hook / detail] They called his ceiling nudes pornography.
+[question / so] So how did this scandal make Austria's most loved painting?
+[reveal1 / answer] In 1905, Klimt quit, handing back the state's 30,000-crown advance.
+[reveal1 / so] "I reject all state support," he declared.
+[reveal2 / but] But in 1903, Ravenna's gold mosaics had shown him a new language.
+[reveal2 / so] So in The Kiss, he laid on real gold, silver and platinum.
+[reveal2 / detail] His robe: black and white rectangles. Hers: circles and flowers.
+[reveal2 / detail] Of their bodies, only faces, hands, shoulders and feet are bare.
+[reveal3 / but] But the twist came in 1908, at Vienna's Kunstschau.
+[reveal3 / detail] He showed it as Lovers, and the state bought it mid-show.
+[reveal3 / detail] It paid 25,000 crowns, though Klimt was still finishing it.
+[reveal3 / detail] The same ministry whose money he had handed back.
+[turn / but] But the rejected paintings were lost in a castle fire in 1945.
+[turn / detail] Only photographs survive.
+[payoff / answer] So he didn't hide the lovers; he wrapped them in church gold.
+[payoff / so] The state that called him a pornographer still owns them.
+
 ## brain-in-a-vat (philosophy, 2026-11-26)
 
 Angle: If your whole world reached you as signals on a wire, could you ever prove it is real?
@@ -234,51 +284,3 @@ On-screen hook: HER TWIN WAS PAINTED BLACK
 [turn / so] Which means the murky face we know is partly the work of time.
 [payoff / answer] So the copy wins because its black came off, and her yellow won't.
 [payoff / but] But Leonardo's blue is still there, under the haze, behind her smile.
-
-## experience-machine (philosophy, remade 2026-11-24)
-
-Angle: If a machine could give you a perfect life forever, why do most people refuse to plug in?
-Logline: Rats wired to pleasure stopped eating, so Nozick asked if you'd plug into a perfect-life machine, and most say no because they want reality, but when people are told they're already plugged in, most stay, so it isn't reality we defend but what we have, but a 2018 study showed what that is: when our loved ones plug in, we follow.
-On-screen hook: THEY CHOSE PLEASURE OVER FOOD
-
-[hook] Wired to a pleasure button, lab rats stopped eating.
-[hook / detail] They'd have starved if scientists hadn't stepped in.
-[question / so] So in 1974, Robert Nozick asked you: would you plug in?
-[question / detail] His machine makes you feel you're living a perfect life, forever.
-[reveal1 / answer] Most people say no, and Nozick thought he knew why.
-[reveal1 / because] We want to actually do things, not just feel that we did.
-[reveal1 / detail] Plugging in, he wrote, is a form of suicide.
-[reveal1 / so] So pleasure can't be all that matters, which is what he set out to prove.
-[reveal2 / but] But in 2010, philosopher Felipe De Brigard turned the question around.
-[reveal2 / detail] He told students: you're already in the machine; do you want out?
-[reveal2 / answer] Told nothing about their real life, nearly half stayed in.
-[reveal3 / but] Told their real life was a maximum-security prison, 87 percent stayed.
-[reveal3 / detail] Even as millionaire artists in Monaco, half stayed plugged in.
-[reveal3 / so] So we don't defend reality; we defend whatever we already have.
-[turn / but] But in 2018, a new study found what we're really holding on to.
-[turn / detail] 42 percent would plug in alone; if their loved ones plugged in too, 68 percent would.
-[payoff / answer] So we don't refuse the machine for truth; we refuse it for each other.
-[payoff / but] But if everyone you love plugged in tonight, would you stay out here alone?
-
-## girl-pearl-earring (paintings, remade 2026-11-24)
-
-Angle: If even her pearl is make-believe, who was the Girl with a Pearl Earring?
-Logline: Her famous pearl is two strokes of paint, so we ask who she was, but she was never meant to be anyone, so Vermeer dressed an imaginary girl in the costliest blue, but she ended up so dirty she sold for two guilders, then 2018 scans showed her black void was a green curtain, but the most personal find was eyelashes no one had seen.
-On-screen hook: THE PEARL ISN'T REAL
-
-[hook] The most famous pearl in art is two strokes of paint.
-[hook / detail] There's not even a hook to hang it.
-[question / so] So if the pearl is make-believe, who was she?
-[reveal1 / answer] The museum's answer: she was never meant to be anyone.
-[reveal1 / detail] She's a tronie: a study of an imaginary type.
-[reveal1 / so] That's why she wears a turban no Dutch girl wore.
-[reveal1 / detail] Its blue is ultramarine from Afghan lapis, once pricier than gold.
-[reveal2 / but] But by 1881, she was so dirty her signature was hidden.
-[reveal2 / detail] Victor de Stuers still spotted a Vermeer, but promised his friend not to bid.
-[reveal2 / so] So his friend Arnoldus des Tombe got her for two guilders and thirty cents.
-[reveal3 / but] But in 2018, scans showed the black behind her was once a green curtain.
-[reveal3 / because] Its paint decayed over the centuries, and the curtain sank into darkness.
-[turn / but] But the tiniest find was the most personal: she has eyelashes.
-[turn / detail] Fine brown hairs, too small for the naked eye.
-[payoff / answer] So who was she? An imaginary girl with an impossible pearl.
-[payoff / but] But Vermeer gave her eyelashes nobody would see for 350 years.
