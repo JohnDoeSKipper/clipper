@@ -37,30 +37,6 @@
     "desc": "Illustration of the sorites paradox: 1 = 1+1 = 2+1 = ... + 1 = a giant heap. So 1 pebble = a giant heap"
    }
   ],
-  "wheat": [
-   {
-    "title": "File:Sketches of great painters for young people (1902) (14760985726).jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Sketches_of_great_painters_for_young_people_%281902%29_%2814760985726%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Sketches_of_great_painters_for_young_people_%281902%29_%2814760985726%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 1840,
-    "height": 1424,
-    "licence": "No restrictions",
-    "artist": "Internet Archive Book Images",
-    "credit": "",
-    "desc": ""
-   },
-   {
-    "title": "File:Spring 1897 (1897) (20558111031).jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Spring_1897_%281897%29_%2820558111031%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Spring_1897_%281897%29_%2820558111031%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 3008,
-    "height": 1856,
-    "licence": "No restrictions",
-    "artist": "John A. Salzer Seed Co.",
-    "credit": "",
-    "desc": "Title: Spring 1897 Identifier: CAT31282709 (find matches) Year: 1897 (1890s) Authors: John A. Salzer Seed Co. Subjects: Nursery stock Wisconsin Catalogs; Fruit "
-   }
-  ],
   "bald": [
    {
     "title": "File:Side view of a man with a newly-shaved head posted in the Bald subreddit.jpg",
@@ -188,6 +164,89 @@
     "artist": "Dietmar Rabich",
     "credit": "Dietmar Rabich / CC BY-SA 4.0",
     "desc": "Block D (left) and Block L (right) with Sand Bridge in the Speicherstadt warehouse district in Hamburg, GermanyThe Speicherstadt was built between 1885 and 1927"
+   }
+  ],
+  "williamson": [
+   {
+    "title": "File:Professor Timothy Williamson.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Professor_Timothy_Williamson.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/d/de/Professor_Timothy_Williamson.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2048,
+    "height": 1536,
+    "licence": "CC BY-SA 4.0",
+    "artist": "A Williamson",
+    "credit": "A Williamson / CC BY-SA 4.0",
+    "desc": "Professor Timothy Williamson"
+   },
+   {
+    "title": "File:Professor Timothy Williamson (cropped).JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Professor_Timothy_Williamson_%28cropped%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Professor_Timothy_Williamson_%28cropped%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1152,
+    "height": 1536,
+    "licence": "CC BY-SA 4.0",
+    "artist": "A Williamson",
+    "credit": "A Williamson / CC BY-SA 4.0",
+    "desc": "Professor Timothy Williamson"
+   },
+   {
+    "title": "File:The Charles Group.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/The_Charles_Group.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/d/d8/The_Charles_Group.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2043,
+    "height": 985,
+    "licence": "CC0",
+    "artist": "57BAS",
+    "credit": "",
+    "desc": "Known as \"the Charles Group,\" this assembly of Oxford philosophers, which met weekly in David Charles' room in Oriel College, Oxford included (among others) Bil"
+   }
+  ],
+  "sendai": [
+   {
+    "title": "File:Sendai Subway 1000 Series EMU - 53350792123.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Sendai_Subway_1000_Series_EMU_-_53350792123.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Sendai_Subway_1000_Series_EMU_-_53350792123.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2000,
+    "height": 1333,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Samson Ng . D201@EAL",
+    "credit": "Samson Ng . D201@EAL / CC BY-SA 4.0",
+    "desc": "Sendai Subway began to operate its first railway line in 1987, the Namboku Line. The 4-car 1000 Series trains built by Kawasaki have been in use until nowadays,"
+   }
+  ],
+  "grain": [
+   {
+    "title": "File:Macrophotography of grains of sand in polarised ligth.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Macrophotography_of_grains_of_sand_in_polarised_ligth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Macrophotography_of_grains_of_sand_in_polarised_ligth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2506,
+    "height": 1862,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Jojowikiscience",
+    "credit": "Jojowikiscience / CC BY-SA 4.0",
+    "desc": "Macrophotography of grains of sand in polarised ligth"
+   },
+   {
+    "title": "File:Closeup of sand.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Closeup_of_sand.jpg/3840px-Closeup_of_sand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/1/12/Closeup_of_sand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4967,
+    "height": 2794,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Ypiyush22",
+    "credit": "Ypiyush22 / CC BY-SA 4.0",
+    "desc": "Macro image of sand grains"
+   },
+   {
+    "title": "File:Mite (Parasitengona) in sand.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Mite_%28Parasitengona%29_in_sand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Mite_%28Parasitengona%29_in_sand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1600,
+    "height": 1200,
+    "licence": "Public domain",
+    "artist": "No machine-readable author provided. Cornergraf assumed (based on copyright clai",
+    "credit": "",
+    "desc": "Macro shot of a mite in very fine grained sand. The mite is less than 1 mm long. Warning: While previously identified as a clover mite, it actually belongs to t"
    }
   ]
  }
