@@ -1,0 +1,226 @@
+{
+ "id": "school-of-athens",
+ "painting": {
+  "title": "File:\"The School of Athens\" by Raffaello Sanzio da Urbino.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "full": "https://upload.wikimedia.org/wikipedia/commons/4/49/%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "width": 3820,
+  "height": 2964,
+  "licence": "Public domain",
+  "artist": "Raphael",
+  "credit": "",
+  "desc": "Italian: Scuola di AteneThe School of Athenstitle QS:P1476,it:\"Scuola di Atene\"label QS:Lit,\"Scuola di Atene\"label QS:Les,\"La escuela de Atenas\"label QS:Lfr,\"L'"
+ },
+ "inserts": {
+  "leonardo": [
+   {
+    "title": "File:Leonardo da Vinci - presumed self-portrait - lossless.png",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Leonardo_da_Vinci_-_presumed_self-portrait_-_lossless.png/3840px-Leonardo_da_Vinci_-_presumed_self-portrait_-_lossless.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Leonardo_da_Vinci_-_presumed_self-portrait_-_lossless.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4301,
+    "height": 6700,
+    "licence": "Public domain",
+    "artist": "Leonardo da Vinci",
+    "credit": "",
+    "desc": ""
+   },
+   {
+    "title": "File:Leonardo da Vinci - presumed self-portrait - WGA12798.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Leonardo_da_Vinci_-_presumed_self-portrait_-_WGA12798.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/3/38/Leonardo_da_Vinci_-_presumed_self-portrait_-_WGA12798.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2408,
+    "height": 3754,
+    "licence": "Public domain",
+    "artist": "Leonardo da Vinci",
+    "credit": "",
+    "desc": ""
+   },
+   {
+    "title": "File:JuliusIIC.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/JuliusIIC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/0/0e/JuliusIIC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1008,
+    "height": 552,
+    "licence": "Public domain",
+    "artist": "Leonardo da Vinci--Titian",
+    "credit": "",
+    "desc": "Comparison of: Detail of Red Chalk Drawing (attributed to Leonardo da Vinci)--to: Detail from Portrait of Pope Julius II (Titian)"
+   }
+  ],
+  "michelangelo": [
+   {
+    "title": "File:Michelangelo Daniele da Volterra (dettaglio).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Michelangelo_Daniele_da_Volterra_%28dettaglio%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/0/02/Michelangelo_Daniele_da_Volterra_%28dettaglio%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1382,
+    "height": 1600,
+    "licence": "Public domain",
+    "artist": "Attributed to Daniele da Volterra",
+    "credit": "",
+    "desc": ""
+   },
+   {
+    "title": "File:Michelangelo Daniele da Volterra.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Michelangelo_Daniele_da_Volterra.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/6/67/Michelangelo_Daniele_da_Volterra.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2879,
+    "height": 4000,
+    "licence": "Public domain",
+    "artist": "Attributed to Daniele da Volterra",
+    "credit": "",
+    "desc": "Unfinished portrait of Michelangelo Buonarroti"
+   },
+   {
+    "title": "File:Daniele da volterra, ritratto di michelangelo buonarroti, 1544 ca..JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Daniele_da_volterra%2C_ritratto_di_michelangelo_buonarroti%2C_1544_ca..JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Daniele_da_volterra%2C_ritratto_di_michelangelo_buonarroti%2C_1544_ca..JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1824,
+    "height": 2358,
+    "licence": "CC BY 3.0",
+    "artist": "Sailko",
+    "credit": "Sailko / CC BY 3.0",
+    "desc": ""
+   }
+  ],
+  "raphael": [
+   {
+    "title": "File:Raffaello Sanzio.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Raffaello_Sanzio.jpg/3840px-Raffaello_Sanzio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Raffaello_Sanzio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3898,
+    "height": 5315,
+    "licence": "Public domain",
+    "artist": "Raphael",
+    "credit": "",
+    "desc": "Self-portrait of Raphael, aged approximately 23"
+   },
+   {
+    "title": "File:Self-portrait by Raphael in Pushkin museum (2016) by shakko 03.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Self-portrait_by_Raphael_in_Pushkin_museum_%282016%29_by_shakko_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Self-portrait_by_Raphael_in_Pushkin_museum_%282016%29_by_shakko_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1483,
+    "height": 1890,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Shakko",
+    "credit": "Shakko / CC BY-SA 4.0",
+    "desc": ""
+   },
+   {
+    "title": "File:Self-portrait by Raphael in Pushkin museum (2016) by shakko 01.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Self-portrait_by_Raphael_in_Pushkin_museum_%282016%29_by_shakko_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Self-portrait_by_Raphael_in_Pushkin_museum_%282016%29_by_shakko_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2635,
+    "height": 2962,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Shakko",
+    "credit": "Shakko / CC BY-SA 4.0",
+    "desc": ""
+   }
+  ],
+  "stanza": [
+   {
+    "title": "File:Stanza della Segnatura, detail keystone ceiling Vatican 18.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Stanza_della_Segnatura%2C_detail_keystone_ceiling_Vatican_18.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Stanza_della_Segnatura%2C_detail_keystone_ceiling_Vatican_18.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2304,
+    "height": 2256,
+    "licence": "CC0",
+    "artist": "Jebulon",
+    "credit": "",
+    "desc": "Ceiling of the Stanza della Segnatura in the Rapha\u00ebls rooms. Detail of the keystone, paintings by Rapha\u00ebl. Vatican City."
+   },
+   {
+    "title": "File:Raffael Stanza della Segnatura.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Raffael_Stanza_della_Segnatura.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Raffael_Stanza_della_Segnatura.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1200,
+    "height": 959,
+    "licence": "Public domain",
+    "artist": "Lure",
+    "credit": "",
+    "desc": "Poh\u013ead do Stanza della Segnatura v Apo\u0161tolskom pal\u00e1ci vo Vatik\u00e1ne"
+   },
+   {
+    "title": "File:Stanza della Segnatura (ceiling detail), Vatican Museums.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Stanza_della_Segnatura_%28ceiling_detail%29%2C_Vatican_Museums.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Stanza_della_Segnatura_%28ceiling_detail%29%2C_Vatican_Museums.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3008,
+    "height": 2000,
+    "licence": "CC BY 4.0",
+    "artist": "Quentin Lowagie / Klow",
+    "credit": "Quentin Lowagie / Klow / CC BY 4.0",
+    "desc": "Stanza della Segnatura (ceiling detail), Vatican Museums, Vatican City."
+   }
+  ],
+  "cartoon": [
+   {
+    "title": "File:Raphael-School-of-Athens-Cartoon-Ambrosiana-1.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Raphael-School-of-Athens-Cartoon-Ambrosiana-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Raphael-School-of-Athens-Cartoon-Ambrosiana-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2509,
+    "height": 844,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Christelle Molini\u00e9",
+    "credit": "Christelle Molini\u00e9 / CC BY-SA 4.0",
+    "desc": "Carton pr\u00e9paratoire pour l'Ecole d'Ath\u00e8ne de Rapha\u00ebl conserv\u00e9 \u00e0 la Pinacoteca Ambrosiana de Milan"
+   },
+   {
+    "title": "File:Raphael-Ecole-Athenes-carton-Ambrosiana-1.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Raphael-Ecole-Athenes-carton-Ambrosiana-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/7/74/Raphael-Ecole-Athenes-carton-Ambrosiana-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2794,
+    "height": 1161,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Christelle Molini\u00e9",
+    "credit": "Christelle Molini\u00e9 / CC BY-SA 4.0",
+    "desc": "Carton pr\u00e9paratoire pour l'Ecole d'Ath\u00e8ne de Rapha\u00ebl conserv\u00e9 \u00e0 la Pinacoteca Ambrosiana de Milan"
+   },
+   {
+    "title": "File:Raphael-Ecole-Athenes-carton-Ambrosiana-2.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Raphael-Ecole-Athenes-carton-Ambrosiana-2.jpg/3840px-Raphael-Ecole-Athenes-carton-Ambrosiana-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Raphael-Ecole-Athenes-carton-Ambrosiana-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4032,
+    "height": 3024,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Christelle Molini\u00e9",
+    "credit": "Christelle Molini\u00e9 / CC BY-SA 4.0",
+    "desc": "Carton pr\u00e9paratoire pour l'Ecole d'Ath\u00e8ne de Rapha\u00ebl conserv\u00e9 \u00e0 la Pinacoteca Ambrosiana de Milan (d\u00e9tail)"
+   }
+  ],
+  "sistine": [
+   {
+    "title": "File:Sistine chapel ceiling diagram of areas new.PNG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Sistine_chapel_ceiling_diagram_of_areas_new.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/3/30/Sistine_chapel_ceiling_diagram_of_areas_new.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1793,
+    "height": 2500,
+    "licence": "CC BY-SA 3.0",
+    "artist": "PCfitzart derivative work: Bryguy sanders (talk)",
+    "credit": "PCfitzart derivative work: Bryguy sanders (talk) / CC BY-SA 3.0",
+    "desc": "Rough diagram of Sistine Chapel ceiling, shows location of Genesis stories, prophets, sibyls, and other paintings. I made the image Note that some of the Genesi"
+   },
+   {
+    "title": "File:The Eritrean Sibyl; from the series of Prophets and Sibyls in the Sistine Chapel MET DP821569.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/The_Eritrean_Sibyl%3B_from_the_series_of_Prophets_and_Sibyls_in_the_Sistine_Chapel_MET_DP821569.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/8/8a/The_Eritrean_Sibyl%3B_from_the_series_of_Prophets_and_Sibyls_in_the_Sistine_Chapel_MET_DP821569.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2884,
+    "height": 3745,
+    "licence": "CC0",
+    "artist": "Giorgio Ghisi / Michelangelo",
+    "credit": "",
+    "desc": "Print; Prints"
+   },
+   {
+    "title": "File:The Eritrean Sibyl; from the series of Prophets and Sibyls in the Sistine Chapel MET DP821559.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/The_Eritrean_Sibyl%3B_from_the_series_of_Prophets_and_Sibyls_in_the_Sistine_Chapel_MET_DP821559.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/8/8b/The_Eritrean_Sibyl%3B_from_the_series_of_Prophets_and_Sibyls_in_the_Sistine_Chapel_MET_DP821559.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2898,
+    "height": 3701,
+    "licence": "CC0",
+    "artist": "Giorgio Ghisi / Michelangelo / Nicolaus van Aelst",
+    "credit": "",
+    "desc": "Print; Prints"
+   }
+  ]
+ }
+}

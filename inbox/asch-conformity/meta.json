@@ -2,8 +2,6 @@
  "id": "asch-conformity",
  "painting": null,
  "inserts": {
-  "asch": [],
-  "lines": [],
   "swarthmore": [
    {
     "title": "File:Swarthmore Parrish Hall.jpg",
@@ -39,6 +37,32 @@
     "desc": "Parrish Hall at the center of the en:Swarthmore College campus. Picture taken by me during Ride the Tide, en:2006."
    }
   ],
+  "lines": [],
+  "lines2": [],
+  "students": [
+   {
+    "title": "File:Coal miner's child in grade school. Lejunior, Harlan County, Kentucky. - NARA - 541367.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Coal_miner%27s_child_in_grade_school._Lejunior%2C_Harlan_County%2C_Kentucky._-_NARA_-_541367.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Coal_miner%27s_child_in_grade_school._Lejunior%2C_Harlan_County%2C_Kentucky._-_NARA_-_541367.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2321,
+    "height": 3000,
+    "licence": "Public domain",
+    "artist": "Russell Lee",
+    "credit": "",
+    "desc": ""
+   },
+   {
+    "title": "File:Lorane Christian Church.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Lorane_Christian_Church.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/b/be/Lorane_Christian_Church.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1200,
+    "height": 900,
+    "licence": "CC BY-SA 3.0",
+    "artist": "Paedwards42",
+    "credit": "Paedwards42 / CC BY-SA 3.0",
+    "desc": "On August 3, 1887, Fielding Lemmon deeded a 1-acre portion of the John Delameter donation land claim to a board of trustees, consisting of Reuben Doty, R.A. Wra"
+   }
+  ],
   "mri": [
    {
     "title": "File:Mobile MRI scanner at the Royal Stoke University Hospital - geograph.org.uk - 4276444.jpg",
@@ -72,41 +96,6 @@
     "artist": "Lizadeborah03",
     "credit": "Lizadeborah03 / CC BY-SA 4.0",
     "desc": "MRI Scanner at King Faisal hospital"
-   }
-  ],
-  "jury": [
-   {
-    "title": "File:Jury box in 3rd floor courtroom of the Conway County Courthouse in Morrilton, AR.jpg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Jury_box_in_3rd_floor_courtroom_of_the_Conway_County_Courthouse_in_Morrilton%2C_AR.jpg/3840px-Jury_box_in_3rd_floor_courtroom_of_the_Conway_County_Courthouse_in_Morrilton%2C_AR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Jury_box_in_3rd_floor_courtroom_of_the_Conway_County_Courthouse_in_Morrilton%2C_AR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 3888,
-    "height": 2592,
-    "licence": "CC0",
-    "artist": "Brandonrush",
-    "credit": "",
-    "desc": "Jury box in 3rd floor courtroom of the Conway County Courthouse in Morrilton, AR"
-   },
-   {
-    "title": "File:Jury box in the courtroom of the Van Buren County Courthouse in Clinton, Arkansas.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Jury_box_in_the_courtroom_of_the_Van_Buren_County_Courthouse_in_Clinton%2C_Arkansas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/6/64/Jury_box_in_the_courtroom_of_the_Van_Buren_County_Courthouse_in_Clinton%2C_Arkansas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 3455,
-    "height": 2303,
-    "licence": "CC0",
-    "artist": "Brandonrush",
-    "credit": "",
-    "desc": "Jury box in the courtroom of the Van Buren County Courthouse in Clinton, Arkansas"
-   },
-   {
-    "title": "File:Boone County Courthouse jury box.jpg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Boone_County_Courthouse_jury_box.jpg/3840px-Boone_County_Courthouse_jury_box.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/2/28/Boone_County_Courthouse_jury_box.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 3888,
-    "height": 2592,
-    "licence": "CC0",
-    "artist": "Brandonrush",
-    "credit": "",
-    "desc": "Jury box in the courtroom at the Boone County Courthouse"
    }
   ]
  }

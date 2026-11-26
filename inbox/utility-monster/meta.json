@@ -1,0 +1,182 @@
+{
+ "id": "utility-monster",
+ "painting": null,
+ "inserts": {
+  "nozick": [
+   {
+    "title": "File:Robert Nozick 1977 Libertarian Review cover.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Robert_Nozick_1977_Libertarian_Review_cover.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Robert_Nozick_1977_Libertarian_Review_cover.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1268,
+    "height": 1273,
+    "licence": "Public domain",
+    "artist": "Libertarian Review",
+    "credit": "",
+    "desc": "Robert Nozick, from the cover of the December 1977 issue of The Libertarian Review."
+   },
+   {
+    "title": "File:The Libertarian Review December 1977 cover.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/The_Libertarian_Review_December_1977_cover.jpg/3840px-The_Libertarian_Review_December_1977_cover.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/c/c5/The_Libertarian_Review_December_1977_cover.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3974,
+    "height": 5000,
+    "licence": "Public domain",
+    "artist": "Libertarian Review",
+    "credit": "",
+    "desc": "Cover of the December 1977 issue of The Libertarian Review, featuring Robert Nozick."
+   },
+   {
+    "title": "File:Robert Nozick 1977 Libertarian Review cover (4x5 cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Robert_Nozick_1977_Libertarian_Review_cover_%284x5_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Robert_Nozick_1977_Libertarian_Review_cover_%284x5_cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1018,
+    "height": 1273,
+    "licence": "Public domain",
+    "artist": "Libertarian Review",
+    "credit": "",
+    "desc": "Robert Nozick, from the cover of the December 1977 issue of The Libertarian Review."
+   }
+  ],
+  "bentham": [
+   {
+    "title": "File:Jeremy Bentham by Henry William Pickersgill.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Jeremy_Bentham_by_Henry_William_Pickersgill.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Jeremy_Bentham_by_Henry_William_Pickersgill.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2400,
+    "height": 3546,
+    "licence": "Public domain",
+    "artist": "Henry William Pickersgill",
+    "credit": "",
+    "desc": ""
+   },
+   {
+    "title": "File:Jeremy Bentham by Thomas Frye.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Jeremy_Bentham_by_Thomas_Frye.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Jeremy_Bentham_by_Thomas_Frye.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2286,
+    "height": 3442,
+    "licence": "Public domain",
+    "artist": "Thomas Frye",
+    "credit": "",
+    "desc": ""
+   },
+   {
+    "title": "File:Jeremy Bentham by Henry William Pickersgill (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Jeremy_Bentham_by_Henry_William_Pickersgill_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/5/52/Jeremy_Bentham_by_Henry_William_Pickersgill_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1646,
+    "height": 1503,
+    "licence": "Public domain",
+    "artist": "Henry William Pickersgill",
+    "credit": "",
+    "desc": ""
+   }
+  ],
+  "mill": [
+   {
+    "title": "File:John Stuart Mill,c. 1907. (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/John_Stuart_Mill%2Cc._1907._%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/6/63/John_Stuart_Mill%2Cc._1907._%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2298,
+    "height": 3078,
+    "licence": "No restrictions",
+    "artist": "",
+    "credit": "",
+    "desc": "Postcard featuring a portrait of John Stuart Mill, c. 1907."
+   },
+   {
+    "title": "File:Postcard featuring John Stuart Mill,c. 1907. (22780068945).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Postcard_featuring_John_Stuart_Mill%2Cc._1907._%2822780068945%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Postcard_featuring_John_Stuart_Mill%2Cc._1907._%2822780068945%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2649,
+    "height": 4134,
+    "licence": "No restrictions",
+    "artist": "",
+    "credit": "",
+    "desc": "Postcard featuring a portrait of John Stuart Mill, c. 1907."
+   },
+   {
+    "title": "File:John-stuart-mill-sized.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/John-stuart-mill-sized.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/9/9b/John-stuart-mill-sized.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2723,
+    "height": 3548,
+    "licence": "Public domain",
+    "artist": "as described",
+    "credit": "",
+    "desc": "John Stuart Mill. 19th century Photogravure portrait. After a photograph by John &amp; Charles Watkins, or by John Watkins albumen carte-de-visite, 1865 Nationa"
+   }
+  ],
+  "cake": [
+   {
+    "title": "File:Piece of chocolate cake on a white plate decorated with chocolate sauce.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Piece_of_chocolate_cake_on_a_white_plate_decorated_with_chocolate_sauce.jpg/3840px-Piece_of_chocolate_cake_on_a_white_plate_decorated_with_chocolate_sauce.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Piece_of_chocolate_cake_on_a_white_plate_decorated_with_chocolate_sauce.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 5536,
+    "height": 3766,
+    "licence": "CC0",
+    "artist": "Daria YakovlevaMinor edits made by Subsidiary account",
+    "credit": "",
+    "desc": "Piece of chocolate cake, sprinkled with cocoa powder, on a white plate decorated with chocolate sauce."
+   },
+   {
+    "title": "File:Chocolate cake and Victoria sponge.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Chocolate_cake_and_Victoria_sponge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Chocolate_cake_and_Victoria_sponge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3500,
+    "height": 2333,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Acabashi",
+    "credit": "Acabashi / CC BY-SA 4.0",
+    "desc": "A chocolate cake and sugar-topped Victoria sponge on an outdoor table of a garden in Essex, England.Camera: Canon EOS 6D with Canon EF 24-105mm F4L IS USM lens."
+   },
+   {
+    "title": "File:Kek batik 20230521 173914.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Kek_batik_20230521_173914.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Kek_batik_20230521_173914.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3264,
+    "height": 2448,
+    "licence": "CC0",
+    "artist": "Wiki Farazi",
+    "credit": "",
+    "desc": "Kek batik, sejenis kuih yang terbuat daripada coklat yang telah dicairkan dengan biskut Marie yang kemudiannya disejukbekukan di dalam peti sejuk."
+   }
+  ],
+  "book": [],
+  "parfit": [
+   {
+    "title": "File:Derek Parfit at Harvard-April 21, 2015-Effective Altruism.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Derek_Parfit_at_Harvard-April_21%2C_2015-Effective_Altruism.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/2/25/Derek_Parfit_at_Harvard-April_21%2C_2015-Effective_Altruism.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2560,
+    "height": 1707,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Anna Riedl",
+    "credit": "Anna Riedl / CC BY-SA 4.0",
+    "desc": "Derek Parfit"
+   },
+   {
+    "title": "File:Dr. Nir Eyal at Harvard Effective Altruism lecture, April 2015.2.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Dr._Nir_Eyal_at_Harvard_Effective_Altruism_lecture%2C_April_2015.2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Dr._Nir_Eyal_at_Harvard_Effective_Altruism_lecture%2C_April_2015.2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3456,
+    "height": 2304,
+    "licence": "CC BY-SA 4.0",
+    "artist": "MaynardClark",
+    "credit": "MaynardClark / CC BY-SA 4.0",
+    "desc": "Nir Eyal (bioethicist)Dr. Nir Eyal was Faculty Advisor for Harvard's Effective Altruism group and invited Derek Parfit to lecture; this photo was of Dr. Eyal's "
+   },
+   {
+    "title": "File:Diseases of women. A clinical guide to their diagnosis and treatment (1899) (14745167116).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Diseases_of_women._A_clinical_guide_to_their_diagnosis_and_treatment_%281899%29_%2814745167116%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/0/02/Diseases_of_women._A_clinical_guide_to_their_diagnosis_and_treatment_%281899%29_%2814745167116%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1464,
+    "height": 1872,
+    "licence": "No restrictions",
+    "artist": "Internet Archive Book Images",
+    "credit": "",
+    "desc": "Identifier: diseasesofwomenc00herm (find matches) Title: Diseases of women. A clinical guide to their diagnosis and treatment Year: 1899 (1890s) Authors: Herman"
+   }
+  ]
+ }
+}
