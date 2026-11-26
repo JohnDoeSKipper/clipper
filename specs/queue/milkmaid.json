@@ -1,0 +1,290 @@
+{
+ "id": "milkmaid",
+ "channel": "paintings",
+ "angle": "Why did Vermeer spend a blue costlier than gold on a kitchen maid?",
+ "answer": "Dutch painters usually made maids a joke about lust; Vermeer kept only faint hints (a foot warmer, a tiny Cupid tile), painted out a jug rack and a laundry basket, and gave the servant his costliest colour and light, so a scene of thrift became the dignified picture the Dutch state paid a fortune for in 1908.",
+ "logline": "Her apron is a blue costlier than gold, so why spend it on a maid? Dutch art made maids a joke, and the hints are still here, a foot warmer and a Cupid tile, but Vermeer took most of the joke out, painting out a jug rack and a laundry basket, so what's left is a woman, a wall and light, and she's making bread pudding, thrift not lust, but Vermeer died in debt, while in 1908 the state paid 550,000 guilders for her, so the maid in a king's blue became a national treasure.",
+ "hook_text": "A BLUE COSTLIER THAN GOLD",
+ "hooks": [
+  "Scans found two objects Vermeer painted out of The Milkmaid.",
+  "Look for the tiny Cupid hidden near her feet."
+ ],
+ "painting": {
+  "title": "The Milkmaid",
+  "artist": "Johannes Vermeer",
+  "year": "c. 1658-1659",
+  "museum": "Rijksmuseum, Amsterdam"
+ },
+ "script": [
+  {
+   "text": "This maid's apron is painted in a blue costlier than gold.",
+   "beat": "hook"
+  },
+  {
+   "text": "Ultramarine, ground from lapis lazuli mined in Afghanistan.",
+   "beat": "hook",
+   "link": "detail"
+  },
+  {
+   "text": "So why spend a fortune on a servant pouring milk?",
+   "beat": "question",
+   "link": "so"
+  },
+  {
+   "text": "In Dutch paintings of the time, kitchen maids were often a joke about lust.",
+   "beat": "reveal1",
+   "link": "answer"
+  },
+  {
+   "text": "The hints are still here: a foot warmer, and beside it a tiny Cupid on a tile.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "But Vermeer took most of the joke out.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "In 2022, scans found a jug rack he had painted out of this bare wall.",
+   "say": "In twenty twenty-two, scans found a jug rack he had painted out of this bare wall.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "Behind the foot warmer, he removed a big laundry basket too.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "So what's left is a woman, a wall, and light.",
+   "beat": "reveal2",
+   "link": "so"
+  },
+  {
+   "text": "So the light does the work: even the bread glitters with tiny dots of paint.",
+   "beat": "reveal3",
+   "link": "so"
+  },
+  {
+   "text": "And she's probably making bread pudding from stale crusts: thrift, not flirtation.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "But Vermeer himself died in debt at 43, leaving eleven children.",
+   "say": "But Vermeer himself died in debt at forty-three, leaving eleven children.",
+   "beat": "turn",
+   "link": "but"
+  },
+  {
+   "text": "In 1908, the Dutch state paid 550,000 guilders for this small canvas.",
+   "say": "In nineteen oh eight, the Dutch state paid five hundred and fifty thousand guilders for this small canvas.",
+   "beat": "turn",
+   "link": "but"
+  },
+  {
+   "text": "So the maid he dressed in a king's blue became a national treasure.",
+   "beat": "payoff",
+   "link": "so"
+  }
+ ],
+ "music": {
+  "piece": "schumann-traumerei"
+ },
+ "timeline": [
+  {
+   "type": "reveal",
+   "from": [
+    0.58,
+    0.62,
+    2.4
+   ],
+   "until": 3.2
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "lapis",
+    1
+   ],
+   "caption": "Lapis lazuli, the stone behind ultramarine",
+   "at": "1",
+   "to": "2-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.335,
+    0.59,
+    0.04,
+    0.06
+   ],
+   "ring": "2",
+   "zoom": "2+0.4",
+   "label": "MILK",
+   "labelAt": "2:milk",
+   "out": "3-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.58,
+    0.25,
+    0.1,
+    0.1
+   ],
+   "ring": "3",
+   "zoom": "3+0.4",
+   "label": "A JOKE?",
+   "labelAt": "3:joke",
+   "out": "4-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.82,
+    0.88,
+    0.1,
+    0.06
+   ],
+   "ring": "4",
+   "zoom": "4+0.4",
+   "label": "FOOT WARMER",
+   "labelAt": "4:warmer",
+   "out": "5-0.3",
+   "then": {
+    "region": [
+     0.755,
+     0.85,
+     0.025,
+     0.025
+    ],
+    "ring": "4:Cupid",
+    "zoom": "4:Cupid+0.3",
+    "label": "CUPID"
+   }
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.55,
+    0.4,
+    0.2,
+    0.3
+   ],
+   "ring": "5",
+   "zoom": "5+0.4",
+   "out": "6-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.83,
+    0.25,
+    0.11,
+    0.12
+   ],
+   "ring": "6",
+   "zoom": "6+0.4",
+   "label": "A JUG RACK WAS HERE",
+   "labelAt": "6:rack",
+   "out": "7-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.85,
+    0.84,
+    0.13,
+    0.11
+   ],
+   "ring": "7",
+   "zoom": "7+0.4",
+   "label": "A BASKET WAS HERE",
+   "labelAt": "7:basket",
+   "out": "8-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.55,
+    0.45,
+    0.4,
+    0.45
+   ],
+   "ring": "8",
+   "zoom": "8+0.4",
+   "out": "9-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.38,
+    0.69,
+    0.13,
+    0.07
+   ],
+   "ring": "9",
+   "zoom": "9+0.4",
+   "label": "DOTS OF LIGHT",
+   "labelAt": "9:dots",
+   "out": "10-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.42,
+    0.66,
+    0.12,
+    0.08
+   ],
+   "ring": "10",
+   "zoom": "10+0.4",
+   "label": "BREAD PUDDING",
+   "labelAt": "10:pudding",
+   "out": "11-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "vermeer",
+    1
+   ],
+   "caption": "Possibly Vermeer, in The Procuress",
+   "at": "11",
+   "to": "12-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "rijks",
+    1
+   ],
+   "caption": "The Rijksmuseum, Amsterdam",
+   "at": "12",
+   "to": "13-0.3"
+  }
+ ],
+ "sources": [
+  "https://www.rijksmuseum.nl/en/collection/SK-A-2344",
+  "https://www.rijksmuseum.nl/en/stories/operation-night-watch/story/hidden-objects-milkmaid",
+  "https://www.metmuseum.org/exhibitions/listings/2009/vermeer",
+  "https://www.essentialvermeer.com/catalogue/milkmaid.html",
+  "https://en.wikipedia.org/wiki/The_Milkmaid_(Vermeer)"
+ ],
+ "post": {
+  "caption": "Vermeer painted this kitchen maid's apron with ultramarine, a blue that cost more than gold. Scans in 2022 showed he also painted out a jug rack and a laundry basket.\nCan you find the tiny Cupid by her feet?",
+  "tags": [
+   "#arthistory",
+   "#vermeer",
+   "#themilkmaid",
+   "#rijksmuseum",
+   "#dutchgoldenage"
+  ],
+  "youtube_title": "Vermeer Spent a Fortune in Blue on a Kitchen Maid"
+ }
+}

@@ -1,6 +1,27 @@
 # Model scripts (newest first)
 The writer reads the top two of its channel before writing and matches or beats them: same spine (beats in order, every sentence linked to the one before), never the same facts or hooks. Each script the writer makes is added at the top in this format. Kept to the last 12.
 
+## milkmaid (paintings, 2026-11-27)
+
+Angle: Why did Vermeer spend a blue costlier than gold on a kitchen maid?
+Logline: Her apron is a blue costlier than gold, so why spend it on a maid? Dutch art made maids a joke, and the hints are still here, a foot warmer and a Cupid tile, but Vermeer took most of the joke out, painting out a jug rack and a laundry basket, so what's left is a woman, a wall and light, and she's making bread pudding, thrift not lust, but Vermeer died in debt, while in 1908 the state paid 550,000 guilders for her, so the maid in a king's blue became a national treasure.
+On-screen hook: A BLUE COSTLIER THAN GOLD
+
+[hook] This maid's apron is painted in a blue costlier than gold.
+[hook / detail] Ultramarine, ground from lapis lazuli mined in Afghanistan.
+[question / so] So why spend a fortune on a servant pouring milk?
+[reveal1 / answer] In Dutch paintings of the time, kitchen maids were often a joke about lust.
+[reveal1 / detail] The hints are still here: a foot warmer, and beside it a tiny Cupid on a tile.
+[reveal2 / but] But Vermeer took most of the joke out.
+[reveal2 / detail] In 2022, scans found a jug rack he had painted out of this bare wall.
+[reveal2 / detail] Behind the foot warmer, he removed a big laundry basket too.
+[reveal2 / so] So what's left is a woman, a wall, and light.
+[reveal3 / so] So the light does the work: even the bread glitters with tiny dots of paint.
+[reveal3 / detail] And she's probably making bread pudding from stale crusts: thrift, not flirtation.
+[turn / but] But Vermeer himself died in debt at 43, leaving eleven children.
+[turn / but] In 1908, the Dutch state paid 550,000 guilders for this small canvas.
+[payoff / so] So the maid he dressed in a king's blue became a national treasure.
+
 ## monty-hall (philosophy, 2026-11-27)
 
 Angle: Why does a simple game-show puzzle fool even brilliant people?
@@ -254,27 +275,3 @@ On-screen hook: THE FIRST SHIP IN 13 DAYS
 [turn / but] But look again at that speck: the real ship sailed out of sight.
 [turn / detail] It returned two hours later; he painted the moment hope might fail.
 [payoff / so] He called it simply Scene of a Shipwreck, and all Paris knew which.
-
-## buridans-donkey (philosophy, 2026-11-27)
-
-Angle: Can a mind with no reason to choose ever choose at all?
-Logline: A perfectly logical donkey between two equal piles would starve, so can a mind choose without a reason? The puzzle carries a Paris philosopher's name, but he never wrote it, because critics made it up to mock him, but the idea is older: Aristotle's starving man, and Spinoza agreed he would die, but Leibniz said balance never happens, but in 1984 Lamport found the donkey inside every chip, so engineers can make the stall rare but never impossible, but journals rejected him for decades, so real choosers survive by cheating.
-On-screen hook: TWO EQUAL PILES. NO CHOICE.
-
-[hook] A perfectly logical donkey, between two identical piles of hay, would starve.
-[hook / because] It has no reason to pick one over the other.
-[question / so] So can a mind with no reason to choose ever choose at all?
-[reveal1 / answer] The puzzle carries the name of a 14th-century Paris philosopher.
-[reveal1 / but] But the donkey never appears in his surviving writings.
-[reveal1 / because] Critics likely invented it to mock his view that the will must follow reason.
-[reveal2 / but] But the idea is far older.
-[reveal2 / detail] Aristotle pictured a man as hungry as he was thirsty, frozen between food and drink.
-[reveal2 / detail] In 1677, Spinoza agreed such a man would die, and said he didn't know if he was a man or an ass.
-[reveal2 / but] Leibniz replied that perfect balance never happens: some tiny difference always tips you.
-[reveal3 / but] But in 1984, computer scientist Leslie Lamport found the donkey inside every computer.
-[reveal3 / detail] A chip deciding whether a signal came before or after a clock tick can stick in between.
-[reveal3 / detail] Engineers call it metastability, and it can crash a system.
-[reveal3 / so] So they make the stall astronomically rare, but never impossible.
-[turn / but] But journals rejected Lamport's paper; it was finally published in 2012.
-[payoff / so] So real choosers survive by cheating: a coin flip, a whim, a tiny bias.
-[payoff / so] When two options are truly equal, is flipping a coin the most rational thing you can do?
