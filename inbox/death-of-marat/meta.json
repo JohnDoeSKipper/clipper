@@ -1,0 +1,226 @@
+{
+ "id": "death-of-marat",
+ "painting": {
+  "title": "File:Death of Marat by David.jpg",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Death_of_Marat_by_David.jpg/3840px-Death_of_Marat_by_David.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "full": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Death_of_Marat_by_David.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "width": 4045,
+  "height": 5205,
+  "licence": "Public domain",
+  "artist": "Jacques-Louis David",
+  "credit": "",
+  "desc": ""
+ },
+ "inserts": {
+  "david": [
+   {
+    "title": "File:David Self Portrait.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/David_Self_Portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/c/c6/David_Self_Portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2500,
+    "height": 3510,
+    "licence": "Public domain",
+    "artist": "Jacques-Louis David",
+    "credit": "",
+    "desc": ""
+   },
+   {
+    "title": "File:Jacques-Louis David - Self-portrait, 1794.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Jacques-Louis_David_-_Self-portrait%2C_1794.jpg/3840px-Jacques-Louis_David_-_Self-portrait%2C_1794.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Jacques-Louis_David_-_Self-portrait%2C_1794.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4509,
+    "height": 5701,
+    "licence": "Public domain",
+    "artist": "Jacques-Louis David",
+    "credit": "",
+    "desc": ""
+   },
+   {
+    "title": "File:Self-portrait by Jacques-Louis David (detail).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Self-portrait_by_Jacques-Louis_David_%28detail%29.jpg/3840px-Self-portrait_by_Jacques-Louis_David_%28detail%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Self-portrait_by_Jacques-Louis_David_%28detail%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 5712,
+    "height": 7056,
+    "licence": "Public domain",
+    "artist": "",
+    "credit": "",
+    "desc": "detail"
+   }
+  ],
+  "corday": [
+   {
+    "title": "File:Charlotte Corday selon Hauer.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Charlotte_Corday_selon_Hauer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Charlotte_Corday_selon_Hauer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1050,
+    "height": 1705,
+    "licence": "Public domain",
+    "artist": "auteur inconnu",
+    "credit": "",
+    "desc": "Portrait de Charlotte Corday, ex\u00e9cut\u00e9 par Hauer, \u00e0 l\u2019audience du tribunal &amp; termin\u00e9 au cachot, juste avant l\u2019ex\u00e9cution."
+   },
+   {
+    "title": "File:AR-Corday-Hauer-Livre.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/AR-Corday-Hauer-Livre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/2/27/AR-Corday-Hauer-Livre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2305,
+    "height": 3415,
+    "licence": "CC0",
+    "artist": "DeuxPlusQuatre",
+    "credit": "",
+    "desc": "Jean-Jacque Haeuer - Charlotte Corday tennant un livre - plume encre brune. Exposition Amazone de la r\u00e9volution : Des femmes dans la tourmente- Mus\u00e9e Lambinet -"
+   },
+   {
+    "title": "File:Charlotte Corday.PNG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Charlotte_Corday.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/6/68/Charlotte_Corday.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1163,
+    "height": 1438,
+    "licence": "Public domain",
+    "artist": "Jean-Jacques Hauer",
+    "credit": "",
+    "desc": ""
+   }
+  ],
+  "marat": [
+   {
+    "title": "File:Jean-Paul Marat portre.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Jean-Paul_Marat_portre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/8/80/Jean-Paul_Marat_portre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3110,
+    "height": 3830,
+    "licence": "Public domain",
+    "artist": "Joseph Boze",
+    "credit": "",
+    "desc": "Portrait of Jean-Paul Marat (1743-1793)"
+   },
+   {
+    "title": "File:Jean Paul Marat. Lithograph by W. H. Egleton after J. Boze, Wellcome V0003831.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Jean_Paul_Marat._Lithograph_by_W._H._Egleton_after_J._Boze%2C_Wellcome_V0003831.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/2/21/Jean_Paul_Marat._Lithograph_by_W._H._Egleton_after_J._Boze%2C_Wellcome_V0003831.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1600,
+    "height": 2338,
+    "licence": "CC BY 2.0",
+    "artist": "",
+    "credit": " / CC BY 2.0",
+    "desc": "Genre/Technique: Portrait prints. Lithographs. Subject name: Marat, Jean Paul, 1743-1793."
+   },
+   {
+    "title": "File:Joseph Boze - Portrait de Jean-Paul Marat (1743-1793), homme politique - P28 - Mus\u00e9e Carnavalet.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Joseph_Boze_-_Portrait_de_Jean-Paul_Marat_%281743-1793%29%2C_homme_politique_-_P28_-_Mus%C3%A9e_Carnavalet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Joseph_Boze_-_Portrait_de_Jean-Paul_Marat_%281743-1793%29%2C_homme_politique_-_P28_-_Mus%C3%A9e_Carnavalet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3304,
+    "height": 3995,
+    "licence": "Public domain",
+    "artist": "Joseph Boze",
+    "credit": "",
+    "desc": ""
+   }
+  ],
+  "bath": [
+   {
+    "title": "File:Death of Marat Wellcome V0018891.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Death_of_Marat_Wellcome_V0018891.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Death_of_Marat_Wellcome_V0018891.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2243,
+    "height": 3180,
+    "licence": "CC BY 4.0",
+    "artist": "",
+    "credit": " / CC BY 4.0",
+    "desc": "Charlotte Corday hiding behind a curtain, Marat dead in his bath. Iconographic Collections Keywords: Jean Paul Marat; Jules-Charles Aviat; Charlotte Corday"
+   },
+   {
+    "title": "File:C Hocquet - Assassinat de Marat - 1793.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/C_Hocquet_-_Assassinat_de_Marat_-_1793.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/0/07/C_Hocquet_-_Assassinat_de_Marat_-_1793.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1132,
+    "height": 1024,
+    "licence": "Public domain",
+    "artist": "C. Hocquet (engraver)[1]",
+    "credit": "",
+    "desc": ""
+   },
+   {
+    "title": "File:Marat murdered in his bath by Charlotte Corday. Wellcome L0002579.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Marat_murdered_in_his_bath_by_Charlotte_Corday._Wellcome_L0002579.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/b/be/Marat_murdered_in_his_bath_by_Charlotte_Corday._Wellcome_L0002579.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1130,
+    "height": 1640,
+    "licence": "CC BY 4.0",
+    "artist": "",
+    "credit": " / CC BY 4.0",
+    "desc": "The murdered Marat in a bath, Charlotte Corday staning behind a curtain. Unsigned after a painting by Jules Aviat at Perigueux Museum. Iconographic Collections "
+   }
+  ],
+  "brussels": [
+   {
+    "title": "File:Royal Museums of Fine Arts of Belgium (Brussels) - View of the main facade on Rue de la R\u00e9gence with bronze statues and museum banners.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Royal_Museums_of_Fine_Arts_of_Belgium_%28Brussels%29_-_View_of_the_main_facade_on_Rue_de_la_R%C3%A9gence_with_bronze_statues_and_museum_banners.jpg/3840px-Royal_Museums_of_Fine_Arts_of_Belgium_%28Brussels%29_-_View_of_the_main_facade_on_Rue_de_la_R%C3%A9gence_with_bronze_statues_and_museum_banners.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Royal_Museums_of_Fine_Arts_of_Belgium_%28Brussels%29_-_View_of_the_main_facade_on_Rue_de_la_R%C3%A9gence_with_bronze_statues_and_museum_banners.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 5262,
+    "height": 3508,
+    "licence": "CC BY-SA 4.0",
+    "artist": "iMahesh",
+    "credit": "iMahesh / CC BY-SA 4.0",
+    "desc": "Angled exterior shot showing the neoclassical facade of the main building, prominent street-level bronze sculptures, and museum vertical banners hanging between"
+   },
+   {
+    "title": "File:Zittend naakt, Amedeo Modigliani, (1917), Koninklijk Museum voor Schone Kunsten Antwerpen, 2060.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Zittend_naakt%2C_Amedeo_Modigliani%2C_%281917%29%2C_Koninklijk_Museum_voor_Schone_Kunsten_Antwerpen%2C_2060.jpg/3840px-Zittend_naakt%2C_Amedeo_Modigliani%2C_%281917%29%2C_Koninklijk_Museum_voor_Schone_Kunsten_Antwerpen%2C_2060.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/b/be/Zittend_naakt%2C_Amedeo_Modigliani%2C_%281917%29%2C_Koninklijk_Museum_voor_Schone_Kunsten_Antwerpen%2C_2060.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4880,
+    "height": 7892,
+    "licence": "Public domain",
+    "artist": "Amedeo Modigliani",
+    "credit": "",
+    "desc": ""
+   },
+   {
+    "title": "File:Royal Museums of Fine Arts of Belgium 20180629.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Royal_Museums_of_Fine_Arts_of_Belgium_20180629.jpg/3840px-Royal_Museums_of_Fine_Arts_of_Belgium_20180629.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Royal_Museums_of_Fine_Arts_of_Belgium_20180629.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 5184,
+    "height": 3456,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Suicasmo",
+    "credit": "Suicasmo / CC BY-SA 4.0",
+    "desc": "Royal Museums of Fine Arts of Belgium"
+   }
+  ],
+  "pieta": [
+   {
+    "title": "File:Michelangelo's Pieta 5450 cropncleaned edit.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Michelangelo%27s_Pieta_5450_cropncleaned_edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Michelangelo%27s_Pieta_5450_cropncleaned_edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1584,
+    "height": 1660,
+    "licence": "CC BY 2.5",
+    "artist": "Stanislav Traykov",
+    "credit": "Stanislav Traykov / CC BY 2.5",
+    "desc": "Piet\u00e0 (1498\u20131499), by Michaelangelo. St. Peter's Basilica, Vatican City"
+   },
+   {
+    "title": "File:Michelangelo's Piet\u00e0 Saint Peter's Basilica Vatican City.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Michelangelo%27s_Piet%C3%A0_Saint_Peter%27s_Basilica_Vatican_City.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Michelangelo%27s_Piet%C3%A0_Saint_Peter%27s_Basilica_Vatican_City.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2936,
+    "height": 2710,
+    "licence": "CC0",
+    "artist": "Jebulon",
+    "credit": "",
+    "desc": ""
+   },
+   {
+    "title": "File:The Piet\u00e0 by Michelangelo (48135182552).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/The_Piet%C3%A0_by_Michelangelo_%2848135182552%29.jpg/3840px-The_Piet%C3%A0_by_Michelangelo_%2848135182552%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/5/5b/The_Piet%C3%A0_by_Michelangelo_%2848135182552%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4009,
+    "height": 2667,
+    "licence": "CC BY-SA 2.0",
+    "artist": "Michelangelo",
+    "credit": "Michelangelo / CC BY-SA 2.0",
+    "desc": "The Piet\u00e0 by Michelangelo"
+   }
+  ]
+ }
+}

@@ -1,0 +1,215 @@
+{
+ "id": "ophelia",
+ "painting": {
+  "title": "File:John Everett Millais - Ophelia - Google Art Project.jpg",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/John_Everett_Millais_-_Ophelia_-_Google_Art_Project.jpg/3840px-John_Everett_Millais_-_Ophelia_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "full": "https://upload.wikimedia.org/wikipedia/commons/9/94/John_Everett_Millais_-_Ophelia_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "width": 7087,
+  "height": 4820,
+  "licence": "Public domain",
+  "artist": "John Everett Millais",
+  "credit": "",
+  "desc": "Depicted people: w:Ophelia and Elizabeth Siddal (sitter)"
+ },
+ "inserts": {
+  "millais": [
+   {
+    "title": "File:John Everett Millais - Ophelia - Google Art Project.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/John_Everett_Millais_-_Ophelia_-_Google_Art_Project.jpg/3840px-John_Everett_Millais_-_Ophelia_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/9/94/John_Everett_Millais_-_Ophelia_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 7087,
+    "height": 4820,
+    "licence": "Public domain",
+    "artist": "John Everett Millais",
+    "credit": "",
+    "desc": "Depicted people: w:Ophelia and Elizabeth Siddal (sitter)"
+   },
+   {
+    "title": "File:John Everett Millais - Mariana - Google Art Project.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/John_Everett_Millais_-_Mariana_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/c/c8/John_Everett_Millais_-_Mariana_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2260,
+    "height": 2771,
+    "licence": "Public domain",
+    "artist": "John Everett Millais",
+    "credit": "",
+    "desc": ""
+   },
+   {
+    "title": "File:John Henry Newman by Sir John Everett Millais, 1st Bt.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/John_Henry_Newman_by_Sir_John_Everett_Millais%2C_1st_Bt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/a/ab/John_Henry_Newman_by_Sir_John_Everett_Millais%2C_1st_Bt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2400,
+    "height": 3104,
+    "licence": "Public domain",
+    "artist": "John Everett Millais",
+    "credit": "",
+    "desc": "John Henry Newman, by Sir John Everett Millais, 1st Bt (died 1896)"
+   }
+  ],
+  "siddal": [
+   {
+    "title": "File:Dante Gabriel Rossetti - Miss Elizabeth Siddal - B1975.4.681 - Yale Center for British Art.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Dante_Gabriel_Rossetti_-_Miss_Elizabeth_Siddal_-_B1975.4.681_-_Yale_Center_for_British_Art.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Dante_Gabriel_Rossetti_-_Miss_Elizabeth_Siddal_-_B1975.4.681_-_Yale_Center_for_British_Art.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1126,
+    "height": 1920,
+    "licence": "CC0",
+    "artist": "Dante Gabriel Rossetti",
+    "credit": "",
+    "desc": ""
+   },
+   {
+    "title": "File:Elizabeth Siddal sketched by Dante Gabriel Rossetti.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Elizabeth_Siddal_sketched_by_Dante_Gabriel_Rossetti.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Elizabeth_Siddal_sketched_by_Dante_Gabriel_Rossetti.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1858,
+    "height": 2514,
+    "licence": "CC0",
+    "artist": "Shani Evenstein (\u05e9\u05e0\u05d9 \u05d0\u05d1\u05e0\u05e9\u05d8\u05d9\u05d9\u05df)",
+    "credit": "",
+    "desc": "Elizabeth Siddal sketched by Dante Gabriel Rossetti, displayed at the William Morris Gallery, London."
+   }
+  ],
+  "hogsmill": [
+   {
+    "title": "File:Hogsmill River, Ewell - geograph.org.uk - 3021604.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Hogsmill_River%2C_Ewell_-_geograph.org.uk_-_3021604.jpg/3840px-Hogsmill_River%2C_Ewell_-_geograph.org.uk_-_3021604.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Hogsmill_River%2C_Ewell_-_geograph.org.uk_-_3021604.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4288,
+    "height": 3216,
+    "licence": "CC BY-SA 2.0",
+    "artist": "Colin Smith",
+    "credit": "Colin Smith / CC BY-SA 2.0",
+    "desc": "Hogsmill River, Ewell"
+   },
+   {
+    "title": "File:Hogsmill River, Ewell - geograph.org.uk - 3044182.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Hogsmill_River%2C_Ewell_-_geograph.org.uk_-_3044182.jpg/3840px-Hogsmill_River%2C_Ewell_-_geograph.org.uk_-_3044182.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Hogsmill_River%2C_Ewell_-_geograph.org.uk_-_3044182.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4288,
+    "height": 3216,
+    "licence": "CC BY-SA 2.0",
+    "artist": "Colin Smith",
+    "credit": "Colin Smith / CC BY-SA 2.0",
+    "desc": "Hogsmill River, Ewell"
+   },
+   {
+    "title": "File:Ewell, Hogsmill River - geograph.org.uk - 3021681.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Ewell%2C_Hogsmill_River_-_geograph.org.uk_-_3021681.jpg/3840px-Ewell%2C_Hogsmill_River_-_geograph.org.uk_-_3021681.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Ewell%2C_Hogsmill_River_-_geograph.org.uk_-_3021681.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4288,
+    "height": 3216,
+    "licence": "CC BY-SA 2.0",
+    "artist": "Colin Smith",
+    "credit": "Colin Smith / CC BY-SA 2.0",
+    "desc": "Ewell, Hogsmill River"
+   }
+  ],
+  "tate": [
+   {
+    "title": "File:Tate Britain 2020.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Tate_Britain_2020.jpg/3840px-Tate_Britain_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Tate_Britain_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 5972,
+    "height": 3987,
+    "licence": "CC BY 4.0",
+    "artist": "Julian Herzog (Website)",
+    "credit": "Julian Herzog (Website) / CC BY 4.0",
+    "desc": "Tate Britain building seen from the footpath along the Thames, in evening light."
+   },
+   {
+    "title": "File:Tate Britain, Millbank.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Tate_Britain%2C_Millbank.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Tate_Britain%2C_Millbank.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3648,
+    "height": 2736,
+    "licence": "CC BY-SA 3.0",
+    "artist": "Rept0n1x",
+    "credit": "Rept0n1x / CC BY-SA 3.0",
+    "desc": "The Tate Britain Art Gallery on Millbank, London."
+   },
+   {
+    "title": "File:Tate Britain, Millbank - panoramio (1).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Tate_Britain%2C_Millbank_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/4/46/Tate_Britain%2C_Millbank_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3648,
+    "height": 2048,
+    "licence": "CC BY-SA 3.0",
+    "artist": "Carlos Cunha",
+    "credit": "Carlos Cunha / CC BY-SA 3.0",
+    "desc": "Tate Britain, Millbank"
+   }
+  ],
+  "poppy": [
+   {
+    "title": "File:Poppies bouquet 2017 G1.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Poppies_bouquet_2017_G1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/7/74/Poppies_bouquet_2017_G1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3200,
+    "height": 4600,
+    "licence": "Public domain",
+    "artist": "George Chernilevsky",
+    "credit": "",
+    "desc": "A bouquet of poppies (Papaver orientale). Ukraine, Vinnytsia"
+   },
+   {
+    "title": "File:Red Poppy Papaver Flower Top 2008px.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Red_Poppy_Papaver_Flower_Top_2008px.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/a/af/Red_Poppy_Papaver_Flower_Top_2008px.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2008,
+    "height": 1943,
+    "licence": "CC BY-SA 3.0",
+    "artist": "Photo by and (c)2008 Derek Ramsey (Ram-Man). Co-attribution must be given to the",
+    "credit": "Photo by and (c)2008 Derek Ramsey (Ram-Man). Co-attribution must be given to the / CC BY-SA 3.0",
+    "desc": "Picture of a red Poppy en flower. Photo taken at the Chanticleer Garden. Camera and Exposure Details:Camera: Canon PowerShot S3 ISLens: Canon 1:2.7-3.5 USM 12x "
+   },
+   {
+    "title": "File:Red Poppy Papaver Flower Closeup 2049px.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Red_Poppy_Papaver_Flower_Closeup_2049px.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/0/08/Red_Poppy_Papaver_Flower_Closeup_2049px.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2049,
+    "height": 1620,
+    "licence": "CC BY-SA 3.0",
+    "artist": "Photo by and (c)2008 Derek Ramsey (Ram-Man). Co-attribution must be given to the",
+    "credit": "Photo by and (c)2008 Derek Ramsey (Ram-Man). Co-attribution must be given to the / CC BY-SA 3.0",
+    "desc": "Picture of a red Poppy en flower. Photo taken at the Chanticleer Garden. Camera and Exposure Details:Camera: Canon PowerShot S3 ISLens: Canon 1:2.7-3.5 USM 12x "
+   }
+  ],
+  "robin": [
+   {
+    "title": "File:European robin (Erithacus rubecula) juvenile.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/European_robin_%28Erithacus_rubecula%29_juvenile.jpg/3840px-European_robin_%28Erithacus_rubecula%29_juvenile.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/d/d0/European_robin_%28Erithacus_rubecula%29_juvenile.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4950,
+    "height": 3299,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Charles J. Sharp",
+    "credit": "Charles J. Sharp / CC BY-SA 4.0",
+    "desc": "European robin (Erithacus rubecula) juvenile, Great Dixter, Sussex"
+   },
+   {
+    "title": "File:Erithacus rubecula with cocked head.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Erithacus_rubecula_with_cocked_head.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Erithacus_rubecula_with_cocked_head.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2574,
+    "height": 2059,
+    "licence": "CC BY-SA 3.0",
+    "artist": "Francis C. Franklin",
+    "credit": "Francis C. Franklin / CC BY-SA 3.0",
+    "desc": "European Robin (Erithacus rubecula)"
+   },
+   {
+    "title": "File:Erithacus rubecula profile.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Erithacus_rubecula_profile.jpg/3840px-Erithacus_rubecula_profile.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/4/47/Erithacus_rubecula_profile.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3945,
+    "height": 3945,
+    "licence": "CC BY-SA 4.0",
+    "artist": "C-M",
+    "credit": "C-M / CC BY-SA 4.0",
+    "desc": "Rotkehlchen auf einem Schild"
+   }
+  ]
+ }
+}

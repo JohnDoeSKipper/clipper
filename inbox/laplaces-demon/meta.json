@@ -1,0 +1,171 @@
+{
+ "id": "laplaces-demon",
+ "painting": null,
+ "inserts": {
+  "laplace": [
+   {
+    "title": "File:Les merveilles de l'industrie, 1873 \"Pierre-Simon Laplace\" (4840056407).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Les_merveilles_de_l%27industrie%2C_1873_%22Pierre-Simon_Laplace%22_%284840056407%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/7/78/Les_merveilles_de_l%27industrie%2C_1873_%22Pierre-Simon_Laplace%22_%284840056407%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2722,
+    "height": 3777,
+    "licence": "CC BY 2.0",
+    "artist": "Louis Figuier",
+    "credit": "Louis Figuier / CC BY 2.0",
+    "desc": "Les merveilles de l'industrie ou, Description des principales industries modernes, Louis Figuier. Paris : Furne, Jouvet, 1873 -1877. Tome 3."
+   },
+   {
+    "title": "File:Portrait de Pierre-Simon, marquis de Laplace (1749-1827), g\u00e9om\u00e8tre et astronome, S442.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Portrait_de_Pierre-Simon%2C_marquis_de_Laplace_%281749-1827%29%2C_g%C3%A9om%C3%A8tre_et_astronome%2C_S442.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Portrait_de_Pierre-Simon%2C_marquis_de_Laplace_%281749-1827%29%2C_g%C3%A9om%C3%A8tre_et_astronome%2C_S442.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3000,
+    "height": 2911,
+    "licence": "CC0",
+    "artist": "David d'Angers, Pierre-Jean (Angers, 12\u201303\u20131788 - Paris, 05\u201301\u20131856), sculpteur",
+    "credit": "",
+    "desc": "Auteur(s): David d'Angers, Pierre-Jean (Angers, 12\u201303\u20131788 - Paris, 05\u201301\u20131856), sculpteur Date de production: En 1835 Datation en si\u00e8cle: 1\u00e8re moiti\u00e9 du 19e si"
+   },
+   {
+    "title": "File:Musea Brugge, HUB, 2014 GRO2049 III.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Musea_Brugge%2C_HUB%2C_2014_GRO2049_III.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Musea_Brugge%2C_HUB%2C_2014_GRO2049_III.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1310,
+    "height": 2000,
+    "licence": "CC0",
+    "artist": "Jean-Fran\u00e7ois Villain",
+    "credit": "",
+    "desc": ""
+   }
+  ],
+  "heisenberg": [
+   {
+    "title": "File:Solvay conference 1927 Version2.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Solvay_conference_1927_Version2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/8/89/Solvay_conference_1927_Version2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2126,
+    "height": 1463,
+    "licence": "Public domain",
+    "artist": "Benjamin Couprie",
+    "credit": "",
+    "desc": "1927 Solvay Conference on Quantum Mechanics. Photograph by Benjamin Couprie, Institut International de Physique Solvay, Brussels, Belgium. From back to front an"
+   },
+   {
+    "title": "File:Gedenkstein Werner Heisenberg Quantenmechanik.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Gedenkstein_Werner_Heisenberg_Quantenmechanik.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Gedenkstein_Werner_Heisenberg_Quantenmechanik.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2088,
+    "height": 4640,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Ulli 2mecs",
+    "credit": "Ulli 2mecs / CC BY-SA 4.0",
+    "desc": "Gedenkstein Werner Heisenberg (Er erzielte 1925 einen Durchbruch bei seinen Forschungen zur Quantenmechanik auf Helgoland)"
+   }
+  ],
+  "lorenz": [],
+  "butterfly": [
+   {
+    "title": "File:Peacock butterfly (Aglais io) 2.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Peacock_butterfly_%28Aglais_io%29_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Peacock_butterfly_%28Aglais_io%29_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3792,
+    "height": 2528,
+    "licence": "CC BY-SA 3.0",
+    "artist": "Charles J. Sharp",
+    "credit": "Charles J. Sharp / CC BY-SA 3.0",
+    "desc": "Peacock butterfly (Aglais io) on blackthorn (Prunus spinosa) Otmoor RSPB reserve, Oxfordshire"
+   },
+   {
+    "title": "File:Asclepias syriaca close up of the seed copy.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Asclepias_syriaca_close_up_of_the_seed_copy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Asclepias_syriaca_close_up_of_the_seed_copy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1816,
+    "height": 1743,
+    "licence": "CC BY-SA 3.0",
+    "artist": "Brocken Inaglory",
+    "credit": "Brocken Inaglory / CC BY-SA 3.0",
+    "desc": "Asclepias syriaca seeds"
+   },
+   {
+    "title": "File:Zinnia angustifolia Flower and butterfly..jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Zinnia_angustifolia_Flower_and_butterfly..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Zinnia_angustifolia_Flower_and_butterfly..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2048,
+    "height": 1363,
+    "licence": "CC BY-SA 3.0",
+    "artist": "Ezhuttukari",
+    "credit": "Ezhuttukari / CC BY-SA 3.0",
+    "desc": "A butterfly on Zinnia angustifolia Flower."
+   }
+  ],
+  "hurricane": [
+   {
+    "title": "File:Staring Down Hurricane Florence.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Staring_Down_Hurricane_Florence.jpg/3840px-Staring_Down_Hurricane_Florence.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Staring_Down_Hurricane_Florence.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 5322,
+    "height": 3558,
+    "licence": "Public domain",
+    "artist": "Alexander Gerst",
+    "credit": "",
+    "desc": "Photo taken of Hurricane Florence convection with deep eyewall in Atlantic Sea from ISS by astronaut Alexander Gerst: Ever stared down the gaping eye of a categ"
+   },
+   {
+    "title": "File:Dennis 2005-07-07 1550Z.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Dennis_2005-07-07_1550Z.jpg/3840px-Dennis_2005-07-07_1550Z.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/8/86/Dennis_2005-07-07_1550Z.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 5600,
+    "height": 7200,
+    "licence": "Public domain",
+    "artist": "NASA image courtesy Jeff Schmaltz, MODIS Land Rapid Response Team at NASA GSFC",
+    "credit": "",
+    "desc": "Hurricane Dennis threaded its way between Jamaica and Haiti on a direct course for Cuba on July 7, 2005. The storm now has the distinctive hurricane form, with "
+   },
+   {
+    "title": "File:Hurricane Isabel from ISS.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Hurricane_Isabel_from_ISS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/0/04/Hurricane_Isabel_from_ISS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3032,
+    "height": 2007,
+    "licence": "Public domain",
+    "artist": "Image courtesy of Mike Trenchard, Earth Sciences &amp; Image Analysis Laboratory",
+    "credit": "",
+    "desc": "From his vantage point high above the Earth in the International Space Station, Astronaut Ed Lu captured this broad view of Hurricane Isabel. The image, ISS007-"
+   }
+  ],
+  "billiard": [
+   {
+    "title": "File:Novelty billiard balls.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Novelty_billiard_balls.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Novelty_billiard_balls.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1530,
+    "height": 1386,
+    "licence": "CC BY-SA 4.0",
+    "artist": "SMcCandlish",
+    "credit": "SMcCandlish / CC BY-SA 4.0",
+    "desc": "Various novelty pocket billiards balls. Clockwise from the top: Red and white balls and markers from a novelty game called Starball; an Elvis Presley commemorat"
+   },
+   {
+    "title": "File:To pot the red.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/To_pot_the_red.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/3/32/To_pot_the_red.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1850,
+    "height": 1088,
+    "licence": "CC BY-SA 3.0",
+    "artist": "MichaelMaggs",
+    "credit": "MichaelMaggs / CC BY-SA 3.0",
+    "desc": "A game of snooker (or billiards) in progress. The game is being played on a half-size table."
+   },
+   {
+    "title": "File:Pool table and balls, 14 July 2026.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Pool_table_and_balls%2C_14_July_2026.jpg/3840px-Pool_table_and_balls%2C_14_July_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/7/76/Pool_table_and_balls%2C_14_July_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4080,
+    "height": 3060,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Danny William Wilson",
+    "credit": "Danny William Wilson / CC BY-SA 4.0",
+    "desc": "A pool table with billiard balls, as caught by me on 14 July 2026. This pool table is in Amsterdam, Netherlands."
+   }
+  ]
+ }
+}

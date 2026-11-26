@@ -14,37 +14,72 @@
  "inserts": {
   "monet": [
    {
-    "title": "File:Claude Monet - Springtime - Google Art Project.jpg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Claude_Monet_-_Springtime_-_Google_Art_Project.jpg/3840px-Claude_Monet_-_Springtime_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Claude_Monet_-_Springtime_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 6587,
-    "height": 5038,
+    "title": "File:Claude Monet 1899 Nadar crop.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Claude_Monet_1899_Nadar_crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Claude_Monet_1899_Nadar_crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2021,
+    "height": 2694,
+    "licence": "Public domain",
+    "artist": "Nadar",
+    "credit": "",
+    "desc": "Portrait photograph of the French impressionist painter Claude Monet by Nadar"
+   },
+   {
+    "title": "File:Claude Monet 1899 Nadar.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Claude_Monet_1899_Nadar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/3/33/Claude_Monet_1899_Nadar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2021,
+    "height": 3285,
+    "licence": "Public domain",
+    "artist": "Nadar",
+    "credit": "",
+    "desc": "Claude Monet, photo by Nadar, 1899."
+   },
+   {
+    "title": "File:M. Claude Monet. Peintre - btv1b532195271.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/M._Claude_Monet._Peintre_-_btv1b532195271.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/2/2a/M._Claude_Monet._Peintre_-_btv1b532195271.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3260,
+    "height": 4282,
+    "licence": "Public domain",
+    "artist": "Atelier Nadar. Photographe",
+    "credit": "",
+    "desc": "Sujet : Monet, Claude (1840-1926) -- Portraits Portraits de studio -- 19e si\u00e8cle Langue : fran\u00e7ais"
+   }
+  ],
+  "monet2": [
+   {
+    "title": "File:Claude Monet - Woman with a Parasol - Madame Monet and Her Son - Google Art Project.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Claude_Monet_-_Woman_with_a_Parasol_-_Madame_Monet_and_Her_Son_-_Google_Art_Project.jpg/3840px-Claude_Monet_-_Woman_with_a_Parasol_-_Madame_Monet_and_Her_Son_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Claude_Monet_-_Woman_with_a_Parasol_-_Madame_Monet_and_Her_Son_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 6001,
+    "height": 7455,
     "licence": "Public domain",
     "artist": "Claude Monet",
     "credit": "",
     "desc": ""
    },
    {
-    "title": "File:Cour de ferme (1878) Claude Monet (W 494).jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Cour_de_ferme_%281878%29_Claude_Monet_%28W_494%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Cour_de_ferme_%281878%29_Claude_Monet_%28W_494%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 2880,
-    "height": 3521,
+    "title": "File:Claude Monet 1899 Nadar crop.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Claude_Monet_1899_Nadar_crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Claude_Monet_1899_Nadar_crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2021,
+    "height": 2694,
     "licence": "Public domain",
-    "artist": "Claude Monet",
+    "artist": "Nadar",
     "credit": "",
-    "desc": "\"Cour de ferme\" (1878) by Claude Monet (W 494) Medium : oil on canvas Dimensions : 61.2 by 50cm., 24 1/8 by 19 5/8 in. Note : signed Claude Monet and dated 1878"
+    "desc": "Portrait photograph of the French impressionist painter Claude Monet by Nadar"
    },
    {
-    "title": "File:Claude monet le bassin dargenteuil114147).jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Claude_monet_le_bassin_dargenteuil114147%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/8/86/Claude_monet_le_bassin_dargenteuil114147%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 3200,
-    "height": 2364,
+    "title": "File:The Red Kerchief, by Claude Monet, Cleveland Museum of Art, 1958.39.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/The_Red_Kerchief%2C_by_Claude_Monet%2C_Cleveland_Museum_of_Art%2C_1958.39.jpg/3840px-The_Red_Kerchief%2C_by_Claude_Monet%2C_Cleveland_Museum_of_Art%2C_1958.39.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/a/a0/The_Red_Kerchief%2C_by_Claude_Monet%2C_Cleveland_Museum_of_Art%2C_1958.39.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 11652,
+    "height": 14500,
     "licence": "Public domain",
     "artist": "Claude Monet",
     "credit": "",
-    "desc": ""
+    "desc": "This painting depicts Monet's first wife, Camille, outside on a snowy day passing by the French doors of their home at Argenteuil. Her face is rendered in a rad"
    }
   ],
   "lehavre": [
@@ -84,37 +119,37 @@
   ],
   "nadar": [
    {
-    "title": "File:Les Burgraves Le Th\u00e9\u00e2tre, N\u00b078, mars 1902, 2014.0.48(30).jpg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Les_Burgraves_Le_Th%C3%A9%C3%A2tre%2C_N%C2%B078%2C_mars_1902%2C_2014.0.48%2830%29.jpg/3840px-Les_Burgraves_Le_Th%C3%A9%C3%A2tre%2C_N%C2%B078%2C_mars_1902%2C_2014.0.48%2830%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/3/30/Les_Burgraves_Le_Th%C3%A9%C3%A2tre%2C_N%C2%B078%2C_mars_1902%2C_2014.0.48%2830%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 4123,
-    "height": 5219,
-    "licence": "CC0",
-    "artist": "Mairet, Henri (Auxonne, en 1850 - Paris, en 1902), photographe",
+    "title": "File:Tournachon, Gaspard-F\u00e9lix - \u00bbMein Haus am Boulevard\u00ab. Das Atelier Nadar, 35 Boulevard des Capucines (Zeno Fotografie).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Tournachon%2C_Gaspard-F%C3%A9lix_-_%C2%BBMein_Haus_am_Boulevard%C2%AB._Das_Atelier_Nadar%2C_35_Boulevard_des_Capucines_%28Zeno_Fotografie%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Tournachon%2C_Gaspard-F%C3%A9lix_-_%C2%BBMein_Haus_am_Boulevard%C2%AB._Das_Atelier_Nadar%2C_35_Boulevard_des_Capucines_%28Zeno_Fotografie%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2024,
+    "height": 2565,
+    "licence": "Public domain",
+    "artist": "Tournachon, Gaspard-F\u00e9lix",
     "credit": "",
-    "desc": "Auteur(s): Mairet, Henri (Auxonne, en 1850 - Paris, en 1902), photographe Wal\u00e9ry (1890), photographe Manzi et Cie, imprimeur Le Th\u00e9\u00e2tre, editeur Date de product"
+    "desc": "Tournachon, Gaspard-F\u00e9lix: \u00bbMein Haus am Boulevard\u00ab. Das Atelier Nadar, 35 Boulevard des Capucines"
    },
    {
-    "title": "File:Les Burgraves Le Th\u00e9\u00e2tre, N\u00b078, mars 1902, 2014.0.48(11).jpg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Les_Burgraves_Le_Th%C3%A9%C3%A2tre%2C_N%C2%B078%2C_mars_1902%2C_2014.0.48%2811%29.jpg/3840px-Les_Burgraves_Le_Th%C3%A9%C3%A2tre%2C_N%C2%B078%2C_mars_1902%2C_2014.0.48%2811%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/2/28/Les_Burgraves_Le_Th%C3%A9%C3%A2tre%2C_N%C2%B078%2C_mars_1902%2C_2014.0.48%2811%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 4123,
-    "height": 5257,
-    "licence": "CC0",
-    "artist": "Mairet, Henri (Auxonne, en 1850 - Paris, en 1902), photographe",
+    "title": "File:Atelier Nadar 35BoulevardDesCapucines 1860 Nadar.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Atelier_Nadar_35BoulevardDesCapucines_1860_Nadar.jpg/3840px-Atelier_Nadar_35BoulevardDesCapucines_1860_Nadar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Atelier_Nadar_35BoulevardDesCapucines_1860_Nadar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4725,
+    "height": 5832,
+    "licence": "Public domain",
+    "artist": "Nadar",
     "credit": "",
-    "desc": "Auteur(s): Mairet, Henri (Auxonne, en 1850 - Paris, en 1902), photographe Wal\u00e9ry (1890), photographe Manzi et Cie, imprimeur Le Th\u00e9\u00e2tre, editeur Date de product"
+    "desc": "Atelier Nadar 35 Boulevard Des Capucines, 1860"
    },
    {
-    "title": "File:Les Burgraves Le Th\u00e9\u00e2tre, N\u00b078, mars 1902, 2014.0.48(9).jpg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Les_Burgraves_Le_Th%C3%A9%C3%A2tre%2C_N%C2%B078%2C_mars_1902%2C_2014.0.48%289%29.jpg/3840px-Les_Burgraves_Le_Th%C3%A9%C3%A2tre%2C_N%C2%B078%2C_mars_1902%2C_2014.0.48%289%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/8/80/Les_Burgraves_Le_Th%C3%A9%C3%A2tre%2C_N%C2%B078%2C_mars_1902%2C_2014.0.48%289%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 5257,
-    "height": 4123,
-    "licence": "CC0",
-    "artist": "Mairet, Henri (Auxonne, en 1850 - Paris, en 1902), photographe",
+    "title": "File:Atelier Nadar.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Atelier_Nadar.jpg/3840px-Atelier_Nadar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/9/94/Atelier_Nadar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4416,
+    "height": 3312,
+    "licence": "Public domain",
+    "artist": "Tangopaso",
     "credit": "",
-    "desc": "Auteur(s): Mairet, Henri (Auxonne, en 1850 - Paris, en 1902), photographe Wal\u00e9ry (1890), photographe Manzi et Cie, imprimeur Le Th\u00e9\u00e2tre, editeur Date de product"
+    "desc": "Workshop of the french photograph Nadar, 35 boulevard des Capucines, Paris 2nd arr. There took place in 1874 the first exhibition of the french impressionnist p"
    }
   ],
   "marmottan": [
@@ -165,39 +200,39 @@
     "desc": "CHAM 1874 - Caricature on Impressionism, on occasion of their first exhibit. French comment says ~: \"[...] they started by terrifying everyone.\" (La peinture im"
    }
   ],
-  "boudin": [
+  "corsica": [
    {
-    "title": "File:Bemberg Fondation Toulouse - Crinolines sur la plage (1863) - Eug\u00e8ne Boudin Inv.2030 26x47.jpg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Bemberg_Fondation_Toulouse_-_Crinolines_sur_la_plage_%281863%29_-_Eug%C3%A8ne_Boudin_Inv.2030_26x47.jpg/3840px-Bemberg_Fondation_Toulouse_-_Crinolines_sur_la_plage_%281863%29_-_Eug%C3%A8ne_Boudin_Inv.2030_26x47.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Bemberg_Fondation_Toulouse_-_Crinolines_sur_la_plage_%281863%29_-_Eug%C3%A8ne_Boudin_Inv.2030_26x47.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 7662,
-    "height": 4371,
-    "licence": "Public domain",
-    "artist": "Didier Descouens",
-    "credit": "",
-    "desc": ""
+    "title": "File:Coast of Corsica in sunset - 2022.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Coast_of_Corsica_in_sunset_-_2022.jpg/3840px-Coast_of_Corsica_in_sunset_-_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Coast_of_Corsica_in_sunset_-_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 6240,
+    "height": 4160,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Antolpb3553",
+    "credit": "Antolpb3553 / CC BY-SA 4.0",
+    "desc": "Corsica"
    },
    {
-    "title": "File:Eug\u00e8ne Boudin - Beach of Trouville - Google Art Project.jpg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Eug%C3%A8ne_Boudin_-_Beach_of_Trouville_-_Google_Art_Project.jpg/3840px-Eug%C3%A8ne_Boudin_-_Beach_of_Trouville_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/9/91/Eug%C3%A8ne_Boudin_-_Beach_of_Trouville_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 4150,
-    "height": 2930,
-    "licence": "Public domain",
-    "artist": "Eug\u00e8ne Louis Boudin",
-    "credit": "",
-    "desc": ""
+    "title": "File:Coast line in Corsica with hills.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Coast_line_in_Corsica_with_hills.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Coast_line_in_Corsica_with_hills.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2592,
+    "height": 1944,
+    "licence": "CC BY-SA 3.0",
+    "artist": "Sebastian.sauer",
+    "credit": "Sebastian.sauer / CC BY-SA 3.0",
+    "desc": "This picture shows a sunny September day at the Corsican North West Coast."
    },
    {
-    "title": "File:Eug\u00e8ne Boudin, The Beach, 1877, NGA 52158.jpg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Eug%C3%A8ne_Boudin%2C_The_Beach%2C_1877%2C_NGA_52158.jpg/3840px-Eug%C3%A8ne_Boudin%2C_The_Beach%2C_1877%2C_NGA_52158.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/d/da/Eug%C3%A8ne_Boudin%2C_The_Beach%2C_1877%2C_NGA_52158.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 4000,
-    "height": 1673,
-    "licence": "CC0",
-    "artist": "Eug\u00e8ne Boudin",
-    "credit": "",
-    "desc": ""
+    "title": "File:Corsica (31753100970).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Corsica_%2831753100970%29.jpg/3840px-Corsica_%2831753100970%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/3/38/Corsica_%2831753100970%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4592,
+    "height": 3056,
+    "licence": "CC BY 2.0",
+    "artist": "JeanbaptisteM from France",
+    "credit": "JeanbaptisteM from France / CC BY 2.0",
+    "desc": "C\u00f4te occidentale"
    }
   ]
  }

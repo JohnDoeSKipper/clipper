@@ -2,7 +2,54 @@
  "id": "invisible-gorilla",
  "painting": null,
  "inserts": {
-  "simons": [],
+  "simons": [
+   {
+    "title": "File:Daniel Shed genealogy - ancestry and descendants of Daniel Shed of Braintree, Massachusetts, 1327-1920 (1921) (14764091482).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Daniel_Shed_genealogy_-_ancestry_and_descendants_of_Daniel_Shed_of_Braintree%2C_Massachusetts%2C_1327-1920_%281921%29_%2814764091482%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Daniel_Shed_genealogy_-_ancestry_and_descendants_of_Daniel_Shed_of_Braintree%2C_Massachusetts%2C_1327-1920_%281921%29_%2814764091482%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3456,
+    "height": 2200,
+    "licence": "No restrictions",
+    "artist": "Internet Archive Book Images",
+    "credit": "",
+    "desc": "Identifier: danielshedgeneal00shed (find matches) Title: Daniel Shed genealogy : ancestry and descendants of Daniel Shed of Braintree, Massachusetts, 1327-1920 "
+   },
+   {
+    "title": "File:Daniel Shed genealogy - ancestry and descendants of Daniel Shed of Braintree, Massachusetts, 1327-1920 (1921) (14784294413).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Daniel_Shed_genealogy_-_ancestry_and_descendants_of_Daniel_Shed_of_Braintree%2C_Massachusetts%2C_1327-1920_%281921%29_%2814784294413%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/6/65/Daniel_Shed_genealogy_-_ancestry_and_descendants_of_Daniel_Shed_of_Braintree%2C_Massachusetts%2C_1327-1920_%281921%29_%2814784294413%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2816,
+    "height": 1840,
+    "licence": "No restrictions",
+    "artist": "Internet Archive Book Images",
+    "credit": "",
+    "desc": "Identifier: danielshedgeneal00shed (find matches) Title: Daniel Shed genealogy : ancestry and descendants of Daniel Shed of Braintree, Massachusetts, 1327-1920 "
+   },
+   {
+    "title": "File:Daniel Shed genealogy - ancestry and descendants of Daniel Shed of Braintree, Massachusetts, 1327-1920 (1921) (14761247341).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Daniel_Shed_genealogy_-_ancestry_and_descendants_of_Daniel_Shed_of_Braintree%2C_Massachusetts%2C_1327-1920_%281921%29_%2814761247341%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/3/37/Daniel_Shed_genealogy_-_ancestry_and_descendants_of_Daniel_Shed_of_Braintree%2C_Massachusetts%2C_1327-1920_%281921%29_%2814761247341%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2832,
+    "height": 1548,
+    "licence": "No restrictions",
+    "artist": "Internet Archive Book Images",
+    "credit": "",
+    "desc": "Identifier: danielshedgeneal00shed (find matches) Title: Daniel Shed genealogy : ancestry and descendants of Daniel Shed of Braintree, Massachusetts, 1327-1920 "
+   }
+  ],
+  "chabris": [
+   {
+    "title": "File:Christopher Chabris October 2012.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Christopher_Chabris_October_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/6/63/Christopher_Chabris_October_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2640,
+    "height": 3960,
+    "licence": "CC BY-SA 2.5",
+    "artist": "Agaton Strom for PopTech",
+    "credit": "Agaton Strom for PopTech / CC BY-SA 2.5",
+    "desc": "Christopher Chabris speaking at PopTech 2012, Northport, Maine, USA."
+   }
+  ],
   "harvard": [
    {
     "title": "File:William James Hall, Harvard University.jpg",

@@ -3,6 +3,7 @@
  "painting": null,
  "inserts": {
   "thomson": [],
+  "thomson2": [],
   "violin": [
    {
     "title": "File:Hand on an old violin close-up.jpg",
@@ -176,6 +177,41 @@
     "artist": "Peacearth",
     "credit": "Peacearth / CC BY-SA 4.0",
     "desc": "Great dome of MIT, Feb 2021"
+   }
+  ],
+  "trolley": [
+   {
+    "title": "File:Trolley Tracks (15357166049).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Trolley_Tracks_%2815357166049%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Trolley_Tracks_%2815357166049%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2017,
+    "height": 3037,
+    "licence": "CC BY-SA 2.0",
+    "artist": "Mark Fischer",
+    "credit": "Mark Fischer / CC BY-SA 2.0",
+    "desc": "Tracks of one of Lisbon's many trolley lines snake up the hill. The trolleys are part of the city's transportation network and attract both locals and tourists."
+   },
+   {
+    "title": "File:Trolley Tracks Beneath Tanforan Grandstands, pre-1923.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Trolley_Tracks_Beneath_Tanforan_Grandstands%2C_pre-1923.jpg/3840px-Trolley_Tracks_Beneath_Tanforan_Grandstands%2C_pre-1923.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Trolley_Tracks_Beneath_Tanforan_Grandstands%2C_pre-1923.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 5887,
+    "height": 3785,
+    "licence": "Public domain",
+    "artist": "Unknown / uncredited photographer(s)",
+    "credit": "",
+    "desc": "San Bruno's suburban trolley line passed underneath the original Tanforan grandstands and made a special stop for fans."
+   },
+   {
+    "title": "File:Old trolley tracks (31498169441).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Old_trolley_tracks_%2831498169441%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/1/14/Old_trolley_tracks_%2831498169441%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3286,
+    "height": 2432,
+    "licence": "CC BY 2.0",
+    "artist": "hhm8",
+    "credit": "hhm8 / CC BY 2.0",
+    "desc": "Old trolley tracks of the West View trolley line"
    }
   ]
  }
