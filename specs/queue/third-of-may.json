@@ -1,0 +1,288 @@
+{
+ "id": "third-of-may",
+ "channel": "paintings",
+ "angle": "Why did a painter who had sworn loyalty to the French king paint the French army's darkest night?",
+ "answer": "When the French fled in 1814, everyone who had served them faced a loyalty inquiry, so Goya asked the new government to fund paintings of the 1808 uprising; but instead of a victory he painted a nameless queue of executions, the first war painting with no heroes.",
+ "logline": "Goya swore loyalty to Joseph Bonaparte, kept his court post and took the king's medal, but by 1814 the French had fled and collaborators faced inquiries, so Goya asked to paint the uprising, but he painted no victory, only faceless rifles, a lantern and a man with wounded palms, but at his feet lies the man shot a moment before, so his proof of loyalty became a picture of war with no heroes, only a queue.",
+ "hook_text": "HE SERVED THE FRENCH KING",
+ "hooks": [
+  "This painting was Goya's way of proving he wasn't a traitor.",
+  "The man who painted this had worked for Napoleon's brother."
+ ],
+ "painting": {
+  "title": "The Third of May 1808",
+  "artist": "Francisco de Goya",
+  "year": "1814",
+  "museum": "Museo del Prado, Madrid"
+ },
+ "script": [
+  {
+   "text": "Goya swore loyalty to Joseph Bonaparte, the French king of Spain.",
+   "say": "Goya swore loyalty to Joseph Bonaparte, the French king of Spain.",
+   "beat": "hook"
+  },
+  {
+   "text": "But in 1814, he painted Joseph's soldiers shooting Spaniards.",
+   "say": "But in eighteen fourteen, he painted Joseph's soldiers shooting Spaniards.",
+   "beat": "hook",
+   "link": "but"
+  },
+  {
+   "text": "So why would a painter who served the French paint this?",
+   "beat": "question",
+   "link": "so"
+  },
+  {
+   "text": "Under the French, he stayed first painter to the court.",
+   "beat": "reveal1",
+   "link": "answer"
+  },
+  {
+   "text": "In 1811, he even accepted King Joseph's Royal Order of Spain.",
+   "beat": "reveal1",
+   "link": "detail",
+   "say": "In eighteen eleven, he even accepted King Joseph's Royal Order of Spain."
+  },
+  {
+   "text": "But by 1814 the French had fled, and collaborators faced loyalty inquiries.",
+   "beat": "reveal2",
+   "link": "but",
+   "say": "But by eighteen fourteen the French had fled, and collaborators faced loyalty inquiries."
+  },
+  {
+   "text": "So Goya asked the new government to fund paintings of the uprising.",
+   "beat": "reveal2",
+   "link": "so"
+  },
+  {
+   "text": "But he didn't paint a victory, only that night's executions on Principe Pio hill.",
+   "beat": "reveal3",
+   "link": "but",
+   "say": "But he didn't paint a victory, only that night's executions on Preen-thee-pay Pee-oh hill."
+  },
+  {
+   "text": "The soldiers have no faces, only a wall of backs and rifles.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "The only light is a lantern on the ground.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "It falls on a man with raised arms and Christ's wounds in his palms.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "But at his feet lies the man shot just before, arms flung the same way.",
+   "beat": "turn",
+   "link": "but"
+  },
+  {
+   "text": "Behind him, the next men wait, covering their eyes.",
+   "beat": "turn",
+   "link": "detail"
+  },
+  {
+   "text": "So his proof of loyalty became war with no heroes, only a queue.",
+   "beat": "payoff",
+   "link": "answer"
+  },
+  {
+   "text": "Manet later borrowed its firing squad to shoot an emperor.",
+   "beat": "payoff",
+   "link": "so"
+  }
+ ],
+ "music": {
+  "piece": "chopin-prelude-c-minor"
+ },
+ "timeline": [
+  {
+   "type": "reveal",
+   "from": [
+    0.32,
+    0.45,
+    2.4
+   ],
+   "until": 3.2
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "goya",
+    0
+   ],
+   "caption": "Francisco de Goya, self-portrait",
+   "at": "2",
+   "to": "3-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "joseph",
+    0
+   ],
+   "caption": "Joseph Bonaparte as King of Spain, by Gérard",
+   "at": "3",
+   "to": "4-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "joseph",
+    1
+   ],
+   "caption": "Joseph Bonaparte, King of Spain 1808-1813",
+   "at": "4",
+   "to": "5-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "ferdinand",
+    0
+   ],
+   "caption": "Ferdinand VII, painted by Goya in 1815",
+   "at": "5",
+   "to": "6-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "second",
+    0
+   ],
+   "caption": "The Second of May 1808, its companion",
+   "at": "6",
+   "to": "7-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "pio",
+    0
+   ],
+   "caption": "Principe Pio hill, Madrid, today",
+   "at": "7",
+   "to": "8-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.78,
+    0.55,
+    0.2,
+    0.33
+   ],
+   "ring": "8",
+   "zoom": "8+0.4",
+   "label": "NO FACES",
+   "labelAt": "8:faces",
+   "out": "9-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.6,
+    0.74,
+    0.07,
+    0.08
+   ],
+   "ring": "9",
+   "zoom": "9+0.4",
+   "label": "THE ONLY LIGHT",
+   "labelAt": "9:lantern",
+   "out": "10-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.31,
+    0.5,
+    0.13,
+    0.24
+   ],
+   "ring": "10",
+   "zoom": "10+0.4",
+   "out": "11-0.3",
+   "then": {
+    "region": [
+     0.215,
+     0.395,
+     0.04,
+     0.05
+    ],
+    "ring": "10:wounds",
+    "zoom": "10:wounds+0.4",
+    "label": "WOUNDS IN THE PALMS",
+    "labelAt": "10:palms"
+   }
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.26,
+    0.84,
+    0.18,
+    0.11
+   ],
+   "ring": "11",
+   "zoom": "11+0.4",
+   "label": "THE SAME POSE",
+   "labelAt": "11:same",
+   "out": "12-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.14,
+    0.5,
+    0.11,
+    0.16
+   ],
+   "ring": "12",
+   "zoom": "12+0.4",
+   "label": "NEXT IN LINE",
+   "labelAt": "12:next",
+   "out": "13-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "manet",
+    0
+   ],
+   "caption": "Manet, Execution of Maximilian, 1868-69",
+   "at": "14",
+   "to": "14:emperor+0.5"
+  }
+ ],
+ "sources": [
+  "https://www.museodelprado.es/en/the-collection/art-work/the-3-of-may-in-madrid-or-the-executions/5e177409-2993-4240-97fb-847a02c6496c",
+  "https://www.britannica.com/topic/The-Third-of-May-1808",
+  "https://fundaciongoyaenaragon.es/eng/obra/el-tres-de-mayo-de-1808/181",
+  "https://www.washingtontimes.com/news/2008/may/3/goya-paintings-restored-to-life/",
+  "https://en.wikipedia.org/wiki/Francisco_Goya"
+ ],
+ "post": {
+  "caption": "Goya had sworn loyalty to Napoleon's brother. When the French fled, he asked to paint this, and the 'proof of loyalty' turned out to be a picture of war with no heroes at all.\nPatriot or survivor: what was Goya?",
+  "tags": [
+   "#arthistory",
+   "#goya",
+   "#thethirdofmay",
+   "#prado",
+   "#spanishart"
+  ],
+  "youtube_title": "Goya Served the French King, Then Painted This"
+ }
+}

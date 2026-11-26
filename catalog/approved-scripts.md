@@ -1,6 +1,28 @@
 # Model scripts (newest first)
 The writer reads the top two of its channel before writing and matches or beats them: same spine (beats in order, every sentence linked to the one before), never the same facts or hooks. Each script the writer makes is added at the top in this format. Kept to the last 12.
 
+## third-of-may (paintings, 2026-11-27)
+
+Angle: Why did a painter who had sworn loyalty to the French king paint the French army's darkest night?
+Logline: Goya swore loyalty to Joseph Bonaparte, kept his court post and took the king's medal, but by 1814 the French had fled and collaborators faced inquiries, so Goya asked to paint the uprising, but he painted no victory, only faceless rifles, a lantern and a man with wounded palms, but at his feet lies the man shot a moment before, so his proof of loyalty became a picture of war with no heroes, only a queue.
+On-screen hook: HE SERVED THE FRENCH KING
+
+[hook] Goya swore loyalty to Joseph Bonaparte, the French king of Spain.
+[hook / but] But in 1814, he painted Joseph's soldiers shooting Spaniards.
+[question / so] So why would a painter who served the French paint this?
+[reveal1 / answer] Under the French, he stayed first painter to the court.
+[reveal1 / detail] In 1811, he even accepted King Joseph's Royal Order of Spain.
+[reveal2 / but] But by 1814 the French had fled, and collaborators faced loyalty inquiries.
+[reveal2 / so] So Goya asked the new government to fund paintings of the uprising.
+[reveal3 / but] But he didn't paint a victory, only that night's executions on Principe Pio hill.
+[reveal3 / detail] The soldiers have no faces, only a wall of backs and rifles.
+[reveal3 / detail] The only light is a lantern on the ground.
+[reveal3 / detail] It falls on a man with raised arms and Christ's wounds in his palms.
+[turn / but] But at his feet lies the man shot just before, arms flung the same way.
+[turn / detail] Behind him, the next men wait, covering their eyes.
+[payoff / answer] So his proof of loyalty became war with no heroes, only a queue.
+[payoff / so] Manet later borrowed its firing squad to shoot an emperor.
+
 ## teleporter (philosophy, 2026-11-27)
 
 Angle: If a machine destroyed you here and rebuilt you perfectly on Mars, would you arrive, or die?
@@ -263,28 +285,3 @@ On-screen hook: DAYLIGHT UNDER DIRT
 [turn / but] But in the war, it was rolled up and hidden in a cave.
 [payoff / answer] So it isn't night, isn't its name, and isn't its full size.
 [payoff / but] But in a small copy in London, Rembrandt's whole company still marches out.
-
-## chinese-room (philosophy, 2026-11-24)
-
-Angle: If a machine talks exactly like us, does it understand a single word?
-Logline: A chatbot now passes for human better than humans do, so we ask if it understands, but Searle showed a man can answer in Chinese without knowing a word, so programs only shuffle symbols, but critics said the whole room understands, so Searle memorised the room and still understood nothing, but Turing had warned we can't see understanding in anyone.
-On-screen hook: MORE HUMAN THAN HUMANS
-
-[hook] In 2025, a chatbot was judged human more often than real humans.
-[hook / detail] Judges picked it as the human 73 percent of the time.
-[question / so] So does a machine that talks like us understand a single word?
-[question / answer] One philosopher spent 45 years saying no.
-[reveal1 / because] In 1980, John Searle imagined himself locked in a room.
-[reveal1 / detail] Notes in Chinese slide under the door, and he speaks no Chinese.
-[reveal1 / detail] A rule book in English tells him which symbols to pass back out.
-[reveal1 / so] So his answers look fluent, yet he understands nothing.
-[reveal2 / but] But Searle wasn't talking about rooms: he meant computers.
-[reveal2 / detail] A program follows rules about symbols without knowing what they mean.
-[reveal2 / so] So by his logic, Deep Blue beat the world chess champion without knowing it played chess.
-[reveal3 / but] But critics answered: you don't understand Chinese, but the whole room does.
-[reveal3 / detail] One even defined cognitive science as the project of proving Searle wrong.
-[reveal3 / so] So Searle replied: memorize the whole rule book, and you still won't understand a word.
-[turn / but] But Turing had already seen this coming in 1950.
-[turn / detail] You can't see inside anyone's head, he wrote, so we politely assume everyone thinks.
-[payoff / answer] So Searle's answer stayed no: he died in 2025, the year chatbots passed Turing's test.
-[payoff / but] But if understanding can't be seen, how do you know anyone understands you?
