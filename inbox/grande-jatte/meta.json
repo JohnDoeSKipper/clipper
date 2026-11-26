@@ -14,85 +14,37 @@
  "inserts": {
   "seurat": [
    {
-    "title": "File:A Sunday on La Grande Jatte, Georges Seurat, 1884.jpg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/A_Sunday_on_La_Grande_Jatte%2C_Georges_Seurat%2C_1884.jpg/3840px-A_Sunday_on_La_Grande_Jatte%2C_Georges_Seurat%2C_1884.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/7/7d/A_Sunday_on_La_Grande_Jatte%2C_Georges_Seurat%2C_1884.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 20000,
-    "height": 13313,
+    "title": "File:Georges Seurat 1888.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Georges_Seurat_1888.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/7/76/Georges_Seurat_1888.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1148,
+    "height": 1778,
     "licence": "Public domain",
-    "artist": "Georges Seurat",
+    "artist": "Unidentified photographer",
     "credit": "",
-    "desc": ""
+    "desc": "Georges Seurat (1859-1891), photo"
    },
    {
-    "title": "File:Georges-Pierre Seurat - Honfleur, un soir, embouchure de la Seine - Google Art Project.jpg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Georges-Pierre_Seurat_-_Honfleur%2C_un_soir%2C_embouchure_de_la_Seine_-_Google_Art_Project.jpg/3840px-Georges-Pierre_Seurat_-_Honfleur%2C_un_soir%2C_embouchure_de_la_Seine_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/5/52/Georges-Pierre_Seurat_-_Honfleur%2C_un_soir%2C_embouchure_de_la_Seine_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 5921,
-    "height": 4925,
+    "title": "File:Georges Seurat 1888 (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Georges_Seurat_1888_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/1/14/Georges_Seurat_1888_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1116,
+    "height": 1644,
     "licence": "Public domain",
-    "artist": "Georges Seurat",
+    "artist": "Unidentified photographer",
     "credit": "",
-    "desc": ""
+    "desc": "Georges Seurat (1859-1891), photo"
    },
    {
-    "title": "File:Georges Seurat - The Maria at Honfleur.jpg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Georges_Seurat_-_The_Maria_at_Honfleur.jpg/3840px-Georges_Seurat_-_The_Maria_at_Honfleur.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Georges_Seurat_-_The_Maria_at_Honfleur.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 4857,
-    "height": 3923,
+    "title": "File:Madame Seurat, the Artist's Mother (Madame Seurat, m\u00e8re), by Georges Seurat (Getty 108VJM).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Madame_Seurat%2C_the_Artist%27s_Mother_%28Madame_Seurat%2C_m%C3%A8re%29%2C_by_Georges_Seurat_%28Getty_108VJM%29.jpg/3840px-Madame_Seurat%2C_the_Artist%27s_Mother_%28Madame_Seurat%2C_m%C3%A8re%29%2C_by_Georges_Seurat_%28Getty_108VJM%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/4/45/Madame_Seurat%2C_the_Artist%27s_Mother_%28Madame_Seurat%2C_m%C3%A8re%29%2C_by_Georges_Seurat_%28Getty_108VJM%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 5243,
+    "height": 6745,
     "licence": "Public domain",
     "artist": "Georges Seurat",
     "credit": "",
     "desc": ""
-   }
-  ],
-  "bathers": [
-   {
-    "title": "File:Georges Seurat - Study for Bathers at Asni\u00e8res PC 91.jpg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Georges_Seurat_-_Study_for_Bathers_at_Asni%C3%A8res_PC_91.jpg/3840px-Georges_Seurat_-_Study_for_Bathers_at_Asni%C3%A8res_PC_91.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/3/38/Georges_Seurat_-_Study_for_Bathers_at_Asni%C3%A8res_PC_91.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 6000,
-    "height": 3733,
-    "licence": "Public domain",
-    "artist": "Georges Seurat",
-    "credit": "",
-    "desc": ""
-   },
-   {
-    "title": "File:Georges seurat, studio per i bagnanti ad asni\u00e8res, 1883-84.jpg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Georges_seurat%2C_studio_per_i_bagnanti_ad_asni%C3%A8res%2C_1883-84.jpg/3840px-Georges_seurat%2C_studio_per_i_bagnanti_ad_asni%C3%A8res%2C_1883-84.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Georges_seurat%2C_studio_per_i_bagnanti_ad_asni%C3%A8res%2C_1883-84.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 4128,
-    "height": 3102,
-    "licence": "CC BY 3.0",
-    "artist": "Sailko",
-    "credit": "Sailko / CC BY 3.0",
-    "desc": ""
-   },
-   {
-    "title": "File:Georges Seurat - Final Study for \"Bathers at Asni\u00e8res\" - 1962.578 - Art Institute of Chicago.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Georges_Seurat_-_Final_Study_for_%22Bathers_at_Asni%C3%A8res%22_-_1962.578_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/0/08/Georges_Seurat_-_Final_Study_for_%22Bathers_at_Asni%C3%A8res%22_-_1962.578_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 3000,
-    "height": 1873,
-    "licence": "Public domain",
-    "artist": "Georges Seurat",
-    "credit": "",
-    "desc": ""
-   }
-  ],
-  "island": [
-   {
-    "title": "File:\u00c0 travers les Arbres, \u00cele de la Grande Jatte (1878) Claude Monet (W458).jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/%C3%80_travers_les_Arbres%2C_%C3%8Ele_de_la_Grande_Jatte_%281878%29_Claude_Monet_%28W458%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/c/c6/%C3%80_travers_les_Arbres%2C_%C3%8Ele_de_la_Grande_Jatte_%281878%29_Claude_Monet_%28W458%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 2880,
-    "height": 2422,
-    "licence": "Public domain",
-    "artist": "Claude Monet",
-    "credit": "",
-    "desc": "\"\u00c0 travers les Arbres, \u00cele de la Grande Jatte\" (1878) by Claude Monet Medium : Oil on canvas Dimensions : 21 1/4 by 25 5/8 in. / 54 by 65 cm Note : Signed Claud"
    }
   ],
   "study": [
@@ -164,6 +116,43 @@
     "credit": "Beyond My Ken / CC BY-SA 4.0",
     "desc": "The main entrance to the main building of the Art Institute of Chicago."
    }
-  ]
+  ],
+  "moma": [],
+  "chevreul": [
+   {
+    "title": "File:Plate I- Couleurs d'un spectre solaire - DPLA - dca086f80c9dc1622bab30fc18a16177.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Plate_I-_Couleurs_d%27un_spectre_solaire_-_DPLA_-_dca086f80c9dc1622bab30fc18a16177.jpg/3840px-Plate_I-_Couleurs_d%27un_spectre_solaire_-_DPLA_-_dca086f80c9dc1622bab30fc18a16177.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Plate_I-_Couleurs_d%27un_spectre_solaire_-_DPLA_-_dca086f80c9dc1622bab30fc18a16177.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 19282,
+    "height": 7660,
+    "licence": "Public domain",
+    "artist": "Chevreul, M. E. (Michel Eug\u00e8ne), 1786-1889; Digeon, Ren\u00e9 Henri",
+    "credit": "",
+    "desc": "Inscribed: \"Couleurs d\u2019un spectre solaire produit par un prisme de sulfure de carbone compar\u00e9es aux types du premier cercle chromatique de Mr. E. Chevreul.\" The"
+   },
+   {
+    "title": "File:Plate VII- Troisi\u00e8me cercle chromatique - DPLA - 77af8ed6425a2362847971e31002663f.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Plate_VII-_Troisi%C3%A8me_cercle_chromatique_-_DPLA_-_77af8ed6425a2362847971e31002663f.jpg/3840px-Plate_VII-_Troisi%C3%A8me_cercle_chromatique_-_DPLA_-_77af8ed6425a2362847971e31002663f.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Plate_VII-_Troisi%C3%A8me_cercle_chromatique_-_DPLA_-_77af8ed6425a2362847971e31002663f.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4858,
+    "height": 6392,
+    "licence": "Public domain",
+    "artist": "Chevreul, M. E. (Michel Eug\u00e8ne), 1786-1889; Digeon, Ren\u00e9 Henri",
+    "credit": "",
+    "desc": "Inscribed: \"3\u00e8me cercle chromatique de Mr. Chevreul renfermant les couleurs rabattues, \u00e0 2/10 de noir.\" Chevreul\u2019s third chromatic circle shows the 72 pure hues"
+   },
+   {
+    "title": "File:Plate XII- Huiti\u00e8me cercle chromatique - DPLA - 822d1b90e9260066ffc6535fd44c59cf.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Plate_XII-_Huiti%C3%A8me_cercle_chromatique_-_DPLA_-_822d1b90e9260066ffc6535fd44c59cf.jpg/3840px-Plate_XII-_Huiti%C3%A8me_cercle_chromatique_-_DPLA_-_822d1b90e9260066ffc6535fd44c59cf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Plate_XII-_Huiti%C3%A8me_cercle_chromatique_-_DPLA_-_822d1b90e9260066ffc6535fd44c59cf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4858,
+    "height": 6392,
+    "licence": "Public domain",
+    "artist": "Chevreul, M. E. (Michel Eug\u00e8ne), 1786-1889; Digeon, Ren\u00e9 Henri",
+    "credit": "",
+    "desc": "Inscribed: \"8\u00e8me cercle chromatique de Mr. Chevreul renfermant les couleurs rabattues, \u00e0 7/10 de noir.\" Chevreul\u2019s eighth chromatic circle shows the 72 pure hue"
+   }
+  ],
+  "pigment": []
  }
 }

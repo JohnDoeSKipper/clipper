@@ -1,9 +1,1 @@
-{"items": [{"id": "grande-jatte",
-  "painting": "A Sunday on La Grande Jatte Seurat Art Institute of Chicago",
-  "look_for": {
-   "seurat": "Georges Seurat photograph",
-   "bathers": "Bathers at Asnières Seurat",
-   "island": "Île de la Grande Jatte Seine",
-   "study": "Seurat study for A Sunday on La Grande Jatte",
-   "aic": "Art Institute of Chicago building Michigan Avenue"
-  }}]}
+{"items": [{"id": "grande-jatte", "painting": "File:A Sunday on La Grande Jatte, Georges Seurat, 1884.jpg", "look_for": {"seurat": "Georges Seurat photograph portrait 1888", "study": "Seurat study for A Sunday on La Grande Jatte", "aic": "Art Institute of Chicago building Michigan Avenue", "moma": "Museum of Modern Art New York 53rd Street 1950s", "chevreul": "Chevreul color circle chromatic", "pigment": "zinc yellow pigment chromate"}}]}

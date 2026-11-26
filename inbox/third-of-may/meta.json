@@ -82,19 +82,8 @@
     "desc": ""
    }
   ],
-  "allegory": [
-   {
-    "title": "File:Allegory with a radiant figure beset by dark spirits (Images of Spain Album, 45) MET DP800210.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Allegory_with_a_radiant_figure_beset_by_dark_spirits_%28Images_of_Spain_Album%2C_45%29_MET_DP800210.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Allegory_with_a_radiant_figure_beset_by_dark_spirits_%28Images_of_Spain_Album%2C_45%29_MET_DP800210.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 2670,
-    "height": 3803,
-    "licence": "CC0",
-    "artist": "Francisco Goya",
-    "credit": "",
-    "desc": "Drawing; Drawings"
-   }
-  ],
+  "allegory": [],
+  "allegory2": [],
   "joseph": [
    {
     "title": "File:Joseph-Bonaparte.jpg",
@@ -200,41 +189,6 @@
     "desc": "Execution of Emperor Maximilian I of Mexico by Manet, Mannheim, Germany"
    }
   ],
-  "prado": [
-   {
-    "title": "File:Puerta de Vel\u00e1zquez, Museo del Prado, Madrid, Espa\u00f1a, 2017-05-18, DD 37.jpg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Puerta_de_Vel%C3%A1zquez%2C_Museo_del_Prado%2C_Madrid%2C_Espa%C3%B1a%2C_2017-05-18%2C_DD_37.jpg/3840px-Puerta_de_Vel%C3%A1zquez%2C_Museo_del_Prado%2C_Madrid%2C_Espa%C3%B1a%2C_2017-05-18%2C_DD_37.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Puerta_de_Vel%C3%A1zquez%2C_Museo_del_Prado%2C_Madrid%2C_Espa%C3%B1a%2C_2017-05-18%2C_DD_37.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 4585,
-    "height": 6219,
-    "licence": "CC BY-SA 4.0",
-    "artist": "Diego Delso",
-    "credit": "Diego Delso / CC BY-SA 4.0",
-    "desc": "Vel\u00e1zquez Gate, Museo del Prado, Madrid, Spain"
-   },
-   {
-    "title": "File:Museo del Prado (Madrid) 09.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Museo_del_Prado_%28Madrid%29_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/8/81/Museo_del_Prado_%28Madrid%29_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 1024,
-    "height": 768,
-    "licence": "CC BY-SA 2.0",
-    "artist": "losmininos",
-    "credit": "losmininos / CC BY-SA 2.0",
-    "desc": "Interior of the extension of the Prado Museum (Madrid, Spain)."
-   },
-   {
-    "title": "File:Ampliaci\u00f3n del Museo del Prado (Madrid) 04.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Ampliaci%C3%B3n_del_Museo_del_Prado_%28Madrid%29_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Ampliaci%C3%B3n_del_Museo_del_Prado_%28Madrid%29_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 3013,
-    "height": 2238,
-    "licence": "CC BY-SA 3.0",
-    "artist": "Luis Garc\u00eda (Zaqarbal)",
-    "credit": "Luis Garc\u00eda (Zaqarbal) / CC BY-SA 3.0",
-    "desc": "Extension of Prado Museum, in Madrid (Spain)."
-   }
-  ],
   "pio": [
    {
     "title": "File:Monta\u00f1a de Principe Pio 1.jpg",
@@ -269,6 +223,7 @@
     "credit": "IngolfBLN / CC BY-SA 2.0",
     "desc": "Estaci\u00f3n de Pr\u00edncipe P\u00edo, Metro de Madrid, Espa\u00f1a"
    }
-  ]
+  ],
+  "allegory3": []
  }
 }
