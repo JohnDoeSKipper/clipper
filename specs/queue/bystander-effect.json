@@ -1,0 +1,815 @@
+{
+ "id": "bystander-effect",
+ "channel": "philosophy",
+ "style": "clay",
+ "title": "THE BYSTANDER EFFECT",
+ "angle": "Does a crowd really make people less likely to help?",
+ "answer": "In the lab each person's sense of responsibility shrinks as the crowd grows (85% helped alone, 31% with four others), but the story that started it was exaggerated, and real CCTV of 219 street fights shows someone helps in nine of ten, with more bystanders meaning more help: crowds slow each person down but rarely stop help.",
+ "logline": "A 1964 headline said 38 neighbours watched a murder and did nothing, so does a crowd stop help? two New York psychologists blamed numbers, not cold hearts, because their seizure study saw help fall from 85% to 31% with four listeners, but the Genovese story was wrong, because few saw it and a friend ran to her, but the strongest test came from real CCTV, which found someone helps in nine of ten fights, so crowds don't stop help, they only make each of us wait.",
+ "hook_text": "38 WITNESSES. OR WERE THERE?",
+ "hooks": [
+  "Real street cameras caught 219 fights. Someone helped in nine of ten.",
+  "The most famous story in psychology about not helping was wrong."
+ ],
+ "world": {
+  "scenery": "default"
+ },
+ "script": [
+  {
+   "text": "A 1964 headline claimed 38 neighbours watched a murder and did nothing.",
+   "say": "A nineteen sixty-four headline claimed thirty-eight neighbours watched a murder and did nothing.",
+   "beat": "hook"
+  },
+  {
+   "text": "That story launched one of psychology's most famous ideas.",
+   "beat": "hook",
+   "link": "so"
+  },
+  {
+   "text": "So does a crowd really make you less likely to help?",
+   "beat": "question",
+   "link": "so"
+  },
+  {
+   "text": "Kitty Genovese was attacked outside her apartment in Queens, at three in the morning.",
+   "beat": "reveal1",
+   "link": "answer"
+  },
+  {
+   "text": "The New York Times said 38 people saw or heard it, and nobody called.",
+   "say": "The New York Times said thirty-eight people saw or heard it, and nobody called.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "So two New York psychologists went looking for the cause.",
+   "beat": "reveal1",
+   "link": "so"
+  },
+  {
+   "text": "But they didn't blame cold city hearts; they blamed numbers.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "In 1968, students heard a fellow student have a seizure over an intercom.",
+   "say": "In nineteen sixty-eight, students heard a fellow student have a seizure over an intercom.",
+   "beat": "reveal2",
+   "link": "because"
+  },
+  {
+   "text": "Alone, 85 percent ran for help; believing four others could hear, only 31 percent did.",
+   "say": "Alone, eighty-five percent ran for help; believing four others could hear, only thirty-one percent did.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "Each person's share of the responsibility shrank as the crowd grew.",
+   "beat": "reveal2",
+   "link": "because"
+  },
+  {
+   "text": "But the Genovese story itself was wrong.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "Only a handful saw the attack, and one man's shout drove the killer off.",
+   "beat": "reveal3",
+   "link": "because"
+  },
+  {
+   "text": "Her friend Sophia Farrar ran out and held her as she died.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "But the best test came from real street cameras.",
+   "beat": "turn",
+   "link": "but"
+  },
+  {
+   "text": "In 2019, researchers studied CCTV of 219 fights in Amsterdam, Lancaster and Cape Town; in nine of ten, someone stepped in.",
+   "say": "In twenty nineteen, researchers studied CCTV of two hundred and nineteen fights in Amsterdam, Lancaster and Cape Town; in nine of ten, someone stepped in.",
+   "beat": "turn",
+   "link": "detail"
+  },
+  {
+   "text": "So crowds don't stop help; they make each of us wait for someone else.",
+   "beat": "payoff",
+   "link": "so"
+  },
+  {
+   "text": "Next time you're one of many, will you be the one who moves first?",
+   "beat": "payoff",
+   "link": "so"
+  }
+ ],
+ "objects": [
+  {
+   "id": "victim",
+   "kind": "person",
+   "look": "one",
+   "at": [
+    0,
+    0,
+    0
+   ],
+   "face": 0,
+   "behave": "panic"
+  },
+  {
+   "id": "you",
+   "kind": "person",
+   "look": "you",
+   "at": [
+    -2.2,
+    0,
+    2.6
+   ],
+   "face": "victim"
+  },
+  {
+   "id": "a",
+   "kind": "person",
+   "look": "a",
+   "at": [
+    2.4,
+    0,
+    2.2
+   ],
+   "face": "victim",
+   "show": false
+  },
+  {
+   "id": "b",
+   "kind": "person",
+   "look": "b",
+   "at": [
+    -0.4,
+    0,
+    3.9
+   ],
+   "face": "victim",
+   "show": false
+  },
+  {
+   "id": "c",
+   "kind": "person",
+   "look": "c",
+   "at": [
+    1.2,
+    0,
+    3.6
+   ],
+   "face": "victim",
+   "show": false
+  },
+  {
+   "id": "d",
+   "kind": "person",
+   "look": "d",
+   "at": [
+    3.4,
+    0,
+    0.9
+   ],
+   "face": "victim",
+   "show": false
+  },
+  {
+   "id": "house",
+   "kind": "house",
+   "at": [
+    -3.8,
+    0,
+    -3.0
+   ],
+   "face": 20
+  },
+  {
+   "id": "phone",
+   "kind": "screen",
+   "at": [
+    -3.4,
+    0,
+    1.2
+   ],
+   "face": "you",
+   "scale": 0.5,
+   "show": false
+  }
+ ],
+ "groups": {
+  "crowd": [
+   "a",
+   "b",
+   "c",
+   "d"
+  ]
+ },
+ "shots": [
+  {
+   "at": 0,
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "victim",
+     "house"
+    ]
+   }
+  },
+  {
+   "at": "1",
+   "cam": {
+    "preset": "close",
+    "on": "victim",
+    "side": 1
+   },
+   "focus": [
+    "victim"
+   ]
+  },
+  {
+   "at": "2",
+   "cam": {
+    "preset": "tight",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "3",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "victim",
+     "house"
+    ]
+   },
+   "focus": [
+    "victim",
+    "house"
+   ]
+  },
+  {
+   "at": "4",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "victim",
+     "crowd"
+    ]
+   }
+  },
+  {
+   "at": "5",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "victim"
+    ]
+   },
+   "focus": [
+    "you",
+    "victim"
+   ]
+  },
+  {
+   "at": "6",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "you",
+     "victim",
+     "crowd"
+    ]
+   }
+  },
+  {
+   "at": "7",
+   "cam": {
+    "preset": "close",
+    "on": "victim",
+    "side": 1
+   },
+   "focus": [
+    "victim"
+   ]
+  },
+  {
+   "at": "8",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "victim"
+    ]
+   },
+   "focus": [
+    "you",
+    "victim"
+   ]
+  },
+  {
+   "at": "8:believing",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "you",
+     "victim",
+     "crowd"
+    ]
+   }
+  },
+  {
+   "at": "9",
+   "cam": {
+    "preset": "close",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "10",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "victim",
+     "house"
+    ]
+   },
+   "focus": [
+    "victim",
+    "house"
+   ]
+  },
+  {
+   "at": "11",
+   "cam": {
+    "preset": "close",
+    "on": "a"
+   },
+   "focus": [
+    "a"
+   ]
+  },
+  {
+   "at": "12",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "victim",
+     "b"
+    ]
+   },
+   "focus": [
+    "victim",
+    "b"
+   ]
+  },
+  {
+   "at": "13",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "victim",
+     "crowd",
+     "you"
+    ]
+   }
+  },
+  {
+   "at": "14",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "victim",
+     "c",
+     "d"
+    ]
+   },
+   "focus": [
+    "victim",
+    "c",
+    "d"
+   ]
+  },
+  {
+   "at": "14:nine",
+   "cam": {
+    "preset": "close",
+    "on": "d"
+   },
+   "focus": [
+    "d"
+   ]
+  },
+  {
+   "at": "15",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "victim"
+    ],
+    "side": 1
+   },
+   "focus": [
+    "you",
+    "victim"
+   ]
+  },
+  {
+   "at": "16",
+   "cam": {
+    "preset": "tight",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "id": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "at": "0:neighbours",
+   "dur": 0.4,
+   "show": true
+  },
+  {
+   "id": "you",
+   "at": "2:help",
+   "dur": 0.4,
+   "pose": "think"
+  },
+  {
+   "id": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "at": "4:nobody",
+   "dur": 0.4,
+   "pose": "shrug"
+  },
+  {
+   "id": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "at": "5",
+   "dur": 0.4,
+   "pose": "stand"
+  },
+  {
+   "id": "you",
+   "at": "5",
+   "dur": 0.4,
+   "pose": "stand"
+  },
+  {
+   "id": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "at": "7",
+   "dur": 0.3,
+   "show": false
+  },
+  {
+   "id": "you",
+   "at": "8:ran",
+   "until": "8:ran+1.2",
+   "pos": [
+    -0.9,
+    0,
+    1.2
+   ],
+   "walk": true
+  },
+  {
+   "id": "you",
+   "at": "8:ran+1.2",
+   "dur": 0.4,
+   "pose": "reach"
+  },
+  {
+   "id": "you",
+   "at": "8:believing",
+   "dur": 0.1,
+   "pos": [
+    -2.2,
+    0,
+    2.6
+   ]
+  },
+  {
+   "id": "you",
+   "at": "8:believing",
+   "dur": 0.3,
+   "pose": "stand"
+  },
+  {
+   "id": [
+    "a",
+    "b",
+    "c",
+    "d"
+   ],
+   "at": "8:four",
+   "dur": 0.4,
+   "show": true
+  },
+  {
+   "id": "you",
+   "at": "9:shrank",
+   "dur": 0.4,
+   "pose": "shrug"
+  },
+  {
+   "id": "a",
+   "at": "11:shout",
+   "dur": 0.4,
+   "pose": "point"
+  },
+  {
+   "id": "b",
+   "at": "12:ran",
+   "until": "12:ran+1.2",
+   "pos": [
+    -0.5,
+    0,
+    1.1
+   ],
+   "walk": true
+  },
+  {
+   "id": "b",
+   "at": "12:held",
+   "dur": 0.4,
+   "pose": "carry"
+  },
+  {
+   "id": "victim",
+   "at": "12:held",
+   "dur": 0.4,
+   "behave": "none"
+  },
+  {
+   "id": [
+    "a",
+    "b"
+   ],
+   "at": "13",
+   "dur": 0.4,
+   "pose": "stand"
+  },
+  {
+   "id": "d",
+   "at": "14:stepped",
+   "until": "14:stepped+1.0",
+   "pos": [
+    1.3,
+    0,
+    0.6
+   ],
+   "walk": true
+  },
+  {
+   "id": "c",
+   "at": "14:stepped+0.3",
+   "dur": 0.4,
+   "pose": "wave"
+  },
+  {
+   "id": "you",
+   "at": "15:wait",
+   "dur": 0.4,
+   "pose": "think"
+  },
+  {
+   "id": "you",
+   "at": "16",
+   "dur": 0.4,
+   "pose": "point"
+  }
+ ],
+ "overlays": [
+  {
+   "type": "number",
+   "text": "38",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "0:38",
+   "to": "1"
+  },
+  {
+   "type": "question",
+   "on": "you",
+   "from": "2:help",
+   "to": "3"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "genovese",
+    0
+   ],
+   "caption": "Kitty Genovese, 1961",
+   "from": "3",
+   "to": "3:Queens-0.1"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "kew",
+    1
+   ],
+   "caption": "Austin Street, Kew Gardens, Queens",
+   "from": "3:Queens",
+   "to": "4-0.2"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "nyt",
+    0
+   ],
+   "caption": "The New York Times, March 27, 1964",
+   "from": "4",
+   "to": "5-0.2"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "nyu",
+    2
+   ],
+   "caption": "New York University, where the study was run",
+   "from": "5",
+   "to": "6-0.2"
+  },
+  {
+   "type": "label",
+   "text": "YOU",
+   "color": "yellow",
+   "on": "you",
+   "from": "6",
+   "to": "7"
+  },
+  {
+   "type": "number",
+   "text": "85%",
+   "on": "you",
+   "from": "8:85",
+   "to": "8:believing"
+  },
+  {
+   "type": "number",
+   "text": "31%",
+   "on": "you",
+   "from": "8:31",
+   "to": "9"
+  },
+  {
+   "type": "label",
+   "text": "RESPONSIBILITY ÷ CROWD",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "9:shrank",
+   "to": "10"
+  },
+  {
+   "type": "xmark",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "10:wrong",
+   "to": "11"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "genovese",
+    1
+   ],
+   "caption": "The alley in Kew Gardens where she was found",
+   "from": "12:Farrar",
+   "to": "13-0.2"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "cctv",
+    0
+   ],
+   "caption": "Street CCTV camera",
+   "from": "13:cameras",
+   "to": "14-0.2"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "amsterdam",
+    0
+   ],
+   "caption": "Amsterdam, one of the three cities",
+   "from": "14:Amsterdam",
+   "to": "14:nine-0.1"
+  },
+  {
+   "type": "label",
+   "text": "9 IN 10: SOMEONE HELPS",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "14:nine",
+   "to": "15"
+  },
+  {
+   "type": "check",
+   "on": "d",
+   "from": "14:stepped",
+   "to": "15"
+  },
+  {
+   "type": "icon",
+   "icon": "clock",
+   "on": "you",
+   "from": "15:wait",
+   "to": "16"
+  },
+  {
+   "type": "pill",
+   "text": "Will you move first?",
+   "from": "16:moves"
+  }
+ ],
+ "sfx": [
+  {
+   "at": "7:seizure",
+   "s": "error",
+   "gain": 0.25
+  },
+  {
+   "at": "8:ran",
+   "s": "whoosh",
+   "gain": 0.25
+  },
+  {
+   "at": "11:shout",
+   "s": "bong",
+   "gain": 0.25
+  },
+  {
+   "at": "14:stepped",
+   "s": "whoosh",
+   "gain": 0.25
+  }
+ ],
+ "music": {
+  "mood": "neutral"
+ },
+ "sources": [
+  "https://bps.org.uk/research-digest/truth-behind-story-kitty-genovese-and-bystander-effect",
+  "https://www.mcgill.ca/oss/article/critical-thinking-history/bystander-effect-started-lie",
+  "https://core.ac.uk/download/211246875.pdf",
+  "https://www.lancaster.ac.uk/news/bystanders-will-intervene-to-help-victims-of-aggressive-public-disputes",
+  "https://psycnet.apa.org/record/1968-08862-001",
+  "https://en.wikipedia.org/wiki/Murder_of_Kitty_Genovese"
+ ],
+ "post": {
+  "caption": "The story of 38 neighbours who watched a murder and did nothing launched the bystander effect, and it was wrong. Real CCTV of 219 street fights shows someone steps in nine times out of ten.\nWould you be the first to move?",
+  "tags": [
+   "#psychology",
+   "#bystandereffect",
+   "#kittygenovese",
+   "#socialpsychology",
+   "#philosophy"
+  ],
+  "youtube_title": "The Bystander Effect Story Was Wrong"
+ }
+}

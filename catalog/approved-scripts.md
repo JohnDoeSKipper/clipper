@@ -1,6 +1,30 @@
 # Model scripts (newest first)
 The writer reads the top two of its channel before writing and matches or beats them: same spine (beats in order, every sentence linked to the one before), never the same facts or hooks. Each script the writer makes is added at the top in this format. Kept to the last 12.
 
+## bystander-effect (philosophy, 2026-11-27)
+
+Angle: Does a crowd really make people less likely to help?
+Logline: A 1964 headline said 38 neighbours watched a murder and did nothing, so does a crowd stop help? two New York psychologists blamed numbers, not cold hearts, because their seizure study saw help fall from 85% to 31% with four listeners, but the Genovese story was wrong, because few saw it and a friend ran to her, but the strongest test came from real CCTV, which found someone helps in nine of ten fights, so crowds don't stop help, they only make each of us wait.
+On-screen hook: 38 WITNESSES. OR WERE THERE?
+
+[hook] A 1964 headline claimed 38 neighbours watched a murder and did nothing.
+[hook / so] That story launched one of psychology's most famous ideas.
+[question / so] So does a crowd really make you less likely to help?
+[reveal1 / answer] Kitty Genovese was attacked outside her apartment in Queens, at three in the morning.
+[reveal1 / detail] The New York Times said 38 people saw or heard it, and nobody called.
+[reveal1 / so] So two New York psychologists went looking for the cause.
+[reveal2 / but] But they didn't blame cold city hearts; they blamed numbers.
+[reveal2 / because] In 1968, students heard a fellow student have a seizure over an intercom.
+[reveal2 / detail] Alone, 85 percent ran for help; believing four others could hear, only 31 percent did.
+[reveal2 / because] Each person's share of the responsibility shrank as the crowd grew.
+[reveal3 / but] But the Genovese story itself was wrong.
+[reveal3 / because] Only a handful saw the attack, and one man's shout drove the killer off.
+[reveal3 / detail] Her friend Sophia Farrar ran out and held her as she died.
+[turn / but] But the best test came from real street cameras.
+[turn / detail] In 2019, researchers studied CCTV of 219 fights in Amsterdam, Lancaster and Cape Town; in nine of ten, someone stepped in.
+[payoff / so] So crowds don't stop help; they make each of us wait for someone else.
+[payoff / so] Next time you're one of many, will you be the one who moves first?
+
 ## wanderer-fog (paintings, 2026-11-27)
 
 Angle: Where is the Wanderer standing, and why won't Friedrich show us his face?
@@ -261,25 +285,3 @@ On-screen hook: RED, BY INJECTION
 [turn / because] Because tests show what they can pick out, not what it's like.
 [payoff / answer] So seeing red teaches something no book can, even if it's only a skill.
 [payoff / but] But an AI has read every word about red. What is it missing?
-
-## arnolfini (paintings, 2026-11-25)
-
-Angle: Who are the man and woman in the Arnolfini Portrait?
-Logline: Van Eyck signed himself as a witness, so who did he witness? A 1516 nickname became 'Arnolfini', so a rich merchant seemed right, but the likeliest Arnolfini's wife was dead by 1433, so the candle may be a memorial, but a Berlin curator now says it is Van Eyck and Margaret, because Saint Margaret is carved beside her, but Margaret's eyes are the wrong colour, so the couple stays unnamed and only the painter's name is certain.
-On-screen hook: WHO ARE THESE TWO?
-
-[hook] Above the mirror, the painter wrote: Jan van Eyck was here, 1434.
-[hook / detail] In the mirror, two men stand in the doorway.
-[question / so] So who is the couple he watched?
-[reveal1 / answer] Their name comes from a 1516 inventory: Hernoul le Fin, with his wife.
-[reveal1 / so] In the 1860s, that was read as Arnolfini, Italian merchants in Bruges.
-[reveal1 / so] So the oranges fit: costly fruit for a rich merchant.
-[reveal2 / but] But the likeliest Arnolfini, Giovanni di Nicolao, had lost his wife.
-[reveal2 / detail] She had died by 1433, a year before this date.
-[reveal2 / so] So some read the chandelier as a memorial: one candle lit, one snuffed out.
-[reveal3 / but] But a Berlin curator now has a bolder answer.
-[reveal3 / detail] The man, he says, is Van Eyck himself, and the woman his wife, Margaret.
-[reveal3 / because] Because on the bedpost beside her stands a carving of Saint Margaret.
-[turn / but] But Van Eyck's portrait of Margaret shows grey-blue eyes; these are brown.
-[payoff / answer] So after six centuries, the couple still has no certain name.
-[payoff / but] But we know who stood at the door: Jan van Eyck was here.
