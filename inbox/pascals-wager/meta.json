@@ -1,0 +1,182 @@
+{
+ "id": "pascals-wager",
+ "painting": null,
+ "inserts": {
+  "pascal": [
+   {
+    "title": "File:Portrait de Blaise Pascal (MARQ 999.3.1).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Portrait_de_Blaise_Pascal_%28MARQ_999.3.1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/4/40/Portrait_de_Blaise_Pascal_%28MARQ_999.3.1%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2710,
+    "height": 3221,
+    "licence": "CC BY-SA 4.0",
+    "artist": "AnonymousUnknown author",
+    "credit": "AnonymousUnknown author / CC BY-SA 4.0",
+    "desc": "Portrait de Blaise Pascal"
+   },
+   {
+    "title": "File:Blaise Pascal Versailles.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Blaise_Pascal_Versailles.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/9/98/Blaise_Pascal_Versailles.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2365,
+    "height": 2817,
+    "licence": "Public domain",
+    "artist": "unknown; a copy of the painting of Fran\u00e7ois II Quesnel, which was made for G\u00e9rar",
+    "credit": "",
+    "desc": ""
+   },
+   {
+    "title": "File:FR-631136102 GRA 6025 Portrait de Blaise Pascal par Edelinck (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/FR-631136102_GRA_6025_Portrait_de_Blaise_Pascal_par_Edelinck_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/4/48/FR-631136102_GRA_6025_Portrait_de_Blaise_Pascal_par_Edelinck_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2430,
+    "height": 3151,
+    "licence": "CC BY-SA 4.0",
+    "artist": "G\u00e9rard Edelinck",
+    "credit": "G\u00e9rard Edelinck / CC BY-SA 4.0",
+    "desc": "Burin ex\u00e9cut\u00e9 aux environs de 1689-1692 selon Bernard Dorival, \"L'iconographie de Pascal au 17e si\u00e8cle\" dans Pascal et Port-Royal, 1962, p. 96 ; probablement 16"
+   }
+  ],
+  "pensees": [
+   {
+    "title": "File:Pens\u00e9es sur la religion, par Blaise PASCAL. - btv1b100765731 (291 of 469).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Pens%C3%A9es_sur_la_religion%2C_par_Blaise_PASCAL._-_btv1b100765731_%28291_of_469%29.jpg/3840px-Pens%C3%A9es_sur_la_religion%2C_par_Blaise_PASCAL._-_btv1b100765731_%28291_of_469%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Pens%C3%A9es_sur_la_religion%2C_par_Blaise_PASCAL._-_btv1b100765731_%28291_of_469%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 6884,
+    "height": 5390,
+    "licence": "Public domain",
+    "artist": "",
+    "credit": "",
+    "desc": "Sujet : Clermont-Ferrand. Oratoire. Clermont-Ferrand. Saint-Allyre. Congr\u00e9gation de l'Oratoire. Assembl\u00e9e g\u00e9n\u00e9rale (1746). Forton, Jacques. Affaire. Guerrier, L"
+   },
+   {
+    "title": "File:Pens\u00e9es sur la religion, par Blaise PASCAL. - btv1b100765731 (100 of 469).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Pens%C3%A9es_sur_la_religion%2C_par_Blaise_PASCAL._-_btv1b100765731_%28100_of_469%29.jpg/3840px-Pens%C3%A9es_sur_la_religion%2C_par_Blaise_PASCAL._-_btv1b100765731_%28100_of_469%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/0/06/Pens%C3%A9es_sur_la_religion%2C_par_Blaise_PASCAL._-_btv1b100765731_%28100_of_469%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 7255,
+    "height": 5390,
+    "licence": "Public domain",
+    "artist": "",
+    "credit": "",
+    "desc": "Sujet : Clermont-Ferrand. Oratoire. Clermont-Ferrand. Saint-Allyre. Congr\u00e9gation de l'Oratoire. Assembl\u00e9e g\u00e9n\u00e9rale (1746). Forton, Jacques. Affaire. Guerrier, L"
+   },
+   {
+    "title": "File:Pens\u00e9es sur la religion, par Blaise PASCAL. - btv1b100765731 (338 of 469).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Pens%C3%A9es_sur_la_religion%2C_par_Blaise_PASCAL._-_btv1b100765731_%28338_of_469%29.jpg/3840px-Pens%C3%A9es_sur_la_religion%2C_par_Blaise_PASCAL._-_btv1b100765731_%28338_of_469%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Pens%C3%A9es_sur_la_religion%2C_par_Blaise_PASCAL._-_btv1b100765731_%28338_of_469%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 7259,
+    "height": 5390,
+    "licence": "Public domain",
+    "artist": "",
+    "credit": "",
+    "desc": "Sujet : Clermont-Ferrand. Oratoire. Clermont-Ferrand. Saint-Allyre. Congr\u00e9gation de l'Oratoire. Assembl\u00e9e g\u00e9n\u00e9rale (1746). Forton, Jacques. Affaire. Guerrier, L"
+   }
+  ],
+  "memorial": [],
+  "pascaline": [
+   {
+    "title": "File:Arts et Metiers Pascaline dsc03869.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Arts_et_Metiers_Pascaline_dsc03869.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/8/80/Arts_et_Metiers_Pascaline_dsc03869.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2042,
+    "height": 1119,
+    "licence": "CC BY-SA 3.0",
+    "artist": "David.Monniaux",
+    "credit": "David.Monniaux / CC BY-SA 3.0",
+    "desc": "A Pascaline, an early calculator. (Machine \u00e0 calculer de Blaise Pascal sans sous ni deniers, signed by Pascal 1642)."
+   },
+   {
+    "title": "File:Pascaline calculator front.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Pascaline_calculator_front.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Pascaline_calculator_front.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1319,
+    "height": 527,
+    "licence": "Public domain",
+    "artist": "J. A. V. Turck",
+    "credit": "",
+    "desc": "Photo of a 'Pascaline', the mechanical calculator invented and manufactured by French scientist Blaise Pascal between 1642 and 1652."
+   },
+   {
+    "title": "File:Pascaline calculator.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Pascaline_calculator.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Pascaline_calculator.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1375,
+    "height": 734,
+    "licence": "Public domain",
+    "artist": "J. A. V. Turck",
+    "credit": "",
+    "desc": "Photo of a 'Pascaline', the mechanical calculator invented and manufactured by French scientist Blaise Pascal around 1642. From the accompanying text: \"The mach"
+   }
+  ],
+  "portroyal": [
+   {
+    "title": "File:Port-Royal des Champs \u2013 L\u2019ancien moulin et le pigeonnier (1894).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Port-Royal_des_Champs_%E2%80%93_L%E2%80%99ancien_moulin_et_le_pigeonnier_%281894%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Port-Royal_des_Champs_%E2%80%93_L%E2%80%99ancien_moulin_et_le_pigeonnier_%281894%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1551,
+    "height": 1025,
+    "licence": "CC0",
+    "artist": "Unknown authorUnknown author",
+    "credit": "",
+    "desc": "The site of the Port-Royal des Champs abbey in 1894 with its old mill, the home of its Solitaire (from 1895 to 1932) and its partly hidden dovecote. In the fore"
+   },
+   {
+    "title": "File:Agn\u00e8s Arnauld abbesse of Port Royal des Champs.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Agn%C3%A8s_Arnauld_abbesse_of_Port_Royal_des_Champs.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Agn%C3%A8s_Arnauld_abbesse_of_Port_Royal_des_Champs.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1100,
+    "height": 1600,
+    "licence": "Public domain",
+    "artist": "Philippe de Champaigne",
+    "credit": "",
+    "desc": "Agn\u00e8s Arnauld, abbess of Port-Royal-des-Champs Abbey"
+   },
+   {
+    "title": "File:Port-Royal des Champs (1894) vestiges num\u00e9rot\u00e9s.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Port-Royal_des_Champs_%281894%29_vestiges_num%C3%A9rot%C3%A9s.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Port-Royal_des_Champs_%281894%29_vestiges_num%C3%A9rot%C3%A9s.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1551,
+    "height": 1025,
+    "licence": "CC0",
+    "artist": "GV3",
+    "credit": "",
+    "desc": "Overview of the ruins of the Port-Royal des Champs abbey with numbering of the remains for later identification"
+   }
+  ],
+  "dice": [
+   {
+    "title": "File:Bau cua ca cop.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Bau_cua_ca_cop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Bau_cua_ca_cop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1065,
+    "height": 648,
+    "licence": "Public domain",
+    "artist": "Krestavilis (talk) (Uploads)",
+    "credit": "",
+    "desc": "Photo of the game bau cua ca cop. Taken by User:Krestavilis in 2005"
+   },
+   {
+    "title": "File:California, Tulare, Unassigned - Gambling Dice - 1917.413.2.f - Cleveland Museum of Art.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/California%2C_Tulare%2C_Unassigned_-_Gambling_Dice_-_1917.413.2.f_-_Cleveland_Museum_of_Art.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/f/fd/California%2C_Tulare%2C_Unassigned_-_Gambling_Dice_-_1917.413.2.f_-_Cleveland_Museum_of_Art.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3400,
+    "height": 3174,
+    "licence": "CC0",
+    "artist": "",
+    "credit": "",
+    "desc": ""
+   },
+   {
+    "title": "File:California, Tulare, Unassigned - Gambling Dice - 1917.413.2.d - Cleveland Museum of Art.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/California%2C_Tulare%2C_Unassigned_-_Gambling_Dice_-_1917.413.2.d_-_Cleveland_Museum_of_Art.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/a/af/California%2C_Tulare%2C_Unassigned_-_Gambling_Dice_-_1917.413.2.d_-_Cleveland_Museum_of_Art.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3400,
+    "height": 3352,
+    "licence": "CC0",
+    "artist": "",
+    "credit": "",
+    "desc": ""
+   }
+  ]
+ }
+}
