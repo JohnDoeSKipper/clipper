@@ -72,42 +72,7 @@
     "desc": "Hoover Tower and McClatchy Hall, Stanford University, Stanford, California."
    }
   ],
-  "marshmallow": [
-   {
-    "title": "File:Sweet potato pie, toasted marshmallow, brown sugar.jpg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Sweet_potato_pie%2C_toasted_marshmallow%2C_brown_sugar.jpg/3840px-Sweet_potato_pie%2C_toasted_marshmallow%2C_brown_sugar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/6/67/Sweet_potato_pie%2C_toasted_marshmallow%2C_brown_sugar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 4104,
-    "height": 2736,
-    "licence": "CC BY 2.0",
-    "artist": "City Foodsters",
-    "credit": "City Foodsters / CC BY 2.0",
-    "desc": "Coquette, New Orleans, LA Date Visited: October 31, 2013 City Foodsters Facebook | Twitter | Instagram"
-   },
-   {
-    "title": "File:Silver and gold ribbon cake.png",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Silver_and_gold_ribbon_cake.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Silver_and_gold_ribbon_cake.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 1600,
-    "height": 1600,
-    "licence": "CC BY 4.0",
-    "artist": "WhatamIdoing",
-    "credit": "WhatamIdoing / CC BY 4.0",
-    "desc": "In the late 19th century, a silver and gold cake was a cake that combined a white cake (made from white sugar, white flour, and egg whites) with yellow cake (a "
-   },
-   {
-    "title": "File:Display case in Gideon's Bakehouse.jpg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Display_case_in_Gideon%27s_Bakehouse.jpg/3840px-Display_case_in_Gideon%27s_Bakehouse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Display_case_in_Gideon%27s_Bakehouse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 4080,
-    "height": 3072,
-    "licence": "CC BY 2.0",
-    "artist": "Jeremy Thompson",
-    "credit": "Jeremy Thompson / CC BY 2.0",
-    "desc": "Items on display in Gideon's Bakehouse Disney Springs in Lake Buena Vista, FL, USA include sliced cake: (l. to r.) Marshmallow Buttercream Chocolate Chip, True "
-   }
-  ],
-  "kidd": [],
+  "marshmallow": [],
   "cookies": [
    {
     "title": "File:Plate of chocolate chip cookies, ready to munch.jpg",
@@ -121,17 +86,6 @@
     "desc": "A plate of delicious chocolate chip cookies on a white plate on a white table. Ready to enjoy."
    },
    {
-    "title": "File:Chocolate chip cookies with reflection on plate, May 2009.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Chocolate_chip_cookies_with_reflection_on_plate%2C_May_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Chocolate_chip_cookies_with_reflection_on_plate%2C_May_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 3008,
-    "height": 2000,
-    "licence": "CC BY 2.0",
-    "artist": "kembelwong",
-    "credit": "kembelwong / CC BY 2.0",
-    "desc": "Chocolate chip cookies with reflection on plate."
-   },
-   {
     "title": "File:Chocolate chip cookies on a white plate and dark background.jpg",
     "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Chocolate_chip_cookies_on_a_white_plate_and_dark_background.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
     "full": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Chocolate_chip_cookies_on_a_white_plate_and_dark_background.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -141,7 +95,89 @@
     "artist": "kembelwong",
     "credit": "kembelwong / CC BY 2.0",
     "desc": "Chocolate chip cookies on a white plate and dark background."
+   },
+   {
+    "title": "File:Chocolate chip cookies with reflection on plate, May 2009.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Chocolate_chip_cookies_with_reflection_on_plate%2C_May_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Chocolate_chip_cookies_with_reflection_on_plate%2C_May_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3008,
+    "height": 2000,
+    "licence": "CC BY 2.0",
+    "artist": "kembelwong",
+    "credit": "kembelwong / CC BY 2.0",
+    "desc": "Chocolate chip cookies with reflection on plate."
    }
-  ]
+  ],
+  "rochester": [
+   {
+    "title": "File:Rush Rhees library entrance at the University of Rochester.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Rush_Rhees_library_entrance_at_the_University_of_Rochester.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Rush_Rhees_library_entrance_at_the_University_of_Rochester.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1215,
+    "height": 910,
+    "licence": "CC0",
+    "artist": "Tomwsulcer",
+    "credit": "",
+    "desc": "Looking up at the entrance to Rush Rhees library at the River Campus of the University of Rochester, in Rochester, New York. (correct date of photo =&gt; April "
+   },
+   {
+    "title": "File:Reading room in Rush Rhees library at the University of Rochester.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Reading_room_in_Rush_Rhees_library_at_the_University_of_Rochester.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Reading_room_in_Rush_Rhees_library_at_the_University_of_Rochester.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1675,
+    "height": 1062,
+    "licence": "CC0",
+    "artist": "Tomwsulcer",
+    "credit": "",
+    "desc": "Front reading room on the second floor of the Rush Rhees library at the River Campus of the University of Rochester, in Rochester, New York. (correct date of ph"
+   },
+   {
+    "title": "File:Rush Rhees Library (U. Rochester) - inscription.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Rush_Rhees_Library_%28U._Rochester%29_-_inscription.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Rush_Rhees_Library_%28U._Rochester%29_-_inscription.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3264,
+    "height": 2448,
+    "licence": "Public domain",
+    "artist": "Daderot",
+    "credit": "",
+    "desc": "Inscription - Rush Rhees Library, University of Rochester, Rochester, New York, USA."
+   }
+  ],
+  "crayons": [
+   {
+    "title": "File:School pencil cases.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/School_pencil_cases.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/7/7c/School_pencil_cases.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2150,
+    "height": 1821,
+    "licence": "CC BY-SA 4.0",
+    "artist": "ABX",
+    "credit": "ABX / CC BY-SA 4.0",
+    "desc": "pencil cases"
+   },
+   {
+    "title": "File:Crayons box.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Crayons_box.jpg/3840px-Crayons_box.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/0/08/Crayons_box.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4032,
+    "height": 3024,
+    "licence": "CC0",
+    "artist": "Conrad 7",
+    "credit": "",
+    "desc": "Crayola crayons box"
+   },
+   {
+    "title": "File:Box of crayons IMG 0009.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Box_of_crayons_IMG_0009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Box_of_crayons_IMG_0009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3264,
+    "height": 2448,
+    "licence": "CC BY 2.0",
+    "artist": "Collin Anderson",
+    "credit": "Collin Anderson / CC BY 2.0",
+    "desc": "Box of crayons"
+   }
+  ],
+  "kidd": []
  }
 }
