@@ -1,6 +1,28 @@
 # Model scripts (newest first)
 The writer reads the top two of its channel before writing and matches or beats them: same spine (beats in order, every sentence linked to the one before), never the same facts or hooks. Each script the writer makes is added at the top in this format. Kept to the last 12.
 
+## death-of-marat (paintings, 2026-11-27)
+
+Angle: Is The Death of Marat a record of a murder, or propaganda?
+Logline: Its painter had visited the victim the day before and was his political ally, so record or propaganda? Marat was stabbed in his medicinal bath by Corday, who got in with a letter, but David cleaned up the scene: flawless skin, a Christ-like pose, no killer, only a knife, but his boldest touch is a charity note he invented, so the killer asks for kindness and the victim gives it, but the Revolution turned and David went to prison, so the martyr was hidden, and it hangs in Brussels, where David died in exile.
+On-screen hook: PAINTED BY HIS FRIEND
+
+[hook] Its painter had visited the murdered man the day before.
+[hook / detail] Jacques-Louis David was also his political ally.
+[question / so] So is this a record of a murder, or propaganda?
+[reveal1 / answer] Jean-Paul Marat, a radical journalist, was stabbed in his bath on 13 July 1793.
+[reveal1 / detail] He worked from the tub to soothe a painful skin disease.
+[reveal1 / detail] His killer, Charlotte Corday, got in with a letter begging for his help.
+[reveal2 / but] But David cleaned up the scene.
+[reveal2 / detail] Marat's skin is flawless, his body limp like a dead Christ's.
+[reveal2 / detail] Corday has vanished; only her knife lies on the floor.
+[reveal3 / but] But his boldest touch is on the wooden box.
+[reveal3 / detail] A note sends money to a widowed mother of five: a kindness David invented.
+[reveal3 / so] So the killer's letter asks for kindness, and the dying man gives it.
+[turn / but] But the Revolution turned: within a year, David was in prison and the painting hidden away.
+[turn / detail] He died in exile in Brussels, and that's where it hangs today.
+[payoff / so] So it's a murder scene and a recruiting poster at once, painted by a friend.
+
 ## lifeboat (philosophy, 2026-11-27)
 
 Angle: If killing one person could save three, is it still murder?
@@ -253,25 +275,3 @@ On-screen hook: THE SUN VANISHES IN GREY
 [reveal3 / so] So the part of your brain that tracks brightness barely sees it, and it seems to flicker.
 [turn / but] But in 1985, armed robbers took it from a Paris museum in daylight.
 [payoff / so] So a sun you can barely see named a movement everyone knows.
-
-## whistlers-mother (paintings, 2026-11-27)
-
-Angle: How did a picture Whistler insisted was just grey and black become America's symbol of motherhood?
-Logline: His mother was a stand-in, so how did she become America's mother? He painted her sitting and titled it an arrangement in grey and black, but the Royal Academy nearly rejected it and France bought it, but in 1934 America put it on a Mother's Day stamp with added flowers, so it became a symbol of motherhood, but Whistler had left America at 21 and never went back, so America's most famous mother is, by its own title, just grey and black.
-On-screen hook: A LAST-MINUTE STAND-IN
-
-[hook] Whistler's mother was a last-minute stand-in.
-[hook / because] A model failed to turn up, so he asked her to pose.
-[question / so] So how did a stand-in become America's most famous mother?
-[reveal1 / answer] She was 67, and too tired to stand, so he painted her sitting.
-[reveal1 / but] But he didn't call it a portrait: its title is Arrangement in Grey and Black.
-[reveal1 / because] Why should the public care who the sitter is, he asked.
-[reveal2 / but] But London's Royal Academy almost rejected it in 1872.
-[reveal2 / detail] It got in only after one member threatened to resign.
-[reveal2 / but] In 1891, France bought it, the first painting by an American in its national collection.
-[reveal3 / but] But America turned it into something else.
-[reveal3 / detail] In 1934, the Post Office put her on a Mother's Day stamp.
-[reveal3 / detail] It added a vase of flowers at her feet, which Whistler never painted.
-[reveal3 / so] So an arrangement in grey became the face of motherhood.
-[turn / but] But Whistler had left America at 21, and never went back.
-[payoff / so] So America's most famous mother was painted in London, by a son who stayed away, and hangs in Paris.

@@ -1,0 +1,296 @@
+{
+ "id": "death-of-marat",
+ "channel": "paintings",
+ "angle": "Is The Death of Marat a record of a murder, or propaganda?",
+ "answer": "Propaganda by a friend: David, Marat's fellow Jacobin, smoothed away his skin disease, posed him like a dead Christ, erased the killer and invented a charitable note, turning a murder into a martyrdom; when the Revolution turned, the painting had to be hidden, and it ended up in Brussels, where David died in exile.",
+ "logline": "Its painter had visited the victim the day before and was his political ally, so record or propaganda? Marat was stabbed in his medicinal bath by Corday, who got in with a letter, but David cleaned up the scene: flawless skin, a Christ-like pose, no killer, only a knife, but his boldest touch is a charity note he invented, so the killer asks for kindness and the victim gives it, but the Revolution turned and David went to prison, so the martyr was hidden, and it hangs in Brussels, where David died in exile.",
+ "hook_text": "PAINTED BY HIS FRIEND",
+ "hooks": [
+  "The killer in this painting is missing. Only her knife is left.",
+  "David invented the note on that wooden box."
+ ],
+ "painting": {
+  "title": "The Death of Marat",
+  "artist": "Jacques-Louis David",
+  "year": "1793",
+  "museum": "Royal Museums of Fine Arts of Belgium, Brussels"
+ },
+ "script": [
+  {
+   "text": "Its painter had visited the murdered man the day before.",
+   "beat": "hook"
+  },
+  {
+   "text": "Jacques-Louis David was also his political ally.",
+   "beat": "hook",
+   "link": "detail"
+  },
+  {
+   "text": "So is this a record of a murder, or propaganda?",
+   "beat": "question",
+   "link": "so"
+  },
+  {
+   "text": "Jean-Paul Marat, a radical journalist, was stabbed in his bath on 13 July 1793.",
+   "say": "Jean-Paul Mara, a radical journalist, was stabbed in his bath on the thirteenth of July, seventeen ninety-three.",
+   "beat": "reveal1",
+   "link": "answer"
+  },
+  {
+   "text": "He worked from the tub to soothe a painful skin disease.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "His killer, Charlotte Corday, got in with a letter begging for his help.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "But David cleaned up the scene.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "Marat's skin is flawless, his body limp like a dead Christ's.",
+   "say": "Mara's skin is flawless, his body limp like a dead Christ's.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "Corday has vanished; only her knife lies on the floor.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "But his boldest touch is on the wooden box.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "A note sends money to a widowed mother of five: a kindness David invented.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "So the killer's letter asks for kindness, and the dying man gives it.",
+   "beat": "reveal3",
+   "link": "so"
+  },
+  {
+   "text": "But the Revolution turned: within a year, David was in prison and the painting hidden away.",
+   "beat": "turn",
+   "link": "but"
+  },
+  {
+   "text": "He died in exile in Brussels, and that's where it hangs today.",
+   "beat": "turn",
+   "link": "detail"
+  },
+  {
+   "text": "So it's a murder scene and a recruiting poster at once, painted by a friend.",
+   "beat": "payoff",
+   "link": "so"
+  }
+ ],
+ "music": {
+  "piece": "mozart-fantasia-d-minor"
+ },
+ "timeline": [
+  {
+   "type": "reveal",
+   "from": [
+    0.163,
+    0.483,
+    2.4
+   ],
+   "until": 3.2
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "david",
+    2
+   ],
+   "caption": "Jacques-Louis David, self-portrait",
+   "at": "1",
+   "to": "2-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "marat",
+    2
+   ],
+   "caption": "Jean-Paul Marat, by Joseph Boze",
+   "at": "3",
+   "to": "4-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "bath",
+    1
+   ],
+   "caption": "The murder, in a print of 1793",
+   "at": "4",
+   "to": "5-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "corday",
+    0
+   ],
+   "caption": "Charlotte Corday, by Jean-Jacques Hauer",
+   "at": "5",
+   "to": "5:letter-0.1"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.76,
+    0.566,
+    0.075,
+    0.055
+   ],
+   "ring": "5:letter",
+   "zoom": "5:letter+0.3",
+   "label": "HER LETTER",
+   "labelAt": "5:begging",
+   "out": "6-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.27,
+    0.6,
+    0.23,
+    0.25
+   ],
+   "ring": "6",
+   "zoom": "6+0.4",
+   "out": "7-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.25,
+    0.58,
+    0.15,
+    0.12
+   ],
+   "ring": "7",
+   "zoom": "7+0.4",
+   "label": "FLAWLESS SKIN",
+   "labelAt": "7:flawless",
+   "out": "7:Christ's-0.1"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "pieta",
+    1
+   ],
+   "caption": "Michelangelo, Pietà",
+   "at": "7:Christ's",
+   "to": "8-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.19,
+    0.965,
+    0.12,
+    0.03
+   ],
+   "ring": "8",
+   "zoom": "8+0.4",
+   "label": "HER KNIFE",
+   "labelAt": "8:knife",
+   "out": "9-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.72,
+    0.8,
+    0.15,
+    0.17
+   ],
+   "ring": "9",
+   "zoom": "9+0.4",
+   "out": "10-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.69,
+    0.67,
+    0.08,
+    0.035
+   ],
+   "ring": "10",
+   "zoom": "10+0.4",
+   "label": "AN INVENTED KINDNESS",
+   "labelAt": "10:kindness",
+   "out": "11-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.47,
+    0.6,
+    0.35,
+    0.08
+   ],
+   "ring": "11",
+   "zoom": "11+0.4",
+   "out": "12-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "david",
+    1
+   ],
+   "caption": "David's self-portrait, painted in prison, 1794",
+   "at": "12",
+   "to": "13-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "brussels",
+    0
+   ],
+   "caption": "Royal Museums of Fine Arts, Brussels",
+   "at": "13",
+   "to": "14-0.3"
+  }
+ ],
+ "sources": [
+  "https://fine-arts-museum.be/en/the-collection/artwork/7889",
+  "https://smarthistory.org/david-death-of-marat/",
+  "https://www.britannica.com/topic/The-Death-of-Marat",
+  "https://en.wikipedia.org/wiki/The_Death_of_Marat"
+ ],
+ "post": {
+  "caption": "Jacques-Louis David had visited Marat the day before he was murdered, and painted him as a martyr: flawless skin, no killer in sight, and a charity note David invented.\nRecord of a murder, or propaganda?",
+  "tags": [
+   "#arthistory",
+   "#jacqueslouisdavid",
+   "#deathofmarat",
+   "#frenchrevolution",
+   "#propaganda"
+  ],
+  "youtube_title": "David Painted His Murdered Friend as a Martyr"
+ }
+}

@@ -30,7 +30,7 @@ The leads are starting points from memory, not facts: check each one before it g
 - made | milkmaid | The Milkmaid, Vermeer | the nail hole and the erased basket; the trickle of milk; expensive blue on a servant
 - made | sleeping-gypsy | The Sleeping Gypsy, Rousseau | a toll clerk who never saw a desert; the lion that does not attack
 - made | folies-bergere | A Bar at the Folies-Bergère, Manet | the reflection that cannot be right; the trapeze feet; the beer label
-- requested | death-of-marat | The Death of Marat, David | propaganda painted by a friend; the letter; the bath he lived in
+- made | death-of-marat | The Death of Marat, David | propaganda painted by a friend; the letter; the bath he lived in
 - requested | ophelia | Ophelia, Millais | the model lay in a bathtub and fell ill; every flower has a meaning
 - requested | hunters-in-snow | The Hunters in the Snow, Bruegel | one small fox; the Little Ice Age; Alps that Belgium doesn't have
 - todo | calling-matthew | The Calling of Saint Matthew, Caravaggio | which one is Matthew; light as a pointing finger; a hand borrowed from Michelangelo
