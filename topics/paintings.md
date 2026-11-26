@@ -21,12 +21,12 @@ The leads are starting points from memory, not facts: check each one before it g
 - made | liberty-leading | Liberty Leading the People, Delacroix | it is 1830, not 1789; the boy who became Gavroche; hidden away as too dangerous
 - made | raft-medusa | The Raft of the Medusa, Géricault | a real scandal; he studied corpses; the tiny ship on the horizon
 - inbox | impression-sunrise | Impression, Sunrise, Monet | the insult that named Impressionism; the sun is no brighter than the sky
-- requested | cafe-terrace | Café Terrace at Night, Van Gogh | his first starry sky; no black paint; the café is still there
-- requested | school-of-athens | The School of Athens, Raphael | Plato has Leonardo's face; Michelangelo sulking on the steps; Raphael looking at us
-- requested | creation-of-adam | The Creation of Adam, Michelangelo | the gap between the fingers; the brain-shaped cloak; painted standing up, not lying down
-- todo | saturn | Saturn Devouring His Son, Goya | painted on his dining-room wall; never meant to be seen; never titled by him
-- todo | fighting-temeraire | The Fighting Temeraire, Turner | a hero ship towed to scrap; the sun sets in the wrong place; he never sold it
-- todo | whistlers-mother | Whistler's Mother, Whistler | the model didn't show up; its real title is about grey and black
+- inbox | cafe-terrace | Café Terrace at Night, Van Gogh | his first starry sky; no black paint; the café is still there
+- inbox | school-of-athens | The School of Athens, Raphael | Plato has Leonardo's face; Michelangelo sulking on the steps; Raphael looking at us
+- inbox | creation-of-adam | The Creation of Adam, Michelangelo | the gap between the fingers; the brain-shaped cloak; painted standing up, not lying down
+- requested | saturn | Saturn Devouring His Son, Goya | painted on his dining-room wall; never meant to be seen; never titled by him
+- requested | fighting-temeraire | The Fighting Temeraire, Turner | a hero ship towed to scrap; the sun sets in the wrong place; he never sold it
+- requested | whistlers-mother | Whistler's Mother, Whistler | the model didn't show up; its real title is about grey and black
 - todo | milkmaid | The Milkmaid, Vermeer | the nail hole and the erased basket; the trickle of milk; expensive blue on a servant
 - todo | sleeping-gypsy | The Sleeping Gypsy, Rousseau | a toll clerk who never saw a desert; the lion that does not attack
 - todo | folies-bergere | A Bar at the Folies-Bergère, Manet | the reflection that cannot be right; the trapeze feet; the beer label

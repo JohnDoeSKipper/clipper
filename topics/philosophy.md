@@ -20,13 +20,13 @@ Check what the original experiment or argument actually says (and whether later 
 - made | sorites | The Heap Paradox | clay | a heap of balls; remove one at a time; when does it stop being a heap?
 - made | buridans-donkey | Buridan's Donkey | clay | two identical piles; a perfectly rational animal starves
 - inbox | pascals-wager | Pascal's Wager | ps2 | two doors, a scale, coins; the bet and the objection of many gods
-- requested | utility-monster | The Utility Monster (Nozick) | clay | cake sharing; one creature enjoys it a thousand times more
-- requested | violinist | The Violinist (Thomson) | ps2 | you wake up connected to a stranger for nine months
+- inbox | utility-monster | The Utility Monster (Nozick) | clay | cake sharing; one creature enjoys it a thousand times more
+- inbox | violinist | The Violinist (Thomson) | ps2 | you wake up connected to a stranger for nine months
 - skipped | swampman | Swampman | ps2 | lightning, a perfect copy walks home; is it you? (skipped 2026-11-27: too close to teleporter)
-- requested | monty-hall | The Monty Hall Problem | clay | three doors, a prize; why switching wins two times in three
-- todo | survivorship-bias | Survivorship Bias | ps2 | returning planes with bullet holes; armour goes where there are none
-- todo | sunk-cost | The Sunk Cost Fallacy | clay | a bad film and a paid ticket; a walk to the door
-- todo | invisible-gorilla | The Invisible Gorilla | clay | count the passes; what you missed
+- inbox | monty-hall | The Monty Hall Problem | clay | three doors, a prize; why switching wins two times in three
+- requested | survivorship-bias | Survivorship Bias | ps2 | returning planes with bullet holes; armour goes where there are none
+- requested | sunk-cost | The Sunk Cost Fallacy | clay | a bad film and a paid ticket; a walk to the door
+- requested | invisible-gorilla | The Invisible Gorilla | clay | count the passes; what you missed
 - todo | achilles-tortoise | Achilles and the Tortoise (Zeno) | clay | a race where the runner can never catch up; arrows and halving distances
 - todo | lifeboat | The Lifeboat Dilemma | clay | a boat on open sea with one seat too few
 - todo | newcombs-paradox | Newcomb's Paradox | ps2 | a glass box and a closed box; a predictor robot that is never wrong
