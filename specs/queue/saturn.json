@@ -1,0 +1,294 @@
+{
+ "id": "saturn",
+ "channel": "paintings",
+ "angle": "How did a nightmare Goya painted on his own dining-room wall end up in the Prado?",
+ "answer": "Goya painted it privately on the plaster of his house outside Madrid, never titling or showing it; when he fled to France in 1824 it stayed behind, and in 1874 a later owner had the Black Paintings photographed, peeled off the walls onto canvas and shown in Paris; nobody bought them, so they went to the Prado.",
+ "logline": "Goya painted this on his dining-room wall and never showed it, so how did it reach the Prado? At 72 and deaf he bought the Deaf Man's House and covered its plaster with fourteen dark scenes, but this Saturn breaks the myth: a grown body, a god in terror, but in 1823 the king crushed the liberals, so Goya fled and the paintings stayed behind, but in 1874 they were peeled off the walls onto canvas, but nobody bought them in Paris, so a private nightmare now hangs for millions.",
+ "hook_text": "ON HIS DINING-ROOM WALL",
+ "hooks": [
+  "Goya never gave this painting a title. Someone else did, after he died.",
+  "This was painted straight onto the plaster of Goya's house."
+ ],
+ "painting": {
+  "title": "Saturn Devouring His Son",
+  "artist": "Francisco de Goya",
+  "year": "c. 1820-1823",
+  "museum": "Museo del Prado, Madrid"
+ },
+ "script": [
+  {
+   "text": "Goya painted this on the wall of his own dining room.",
+   "beat": "hook"
+  },
+  {
+   "text": "He never titled it, and never meant anyone else to see it.",
+   "beat": "hook",
+   "link": "detail"
+  },
+  {
+   "text": "So how did a private nightmare end up in the Prado?",
+   "beat": "question",
+   "link": "so"
+  },
+  {
+   "text": "In 1819, Goya, 72 and deaf, bought a house outside Madrid.",
+   "say": "In eighteen nineteen, Goya, seventy-two and deaf, bought a house outside Madrid.",
+   "beat": "reveal1",
+   "link": "answer"
+  },
+  {
+   "text": "Locals called it the Deaf Man's House, after an earlier, deaf owner.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "Straight onto the plaster, he painted fourteen dark scenes: the Black Paintings.",
+   "beat": "reveal1",
+   "link": "so"
+  },
+  {
+   "text": "But this Saturn breaks the old myth.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "In Rubens's version, the god eats a baby.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "Goya's victim is a grown body, already headless.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "The god's eyes show terror, not hunger.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "But in 1823 the king crushed Spain's liberals, and Goya fled to France.",
+   "beat": "reveal3",
+   "link": "but",
+   "say": "But in eighteen twenty-three the king crushed Spain's liberals, and Goya fled to France."
+  },
+  {
+   "text": "So the paintings stayed behind, on the walls of an empty house.",
+   "beat": "reveal3",
+   "link": "so"
+  },
+  {
+   "text": "In 1874, a photographer recorded them still in place.",
+   "say": "In eighteen seventy-four, a photographer recorded them still in place.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "A new owner had them peeled off the plaster onto canvas, hoping to sell.",
+   "beat": "turn",
+   "link": "but"
+  },
+  {
+   "text": "At the 1878 Paris World's Fair nobody bought them, so they went to the Prado.",
+   "beat": "turn",
+   "link": "but",
+   "say": "At the eighteen seventy-eight Paris World's Fair nobody bought them, so they went to the Prado."
+  },
+  {
+   "text": "So a nightmare made for one man's dinner table now hangs for millions.",
+   "beat": "payoff",
+   "link": "so"
+  }
+ ],
+ "music": {
+  "piece": "beethoven-moonlight-1"
+ },
+ "timeline": [
+  {
+   "type": "reveal",
+   "from": [
+    0.37,
+    0.2,
+    2.4
+   ],
+   "until": 3.2
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.5,
+    0.45,
+    0.3,
+    0.3
+   ],
+   "ring": "1",
+   "zoom": "1+0.4",
+   "label": "NO TITLE",
+   "labelAt": "1:titled",
+   "out": "2-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "quinta",
+    1
+   ],
+   "caption": "Goya's house, the Quinta del Sordo, about 1900",
+   "at": "3",
+   "to": "4-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "quinta",
+    0
+   ],
+   "caption": "The Deaf Man's House, engraved in 1867",
+   "at": "4",
+   "to": "5-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "laurent",
+    1
+   ],
+   "caption": "A Black Painting on the house's wall, 1874",
+   "at": "5",
+   "to": "6-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.5,
+    0.5,
+    0.4,
+    0.42
+   ],
+   "ring": "6",
+   "zoom": "6+0.4",
+   "out": "7-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "rubens",
+    0
+   ],
+   "caption": "Rubens, Saturn, 1636, also in the Prado",
+   "at": "7",
+   "to": "8-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.56,
+    0.5,
+    0.13,
+    0.2
+   ],
+   "ring": "8",
+   "zoom": "8+0.4",
+   "label": "A GROWN BODY",
+   "labelAt": "8:grown",
+   "out": "9-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.37,
+    0.18,
+    0.08,
+    0.04
+   ],
+   "ring": "9",
+   "zoom": "9+0.4",
+   "label": "TERROR",
+   "labelAt": "9:terror",
+   "out": "10-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "goya",
+    1
+   ],
+   "caption": "Goya, Self-Portrait with Dr Arrieta, 1820",
+   "at": "10",
+   "to": "11-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "quinta",
+    2
+   ],
+   "caption": "The house, in a model of 1830s Madrid",
+   "at": "11",
+   "to": "12-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "laurent",
+    0
+   ],
+   "caption": "Juan Laurent's photograph, 1874",
+   "at": "12",
+   "to": "13-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.5,
+    0.75,
+    0.3,
+    0.2
+   ],
+   "ring": "13",
+   "zoom": "13+0.4",
+   "label": "OFF THE WALL",
+   "labelAt": "13:peeled",
+   "out": "14-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.4,
+    0.3,
+    0.25,
+    0.15
+   ],
+   "ring": "14",
+   "zoom": "14+0.4",
+   "label": "PRADO, 1881",
+   "labelAt": "14:Prado",
+   "out": "15-0.3"
+  }
+ ],
+ "sources": [
+  "https://www.museodelprado.es/en/the-collection/art-work/saturn/18110a75-b0e7-430c-bc73-2a4d55893bd6",
+  "https://smarthistory.org/goya-saturn-devouring-one-of-his-sons/",
+  "https://www.britannica.com/topic/Saturn-Devouring-His-Son",
+  "https://en.wikipedia.org/wiki/Black_Paintings",
+  "https://en.wikipedia.org/wiki/Quinta_del_Sordo"
+ ],
+ "post": {
+  "caption": "Goya painted Saturn straight onto the wall of his own dining room, never titled it and never showed it. Fifty years later it was peeled off the plaster, and nobody wanted to buy it.\nCould you eat dinner next to this?",
+  "tags": [
+   "#arthistory",
+   "#goya",
+   "#blackpaintings",
+   "#prado",
+   "#saturn"
+  ],
+  "youtube_title": "Goya Painted This on His Dining Room Wall"
+ }
+}

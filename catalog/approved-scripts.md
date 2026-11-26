@@ -1,6 +1,29 @@
 # Model scripts (newest first)
 The writer reads the top two of its channel before writing and matches or beats them: same spine (beats in order, every sentence linked to the one before), never the same facts or hooks. Each script the writer makes is added at the top in this format. Kept to the last 12.
 
+## saturn (paintings, 2026-11-27)
+
+Angle: How did a nightmare Goya painted on his own dining-room wall end up in the Prado?
+Logline: Goya painted this on his dining-room wall and never showed it, so how did it reach the Prado? At 72 and deaf he bought the Deaf Man's House and covered its plaster with fourteen dark scenes, but this Saturn breaks the myth: a grown body, a god in terror, but in 1823 the king crushed the liberals, so Goya fled and the paintings stayed behind, but in 1874 they were peeled off the walls onto canvas, but nobody bought them in Paris, so a private nightmare now hangs for millions.
+On-screen hook: ON HIS DINING-ROOM WALL
+
+[hook] Goya painted this on the wall of his own dining room.
+[hook / detail] He never titled it, and never meant anyone else to see it.
+[question / so] So how did a private nightmare end up in the Prado?
+[reveal1 / answer] In 1819, Goya, 72 and deaf, bought a house outside Madrid.
+[reveal1 / detail] Locals called it the Deaf Man's House, after an earlier, deaf owner.
+[reveal1 / so] Straight onto the plaster, he painted fourteen dark scenes: the Black Paintings.
+[reveal2 / but] But this Saturn breaks the old myth.
+[reveal2 / detail] In Rubens's version, the god eats a baby.
+[reveal2 / but] Goya's victim is a grown body, already headless.
+[reveal2 / detail] The god's eyes show terror, not hunger.
+[reveal3 / but] But in 1823 the king crushed Spain's liberals, and Goya fled to France.
+[reveal3 / so] So the paintings stayed behind, on the walls of an empty house.
+[reveal3 / detail] In 1874, a photographer recorded them still in place.
+[turn / but] A new owner had them peeled off the plaster onto canvas, hoping to sell.
+[turn / but] At the 1878 Paris World's Fair nobody bought them, so they went to the Prado.
+[payoff / so] So a nightmare made for one man's dinner table now hangs for millions.
+
 ## sunk-cost (philosophy, 2026-11-27)
 
 Angle: Why do we keep going with things we've paid for, even when they make us miserable?
@@ -258,27 +281,3 @@ On-screen hook: A SONG ON A SINNER'S BACKSIDE
 [turn / but] But in 1568, the Duke of Alba seized it from William of Orange, leader of the Dutch revolt.
 [turn / so] So it ended up in King Philip's monastery-palace, the Escorial, among monks.
 [payoff / so] So a nobleman's party piece became a king's sermon, and nobody has agreed on it since.
-
-## bystander-effect (philosophy, 2026-11-27)
-
-Angle: Does a crowd really make people less likely to help?
-Logline: A 1964 headline said 38 neighbours watched a murder and did nothing, so does a crowd stop help? two New York psychologists blamed numbers, not cold hearts, because their seizure study saw help fall from 85% to 31% with four listeners, but the Genovese story was wrong, because few saw it and a friend ran to her, but the strongest test came from real CCTV, which found someone helps in nine of ten fights, so crowds don't stop help, they only make each of us wait.
-On-screen hook: 38 WITNESSES. OR WERE THERE?
-
-[hook] A 1964 headline claimed 38 neighbours watched a murder and did nothing.
-[hook / so] That story launched one of psychology's most famous ideas.
-[question / so] So does a crowd really make you less likely to help?
-[reveal1 / answer] Kitty Genovese was attacked outside her apartment in Queens, at three in the morning.
-[reveal1 / detail] The New York Times said 38 people saw or heard it, and nobody called.
-[reveal1 / so] So two New York psychologists went looking for the cause.
-[reveal2 / but] But they didn't blame cold city hearts; they blamed numbers.
-[reveal2 / because] In 1968, students heard a fellow student have a seizure over an intercom.
-[reveal2 / detail] Alone, 85 percent ran for help; believing four others could hear, only 31 percent did.
-[reveal2 / because] Each person's share of the responsibility shrank as the crowd grew.
-[reveal3 / but] But the Genovese story itself was wrong.
-[reveal3 / because] Only a handful saw the attack, and one man's shout drove the killer off.
-[reveal3 / detail] Her friend Sophia Farrar ran out and held her as she died.
-[turn / but] But the best test came from real street cameras.
-[turn / detail] In 2019, researchers studied CCTV of 219 fights in Amsterdam, Lancaster and Cape Town; in nine of ten, someone stepped in.
-[payoff / so] So crowds don't stop help; they make each of us wait for someone else.
-[payoff / so] Next time you're one of many, will you be the one who moves first?
