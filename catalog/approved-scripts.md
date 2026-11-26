@@ -1,6 +1,27 @@
 # Model scripts (newest first)
 The writer reads the top two of its channel before writing and matches or beats them: same spine (beats in order, every sentence linked to the one before), never the same facts or hooks. Each script the writer makes is added at the top in this format. Kept to the last 12.
 
+## folies-bergere (paintings, 2026-11-27)
+
+Angle: Why doesn't the mirror in Manet's bar make sense?
+Logline: The mirror doesn't add up, so did Manet get it wrong? Ill at 49, he rebuilt the bar in his studio and posed a real barmaid, but he moved her reflection on purpose, so there are two of her: blank to us, leaning toward a customer, but the bar holds more clues, trapeze boots and Britain's first trademark, so everything is for sale, but in 2000 a staged photo showed the view works from the side, so the mirror shows two women: the one at work and the one we can't reach.
+On-screen hook: THE MIRROR DOESN'T ADD UP
+
+[hook] The mirror in Manet's last great painting doesn't add up.
+[hook / detail] Her reflection sits far to the right, facing a man who isn't there.
+[question / so] So did Manet get it wrong, or is the mistake the point?
+[reveal1 / answer] In 1881, Manet was 49 and seriously ill.
+[reveal1 / so] So he rebuilt the music hall's bar in his studio.
+[reveal1 / detail] A real barmaid there, Suzon, posed behind it.
+[reveal2 / but] But he moved her reflection on purpose.
+[reveal2 / because] An earlier sketch puts it right behind her, where a mirror would.
+[reveal2 / so] So now there are two of her: one blank and still, one leaning toward a customer.
+[reveal3 / but] But look up: a trapeze artist's green boots dangle over the crowd.
+[reveal3 / detail] The beer wears a red triangle: Bass, Britain's first registered trademark.
+[reveal3 / so] Drinks, oranges, the show: all for sale, and contemporaries hinted, the barmaids too.
+[turn / but] But in 2000, a researcher staged it: the mirror works if you stand to one side.
+[payoff / so] So the mirror shows two women: the one at work, and the one no customer reaches.
+
 ## achilles-tortoise (philosophy, 2026-11-27)
 
 Angle: Where does Zeno's argument that Achilles can never catch the tortoise go wrong?
@@ -250,26 +271,3 @@ On-screen hook: A WARSHIP ON ITS WAY TO SCRAP
 [turn / but] But Turner, then 64, never sold it.
 [turn / detail] He called it his darling, and left it to the nation.
 [payoff / so] So the old hero never reached the scrapyard: it's still in harbour, in the National Gallery.
-
-## saturn (paintings, 2026-11-27)
-
-Angle: How did a nightmare Goya painted on his own dining-room wall end up in the Prado?
-Logline: Goya painted this on his dining-room wall and never showed it, so how did it reach the Prado? At 72 and deaf he bought the Deaf Man's House and covered its plaster with fourteen dark scenes, but this Saturn breaks the myth: a grown body, a god in terror, but in 1823 the king crushed the liberals, so Goya fled and the paintings stayed behind, but in 1874 they were peeled off the walls onto canvas, but nobody bought them in Paris, so a private nightmare now hangs for millions.
-On-screen hook: ON HIS DINING-ROOM WALL
-
-[hook] Goya painted this on the wall of his own dining room.
-[hook / detail] He never titled it, and never meant anyone else to see it.
-[question / so] So how did a private nightmare end up in the Prado?
-[reveal1 / answer] In 1819, Goya, 72 and deaf, bought a house outside Madrid.
-[reveal1 / detail] Locals called it the Deaf Man's House, after an earlier, deaf owner.
-[reveal1 / so] Straight onto the plaster, he painted fourteen dark scenes: the Black Paintings.
-[reveal2 / but] But this Saturn breaks the old myth.
-[reveal2 / detail] In Rubens's version, the god eats a baby.
-[reveal2 / but] Goya's victim is a grown body, already headless.
-[reveal2 / detail] The god's eyes show terror, not hunger.
-[reveal3 / but] But in 1823 the king crushed Spain's liberals, and Goya fled to France.
-[reveal3 / so] So the paintings stayed behind, on the walls of an empty house.
-[reveal3 / detail] In 1874, a photographer recorded them still in place.
-[turn / but] A new owner had them peeled off the plaster onto canvas, hoping to sell.
-[turn / but] At the 1878 Paris World's Fair nobody bought them, so they went to the Prado.
-[payoff / so] So a nightmare made for one man's dinner table now hangs for millions.

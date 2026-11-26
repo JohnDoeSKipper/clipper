@@ -1,0 +1,287 @@
+{
+ "id": "folies-bergere",
+ "channel": "paintings",
+ "angle": "Why doesn't the mirror in Manet's bar make sense?",
+ "answer": "Manet moved the reflection on purpose (an earlier sketch shows it where a mirror would put it), splitting the barmaid into a blank woman facing us and a smiling one serving a customer, in a bar where drinks, show and, contemporaries hinted, barmaids were all for sale; a staged photograph in 2000 showed the view can work if you stand off to one side.",
+ "logline": "The mirror doesn't add up, so did Manet get it wrong? Ill at 49, he rebuilt the bar in his studio and posed a real barmaid, but he moved her reflection on purpose, so there are two of her: blank to us, leaning toward a customer, but the bar holds more clues, trapeze boots and Britain's first trademark, so everything is for sale, but in 2000 a staged photo showed the view works from the side, so the mirror shows two women: the one at work and the one we can't reach.",
+ "hook_text": "THE MIRROR DOESN'T ADD UP",
+ "hooks": [
+  "Look at the top-left corner: a trapeze artist's feet.",
+  "The beer in this painting carries Britain's very first trademark."
+ ],
+ "painting": {
+  "title": "A Bar at the Folies-Bergère",
+  "artist": "Édouard Manet",
+  "year": "1882",
+  "museum": "The Courtauld, London"
+ },
+ "script": [
+  {
+   "text": "The mirror in Manet's last great painting doesn't add up.",
+   "beat": "hook"
+  },
+  {
+   "text": "Her reflection sits far to the right, facing a man who isn't there.",
+   "beat": "hook",
+   "link": "detail"
+  },
+  {
+   "text": "So did Manet get it wrong, or is the mistake the point?",
+   "beat": "question",
+   "link": "so"
+  },
+  {
+   "text": "In 1881, Manet was 49 and seriously ill.",
+   "say": "In eighteen eighty-one, Manay was forty-nine and seriously ill.",
+   "beat": "reveal1",
+   "link": "answer"
+  },
+  {
+   "text": "So he rebuilt the music hall's bar in his studio.",
+   "beat": "reveal1",
+   "link": "so"
+  },
+  {
+   "text": "A real barmaid there, Suzon, posed behind it.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "But he moved her reflection on purpose.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "An earlier sketch puts it right behind her, where a mirror would.",
+   "beat": "reveal2",
+   "link": "because"
+  },
+  {
+   "text": "So now there are two of her: one blank and still, one leaning toward a customer.",
+   "beat": "reveal2",
+   "link": "so"
+  },
+  {
+   "text": "But look up: a trapeze artist's green boots dangle over the crowd.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "The beer wears a red triangle: Bass, Britain's first registered trademark.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "Drinks, oranges, the show: all for sale, and contemporaries hinted, the barmaids too.",
+   "beat": "reveal3",
+   "link": "so"
+  },
+  {
+   "text": "But in 2000, a researcher staged it: the mirror works if you stand to one side.",
+   "say": "But in two thousand, a researcher staged it: the mirror works if you stand to one side.",
+   "beat": "turn",
+   "link": "but"
+  },
+  {
+   "text": "So the mirror shows two women: the one at work, and the one no customer reaches.",
+   "beat": "payoff",
+   "link": "so"
+  }
+ ],
+ "music": {
+  "piece": "satie-gymnopedie-1"
+ },
+ "timeline": [
+  {
+   "type": "reveal",
+   "from": [
+    0.493,
+    0.15,
+    2.4
+   ],
+   "until": 3.2
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.86,
+    0.3,
+    0.13,
+    0.27
+   ],
+   "ring": "1",
+   "zoom": "1+0.4",
+   "label": "HER REFLECTION?",
+   "labelAt": "1:reflection",
+   "out": "2-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "manet",
+    1
+   ],
+   "caption": "Édouard Manet, photographed by Nadar",
+   "at": "3",
+   "to": "4-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "folies",
+    0
+   ],
+   "caption": "The Folies-Bergère, Paris",
+   "at": "4",
+   "to": "4:studio-0.1"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "poster",
+    0
+   ],
+   "caption": "A Folies-Bergère poster by Jules Chéret, 1893",
+   "at": "4:studio",
+   "to": "5-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.493,
+    0.2,
+    0.08,
+    0.14
+   ],
+   "ring": "5",
+   "zoom": "5+0.4",
+   "label": "SUZON",
+   "labelAt": "5:Suzon",
+   "out": "6-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.86,
+    0.3,
+    0.13,
+    0.27
+   ],
+   "ring": "6",
+   "zoom": "6+0.4",
+   "out": "7-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.6,
+    0.35,
+    0.2,
+    0.25
+   ],
+   "ring": "7",
+   "zoom": "7+0.4",
+   "label": "IT BELONGS HERE",
+   "labelAt": "7:behind",
+   "out": "8-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.493,
+    0.15,
+    0.07,
+    0.09
+   ],
+   "ring": "8",
+   "zoom": "8+0.4",
+   "out": "9-0.3",
+   "then": {
+    "region": [
+     0.94,
+     0.15,
+     0.06,
+     0.12
+    ],
+    "ring": "8:leaning",
+    "zoom": "8:leaning+0.3",
+    "label": "THE CUSTOMER",
+    "labelAt": "8:customer"
+   }
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.045,
+    0.04,
+    0.04,
+    0.045
+   ],
+   "ring": "9",
+   "zoom": "9+0.4",
+   "label": "TRAPEZE BOOTS",
+   "labelAt": "9:boots",
+   "out": "10-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.925,
+    0.85,
+    0.035,
+    0.045
+   ],
+   "ring": "10",
+   "zoom": "10+0.4",
+   "label": "BASS: TRADEMARK No. 1",
+   "labelAt": "10:Bass",
+   "out": "11-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.74,
+    0.72,
+    0.08,
+    0.06
+   ],
+   "ring": "11",
+   "zoom": "11+0.4",
+   "label": "FOR SALE",
+   "labelAt": "11:sale",
+   "out": "12-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "courtauld",
+    0
+   ],
+   "caption": "Somerset House, home of The Courtauld",
+   "at": "12",
+   "to": "13-0.3"
+  }
+ ],
+ "sources": [
+  "https://courtauld.ac.uk/highlights/a-bar-at-the-folies-bergere/",
+  "https://smarthistory.org/manet-a-bar-at-the-folies-bergere/",
+  "https://www.britannica.com/topic/A-Bar-at-the-Folies-Bergere",
+  "https://en.wikipedia.org/wiki/A_Bar_at_the_Folies-Berg%C3%A8re",
+  "https://en.wikipedia.org/wiki/Bass_Brewery"
+ ],
+ "post": {
+  "caption": "The mirror in Manet's bar is impossible: her reflection is far to the right, talking to a man who isn't there. An earlier sketch shows Manet moved it on purpose.\nIs she the woman facing you, or the one in the mirror?",
+  "tags": [
+   "#arthistory",
+   "#manet",
+   "#foliesbergere",
+   "#courtauld",
+   "#impressionism"
+  ],
+  "youtube_title": "The Impossible Mirror in Manet's Last Masterpiece"
+ }
+}
