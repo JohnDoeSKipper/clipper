@@ -26,7 +26,7 @@ The leads are starting points from memory, not facts: check each one before it g
 - inbox | creation-of-adam | The Creation of Adam, Michelangelo | the gap between the fingers; the brain-shaped cloak; painted standing up, not lying down
 - made | saturn | Saturn Devouring His Son, Goya | painted on his dining-room wall; never meant to be seen; never titled by him
 - made | fighting-temeraire | The Fighting Temeraire, Turner | a hero ship towed to scrap; the sun sets in the wrong place; he never sold it
-- inbox | whistlers-mother | Whistler's Mother, Whistler | the model didn't show up; its real title is about grey and black
+- made | whistlers-mother | Whistler's Mother, Whistler | the model didn't show up; its real title is about grey and black
 - requested | milkmaid | The Milkmaid, Vermeer | the nail hole and the erased basket; the trickle of milk; expensive blue on a servant
 - requested | sleeping-gypsy | The Sleeping Gypsy, Rousseau | a toll clerk who never saw a desert; the lion that does not attack
 - requested | folies-bergere | A Bar at the Folies-Bergère, Manet | the reflection that cannot be right; the trapeze feet; the beer label

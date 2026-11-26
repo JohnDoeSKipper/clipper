@@ -1,0 +1,271 @@
+{
+ "id": "whistlers-mother",
+ "channel": "paintings",
+ "angle": "How did a picture Whistler insisted was just grey and black become America's symbol of motherhood?",
+ "answer": "Whistler titled it Arrangement in Grey and Black and said the public should not care who sat for it; London nearly rejected it and France bought it, but in 1934 the US Post Office put it on a Mother's Day stamp with added flowers, turning an expatriate's colour study into a sentimental national icon.",
+ "logline": "His mother was a stand-in, so how did she become America's mother? He painted her sitting and titled it an arrangement in grey and black, but the Royal Academy nearly rejected it and France bought it, but in 1934 America put it on a Mother's Day stamp with added flowers, so it became a symbol of motherhood, but Whistler had left America at 21 and never went back, so America's most famous mother is, by its own title, just grey and black.",
+ "hook_text": "A LAST-MINUTE STAND-IN",
+ "hooks": [
+  "Whistler said nobody should care that this is his mother.",
+  "America put this on a stamp, and added flowers Whistler never painted."
+ ],
+ "painting": {
+  "title": "Arrangement in Grey and Black No. 1",
+  "artist": "James McNeill Whistler",
+  "year": "1871",
+  "museum": "Musée d'Orsay, Paris"
+ },
+ "script": [
+  {
+   "text": "Whistler's mother was a last-minute stand-in.",
+   "beat": "hook"
+  },
+  {
+   "text": "A model failed to turn up, so he asked her to pose.",
+   "beat": "hook",
+   "link": "because"
+  },
+  {
+   "text": "So how did a stand-in become America's most famous mother?",
+   "beat": "question",
+   "link": "so"
+  },
+  {
+   "text": "She was 67, and too tired to stand, so he painted her sitting.",
+   "say": "She was sixty-seven, and too tired to stand, so he painted her sitting.",
+   "beat": "reveal1",
+   "link": "answer"
+  },
+  {
+   "text": "But he didn't call it a portrait: its title is Arrangement in Grey and Black.",
+   "beat": "reveal1",
+   "link": "but"
+  },
+  {
+   "text": "Why should the public care who the sitter is, he asked.",
+   "beat": "reveal1",
+   "link": "because"
+  },
+  {
+   "text": "But London's Royal Academy almost rejected it in 1872.",
+   "say": "But London's Royal Academy almost rejected it in eighteen seventy-two.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "It got in only after one member threatened to resign.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "In 1891, France bought it, the first painting by an American in its national collection.",
+   "say": "In eighteen ninety-one, France bought it, the first painting by an American in its national collection.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "But America turned it into something else.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "In 1934, the Post Office put her on a Mother's Day stamp.",
+   "say": "In nineteen thirty-four, the Post Office put her on a Mother's Day stamp.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "It added a vase of flowers at her feet, which Whistler never painted.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "So an arrangement in grey became the face of motherhood.",
+   "beat": "reveal3",
+   "link": "so"
+  },
+  {
+   "text": "But Whistler had left America at 21, and never went back.",
+   "say": "But Whistler had left America at twenty-one, and never went back.",
+   "beat": "turn",
+   "link": "but"
+  },
+  {
+   "text": "So America's most famous mother was painted in London, by a son who stayed away, and hangs in Paris.",
+   "beat": "payoff",
+   "link": "so"
+  }
+ ],
+ "music": {
+  "piece": "beethoven-fur-elise"
+ },
+ "timeline": [
+  {
+   "type": "reveal",
+   "from": [
+    0.765,
+    0.2,
+    2.6
+   ],
+   "until": 3.2
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.7,
+    0.5,
+    0.22,
+    0.45
+   ],
+   "ring": "1",
+   "zoom": "1+0.4",
+   "label": "THE STAND-IN",
+   "labelAt": "1:pose",
+   "out": "2-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.65,
+    0.6,
+    0.18,
+    0.35
+   ],
+   "ring": "3",
+   "zoom": "3+0.4",
+   "label": "SITTING",
+   "labelAt": "3:sitting",
+   "out": "4-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.5,
+    0.55,
+    0.45,
+    0.42
+   ],
+   "ring": "4",
+   "zoom": "4+0.4",
+   "label": "GREY AND BLACK",
+   "labelAt": "4:Arrangement",
+   "out": "5-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.25,
+    0.053,
+    0.03,
+    0.035
+   ],
+   "ring": "5",
+   "zoom": "5+0.4",
+   "label": "HIS BUTTERFLY SIGNATURE",
+   "labelAt": "5:asked",
+   "out": "6-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "carlyle",
+    1
+   ],
+   "caption": "Its sequel: Thomas Carlyle, 1872-73",
+   "at": "6",
+   "to": "7-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.44,
+    0.13,
+    0.13,
+    0.1
+   ],
+   "ring": "7",
+   "zoom": "7+0.4",
+   "label": "HIS OWN ETCHING",
+   "labelAt": "7:resign",
+   "out": "8-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "orsay",
+    0
+   ],
+   "caption": "The Musée d'Orsay, Paris, its home today",
+   "at": "8",
+   "to": "9-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.765,
+    0.22,
+    0.07,
+    0.09
+   ],
+   "ring": "9",
+   "zoom": "9+0.4",
+   "out": "10-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "stamp",
+    0
+   ],
+   "caption": "US Mother's Day stamp, 1934",
+   "at": "10",
+   "to": "12-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.22,
+    0.86,
+    0.16,
+    0.1
+   ],
+   "ring": "12",
+   "zoom": "12+0.4",
+   "label": "NO FLOWERS HERE",
+   "labelAt": "12:arrangement",
+   "out": "13-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "chelsea",
+    1
+   ],
+   "caption": "96 Cheyne Walk, Chelsea, where it was painted",
+   "at": "13",
+   "to": "14-0.3"
+  }
+ ],
+ "sources": [
+  "https://www.musee-orsay.fr/en/artworks/arrangement-en-gris-et-noir-ndeg1-71368",
+  "https://www.si.edu/stories/whistlers-mother",
+  "https://postalmuseum.si.edu/object/npm_0.012316",
+  "https://www.britannica.com/topic/Arrangement-in-Grey-and-Black-No-1",
+  "https://en.wikipedia.org/wiki/Whistler%27s_Mother"
+ ],
+ "post": {
+  "caption": "Whistler's mother only posed because a model didn't turn up, and he titled the painting Arrangement in Grey and Black. Then America put her on a Mother's Day stamp, with flowers he never painted.\nPortrait or pattern: what do you see?",
+  "tags": [
+   "#arthistory",
+   "#whistler",
+   "#whistlersmother",
+   "#museedorsay",
+   "#americanart"
+  ],
+  "youtube_title": "Whistler's Mother Was a Last-Minute Stand-In"
+ }
+}

@@ -1,6 +1,28 @@
 # Model scripts (newest first)
 The writer reads the top two of its channel before writing and matches or beats them: same spine (beats in order, every sentence linked to the one before), never the same facts or hooks. Each script the writer makes is added at the top in this format. Kept to the last 12.
 
+## whistlers-mother (paintings, 2026-11-27)
+
+Angle: How did a picture Whistler insisted was just grey and black become America's symbol of motherhood?
+Logline: His mother was a stand-in, so how did she become America's mother? He painted her sitting and titled it an arrangement in grey and black, but the Royal Academy nearly rejected it and France bought it, but in 1934 America put it on a Mother's Day stamp with added flowers, so it became a symbol of motherhood, but Whistler had left America at 21 and never went back, so America's most famous mother is, by its own title, just grey and black.
+On-screen hook: A LAST-MINUTE STAND-IN
+
+[hook] Whistler's mother was a last-minute stand-in.
+[hook / because] A model failed to turn up, so he asked her to pose.
+[question / so] So how did a stand-in become America's most famous mother?
+[reveal1 / answer] She was 67, and too tired to stand, so he painted her sitting.
+[reveal1 / but] But he didn't call it a portrait: its title is Arrangement in Grey and Black.
+[reveal1 / because] Why should the public care who the sitter is, he asked.
+[reveal2 / but] But London's Royal Academy almost rejected it in 1872.
+[reveal2 / detail] It got in only after one member threatened to resign.
+[reveal2 / but] In 1891, France bought it, the first painting by an American in its national collection.
+[reveal3 / but] But America turned it into something else.
+[reveal3 / detail] In 1934, the Post Office put her on a Mother's Day stamp.
+[reveal3 / detail] It added a vase of flowers at her feet, which Whistler never painted.
+[reveal3 / so] So an arrangement in grey became the face of motherhood.
+[turn / but] But Whistler had left America at 21, and never went back.
+[payoff / so] So America's most famous mother was painted in London, by a son who stayed away, and hangs in Paris.
+
 ## fighting-temeraire (paintings, 2026-11-27)
 
 Angle: Why does Britain love a painting of a war hero being towed to the scrapyard?
@@ -258,26 +280,3 @@ On-screen hook: STAND TO THE RIGHT
 [reveal3 / so] So anyone walking past would suddenly come face to face with death.
 [turn / but] But look at the top left corner: half-hidden by the curtain hangs a crucifix.
 [payoff / so] So death sits in plain sight, and hope hides behind the curtain.
-
-## asch-conformity (philosophy, 2026-11-27)
-
-Angle: Would you go along with a crowd that is plainly wrong?
-Logline: Three in four students denied their own eyes, so would you go along with a wrong crowd? The others were secret actors, so the subject heard them all first, but the psychologist expected people to stand firm, and a third of rigged answers followed the crowd, but one honest ally cut that to one in twenty, so you need one friend, not a majority, but the retelling skips the biggest number: two-thirds of answers were right, so a crowd bends us but rarely breaks us.
-On-screen hook: WHICH LINE MATCHES?
-
-[hook] In 1951, three in four students denied their own eyes.
-[hook / detail] The question was simple: which of three lines matches this one?
-[question / so] So would you go along with a crowd that's plainly wrong?
-[reveal1 / answer] At Swarthmore College, a psychologist sat each student with a group of others.
-[reveal1 / detail] Secretly, the others were actors, told to give the same wrong answer.
-[reveal1 / so] So the real subject answered near the end, after hearing them all.
-[reveal2 / but] But the psychologist expected the opposite: he set out to show that people stand firm.
-[reveal2 / detail] Instead, on the rigged rounds, about a third of answers followed the crowd.
-[reveal2 / but] Alone, people got it wrong less than once in a hundred.
-[reveal3 / but] But one small change nearly broke the spell.
-[reveal3 / detail] When a single actor gave the right answer, conformity fell to about one answer in twenty.
-[reveal3 / so] So you don't need a majority to trust your eyes; you need one ally.
-[turn / but] But most retellings leave out the biggest number.
-[turn / detail] Two-thirds of all answers were right, and a quarter of people never caved once.
-[payoff / so] So a crowd can bend us, but it rarely breaks us, especially when one person speaks first.
-[payoff / so] Next time a room is wrong, will you be that one person?
