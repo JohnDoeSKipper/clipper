@@ -318,6 +318,16 @@
    ]
   },
   {
+   "at": "10:sailor",
+   "cam": {
+    "preset": "close",
+    "on": "mate"
+   },
+   "focus": [
+    "mate"
+   ]
+  },
+  {
    "at": "11",
    "cam": {
     "preset": "close",
@@ -349,6 +359,20 @@
    },
    "focus": [
     "judge"
+   ]
+  },
+  {
+   "at": "13:boy",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "cap",
+     "mate"
+    ]
+   },
+   "focus": [
+    "cap",
+    "mate"
    ]
   },
   {
@@ -385,6 +409,16 @@
    "focus": [
     "cap"
    ]
+  },
+  {
+   "at": "16:first",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "boat",
+     "judge"
+    ]
+   }
   },
   {
    "at": "17",
