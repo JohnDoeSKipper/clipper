@@ -1,6 +1,29 @@
 # Model scripts (newest first)
 The writer reads the top two of its channel before writing and matches or beats them: same spine (beats in order, every sentence linked to the one before), never the same facts or hooks. Each script the writer makes is added at the top in this format. Kept to the last 12.
 
+## monty-hall (philosophy, 2026-11-27)
+
+Angle: Why does a simple game-show puzzle fool even brilliant people?
+Logline: Pigeons beat people at this puzzle, so why does it fool us? Three doors, one car, and the host shows a goat, so switching wins two times in three, but in 1990 about 10,000 readers told the columnist who said so that she was wrong, and a great mathematician held out until a simulation, because your first pick is right only a third of the time, so the host is pointing at the car, but the real Monty Hall said hosts don't play by fixed rules, so ask why you're being offered the switch.
+On-screen hook: PIGEONS BEAT PEOPLE
+
+[hook] Pigeons learn to solve this puzzle better than most people.
+[hook / detail] After a month of practice, they switched 96 percent of the time; humans, about two-thirds.
+[question / so] So why does a simple game-show puzzle fool so many smart people?
+[reveal1 / answer] Three doors: a car behind one, goats behind the other two.
+[reveal1 / detail] You pick a door; the host, who knows, opens another and shows a goat.
+[reveal1 / so] Should you switch? Yes: switching wins two times in three.
+[reveal2 / but] But in 1990, when a magazine columnist said so, about 10,000 readers wrote to tell her she was wrong.
+[reveal2 / detail] Nearly a thousand of them had PhDs.
+[reveal2 / detail] One of the century's great mathematicians refused to believe it until he saw a computer simulation.
+[reveal3 / because] The trick: your first pick is right only one time in three.
+[reveal3 / so] So two times in three, the car is behind the other doors, and the host never opens it.
+[reveal3 / detail] Picture 100 doors: you pick one, he opens 98 goats. Would you stay?
+[turn / but] But the real Monty Hall said the puzzle missed something.
+[turn / detail] On his show, he didn't always offer a switch, and used offers to play with contestants' nerves.
+[payoff / so] So the maths is simple only when the rules are fixed.
+[payoff / so] When someone offers you a second choice, do you ask why they're offering it?
+
 ## violinist (philosophy, 2026-11-27)
 
 Angle: If someone needs your body to stay alive, are you obliged to let them use it?
@@ -255,28 +278,3 @@ On-screen hook: TWO EQUAL PILES. NO CHOICE.
 [turn / but] But journals rejected Lamport's paper; it was finally published in 2012.
 [payoff / so] So real choosers survive by cheating: a coin flip, a whim, a tiny bias.
 [payoff / so] When two options are truly equal, is flipping a coin the most rational thing you can do?
-
-## sorites (philosophy, 2026-11-27)
-
-Angle: Where exactly does a heap begin?
-Logline: One grain is no heap and one more never makes one, so where does a heap begin? Each step looks safe, so either heaps don't exist or one grain decides, but it isn't about sand: baldness, adulthood, colour all blur, so Chrysippus advised falling silent, but Williamson argued a sharp line exists that we can never know, but engineers bet on blur and ran a subway on degrees of truth, so the real question is who draws the line.
-On-screen hook: ONE GRAIN AT A TIME
-
-[hook] One grain of sand isn't a heap. Neither are two.
-[hook / so] Add one grain at a time, and by that logic, a million grains still aren't a heap.
-[question / so] So where exactly does a heap begin?
-[reveal1 / answer] Greek logicians asked this 2,400 years ago; sorites means heap.
-[reveal1 / detail] The same thinker is credited with the liar paradox: this sentence is false.
-[reveal1 / detail] Each step looks safe: one grain can't turn a non-heap into a heap.
-[reveal1 / so] So either there are no heaps at all, or one grain makes all the difference.
-[reveal2 / but] But this was never really about sand.
-[reveal2 / detail] When does a man go bald, or does red turn orange in a rainbow?
-[reveal2 / so] The Stoic Chrysippus advised simply falling silent as you near the border.
-[reveal3 / but] But in 1994, Timothy Williamson defended the shocking option.
-[reveal3 / detail] There is a sharp line, he argued: one exact grain makes the heap.
-[reveal3 / but] We just can never know which grain it is.
-[reveal3 / but] It sounds absurd, but it's the only answer that keeps ordinary logic intact.
-[turn / but] But engineers bet on blur instead.
-[turn / detail] In 1987, Sendai's subway began braking by fuzzy logic: a little, quite, very.
-[payoff / so] So maybe truth comes in degrees, and the real question isn't where the line is.
-[payoff / so] Eighteen to vote, one grain for a heap: who gets to draw your lines?
