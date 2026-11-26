@@ -1,6 +1,31 @@
 # Model scripts (newest first)
 The writer reads the top two of its channel before writing and matches or beats them: same spine (beats in order, every sentence linked to the one before), never the same facts or hooks. Each script the writer makes is added at the top in this format. Kept to the last 12.
 
+## sorites (philosophy, 2026-11-27)
+
+Angle: Where exactly does a heap begin?
+Logline: One grain is no heap and one more never makes one, so where does a heap begin? Each step looks safe, so either heaps don't exist or one grain decides, but it isn't about sand: baldness, adulthood, colour all blur, so Chrysippus advised falling silent, but Williamson argued a sharp line exists that we can never know, but engineers bet on blur and ran a subway on degrees of truth, so the real question is who draws the line.
+On-screen hook: ONE GRAIN AT A TIME
+
+[hook] One grain of sand isn't a heap. Neither are two.
+[hook / so] Add one grain at a time, and by that logic, a million grains still aren't a heap.
+[question / so] So where exactly does a heap begin?
+[reveal1 / answer] Greek logicians asked this 2,400 years ago; sorites means heap.
+[reveal1 / detail] The same thinker is credited with the liar paradox: this sentence is false.
+[reveal1 / detail] Each step looks safe: one grain can't turn a non-heap into a heap.
+[reveal1 / so] So either there are no heaps at all, or one grain makes all the difference.
+[reveal2 / but] But this was never really about sand.
+[reveal2 / detail] When does a man go bald, or does red turn orange in a rainbow?
+[reveal2 / so] The Stoic Chrysippus advised simply falling silent as you near the border.
+[reveal3 / but] But in 1994, Timothy Williamson defended the shocking option.
+[reveal3 / detail] There is a sharp line, he argued: one exact grain makes the heap.
+[reveal3 / but] We just can never know which grain it is.
+[reveal3 / but] It sounds absurd, but it's the only answer that keeps ordinary logic intact.
+[turn / but] But engineers bet on blur instead.
+[turn / detail] In 1987, Sendai's subway began braking by fuzzy logic: a little, quite, very.
+[payoff / so] So maybe truth comes in degrees, and the real question isn't where the line is.
+[payoff / so] Eighteen to vote, one grain for a heap: who gets to draw your lines?
+
 ## liberty-leading (paintings, 2026-11-27)
 
 Angle: Why did France hide the painting that now stands for France?
@@ -255,29 +280,3 @@ On-screen hook: THE ORIGINAL IS DESTROYED
 [turn / detail] That's from a 2020 survey of 931 professors.
 [payoff / answer] So if he's right, you'd arrive, in every way that matters.
 [payoff / but] But sleep breaks your stream of thought nightly: why trust waking up, but not the machine?
-
-## prisoners-dilemma (philosophy, 2026-11-27)
-
-Angle: If betraying is always the smart move, why do people keep cooperating?
-Logline: RAND built a game where betrayal always pays, but its test players kept cooperating, so why? In one round betraying wins, but they played a hundred rounds, so Axelrod's tournament found that copying your partner's last move wins, but the strongest proof came from World War One trenches, where enemies facing each other for months kept quiet hours and punished breaches three for one, but it only works while there is a next time, because on the last round both RAND players betrayed, so we cooperate because life is rarely played once.
-On-screen hook: BETRAYAL WINS. THEY COOPERATED ANYWAY
-
-[hook] In 1950, two RAND scientists invented a game where betrayal always pays.
-[hook / but] But the colleagues they tested it on kept choosing to cooperate.
-[question / so] So if betraying is the smart move, why do people cooperate?
-[reveal1 / answer] Picture two prisoners in separate rooms: stay silent, or betray?
-[reveal1 / detail] Both silent: one year each. Both betray: five years each.
-[reveal1 / detail] Betray a silent partner, and you walk free; he gets ten.
-[reveal1 / so] So whatever your partner does, betraying cuts your sentence.
-[reveal2 / but] But the RAND players weren't playing once; they played a hundred rounds.
-[reveal2 / detail] One cooperated 68 times, the other 78.
-[reveal2 / so] So in 1980, Robert Axelrod ran a tournament of programs playing it again and again.
-[reveal2 / detail] The simplest entry won, Tit for Tat: be nice first, then copy their last move.
-[reveal3 / but] But the strongest proof came from soldiers in trenches.
-[reveal3 / detail] In World War One, enemy units faced each other for months.
-[reveal3 / so] So they made quiet deals: eight to nine a.m. was kept for private business.
-[reveal3 / detail] Break the peace, and they fired back, often three shells for one.
-[turn / but] But it only works while there's a next time.
-[turn / detail] In the RAND game's final round, both players betrayed.
-[payoff / answer] So we cooperate because life is rarely played once.
-[payoff / but] But if this were your last round with someone, would you keep your word?

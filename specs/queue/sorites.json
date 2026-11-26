@@ -1,0 +1,898 @@
+{
+ "id": "sorites",
+ "channel": "philosophy",
+ "style": "clay",
+ "title": "THE HEAP PARADOX",
+ "angle": "Where exactly does a heap begin?",
+ "answer": "Logic says either heaps don't exist or one grain makes the difference; Williamson's epistemicism bites the bullet (a sharp line exists but is unknowable), while engineers treat truth as a matter of degree (fuzzy logic ran Sendai's subway from 1987); in practice someone has to draw the line, and the real question is who.",
+ "logline": "One grain is no heap and one more never makes one, so where does a heap begin? Each step looks safe, so either heaps don't exist or one grain decides, but it isn't about sand: baldness, adulthood, colour all blur, so Chrysippus advised falling silent, but Williamson argued a sharp line exists that we can never know, but engineers bet on blur and ran a subway on degrees of truth, so the real question is who draws the line.",
+ "hook_text": "ONE GRAIN AT A TIME",
+ "hooks": [
+  "A philosopher argues one single grain of sand turns a non-heap into a heap.",
+  "In 1987, a Japanese subway started braking with 'a little' and 'quite'."
+ ],
+ "world": {
+  "scenery": "open",
+  "ground": "#EBDDB4"
+ },
+ "script": [
+  {
+   "text": "One grain of sand isn't a heap. Neither are two.",
+   "beat": "hook"
+  },
+  {
+   "text": "Add one grain at a time, and by that logic, a million grains still aren't a heap.",
+   "beat": "hook",
+   "link": "so"
+  },
+  {
+   "text": "So where exactly does a heap begin?",
+   "beat": "question",
+   "link": "so"
+  },
+  {
+   "text": "Greek logicians asked this 2,400 years ago; sorites means heap.",
+   "say": "Greek logicians asked this twenty-four hundred years ago; so-rye-teez means heap.",
+   "beat": "reveal1",
+   "link": "answer"
+  },
+  {
+   "text": "The same thinker is credited with the liar paradox: this sentence is false.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "Each step looks safe: one grain can't turn a non-heap into a heap.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "So either there are no heaps at all, or one grain makes all the difference.",
+   "beat": "reveal1",
+   "link": "so"
+  },
+  {
+   "text": "But this was never really about sand.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "When does a man go bald, or does red turn orange in a rainbow?",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "The Stoic Chrysippus advised simply falling silent as you near the border.",
+   "say": "The Stoic Kry-sip-us advised simply falling silent as you near the border.",
+   "beat": "reveal2",
+   "link": "so"
+  },
+  {
+   "text": "But in 1994, Timothy Williamson defended the shocking option.",
+   "say": "But in nineteen ninety-four, Timothy Williamson defended the shocking option.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "There is a sharp line, he argued: one exact grain makes the heap.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "We just can never know which grain it is.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "It sounds absurd, but it's the only answer that keeps ordinary logic intact.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "But engineers bet on blur instead.",
+   "beat": "turn",
+   "link": "but"
+  },
+  {
+   "text": "In 1987, Sendai's subway began braking by fuzzy logic: a little, quite, very.",
+   "say": "In nineteen eighty-seven, Sendai's subway began braking by fuzzy logic: a little, quite, very.",
+   "beat": "turn",
+   "link": "detail"
+  },
+  {
+   "text": "So maybe truth comes in degrees, and the real question isn't where the line is.",
+   "beat": "payoff",
+   "link": "so"
+  },
+  {
+   "text": "Eighteen to vote, one grain for a heap: who gets to draw your lines?",
+   "beat": "payoff",
+   "link": "so"
+  }
+ ],
+ "objects": [
+  {
+   "id": "g0",
+   "kind": "ball",
+   "tint": "#E2C27A",
+   "at": [
+    -0.54,
+    0.17,
+    0.5
+   ],
+   "scale": 0.3,
+   "show": true
+  },
+  {
+   "id": "g1",
+   "kind": "ball",
+   "tint": "#E2C27A",
+   "at": [
+    -0.18,
+    0.17,
+    0.5
+   ],
+   "scale": 0.3,
+   "show": true
+  },
+  {
+   "id": "g2",
+   "kind": "ball",
+   "tint": "#E2C27A",
+   "at": [
+    0.18,
+    0.17,
+    0.5
+   ],
+   "scale": 0.3,
+   "show": false
+  },
+  {
+   "id": "g3",
+   "kind": "ball",
+   "tint": "#E2C27A",
+   "at": [
+    0.54,
+    0.17,
+    0.5
+   ],
+   "scale": 0.3,
+   "show": false
+  },
+  {
+   "id": "g4",
+   "kind": "ball",
+   "tint": "#E2C27A",
+   "at": [
+    -0.36,
+    0.17,
+    0.18
+   ],
+   "scale": 0.3,
+   "show": false
+  },
+  {
+   "id": "g5",
+   "kind": "ball",
+   "tint": "#E2C27A",
+   "at": [
+    0,
+    0.17,
+    0.18
+   ],
+   "scale": 0.3,
+   "show": false
+  },
+  {
+   "id": "g6",
+   "kind": "ball",
+   "tint": "#E2C27A",
+   "at": [
+    0.36,
+    0.17,
+    0.18
+   ],
+   "scale": 0.3,
+   "show": false
+  },
+  {
+   "id": "g7",
+   "kind": "ball",
+   "tint": "#E2C27A",
+   "at": [
+    -0.18,
+    0.17,
+    -0.14
+   ],
+   "scale": 0.3,
+   "show": false
+  },
+  {
+   "id": "g8",
+   "kind": "ball",
+   "tint": "#E2C27A",
+   "at": [
+    0.18,
+    0.17,
+    -0.14
+   ],
+   "scale": 0.3,
+   "show": false
+  },
+  {
+   "id": "g9",
+   "kind": "ball",
+   "tint": "#E2C27A",
+   "at": [
+    0,
+    0.17,
+    -0.45999999999999996
+   ],
+   "scale": 0.3,
+   "show": false
+  },
+  {
+   "id": "you",
+   "kind": "person",
+   "look": "you",
+   "at": [
+    2.2,
+    0,
+    1.6
+   ],
+   "face": "g9"
+  },
+  {
+   "id": "old",
+   "kind": "person",
+   "look": "elder",
+   "at": [
+    -2.4,
+    0,
+    1.4
+   ],
+   "face": "g9",
+   "show": false
+  },
+  {
+   "id": "robot",
+   "kind": "robot",
+   "at": [
+    -2.4,
+    0,
+    1.4
+   ],
+   "face": "you",
+   "show": false
+  }
+ ],
+ "groups": {
+  "heap": [
+   "g0",
+   "g1",
+   "g2",
+   "g3",
+   "g4",
+   "g5",
+   "g6",
+   "g7",
+   "g8",
+   "g9"
+  ]
+ },
+ "shots": [
+  {
+   "at": 0,
+   "cam": {
+    "preset": "close",
+    "on": [
+     "g0",
+     "g1"
+    ]
+   },
+   "focus": [
+    "g0",
+    "g1"
+   ]
+  },
+  {
+   "at": "1",
+   "cam": {
+    "preset": "mid",
+    "on": "heap"
+   },
+   "focus": [
+    "heap"
+   ]
+  },
+  {
+   "at": "1:million",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "heap",
+     "you"
+    ]
+   },
+   "focus": [
+    "heap",
+    "you"
+   ]
+  },
+  {
+   "at": "2",
+   "cam": {
+    "preset": "tight",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "3",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "heap",
+     "you"
+    ]
+   }
+  },
+  {
+   "at": "4",
+   "cam": {
+    "preset": "close",
+    "on": "you",
+    "side": 1
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "5",
+   "cam": {
+    "preset": "mid",
+    "on": "heap"
+   },
+   "focus": [
+    "heap"
+   ]
+  },
+  {
+   "at": "6",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "heap"
+    ]
+   },
+   "focus": [
+    "you",
+    "heap"
+   ]
+  },
+  {
+   "at": "7",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "heap",
+     "you",
+     "old"
+    ]
+   }
+  },
+  {
+   "at": "8",
+   "cam": {
+    "preset": "close",
+    "on": "old"
+   },
+   "focus": [
+    "old"
+   ]
+  },
+  {
+   "at": "9",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "heap"
+    ],
+    "side": 1
+   },
+   "focus": [
+    "you",
+    "heap"
+   ]
+  },
+  {
+   "at": "10",
+   "cam": {
+    "preset": "close",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "11",
+   "cam": {
+    "preset": "mid",
+    "on": "heap"
+   },
+   "focus": [
+    "heap"
+   ]
+  },
+  {
+   "at": "12",
+   "cam": {
+    "preset": "tight",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "13",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "heap"
+    ],
+    "side": -1
+   },
+   "focus": [
+    "you",
+    "heap"
+   ]
+  },
+  {
+   "at": "14",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "heap",
+     "you",
+     "robot"
+    ]
+   }
+  },
+  {
+   "at": "15",
+   "cam": {
+    "preset": "close",
+    "on": "robot"
+   },
+   "focus": [
+    "robot"
+   ]
+  },
+  {
+   "at": "16",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "heap"
+    ]
+   },
+   "focus": [
+    "you",
+    "heap"
+   ]
+  },
+  {
+   "at": "17",
+   "cam": {
+    "preset": "tight",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "id": "g2",
+   "at": "1:Add",
+   "dur": 0.3,
+   "show": true
+  },
+  {
+   "id": "g3",
+   "at": "1:grain",
+   "dur": 0.3,
+   "show": true
+  },
+  {
+   "id": "g4",
+   "at": "1:time",
+   "dur": 0.3,
+   "show": true
+  },
+  {
+   "id": "g5",
+   "at": "1:logic",
+   "dur": 0.3,
+   "show": true
+  },
+  {
+   "id": "g6",
+   "at": "1:million",
+   "dur": 0.3,
+   "show": true
+  },
+  {
+   "id": "g7",
+   "at": "1:million+0.3",
+   "dur": 0.3,
+   "show": true
+  },
+  {
+   "id": "g8",
+   "at": "1:still",
+   "dur": 0.3,
+   "show": true
+  },
+  {
+   "id": "g9",
+   "at": "1:heap",
+   "dur": 0.3,
+   "show": true
+  },
+  {
+   "id": "you",
+   "at": "2",
+   "dur": 0.4,
+   "pose": "think"
+  },
+  {
+   "id": "you",
+   "at": "5",
+   "dur": 0.4,
+   "pose": "point"
+  },
+  {
+   "id": "g9",
+   "at": "5:one",
+   "dur": 0.3,
+   "show": false
+  },
+  {
+   "id": "g9",
+   "at": "5:heap",
+   "dur": 0.3,
+   "show": true
+  },
+  {
+   "id": "you",
+   "at": "6:either",
+   "dur": 0.4,
+   "pose": "shrug"
+  },
+  {
+   "id": "you",
+   "at": "7",
+   "dur": 0.4,
+   "pose": "stand"
+  },
+  {
+   "id": "old",
+   "at": "7:never",
+   "dur": 0.4,
+   "show": true
+  },
+  {
+   "id": "old",
+   "at": "8:bald",
+   "dur": 0.4,
+   "pose": "sad"
+  },
+  {
+   "id": "old",
+   "at": "9",
+   "dur": 0.3,
+   "show": false
+  },
+  {
+   "id": "you",
+   "at": "9:silent",
+   "dur": 0.4,
+   "pose": "think"
+  },
+  {
+   "id": "you",
+   "at": "10:shocking",
+   "dur": 0.4,
+   "pose": "shock"
+  },
+  {
+   "id": "g9",
+   "at": "11:one",
+   "dur": 0.5,
+   "wobble": true
+  },
+  {
+   "id": "you",
+   "at": "12:never",
+   "dur": 0.4,
+   "pose": "shrug"
+  },
+  {
+   "id": "robot",
+   "at": "14",
+   "dur": 0.4,
+   "show": true
+  },
+  {
+   "id": "robot",
+   "at": "15:little",
+   "dur": 0.5,
+   "wobble": true
+  },
+  {
+   "id": "you",
+   "at": "16",
+   "dur": 0.4,
+   "pose": "stand"
+  },
+  {
+   "id": "you",
+   "at": "17",
+   "dur": 0.4,
+   "pose": "think"
+  },
+  {
+   "id": "you",
+   "at": "4:liar",
+   "dur": 0.4,
+   "pose": "shrug"
+  },
+  {
+   "id": "you",
+   "at": "5",
+   "dur": 0.4,
+   "pose": "stand"
+  }
+ ],
+ "overlays": [
+  {
+   "type": "number",
+   "text": "1",
+   "on": "g0",
+   "from": "0:One",
+   "to": "0:two"
+  },
+  {
+   "type": "number",
+   "text": "2",
+   "on": "g1",
+   "from": "0:two",
+   "to": "1"
+  },
+  {
+   "type": "cross",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "0:heap",
+   "to": "1"
+  },
+  {
+   "type": "label",
+   "text": "1,000,000 GRAINS?",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "1:million",
+   "to": "2"
+  },
+  {
+   "type": "question",
+   "on": "you",
+   "from": "2:where",
+   "to": "3"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "diogenes",
+    0
+   ],
+   "caption": "Diogenes Laertius, Lives of the Philosophers, a manuscript",
+   "from": "3",
+   "to": "3:sorites-0.1"
+  },
+  {
+   "type": "label",
+   "text": "SOROS = HEAP",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "3:sorites",
+   "to": "5"
+  },
+  {
+   "type": "label",
+   "text": "YOU",
+   "color": "yellow",
+   "on": "you",
+   "from": "5",
+   "to": "6"
+  },
+  {
+   "type": "label",
+   "text": "+1 GRAIN",
+   "on": "g9",
+   "from": "5:one",
+   "to": "6"
+  },
+  {
+   "type": "label",
+   "text": "NO HEAPS?  OR ONE MAGIC GRAIN?",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "6:either",
+   "to": "7"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "bald",
+    2
+   ],
+   "caption": "Head of a Bald Old Man, J. A. Backer",
+   "from": "8",
+   "to": "8:red-0.1"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "rainbow",
+    0
+   ],
+   "caption": "Where does red end?",
+   "from": "8:red",
+   "to": "9-0.2"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "chrysippus",
+    1
+   ],
+   "caption": "Chrysippus, Stoic philosopher",
+   "from": "9",
+   "to": "10-0.2"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "williamson",
+    1
+   ],
+   "caption": "Timothy Williamson, Vagueness, 1994",
+   "from": "10:Williamson",
+   "to": "11-0.2"
+  },
+  {
+   "type": "label",
+   "text": "ONE EXACT GRAIN",
+   "on": "g9",
+   "from": "11:exact",
+   "to": "12"
+  },
+  {
+   "type": "question",
+   "on": "g9",
+   "from": "12:which",
+   "to": "14"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "sendai",
+    0
+   ],
+   "caption": "Sendai Subway Namboku Line, Japan",
+   "from": "15:Sendai's",
+   "to": "15:little-0.1"
+  },
+  {
+   "type": "label",
+   "text": "A LITTLE · QUITE · VERY",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "15:little",
+   "to": "16"
+  },
+  {
+   "type": "label",
+   "text": "TRUTH BY DEGREES",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "16:degrees",
+   "to": "17"
+  },
+  {
+   "type": "pill",
+   "text": "Who draws your lines?",
+   "from": "17:who"
+  },
+  {
+   "type": "label",
+   "text": "\"THIS SENTENCE IS FALSE\"",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "4:liar",
+   "to": "5"
+  },
+  {
+   "type": "check",
+   "on": "g9",
+   "from": "13:logic",
+   "to": "14"
+  }
+ ],
+ "sfx": [
+  {
+   "at": "1:Add",
+   "s": "tick",
+   "gain": 0.25,
+   "every": 0.4,
+   "until": "1:heap"
+  },
+  {
+   "at": "11:one",
+   "s": "pluck",
+   "gain": 0.3
+  },
+  {
+   "at": "15:little",
+   "s": "brake",
+   "gain": 0.25
+  }
+ ],
+ "music": {
+  "mood": "wonder"
+ },
+ "sources": [
+  "https://plato.stanford.edu/entries/sorites-paradox/",
+  "https://plato.stanford.edu/entries/vagueness/",
+  "https://iep.utm.edu/sorites/",
+  "https://en.wikipedia.org/wiki/Sendai_Subway_Namboku_Line",
+  "https://en.wikipedia.org/wiki/Fuzzy_control_system"
+ ],
+ "post": {
+  "caption": "One grain of sand isn't a heap, and adding one grain never makes one. So where does a heap begin? One philosopher argues there is an exact grain, and we can never know which.\nWhere would you draw the line?",
+  "tags": [
+   "#philosophy",
+   "#paradox",
+   "#sorites",
+   "#logic",
+   "#thoughtexperiment"
+  ],
+  "youtube_title": "Which Grain of Sand Makes a Heap?"
+ }
+}
