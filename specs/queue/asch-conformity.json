@@ -1,0 +1,780 @@
+{
+ "id": "asch-conformity",
+ "channel": "philosophy",
+ "style": "clay",
+ "title": "THE CONFORMITY EXPERIMENT",
+ "angle": "Would you go along with a crowd that is plainly wrong?",
+ "answer": "Sometimes: three in four students went along at least once and about a third of rigged answers followed the crowd, but a single ally cut conformity to about one in twenty, and two-thirds of all answers stayed correct; the crowd bends us more often than it breaks us.",
+ "logline": "Three in four students denied their own eyes, so would you go along with a wrong crowd? The others were secret actors, so the subject heard them all first, but the psychologist expected people to stand firm, and a third of rigged answers followed the crowd, but one honest ally cut that to one in twenty, so you need one friend, not a majority, but the retelling skips the biggest number: two-thirds of answers were right, so a crowd bends us but rarely breaks us.",
+ "hook_text": "WHICH LINE MATCHES?",
+ "hooks": [
+  "One honest person in the room cut conformity to one in twenty.",
+  "The famous conformity experiment mostly found people telling the truth."
+ ],
+ "world": {
+  "scenery": "room"
+ },
+ "script": [
+  {
+   "text": "In 1951, three in four students denied their own eyes.",
+   "say": "In nineteen fifty-one, three in four students denied their own eyes.",
+   "beat": "hook"
+  },
+  {
+   "text": "The question was simple: which of three lines matches this one?",
+   "beat": "hook",
+   "link": "detail"
+  },
+  {
+   "text": "So would you go along with a crowd that's plainly wrong?",
+   "beat": "question",
+   "link": "so"
+  },
+  {
+   "text": "At Swarthmore College, a psychologist sat each student with a group of others.",
+   "beat": "reveal1",
+   "link": "answer"
+  },
+  {
+   "text": "Secretly, the others were actors, told to give the same wrong answer.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "So the real subject answered near the end, after hearing them all.",
+   "beat": "reveal1",
+   "link": "so"
+  },
+  {
+   "text": "But the psychologist expected the opposite: he set out to show that people stand firm.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "Instead, on the rigged rounds, about a third of answers followed the crowd.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "Alone, people got it wrong less than once in a hundred.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "But one small change nearly broke the spell.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "When a single actor gave the right answer, conformity fell to about one answer in twenty.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "So you don't need a majority to trust your eyes; you need one ally.",
+   "beat": "reveal3",
+   "link": "so"
+  },
+  {
+   "text": "But most retellings leave out the biggest number.",
+   "beat": "turn",
+   "link": "but"
+  },
+  {
+   "text": "Two-thirds of all answers were right, and a quarter of people never caved once.",
+   "beat": "turn",
+   "link": "detail"
+  },
+  {
+   "text": "So a crowd can bend us, but it rarely breaks us, especially when one person speaks first.",
+   "beat": "payoff",
+   "link": "so"
+  },
+  {
+   "text": "Next time a room is wrong, will you be that one person?",
+   "beat": "payoff",
+   "link": "so"
+  }
+ ],
+ "objects": [
+  {
+   "id": "ref",
+   "kind": "pillar",
+   "tint": "#3B3B48",
+   "at": [
+    -2.4,
+    0,
+    -0.7000000000000002
+   ],
+   "face": 0,
+   "scale": 0.7
+  },
+  {
+   "id": "lA",
+   "kind": "pillar",
+   "tint": "#E06C5A",
+   "at": [
+    -0.6,
+    0,
+    -0.7000000000000002
+   ],
+   "face": 0,
+   "scale": 0.5
+  },
+  {
+   "id": "lB",
+   "kind": "pillar",
+   "tint": "#5AA0E0",
+   "at": [
+    0.6,
+    0,
+    -0.7000000000000002
+   ],
+   "face": 0,
+   "scale": 0.7
+  },
+  {
+   "id": "lC",
+   "kind": "pillar",
+   "tint": "#E0B85A",
+   "at": [
+    1.8,
+    0,
+    -0.7000000000000002
+   ],
+   "face": 0,
+   "scale": 0.9
+  },
+  {
+   "id": "a",
+   "kind": "person",
+   "look": "a",
+   "at": [
+    -3.0,
+    0,
+    3.1
+   ],
+   "face": "lB"
+  },
+  {
+   "id": "b",
+   "kind": "person",
+   "look": "b",
+   "at": [
+    -1.8,
+    0,
+    3.4
+   ],
+   "face": "lB"
+  },
+  {
+   "id": "c",
+   "kind": "person",
+   "look": "c",
+   "at": [
+    -0.6,
+    0,
+    3.6
+   ],
+   "face": "lB"
+  },
+  {
+   "id": "d",
+   "kind": "person",
+   "look": "d",
+   "at": [
+    0.6,
+    0,
+    3.6
+   ],
+   "face": "lB"
+  },
+  {
+   "id": "e",
+   "kind": "person",
+   "look": "e",
+   "at": [
+    1.8,
+    0,
+    3.4
+   ],
+   "face": "lB"
+  },
+  {
+   "id": "you",
+   "kind": "person",
+   "look": "you",
+   "at": [
+    3.0,
+    0,
+    3.1
+   ],
+   "face": "lB"
+  }
+ ],
+ "groups": {
+  "actors": [
+   "a",
+   "b",
+   "c",
+   "d",
+   "e"
+  ],
+  "lines": [
+   "ref",
+   "lA",
+   "lB",
+   "lC"
+  ]
+ },
+ "shots": [
+  {
+   "at": 0,
+   "cam": {
+    "preset": "close",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "1",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "ref",
+     "lA",
+     "lB",
+     "lC"
+    ]
+   },
+   "focus": [
+    "ref",
+    "lA",
+    "lB",
+    "lC"
+   ]
+  },
+  {
+   "at": "2",
+   "cam": {
+    "preset": "tight",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "3",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "actors",
+     "you",
+     "lB"
+    ],
+    "dist": 0.85
+   }
+  },
+  {
+   "at": "4",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "c",
+     "d",
+     "e"
+    ]
+   },
+   "focus": [
+    "c",
+    "d",
+    "e"
+   ]
+  },
+  {
+   "at": "5",
+   "cam": {
+    "preset": "close",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "6",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "c",
+     "d",
+     "e",
+     "you"
+    ],
+    "azimuth": 145
+   },
+   "focus": [
+    "c",
+    "d",
+    "e",
+    "you"
+   ]
+  },
+  {
+   "at": "7",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "e",
+     "you"
+    ]
+   },
+   "focus": [
+    "e",
+    "you"
+   ]
+  },
+  {
+   "at": "8",
+   "cam": {
+    "preset": "close",
+    "on": "you",
+    "side": 1
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "9",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "actors",
+     "you",
+     "lB"
+    ],
+    "dist": 0.85
+   }
+  },
+  {
+   "at": "10",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "d",
+     "e",
+     "you"
+    ]
+   },
+   "focus": [
+    "d",
+    "e",
+    "you"
+   ]
+  },
+  {
+   "at": "11",
+   "cam": {
+    "preset": "close",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "12",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "c",
+     "d",
+     "e",
+     "you"
+    ],
+    "azimuth": 145
+   },
+   "focus": [
+    "c",
+    "d",
+    "e",
+    "you"
+   ]
+  },
+  {
+   "at": "13",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "lB",
+     "you"
+    ]
+   },
+   "focus": [
+    "lB",
+    "you"
+   ]
+  },
+  {
+   "at": "14",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "e",
+     "you"
+    ],
+    "side": -1
+   },
+   "focus": [
+    "e",
+    "you"
+   ]
+  },
+  {
+   "at": "15",
+   "cam": {
+    "preset": "tight",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "id": "you",
+   "at": "0:denied",
+   "dur": 0.4,
+   "pose": "shock"
+  },
+  {
+   "id": "you",
+   "at": "1",
+   "dur": 0.4,
+   "pose": "stand"
+  },
+  {
+   "id": "you",
+   "at": "2:crowd",
+   "dur": 0.4,
+   "pose": "think"
+  },
+  {
+   "id": "you",
+   "at": "3",
+   "dur": 0.4,
+   "pose": "stand"
+  },
+  {
+   "id": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "at": "4:wrong",
+   "dur": 0.4,
+   "pose": "point"
+  },
+  {
+   "id": "you",
+   "at": "5:end",
+   "dur": 0.4,
+   "pose": "shrug"
+  },
+  {
+   "id": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "at": "6",
+   "dur": 0.4,
+   "pose": "stand"
+  },
+  {
+   "id": "you",
+   "at": "6:firm",
+   "dur": 0.4,
+   "pose": "stand"
+  },
+  {
+   "id": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+   ],
+   "at": "7:rigged",
+   "dur": 0.4,
+   "pose": "point"
+  },
+  {
+   "id": "you",
+   "at": "7:followed",
+   "dur": 0.4,
+   "pose": "point"
+  },
+  {
+   "id": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "you"
+   ],
+   "at": "8",
+   "dur": 0.4,
+   "pose": "stand"
+  },
+  {
+   "id": "you",
+   "at": "8:Alone",
+   "dur": 0.4,
+   "pose": "think"
+  },
+  {
+   "id": "e",
+   "at": "10:right",
+   "dur": 0.4,
+   "pose": "wave"
+  },
+  {
+   "id": "you",
+   "at": "10:fell",
+   "dur": 0.4,
+   "pose": "point"
+  },
+  {
+   "id": "you",
+   "at": "11:ally",
+   "dur": 0.4,
+   "pose": "cheer"
+  },
+  {
+   "id": [
+    "e",
+    "you"
+   ],
+   "at": "12",
+   "dur": 0.4,
+   "pose": "stand"
+  },
+  {
+   "id": "you",
+   "at": "14:speaks",
+   "dur": 0.4,
+   "pose": "point"
+  },
+  {
+   "id": "you",
+   "at": "15",
+   "dur": 0.4,
+   "pose": "think"
+  }
+ ],
+ "overlays": [
+  {
+   "type": "label",
+   "text": "3 IN 4",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "0:three",
+   "to": "1"
+  },
+  {
+   "type": "label",
+   "text": "THIS ONE",
+   "on": "ref",
+   "from": "1:this",
+   "to": "2"
+  },
+  {
+   "type": "label",
+   "text": "A",
+   "on": "lA",
+   "from": "1:three",
+   "to": "2"
+  },
+  {
+   "type": "label",
+   "text": "B",
+   "on": "lB",
+   "from": "1:three",
+   "to": "2"
+  },
+  {
+   "type": "label",
+   "text": "C",
+   "on": "lC",
+   "from": "1:three",
+   "to": "2"
+  },
+  {
+   "type": "question",
+   "on": "you",
+   "from": "2:along",
+   "to": "3"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "swarthmore",
+    0
+   ],
+   "caption": "Swarthmore College, Pennsylvania",
+   "from": "3",
+   "to": "4-0.2"
+  },
+  {
+   "type": "label",
+   "text": "YOU",
+   "color": "yellow",
+   "on": "you",
+   "from": "4",
+   "to": "5"
+  },
+  {
+   "type": "label",
+   "text": "ACTORS",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "4:actors",
+   "to": "5"
+  },
+  {
+   "type": "label",
+   "text": "\"A\"",
+   "on": "c",
+   "from": "4:wrong",
+   "to": "5"
+  },
+  {
+   "type": "label",
+   "text": "PEOPLE STAND FIRM?",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "6:firm",
+   "to": "7"
+  },
+  {
+   "type": "number",
+   "text": "1/3",
+   "on": "you",
+   "from": "7:third",
+   "to": "8"
+  },
+  {
+   "type": "number",
+   "text": "<1%",
+   "on": "you",
+   "from": "8:hundred",
+   "to": "9"
+  },
+  {
+   "type": "check",
+   "on": "e",
+   "from": "10:right",
+   "to": "11"
+  },
+  {
+   "type": "number",
+   "text": "1 IN 20",
+   "on": "you",
+   "from": "10:twenty",
+   "to": "11"
+  },
+  {
+   "type": "label",
+   "text": "ONE ALLY",
+   "on": "e",
+   "from": "11:ally",
+   "to": "12"
+  },
+  {
+   "type": "label",
+   "text": "2/3 RIGHT",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "13:Two-thirds",
+   "to": "13:quarter"
+  },
+  {
+   "type": "label",
+   "text": "1 IN 4 NEVER CAVED",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "13:quarter",
+   "to": "14"
+  },
+  {
+   "type": "check",
+   "on": "lB",
+   "from": "13",
+   "to": "14"
+  },
+  {
+   "type": "pill",
+   "text": "Will you be the one?",
+   "from": "15:one"
+  }
+ ],
+ "sfx": [
+  {
+   "at": "4:wrong",
+   "s": "error",
+   "gain": 0.25
+  },
+  {
+   "at": "7:followed",
+   "s": "click",
+   "gain": 0.25
+  },
+  {
+   "at": "10:right",
+   "s": "confirmation",
+   "gain": 0.3
+  }
+ ],
+ "music": {
+  "mood": "neutral"
+ },
+ "sources": [
+  "https://www.simplypsychology.org/asch-conformity.html",
+  "https://psycnet.apa.org/record/1956-04089-001",
+  "https://www.researchgate.net/publication/229880225_A_puzzling_misinterpretation_of_the_Asch_conformity_study",
+  "https://psycnet.apa.org/record/1996-03014-002",
+  "https://en.wikipedia.org/wiki/Asch_conformity_experiments"
+ ],
+ "post": {
+  "caption": "Three in four students went along with a plainly wrong crowd at least once. But one honest person in the room cut conformity to one answer in twenty.\nWould you say the obvious out loud?",
+  "tags": [
+   "#psychology",
+   "#conformity",
+   "#aschexperiment",
+   "#socialpsychology",
+   "#philosophy"
+  ],
+  "youtube_title": "One Honest Person Breaks the Conformity Spell"
+ }
+}

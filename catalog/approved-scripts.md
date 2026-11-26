@@ -1,6 +1,29 @@
 # Model scripts (newest first)
 The writer reads the top two of its channel before writing and matches or beats them: same spine (beats in order, every sentence linked to the one before), never the same facts or hooks. Each script the writer makes is added at the top in this format. Kept to the last 12.
 
+## asch-conformity (philosophy, 2026-11-27)
+
+Angle: Would you go along with a crowd that is plainly wrong?
+Logline: Three in four students denied their own eyes, so would you go along with a wrong crowd? The others were secret actors, so the subject heard them all first, but the psychologist expected people to stand firm, and a third of rigged answers followed the crowd, but one honest ally cut that to one in twenty, so you need one friend, not a majority, but the retelling skips the biggest number: two-thirds of answers were right, so a crowd bends us but rarely breaks us.
+On-screen hook: WHICH LINE MATCHES?
+
+[hook] In 1951, three in four students denied their own eyes.
+[hook / detail] The question was simple: which of three lines matches this one?
+[question / so] So would you go along with a crowd that's plainly wrong?
+[reveal1 / answer] At Swarthmore College, a psychologist sat each student with a group of others.
+[reveal1 / detail] Secretly, the others were actors, told to give the same wrong answer.
+[reveal1 / so] So the real subject answered near the end, after hearing them all.
+[reveal2 / but] But the psychologist expected the opposite: he set out to show that people stand firm.
+[reveal2 / detail] Instead, on the rigged rounds, about a third of answers followed the crowd.
+[reveal2 / but] Alone, people got it wrong less than once in a hundred.
+[reveal3 / but] But one small change nearly broke the spell.
+[reveal3 / detail] When a single actor gave the right answer, conformity fell to about one answer in twenty.
+[reveal3 / so] So you don't need a majority to trust your eyes; you need one ally.
+[turn / but] But most retellings leave out the biggest number.
+[turn / detail] Two-thirds of all answers were right, and a quarter of people never caved once.
+[payoff / so] So a crowd can bend us, but it rarely breaks us, especially when one person speaks first.
+[payoff / so] Next time a room is wrong, will you be that one person?
+
 ## earthly-delights (paintings, 2026-11-27)
 
 Angle: What kind of church would hang a painting with a song on a sinner's backside?
@@ -260,25 +283,3 @@ On-screen hook: BRAIN CELLS, NO BODY, PLAYING PONG
 [turn / detail] A brain moved there last night still means real vats, and would notice nothing.
 [payoff / answer] So no, you can't prove it; you can only prove a lifelong vat-brain couldn't say it.
 [payoff / but] But those Pong cells never knew they were in a dish. Would you?
-
-## birth-of-venus (paintings, 2026-11-26)
-
-Angle: How did a cheap canvas made for a country house become the face of the Renaissance?
-Logline: It is painted on sewn canvas while serious Florentine pictures went on wood, because canvas was for cheap, cheerful villa decoration, so Botticelli made cloth glow with a blue ground and gold, but out at the villa it left no record, so its first mention came decades later from Vasari, but that obscurity may have saved it, because Savonarola's Florence burned vanities and very likely its copies, so it stayed safe until 1815, but even its title is a 19th-century label for a goddess being blown ashore, not born, so the cheapness that hid her is what saved her.
-On-screen hook: THE RENAISSANCE, ON CHEAP CLOTH
-
-[hook] Botticelli's Venus is painted on two strips of sewn canvas.
-[hook / but] Serious Florentine paintings, like his Primavera, went on wood.
-[question / so] So how did cheap cloth become the face of the Renaissance?
-[reveal1 / answer] Canvas was the cheap choice for country villas, decorated simply and cheerfully.
-[reveal1 / so] So Botticelli made the cloth glow with a blue-tinted ground.
-[reveal1 / detail] Then, once it was framed, real gold went into her hair.
-[reveal2 / but] But at the villa, it left no record, not even in a Medici inventory.
-[reveal2 / so] Its first written mention came decades later, from Giorgio Vasari.
-[reveal3 / but] But being out of sight may have saved her.
-[reveal3 / because] In 1497, Savonarola had Florentines burn their vanities in the main square.
-[reveal3 / detail] Copies of this Venus from Botticelli's workshop very likely burned.
-[reveal3 / so] The original stayed at the villa until 1815, then went to the Uffizi.
-[turn / but] But even its name came late: the title dates from the 1800s.
-[turn / detail] She isn't even being born; the winds are blowing her ashore.
-[payoff / answer] So the cheap cloth that hid her is what saved her.

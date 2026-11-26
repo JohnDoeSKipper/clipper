@@ -16,7 +16,7 @@ Check what the original experiment or argument actually says (and whether later 
 - made | teleporter | The Teleporter Problem (Parfit) | ps2 | two pods; the original is destroyed... or not
 - made | marshmallow-test | The Marshmallow Test | clay | child, table, one treat now or two later; what the follow-up studies found
 - made | bystander-effect | The Bystander Effect | clay | one person in trouble, a growing crowd doing nothing; numbers
-- inbox | asch-conformity | The Asch Conformity Experiment | clay | three lines on a sign; everyone gives the wrong answer; would you?
+- made | asch-conformity | The Asch Conformity Experiment | clay | three lines on a sign; everyone gives the wrong answer; would you?
 - inbox | sorites | The Heap Paradox | clay | a heap of balls; remove one at a time; when does it stop being a heap?
 - inbox | buridans-donkey | Buridan's Donkey | clay | two identical piles; a perfectly rational animal starves
 - inbox | pascals-wager | Pascal's Wager | ps2 | two doors, a scale, coins; the bet and the objection of many gods
