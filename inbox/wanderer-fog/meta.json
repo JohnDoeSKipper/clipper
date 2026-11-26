@@ -1,0 +1,157 @@
+{
+ "id": "wanderer-fog",
+ "painting": {
+  "title": "File:Caspar David Friedrich - Wanderer above the sea of fog.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "full": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "width": 2327,
+  "height": 2980,
+  "licence": "Public domain",
+  "artist": "Caspar David Friedrich",
+  "credit": "",
+  "desc": "The hiker stands as a back figure in the center of the composition. He looks down on an almost impenetrable sea of \u200b\u200bfog in the midst of a rocky landscape - a m"
+ },
+ "inserts": {
+  "friedrich": [
+   {
+    "title": "File:Hamburg, Kunsthalle, Georg Friedrich Kersting, Caspar David Friedrich in seinem Atelier.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Hamburg%2C_Kunsthalle%2C_Georg_Friedrich_Kersting%2C_Caspar_David_Friedrich_in_seinem_Atelier.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Hamburg%2C_Kunsthalle%2C_Georg_Friedrich_Kersting%2C_Caspar_David_Friedrich_in_seinem_Atelier.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2406,
+    "height": 2943,
+    "licence": "CC BY 4.0",
+    "artist": "Dguendel",
+    "credit": "Dguendel / CC BY 4.0",
+    "desc": "Hamburg, Kunsthalle, Georg Friedrich Kersting, Caspar David Friedrich in his studio, 1811"
+   },
+   {
+    "title": "File:Georg Friedrich Kersting - Caspar David Friedrich im Atelier (1819).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Georg_Friedrich_Kersting_-_Caspar_David_Friedrich_im_Atelier_%281819%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/3/30/Georg_Friedrich_Kersting_-_Caspar_David_Friedrich_im_Atelier_%281819%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1025,
+    "height": 1319,
+    "licence": "Public domain",
+    "artist": "Georg Friedrich Kersting",
+    "credit": "",
+    "desc": ""
+   },
+   {
+    "title": "File:Georg Friedrich Kersting - Caspar David Friedrich in seinem Atelier (ca. 1812).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Georg_Friedrich_Kersting_-_Caspar_David_Friedrich_in_seinem_Atelier_%28ca._1812%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Georg_Friedrich_Kersting_-_Caspar_David_Friedrich_in_seinem_Atelier_%28ca._1812%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2466,
+    "height": 3188,
+    "licence": "Public domain",
+    "artist": "Georg Friedrich Kersting",
+    "credit": "",
+    "desc": ""
+   }
+  ],
+  "kunsthalle": [
+   {
+    "title": "File:Exterieur van de Hamburger Kunsthalle te Hamburg Kunsthalle (titel op object) Hamburg (serietitel), RP-F-F05960.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Exterieur_van_de_Hamburger_Kunsthalle_te_Hamburg_Kunsthalle_%28titel_op_object%29_Hamburg_%28serietitel%29%2C_RP-F-F05960.jpg/3840px-Exterieur_van_de_Hamburger_Kunsthalle_te_Hamburg_Kunsthalle_%28titel_op_object%29_Hamburg_%28serietitel%29%2C_RP-F-F05960.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Exterieur_van_de_Hamburger_Kunsthalle_te_Hamburg_Kunsthalle_%28titel_op_object%29_Hamburg_%28serietitel%29%2C_RP-F-F05960.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4744,
+    "height": 2450,
+    "licence": "CC0",
+    "artist": "Rijksmuseum",
+    "credit": "",
+    "desc": "IdentificatieTitel(s): Exterieur van de Hamburger Kunsthalle te Hamburg. Kunsthalle. (titel op object) Hamburg. (serietitel)Objecttype: stereofoto Objectnummer:"
+   },
+   {
+    "title": "File:Exterieur van de Hamburger Kunsthalle te Hamburg Kunsthalle (titel op object) Hamburg und Umgebung (serietitel), RP-F-F05966.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Exterieur_van_de_Hamburger_Kunsthalle_te_Hamburg_Kunsthalle_%28titel_op_object%29_Hamburg_und_Umgebung_%28serietitel%29%2C_RP-F-F05966.jpg/3840px-Exterieur_van_de_Hamburger_Kunsthalle_te_Hamburg_Kunsthalle_%28titel_op_object%29_Hamburg_und_Umgebung_%28serietitel%29%2C_RP-F-F05966.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/0/03/Exterieur_van_de_Hamburger_Kunsthalle_te_Hamburg_Kunsthalle_%28titel_op_object%29_Hamburg_und_Umgebung_%28serietitel%29%2C_RP-F-F05966.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4692,
+    "height": 2458,
+    "licence": "CC0",
+    "artist": "Rijksmuseum",
+    "credit": "",
+    "desc": "IdentificatieTitel(s): Exterieur van de Hamburger Kunsthalle te Hamburg. Kunsthalle. (titel op object) Hamburg und Umgebung. (serietitel)Objecttype: stereofoto "
+   },
+   {
+    "title": "File:Gezicht op de Hamburger Kunsthalle te Hamburg, met op de voorgrond het Schillerdenkmal Kunsthalle und Schillerdenkmal (titel op object) Hamburg (serietitel), RP-F-F05961.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Gezicht_op_de_Hamburger_Kunsthalle_te_Hamburg%2C_met_op_de_voorgrond_het_Schillerdenkmal_Kunsthalle_und_Schillerdenkmal_%28titel_op_object%29_Hamburg_%28serietitel%29%2C_RP-F-F05961.jpg/3840px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/8/89/Gezicht_op_de_Hamburger_Kunsthalle_te_Hamburg%2C_met_op_de_voorgrond_het_Schillerdenkmal_Kunsthalle_und_Schillerdenkmal_%28titel_op_object%29_Hamburg_%28serietitel%29%2C_RP-F-F05961.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4732,
+    "height": 2458,
+    "licence": "CC0",
+    "artist": "Rijksmuseum",
+    "credit": "",
+    "desc": "IdentificatieTitel(s): Gezicht op de Hamburger Kunsthalle te Hamburg, met op de voorgrond het Schillerdenkmal. Kunsthalle und Schillerdenkmal (titel op object)."
+   }
+  ],
+  "sandstone": [
+   {
+    "title": "File:Kaiserkrone saechs schweiz.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Kaiserkrone_saechs_schweiz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/d/db/Kaiserkrone_saechs_schweiz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1521,
+    "height": 1031,
+    "licence": "CC BY-SA 3.0",
+    "artist": "No machine-readable author provided. Olaf1541 assumed (based on copyright claims",
+    "credit": "No machine-readable author provided. Olaf1541 assumed (based on copyright claims / CC BY-SA 3.0",
+    "desc": "mountain \"Kaiserkrone\" in the Saxon Switzerland or \"Elbe sandstone mountains\" (S\u00e4chsische Schweiz) view from the base of the nearby mountain \"Zirkelstein\" pictu"
+   },
+   {
+    "title": "File:Hohburkersdorfer-rundblick.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Hohburkersdorfer-rundblick.jpg/3840px-Hohburkersdorfer-rundblick.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/8/87/Hohburkersdorfer-rundblick.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 10954,
+    "height": 1061,
+    "licence": "CC BY 2.5",
+    "artist": "de:Benutzer:Olaf1541",
+    "credit": "de:Benutzer:Olaf1541 / CC BY 2.5",
+    "desc": "taken at the Hohburkersdorfer Rundblick"
+   },
+   {
+    "title": "File:S\u00e4chsische Schweiz, Rathmannsdorfer Aussichtsturm - 270\u00b0-Panorama nach S\u00fcden, Westen und Norden (01-2).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/S%C3%A4chsische_Schweiz%2C_Rathmannsdorfer_Aussichtsturm_-_270%C2%B0-Panorama_nach_S%C3%BCden%2C_Westen_und_Norden_%2801-2%29.jpg/3840px-S%C3%A4chsische_Schweiz%2C_Rathmannsdorfer_Aussichtsturm_-_270%C2%B0-Panorama_nach_S%C3%BCden%2C_Westen_und_Norden_%2801-2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/4/47/S%C3%A4chsische_Schweiz%2C_Rathmannsdorfer_Aussichtsturm_-_270%C2%B0-Panorama_nach_S%C3%BCden%2C_Westen_und_Norden_%2801-2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 10000,
+    "height": 632,
+    "licence": "CC BY-SA 3.0",
+    "artist": "Norbert Kaiser",
+    "credit": "Norbert Kaiser / CC BY-SA 3.0",
+    "desc": "Rathmannsdorf, lookout tower at the district H\u00f6he: panorama view on the world of the Elbe Sandstone Mountains."
+   }
+  ],
+  "rosenberg": [],
+  "monk": [
+   {
+    "title": "File:Caspar David Friedrich - Monk by the Sea.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Caspar_David_Friedrich_-_Monk_by_the_Sea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Caspar_David_Friedrich_-_Monk_by_the_Sea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1174,
+    "height": 750,
+    "licence": "Public domain",
+    "artist": "Caspar David Friedrich",
+    "credit": "",
+    "desc": ""
+   },
+   {
+    "title": "File:Friedrich, Caspar David - M\u00f6nch am Meer - Alte Nationalgalerie in Berlin.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Friedrich%2C_Caspar_David_-_M%C3%B6nch_am_Meer_-_Alte_Nationalgalerie_in_Berlin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Friedrich%2C_Caspar_David_-_M%C3%B6nch_am_Meer_-_Alte_Nationalgalerie_in_Berlin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3531,
+    "height": 2270,
+    "licence": "Public domain",
+    "artist": "Caspar David Friedrich",
+    "credit": "",
+    "desc": ""
+   },
+   {
+    "title": "File:Caspar David Friedrich - Der M\u00f6nch am Meer - Google Art Project.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Caspar_David_Friedrich_-_Der_M%C3%B6nch_am_Meer_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/2/21/Caspar_David_Friedrich_-_Der_M%C3%B6nch_am_Meer_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3543,
+    "height": 2254,
+    "licence": "Public domain",
+    "artist": "Caspar David Friedrich",
+    "credit": "",
+    "desc": "Zustand vor der Restaurierung"
+   }
+  ]
+ }
+}

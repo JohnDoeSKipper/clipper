@@ -1,0 +1,157 @@
+{
+ "id": "earthly-delights",
+ "painting": {
+  "title": "File:The Garden of Earthly Delights by Bosch High Resolution.jpg",
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/The_Garden_of_Earthly_Delights_by_Bosch_High_Resolution.jpg/3840px-The_Garden_of_Earthly_Delights_by_Bosch_High_Resolution.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "full": "https://upload.wikimedia.org/wikipedia/commons/6/6d/The_Garden_of_Earthly_Delights_by_Bosch_High_Resolution.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "width": 30000,
+  "height": 17078,
+  "licence": "Public domain",
+  "artist": "Hieronymus Bosch",
+  "credit": "",
+  "desc": ""
+ },
+ "inserts": {
+  "closed": [],
+  "bosch": [
+   {
+    "title": "File:Jheronimus Bosch.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Jheronimus_Bosch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/5/51/Jheronimus_Bosch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2492,
+    "height": 3508,
+    "licence": "Public domain",
+    "artist": "Attributed to Jacques Le Boucq",
+    "credit": "",
+    "desc": ""
+   },
+   {
+    "title": "File:Jheronimus Bosch (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Jheronimus_Bosch_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Jheronimus_Bosch_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1658,
+    "height": 1932,
+    "licence": "Public domain",
+    "artist": "Attributed to Jacques Le Boucq",
+    "credit": "",
+    "desc": "Portrait of Hieronymus Bosch [detail]."
+   },
+   {
+    "title": "File:Portrait of Jheronimus Bosch 001 from Vermeylen 1939.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Portrait_of_Jheronimus_Bosch_001_from_Vermeylen_1939.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/6/62/Portrait_of_Jheronimus_Bosch_001_from_Vermeylen_1939.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1653,
+    "height": 2261,
+    "licence": "Public domain",
+    "artist": "Attributed to Jacques Le Boucq",
+    "credit": "",
+    "desc": "Portret van Jheronimus Bosch"
+   }
+  ],
+  "denbosch": [
+   {
+    "title": "File:'s-Hertogenbosch-Sint-Janskathedraal-38-2010-gje.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/%27s-Hertogenbosch-Sint-Janskathedraal-38-2010-gje.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/1/1b/%27s-Hertogenbosch-Sint-Janskathedraal-38-2010-gje.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3456,
+    "height": 4750,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Gerd Eichmann",
+    "credit": "Gerd Eichmann / CC BY-SA 4.0",
+    "desc": "Saint John's Cathedral in s-Hertogenbosch"
+   },
+   {
+    "title": "File:'s-Hertogenbosch-Sint-Janskathedraal-08-Strebewerk-2010-gje.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/%27s-Hertogenbosch-Sint-Janskathedraal-08-Strebewerk-2010-gje.jpg/3840px-%27s-Hertogenbosch-Sint-Janskathedraal-08-Strebewerk-2010-gje.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/f/f9/%27s-Hertogenbosch-Sint-Janskathedraal-08-Strebewerk-2010-gje.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 5184,
+    "height": 3456,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Gerd Eichmann",
+    "credit": "Gerd Eichmann / CC BY-SA 4.0",
+    "desc": "Saint John's Cathedral in s-Hertogenbosch"
+   },
+   {
+    "title": "File:'s-Hertogenbosch-Sint-Janskathedraal-22-Mittelschiff-2010-gje.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/%27s-Hertogenbosch-Sint-Janskathedraal-22-Mittelschiff-2010-gje.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/0/0c/%27s-Hertogenbosch-Sint-Janskathedraal-22-Mittelschiff-2010-gje.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3456,
+    "height": 5064,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Gerd Eichmann",
+    "credit": "Gerd Eichmann / CC BY-SA 4.0",
+    "desc": "Saint John's Cathedral in s-Hertogenbosch"
+   }
+  ],
+  "escorial": [
+   {
+    "title": "File:Monasterio de El Escorial en Madrid.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Monasterio_de_El_Escorial_en_Madrid.jpg/3840px-Monasterio_de_El_Escorial_en_Madrid.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/5/59/Monasterio_de_El_Escorial_en_Madrid.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 5815,
+    "height": 3877,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Zvonimir Stamenov",
+    "credit": "Zvonimir Stamenov / CC BY-SA 4.0",
+    "desc": "Historical residence of the King of Spain, in the town of San Lorenzo de El Escorial, about 45 kilometres (28 miles) north-west of the capital, Madrid, in Spain"
+   },
+   {
+    "title": "File:Facade monastery San Lorenzo de El Escorial Spain.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Facade_monastery_San_Lorenzo_de_El_Escorial_Spain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/3/36/Facade_monastery_San_Lorenzo_de_El_Escorial_Spain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3014,
+    "height": 2183,
+    "licence": "CC0",
+    "artist": "Jebulon",
+    "credit": "",
+    "desc": "Monastery of Saint Lawrence, detail of the main facade, San Lorenzo de El Escorial, Spain."
+   },
+   {
+    "title": "File:Real Monasterio de San Lorenzo de El Escorial, Madrid, Espa\u00f1a, 2025-12-30, DD 49.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Real_Monasterio_de_San_Lorenzo_de_El_Escorial%2C_Madrid%2C_Espa%C3%B1a%2C_2025-12-30%2C_DD_49.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Real_Monasterio_de_San_Lorenzo_de_El_Escorial%2C_Madrid%2C_Espa%C3%B1a%2C_2025-12-30%2C_DD_49.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3729,
+    "height": 4805,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Diego Delso",
+    "credit": "Diego Delso / CC BY-SA 4.0",
+    "desc": "Fresco in the vault of the main staircase of the Monastery of San Lorenzo de El Escorial. The painting belongs to a cycle of frescos entitled The Triumph of the"
+   }
+  ],
+  "nassau": [
+   {
+    "title": "File:Jan Gossaert - Henry III of Nassau-Breda - Google Art Project.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Jan_Gossaert_-_Henry_III_of_Nassau-Breda_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Jan_Gossaert_-_Henry_III_of_Nassau-Breda_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3590,
+    "height": 4549,
+    "licence": "Public domain",
+    "artist": "Jan Gossaert",
+    "credit": "",
+    "desc": ""
+   },
+   {
+    "title": "File:Portret van Hendrik III, graaf van Nassau- Breda, RP-P-OB-106.013.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Portret_van_Hendrik_III%2C_graaf_van_Nassau-_Breda%2C_RP-P-OB-106.013.jpg/3840px-Portret_van_Hendrik_III%2C_graaf_van_Nassau-_Breda%2C_RP-P-OB-106.013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/7/73/Portret_van_Hendrik_III%2C_graaf_van_Nassau-_Breda%2C_RP-P-OB-106.013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 5072,
+    "height": 6212,
+    "licence": "CC0",
+    "artist": "Rijksmuseum",
+    "credit": "",
+    "desc": "IdentificatieTitel(s): Portret van Hendrik III, graaf van Nassau- BredaObjecttype: prent Objectnummer: RP-P-OB-106.013Catalogusreferentie: Van Someren 900 Omsch"
+   },
+   {
+    "title": "File:Portret van Hendrik III, graaf van Nassau- Breda, RP-P-OB-106.063-4.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Portret_van_Hendrik_III%2C_graaf_van_Nassau-_Breda%2C_RP-P-OB-106.063-4.jpg/3840px-Portret_van_Hendrik_III%2C_graaf_van_Nassau-_Breda%2C_RP-P-OB-106.063-4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/7/79/Portret_van_Hendrik_III%2C_graaf_van_Nassau-_Breda%2C_RP-P-OB-106.063-4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4421,
+    "height": 5756,
+    "licence": "CC0",
+    "artist": "Rijksmuseum",
+    "credit": "",
+    "desc": "IdentificatieTitel(s): Portret van Hendrik III, graaf van Nassau- Breda Comites Nassoviae (serietitel)Objecttype: prent Objectnummer: RP-P-OB-106.063-4Catalogus"
+   }
+  ]
+ }
+}

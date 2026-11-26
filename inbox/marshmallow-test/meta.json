@@ -1,0 +1,147 @@
+{
+ "id": "marshmallow-test",
+ "painting": null,
+ "inserts": {
+  "mischel": [
+   {
+    "title": "File:Walter Mischel Stanford Psychologist.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Walter_Mischel_Stanford_Psychologist.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Walter_Mischel_Stanford_Psychologist.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1012,
+    "height": 1012,
+    "licence": "CC BY-SA 4.0",
+    "artist": "RishitaSharma2106",
+    "credit": "RishitaSharma2106 / CC BY-SA 4.0",
+    "desc": "A photo of Walter Mischel. He is a Psychologist at Stanford University."
+   },
+   {
+    "title": "File:Chesterville iron truss bridge.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Chesterville_iron_truss_bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Chesterville_iron_truss_bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3104,
+    "height": 2000,
+    "licence": "CC BY-SA 3.0",
+    "artist": "Daniel Schwen",
+    "credit": "Daniel Schwen / CC BY-SA 3.0",
+    "desc": "Iron truss bridge in Chesterville, Illinois."
+   },
+   {
+    "title": "File:AlimenTERRE 237 - 2026. Le Collectif 237 Paroles rencontre le SAILD, AVSI, le Centre EDIMAR PG au si\u00e8ge de la Voix du Paysan \u00e0 Elig Essono - Yaound\u00e9. 06.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/AlimenTERRE_237_-_2026._Le_Collectif_237_Paroles_rencontre_le_SAILD%2C_AVSI%2C_le_Centre_EDIMAR_PG_au_si%C3%A8ge_de_la_Voix_du_Paysan_%C3%A0_Elig_Essono_-_Yaound%C3%A9._06.jpg/3840px-AlimenTERRE_237_-_2026._Le_Collectif_237_Paroles_rencontre_le_SAILD%2C_AVSI%2C_le_Centre_EDIMAR_PG_au_si%C3%A8ge_de_la_Voix_du_Paysan_%C3%A0_Elig_Essono_-_Yaound%C3%A9._06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/d/db/AlimenTERRE_237_-_2026._Le_Collectif_237_Paroles_rencontre_le_SAILD%2C_AVSI%2C_le_Centre_EDIMAR_PG_au_si%C3%A8ge_de_la_Voix_du_Paysan_%C3%A0_Elig_Essono_-_Yaound%C3%A9._06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4000,
+    "height": 3000,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Tchoumegni",
+    "credit": "Tchoumegni / CC BY-SA 4.0",
+    "desc": "AlimenTERRE 237 - 2026. Les Artistes Hugues Tchoumegni, Sandrine Nzoudja et Free-T Tchenganou (237 Paroles) en r\u00e9union de prise de contact avec SAILD, AVSI et C"
+   }
+  ],
+  "stanford": [
+   {
+    "title": "File:Stanford Oval May 2011 panorama.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Stanford_Oval_May_2011_panorama.jpg/3840px-Stanford_Oval_May_2011_panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Stanford_Oval_May_2011_panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 10800,
+    "height": 2700,
+    "licence": "CC BY-SA 3.0",
+    "artist": "King of Hearts",
+    "credit": "King of Hearts / CC BY-SA 3.0",
+    "desc": "View of Stanford University from the Oval."
+   },
+   {
+    "title": "File:Stanford University Main Quad May 2011 005.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Stanford_University_Main_Quad_May_2011_005.jpg/3840px-Stanford_University_Main_Quad_May_2011_005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/9/98/Stanford_University_Main_Quad_May_2011_005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4080,
+    "height": 2720,
+    "licence": "CC BY-SA 3.0",
+    "artist": "King of Hearts",
+    "credit": "King of Hearts / CC BY-SA 3.0",
+    "desc": "View of Wallenberg Hall on the Stanford University Main Quad."
+   },
+   {
+    "title": "File:Stanford University Main Quad May 2011 001.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Stanford_University_Main_Quad_May_2011_001.jpg/3840px-Stanford_University_Main_Quad_May_2011_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Stanford_University_Main_Quad_May_2011_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4368,
+    "height": 2912,
+    "licence": "CC BY-SA 3.0",
+    "artist": "King of Hearts",
+    "credit": "King of Hearts / CC BY-SA 3.0",
+    "desc": "Hoover Tower and McClatchy Hall, Stanford University, Stanford, California."
+   }
+  ],
+  "marshmallow": [
+   {
+    "title": "File:Sweet potato pie, toasted marshmallow, brown sugar.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Sweet_potato_pie%2C_toasted_marshmallow%2C_brown_sugar.jpg/3840px-Sweet_potato_pie%2C_toasted_marshmallow%2C_brown_sugar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/6/67/Sweet_potato_pie%2C_toasted_marshmallow%2C_brown_sugar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4104,
+    "height": 2736,
+    "licence": "CC BY 2.0",
+    "artist": "City Foodsters",
+    "credit": "City Foodsters / CC BY 2.0",
+    "desc": "Coquette, New Orleans, LA Date Visited: October 31, 2013 City Foodsters Facebook | Twitter | Instagram"
+   },
+   {
+    "title": "File:Silver and gold ribbon cake.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Silver_and_gold_ribbon_cake.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Silver_and_gold_ribbon_cake.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1600,
+    "height": 1600,
+    "licence": "CC BY 4.0",
+    "artist": "WhatamIdoing",
+    "credit": "WhatamIdoing / CC BY 4.0",
+    "desc": "In the late 19th century, a silver and gold cake was a cake that combined a white cake (made from white sugar, white flour, and egg whites) with yellow cake (a "
+   },
+   {
+    "title": "File:Display case in Gideon's Bakehouse.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Display_case_in_Gideon%27s_Bakehouse.jpg/3840px-Display_case_in_Gideon%27s_Bakehouse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Display_case_in_Gideon%27s_Bakehouse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4080,
+    "height": 3072,
+    "licence": "CC BY 2.0",
+    "artist": "Jeremy Thompson",
+    "credit": "Jeremy Thompson / CC BY 2.0",
+    "desc": "Items on display in Gideon's Bakehouse Disney Springs in Lake Buena Vista, FL, USA include sliced cake: (l. to r.) Marshmallow Buttercream Chocolate Chip, True "
+   }
+  ],
+  "kidd": [],
+  "cookies": [
+   {
+    "title": "File:Plate of chocolate chip cookies, ready to munch.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Plate_of_chocolate_chip_cookies%2C_ready_to_munch.jpg/3840px-Plate_of_chocolate_chip_cookies%2C_ready_to_munch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Plate_of_chocolate_chip_cookies%2C_ready_to_munch.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4032,
+    "height": 3024,
+    "licence": "CC BY-SA 4.0",
+    "artist": "The-Wuje",
+    "credit": "The-Wuje / CC BY-SA 4.0",
+    "desc": "A plate of delicious chocolate chip cookies on a white plate on a white table. Ready to enjoy."
+   },
+   {
+    "title": "File:Chocolate chip cookies with reflection on plate, May 2009.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Chocolate_chip_cookies_with_reflection_on_plate%2C_May_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Chocolate_chip_cookies_with_reflection_on_plate%2C_May_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3008,
+    "height": 2000,
+    "licence": "CC BY 2.0",
+    "artist": "kembelwong",
+    "credit": "kembelwong / CC BY 2.0",
+    "desc": "Chocolate chip cookies with reflection on plate."
+   },
+   {
+    "title": "File:Chocolate chip cookies on a white plate and dark background.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Chocolate_chip_cookies_on_a_white_plate_and_dark_background.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Chocolate_chip_cookies_on_a_white_plate_and_dark_background.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3008,
+    "height": 2000,
+    "licence": "CC BY 2.0",
+    "artist": "kembelwong",
+    "credit": "kembelwong / CC BY 2.0",
+    "desc": "Chocolate chip cookies on a white plate and dark background."
+   }
+  ]
+ }
+}
