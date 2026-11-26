@@ -255,6 +255,17 @@
    ],
    "caption": "Possibly Vermeer, in The Procuress",
    "at": "11",
+   "to": "11:leaving-0.1"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "delft",
+    0
+   ],
+   "caption": "Delft, his home town, in his View of Delft",
+   "at": "11:leaving",
    "to": "12-0.3"
   },
   {
