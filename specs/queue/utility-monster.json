@@ -1,0 +1,910 @@
+{
+ "id": "utility-monster",
+ "channel": "philosophy",
+ "style": "clay",
+ "title": "THE UTILITY MONSTER",
+ "angle": "Should whoever enjoys something most always get the most of it?",
+ "answer": "Pure total-happiness utilitarianism says yes, which is Nozick's reductio: a utility monster would rightly get everything; diminishing returns usually rescue sharing, but a true monster never tires, so Parfit gave extra weight to the worse off; and digital minds built to feel more could make the monster real.",
+ "logline": "One creature enjoys cake a thousand times more, so should it get every slice? Utilitarianism adds up happiness and counts each person as one, but Nozick's utility monster gains more from every sacrifice, so the theory feeds it everything, but pleasures usually shrink as you get more, so sharing wins, but a true monster never gets full, so Parfit weighted the worse off, but digital minds may make the monster real, so it becomes a design choice.",
+ "hook_text": "1,000x THE PLEASURE",
+ "hooks": [
+  "By one famous moral rule, this monster should get all the cake.",
+  "Two philosophers warn we may soon build a utility monster."
+ ],
+ "world": {
+  "scenery": "default"
+ },
+ "script": [
+  {
+   "text": "One creature enjoys cake a thousand times more than anyone else.",
+   "beat": "hook"
+  },
+  {
+   "text": "By one famous moral rule, it should get every slice.",
+   "beat": "hook",
+   "link": "so"
+  },
+  {
+   "text": "So should whoever enjoys something most always get the most?",
+   "beat": "question",
+   "link": "so"
+  },
+  {
+   "text": "The rule is utilitarianism: do whatever creates the most total happiness.",
+   "beat": "reveal1",
+   "link": "answer"
+  },
+  {
+   "text": "Its founder, Jeremy Bentham, insisted everybody counts for one, nobody for more.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "But in 1974, Robert Nozick invented a creature to break it: the utility monster.",
+   "say": "But in nineteen seventy-four, Robert Nozick invented a creature to break it: the utility monster.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "It gains more from any sacrifice of ours than we lose.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "So the theory says: feed it everything, even if the rest of us go hungry.",
+   "beat": "reveal2",
+   "link": "so"
+  },
+  {
+   "text": "Everyone still counts for one; the monster just turns each slice into more joy.",
+   "beat": "reveal2",
+   "link": "because"
+  },
+  {
+   "text": "But utilitarians fought back: real pleasures shrink as you get more.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "Your tenth slice is worth less than your first, so sharing usually wins.",
+   "beat": "reveal3",
+   "link": "so"
+  },
+  {
+   "text": "But a true monster never gets full; that's the whole point.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "So Derek Parfit proposed giving extra weight to whoever is worse off.",
+   "beat": "reveal3",
+   "link": "so"
+  },
+  {
+   "text": "But the monster may stop being imaginary.",
+   "beat": "turn",
+   "link": "but"
+  },
+  {
+   "text": "In 2020, two philosophers warned that digital minds could be built to feel far more than we do.",
+   "say": "In twenty twenty, two philosophers warned that digital minds could be built to feel far more than we do.",
+   "beat": "turn",
+   "link": "detail"
+  },
+  {
+   "text": "So the monster is no longer a joke; it could be a design choice.",
+   "beat": "payoff",
+   "link": "so"
+  },
+  {
+   "text": "If we built a mind that enjoys life a million times more than you, should it come first?",
+   "beat": "payoff",
+   "link": "so"
+  }
+ ],
+ "objects": [
+  {
+   "id": "table",
+   "kind": "table",
+   "at": [
+    0,
+    0,
+    0
+   ],
+   "face": 0
+  },
+  {
+   "id": "s0",
+   "kind": "block",
+   "tint": "#7A4A2E",
+   "at": [
+    -0.75,
+    1.05,
+    0.1
+   ],
+   "scale": 0.22
+  },
+  {
+   "id": "s1",
+   "kind": "block",
+   "tint": "#7A4A2E",
+   "at": [
+    -0.25,
+    1.05,
+    0.1
+   ],
+   "scale": 0.22
+  },
+  {
+   "id": "s2",
+   "kind": "block",
+   "tint": "#7A4A2E",
+   "at": [
+    0.25,
+    1.05,
+    0.1
+   ],
+   "scale": 0.22
+  },
+  {
+   "id": "s3",
+   "kind": "block",
+   "tint": "#7A4A2E",
+   "at": [
+    0.75,
+    1.05,
+    0.1
+   ],
+   "scale": 0.22
+  },
+  {
+   "id": "you",
+   "kind": "person",
+   "look": "you",
+   "at": [
+    -1.2,
+    0,
+    1.5
+   ],
+   "face": "table"
+  },
+  {
+   "id": "b",
+   "kind": "person",
+   "look": "b",
+   "at": [
+    1.2,
+    0,
+    1.5
+   ],
+   "face": "table"
+  },
+  {
+   "id": "mon",
+   "kind": "robot",
+   "at": [
+    0,
+    0,
+    -2.4
+   ],
+   "face": "table",
+   "scale": 1.5,
+   "show": false
+  }
+ ],
+ "groups": {
+  "cake": [
+   "s0",
+   "s1",
+   "s2",
+   "s3"
+  ]
+ },
+ "shots": [
+  {
+   "at": 0,
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "mon",
+     "table"
+    ]
+   },
+   "focus": [
+    "mon",
+    "table"
+   ]
+  },
+  {
+   "at": "1",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "table",
+     "mon"
+    ]
+   },
+   "focus": [
+    "table",
+    "cake"
+   ]
+  },
+  {
+   "at": "2",
+   "cam": {
+    "preset": "tight",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "3",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "table",
+     "you",
+     "b"
+    ]
+   }
+  },
+  {
+   "at": "4",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "b"
+    ]
+   },
+   "focus": [
+    "you",
+    "b"
+   ]
+  },
+  {
+   "at": "5",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "mon",
+     "table"
+    ]
+   },
+   "focus": [
+    "mon"
+   ]
+  },
+  {
+   "at": "6",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "mon"
+    ],
+    "dist": 1.4,
+    "azimuth": 50
+   },
+   "focus": [
+    "mon"
+   ]
+  },
+  {
+   "at": "7",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "table",
+     "you",
+     "b",
+     "mon"
+    ]
+   }
+  },
+  {
+   "at": "8",
+   "cam": {
+    "preset": "close",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "9",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "b"
+    ],
+    "side": 1
+   },
+   "focus": [
+    "you",
+    "b"
+   ]
+  },
+  {
+   "at": "10",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "table",
+     "b"
+    ]
+   },
+   "focus": [
+    "table",
+    "cake",
+    "b"
+   ]
+  },
+  {
+   "at": "11",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "mon"
+    ],
+    "dist": 1.4,
+    "azimuth": 50
+   },
+   "focus": [
+    "mon"
+   ]
+  },
+  {
+   "at": "12",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "table"
+    ]
+   },
+   "focus": [
+    "you",
+    "table"
+   ]
+  },
+  {
+   "at": "13",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "table",
+     "you",
+     "b",
+     "mon"
+    ]
+   }
+  },
+  {
+   "at": "14",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "mon"
+    ],
+    "dist": 1.4,
+    "azimuth": 50
+   },
+   "focus": [
+    "mon"
+   ]
+  },
+  {
+   "at": "14:feel",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "mon",
+     "you",
+     "b"
+    ]
+   }
+  },
+  {
+   "at": "15",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "mon"
+    ]
+   },
+   "focus": [
+    "you",
+    "mon"
+   ]
+  },
+  {
+   "at": "16",
+   "cam": {
+    "preset": "tight",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "16:million",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "mon"
+    ],
+    "side": -1
+   },
+   "focus": [
+    "you",
+    "mon"
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "id": "mon",
+   "at": 0,
+   "dur": 0.1,
+   "show": true
+  },
+  {
+   "id": "mon",
+   "at": "0:enjoys",
+   "dur": 0.6,
+   "wobble": true
+  },
+  {
+   "id": "s0",
+   "at": "1:every",
+   "dur": 0.6,
+   "pos": [
+    -0.6,
+    1.05,
+    -0.45
+   ]
+  },
+  {
+   "id": "s1",
+   "at": "1:every",
+   "dur": 0.6,
+   "pos": [
+    -0.19999999999999996,
+    1.05,
+    -0.45
+   ]
+  },
+  {
+   "id": "s2",
+   "at": "1:every",
+   "dur": 0.6,
+   "pos": [
+    0.20000000000000007,
+    1.05,
+    -0.45
+   ]
+  },
+  {
+   "id": "s3",
+   "at": "1:every",
+   "dur": 0.6,
+   "pos": [
+    0.6000000000000002,
+    1.05,
+    -0.45
+   ]
+  },
+  {
+   "id": "you",
+   "at": "2:most",
+   "dur": 0.4,
+   "pose": "think"
+  },
+  {
+   "id": [
+    "s0",
+    "s1",
+    "s2",
+    "s3"
+   ],
+   "at": "3",
+   "dur": 0.1,
+   "show": true
+  },
+  {
+   "id": "s0",
+   "at": "3",
+   "dur": 0.1,
+   "pos": [
+    -0.75,
+    1.05,
+    0.1
+   ]
+  },
+  {
+   "id": "s1",
+   "at": "3",
+   "dur": 0.1,
+   "pos": [
+    -0.25,
+    1.05,
+    0.1
+   ]
+  },
+  {
+   "id": "s2",
+   "at": "3",
+   "dur": 0.1,
+   "pos": [
+    0.25,
+    1.05,
+    0.1
+   ]
+  },
+  {
+   "id": "s3",
+   "at": "3",
+   "dur": 0.1,
+   "pos": [
+    0.75,
+    1.05,
+    0.1
+   ]
+  },
+  {
+   "id": "mon",
+   "at": "3",
+   "dur": 0.3,
+   "show": false
+  },
+  {
+   "id": [
+    "you",
+    "b"
+   ],
+   "at": "4:one",
+   "dur": 0.4,
+   "pose": "wave"
+  },
+  {
+   "id": [
+    "you",
+    "b"
+   ],
+   "at": "5",
+   "dur": 0.4,
+   "pose": "stand"
+  },
+  {
+   "id": "mon",
+   "at": "5:Nozick",
+   "dur": 0.4,
+   "show": true
+  },
+  {
+   "id": "mon",
+   "at": "6:gains",
+   "dur": 0.6,
+   "wobble": true
+  },
+  {
+   "id": "s0",
+   "at": "7:everything",
+   "dur": 0.6,
+   "pos": [
+    -0.6,
+    1.05,
+    -0.45
+   ]
+  },
+  {
+   "id": "s1",
+   "at": "7:everything",
+   "dur": 0.6,
+   "pos": [
+    -0.19999999999999996,
+    1.05,
+    -0.45
+   ]
+  },
+  {
+   "id": "s2",
+   "at": "7:everything",
+   "dur": 0.6,
+   "pos": [
+    0.20000000000000007,
+    1.05,
+    -0.45
+   ]
+  },
+  {
+   "id": "s3",
+   "at": "7:everything",
+   "dur": 0.6,
+   "pos": [
+    0.6000000000000002,
+    1.05,
+    -0.45
+   ]
+  },
+  {
+   "id": [
+    "you",
+    "b"
+   ],
+   "at": "7:hungry",
+   "dur": 0.4,
+   "pose": "sad"
+  },
+  {
+   "id": "you",
+   "at": "8:joy",
+   "dur": 0.4,
+   "pose": "shrug"
+  },
+  {
+   "id": [
+    "you",
+    "b"
+   ],
+   "at": "9",
+   "dur": 0.4,
+   "pose": "stand"
+  },
+  {
+   "id": "s0",
+   "at": "9:back",
+   "dur": 0.5,
+   "pos": [
+    -0.75,
+    1.05,
+    0.1
+   ]
+  },
+  {
+   "id": "s1",
+   "at": "9:back",
+   "dur": 0.5,
+   "pos": [
+    -0.25,
+    1.05,
+    0.1
+   ]
+  },
+  {
+   "id": "s2",
+   "at": "9:back",
+   "dur": 0.5,
+   "pos": [
+    0.25,
+    1.05,
+    0.1
+   ]
+  },
+  {
+   "id": "s3",
+   "at": "9:back",
+   "dur": 0.5,
+   "pos": [
+    0.75,
+    1.05,
+    0.1
+   ]
+  },
+  {
+   "id": "you",
+   "at": "10:sharing",
+   "dur": 0.4,
+   "pose": "cheer"
+  },
+  {
+   "id": "mon",
+   "at": "11:never",
+   "dur": 0.6,
+   "wobble": true
+  },
+  {
+   "id": "you",
+   "at": "12:worse",
+   "dur": 0.4,
+   "pose": "point"
+  },
+  {
+   "id": "mon",
+   "at": "14:digital",
+   "dur": 0.6,
+   "scale": 2.0
+  },
+  {
+   "id": "you",
+   "at": "15",
+   "dur": 0.4,
+   "pose": "shock"
+  },
+  {
+   "id": "you",
+   "at": "16",
+   "dur": 0.4,
+   "pose": "think"
+  }
+ ],
+ "overlays": [
+  {
+   "type": "label",
+   "text": "×1000",
+   "on": "mon",
+   "from": "0:thousand",
+   "to": "1"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "cake",
+    0
+   ],
+   "caption": "One slice",
+   "from": "1",
+   "to": "1:every-0.1",
+   "pos": [
+    540,
+    700
+   ]
+  },
+  {
+   "type": "question",
+   "on": "you",
+   "from": "2:most",
+   "to": "3"
+  },
+  {
+   "type": "label",
+   "text": "MOST TOTAL HAPPINESS",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "3:most",
+   "to": "4"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "bentham",
+    0
+   ],
+   "caption": "Jeremy Bentham (1748-1832)",
+   "from": "4",
+   "to": "5-0.2"
+  },
+  {
+   "type": "label",
+   "text": "YOU",
+   "color": "yellow",
+   "on": "you",
+   "from": "5",
+   "to": "6"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "nozick",
+    2
+   ],
+   "caption": "Robert Nozick, Anarchy, State, and Utopia, 1974",
+   "from": "5:Nozick",
+   "to": "5:utility-0.1"
+  },
+  {
+   "type": "label",
+   "text": "UTILITY MONSTER",
+   "on": "mon",
+   "from": "5:utility",
+   "to": "6"
+  },
+  {
+   "type": "label",
+   "text": "ITS GAIN > OUR LOSS",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "6:gains",
+   "to": "7"
+  },
+  {
+   "type": "icon",
+   "icon": "heart",
+   "on": "mon",
+   "from": "8:joy",
+   "to": "9"
+  },
+  {
+   "type": "label",
+   "text": "1st SLICE > 10th SLICE",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "10:tenth",
+   "to": "11"
+  },
+  {
+   "type": "xmark",
+   "on": "mon",
+   "from": "11:full",
+   "to": "12"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "parfit",
+    0
+   ],
+   "caption": "Derek Parfit, 1942-2017",
+   "from": "12:Parfit",
+   "to": "13-0.2"
+  },
+  {
+   "type": "label",
+   "text": "DIGITAL MINDS",
+   "on": "mon",
+   "from": "14:digital",
+   "to": "15"
+  },
+  {
+   "type": "pill",
+   "text": "Should it come first?",
+   "from": "16:first"
+  }
+ ],
+ "sfx": [
+  {
+   "at": "1:every",
+   "s": "whoosh",
+   "gain": 0.25
+  },
+  {
+   "at": "7:everything",
+   "s": "whoosh",
+   "gain": 0.25
+  },
+  {
+   "at": "9:back",
+   "s": "pluck",
+   "gain": 0.25
+  },
+  {
+   "at": "14:digital",
+   "s": "maximize",
+   "gain": 0.3
+  }
+ ],
+ "music": {
+  "mood": "warm"
+ },
+ "sources": [
+  "https://plato.stanford.edu/entries/consequentialism/",
+  "https://plato.stanford.edu/entries/egalitarianism/",
+  "https://nickbostrom.com/papers/digital-minds.pdf",
+  "https://en.wikipedia.org/wiki/Utility_monster",
+  "https://en.wikipedia.org/wiki/Anarchy,_State,_and_Utopia"
+ ],
+ "post": {
+  "caption": "Robert Nozick invented a creature that enjoys everything a thousand times more than you, and by one famous moral rule it should get all the cake. Two philosophers now warn we might build one.\nShould the happiest mind come first?",
+  "tags": [
+   "#philosophy",
+   "#ethics",
+   "#utilitarianism",
+   "#thoughtexperiment",
+   "#ai"
+  ],
+  "youtube_title": "The Monster That Breaks Utilitarianism"
+ }
+}

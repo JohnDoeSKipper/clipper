@@ -1,6 +1,30 @@
 # Model scripts (newest first)
 The writer reads the top two of its channel before writing and matches or beats them: same spine (beats in order, every sentence linked to the one before), never the same facts or hooks. Each script the writer makes is added at the top in this format. Kept to the last 12.
 
+## utility-monster (philosophy, 2026-11-27)
+
+Angle: Should whoever enjoys something most always get the most of it?
+Logline: One creature enjoys cake a thousand times more, so should it get every slice? Utilitarianism adds up happiness and counts each person as one, but Nozick's utility monster gains more from every sacrifice, so the theory feeds it everything, but pleasures usually shrink as you get more, so sharing wins, but a true monster never gets full, so Parfit weighted the worse off, but digital minds may make the monster real, so it becomes a design choice.
+On-screen hook: 1,000x THE PLEASURE
+
+[hook] One creature enjoys cake a thousand times more than anyone else.
+[hook / so] By one famous moral rule, it should get every slice.
+[question / so] So should whoever enjoys something most always get the most?
+[reveal1 / answer] The rule is utilitarianism: do whatever creates the most total happiness.
+[reveal1 / detail] Its founder, Jeremy Bentham, insisted everybody counts for one, nobody for more.
+[reveal2 / but] But in 1974, Robert Nozick invented a creature to break it: the utility monster.
+[reveal2 / detail] It gains more from any sacrifice of ours than we lose.
+[reveal2 / so] So the theory says: feed it everything, even if the rest of us go hungry.
+[reveal2 / because] Everyone still counts for one; the monster just turns each slice into more joy.
+[reveal3 / but] But utilitarians fought back: real pleasures shrink as you get more.
+[reveal3 / so] Your tenth slice is worth less than your first, so sharing usually wins.
+[reveal3 / but] But a true monster never gets full; that's the whole point.
+[reveal3 / so] So Derek Parfit proposed giving extra weight to whoever is worse off.
+[turn / but] But the monster may stop being imaginary.
+[turn / detail] In 2020, two philosophers warned that digital minds could be built to feel far more than we do.
+[payoff / so] So the monster is no longer a joke; it could be a design choice.
+[payoff / so] If we built a mind that enjoys life a million times more than you, should it come first?
+
 ## raft-medusa (paintings, 2026-11-27)
 
 Angle: Why did a painting of a shipwreck embarrass the French government?
@@ -254,28 +278,3 @@ On-screen hook: LENT ONCE. INTO A FIRE.
 [reveal3 / so] So the sunlit greens and oranges are now olive and rust.
 [turn / but] But scientists have rebuilt the lost yellows on a computer.
 [payoff / so] So the painting built to shimmer has dimmed; only a screen shows the Sunday Paris saw.
-
-## ring-of-gyges (philosophy, 2026-11-27)
-
-Angle: If you could never be caught, would you still be good?
-Logline: A shepherd finds a ring of invisibility, so he kills the king, so would you stay good if never caught? Glaucon says nobody is good by choice, but Gyges was a real king whose rise in Herodotus came from being seen, not unseen, but would anonymity change us today? In 1976 masked children in groups stole far more, but most still took one, so Plato spent eight books arguing injustice enslaves you, therefore the ring only removes your excuse.
-On-screen hook: INVISIBLE. WOULD YOU STAY GOOD?
-
-[hook] A shepherd takes a ring from a corpse inside a bronze horse.
-[hook / so] Turn it, and he vanishes; so he seduces the queen and kills the king.
-[question / so] So if you could never be caught, would you still be good?
-[reveal1 / answer] Plato put this story in his brother Glaucon's mouth, around 375 BC.
-[reveal1 / detail] Glaucon's claim: nobody is good by choice, only from fear of being seen.
-[reveal1 / so] Give one ring to a just man and one to a thief, and they'd act alike.
-[reveal2 / but] But Gyges wasn't made up: he was a real king of Lydia, ruling from Sardis.
-[reveal2 / detail] In Herodotus, his rise has no ring at all.
-[reveal2 / detail] His king hid him in the bedroom to see the queen undress.
-[reveal2 / so] She spotted him, so she gave him a choice: kill the king, or die.
-[reveal3 / but] But does being unseen really change people?
-[reveal3 / answer] In 1976, psychologists secretly watched 1,352 Seattle trick-or-treaters told to take one sweet.
-[reveal3 / detail] Masked children in groups took extra 57 percent of the time.
-[reveal3 / but] Asked their names and alone, fewer than one in ten did.
-[turn / but] But even hidden in a crowd, many children still took just one.
-[turn / so] Plato spent eight more books on why: the unjust man isn't free, he's a slave to his appetites.
-[payoff / answer] So the ring doesn't change who you are; it only removes your excuse.
-[payoff / so] What would you do first, and what does that say about you?

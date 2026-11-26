@@ -20,7 +20,7 @@ Check what the original experiment or argument actually says (and whether later 
 - made | sorites | The Heap Paradox | clay | a heap of balls; remove one at a time; when does it stop being a heap?
 - made | buridans-donkey | Buridan's Donkey | clay | two identical piles; a perfectly rational animal starves
 - inbox | pascals-wager | Pascal's Wager | ps2 | two doors, a scale, coins; the bet and the objection of many gods
-- inbox | utility-monster | The Utility Monster (Nozick) | clay | cake sharing; one creature enjoys it a thousand times more
+- made | utility-monster | The Utility Monster (Nozick) | clay | cake sharing; one creature enjoys it a thousand times more
 - inbox | violinist | The Violinist (Thomson) | ps2 | you wake up connected to a stranger for nine months
 - skipped | swampman | Swampman | ps2 | lightning, a perfect copy walks home; is it you? (skipped 2026-11-27: too close to teleporter)
 - inbox | monty-hall | The Monty Hall Problem | clay | three doors, a prize; why switching wins two times in three
