@@ -1,6 +1,29 @@
 # Model scripts (newest first)
 The writer reads the top two of its channel before writing and matches or beats them: same spine (beats in order, every sentence linked to the one before), never the same facts or hooks. Each script the writer makes is added at the top in this format. Kept to the last 12.
 
+## newcombs-paradox (philosophy, 2026-11-27)
+
+Angle: If a near-perfect predictor has already filled the boxes, should you take one box or both?
+Logline: A near-perfect predictor has filled the boxes, so one or two? A physicist at a weapons lab set the rule: a million only if you'll take one box, but the money is already there, so two boxes always earns more, but one-boxers walk away rich, so when Nozick published it the world split almost in half, but predictors are now real, so the question becomes whether a predictable choice is still yours.
+On-screen hook: $1,000 OR $1,000,000?
+
+[hook] A glass box holds 1,000 dollars; the closed box, maybe a million.
+[hook / detail] A machine that's almost never wrong has already decided what's inside.
+[question / so] So do you take both boxes, or just the closed one?
+[reveal1 / answer] A physicist at a California weapons lab invented this puzzle around 1960.
+[reveal1 / detail] The rule: if the machine predicted you'd take only the closed box, it holds the million.
+[reveal1 / detail] If it predicted you'd take both, the closed box is empty.
+[reveal2 / but] But the money is already in place; nothing you do now can change it.
+[reveal2 / so] So taking both always gets you 1,000 dollars more. Logic says: two boxes.
+[reveal2 / but] But people who take one box almost always walk away millionaires.
+[reveal3 / so] So when Robert Nozick published it in 1969, the world split.
+[reveal3 / detail] Almost everyone, he wrote, finds the answer obvious, and the other half silly.
+[reveal3 / detail] In a 2016 online poll of 31,000 people, 53 percent took one box.
+[reveal3 / but] Among professional philosophers in 2020, two boxes led, 39 to 31.
+[turn / but] But predictors are no longer science fiction: algorithms already forecast what you'll click and buy.
+[payoff / so] So the real question isn't the money; it's whether a choice that can be predicted is still yours.
+[payoff / so] One box, or two?
+
 ## death-of-marat (paintings, 2026-11-27)
 
 Angle: Is The Death of Marat a record of a murder, or propaganda?
@@ -253,25 +276,3 @@ On-screen hook: PLUGGED INTO A STRANGER
 [turn / detail] Unplugging lets someone die, they add; abortion kills.
 [payoff / so] So people split less over who is a person than over what we owe with our bodies.
 [payoff / so] Does a right to life include a right to someone else's body?
-
-## impression-sunrise (paintings, 2026-11-27)
-
-Angle: How did a quick sketch of a harbour at dawn give a whole art movement its name?
-Logline: The sun vanishes in black and white, so how did this sketch name a movement? Monet painted Le Havre at dawn on a date astronomers have pinned down, but in 1874 it needed a title, so he said 'put Impression', so a critic mocked them all as Impressionists, but the strangest part is the sun, because it matches the sky's brightness, so part of your brain barely sees it and it flickers, but in 1985 it was stolen from its museum, so the sun you can barely see named a movement everyone knows.
-On-screen hook: THE SUN VANISHES IN GREY
-
-[hook] In black and white, the sun in this painting disappears.
-[hook / because] It's exactly as bright as the sky around it.
-[question / so] So how did this hasty sketch of a harbour name an entire art movement?
-[reveal1 / answer] Monet painted the port of Le Havre at dawn, from a hotel window.
-[reveal1 / detail] In 2014, astronomers dated it: 13 November 1872, about 7:35 a.m.
-[reveal2 / but] But in 1874, it needed a title for a show in a photographer's old studio.
-[reveal2 / so] It could hardly pass for a view of Le Havre, Monet said, so: put Impression.
-[reveal2 / so] A critic, Louis Leroy, pounced on the word.
-[reveal2 / detail] Wallpaper in its embryonic state, he sneered, is more finished than this.
-[reveal3 / so] So he mocked them all as Impressionists, and the painters adopted the insult.
-[reveal3 / but] But the real trick is the sun.
-[reveal3 / detail] Its orange matches the grey sky's brightness almost exactly.
-[reveal3 / so] So the part of your brain that tracks brightness barely sees it, and it seems to flicker.
-[turn / but] But in 1985, armed robbers took it from a Paris museum in daylight.
-[payoff / so] So a sun you can barely see named a movement everyone knows.

@@ -1,0 +1,638 @@
+{
+ "id": "newcombs-paradox",
+ "channel": "philosophy",
+ "style": "ps2",
+ "title": "NEWCOMB'S PARADOX",
+ "angle": "If a near-perfect predictor has already filled the boxes, should you take one box or both?",
+ "answer": "Two principles collide: the money is already placed, so taking both always adds $1,000, yet one-boxers almost always end up millionaires; people split almost evenly (53% one-box in a 31,000-person poll, 39% two-box vs 31% one-box among philosophers), and the real question is whether a choice that can be predicted is still yours.",
+ "logline": "A near-perfect predictor has filled the boxes, so one or two? A physicist at a weapons lab set the rule: a million only if you'll take one box, but the money is already there, so two boxes always earns more, but one-boxers walk away rich, so when Nozick published it the world split almost in half, but predictors are now real, so the question becomes whether a predictable choice is still yours.",
+ "hook_text": "$1,000 OR $1,000,000?",
+ "hooks": [
+  "Philosophers split almost in half over two boxes of money.",
+  "A machine already knows which box you'll take."
+ ],
+ "world": {
+  "scenery": "room"
+ },
+ "script": [
+  {
+   "text": "A glass box holds 1,000 dollars; the closed box, maybe a million.",
+   "say": "A glass box holds a thousand dollars; the closed box, maybe a million.",
+   "beat": "hook"
+  },
+  {
+   "text": "A machine that's almost never wrong has already decided what's inside.",
+   "beat": "hook",
+   "link": "detail"
+  },
+  {
+   "text": "So do you take both boxes, or just the closed one?",
+   "beat": "question",
+   "link": "so"
+  },
+  {
+   "text": "A physicist at a California weapons lab invented this puzzle around 1960.",
+   "say": "A physicist at a California weapons lab invented this puzzle around nineteen sixty.",
+   "beat": "reveal1",
+   "link": "answer"
+  },
+  {
+   "text": "The rule: if the machine predicted you'd take only the closed box, it holds the million.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "If it predicted you'd take both, the closed box is empty.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "But the money is already in place; nothing you do now can change it.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "So taking both always gets you 1,000 dollars more. Logic says: two boxes.",
+   "say": "So taking both always gets you a thousand dollars more. Logic says: two boxes.",
+   "beat": "reveal2",
+   "link": "so"
+  },
+  {
+   "text": "But people who take one box almost always walk away millionaires.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "So when Robert Nozick published it in 1969, the world split.",
+   "say": "So when Robert Nozick published it in nineteen sixty-nine, the world split.",
+   "beat": "reveal3",
+   "link": "so"
+  },
+  {
+   "text": "Almost everyone, he wrote, finds the answer obvious, and the other half silly.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "In a 2016 online poll of 31,000 people, 53 percent took one box.",
+   "say": "In a twenty sixteen online poll of thirty-one thousand people, fifty-three percent took one box.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "Among professional philosophers in 2020, two boxes led, 39 to 31.",
+   "say": "Among professional philosophers in twenty twenty, two boxes led, thirty-nine to thirty-one.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "But predictors are no longer science fiction: algorithms already forecast what you'll click and buy.",
+   "beat": "turn",
+   "link": "but"
+  },
+  {
+   "text": "So the real question isn't the money; it's whether a choice that can be predicted is still yours.",
+   "beat": "payoff",
+   "link": "so"
+  },
+  {
+   "text": "One box, or two?",
+   "beat": "payoff",
+   "link": "so"
+  }
+ ],
+ "objects": [
+  {
+   "id": "glass",
+   "kind": "glassbox",
+   "at": [
+    -1.3,
+    0,
+    0
+   ],
+   "face": 0
+  },
+  {
+   "id": "cash",
+   "kind": "cash",
+   "at": [
+    -1.3,
+    1.1,
+    0
+   ],
+   "face": 0,
+   "scale": 0.7
+  },
+  {
+   "id": "closed",
+   "kind": "box",
+   "at": [
+    1.3,
+    0,
+    0
+   ],
+   "face": 0
+  },
+  {
+   "id": "you",
+   "kind": "person",
+   "look": "you",
+   "at": [
+    0,
+    0,
+    2.6
+   ],
+   "face": 0
+  },
+  {
+   "id": "bot",
+   "kind": "robot",
+   "at": [
+    0,
+    0,
+    -2.4
+   ],
+   "face": 0
+  }
+ ],
+ "shots": [
+  {
+   "at": 0,
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "glass",
+     "closed"
+    ]
+   },
+   "focus": [
+    "glass",
+    "closed"
+   ]
+  },
+  {
+   "at": "1",
+   "cam": {
+    "preset": "close",
+    "on": "bot"
+   },
+   "focus": [
+    "bot"
+   ]
+  },
+  {
+   "at": "2",
+   "cam": {
+    "preset": "tight",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "3",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "glass",
+     "closed",
+     "you",
+     "bot"
+    ]
+   }
+  },
+  {
+   "at": "4",
+   "cam": {
+    "preset": "close",
+    "on": "closed"
+   },
+   "focus": [
+    "closed"
+   ]
+  },
+  {
+   "at": "5",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "closed",
+     "bot"
+    ]
+   },
+   "focus": [
+    "closed",
+    "bot"
+   ]
+  },
+  {
+   "at": "6",
+   "cam": {
+    "preset": "close",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "7",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "glass",
+     "you"
+    ]
+   },
+   "focus": [
+    "glass",
+    "you"
+   ]
+  },
+  {
+   "at": "8",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "closed",
+     "you"
+    ],
+    "side": 1
+   },
+   "focus": [
+    "closed",
+    "you"
+   ]
+  },
+  {
+   "at": "9",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "glass",
+     "closed",
+     "you",
+     "bot"
+    ]
+   }
+  },
+  {
+   "at": "10",
+   "cam": {
+    "preset": "close",
+    "on": "you",
+    "side": 1
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "11",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "glass",
+     "closed"
+    ]
+   },
+   "focus": [
+    "glass",
+    "closed"
+   ]
+  },
+  {
+   "at": "12",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "bot"
+    ]
+   },
+   "focus": [
+    "you",
+    "bot"
+   ]
+  },
+  {
+   "at": "13",
+   "cam": {
+    "preset": "close",
+    "on": "bot",
+    "side": 1
+   },
+   "focus": [
+    "bot"
+   ]
+  },
+  {
+   "at": "13:click",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "bot",
+     "you"
+    ]
+   },
+   "focus": [
+    "bot",
+    "you"
+   ]
+  },
+  {
+   "at": "14",
+   "cam": {
+    "preset": "close",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "14:predicted",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "closed"
+    ]
+   },
+   "focus": [
+    "you",
+    "closed"
+   ]
+  },
+  {
+   "at": "15",
+   "cam": {
+    "preset": "tight",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "id": "bot",
+   "at": "1:machine",
+   "dur": 0.5,
+   "wobble": true
+  },
+  {
+   "id": "you",
+   "at": "2:both",
+   "dur": 0.4,
+   "pose": "think"
+  },
+  {
+   "id": "you",
+   "at": "3",
+   "dur": 0.4,
+   "pose": "stand"
+  },
+  {
+   "id": "bot",
+   "at": "4:predicted",
+   "dur": 0.4,
+   "pose": "point"
+  },
+  {
+   "id": "closed",
+   "at": "5:empty",
+   "dur": 0.6,
+   "part": "lid",
+   "rot": [
+    -100,
+    0,
+    0
+   ]
+  },
+  {
+   "id": "closed",
+   "at": "6",
+   "dur": 0.4,
+   "part": "lid",
+   "rot": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "id": "you",
+   "at": "6:change",
+   "dur": 0.4,
+   "pose": "shrug"
+  },
+  {
+   "id": "you",
+   "at": "7:Logic",
+   "dur": 0.4,
+   "pose": "point"
+  },
+  {
+   "id": "you",
+   "at": "8:millionaires",
+   "dur": 0.4,
+   "pose": "cheer"
+  },
+  {
+   "id": "you",
+   "at": "9",
+   "dur": 0.4,
+   "pose": "stand"
+  },
+  {
+   "id": "bot",
+   "at": "13:algorithms",
+   "dur": 0.5,
+   "wobble": true
+  },
+  {
+   "id": "you",
+   "at": "15",
+   "dur": 0.4,
+   "pose": "think"
+  }
+ ],
+ "overlays": [
+  {
+   "type": "label",
+   "text": "$1,000",
+   "on": "glass",
+   "from": "0:1,000",
+   "to": "1"
+  },
+  {
+   "type": "label",
+   "text": "$1,000,000 ?",
+   "on": "closed",
+   "from": "0:million",
+   "to": "1"
+  },
+  {
+   "type": "label",
+   "text": "PREDICTOR",
+   "on": "bot",
+   "from": "1:machine",
+   "to": "2"
+  },
+  {
+   "type": "question",
+   "on": "you",
+   "from": "2:both",
+   "to": "3"
+  },
+  {
+   "type": "label",
+   "text": "YOU",
+   "color": "yellow",
+   "on": "you",
+   "from": "3",
+   "to": "3:lab"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "livermore",
+    0
+   ],
+   "caption": "Lawrence Livermore National Laboratory, California",
+   "from": "3:lab",
+   "to": "4-0.2"
+  },
+  {
+   "type": "label",
+   "text": "ONE BOX → $1,000,000",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "4:million",
+   "to": "5"
+  },
+  {
+   "type": "label",
+   "text": "BOTH → EMPTY",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "5:empty",
+   "to": "6"
+  },
+  {
+   "type": "icon",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "6:already",
+   "to": "7",
+   "icon": "lock"
+  },
+  {
+   "type": "label",
+   "text": "BOTH = +$1,000",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "7:more",
+   "to": "8"
+  },
+  {
+   "type": "label",
+   "text": "ONE-BOXERS GET RICH",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "8:millionaires",
+   "to": "9"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "nozick",
+    2
+   ],
+   "caption": "Robert Nozick, who published the puzzle in 1969",
+   "from": "9:Nozick",
+   "to": "10-0.2"
+  },
+  {
+   "type": "number",
+   "text": "53% ONE BOX",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "11:53",
+   "to": "12"
+  },
+  {
+   "type": "number",
+   "text": "39 vs 31",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "12:39",
+   "to": "13"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "livermore",
+    1
+   ],
+   "caption": "A modern computing centre",
+   "from": "13:algorithms",
+   "to": "13:click-0.1"
+  },
+  {
+   "type": "pill",
+   "text": "One box, or two?",
+   "from": "15"
+  }
+ ],
+ "sfx": [
+  {
+   "at": "5:empty",
+   "s": "clank",
+   "gain": 0.3
+  },
+  {
+   "at": "1:machine",
+   "s": "bong",
+   "gain": 0.25
+  }
+ ],
+ "music": {
+  "mood": "tense"
+ },
+ "sources": [
+  "https://plato.stanford.edu/entries/decision-causal/",
+  "https://www.theguardian.com/science/alexs-adventures-in-numberland/2016/nov/30/newcombs-problem-which-side-won-the-guardians-philosophy-poll",
+  "https://survey2020.philpeople.org/survey/results/4886",
+  "https://faculty.arts.ubc.ca/rjohns/nozick_newcomb.pdf",
+  "https://en.wikipedia.org/wiki/Newcomb%27s_paradox"
+ ],
+ "post": {
+  "caption": "A near-perfect predictor has already decided whether the closed box holds a million. Taking both always gets you $1,000 more, yet one-boxers walk away rich. Even philosophers split.\nOne box, or two?",
+  "tags": [
+   "#philosophy",
+   "#paradox",
+   "#decisiontheory",
+   "#freewill",
+   "#thoughtexperiment"
+  ],
+  "youtube_title": "One Box or Two? The Puzzle That Splits Everyone"
+ }
+}
