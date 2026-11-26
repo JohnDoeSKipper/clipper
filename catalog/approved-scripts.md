@@ -1,6 +1,31 @@
 # Model scripts (newest first)
 The writer reads the top two of its channel before writing and matches or beats them: same spine (beats in order, every sentence linked to the one before), never the same facts or hooks. Each script the writer makes is added at the top in this format. Kept to the last 12.
 
+## sunk-cost (philosophy, 2026-11-27)
+
+Angle: Why do we keep going with things we've paid for, even when they make us miserable?
+Logline: Most people chose the ski trip they would enjoy less because it cost more, so why? Ohio psychologists found over half picked the $100 trip over the better $50 one, but that was hypothetical, so they discounted real theatre tickets and full-price buyers went to more plays, but it isn't just human: in 2018 mice, rats and people all kept waiting longer the more they'd waited, but biologists named it after Concorde, so the cure is simple: only the future counts.
+On-screen hook: THE TRIP THEY'D ENJOY LESS
+
+[hook] In a 1985 study, most people chose the holiday they'd enjoy less.
+[hook / because] It had cost them more.
+[question / so] So why do we keep paying for things that make us miserable?
+[reveal1 / answer] Psychologists at Ohio University posed a puzzle: you've booked two ski trips for the same weekend.
+[reveal1 / detail] Michigan cost 100 dollars; Wisconsin cost 50, and sounds more fun.
+[reveal1 / so] Over half chose Michigan, so as not to waste the bigger sum.
+[reveal2 / but] But that was only imaginary money.
+[reveal2 / so] So they sold real theatre season tickets, giving random buyers a discount.
+[reveal2 / detail] Full-price buyers went to more plays, at least for the first half of the season.
+[reveal2 / so] Economists call it the sunk cost fallacy: money already gone shouldn't change what you do next.
+[reveal3 / but] But it isn't just a human quirk.
+[reveal3 / detail] In 2018, scientists gave mice, rats and people the same kind of waiting game.
+[reveal3 / detail] All three were likelier to keep waiting, the longer they had already waited.
+[reveal3 / so] So the pull of a sunk cost may be older than money itself.
+[turn / but] But biologists named this mistake after a jet.
+[turn / detail] Britain and France kept funding Concorde long after it couldn't pay off; only fourteen ever flew passengers.
+[payoff / so] So the cure is simple to say, and hard to do: only the future counts.
+[payoff / so] What are you still doing just because you've already paid for it?
+
 ## school-of-athens (paintings, 2026-11-27)
 
 Angle: Why did Raphael squeeze an extra philosopher into The School of Athens at the last minute?
@@ -257,25 +282,3 @@ On-screen hook: 38 WITNESSES. OR WERE THERE?
 [turn / detail] In 2019, researchers studied CCTV of 219 fights in Amsterdam, Lancaster and Cape Town; in nine of ten, someone stepped in.
 [payoff / so] So crowds don't stop help; they make each of us wait for someone else.
 [payoff / so] Next time you're one of many, will you be the one who moves first?
-
-## wanderer-fog (paintings, 2026-11-27)
-
-Angle: Where is the Wanderer standing, and why won't Friedrich show us his face?
-Logline: The most famous summit view doesn't exist, so where is he standing? The peaks come from Bohemia and Saxony, so nobody could see this, but that was the point, so Friedrich turned the man's back to put us in his place, but his green coat is patriots' old German dress, soon treated as a mark of radicals, but Friedrich died poor and forgotten and Hamburg bought the painting only in 1970, so the faceless man from nowhere became everyone.
-On-screen hook: PIECED TOGETHER FROM TWO COUNTRIES
-
-[hook] The world's most famous mountaintop view doesn't exist.
-[hook / because] Friedrich assembled it from sketches made in Saxony and Bohemia.
-[question / so] So where is this man standing, and why won't we see his face?
-[reveal1 / answer] The cone on the left is the Rosenberg, in Bohemia.
-[reveal1 / detail] The block on the right is the Zirkelstein, across the border in Saxony.
-[reveal1 / so] So nobody could ever stand on this rock and see this view.
-[reveal2 / but] But that was the point: a painter, he wrote, must paint what he sees within.
-[reveal2 / so] So he turned the man's back to us, and we look through his eyes.
-[reveal2 / detail] He did it again and again: back figures, or Rückenfiguren.
-[reveal3 / but] But this back figure isn't neutral: look at his coat.
-[reveal3 / detail] It looks like old German dress, worn by patriots after Napoleon's defeat.
-[reveal3 / so] By 1819, the authorities were hunting such patriots as radicals.
-[turn / but] But when Friedrich died in 1840, poor, he was almost forgotten.
-[turn / detail] Hamburg's Kunsthalle bought this painting only in 1970.
-[payoff / so] So the faceless man from nowhere became everyone: a mind facing the unknown.

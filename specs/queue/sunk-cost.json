@@ -1,0 +1,737 @@
+{
+ "id": "sunk-cost",
+ "channel": "philosophy",
+ "style": "clay",
+ "title": "THE SUNK COST FALLACY",
+ "angle": "Why do we keep going with things we've paid for, even when they make us miserable?",
+ "answer": "Because wasting what we've already spent feels like a loss: people pick the dearer, worse trip and full-price ticket holders attend more plays; the same pull shows up in mice and rats, so it is older than money; the rational rule is that only future costs and benefits count.",
+ "logline": "Most people chose the ski trip they would enjoy less because it cost more, so why? Ohio psychologists found over half picked the $100 trip over the better $50 one, but that was hypothetical, so they discounted real theatre tickets and full-price buyers went to more plays, but it isn't just human: in 2018 mice, rats and people all kept waiting longer the more they'd waited, but biologists named it after Concorde, so the cure is simple: only the future counts.",
+ "hook_text": "THE TRIP THEY'D ENJOY LESS",
+ "hooks": [
+  "Mice, rats and people all fall for the same money mistake.",
+  "Full-price theatre ticket buyers went to more plays. Here's why that's irrational."
+ ],
+ "world": {
+  "scenery": "default"
+ },
+ "script": [
+  {
+   "text": "In a 1985 study, most people chose the holiday they'd enjoy less.",
+   "say": "In a nineteen eighty-five study, most people chose the holiday they'd enjoy less.",
+   "beat": "hook"
+  },
+  {
+   "text": "It had cost them more.",
+   "beat": "hook",
+   "link": "because"
+  },
+  {
+   "text": "So why do we keep paying for things that make us miserable?",
+   "beat": "question",
+   "link": "so"
+  },
+  {
+   "text": "Psychologists at Ohio University posed a puzzle: you've booked two ski trips for the same weekend.",
+   "beat": "reveal1",
+   "link": "answer"
+  },
+  {
+   "text": "Michigan cost 100 dollars; Wisconsin cost 50, and sounds more fun.",
+   "say": "Michigan cost a hundred dollars; Wisconsin cost fifty, and sounds more fun.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "Over half chose Michigan, so as not to waste the bigger sum.",
+   "beat": "reveal1",
+   "link": "so"
+  },
+  {
+   "text": "But that was only imaginary money.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "So they sold real theatre season tickets, giving random buyers a discount.",
+   "beat": "reveal2",
+   "link": "so"
+  },
+  {
+   "text": "Full-price buyers went to more plays, at least for the first half of the season.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "Economists call it the sunk cost fallacy: money already gone shouldn't change what you do next.",
+   "beat": "reveal2",
+   "link": "so"
+  },
+  {
+   "text": "But it isn't just a human quirk.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "In 2018, scientists gave mice, rats and people the same kind of waiting game.",
+   "say": "In twenty eighteen, scientists gave mice, rats and people the same kind of waiting game.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "All three were likelier to keep waiting, the longer they had already waited.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "So the pull of a sunk cost may be older than money itself.",
+   "beat": "reveal3",
+   "link": "so"
+  },
+  {
+   "text": "But biologists named this mistake after a jet.",
+   "beat": "turn",
+   "link": "but"
+  },
+  {
+   "text": "Britain and France kept funding Concorde long after it couldn't pay off; only fourteen ever flew passengers.",
+   "beat": "turn",
+   "link": "detail"
+  },
+  {
+   "text": "So the cure is simple to say, and hard to do: only the future counts.",
+   "beat": "payoff",
+   "link": "so"
+  },
+  {
+   "text": "What are you still doing just because you've already paid for it?",
+   "beat": "payoff",
+   "link": "so"
+  }
+ ],
+ "objects": [
+  {
+   "id": "you",
+   "kind": "person",
+   "look": "you",
+   "at": [
+    0,
+    0,
+    1.4
+   ],
+   "face": 0
+  },
+  {
+   "id": "signA",
+   "kind": "sign",
+   "at": [
+    -2.4,
+    0,
+    -0.6
+   ],
+   "face": 20
+  },
+  {
+   "id": "signB",
+   "kind": "sign",
+   "at": [
+    2.4,
+    0,
+    -0.6
+   ],
+   "face": -20
+  },
+  {
+   "id": "cash",
+   "kind": "cash",
+   "at": [
+    -1.1,
+    0,
+    0.4
+   ],
+   "face": 0,
+   "show": false
+  },
+  {
+   "id": "mouse",
+   "kind": "cat",
+   "tint": "#B8B0A8",
+   "at": [
+    3.6,
+    0,
+    1.6
+   ],
+   "face": -60,
+   "scale": 0.5,
+   "show": false
+  },
+  {
+   "id": "screen",
+   "kind": "screen",
+   "at": [
+    -3.6,
+    0,
+    1.2
+   ],
+   "face": 40,
+   "show": false
+  }
+ ],
+ "shots": [
+  {
+   "at": 0,
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "signA",
+     "signB"
+    ]
+   },
+   "focus": [
+    "you",
+    "signA",
+    "signB"
+   ]
+  },
+  {
+   "at": "1",
+   "cam": {
+    "preset": "close",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "2",
+   "cam": {
+    "preset": "tight",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "3",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "you",
+     "signA",
+     "signB"
+    ]
+   }
+  },
+  {
+   "at": "4",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "signA",
+     "you"
+    ]
+   },
+   "focus": [
+    "signA",
+    "you"
+   ]
+  },
+  {
+   "at": "4:Wisconsin",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "signB",
+     "you"
+    ]
+   },
+   "focus": [
+    "signB",
+    "you"
+   ]
+  },
+  {
+   "at": "5",
+   "cam": {
+    "preset": "close",
+    "on": "you",
+    "side": -1
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "6",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "you",
+     "signA",
+     "signB"
+    ]
+   }
+  },
+  {
+   "at": "7",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "screen"
+    ]
+   },
+   "focus": [
+    "you",
+    "screen"
+   ]
+  },
+  {
+   "at": "8",
+   "cam": {
+    "preset": "close",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "9",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "cash"
+    ]
+   },
+   "focus": [
+    "you",
+    "cash"
+   ]
+  },
+  {
+   "at": "10",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "you",
+     "mouse",
+     "signB"
+    ]
+   }
+  },
+  {
+   "at": "11",
+   "cam": {
+    "preset": "close",
+    "on": "mouse"
+   },
+   "focus": [
+    "mouse"
+   ]
+  },
+  {
+   "at": "12",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "mouse"
+    ]
+   },
+   "focus": [
+    "you",
+    "mouse"
+   ]
+  },
+  {
+   "at": "13",
+   "cam": {
+    "preset": "tight",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "14",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "you",
+     "signA",
+     "signB"
+    ]
+   }
+  },
+  {
+   "at": "15",
+   "cam": {
+    "preset": "close",
+    "on": "you",
+    "side": 1
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "15:only",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "signB"
+    ]
+   },
+   "focus": [
+    "you",
+    "signB"
+   ]
+  },
+  {
+   "at": "16",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "cash"
+    ]
+   },
+   "focus": [
+    "you",
+    "cash"
+   ]
+  },
+  {
+   "at": "17",
+   "cam": {
+    "preset": "tight",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "17:already",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "signA"
+    ]
+   },
+   "focus": [
+    "you",
+    "signA"
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "id": "you",
+   "at": "0:chose",
+   "dur": 0.4,
+   "pose": "point"
+  },
+  {
+   "id": "you",
+   "at": "1",
+   "dur": 0.4,
+   "pose": "shrug"
+  },
+  {
+   "id": "you",
+   "at": "2:miserable",
+   "dur": 0.4,
+   "pose": "sad"
+  },
+  {
+   "id": "you",
+   "at": "3",
+   "dur": 0.4,
+   "pose": "think"
+  },
+  {
+   "id": "you",
+   "at": "5:Michigan",
+   "until": "5:Michigan+1.2",
+   "pos": [
+    -1.3,
+    0,
+    0.9
+   ],
+   "walk": true
+  },
+  {
+   "id": "you",
+   "at": "6",
+   "dur": 0.1,
+   "pos": [
+    0,
+    0,
+    1.4
+   ]
+  },
+  {
+   "id": "you",
+   "at": "6",
+   "dur": 0.3,
+   "pose": "stand"
+  },
+  {
+   "id": "screen",
+   "at": "7",
+   "dur": 0.4,
+   "show": true
+  },
+  {
+   "id": "you",
+   "at": "8:Full-price",
+   "dur": 0.4,
+   "pose": "cheer"
+  },
+  {
+   "id": "cash",
+   "at": "9:money",
+   "dur": 0.4,
+   "show": true
+  },
+  {
+   "id": "cash",
+   "at": "9:gone",
+   "dur": 0.4,
+   "show": false
+  },
+  {
+   "id": "you",
+   "at": "9",
+   "dur": 0.4,
+   "pose": "stand"
+  },
+  {
+   "id": "mouse",
+   "at": "10:human",
+   "dur": 0.4,
+   "show": true
+  },
+  {
+   "id": "mouse",
+   "at": "12:waiting",
+   "dur": 0.5,
+   "wobble": true
+  },
+  {
+   "id": "you",
+   "at": "12:waiting",
+   "dur": 0.4,
+   "pose": "think"
+  },
+  {
+   "id": "you",
+   "at": "14",
+   "dur": 0.4,
+   "pose": "stand"
+  },
+  {
+   "id": "you",
+   "at": "16:future",
+   "dur": 0.4,
+   "pose": "point"
+  },
+  {
+   "id": "you",
+   "at": "17",
+   "dur": 0.4,
+   "pose": "think"
+  }
+ ],
+ "overlays": [
+  {
+   "type": "label",
+   "text": "$100: LESS FUN",
+   "on": "signA",
+   "from": "0:less",
+   "to": "1"
+  },
+  {
+   "type": "question",
+   "on": "you",
+   "from": "2:why",
+   "to": "3"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "ohio",
+    0
+   ],
+   "caption": "Ohio University, Athens, Ohio",
+   "from": "3",
+   "to": "3:puzzle-0.1"
+  },
+  {
+   "type": "label",
+   "text": "YOU",
+   "color": "yellow",
+   "on": "you",
+   "from": "3:puzzle",
+   "to": "4"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "ski",
+    1
+   ],
+   "caption": "A ski resort chairlift",
+   "from": "3:ski",
+   "to": "4-0.2",
+   "pos": [
+    540,
+    700
+   ]
+  },
+  {
+   "type": "label",
+   "text": "MICHIGAN $100",
+   "on": "signA",
+   "from": "4:Michigan",
+   "to": "6"
+  },
+  {
+   "type": "label",
+   "text": "WISCONSIN $50 · MORE FUN",
+   "on": "signB",
+   "from": "4:Wisconsin",
+   "to": "6"
+  },
+  {
+   "type": "number",
+   "text": "54%",
+   "on": "you",
+   "from": "5:half",
+   "to": "6"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "tickets",
+    1
+   ],
+   "caption": "A theatre ticket",
+   "from": "7:tickets",
+   "to": "8-0.2"
+  },
+  {
+   "type": "label",
+   "text": "PAID MORE → WENT MORE",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "8:more",
+   "to": "9"
+  },
+  {
+   "type": "label",
+   "text": "SUNK COST",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "9:sunk",
+   "to": "10"
+  },
+  {
+   "type": "label",
+   "text": "MICE · RATS · PEOPLE",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "11:mice",
+   "to": "12"
+  },
+  {
+   "type": "icon",
+   "icon": "clock",
+   "on": "mouse",
+   "from": "12:waiting",
+   "to": "13"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "concorde",
+    0
+   ],
+   "caption": "Concorde, British Airways",
+   "from": "14:jet",
+   "to": "15:fourteen-0.1"
+  },
+  {
+   "type": "number",
+   "text": "14",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "15:fourteen",
+   "to": "16"
+  },
+  {
+   "type": "label",
+   "text": "ONLY THE FUTURE COUNTS",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "16:future",
+   "to": "17"
+  },
+  {
+   "type": "pill",
+   "text": "What are you still paying for?",
+   "from": "17:paid"
+  }
+ ],
+ "sfx": [
+  {
+   "at": "9:gone",
+   "s": "whoosh",
+   "gain": 0.25
+  },
+  {
+   "at": "10:human",
+   "s": "pluck",
+   "gain": 0.25
+  }
+ ],
+ "music": {
+  "mood": "warm"
+ },
+ "sources": [
+  "https://www.sciencedirect.com/science/article/pii/0749597885900494",
+  "https://www.science.org/doi/10.1126/science.aar8644",
+  "https://www.nature.com/articles/262131a0",
+  "https://en.wikipedia.org/wiki/Sunk_cost",
+  "https://en.wikipedia.org/wiki/Concorde"
+ ],
+ "post": {
+  "caption": "In a 1985 study, most people picked the ski trip they'd enjoy less, because it cost more. In 2018, mice and rats turned out to fall for the same mistake.\nWhat are you still doing only because you've already paid?",
+  "tags": [
+   "#psychology",
+   "#sunkcost",
+   "#behavioraleconomics",
+   "#decisionmaking",
+   "#philosophy"
+  ],
+  "youtube_title": "Why We Choose the Holiday We'll Enjoy Less"
+ }
+}
