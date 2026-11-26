@@ -1,0 +1,765 @@
+{
+ "id": "pascals-wager",
+ "channel": "philosophy",
+ "style": "ps2",
+ "title": "PASCAL'S WAGER",
+ "angle": "Is believing in God simply the smartest bet?",
+ "answer": "Pascal, fresh from inventing the maths of chance, argued that any chance of infinite reward outweighs a finite cost, but the bet fails once there are many possible gods, his cure for doubt was habit, and the same logic now lets tiny odds of huge stakes justify almost anything: infinite payoffs break the arithmetic.",
+ "logline": "A note sewn into Pascal's coat recorded a night of fire, so why did a mathematician call belief a bet? He had just helped invent probability for a gambler, so he weighed infinite reward against finite cost, so any chance wins, but Diderot saw that an imam could make the same bet, so choosing the wrong god risks infinite loss, but Pascal said act as if and belief follows, but the wager broke loose from God as Pascal's mugging, so infinite stakes break the maths.",
+ "hook_text": "SEWN INTO HIS COAT",
+ "hooks": [
+  "A tiny chance of infinity beats any finite price. Or does it?",
+  "Pascal invented probability for a gambler, then used it on God."
+ ],
+ "world": {
+  "scenery": "room"
+ },
+ "script": [
+  {
+   "text": "When Pascal died, his servant found a note sewn inside his coat.",
+   "say": "When Pass-kal died, his servant found a note sewn inside his coat.",
+   "beat": "hook"
+  },
+  {
+   "text": "It recorded one night in 1654, and began with a single word: Fire.",
+   "say": "It recorded one night in sixteen fifty-four, and began with a single word: Fire.",
+   "beat": "hook",
+   "link": "detail"
+  },
+  {
+   "text": "So why did the same man call believing in God simply a smart bet?",
+   "beat": "question",
+   "link": "so"
+  },
+  {
+   "text": "That year, Pascal had helped invent the maths of chance, to settle a gambler's question.",
+   "beat": "reveal1",
+   "link": "answer"
+  },
+  {
+   "text": "So he aimed it at the biggest question of all.",
+   "beat": "reveal1",
+   "link": "so"
+  },
+  {
+   "text": "If God exists and you believe, you win an infinity of happy life.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "If not, you've lost a few pleasures: a finite stake.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "So any chance of infinity, however small, outweighs any finite cost.",
+   "beat": "reveal2",
+   "link": "so"
+  },
+  {
+   "text": "Historians call it the first piece of decision theory.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "But in 1746, Denis Diderot spotted the hole: an imam could make the same bet.",
+   "say": "But in seventeen forty-six, Denis Dee-de-ro spotted the hole: an imam could make the same bet.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "With many possible gods, which door do you bet on?",
+   "beat": "reveal3",
+   "link": "so"
+  },
+  {
+   "text": "Pick wrong, and the infinite loss is yours.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "Pascal had one more answer for doubters: act as if you believe, take holy water, and belief will follow.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "But the wager broke loose from God.",
+   "beat": "turn",
+   "link": "but"
+  },
+  {
+   "text": "Today it's called Pascal's mugging: a tiny chance of a huge payoff can seem to justify almost anything.",
+   "beat": "turn",
+   "link": "detail"
+  },
+  {
+   "text": "So the bet meant to end doubt became a warning about infinite stakes.",
+   "beat": "payoff",
+   "link": "so"
+  },
+  {
+   "text": "If someone offers you infinity for a small price, should you pay?",
+   "beat": "payoff",
+   "link": "so"
+  }
+ ],
+ "objects": [
+  {
+   "id": "doorA",
+   "kind": "door",
+   "at": [
+    -2.4,
+    0,
+    -0.6000000000000001
+   ],
+   "face": 0
+  },
+  {
+   "id": "doorB",
+   "kind": "door",
+   "at": [
+    2.4,
+    0,
+    -0.6000000000000001
+   ],
+   "face": 0
+  },
+  {
+   "id": "scale",
+   "kind": "scale",
+   "at": [
+    0,
+    0,
+    1.4
+   ],
+   "face": 0
+  },
+  {
+   "id": "you",
+   "kind": "person",
+   "look": "you",
+   "at": [
+    0,
+    0,
+    3.8
+   ],
+   "face": "scale"
+  },
+  {
+   "id": "doorC",
+   "kind": "door",
+   "at": [
+    -5.2,
+    0,
+    0.3999999999999999
+   ],
+   "face": 40,
+   "show": false
+  },
+  {
+   "id": "doorD",
+   "kind": "door",
+   "at": [
+    5.2,
+    0,
+    0.3999999999999999
+   ],
+   "face": -40,
+   "show": false
+  },
+  {
+   "id": "coin",
+   "kind": "coin",
+   "at": [
+    0.9,
+    1.6,
+    1.4
+   ],
+   "face": 0,
+   "scale": 0.6,
+   "show": false
+  },
+  {
+   "id": "robot",
+   "kind": "robot",
+   "at": [
+    2.0,
+    0,
+    3.2
+   ],
+   "face": "you",
+   "show": false
+  }
+ ],
+ "shots": [
+  {
+   "at": 0,
+   "cam": {
+    "preset": "close",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "1",
+   "cam": {
+    "preset": "tight",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "2",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "doorA",
+     "doorB",
+     "you"
+    ],
+    "dist": 0.75
+   }
+  },
+  {
+   "at": "3",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "scale"
+    ]
+   },
+   "focus": [
+    "you",
+    "scale"
+   ]
+  },
+  {
+   "at": "4",
+   "cam": {
+    "preset": "close",
+    "on": "scale"
+   },
+   "focus": [
+    "scale"
+   ]
+  },
+  {
+   "at": "5",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "doorA",
+     "you"
+    ]
+   },
+   "focus": [
+    "doorA",
+    "you"
+   ]
+  },
+  {
+   "at": "6",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "doorB",
+     "you"
+    ]
+   },
+   "focus": [
+    "doorB",
+    "you"
+   ]
+  },
+  {
+   "at": "7",
+   "cam": {
+    "preset": "close",
+    "on": "scale"
+   },
+   "focus": [
+    "scale"
+   ]
+  },
+  {
+   "at": "8",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "scale"
+    ],
+    "side": 1
+   },
+   "focus": [
+    "you",
+    "scale"
+   ]
+  },
+  {
+   "at": "9",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "doorA",
+     "doorB",
+     "doorC",
+     "doorD"
+    ],
+    "dist": 0.8
+   }
+  },
+  {
+   "at": "10",
+   "cam": {
+    "preset": "close",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "11",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "doorC",
+     "you"
+    ]
+   },
+   "focus": [
+    "doorC",
+    "you"
+   ]
+  },
+  {
+   "at": "12",
+   "cam": {
+    "preset": "tight",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "12:holy",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "scale"
+    ]
+   },
+   "focus": [
+    "you",
+    "scale"
+   ]
+  },
+  {
+   "at": "13",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "you",
+     "robot",
+     "scale"
+    ]
+   }
+  },
+  {
+   "at": "14",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "robot"
+    ]
+   },
+   "focus": [
+    "you",
+    "robot"
+   ]
+  },
+  {
+   "at": "14:payoff",
+   "cam": {
+    "preset": "close",
+    "on": "you",
+    "side": 1
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "15",
+   "cam": {
+    "preset": "close",
+    "on": "scale"
+   },
+   "focus": [
+    "scale"
+   ]
+  },
+  {
+   "at": "16",
+   "cam": {
+    "preset": "tight",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "16:infinity",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "scale"
+    ]
+   },
+   "focus": [
+    "you",
+    "scale"
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "id": "you",
+   "at": "0:found",
+   "dur": 0.4,
+   "pose": "shock"
+  },
+  {
+   "id": "you",
+   "at": "1",
+   "dur": 0.4,
+   "pose": "stand"
+  },
+  {
+   "id": "you",
+   "at": "2:bet",
+   "dur": 0.4,
+   "pose": "think"
+  },
+  {
+   "id": "you",
+   "at": "3",
+   "dur": 0.4,
+   "pose": "stand"
+  },
+  {
+   "id": "coin",
+   "at": "3:chance",
+   "dur": 0.3,
+   "show": true
+  },
+  {
+   "id": "scale",
+   "at": "5:infinity",
+   "dur": 0.8,
+   "part": "beam",
+   "rot": [
+    0,
+    0,
+    -18
+   ]
+  },
+  {
+   "id": "doorA",
+   "at": "5:infinity",
+   "dur": 0.6,
+   "part": "leaf",
+   "rot": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "id": "you",
+   "at": "6:lost",
+   "dur": 0.4,
+   "pose": "shrug"
+  },
+  {
+   "id": "scale",
+   "at": "7:outweighs",
+   "dur": 0.6,
+   "part": "beam",
+   "rot": [
+    0,
+    0,
+    -25
+   ]
+  },
+  {
+   "id": "you",
+   "at": "8",
+   "dur": 0.4,
+   "pose": "point"
+  },
+  {
+   "id": [
+    "doorC",
+    "doorD"
+   ],
+   "at": "9:imam",
+   "dur": 0.5,
+   "show": true
+  },
+  {
+   "id": "you",
+   "at": "10:door",
+   "dur": 0.4,
+   "pose": "think"
+  },
+  {
+   "id": "doorA",
+   "at": "10",
+   "dur": 0.5,
+   "part": "leaf",
+   "rot": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "id": "you",
+   "at": "11:wrong",
+   "dur": 0.4,
+   "pose": "shock"
+  },
+  {
+   "id": "you",
+   "at": "12:act",
+   "dur": 0.4,
+   "pose": "stand"
+  },
+  {
+   "id": "robot",
+   "at": "13:loose",
+   "dur": 0.4,
+   "show": true
+  },
+  {
+   "id": "robot",
+   "at": "14:mugging",
+   "dur": 0.4,
+   "pose": "point"
+  },
+  {
+   "id": "robot",
+   "at": "14:payoff",
+   "dur": 0.5,
+   "wobble": true
+  },
+  {
+   "id": "you",
+   "at": "14:anything",
+   "dur": 0.4,
+   "pose": "shrug"
+  },
+  {
+   "id": "scale",
+   "at": "15",
+   "dur": 0.8,
+   "part": "beam",
+   "rot": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "id": "you",
+   "at": "16",
+   "dur": 0.4,
+   "pose": "think"
+  }
+ ],
+ "overlays": [
+  {
+   "type": "photo",
+   "pick": [
+    "pascal",
+    0
+   ],
+   "caption": "Blaise Pascal (1623-1662)",
+   "from": "0",
+   "to": "0:note-0.1"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "memorial",
+    1
+   ],
+   "caption": "Pascal's Memorial, 23 November 1654",
+   "from": "0:note",
+   "to": "2-0.2"
+  },
+  {
+   "type": "label",
+   "text": "YOU",
+   "color": "yellow",
+   "on": "you",
+   "from": "2",
+   "to": "3"
+  },
+  {
+   "type": "label",
+   "text": "GOD",
+   "on": "doorA",
+   "from": "2:God",
+   "to": "3"
+  },
+  {
+   "type": "label",
+   "text": "NO GOD",
+   "on": "doorB",
+   "from": "2:God",
+   "to": "3"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "dice",
+    1
+   ],
+   "caption": "Gambling dice",
+   "from": "3:gambler's",
+   "to": "4-0.2"
+  },
+  {
+   "type": "label",
+   "text": "∞",
+   "on": "doorA",
+   "from": "5:infinity",
+   "to": "6"
+  },
+  {
+   "type": "label",
+   "text": "−A LITTLE",
+   "on": "doorB",
+   "from": "6:pleasures",
+   "to": "7"
+  },
+  {
+   "type": "label",
+   "text": "ANY CHANCE × ∞ = ∞",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "7:outweighs",
+   "to": "8"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "pascaline",
+    0
+   ],
+   "caption": "Pascal's calculating machine",
+   "from": "8",
+   "to": "9-0.2"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "diderot",
+    0
+   ],
+   "caption": "Denis Diderot, by Louis-Michel van Loo",
+   "from": "9:Diderot",
+   "to": "9:imam-0.1"
+  },
+  {
+   "type": "question",
+   "on": "you",
+   "from": "10:door",
+   "to": "11"
+  },
+  {
+   "type": "xmark",
+   "on": "doorC",
+   "from": "11:wrong",
+   "to": "12"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "holywater",
+    1
+   ],
+   "caption": "A holy water font",
+   "from": "12:holy",
+   "to": "13-0.2"
+  },
+  {
+   "type": "label",
+   "text": "PASCAL'S MUGGING",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "14:mugging",
+   "to": "15"
+  },
+  {
+   "type": "pill",
+   "text": "Would you pay?",
+   "from": "16:pay"
+  }
+ ],
+ "sfx": [
+  {
+   "at": "5:infinity",
+   "s": "clank",
+   "gain": 0.3
+  },
+  {
+   "at": "9:imam",
+   "s": "bong",
+   "gain": 0.25
+  },
+  {
+   "at": "14:payoff",
+   "s": "error",
+   "gain": 0.25
+  }
+ ],
+ "music": {
+  "mood": "tense"
+ },
+ "sources": [
+  "https://plato.stanford.edu/entries/pascal-wager/",
+  "https://www.gutenberg.org/ebooks/18269",
+  "https://iep.utm.edu/pasc-wag/",
+  "https://en.wikipedia.org/wiki/Pascal%27s_mugging",
+  "https://en.wikipedia.org/wiki/Pascal%27s_Memorial"
+ ],
+ "post": {
+  "caption": "Pascal had just helped invent the maths of chance when he aimed it at God: a tiny chance of infinity beats any finite price. Then Diderot pointed out the other doors.\nIf someone offered you infinity for a small price, would you pay?",
+  "tags": [
+   "#philosophy",
+   "#pascal",
+   "#pascalswager",
+   "#probability",
+   "#thoughtexperiment"
+  ],
+  "youtube_title": "Pascal's Bet on God, and Its Fatal Flaw"
+ }
+}

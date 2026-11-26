@@ -1,6 +1,30 @@
 # Model scripts (newest first)
 The writer reads the top two of its channel before writing and matches or beats them: same spine (beats in order, every sentence linked to the one before), never the same facts or hooks. Each script the writer makes is added at the top in this format. Kept to the last 12.
 
+## pascals-wager (philosophy, 2026-11-27)
+
+Angle: Is believing in God simply the smartest bet?
+Logline: A note sewn into Pascal's coat recorded a night of fire, so why did a mathematician call belief a bet? He had just helped invent probability for a gambler, so he weighed infinite reward against finite cost, so any chance wins, but Diderot saw that an imam could make the same bet, so choosing the wrong god risks infinite loss, but Pascal said act as if and belief follows, but the wager broke loose from God as Pascal's mugging, so infinite stakes break the maths.
+On-screen hook: SEWN INTO HIS COAT
+
+[hook] When Pascal died, his servant found a note sewn inside his coat.
+[hook / detail] It recorded one night in 1654, and began with a single word: Fire.
+[question / so] So why did the same man call believing in God simply a smart bet?
+[reveal1 / answer] That year, Pascal had helped invent the maths of chance, to settle a gambler's question.
+[reveal1 / so] So he aimed it at the biggest question of all.
+[reveal1 / detail] If God exists and you believe, you win an infinity of happy life.
+[reveal1 / detail] If not, you've lost a few pleasures: a finite stake.
+[reveal2 / so] So any chance of infinity, however small, outweighs any finite cost.
+[reveal2 / detail] Historians call it the first piece of decision theory.
+[reveal3 / but] But in 1746, Denis Diderot spotted the hole: an imam could make the same bet.
+[reveal3 / so] With many possible gods, which door do you bet on?
+[reveal3 / detail] Pick wrong, and the infinite loss is yours.
+[reveal3 / but] Pascal had one more answer for doubters: act as if you believe, take holy water, and belief will follow.
+[turn / but] But the wager broke loose from God.
+[turn / detail] Today it's called Pascal's mugging: a tiny chance of a huge payoff can seem to justify almost anything.
+[payoff / so] So the bet meant to end doubt became a warning about infinite stakes.
+[payoff / so] If someone offers you infinity for a small price, should you pay?
+
 ## utility-monster (philosophy, 2026-11-27)
 
 Angle: Should whoever enjoys something most always get the most of it?
@@ -256,25 +280,3 @@ On-screen hook: ONE BROKEN PROMISE
 [turn / detail] Account for family background, and two-thirds of it disappeared.
 [payoff / so] So the child who eats it now may not lack willpower; she may have learned that promises break.
 [payoff / so] When you can't wait, is it weakness, or experience?
-
-## grande-jatte (paintings, 2026-11-27)
-
-Angle: Why is Seurat's sunny afternoon darker today than the one he painted?
-Logline: It has left Chicago only once, into a museum fire, but it was already fading, so why? Seurat wanted to paint light with science, so he set dots of pure colour for the eye to mix, but it took two years, studies, a painted border and a sly monkey, but his brightest yellow was the new zinc yellow, which soon turned brown, so the sunlit greens are now olive, but scientists rebuilt the lost colours on a computer, so the painting built to shimmer has dimmed.
-On-screen hook: LENT ONCE. INTO A FIRE.
-
-[hook] This painting has left Chicago once, and that museum caught fire.
-[hook / but] It escaped the 1958 blaze, but it was already fading.
-[question / so] So why is Seurat's sunny afternoon darker than the one he painted?
-[reveal1 / answer] Seurat was twenty-four, and he wanted to paint light with science.
-[reveal1 / because] Chemist Michel Chevreul showed that colours side by side change each other.
-[reveal1 / so] So he laid tiny dots of pure colour for your eye to mix.
-[reveal2 / but] But it took him two years and dozens of studies.
-[reveal2 / detail] Around 1889, he even painted a border of dots around the edge.
-[reveal2 / detail] Look at this lady: she walks a monkey on a leash.
-[reveal2 / detail] In Paris slang, a female monkey also meant a prostitute.
-[reveal3 / but] But his brightest yellows came from a new pigment: zinc yellow.
-[reveal3 / detail] Soon after he finished, it began turning brown.
-[reveal3 / so] So the sunlit greens and oranges are now olive and rust.
-[turn / but] But scientists have rebuilt the lost yellows on a computer.
-[payoff / so] So the painting built to shimmer has dimmed; only a screen shows the Sunday Paris saw.
