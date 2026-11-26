@@ -1,6 +1,29 @@
 # Model scripts (newest first)
 The writer reads the top two of its channel before writing and matches or beats them: same spine (beats in order, every sentence linked to the one before), never the same facts or hooks. Each script the writer makes is added at the top in this format. Kept to the last 12.
 
+## school-of-athens (paintings, 2026-11-27)
+
+Angle: Why did Raphael squeeze an extra philosopher into The School of Athens at the last minute?
+Logline: One figure is missing from the full-size drawing, so who is he? Raphael, about 26, painted every great Greek thinker for the pope's library, but gave them modern faces, so Plato has Leonardo's, but the brooding man was added later, because Michelangelo unveiled the Sistine ceiling next door in 1511, so Raphael painted him in with Michelangelo's face, but at the edge one young man looks out at you: Raphael, so the ancient school is also a portrait of his rivals, with him among them.
+On-screen hook: ADDED AT THE LAST MINUTE
+
+[hook] This man isn't in Raphael's full-size drawing for the fresco.
+[hook / detail] He was painted in later, onto fresh plaster.
+[question / so] So who is he, and why did Raphael squeeze him in?
+[reveal1 / answer] In 1509, Raphael, about 26, began painting the pope's private library.
+[reveal1 / detail] Here, the great thinkers of ancient Greece gather in one hall.
+[reveal1 / detail] At the centre, Plato points up to ideas; Aristotle gestures to the earth.
+[reveal2 / but] But Raphael gave them modern faces.
+[reveal2 / detail] Plato is widely thought to wear the face of Leonardo da Vinci.
+[reveal2 / detail] Raphael even signed his initials on a geometer's collar.
+[reveal3 / but] But the brooding man on the steps is the real twist.
+[reveal3 / detail] He's missing from the cartoon, the giant drawing in Milan.
+[reveal3 / because] In 1511, Michelangelo unveiled the first half of the Sistine ceiling next door.
+[reveal3 / so] So Raphael added Heraclitus, with Michelangelo's face and heavy style.
+[turn / but] But look at the far right: one young man stares straight at you.
+[turn / detail] It's Raphael himself.
+[payoff / so] So his gathering of ancient minds is also a portrait of his rivals, and himself.
+
 ## pascals-wager (philosophy, 2026-11-27)
 
 Angle: Is believing in God simply the smartest bet?
@@ -256,27 +279,3 @@ On-screen hook: PIECED TOGETHER FROM TWO COUNTRIES
 [turn / but] But when Friedrich died in 1840, poor, he was almost forgotten.
 [turn / detail] Hamburg's Kunsthalle bought this painting only in 1970.
 [payoff / so] So the faceless man from nowhere became everyone: a mind facing the unknown.
-
-## marshmallow-test (philosophy, 2026-11-27)
-
-Angle: Does waiting for a second marshmallow really show willpower?
-Logline: One broken promise made children give up four times sooner, so what does the test measure? Mischel offered one treat now or two later, but it became famous when the waiters had better SAT scores, so it became the symbol of willpower, but Rochester showed children wait twelve minutes after a kept promise and three after a broken one, so waiting depends on trust, but a 2018 retest found the link halved and mostly explained by background, so eating now may be experience, not weakness.
-On-screen hook: ONE BROKEN PROMISE
-
-[hook] One broken promise made preschoolers give up four times sooner.
-[question / so] So what does the famous marshmallow test really measure?
-[reveal1 / answer] In the late 1960s, Walter Mischel tested children at Stanford's nursery school.
-[reveal1 / detail] Eat one treat now, or wait alone, up to twenty minutes, for two.
-[reveal1 / detail] Some covered their eyes or sang to themselves to hold out.
-[reveal2 / but] But the test became famous only years later.
-[reveal2 / detail] Mischel tracked down the children as teenagers.
-[reveal2 / detail] Those who had waited longer had higher SAT scores and handled stress better.
-[reveal2 / so] So the marshmallow became a symbol of willpower, in books and classrooms.
-[reveal3 / but] But in 2012, Rochester researchers changed one thing before the test.
-[reveal3 / detail] An adult promised children better crayons, then came back with them, or empty-handed.
-[reveal3 / detail] Kids she had let down waited three minutes; kids she'd kept her word to waited twelve.
-[reveal3 / so] So waiting only makes sense if you believe the second treat will come.
-[turn / but] But in 2018, a retest on 918 more varied children found the teenage link half as strong.
-[turn / detail] Account for family background, and two-thirds of it disappeared.
-[payoff / so] So the child who eats it now may not lack willpower; she may have learned that promises break.
-[payoff / so] When you can't wait, is it weakness, or experience?

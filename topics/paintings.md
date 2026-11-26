@@ -22,7 +22,7 @@ The leads are starting points from memory, not facts: check each one before it g
 - made | raft-medusa | The Raft of the Medusa, Géricault | a real scandal; he studied corpses; the tiny ship on the horizon
 - inbox | impression-sunrise | Impression, Sunrise, Monet | the insult that named Impressionism; the sun is no brighter than the sky
 - inbox | cafe-terrace | Café Terrace at Night, Van Gogh | his first starry sky; no black paint; the café is still there
-- inbox | school-of-athens | The School of Athens, Raphael | Plato has Leonardo's face; Michelangelo sulking on the steps; Raphael looking at us
+- made | school-of-athens | The School of Athens, Raphael | Plato has Leonardo's face; Michelangelo sulking on the steps; Raphael looking at us
 - inbox | creation-of-adam | The Creation of Adam, Michelangelo | the gap between the fingers; the brain-shaped cloak; painted standing up, not lying down
 - requested | saturn | Saturn Devouring His Son, Goya | painted on his dining-room wall; never meant to be seen; never titled by him
 - requested | fighting-temeraire | The Fighting Temeraire, Turner | a hero ship towed to scrap; the sun sets in the wrong place; he never sold it

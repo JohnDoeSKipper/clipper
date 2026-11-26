@@ -1,0 +1,295 @@
+{
+ "id": "school-of-athens",
+ "channel": "paintings",
+ "angle": "Why did Raphael squeeze an extra philosopher into The School of Athens at the last minute?",
+ "answer": "After Michelangelo unveiled the first half of the Sistine ceiling in 1511, Raphael added a brooding Heraclitus with Michelangelo's face and style, a figure missing from his full-size cartoon; the fresco of ancient thinkers is also a portrait of the artists of his own day, Leonardo as Plato, and Raphael himself looking out.",
+ "logline": "One figure is missing from the full-size drawing, so who is he? Raphael, about 26, painted every great Greek thinker for the pope's library, but gave them modern faces, so Plato has Leonardo's, but the brooding man was added later, because Michelangelo unveiled the Sistine ceiling next door in 1511, so Raphael painted him in with Michelangelo's face, but at the edge one young man looks out at you: Raphael, so the ancient school is also a portrait of his rivals, with him among them.",
+ "hook_text": "ADDED AT THE LAST MINUTE",
+ "hooks": [
+  "Plato in this fresco probably has Leonardo da Vinci's face.",
+  "Raphael hid his own face in The School of Athens."
+ ],
+ "painting": {
+  "title": "The School of Athens",
+  "artist": "Raphael",
+  "year": "1509-1511",
+  "museum": "Stanza della Segnatura, Vatican"
+ },
+ "script": [
+  {
+   "text": "This man isn't in Raphael's full-size drawing for the fresco.",
+   "beat": "hook"
+  },
+  {
+   "text": "He was painted in later, onto fresh plaster.",
+   "beat": "hook",
+   "link": "detail"
+  },
+  {
+   "text": "So who is he, and why did Raphael squeeze him in?",
+   "beat": "question",
+   "link": "so"
+  },
+  {
+   "text": "In 1509, Raphael, about 26, began painting the pope's private library.",
+   "say": "In fifteen oh nine, Raphael, about twenty-six, began painting the pope's private library.",
+   "beat": "reveal1",
+   "link": "answer"
+  },
+  {
+   "text": "Here, the great thinkers of ancient Greece gather in one hall.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "At the centre, Plato points up to ideas; Aristotle gestures to the earth.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "But Raphael gave them modern faces.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "Plato is widely thought to wear the face of Leonardo da Vinci.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "Raphael even signed his initials on a geometer's collar.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "But the brooding man on the steps is the real twist.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "He's missing from the cartoon, the giant drawing in Milan.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "In 1511, Michelangelo unveiled the first half of the Sistine ceiling next door.",
+   "say": "In fifteen eleven, Michelangelo unveiled the first half of the Sistine ceiling next door.",
+   "beat": "reveal3",
+   "link": "because"
+  },
+  {
+   "text": "So Raphael added Heraclitus, with Michelangelo's face and heavy style.",
+   "say": "So Raphael added Hera-clite-us, with Michelangelo's face and heavy style.",
+   "beat": "reveal3",
+   "link": "so"
+  },
+  {
+   "text": "But look at the far right: one young man stares straight at you.",
+   "beat": "turn",
+   "link": "but"
+  },
+  {
+   "text": "It's Raphael himself.",
+   "beat": "turn",
+   "link": "detail"
+  },
+  {
+   "text": "So his gathering of ancient minds is also a portrait of his rivals, and himself.",
+   "beat": "payoff",
+   "link": "so"
+  }
+ ],
+ "music": {
+  "piece": "bach-prelude-c"
+ },
+ "timeline": [
+  {
+   "type": "reveal",
+   "from": [
+    0.44,
+    0.66,
+    2.6
+   ],
+   "until": 3.2
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.44,
+    0.68,
+    0.07,
+    0.1
+   ],
+   "ring": "1",
+   "zoom": "1+0.4",
+   "label": "PAINTED IN LATER",
+   "labelAt": "1:later",
+   "out": "2-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "stanza",
+    1
+   ],
+   "caption": "The Stanza della Segnatura, Vatican",
+   "at": "3",
+   "to": "4-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.52,
+    0.55,
+    0.42,
+    0.22
+   ],
+   "ring": "4",
+   "zoom": "4+0.4",
+   "out": "5-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.52,
+    0.52,
+    0.06,
+    0.11
+   ],
+   "ring": "5",
+   "zoom": "5+0.4",
+   "label": "PLATO · ARISTOTLE",
+   "labelAt": "5:Plato",
+   "out": "6-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.493,
+    0.5,
+    0.03,
+    0.09
+   ],
+   "ring": "6",
+   "zoom": "6+0.4",
+   "out": "7-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "leonardo",
+    1
+   ],
+   "caption": "Leonardo da Vinci, presumed self-portrait",
+   "at": "7",
+   "to": "8-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.75,
+    0.72,
+    0.05,
+    0.06
+   ],
+   "ring": "8",
+   "zoom": "8+0.4",
+   "label": "R.V.S.M.",
+   "labelAt": "8:initials",
+   "out": "9-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.44,
+    0.68,
+    0.07,
+    0.1
+   ],
+   "ring": "9",
+   "zoom": "9+0.4",
+   "out": "10-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "cartoon",
+    0
+   ],
+   "caption": "Raphael's cartoon, Biblioteca Ambrosiana, Milan",
+   "at": "10",
+   "to": "11-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "michelangelo",
+    1
+   ],
+   "caption": "Michelangelo, by Daniele da Volterra",
+   "at": "11",
+   "to": "12-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.44,
+    0.68,
+    0.07,
+    0.1
+   ],
+   "ring": "12",
+   "zoom": "12+0.4",
+   "label": "HERACLITUS = MICHELANGELO?",
+   "labelAt": "12:Heraclitus",
+   "out": "13-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.91,
+    0.56,
+    0.03,
+    0.04
+   ],
+   "ring": "13",
+   "zoom": "13+0.4",
+   "label": "LOOKING AT YOU",
+   "labelAt": "13:stares",
+   "out": "14-0.2"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "raphael",
+    0
+   ],
+   "caption": "Raphael, self-portrait",
+   "at": "14",
+   "to": "15-0.3"
+  }
+ ],
+ "sources": [
+  "https://smarthistory.org/raphael-school-of-athens/",
+  "https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/stanze-di-raffaello/stanza-della-segnatura/scuola-di-atene.html",
+  "https://www.ambrosiana.it/en/discover/raphaels-cartoon-for-the-school-of-athens/",
+  "https://www.britannica.com/topic/The-School-of-Athens",
+  "https://en.wikipedia.org/wiki/The_School_of_Athens"
+ ],
+ "post": {
+  "caption": "One philosopher in The School of Athens is missing from Raphael's full-size drawing. He was painted in later, after Michelangelo unveiled the Sistine ceiling next door, and he has Michelangelo's face.\nCan you find Raphael looking back at you?",
+  "tags": [
+   "#arthistory",
+   "#raphael",
+   "#schoolofathens",
+   "#vatican",
+   "#renaissance"
+  ],
+  "youtube_title": "The Philosopher Raphael Added at the Last Minute"
+ }
+}
