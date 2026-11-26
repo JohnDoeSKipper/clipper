@@ -37,6 +37,30 @@
     "desc": "Burin ex\u00e9cut\u00e9 aux environs de 1689-1692 selon Bernard Dorival, \"L'iconographie de Pascal au 17e si\u00e8cle\" dans Pascal et Port-Royal, 1962, p. 96 ; probablement 16"
    }
   ],
+  "memorial": [
+   {
+    "title": "File:M\u00e9morial de Pascal copie (Brunschvicg).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/M%C3%A9morial_de_Pascal_copie_%28Brunschvicg%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/b/b1/M%C3%A9morial_de_Pascal_copie_%28Brunschvicg%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2170,
+    "height": 3207,
+    "licence": "Public domain",
+    "artist": "Blaise Pascal",
+    "credit": "",
+    "desc": "Copie par Blaise Pascal de son M\u00e9morial, fac-simil\u00e9 de l'\u00e9d. Brunschvicg-Boutroux-Gazier, 1914"
+   },
+   {
+    "title": "File:Pascal's M\u00e9morial.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Pascal%27s_M%C3%A9morial.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/6/69/Pascal%27s_M%C3%A9morial.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3456,
+    "height": 4608,
+    "licence": "Public domain",
+    "artist": "Blaise Pascal",
+    "credit": "",
+    "desc": "Le M\u00e9morial de Pascal On 23 Nov. 1654, Pascal had an intense religious vision. He wrote it and hid the paper in his dress"
+   }
+  ],
   "pensees": [
    {
     "title": "File:Pens\u00e9es sur la religion, par Blaise PASCAL. - btv1b100765731 (291 of 469).jpg",
@@ -72,7 +96,6 @@
     "desc": "Sujet : Clermont-Ferrand. Oratoire. Clermont-Ferrand. Saint-Allyre. Congr\u00e9gation de l'Oratoire. Assembl\u00e9e g\u00e9n\u00e9rale (1746). Forton, Jacques. Affaire. Guerrier, L"
    }
   ],
-  "memorial": [],
   "pascaline": [
    {
     "title": "File:Arts et Metiers Pascaline dsc03869.jpg",
@@ -108,39 +131,74 @@
     "desc": "Photo of a 'Pascaline', the mechanical calculator invented and manufactured by French scientist Blaise Pascal around 1642. From the accompanying text: \"The mach"
    }
   ],
-  "portroyal": [
+  "diderot": [
    {
-    "title": "File:Port-Royal des Champs \u2013 L\u2019ancien moulin et le pigeonnier (1894).jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Port-Royal_des_Champs_%E2%80%93_L%E2%80%99ancien_moulin_et_le_pigeonnier_%281894%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Port-Royal_des_Champs_%E2%80%93_L%E2%80%99ancien_moulin_et_le_pigeonnier_%281894%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 1551,
-    "height": 1025,
-    "licence": "CC0",
+    "title": "File:Denis Diderot by Louis-Michel van Loo.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Denis_Diderot_by_Louis-Michel_van_Loo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Denis_Diderot_by_Louis-Michel_van_Loo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1000,
+    "height": 1248,
+    "licence": "Public domain",
     "artist": "Unknown authorUnknown author",
     "credit": "",
-    "desc": "The site of the Port-Royal des Champs abbey in 1894 with its old mill, the home of its Solitaire (from 1895 to 1932) and its partly hidden dovecote. In the fore"
+    "desc": "Louis-Michel van Loo: Portrait of Denis Diderot (1767). Louvre."
    },
    {
-    "title": "File:Agn\u00e8s Arnauld abbesse of Port Royal des Champs.JPG",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Agn%C3%A8s_Arnauld_abbesse_of_Port_Royal_des_Champs.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Agn%C3%A8s_Arnauld_abbesse_of_Port_Royal_des_Champs.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 1100,
-    "height": 1600,
+    "title": "File:Louis-Michel van Loo - Portrait of Denis Diderot - WGA13440.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Louis-Michel_van_Loo_-_Portrait_of_Denis_Diderot_-_WGA13440.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/8/80/Louis-Michel_van_Loo_-_Portrait_of_Denis_Diderot_-_WGA13440.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1000,
+    "height": 1230,
     "licence": "Public domain",
-    "artist": "Philippe de Champaigne",
+    "artist": "Unknown authorUnknown author",
     "credit": "",
-    "desc": "Agn\u00e8s Arnauld, abbess of Port-Royal-des-Champs Abbey"
+    "desc": ""
    },
    {
-    "title": "File:Port-Royal des Champs (1894) vestiges num\u00e9rot\u00e9s.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Port-Royal_des_Champs_%281894%29_vestiges_num%C3%A9rot%C3%A9s.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Port-Royal_des_Champs_%281894%29_vestiges_num%C3%A9rot%C3%A9s.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 1551,
-    "height": 1025,
-    "licence": "CC0",
-    "artist": "GV3",
+    "title": "File:Van Loo - Denis Diderot (1767).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Van_Loo_-_Denis_Diderot_%281767%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Van_Loo_-_Denis_Diderot_%281767%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3144,
+    "height": 3920,
+    "licence": "Public domain",
+    "artist": "Sammyday (2010-10-23)",
     "credit": "",
-    "desc": "Overview of the ruins of the Port-Royal des Champs abbey with numbering of the remains for later identification"
+    "desc": ""
+   }
+  ],
+  "holywater": [
+   {
+    "title": "File:D\u00fclmen, Heilig-Kreuz-Kirche, Innenansicht -- 2019 -- 3022-6.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/D%C3%BClmen%2C_Heilig-Kreuz-Kirche%2C_Innenansicht_--_2019_--_3022-6.jpg/3840px-D%C3%BClmen%2C_Heilig-Kreuz-Kirche%2C_Innenansicht_--_2019_--_3022-6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/2/20/D%C3%BClmen%2C_Heilig-Kreuz-Kirche%2C_Innenansicht_--_2019_--_3022-6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 6183,
+    "height": 4123,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Dietmar Rabich",
+    "credit": "Dietmar Rabich / CC BY-SA 4.0",
+    "desc": "Interior view (with reflections in the stoup, a symbolic baptismal font) of the Holy Cross Church in D\u00fclmen, North Rhine-Westphalia, GermanyThe Holy Cross Churc"
+   },
+   {
+    "title": "File:Woodcarved home stoup Atelier Lenert Urtij\u00ebi.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Woodcarved_home_stoup_Atelier_Lenert_Urtij%C3%ABi.jpg/3840px-Woodcarved_home_stoup_Atelier_Lenert_Urtij%C3%ABi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Woodcarved_home_stoup_Atelier_Lenert_Urtij%C3%ABi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 6545,
+    "height": 8742,
+    "licence": "CC BY-SA 3.0",
+    "artist": "This Photo was taken by Wolfgang Moroder. Feel free to use my photos, but please",
+    "credit": "This Photo was taken by Wolfgang Moroder. Feel free to use my photos, but please / CC BY-SA 3.0",
+    "desc": "Woodcarved home stoup by Atelier Lenert in Urtij\u00ebi."
+   },
+   {
+    "title": "File:ILanz, plaats in Graub\u00fcnden. 27-09-2025. (actm.) 26.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/ILanz%2C_plaats_in_Graub%C3%BCnden._27-09-2025._%28actm.%29_26.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/7/73/ILanz%2C_plaats_in_Graub%C3%BCnden._27-09-2025._%28actm.%29_26.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2689,
+    "height": 4034,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Agnes Monkelbaan",
+    "credit": "Agnes Monkelbaan / CC BY-SA 4.0",
+    "desc": "ILanz, R\u00f6misch-katholische Kirche Maria Himmelfahrt (Holy water font)."
    }
   ],
   "dice": [
@@ -176,6 +234,41 @@
     "artist": "",
     "credit": "",
     "desc": ""
+   }
+  ],
+  "datacenter": [
+   {
+    "title": "File:Duga-1 radar data center inside empty server racks 2018.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Duga-1_radar_data_center_inside_empty_server_racks_2018.jpg/3840px-Duga-1_radar_data_center_inside_empty_server_racks_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/9/94/Duga-1_radar_data_center_inside_empty_server_racks_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 5346,
+    "height": 3559,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Jo\u00ebl van der Loo",
+    "credit": "Jo\u00ebl van der Loo / CC BY-SA 4.0",
+    "desc": "Disclaimer of best intentions Traveling to the Chernobyl exclusion zone 'as a tourist' is often frowned upon and has recently received a lot of bad rep because "
+   },
+   {
+    "title": "File:Racks Amravati Data Center.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Racks_Amravati_Data_Center.jpg/3840px-Racks_Amravati_Data_Center.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Racks_Amravati_Data_Center.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 6000,
+    "height": 4004,
+    "licence": "CC BY-SA 4.0",
+    "artist": "PiDatacenters",
+    "credit": "PiDatacenters / CC BY-SA 4.0",
+    "desc": "Data Storage Racks at Pi Data Centers"
+   },
+   {
+    "title": "File:Datacenter Server Racks (22370909788).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Datacenter_Server_Racks_%2822370909788%29.jpg/3840px-Datacenter_Server_Racks_%2822370909788%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Datacenter_Server_Racks_%2822370909788%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 6000,
+    "height": 4000,
+    "licence": "CC BY 2.0",
+    "artist": "Carl Lender from Sunrise, USA",
+    "credit": "Carl Lender from Sunrise, USA / CC BY 2.0",
+    "desc": "Real Estate"
    }
   ]
  }
