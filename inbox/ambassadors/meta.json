@@ -12,7 +12,42 @@
   "desc": "Jean de Dinteville, French Ambassador to the court of Henry VIII of England, and Georges de Selve, Bishop of Lavaur. The painting is famous for containing, in t"
  },
  "inserts": {
-  "skull": [],
+  "skull": [
+   {
+    "title": "File:Hans Holbein the Younger - The Ambassadors - Google Art Project.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg/3840px-Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/8/88/Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 30000,
+    "height": 29560,
+    "licence": "Public domain",
+    "artist": "Hans Holbein the Younger",
+    "credit": "",
+    "desc": "Jean de Dinteville, French Ambassador to the court of Henry VIII of England, and Georges de Selve, Bishop of Lavaur. The painting is famous for containing, in t"
+   },
+   {
+    "title": "File:Holbein Skull.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Holbein_Skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/0/03/Holbein_Skull.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3000,
+    "height": 2957,
+    "licence": "Public domain",
+    "artist": "Thomas Shahan",
+    "credit": "",
+    "desc": "A higher resolution and more accurate depiction of the anamorphic skull within Hans Holbein's \"The Ambassadors\""
+   },
+   {
+    "title": "File:Demonstration of Holbein's skull image viewed through a tube.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Demonstration_of_Holbein%27s_skull_image_viewed_through_a_tube.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Demonstration_of_Holbein%27s_skull_image_viewed_through_a_tube.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1200,
+    "height": 1600,
+    "licence": "CC BY-SA 4.0",
+    "artist": "JimKillock",
+    "credit": "JimKillock / CC BY-SA 4.0",
+    "desc": "Demonstration of how to view the skull image in \"The Ambassadors\" may be viewed head on, through a tube. In this example, a 30cm perspex tube, 25mm diameter wit"
+   }
+  ],
+  "skull2": [],
   "henry": [
    {
     "title": "File:After Hans Holbein the Younger - Portrait of Henry VIII - Google Art Project.jpg",
@@ -151,6 +186,41 @@
     "artist": "Diliff",
     "credit": "Diliff / CC BY-SA 3.0",
     "desc": "A perspective corrected image of Trafalgar Square in London, England. Taken by me with a Canon 5D and 17-40mm f/4L lens."
+   }
+  ],
+  "cosmati": [
+   {
+    "title": "File:Cosmati pavement, Westminster Abbey, London.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Cosmati_pavement%2C_Westminster_Abbey%2C_London.jpg/3840px-Cosmati_pavement%2C_Westminster_Abbey%2C_London.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/6/69/Cosmati_pavement%2C_Westminster_Abbey%2C_London.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 5184,
+    "height": 3456,
+    "licence": "CC BY-SA 4.0",
+    "artist": "14GTR",
+    "credit": "14GTR / CC BY-SA 4.0",
+    "desc": "Cosmati pavement in front of the high alter in Westminster Abbey, London"
+   },
+   {
+    "title": "File:Cosmati pavement by high altar, Westminster Abbey 03.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Cosmati_pavement_by_high_altar%2C_Westminster_Abbey_03.jpg/3840px-Cosmati_pavement_by_high_altar%2C_Westminster_Abbey_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/8/84/Cosmati_pavement_by_high_altar%2C_Westminster_Abbey_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 5184,
+    "height": 3456,
+    "licence": "CC BY-SA 4.0",
+    "artist": "14GTR",
+    "credit": "14GTR / CC BY-SA 4.0",
+    "desc": "Cosmati pavement &amp; high altar, Westminster Abbey, London"
+   },
+   {
+    "title": "File:Cosmati pavement & high altar, Westminster Abbey 01.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Cosmati_pavement_%26_high_altar%2C_Westminster_Abbey_01.jpg/3840px-Cosmati_pavement_%26_high_altar%2C_Westminster_Abbey_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/9/90/Cosmati_pavement_%26_high_altar%2C_Westminster_Abbey_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 5184,
+    "height": 3456,
+    "licence": "CC BY-SA 4.0",
+    "artist": "14GTR",
+    "credit": "14GTR / CC BY-SA 4.0",
+    "desc": "Cosmati pavement &amp; high altar, Westminster Abbey, London"
    }
   ]
  }
