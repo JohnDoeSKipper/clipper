@@ -1,0 +1,845 @@
+{
+ "id": "invisible-gorilla",
+ "channel": "philosophy",
+ "style": "clay",
+ "title": "THE INVISIBLE GORILLA",
+ "angle": "How can you miss a gorilla walking right in front of you?",
+ "answer": "Because attention, not the eyes, decides what we see: about half of viewers counting passes missed the gorilla, 83% of expert radiologists missed one in a lung scan while looking at it, a police officer was convicted after saying he missed a beating that scientists later showed people really do miss, and knowing about the trick doesn't protect you from the next one.",
+ "logline": "Half the viewers missed a gorilla, so how? Counting passes takes your attention, so the gorilla never registers, but experts must be different, but 83% of radiologists missed a gorilla in a lung scan, but the stakes became real when a Boston officer was convicted for not seeing a beating, so scientists restaged it and most runners at night missed a fight too, but knowing the trick doesn't help, because viewers who expected the gorilla missed other changes, so you see what you look for.",
+ "hook_text": "HALF OF THEM MISSED IT",
+ "hooks": [
+  "83 percent of radiologists missed a gorilla in a lung scan.",
+  "A police officer was convicted for not seeing something you might miss too."
+ ],
+ "world": {
+  "scenery": "default"
+ },
+ "script": [
+  {
+   "text": "Half the people in this experiment didn't see a gorilla.",
+   "beat": "hook"
+  },
+  {
+   "text": "It walked through the middle of the scene and thumped its chest.",
+   "beat": "hook",
+   "link": "but"
+  },
+  {
+   "text": "So how can anyone miss something that obvious?",
+   "beat": "question",
+   "link": "so"
+  },
+  {
+   "text": "In 1999, two Harvard psychologists asked viewers to count basketball passes.",
+   "say": "In nineteen ninety-nine, two Harvard psychologists asked viewers to count basketball passes.",
+   "beat": "reveal1",
+   "link": "answer"
+  },
+  {
+   "text": "Midway, a woman in a gorilla suit strolled through for about nine seconds.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "About half never noticed: their eyes saw it, but their attention was on the ball.",
+   "beat": "reveal1",
+   "link": "so"
+  },
+  {
+   "text": "But surely experts trained to spot the unusual do better?",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "In 2013, radiologists searched lung scans for tiny cancer nodules.",
+   "say": "In twenty thirteen, radiologists searched lung scans for tiny cancer nodules.",
+   "beat": "reveal2",
+   "link": "answer"
+  },
+  {
+   "text": "A gorilla 48 times bigger than a nodule was hidden in the last scan.",
+   "say": "A gorilla forty-eight times bigger than a nodule was hidden in the last scan.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "83 percent missed it, and eye-tracking showed many looked straight at it.",
+   "say": "Eighty-three percent missed it, and eye-tracking showed many looked straight at it.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "But the stakes turned real in a courtroom.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "A Boston police officer, chasing a suspect, ran right past a brutal beating, and said he saw nothing.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "He was convicted of lying; years later, one of the gorilla psychologists restaged the chase.",
+   "beat": "reveal3",
+   "link": "so"
+  },
+  {
+   "text": "At night, most runners missed a staged fight beside the path.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "But knowing the trick doesn't protect you.",
+   "beat": "turn",
+   "link": "but"
+  },
+  {
+   "text": "Viewers who expected the gorilla spotted it, and missed a curtain changing colour.",
+   "beat": "turn",
+   "link": "because"
+  },
+  {
+   "text": "So you don't see what's there; you see what you're looking for.",
+   "beat": "payoff",
+   "link": "so"
+  },
+  {
+   "text": "What walked right past you today?",
+   "beat": "payoff",
+   "link": "so"
+  }
+ ],
+ "objects": [
+  {
+   "id": "a",
+   "kind": "person",
+   "look": "a",
+   "at": [
+    -1.8,
+    0,
+    0.2
+   ],
+   "face": "b"
+  },
+  {
+   "id": "b",
+   "kind": "person",
+   "look": "b",
+   "at": [
+    1.8,
+    0,
+    0.2
+   ],
+   "face": "a"
+  },
+  {
+   "id": "ball",
+   "kind": "ball",
+   "tint": "#E8772E",
+   "at": [
+    -1.4,
+    1.3,
+    0.2
+   ],
+   "scale": 0.35
+  },
+  {
+   "id": "gor",
+   "kind": "person",
+   "look": "e",
+   "tint": "#2F2F33",
+   "at": [
+    -4.5,
+    0,
+    1.2
+   ],
+   "face": 90,
+   "scale": 1.15
+  },
+  {
+   "id": "you",
+   "kind": "person",
+   "look": "you",
+   "at": [
+    0,
+    0,
+    3.6
+   ],
+   "face": "ball"
+  },
+  {
+   "id": "scr",
+   "kind": "screen",
+   "at": [
+    -3.2,
+    0,
+    -1.6
+   ],
+   "face": 30,
+   "show": false
+  }
+ ],
+ "shots": [
+  {
+   "at": 0,
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "a",
+     "b",
+     "you"
+    ]
+   }
+  },
+  {
+   "at": "1",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "a",
+     "b"
+    ]
+   },
+   "focus": [
+    "a",
+    "b"
+   ]
+  },
+  {
+   "at": "2",
+   "cam": {
+    "preset": "tight",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "3",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "a",
+     "b"
+    ]
+   },
+   "focus": [
+    "a",
+    "b"
+   ]
+  },
+  {
+   "at": "4",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "a",
+     "b",
+     "gor"
+    ]
+   }
+  },
+  {
+   "at": "5",
+   "cam": {
+    "preset": "close",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "6",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "scr"
+    ]
+   },
+   "focus": [
+    "you",
+    "scr"
+   ]
+  },
+  {
+   "at": "7",
+   "cam": {
+    "preset": "close",
+    "on": "scr"
+   },
+   "focus": [
+    "scr"
+   ]
+  },
+  {
+   "at": "8",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "scr"
+    ],
+    "side": 1
+   },
+   "focus": [
+    "you",
+    "scr"
+   ]
+  },
+  {
+   "at": "9",
+   "cam": {
+    "preset": "tight",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "10",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "a",
+     "b",
+     "you"
+    ]
+   }
+  },
+  {
+   "at": "11",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "a"
+    ]
+   },
+   "focus": [
+    "you",
+    "a"
+   ]
+  },
+  {
+   "at": "11:beating",
+   "cam": {
+    "preset": "close",
+    "on": "you",
+    "side": 1
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "12",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "a",
+     "b"
+    ]
+   },
+   "focus": [
+    "a",
+    "b"
+   ]
+  },
+  {
+   "at": "13",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "a",
+     "b",
+     "you"
+    ]
+   }
+  },
+  {
+   "at": "14",
+   "cam": {
+    "preset": "close",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "15",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "a",
+     "b",
+     "gor"
+    ]
+   },
+   "focus": [
+    "a",
+    "b",
+    "gor"
+   ]
+  },
+  {
+   "at": "16",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "a"
+    ]
+   },
+   "focus": [
+    "you",
+    "a"
+   ]
+  },
+  {
+   "at": "17",
+   "cam": {
+    "preset": "tight",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "id": "ball",
+   "at": 0,
+   "until": "0:gorilla",
+   "pos": [
+    1.4,
+    1.3,
+    0.2
+   ],
+   "ease": "linear"
+  },
+  {
+   "id": "ball",
+   "at": "0:gorilla",
+   "until": "1:scene",
+   "pos": [
+    -1.4,
+    1.3,
+    0.2
+   ],
+   "ease": "linear"
+  },
+  {
+   "id": "ball",
+   "at": "1:scene",
+   "until": "2",
+   "pos": [
+    1.4,
+    1.3,
+    0.2
+   ],
+   "ease": "linear"
+  },
+  {
+   "id": "gor",
+   "at": "1",
+   "until": "1:chest",
+   "pos": [
+    0,
+    0,
+    1.2
+   ],
+   "walk": true,
+   "ease": "linear"
+  },
+  {
+   "id": "gor",
+   "at": "1:chest",
+   "dur": 0.5,
+   "pose": "cheer"
+  },
+  {
+   "id": "gor",
+   "at": "2",
+   "until": "3",
+   "pos": [
+    4.5,
+    0,
+    1.2
+   ],
+   "walk": true,
+   "ease": "linear"
+  },
+  {
+   "id": "you",
+   "at": "2:miss",
+   "dur": 0.4,
+   "pose": "shrug"
+  },
+  {
+   "id": "you",
+   "at": "3:count",
+   "dur": 0.4,
+   "pose": "point"
+  },
+  {
+   "id": "ball",
+   "at": "3",
+   "until": "4",
+   "pos": [
+    -1.4,
+    1.3,
+    0.2
+   ],
+   "ease": "linear"
+  },
+  {
+   "id": "gor",
+   "at": "4:Midway",
+   "dur": 0.1,
+   "pos": [
+    -4.5,
+    0,
+    1.2
+   ]
+  },
+  {
+   "id": "gor",
+   "at": "4:strolled",
+   "until": "5",
+   "pos": [
+    4.5,
+    0,
+    1.2
+   ],
+   "walk": true,
+   "ease": "linear"
+  },
+  {
+   "id": "ball",
+   "at": "4",
+   "until": "5",
+   "pos": [
+    1.4,
+    1.3,
+    0.2
+   ],
+   "ease": "linear"
+  },
+  {
+   "id": "you",
+   "at": "5:ball",
+   "dur": 0.4,
+   "pose": "think"
+  },
+  {
+   "id": "scr",
+   "at": "6",
+   "dur": 0.4,
+   "show": true
+  },
+  {
+   "id": "you",
+   "at": "9:missed",
+   "dur": 0.4,
+   "pose": "shock"
+  },
+  {
+   "id": "scr",
+   "at": "10",
+   "dur": 0.3,
+   "show": false
+  },
+  {
+   "id": "you",
+   "at": "11:chasing",
+   "until": "11:chasing+1.6",
+   "pos": [
+    2.6,
+    0,
+    2.4
+   ],
+   "walk": true
+  },
+  {
+   "id": [
+    "a",
+    "b"
+   ],
+   "at": "11:beating",
+   "dur": 0.4,
+   "pose": "push"
+  },
+  {
+   "id": [
+    "a",
+    "b"
+   ],
+   "at": "12",
+   "dur": 0.4,
+   "pose": "stand"
+  },
+  {
+   "id": "you",
+   "at": "12",
+   "dur": 0.1,
+   "pos": [
+    0,
+    0,
+    3.6
+   ]
+  },
+  {
+   "id": [
+    "a",
+    "b"
+   ],
+   "at": "13:fight",
+   "dur": 0.4,
+   "pose": "push"
+  },
+  {
+   "id": [
+    "a",
+    "b"
+   ],
+   "at": "14",
+   "dur": 0.4,
+   "pose": "stand"
+  },
+  {
+   "id": "gor",
+   "at": "15",
+   "dur": 0.1,
+   "pos": [
+    0,
+    0,
+    1.2
+   ]
+  },
+  {
+   "id": "gor",
+   "at": "15:spotted",
+   "dur": 0.4,
+   "pose": "wave"
+  },
+  {
+   "id": "you",
+   "at": "15:spotted",
+   "dur": 0.4,
+   "pose": "point"
+  },
+  {
+   "id": "you",
+   "at": "17",
+   "dur": 0.4,
+   "pose": "think"
+  }
+ ],
+ "overlays": [
+  {
+   "type": "label",
+   "text": "50% MISSED IT",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "0:gorilla",
+   "to": "1"
+  },
+  {
+   "type": "label",
+   "text": "GORILLA",
+   "on": "gor",
+   "from": "1:walked",
+   "to": "2"
+  },
+  {
+   "type": "question",
+   "on": "you",
+   "from": "2:miss",
+   "to": "3"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "harvard",
+    0
+   ],
+   "caption": "William James Hall, Harvard University",
+   "from": "3",
+   "to": "3:count-0.1"
+  },
+  {
+   "type": "label",
+   "text": "YOU",
+   "color": "yellow",
+   "on": "you",
+   "from": "3:count",
+   "to": "4"
+  },
+  {
+   "type": "label",
+   "text": "COUNT THE PASSES",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "3:passes",
+   "to": "4"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "gorilla",
+    1
+   ],
+   "caption": "A gorilla (the real kind)",
+   "from": "4:gorilla",
+   "to": "4:nine-0.1",
+   "pos": [
+    540,
+    700
+   ]
+  },
+  {
+   "type": "number",
+   "text": "9 s",
+   "on": "gor",
+   "from": "4:nine",
+   "to": "5"
+  },
+  {
+   "type": "icon",
+   "icon": "eye",
+   "on": "you",
+   "from": "5:eyes",
+   "to": "5:attention"
+  },
+  {
+   "type": "label",
+   "text": "ATTENTION",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "5:attention",
+   "to": "6"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "ct",
+    0
+   ],
+   "caption": "A lung CT scan",
+   "from": "7:lung",
+   "to": "8-0.2"
+  },
+  {
+   "type": "label",
+   "text": "48× A NODULE",
+   "on": "scr",
+   "from": "8:48",
+   "to": "9"
+  },
+  {
+   "type": "number",
+   "text": "83%",
+   "on": "you",
+   "from": "9:83",
+   "to": "10"
+  },
+  {
+   "type": "label",
+   "text": "BOSTON, 1995",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "11:Boston",
+   "to": "11:beating"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "chabris",
+    0
+   ],
+   "caption": "Christopher Chabris, psychologist",
+   "from": "12:gorilla",
+   "to": "13-0.2"
+  },
+  {
+   "type": "label",
+   "text": "MOST MISSED THE FIGHT",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "13:most",
+   "to": "14"
+  },
+  {
+   "type": "check",
+   "on": "gor",
+   "from": "15:spotted",
+   "to": "15:missed"
+  },
+  {
+   "type": "label",
+   "text": "MISSED: THE CURTAIN",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "15:missed",
+   "to": "16"
+  },
+  {
+   "type": "pill",
+   "text": "What walked past you?",
+   "from": "17:walked"
+  }
+ ],
+ "sfx": [
+  {
+   "at": "1:chest",
+   "s": "thud",
+   "gain": 0.3,
+   "every": 0.25,
+   "until": "1:chest+0.8"
+  },
+  {
+   "at": "9:missed",
+   "s": "error",
+   "gain": 0.25
+  }
+ ],
+ "music": {
+  "mood": "warm"
+ },
+ "sources": [
+  "http://www.chabris.com/Simons1999.pdf",
+  "https://journals.sagepub.com/doi/10.1177/0956797613479386",
+  "https://journals.sagepub.com/doi/10.1068/i0436",
+  "https://journals.sagepub.com/doi/10.1068/i0386",
+  "https://en.wikipedia.org/wiki/Inattentional_blindness"
+ ],
+ "post": {
+  "caption": "About half the people counting basketball passes never saw the gorilla. In 2013, 83 percent of radiologists missed a gorilla hidden in a lung scan, many while looking right at it.\nWhat do you think you'd have missed?",
+  "tags": [
+   "#psychology",
+   "#invisiblegorilla",
+   "#attention",
+   "#perception",
+   "#philosophy"
+  ],
+  "youtube_title": "How Radiologists Missed a Gorilla in a Lung Scan"
+ }
+}

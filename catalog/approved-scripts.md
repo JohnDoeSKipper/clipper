@@ -1,6 +1,31 @@
 # Model scripts (newest first)
 The writer reads the top two of its channel before writing and matches or beats them: same spine (beats in order, every sentence linked to the one before), never the same facts or hooks. Each script the writer makes is added at the top in this format. Kept to the last 12.
 
+## invisible-gorilla (philosophy, 2026-11-27)
+
+Angle: How can you miss a gorilla walking right in front of you?
+Logline: Half the viewers missed a gorilla, so how? Counting passes takes your attention, so the gorilla never registers, but experts must be different, but 83% of radiologists missed a gorilla in a lung scan, but the stakes became real when a Boston officer was convicted for not seeing a beating, so scientists restaged it and most runners at night missed a fight too, but knowing the trick doesn't help, because viewers who expected the gorilla missed other changes, so you see what you look for.
+On-screen hook: HALF OF THEM MISSED IT
+
+[hook] Half the people in this experiment didn't see a gorilla.
+[hook / but] It walked through the middle of the scene and thumped its chest.
+[question / so] So how can anyone miss something that obvious?
+[reveal1 / answer] In 1999, two Harvard psychologists asked viewers to count basketball passes.
+[reveal1 / detail] Midway, a woman in a gorilla suit strolled through for about nine seconds.
+[reveal1 / so] About half never noticed: their eyes saw it, but their attention was on the ball.
+[reveal2 / but] But surely experts trained to spot the unusual do better?
+[reveal2 / answer] In 2013, radiologists searched lung scans for tiny cancer nodules.
+[reveal2 / detail] A gorilla 48 times bigger than a nodule was hidden in the last scan.
+[reveal2 / detail] 83 percent missed it, and eye-tracking showed many looked straight at it.
+[reveal3 / but] But the stakes turned real in a courtroom.
+[reveal3 / detail] A Boston police officer, chasing a suspect, ran right past a brutal beating, and said he saw nothing.
+[reveal3 / so] He was convicted of lying; years later, one of the gorilla psychologists restaged the chase.
+[reveal3 / detail] At night, most runners missed a staged fight beside the path.
+[turn / but] But knowing the trick doesn't protect you.
+[turn / because] Viewers who expected the gorilla spotted it, and missed a curtain changing colour.
+[payoff / so] So you don't see what's there; you see what you're looking for.
+[payoff / so] What walked right past you today?
+
 ## sleeping-gypsy (paintings, 2026-11-27)
 
 Angle: How did a painting its own artist's hometown turned down become a modern icon?
@@ -251,27 +276,3 @@ On-screen hook: ADDED AT THE LAST MINUTE
 [turn / but] But look at the far right: one young man stares straight at you.
 [turn / detail] It's Raphael himself.
 [payoff / so] So his gathering of ancient minds is also a portrait of his rivals, and himself.
-
-## pascals-wager (philosophy, 2026-11-27)
-
-Angle: Is believing in God simply the smartest bet?
-Logline: A note sewn into Pascal's coat recorded a night of fire, so why did a mathematician call belief a bet? He had just helped invent probability for a gambler, so he weighed infinite reward against finite cost, so any chance wins, but Diderot saw that an imam could make the same bet, so choosing the wrong god risks infinite loss, but Pascal said act as if and belief follows, but the wager broke loose from God as Pascal's mugging, so infinite stakes break the maths.
-On-screen hook: SEWN INTO HIS COAT
-
-[hook] When Pascal died, his servant found a note sewn inside his coat.
-[hook / detail] It recorded one night in 1654, and began with a single word: Fire.
-[question / so] So why did the same man call believing in God simply a smart bet?
-[reveal1 / answer] That year, Pascal had helped invent the maths of chance, to settle a gambler's question.
-[reveal1 / so] So he aimed it at the biggest question of all.
-[reveal1 / detail] If God exists and you believe, you win an infinity of happy life.
-[reveal1 / detail] If not, you've lost a few pleasures: a finite stake.
-[reveal2 / so] So any chance of infinity, however small, outweighs any finite cost.
-[reveal2 / detail] Historians call it the first piece of decision theory.
-[reveal3 / but] But in 1746, Denis Diderot spotted the hole: an imam could make the same bet.
-[reveal3 / so] With many possible gods, which door do you bet on?
-[reveal3 / detail] Pick wrong, and the infinite loss is yours.
-[reveal3 / but] Pascal had one more answer for doubters: act as if you believe, take holy water, and belief will follow.
-[turn / but] But the wager broke loose from God.
-[turn / detail] Today it's called Pascal's mugging: a tiny chance of a huge payoff can seem to justify almost anything.
-[payoff / so] So the bet meant to end doubt became a warning about infinite stakes.
-[payoff / so] If someone offers you infinity for a small price, should you pay?

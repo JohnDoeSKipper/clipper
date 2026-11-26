@@ -26,7 +26,7 @@ Check what the original experiment or argument actually says (and whether later 
 - made | monty-hall | The Monty Hall Problem | clay | three doors, a prize; why switching wins two times in three
 - made | survivorship-bias | Survivorship Bias | ps2 | returning planes with bullet holes; armour goes where there are none
 - made | sunk-cost | The Sunk Cost Fallacy | clay | a bad film and a paid ticket; a walk to the door
-- inbox | invisible-gorilla | The Invisible Gorilla | clay | count the passes; what you missed
+- made | invisible-gorilla | The Invisible Gorilla | clay | count the passes; what you missed
 - requested | achilles-tortoise | Achilles and the Tortoise (Zeno) | clay | a race where the runner can never catch up; arrows and halving distances
 - requested | lifeboat | The Lifeboat Dilemma | clay | a boat on open sea with one seat too few
 - requested | newcombs-paradox | Newcomb's Paradox | ps2 | a glass box and a closed box; a predictor robot that is never wrong
