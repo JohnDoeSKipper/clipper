@@ -1,6 +1,32 @@
 # Model scripts (newest first)
 The writer reads the top two of its channel before writing and matches or beats them: same spine (beats in order, every sentence linked to the one before), never the same facts or hooks. Each script the writer makes is added at the top in this format. Kept to the last 12.
 
+## lifeboat (philosophy, 2026-11-27)
+
+Angle: If killing one person could save three, is it still murder?
+Logline: Poe imagined castaways eating Richard Parker, and in 1884 it happened to a real Richard Parker, so is killing one to save three murder? The Mignonette sank, four men drifted 19 days, so the captain killed the dying cabin boy, but they hid nothing, because sailors trusted a custom of the sea, but the court made it a test case and ruled necessity no defence, because no one may judge whose life is worth less, but the Crown cut the death sentence to six months, so law said murder and mercy said six months.
+On-screen hook: POE WROTE IT FIRST
+
+[hook] In 1838, Poe wrote about castaways eating a boy named Richard Parker.
+[hook / but] In 1884, castaways really did, and his name was Richard Parker.
+[question / so] So if killing one could save three, is it still murder?
+[reveal1 / answer] The yacht Mignonette sank in the South Atlantic that July.
+[reveal1 / detail] Four men drifted in a small dinghy with two tins of turnips.
+[reveal1 / detail] After 19 days, the 17-year-old cabin boy, sick from drinking seawater, lay dying.
+[reveal1 / so] So the captain killed him, and the three men ate him.
+[reveal2 / but] But they didn't hide it.
+[reveal2 / detail] Rescued days later, they told the police in Falmouth everything.
+[reveal2 / because] Sailors believed in a custom of the sea: in extremity, someone must die.
+[reveal2 / so] Most of Falmouth took their side, and the sailor who had refused to join in was never charged.
+[reveal3 / but] But the court turned it into a test case.
+[reveal3 / detail] The judges ruled that necessity is no defence to murder.
+[reveal3 / because] Who is to judge, they asked, whose life is worth less? And the boy had drawn no lot.
+[reveal3 / so] So both men were sentenced to death.
+[turn / but] But the Crown cut it to six months in prison.
+[turn / detail] The captain moved to Sydney, and in 1900 became the city's first victim of bubonic plague.
+[payoff / so] So the law said murder, and mercy said six months, both at once.
+[payoff / so] Adrift and starving, would you have drawn lots?
+
 ## folies-bergere (paintings, 2026-11-27)
 
 Angle: Why doesn't the mirror in Manet's bar make sense?
@@ -249,25 +275,3 @@ On-screen hook: A LAST-MINUTE STAND-IN
 [reveal3 / so] So an arrangement in grey became the face of motherhood.
 [turn / but] But Whistler had left America at 21, and never went back.
 [payoff / so] So America's most famous mother was painted in London, by a son who stayed away, and hangs in Paris.
-
-## fighting-temeraire (paintings, 2026-11-27)
-
-Angle: Why does Britain love a painting of a war hero being towed to the scrapyard?
-Logline: Britain voted this its greatest painting, but it shows a warship going to be scrapped, so why? She fought at Trafalgar, but the navy sold her in 1838, so a steam tug hauled her to the breakers, but Turner changed the facts, restoring the stripped masts and painting her as a ghost behind a smoking tug, so it became a funeral for the age of sail with a sunset and a rising moon, but Turner never sold it, so the old hero stayed in harbour for everyone.
-On-screen hook: A WARSHIP ON ITS WAY TO SCRAP
-
-[hook] In 2005, Britain voted this its greatest painting.
-[hook / but] It shows a warship being towed away to be scrapped.
-[question / so] So why do people love a picture of a hero going to its death?
-[reveal1 / answer] HMS Temeraire fought at Trafalgar in 1805, right behind Nelson's flagship.
-[reveal1 / but] In 1838, the navy sold her for scrap.
-[reveal1 / so] So a steam tug hauled her up the Thames to a breaker's yard at Rotherhithe.
-[reveal2 / but] But Turner changed what really happened.
-[reveal2 / detail] Her masts had already been stripped; he put them back.
-[reveal2 / detail] He painted her pale as a ghost, and the tug dark, squat and smoking.
-[reveal3 / so] So this isn't a news picture; it's a funeral for the age of sail.
-[reveal3 / detail] The sun goes down on one side; a thin new moon rises on the other.
-[reveal3 / so] One age sets as another begins.
-[turn / but] But Turner, then 64, never sold it.
-[turn / detail] He called it his darling, and left it to the nation.
-[payoff / so] So the old hero never reached the scrapyard: it's still in harbour, in the National Gallery.

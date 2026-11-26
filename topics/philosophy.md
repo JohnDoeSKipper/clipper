@@ -28,7 +28,7 @@ Check what the original experiment or argument actually says (and whether later 
 - made | sunk-cost | The Sunk Cost Fallacy | clay | a bad film and a paid ticket; a walk to the door
 - made | invisible-gorilla | The Invisible Gorilla | clay | count the passes; what you missed
 - made | achilles-tortoise | Achilles and the Tortoise (Zeno) | clay | a race where the runner can never catch up; arrows and halving distances
-- requested | lifeboat | The Lifeboat Dilemma | clay | a boat on open sea with one seat too few
+- made | lifeboat | The Lifeboat Dilemma | clay | a boat on open sea with one seat too few
 - requested | newcombs-paradox | Newcomb's Paradox | ps2 | a glass box and a closed box; a predictor robot that is never wrong
 - requested | laplaces-demon | Laplace's Demon | ps2 | a mind that knows every atom; is your next choice already written?
 - requested | grandfather-paradox | The Grandfather Paradox | ps2 | a time-travel door; you meet your grandfather

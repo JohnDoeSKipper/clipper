@@ -1,0 +1,721 @@
+{
+ "id": "lifeboat",
+ "channel": "philosophy",
+ "style": "clay",
+ "title": "THE LIFEBOAT",
+ "angle": "If killing one person could save three, is it still murder?",
+ "answer": "An English court said yes: in R v Dudley and Stephens (1884) necessity was ruled no defence to murder, because no one can be judge of whose life is worth less, and the cabin boy drew no lot; yet public sympathy and a commuted six-month sentence show the law and mercy pulling apart.",
+ "logline": "Poe imagined castaways eating Richard Parker, and in 1884 it happened to a real Richard Parker, so is killing one to save three murder? The Mignonette sank, four men drifted 19 days, so the captain killed the dying cabin boy, but they hid nothing, because sailors trusted a custom of the sea, but the court made it a test case and ruled necessity no defence, because no one may judge whose life is worth less, but the Crown cut the death sentence to six months, so law said murder and mercy said six months.",
+ "hook_text": "POE WROTE IT FIRST",
+ "hooks": [
+  "Three sailors confessed to eating the cabin boy, and expected to go free.",
+  "The court asked: who decides whose life is worth less?"
+ ],
+ "world": {
+  "scenery": "open",
+  "ground": "#5C93C9"
+ },
+ "script": [
+  {
+   "text": "In 1838, Poe wrote about castaways eating a boy named Richard Parker.",
+   "say": "In eighteen thirty-eight, Poe wrote about castaways eating a boy named Richard Parker.",
+   "beat": "hook"
+  },
+  {
+   "text": "In 1884, castaways really did, and his name was Richard Parker.",
+   "say": "In eighteen eighty-four, castaways really did, and his name was Richard Parker.",
+   "beat": "hook",
+   "link": "but"
+  },
+  {
+   "text": "So if killing one could save three, is it still murder?",
+   "beat": "question",
+   "link": "so"
+  },
+  {
+   "text": "The yacht Mignonette sank in the South Atlantic that July.",
+   "say": "The yacht Min-yon-et sank in the South Atlantic that July.",
+   "beat": "reveal1",
+   "link": "answer"
+  },
+  {
+   "text": "Four men drifted in a small dinghy with two tins of turnips.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "After 19 days, the 17-year-old cabin boy, sick from drinking seawater, lay dying.",
+   "say": "After nineteen days, the seventeen-year-old cabin boy, sick from drinking seawater, lay dying.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "So the captain killed him, and the three men ate him.",
+   "beat": "reveal1",
+   "link": "so"
+  },
+  {
+   "text": "But they didn't hide it.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "Rescued days later, they told the police in Falmouth everything.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "Sailors believed in a custom of the sea: in extremity, someone must die.",
+   "beat": "reveal2",
+   "link": "because"
+  },
+  {
+   "text": "Most of Falmouth took their side, and the sailor who had refused to join in was never charged.",
+   "beat": "reveal2",
+   "link": "so"
+  },
+  {
+   "text": "But the court turned it into a test case.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "The judges ruled that necessity is no defence to murder.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "Who is to judge, they asked, whose life is worth less? And the boy had drawn no lot.",
+   "beat": "reveal3",
+   "link": "because"
+  },
+  {
+   "text": "So both men were sentenced to death.",
+   "beat": "reveal3",
+   "link": "so"
+  },
+  {
+   "text": "But the Crown cut it to six months in prison.",
+   "beat": "turn",
+   "link": "but"
+  },
+  {
+   "text": "The captain moved to Sydney, and in 1900 became the city's first victim of bubonic plague.",
+   "say": "The captain moved to Sydney, and in nineteen hundred became the city's first victim of bubonic plague.",
+   "beat": "turn",
+   "link": "detail"
+  },
+  {
+   "text": "So the law said murder, and mercy said six months, both at once.",
+   "beat": "payoff",
+   "link": "so"
+  },
+  {
+   "text": "Adrift and starving, would you have drawn lots?",
+   "beat": "payoff",
+   "link": "so"
+  }
+ ],
+ "objects": [
+  {
+   "id": "boat",
+   "kind": "ship",
+   "at": [
+    0,
+    0,
+    0
+   ],
+   "face": 0,
+   "scale": 0.55
+  },
+  {
+   "id": "you",
+   "kind": "person",
+   "look": "you",
+   "at": [
+    -0.7,
+    0.55,
+    0.4
+   ],
+   "face": "boy"
+  },
+  {
+   "id": "cap",
+   "kind": "person",
+   "look": "elder",
+   "at": [
+    0.7,
+    0.55,
+    0.5
+   ],
+   "face": "boy"
+  },
+  {
+   "id": "mate",
+   "kind": "person",
+   "look": "b",
+   "at": [
+    0.0,
+    0.55,
+    -0.9
+   ],
+   "face": "boy"
+  },
+  {
+   "id": "boy",
+   "kind": "person",
+   "look": "one",
+   "at": [
+    0.0,
+    0.55,
+    0.9
+   ],
+   "face": 0,
+   "scale": 0.85
+  },
+  {
+   "id": "judge",
+   "kind": "person",
+   "look": "stranger",
+   "at": [
+    4.2,
+    0,
+    -1.0
+   ],
+   "face": "boat",
+   "show": false
+  }
+ ],
+ "shots": [
+  {
+   "at": 0,
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "boat"
+    ]
+   }
+  },
+  {
+   "at": "1",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "boy"
+    ]
+   },
+   "focus": [
+    "you",
+    "boy"
+   ]
+  },
+  {
+   "at": "2",
+   "cam": {
+    "preset": "tight",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "3",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "boat"
+    ]
+   }
+  },
+  {
+   "at": "4",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "cap",
+     "mate"
+    ]
+   },
+   "focus": [
+    "you",
+    "cap",
+    "mate"
+   ]
+  },
+  {
+   "at": "5",
+   "cam": {
+    "preset": "close",
+    "on": "boy"
+   },
+   "focus": [
+    "boy"
+   ]
+  },
+  {
+   "at": "6",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "cap",
+     "boy"
+    ]
+   },
+   "focus": [
+    "cap",
+    "boy"
+   ]
+  },
+  {
+   "at": "7",
+   "cam": {
+    "preset": "close",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "8",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "boat",
+     "judge"
+    ]
+   }
+  },
+  {
+   "at": "9",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "cap",
+     "mate"
+    ]
+   },
+   "focus": [
+    "cap",
+    "mate"
+   ]
+  },
+  {
+   "at": "10",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "mate"
+    ]
+   },
+   "focus": [
+    "you",
+    "mate"
+   ]
+  },
+  {
+   "at": "11",
+   "cam": {
+    "preset": "close",
+    "on": "judge"
+   },
+   "focus": [
+    "judge"
+   ]
+  },
+  {
+   "at": "12",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "judge",
+     "boat"
+    ]
+   },
+   "focus": [
+    "judge"
+   ]
+  },
+  {
+   "at": "13",
+   "cam": {
+    "preset": "close",
+    "on": "judge",
+    "side": 1
+   },
+   "focus": [
+    "judge"
+   ]
+  },
+  {
+   "at": "14",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "cap",
+     "mate"
+    ],
+    "side": 1
+   },
+   "focus": [
+    "cap",
+    "mate"
+   ]
+  },
+  {
+   "at": "15",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "boat",
+     "judge"
+    ]
+   }
+  },
+  {
+   "at": "16",
+   "cam": {
+    "preset": "close",
+    "on": "cap"
+   },
+   "focus": [
+    "cap"
+   ]
+  },
+  {
+   "at": "17",
+   "cam": {
+    "preset": "close",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "18",
+   "cam": {
+    "preset": "tight",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "18:would",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "cap"
+    ]
+   },
+   "focus": [
+    "you",
+    "cap"
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "id": "boat",
+   "at": 0,
+   "dur": 3.0,
+   "wobble": true
+  },
+  {
+   "id": "you",
+   "at": "2:murder",
+   "dur": 0.4,
+   "pose": "think"
+  },
+  {
+   "id": "you",
+   "at": "3",
+   "dur": 0.4,
+   "pose": "stand"
+  },
+  {
+   "id": "boy",
+   "at": "5:dying",
+   "dur": 0.8,
+   "tip": -90,
+   "pos": [
+    0,
+    0.75,
+    0.9
+   ]
+  },
+  {
+   "id": "cap",
+   "at": "6:killed",
+   "dur": 0.4,
+   "pose": "push"
+  },
+  {
+   "id": "boy",
+   "at": "6:ate",
+   "dur": 0.4,
+   "show": false
+  },
+  {
+   "id": [
+    "you",
+    "mate"
+   ],
+   "at": "6:ate",
+   "dur": 0.4,
+   "pose": "sad"
+  },
+  {
+   "id": [
+    "you",
+    "mate",
+    "cap"
+   ],
+   "at": "7",
+   "dur": 0.4,
+   "pose": "stand"
+  },
+  {
+   "id": "judge",
+   "at": "11",
+   "dur": 0.4,
+   "show": true
+  },
+  {
+   "id": "judge",
+   "at": "12:no",
+   "dur": 0.4,
+   "pose": "point"
+  },
+  {
+   "id": "judge",
+   "at": "13:worth",
+   "dur": 0.4,
+   "pose": "shrug"
+  },
+  {
+   "id": [
+    "cap",
+    "mate"
+   ],
+   "at": "14:death",
+   "dur": 0.4,
+   "pose": "shock"
+  },
+  {
+   "id": [
+    "cap",
+    "mate"
+   ],
+   "at": "15:six",
+   "dur": 0.4,
+   "pose": "stand"
+  },
+  {
+   "id": "you",
+   "at": "18",
+   "dur": 0.4,
+   "pose": "think"
+  }
+ ],
+ "overlays": [
+  {
+   "type": "photo",
+   "pick": [
+    "poe",
+    0
+   ],
+   "caption": "Edgar Allan Poe, author of Arthur Gordon Pym, 1838",
+   "from": "0:Poe",
+   "to": "1-0.2"
+  },
+  {
+   "type": "label",
+   "text": "RICHARD PARKER",
+   "on": "boy",
+   "from": "1:Richard",
+   "to": "2"
+  },
+  {
+   "type": "label",
+   "text": "YOU",
+   "color": "yellow",
+   "on": "you",
+   "from": "2",
+   "to": "3"
+  },
+  {
+   "type": "question",
+   "on": "you",
+   "from": "2:murder",
+   "to": "3"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "dudley",
+    0
+   ],
+   "caption": "The Mignonette, sketched by her captain",
+   "from": "3:Mignonette",
+   "to": "4-0.2"
+  },
+  {
+   "type": "number",
+   "text": "4",
+   "on": "boat",
+   "from": "4:Four",
+   "to": "4:tins"
+  },
+  {
+   "type": "label",
+   "text": "2 TINS OF TURNIPS",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "4:tins",
+   "to": "5"
+  },
+  {
+   "type": "number",
+   "text": "19 DAYS",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "5:19",
+   "to": "6"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "mignonette",
+    0
+   ],
+   "caption": "Richard Parker's memorial, Southampton",
+   "from": "6:ate",
+   "to": "7-0.2"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "falmouth",
+    0
+   ],
+   "caption": "Falmouth harbour, Cornwall",
+   "from": "8:Falmouth",
+   "to": "9-0.2"
+  },
+  {
+   "type": "label",
+   "text": "THE CUSTOM OF THE SEA",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "9:custom",
+   "to": "11"
+  },
+  {
+   "type": "check",
+   "on": "mate",
+   "from": "10:never",
+   "to": "11"
+  },
+  {
+   "type": "label",
+   "text": "NECESSITY ≠ DEFENCE",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "12:necessity",
+   "to": "13"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "dudley",
+    1
+   ],
+   "caption": "R v Dudley and Stephens, 1884",
+   "from": "13:lot",
+   "to": "14-0.2"
+  },
+  {
+   "type": "label",
+   "text": "DEATH",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "14:death",
+   "to": "15"
+  },
+  {
+   "type": "label",
+   "text": "6 MONTHS",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "15:six",
+   "to": "17"
+  },
+  {
+   "type": "label",
+   "text": "SYDNEY, 1900",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "16:Sydney",
+   "to": "17"
+  },
+  {
+   "type": "pill",
+   "text": "Would you draw lots?",
+   "from": "18:lots"
+  }
+ ],
+ "sfx": [
+  {
+   "at": "6:killed",
+   "s": "thud",
+   "gain": 0.25
+  },
+  {
+   "at": "12:no",
+   "s": "bong",
+   "gain": 0.25
+  }
+ ],
+ "music": {
+  "mood": "dark"
+ },
+ "sources": [
+  "https://en.wikipedia.org/wiki/R_v_Dudley_and_Stephens",
+  "https://www.bailii.org/ew/cases/EWHC/QB/1884/2.html",
+  "https://www.law.cornell.edu/wex/necessity",
+  "https://en.wikipedia.org/wiki/The_Narrative_of_Arthur_Gordon_Pym_of_Nantucket"
+ ],
+ "post": {
+  "caption": "In 1838, Poe wrote about castaways eating a boy named Richard Parker. In 1884 it really happened, to a cabin boy named Richard Parker, and the court had to decide: is killing one to save three murder?\nWhat would you have done?",
+  "tags": [
+   "#philosophy",
+   "#ethics",
+   "#law",
+   "#truecrime",
+   "#moraldilemma"
+  ],
+  "youtube_title": "Poe Wrote It in 1838. In 1884 It Really Happened"
+ }
+}
