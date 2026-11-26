@@ -1,0 +1,290 @@
+{
+ "id": "raft-medusa",
+ "channel": "paintings",
+ "angle": "Why did a painting of a shipwreck embarrass the French government?",
+ "answer": "The Méduse was wrecked under a captain who owed his post to the restored king; the survivors' book exposed mutiny and cannibalism, and Géricault painted it with forensic realism, calling it only 'Scene of a Shipwreck' though everyone knew which; he chose the moment the rescue ship was vanishing, when hope could still fail.",
+ "logline": "A speck on the horizon is the point of the painting, so why did it anger the government? The Méduse ran aground under a captain who owed his post to the king, so 150 people were cast off on a raft, but only 15 survived, and a survivors' book exposed cannibalism, so it became a scandal, but Géricault wanted it exact, so he studied severed heads and posed Delacroix as a corpse, but the real ship sailed out of sight, so he painted the moment hope could still fail, and called it just Scene of a Shipwreck.",
+ "hook_text": "THE FIRST SHIP IN 13 DAYS",
+ "hooks": [
+  "Delacroix posed as a corpse for this painting.",
+  "Géricault studied severed heads to paint this raft."
+ ],
+ "painting": {
+  "title": "The Raft of the Medusa",
+  "artist": "Théodore Géricault",
+  "year": "1818-1819",
+  "museum": "Musée du Louvre, Paris"
+ },
+ "script": [
+  {
+   "text": "That speck on the horizon is the whole point of this painting.",
+   "beat": "hook"
+  },
+  {
+   "text": "It's a ship, the first these men had seen in thirteen days.",
+   "beat": "hook",
+   "link": "detail"
+  },
+  {
+   "text": "So why did this shipwreck enrage the French government?",
+   "beat": "question",
+   "link": "so"
+  },
+  {
+   "text": "In 1816, the frigate Méduse ran aground off West Africa.",
+   "say": "In eighteen sixteen, the frigate May-dooz ran aground off West Africa.",
+   "beat": "reveal1",
+   "link": "answer"
+  },
+  {
+   "text": "Its captain owed his post to the king, and had barely sailed in twenty years.",
+   "beat": "reveal1",
+   "link": "because"
+  },
+  {
+   "text": "So when the lifeboats cut the towropes, about 150 people were left on a raft.",
+   "beat": "reveal1",
+   "link": "so"
+  },
+  {
+   "text": "But after thirteen days, only fifteen were alive.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "Two survivors published what happened: mutiny, starvation, cannibalism.",
+   "beat": "reveal2",
+   "link": "so"
+  },
+  {
+   "text": "So the wreck became a scandal for the king's government.",
+   "beat": "reveal2",
+   "link": "so"
+  },
+  {
+   "text": "But Géricault, aged 27, wanted the horror exact.",
+   "say": "But Zheri-ko, aged twenty-seven, wanted the horror exact.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "He interviewed survivors and studied severed heads from a hospital.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "His young friend Delacroix posed for this dead man, face down.",
+   "say": "His young friend Della-kwah posed for this dead man, face down.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "But look again at that speck: the real ship sailed out of sight.",
+   "beat": "turn",
+   "link": "but"
+  },
+  {
+   "text": "It returned two hours later; he painted the moment hope might fail.",
+   "beat": "turn",
+   "link": "detail"
+  },
+  {
+   "text": "He called it simply Scene of a Shipwreck, and all Paris knew which.",
+   "beat": "payoff",
+   "link": "so"
+  }
+ ],
+ "music": {
+  "piece": "chopin-prelude-c-minor"
+ },
+ "timeline": [
+  {
+   "type": "reveal",
+   "from": [
+    0.785,
+    0.385,
+    3.0
+   ],
+   "until": 3.4
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.785,
+    0.385,
+    0.03,
+    0.03
+   ],
+   "ring": "1",
+   "zoom": "1+0.4",
+   "label": "THE ARGUS",
+   "labelAt": "1:ship",
+   "out": "2-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "arguin",
+    0
+   ],
+   "caption": "The coast of Mauritania, seen from space",
+   "at": "3",
+   "to": "4-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "louis",
+    1
+   ],
+   "caption": "Louis XVIII, the restored king",
+   "at": "4",
+   "to": "5-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.5,
+    0.78,
+    0.42,
+    0.18
+   ],
+   "ring": "5",
+   "zoom": "5+0.4",
+   "label": "ABOUT 150 PEOPLE",
+   "labelAt": "5:150",
+   "out": "6-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "savigny",
+    1
+   ],
+   "caption": "Plan of the raft, from the survivors' book",
+   "at": "6",
+   "to": "7-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "savigny",
+    2
+   ],
+   "caption": "From Savigny and Corréard's account, 1818",
+   "at": "7",
+   "to": "8-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.31,
+    0.6,
+    0.08,
+    0.11
+   ],
+   "ring": "8",
+   "zoom": "8+0.4",
+   "label": "A NATIONAL SCANDAL",
+   "labelAt": "8:scandal",
+   "out": "9-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "gericault",
+    1
+   ],
+   "caption": "Théodore Géricault, by Horace Vernet",
+   "at": "9",
+   "to": "10-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "heads",
+    0
+   ],
+   "caption": "Géricault, Severed Heads, Stockholm",
+   "at": "10",
+   "to": "11-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.49,
+    0.82,
+    0.11,
+    0.08
+   ],
+   "ring": "11",
+   "zoom": "11+0.4",
+   "label": "DELACROIX",
+   "labelAt": "11:posed",
+   "out": "11:face-0.1"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "delacroix",
+    0
+   ],
+   "caption": "Delacroix, self-portrait",
+   "at": "11:face+0.2",
+   "to": "12-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.785,
+    0.385,
+    0.03,
+    0.03
+   ],
+   "ring": "12",
+   "zoom": "12+0.4",
+   "label": "SAILING AWAY",
+   "labelAt": "12:sight",
+   "out": "13-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.7,
+    0.28,
+    0.08,
+    0.17
+   ],
+   "ring": "13",
+   "zoom": "13+0.4",
+   "label": "HOPE, OR NOT",
+   "labelAt": "13:hope",
+   "out": "14-0.3"
+  }
+ ],
+ "sources": [
+  "https://www.louvre.fr/en/explore/the-palace/the-raft-of-the-medusa",
+  "https://smarthistory.org/theodore-gericault-raft-of-the-medusa/",
+  "https://www.britannica.com/topic/The-Raft-of-the-Medusa",
+  "https://www.nationalmuseum.se/en/explore-art-and-design/collections/the-severed-heads",
+  "https://en.wikipedia.org/wiki/The_Raft_of_the_Medusa"
+ ],
+ "post": {
+  "caption": "That speck on the horizon is a rescue ship, and in real life it sailed out of sight. Géricault studied severed heads and had Delacroix pose as a corpse to paint the wreck France's government wanted forgotten.\nCan you spot the ship?",
+  "tags": [
+   "#arthistory",
+   "#gericault",
+   "#raftofthemedusa",
+   "#louvre",
+   "#romanticism"
+  ],
+  "youtube_title": "The Tiny Ship That Explains The Raft of the Medusa"
+ }
+}

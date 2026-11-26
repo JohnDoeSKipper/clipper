@@ -1,6 +1,28 @@
 # Model scripts (newest first)
 The writer reads the top two of its channel before writing and matches or beats them: same spine (beats in order, every sentence linked to the one before), never the same facts or hooks. Each script the writer makes is added at the top in this format. Kept to the last 12.
 
+## raft-medusa (paintings, 2026-11-27)
+
+Angle: Why did a painting of a shipwreck embarrass the French government?
+Logline: A speck on the horizon is the point of the painting, so why did it anger the government? The Méduse ran aground under a captain who owed his post to the king, so 150 people were cast off on a raft, but only 15 survived, and a survivors' book exposed cannibalism, so it became a scandal, but Géricault wanted it exact, so he studied severed heads and posed Delacroix as a corpse, but the real ship sailed out of sight, so he painted the moment hope could still fail, and called it just Scene of a Shipwreck.
+On-screen hook: THE FIRST SHIP IN 13 DAYS
+
+[hook] That speck on the horizon is the whole point of this painting.
+[hook / detail] It's a ship, the first these men had seen in thirteen days.
+[question / so] So why did this shipwreck enrage the French government?
+[reveal1 / answer] In 1816, the frigate Méduse ran aground off West Africa.
+[reveal1 / because] Its captain owed his post to the king, and had barely sailed in twenty years.
+[reveal1 / so] So when the lifeboats cut the towropes, about 150 people were left on a raft.
+[reveal2 / but] But after thirteen days, only fifteen were alive.
+[reveal2 / so] Two survivors published what happened: mutiny, starvation, cannibalism.
+[reveal2 / so] So the wreck became a scandal for the king's government.
+[reveal3 / but] But Géricault, aged 27, wanted the horror exact.
+[reveal3 / detail] He interviewed survivors and studied severed heads from a hospital.
+[reveal3 / detail] His young friend Delacroix posed for this dead man, face down.
+[turn / but] But look again at that speck: the real ship sailed out of sight.
+[turn / detail] It returned two hours later; he painted the moment hope might fail.
+[payoff / so] He called it simply Scene of a Shipwreck, and all Paris knew which.
+
 ## buridans-donkey (philosophy, 2026-11-27)
 
 Angle: Can a mind with no reason to choose ever choose at all?
@@ -257,25 +279,3 @@ On-screen hook: INVISIBLE. WOULD YOU STAY GOOD?
 [turn / so] Plato spent eight more books on why: the unjust man isn't free, he's a slave to his appetites.
 [payoff / answer] So the ring doesn't change who you are; it only removes your excuse.
 [payoff / so] What would you do first, and what does that say about you?
-
-## third-of-may (paintings, 2026-11-27)
-
-Angle: Why did a painter who had sworn loyalty to the French king paint the French army's darkest night?
-Logline: Goya swore loyalty to Joseph Bonaparte, kept his court post and took the king's medal, but by 1814 the French had fled and collaborators faced inquiries, so Goya asked to paint the uprising, but he painted no victory, only faceless rifles, a lantern and a man with wounded palms, but at his feet lies the man shot a moment before, so his proof of loyalty became a picture of war with no heroes, only a queue.
-On-screen hook: HE SERVED THE FRENCH KING
-
-[hook] Goya swore loyalty to Joseph Bonaparte, the French king of Spain.
-[hook / but] But in 1814, he painted Joseph's soldiers shooting Spaniards.
-[question / so] So why would a painter who served the French paint this?
-[reveal1 / answer] Under the French, he stayed first painter to the court.
-[reveal1 / detail] In 1811, he even accepted King Joseph's Royal Order of Spain.
-[reveal2 / but] But by 1814 the French had fled, and collaborators faced loyalty inquiries.
-[reveal2 / so] So Goya asked the new government to fund paintings of the uprising.
-[reveal3 / but] But he didn't paint a victory, only that night's executions on Principe Pio hill.
-[reveal3 / detail] The soldiers have no faces, only a wall of backs and rifles.
-[reveal3 / detail] The only light is a lantern on the ground.
-[reveal3 / detail] It falls on a man with raised arms and Christ's wounds in his palms.
-[turn / but] But at his feet lies the man shot just before, arms flung the same way.
-[turn / detail] Behind him, the next men wait, covering their eyes.
-[payoff / answer] So his proof of loyalty became war with no heroes, only a queue.
-[payoff / so] Manet later borrowed its firing squad to shoot an emperor.
