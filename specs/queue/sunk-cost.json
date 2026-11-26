@@ -225,6 +225,17 @@
    }
   },
   {
+   "at": "3:ski",
+   "cam": {
+    "preset": "close",
+    "on": "you",
+    "side": 1
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
    "at": "4",
    "cam": {
     "preset": "mid",
@@ -310,6 +321,17 @@
    "focus": [
     "you",
     "cash"
+   ]
+  },
+  {
+   "at": "9:already",
+   "cam": {
+    "preset": "close",
+    "on": "you",
+    "side": -1
+   },
+   "focus": [
+    "you"
    ]
   },
   {
