@@ -1,0 +1,730 @@
+{
+ "id": "violinist",
+ "channel": "philosophy",
+ "style": "ps2",
+ "title": "THE VIOLINIST",
+ "angle": "If someone needs your body to stay alive, are you obliged to let them use it?",
+ "answer": "Thomson argued that even if a foetus is a person, a right to life is not a right to use another's body, and US law agrees for the living: a court refused to force a man to donate marrow to his dying cousin; critics reply that pregnancy usually follows a choice and that unplugging lets die while abortion kills, so the real disagreement is about what we owe with our bodies.",
+ "logline": "You wake up plugged into a dying violinist, so must you stay? An MIT philosopher built the case in 1971 and expected most people to say you may unplug, but it was really about abortion: grant the foetus is a person, and a right to life still isn't a right to someone's body, but a Pittsburgh court faced it for real in 1978 and refused to force a marrow donation, so the dying man died, but critics answer that you were kidnapped and unplugging only lets die, so the question is what we owe each other's bodies.",
+ "hook_text": "PLUGGED INTO A STRANGER",
+ "hooks": [
+  "The philosopher who named the trolley problem wrote a stranger puzzle in 1971.",
+  "A court ruled a man did not have to give his dying cousin bone marrow."
+ ],
+ "world": {
+  "scenery": "room"
+ },
+ "script": [
+  {
+   "text": "You wake up with a stranger's blood running through your kidneys.",
+   "beat": "hook"
+  },
+  {
+   "text": "Unplug him, and he dies; stay in bed nine months, and he lives.",
+   "beat": "hook",
+   "link": "detail"
+  },
+  {
+   "text": "So are you obliged to stay plugged in?",
+   "beat": "question",
+   "link": "so"
+  },
+  {
+   "text": "An MIT philosopher, who later named the trolley problem, built this scene in 1971.",
+   "say": "An M I T philosopher, who later named the trolley problem, built this scene in nineteen seventy-one.",
+   "beat": "reveal1",
+   "link": "answer"
+  },
+  {
+   "text": "A society of music lovers kidnapped you: only your blood could save their famous violinist.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "Most people say you may unplug, even though he's a person with a right to life.",
+   "beat": "reveal1",
+   "link": "so"
+  },
+  {
+   "text": "But the violinist was never about music: the paper was about abortion.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "For argument's sake, she granted that a foetus is a person from conception.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "Even so, she argued, a right to life isn't a right to use someone else's body.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "But a court had to face the same question for real, in Pittsburgh in 1978.",
+   "say": "But a court had to face the same question for real, in Pittsburgh in nineteen seventy-eight.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "A man dying of a rare anaemia needed bone marrow, and only his cousin matched.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "The cousin refused; the judge called that morally indefensible.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "Still, the court would not force him, and the man died weeks later.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "But critics answer: you were kidnapped, while most pregnancies follow a choice.",
+   "beat": "turn",
+   "link": "but"
+  },
+  {
+   "text": "Unplugging lets someone die, they add; abortion kills.",
+   "beat": "turn",
+   "link": "detail"
+  },
+  {
+   "text": "So people split less over who is a person than over what we owe with our bodies.",
+   "beat": "payoff",
+   "link": "so"
+  },
+  {
+   "text": "Does a right to life include a right to someone else's body?",
+   "beat": "payoff",
+   "link": "so"
+  }
+ ],
+ "objects": [
+  {
+   "id": "bedY",
+   "kind": "bed",
+   "at": [
+    -2.2,
+    0,
+    -1.0
+   ],
+   "face": 90
+  },
+  {
+   "id": "bedV",
+   "kind": "bed",
+   "at": [
+    2.2,
+    0,
+    -1.0
+   ],
+   "face": -90
+  },
+  {
+   "id": "you",
+   "kind": "person",
+   "look": "you",
+   "at": [
+    -1.3,
+    0,
+    1.8
+   ],
+   "face": 20
+  },
+  {
+   "id": "vio",
+   "kind": "person",
+   "look": "stranger",
+   "at": [
+    1.3,
+    0,
+    1.8
+   ],
+   "face": -20
+  },
+  {
+   "id": "tube",
+   "kind": "arc",
+   "from": [
+    -0.95,
+    1.25,
+    1.8
+   ],
+   "via": [
+    0,
+    2.4,
+    1.8
+   ],
+   "to": [
+    0.95,
+    1.25,
+    1.8
+   ]
+  },
+  {
+   "id": "mon",
+   "kind": "screen",
+   "at": [
+    0,
+    0,
+    -2.2
+   ],
+   "face": 0
+  },
+  {
+   "id": "door",
+   "kind": "door",
+   "at": [
+    4.6,
+    0,
+    -2.6
+   ],
+   "face": "you"
+  },
+  {
+   "id": "fans",
+   "kind": "person",
+   "look": "a",
+   "at": [
+    3.4,
+    0,
+    2.8
+   ],
+   "face": "you",
+   "show": false
+  },
+  {
+   "id": "fans2",
+   "kind": "person",
+   "look": "b",
+   "at": [
+    4.3,
+    0,
+    2.0
+   ],
+   "face": "you",
+   "show": false
+  },
+  {
+   "id": "cousin",
+   "kind": "person",
+   "look": "c",
+   "at": [
+    -3.4,
+    0,
+    2.0
+   ],
+   "face": "vio",
+   "show": false
+  }
+ ],
+ "shots": [
+  {
+   "at": 0,
+   "cam": {
+    "preset": "close",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "1",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "vio"
+    ]
+   },
+   "focus": [
+    "you",
+    "vio"
+   ]
+  },
+  {
+   "at": "2",
+   "cam": {
+    "preset": "tight",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "3",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "bedY",
+     "bedV",
+     "mon"
+    ]
+   }
+  },
+  {
+   "at": "4",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "fans",
+     "fans2",
+     "vio"
+    ]
+   },
+   "focus": [
+    "fans",
+    "fans2",
+    "vio"
+   ]
+  },
+  {
+   "at": "5",
+   "cam": {
+    "preset": "close",
+    "on": "vio"
+   },
+   "focus": [
+    "vio"
+   ]
+  },
+  {
+   "at": "6",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "vio"
+    ],
+    "side": 1
+   },
+   "focus": [
+    "you",
+    "vio"
+   ]
+  },
+  {
+   "at": "7",
+   "cam": {
+    "preset": "close",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "8",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "vio"
+    ],
+    "side": -1
+   },
+   "focus": [
+    "you",
+    "vio"
+   ]
+  },
+  {
+   "at": "9",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "you",
+     "vio",
+     "cousin"
+    ]
+   }
+  },
+  {
+   "at": "10",
+   "cam": {
+    "preset": "close",
+    "on": "vio"
+   },
+   "focus": [
+    "vio"
+   ]
+  },
+  {
+   "at": "11",
+   "cam": {
+    "preset": "close",
+    "on": "cousin"
+   },
+   "focus": [
+    "cousin"
+   ]
+  },
+  {
+   "at": "12",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "cousin",
+     "vio"
+    ]
+   },
+   "focus": [
+    "cousin",
+    "vio"
+   ]
+  },
+  {
+   "at": "13",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "bedY",
+     "bedV",
+     "door"
+    ]
+   }
+  },
+  {
+   "at": "14",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "vio"
+    ]
+   },
+   "focus": [
+    "you",
+    "vio"
+   ]
+  },
+  {
+   "at": "15",
+   "cam": {
+    "preset": "close",
+    "on": "you",
+    "side": 1
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "16",
+   "cam": {
+    "preset": "tight",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "id": "vio",
+   "at": 0,
+   "dur": 0.4,
+   "pose": "sad"
+  },
+  {
+   "id": "tube",
+   "at": 0,
+   "dur": 1.5,
+   "progress": 1
+  },
+  {
+   "id": "you",
+   "at": "1:Unplug",
+   "dur": 0.4,
+   "pose": "shock"
+  },
+  {
+   "id": "you",
+   "at": "2",
+   "dur": 0.4,
+   "pose": "think"
+  },
+  {
+   "id": [
+    "fans",
+    "fans2"
+   ],
+   "at": "4:society",
+   "dur": 0.4,
+   "show": true
+  },
+  {
+   "id": [
+    "fans",
+    "fans2"
+   ],
+   "at": "4:kidnapped",
+   "dur": 0.4,
+   "pose": "point"
+  },
+  {
+   "id": [
+    "fans",
+    "fans2"
+   ],
+   "at": "5",
+   "dur": 0.3,
+   "show": false
+  },
+  {
+   "id": "you",
+   "at": "5:unplug",
+   "dur": 0.4,
+   "pose": "shrug"
+  },
+  {
+   "id": "you",
+   "at": "7",
+   "dur": 0.4,
+   "pose": "stand"
+  },
+  {
+   "id": "you",
+   "at": "8:right",
+   "dur": 0.4,
+   "pose": "point"
+  },
+  {
+   "id": "cousin",
+   "at": "9:court",
+   "dur": 0.4,
+   "show": true
+  },
+  {
+   "id": "cousin",
+   "at": "11:refused",
+   "dur": 0.4,
+   "pose": "shrug"
+  },
+  {
+   "id": "tube",
+   "at": "12:force",
+   "dur": 0.8,
+   "progress": 0
+  },
+  {
+   "id": "cousin",
+   "at": "13",
+   "dur": 0.3,
+   "show": false
+  },
+  {
+   "id": "you",
+   "at": "13:choice",
+   "dur": 0.4,
+   "pose": "think"
+  },
+  {
+   "id": "you",
+   "at": "16",
+   "dur": 0.4,
+   "pose": "think"
+  }
+ ],
+ "overlays": [
+  {
+   "type": "label",
+   "text": "YOU",
+   "color": "yellow",
+   "on": "you",
+   "from": "0:You",
+   "to": "1"
+  },
+  {
+   "type": "label",
+   "text": "UNPLUG = HE DIES",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "1:dies",
+   "to": "1:nine"
+  },
+  {
+   "type": "label",
+   "text": "9 MONTHS",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "1:nine",
+   "to": "2"
+  },
+  {
+   "type": "question",
+   "on": "you",
+   "from": "2:obliged",
+   "to": "3"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "mit",
+    0
+   ],
+   "caption": "MIT, where the philosopher taught",
+   "from": "3",
+   "to": "3:trolley-0.1"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "trolley",
+    0
+   ],
+   "caption": "She coined 'the trolley problem' in 1976",
+   "from": "3:trolley",
+   "to": "4-0.2"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "violin",
+    0
+   ],
+   "caption": "A violin",
+   "from": "4:violinist",
+   "to": "5-0.2",
+   "pos": [
+    540,
+    700
+   ]
+  },
+  {
+   "type": "check",
+   "on": "you",
+   "from": "5:unplug",
+   "to": "6"
+  },
+  {
+   "type": "label",
+   "text": "A DEFENSE OF ABORTION, 1971",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "6:abortion",
+   "to": "7"
+  },
+  {
+   "type": "label",
+   "text": "FOETUS = PERSON (GRANTED)",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "7:granted",
+   "to": "8"
+  },
+  {
+   "type": "label",
+   "text": "RIGHT TO LIFE ≠ RIGHT TO YOUR BODY",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "8:right",
+   "to": "9"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "court",
+    1
+   ],
+   "caption": "Allegheny County Courthouse, Pittsburgh",
+   "from": "9:Pittsburgh",
+   "to": "10-0.2"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "marrow",
+    0
+   ],
+   "caption": "A bone marrow transplant",
+   "from": "10:marrow",
+   "to": "11-0.2"
+  },
+  {
+   "type": "xmark",
+   "on": "cousin",
+   "from": "11:refused",
+   "to": "12"
+  },
+  {
+   "type": "label",
+   "text": "KIDNAPPED ≠ CHOSEN",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "13:choice",
+   "to": "14"
+  },
+  {
+   "type": "label",
+   "text": "LET DIE ≠ KILL",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "14:kills",
+   "to": "15"
+  },
+  {
+   "type": "pill",
+   "text": "Your life, or your body?",
+   "from": "16:body"
+  }
+ ],
+ "sfx": [
+  {
+   "at": 0,
+   "s": "switch",
+   "gain": 0.25
+  },
+  {
+   "at": "1:Unplug",
+   "s": "click",
+   "gain": 0.25
+  },
+  {
+   "at": "12:force",
+   "s": "error",
+   "gain": 0.25
+  }
+ ],
+ "music": {
+  "mood": "dark"
+ },
+ "sources": [
+  "https://plato.stanford.edu/entries/abortion/",
+  "https://www.jstor.org/stable/2265091",
+  "https://iep.utm.edu/abortion/",
+  "https://en.wikipedia.org/wiki/McFall_v._Shimp",
+  "https://en.wikipedia.org/wiki/A_Defense_of_Abortion"
+ ],
+ "post": {
+  "caption": "You wake up plugged into a dying violinist: unplug, and he dies. A philosopher used this in 1971 to argue about abortion, and a 1978 court case faced the same question for real.\nDoes a right to life include a right to someone else's body?",
+  "tags": [
+   "#philosophy",
+   "#ethics",
+   "#thoughtexperiment",
+   "#bodilyautonomy",
+   "#moralphilosophy"
+  ],
+  "youtube_title": "Plugged Into a Stranger: The Violinist Problem"
+ }
+}

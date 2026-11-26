@@ -1,6 +1,30 @@
 # Model scripts (newest first)
 The writer reads the top two of its channel before writing and matches or beats them: same spine (beats in order, every sentence linked to the one before), never the same facts or hooks. Each script the writer makes is added at the top in this format. Kept to the last 12.
 
+## violinist (philosophy, 2026-11-27)
+
+Angle: If someone needs your body to stay alive, are you obliged to let them use it?
+Logline: You wake up plugged into a dying violinist, so must you stay? An MIT philosopher built the case in 1971 and expected most people to say you may unplug, but it was really about abortion: grant the foetus is a person, and a right to life still isn't a right to someone's body, but a Pittsburgh court faced it for real in 1978 and refused to force a marrow donation, so the dying man died, but critics answer that you were kidnapped and unplugging only lets die, so the question is what we owe each other's bodies.
+On-screen hook: PLUGGED INTO A STRANGER
+
+[hook] You wake up with a stranger's blood running through your kidneys.
+[hook / detail] Unplug him, and he dies; stay in bed nine months, and he lives.
+[question / so] So are you obliged to stay plugged in?
+[reveal1 / answer] An MIT philosopher, who later named the trolley problem, built this scene in 1971.
+[reveal1 / detail] A society of music lovers kidnapped you: only your blood could save their famous violinist.
+[reveal1 / so] Most people say you may unplug, even though he's a person with a right to life.
+[reveal2 / but] But the violinist was never about music: the paper was about abortion.
+[reveal2 / detail] For argument's sake, she granted that a foetus is a person from conception.
+[reveal2 / but] Even so, she argued, a right to life isn't a right to use someone else's body.
+[reveal3 / but] But a court had to face the same question for real, in Pittsburgh in 1978.
+[reveal3 / detail] A man dying of a rare anaemia needed bone marrow, and only his cousin matched.
+[reveal3 / detail] The cousin refused; the judge called that morally indefensible.
+[reveal3 / but] Still, the court would not force him, and the man died weeks later.
+[turn / but] But critics answer: you were kidnapped, while most pregnancies follow a choice.
+[turn / detail] Unplugging lets someone die, they add; abortion kills.
+[payoff / so] So people split less over who is a person than over what we owe with our bodies.
+[payoff / so] Does a right to life include a right to someone else's body?
+
 ## impression-sunrise (paintings, 2026-11-27)
 
 Angle: How did a quick sketch of a harbour at dawn give a whole art movement its name?
@@ -256,26 +280,3 @@ On-screen hook: ONE GRAIN AT A TIME
 [turn / detail] In 1987, Sendai's subway began braking by fuzzy logic: a little, quite, very.
 [payoff / so] So maybe truth comes in degrees, and the real question isn't where the line is.
 [payoff / so] Eighteen to vote, one grain for a heap: who gets to draw your lines?
-
-## liberty-leading (paintings, 2026-11-27)
-
-Angle: Why did France hide the painting that now stands for France?
-Logline: A king bought it and hid it, so why? It shows July 1830, not 1789, and Delacroix painted it since he didn't fight, but this Liberty is a barefoot woman of the streets beside a boy with pistols, but the revolution had made Louis-Philippe king, so his government bought it, but after the 1832 uprising it vanished into storage, because it cheered the overthrow of kings, but in 1874 the Republic put it in the Louvre, so the painting a king hid became the face of the republic.
-On-screen hook: BOUGHT BY THE KING. THEN HIDDEN.
-
-[hook] France's new king bought this painting, then hid it away.
-[hook / but] Today it stands for France; for years it was too dangerous to hang.
-[question / so] So why did France hide the painting that now stands for it?
-[reveal1 / answer] It isn't 1789: it's July 1830, when Paris toppled Charles the Tenth.
-[reveal1 / detail] Delacroix didn't fight; at least I'll paint for her, he told his brother.
-[reveal1 / detail] Behind the smoke: Notre-Dame, flying the tricolour.
-[reveal2 / but] But this Liberty is no marble goddess.
-[reveal2 / detail] She's a barefoot woman of the streets, striding over the dead.
-[reveal2 / detail] Beside her, a boy with two pistols, perhaps the model for Hugo's Gavroche.
-[reveal3 / but] But the revolution had crowned a new king, Louis-Philippe.
-[reveal3 / so] His government bought it at the 1831 Salon for 3,000 francs.
-[reveal3 / but] Then, after a Paris uprising in 1832, it vanished into storage.
-[reveal3 / because] Cheering a king's fall set a bad example for his subjects.
-[turn / but] But in 1874, the new Republic hung it in the Louvre.
-[turn / detail] Later still, it went onto the 100-franc note.
-[payoff / so] So the painting a king hid became the face of the republic.
