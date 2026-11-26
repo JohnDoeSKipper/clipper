@@ -21,7 +21,7 @@ The leads are starting points from memory, not facts: check each one before it g
 - made | liberty-leading | Liberty Leading the People, Delacroix | it is 1830, not 1789; the boy who became Gavroche; hidden away as too dangerous
 - made | raft-medusa | The Raft of the Medusa, Géricault | a real scandal; he studied corpses; the tiny ship on the horizon
 - made | impression-sunrise | Impression, Sunrise, Monet | the insult that named Impressionism; the sun is no brighter than the sky
-- inbox | cafe-terrace | Café Terrace at Night, Van Gogh | his first starry sky; no black paint; the café is still there
+- made | cafe-terrace | Café Terrace at Night, Van Gogh | his first starry sky; no black paint; the café is still there
 - made | school-of-athens | The School of Athens, Raphael | Plato has Leonardo's face; Michelangelo sulking on the steps; Raphael looking at us
 - inbox | creation-of-adam | The Creation of Adam, Michelangelo | the gap between the fingers; the brain-shaped cloak; painted standing up, not lying down
 - made | saturn | Saturn Devouring His Son, Goya | painted on his dining-room wall; never meant to be seen; never titled by him

@@ -1,6 +1,27 @@
 # Model scripts (newest first)
 The writer reads the top two of its channel before writing and matches or beats them: same spine (beats in order, every sentence linked to the one before), never the same facts or hooks. Each script the writer makes is added at the top in this format. Kept to the last 12.
 
+## cafe-terrace (paintings, 2026-11-27)
+
+Angle: How did Van Gogh paint a night scene without any black?
+Logline: His first starry sky has no black, so how do you paint darkness? He set up on a square in Arles at night and painted by gaslight, so he set blue against yellow, because opposites make each other blaze, but the idea came partly from Anquetin and Maupassant, but the stars were a beginning: the Rhône, then The Starry Night, but a modern theory claims a hidden Last Supper with no evidence, so the darkness is made of colour, and the real café now paints itself to match.
+On-screen hook: NIGHT, WITHOUT BLACK
+
+[hook] Van Gogh's first starry sky has no black in it.
+[hook / detail] A night painting without black, he told his sister: only blue, violet and green.
+[question / so] So how do you paint darkness without dark paint?
+[reveal1 / answer] In September 1888, he set up his easel on a square in Arles, at night.
+[reveal1 / detail] He painted on the spot, by the glow of the café's gas lamp.
+[reveal1 / so] So instead of black, he set a deep blue sky against a blazing yellow awning.
+[reveal2 / but] But the idea wasn't only his.
+[reveal2 / detail] A year earlier, his friend Louis Anquetin painted a Paris street at night in yellow and blue.
+[reveal2 / detail] And Maupassant's novel Bel-Ami, he wrote, has a starry night over lit-up cafés.
+[reveal3 / but] But this sky was only a beginning.
+[reveal3 / detail] Days later he painted stars over the Rhône; nine months later, The Starry Night.
+[turn / but] But some claim this café hides a Last Supper: twelve diners and a figure in white.
+[turn / but] There's no evidence he meant it; the theory is barely ten years old.
+[payoff / so] So the darkness is built from colour, and the real café has painted itself yellow to match.
+
 ## invisible-gorilla (philosophy, 2026-11-27)
 
 Angle: How can you miss a gorilla walking right in front of you?
@@ -253,26 +274,3 @@ On-screen hook: THE TRIP THEY'D ENJOY LESS
 [turn / detail] Britain and France kept funding Concorde long after it couldn't pay off; only fourteen ever flew passengers.
 [payoff / so] So the cure is simple to say, and hard to do: only the future counts.
 [payoff / so] What are you still doing just because you've already paid for it?
-
-## school-of-athens (paintings, 2026-11-27)
-
-Angle: Why did Raphael squeeze an extra philosopher into The School of Athens at the last minute?
-Logline: One figure is missing from the full-size drawing, so who is he? Raphael, about 26, painted every great Greek thinker for the pope's library, but gave them modern faces, so Plato has Leonardo's, but the brooding man was added later, because Michelangelo unveiled the Sistine ceiling next door in 1511, so Raphael painted him in with Michelangelo's face, but at the edge one young man looks out at you: Raphael, so the ancient school is also a portrait of his rivals, with him among them.
-On-screen hook: ADDED AT THE LAST MINUTE
-
-[hook] This man isn't in Raphael's full-size drawing for the fresco.
-[hook / detail] He was painted in later, onto fresh plaster.
-[question / so] So who is he, and why did Raphael squeeze him in?
-[reveal1 / answer] In 1509, Raphael, about 26, began painting the pope's private library.
-[reveal1 / detail] Here, the great thinkers of ancient Greece gather in one hall.
-[reveal1 / detail] At the centre, Plato points up to ideas; Aristotle gestures to the earth.
-[reveal2 / but] But Raphael gave them modern faces.
-[reveal2 / detail] Plato is widely thought to wear the face of Leonardo da Vinci.
-[reveal2 / detail] Raphael even signed his initials on a geometer's collar.
-[reveal3 / but] But the brooding man on the steps is the real twist.
-[reveal3 / detail] He's missing from the cartoon, the giant drawing in Milan.
-[reveal3 / because] In 1511, Michelangelo unveiled the first half of the Sistine ceiling next door.
-[reveal3 / so] So Raphael added Heraclitus, with Michelangelo's face and heavy style.
-[turn / but] But look at the far right: one young man stares straight at you.
-[turn / detail] It's Raphael himself.
-[payoff / so] So his gathering of ancient minds is also a portrait of his rivals, and himself.

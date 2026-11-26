@@ -1,0 +1,279 @@
+{
+ "id": "cafe-terrace",
+ "channel": "paintings",
+ "angle": "How did Van Gogh paint a night scene without any black?",
+ "answer": "He painted on the spot by gaslight and built the night from colour, deep blue against a glowing yellow awning, ideas he shared with Anquetin and found in Maupassant; this café was the first of his starry skies, and the real café has since painted itself yellow to match.",
+ "logline": "His first starry sky has no black, so how do you paint darkness? He set up on a square in Arles at night and painted by gaslight, so he set blue against yellow, because opposites make each other blaze, but the idea came partly from Anquetin and Maupassant, but the stars were a beginning: the Rhône, then The Starry Night, but a modern theory claims a hidden Last Supper with no evidence, so the darkness is made of colour, and the real café now paints itself to match.",
+ "hook_text": "NIGHT, WITHOUT BLACK",
+ "hooks": [
+  "This is the first starry sky Van Gogh ever painted.",
+  "The real café in this painting has repainted itself to match it."
+ ],
+ "painting": {
+  "title": "Café Terrace at Night",
+  "artist": "Vincent van Gogh",
+  "year": "1888",
+  "museum": "Kröller-Müller Museum, Otterlo"
+ },
+ "script": [
+  {
+   "text": "Van Gogh's first starry sky has no black in it.",
+   "beat": "hook"
+  },
+  {
+   "text": "A night painting without black, he told his sister: only blue, violet and green.",
+   "beat": "hook",
+   "link": "detail"
+  },
+  {
+   "text": "So how do you paint darkness without dark paint?",
+   "beat": "question",
+   "link": "so"
+  },
+  {
+   "text": "In September 1888, he set up his easel on a square in Arles, at night.",
+   "say": "In September eighteen eighty-eight, he set up his easel on a square in Arles, at night.",
+   "beat": "reveal1",
+   "link": "answer"
+  },
+  {
+   "text": "He painted on the spot, by the glow of the café's gas lamp.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "So instead of black, he set a deep blue sky against a blazing yellow awning.",
+   "beat": "reveal1",
+   "link": "so"
+  },
+  {
+   "text": "But the idea wasn't only his.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "A year earlier, his friend Louis Anquetin painted a Paris street at night in yellow and blue.",
+   "say": "A year earlier, his friend Louis On-ke-tan painted a Paris street at night in yellow and blue.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "And Maupassant's novel Bel-Ami, he wrote, has a starry night over lit-up cafés.",
+   "say": "And Mo-pa-son's novel Bel-Ami, he wrote, has a starry night over lit-up cafés.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "But this sky was only a beginning.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "Days later he painted stars over the Rhône; nine months later, The Starry Night.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "But some claim this café hides a Last Supper: twelve diners and a figure in white.",
+   "beat": "turn",
+   "link": "but"
+  },
+  {
+   "text": "There's no evidence he meant it; the theory is barely ten years old.",
+   "beat": "turn",
+   "link": "but"
+  },
+  {
+   "text": "So the darkness is built from colour, and the real café has painted itself yellow to match.",
+   "beat": "payoff",
+   "link": "so"
+  }
+ ],
+ "music": {
+  "piece": "chopin-nocturne-b-flat-minor"
+ },
+ "timeline": [
+  {
+   "type": "reveal",
+   "from": [
+    0.63,
+    0.15,
+    2.4
+   ],
+   "until": 3.2
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.63,
+    0.17,
+    0.15,
+    0.15
+   ],
+   "ring": "1",
+   "zoom": "1+0.4",
+   "label": "BLUE, VIOLET, GREEN",
+   "labelAt": "1:blue",
+   "out": "2-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "arles",
+    0
+   ],
+   "caption": "The café on Place du Forum, Arles, today",
+   "at": "3",
+   "to": "4-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.387,
+    0.49,
+    0.05,
+    0.05
+   ],
+   "ring": "4",
+   "zoom": "4+0.4",
+   "label": "GASLIGHT",
+   "labelAt": "4:lamp",
+   "out": "5-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.45,
+    0.3,
+    0.3,
+    0.22
+   ],
+   "ring": "5",
+   "zoom": "5+0.4",
+   "label": "BLUE AGAINST YELLOW",
+   "labelAt": "5:yellow",
+   "out": "6-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "vincent",
+    1
+   ],
+   "caption": "Van Gogh, self-portrait, 1887",
+   "at": "6",
+   "to": "7-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "anquetin",
+    0
+   ],
+   "caption": "Anquetin, Avenue de Clichy, Evening, 1887",
+   "at": "7",
+   "to": "8-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "maupassant",
+    0
+   ],
+   "caption": "Guy de Maupassant, photographed by Nadar",
+   "at": "8",
+   "to": "9-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.724,
+    0.035,
+    0.035,
+    0.03
+   ],
+   "ring": "9",
+   "zoom": "9+0.4",
+   "out": "10-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "starry",
+    1
+   ],
+   "caption": "Starry Night Over the Rhône, 1888",
+   "at": "10",
+   "to": "10:Starry-0.1"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "starry",
+    0
+   ],
+   "caption": "The Starry Night, 1889",
+   "at": "10:Starry",
+   "to": "11-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.4,
+    0.62,
+    0.12,
+    0.08
+   ],
+   "ring": "11",
+   "zoom": "11+0.4",
+   "label": "A LAST SUPPER?",
+   "labelAt": "11:white",
+   "out": "12-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "lastsupper",
+    0
+   ],
+   "caption": "Leonardo, The Last Supper",
+   "at": "12",
+   "to": "13-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "arles",
+    1
+   ],
+   "caption": "The café today, renamed after him",
+   "at": "13:yellow",
+   "to": "end"
+  }
+ ],
+ "sources": [
+  "https://krollermuller.nl/en/vincent-van-gogh-terrace-of-a-cafe-at-night-place-du-forum",
+  "https://vangoghletters.org/vg/letters/let678/letter.html",
+  "https://www.vangoghmuseum.nl/en/art-and-stories/stories/van-gogh-and-the-night",
+  "https://en.wikipedia.org/wiki/Caf%C3%A9_Terrace_at_Night"
+ ],
+ "post": {
+  "caption": "A night painting without black, Van Gogh told his sister: only blue, violet and green. This café terrace in Arles was his very first starry sky, nine months before The Starry Night.\nCan you find any black in it?",
+  "tags": [
+   "#arthistory",
+   "#vangogh",
+   "#cafeterraceatnight",
+   "#arles",
+   "#starrynight"
+  ],
+  "youtube_title": "Van Gogh's First Starry Sky Has No Black In It"
+ }
+}
