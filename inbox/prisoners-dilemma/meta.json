@@ -2,30 +2,7 @@
  "id": "prisoners-dilemma",
  "painting": null,
  "inserts": {
-  "tucker": [
-   {
-    "title": "File:The Muse (1922) (14597909539).jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/The_Muse_%281922%29_%2814597909539%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/e/ec/The_Muse_%281922%29_%2814597909539%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 1256,
-    "height": 2034,
-    "licence": "No restrictions",
-    "artist": "Internet Archive Book Images",
-    "credit": "",
-    "desc": "Identifier: muse1922sain (find matches) Title: The Muse Year: 1922 (1920s) Authors: Saint Mary's School Subjects: St. Mary's School--Students--Yearbooks. St. Ma"
-   },
-   {
-    "title": "File:The Muse (1922) (14597909099).jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/The_Muse_%281922%29_%2814597909099%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/d/df/The_Muse_%281922%29_%2814597909099%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 1258,
-    "height": 2028,
-    "licence": "No restrictions",
-    "artist": "Internet Archive Book Images",
-    "credit": "",
-    "desc": "Identifier: muse1922sain (find matches) Title: The Muse Year: 1922 (1920s) Authors: Saint Mary's School Subjects: St. Mary's School--Students--Yearbooks. St. Ma"
-   }
-  ],
+  "tucker": [],
   "rand": [
    {
     "title": "File:Rand Corporation Headquarters, Santa Monica.jpg",
@@ -167,6 +144,41 @@
     "artist": "National Library of Scotland",
     "credit": "",
     "desc": "Four horses eating hay watched by two cavalrymen. The horses have been unsaddled and are pegged, or tethered to stakes. They are being sheltered in the bottom o"
+   }
+  ],
+  "flood": [
+   {
+    "title": "File:Na \u00c9poca da Cheia do Rio Madeira Suas \u00c1guas Sobem 14 M. Acima da Taxa M\u00ednima Pluviom\u00e9trico - 973, Acervo do Museu Paulista da USP.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Na_%C3%89poca_da_Cheia_do_Rio_Madeira_Suas_%C3%81guas_Sobem_14_M._Acima_da_Taxa_M%C3%ADnima_Pluviom%C3%A9trico_-_973%2C_Acervo_do_Museu_Paulista_da_USP.jpg/3840px-Na_%C3%89poca_da_Cheia_do_Rio_Madeira_Suas_%C3%81guas_Sobem_14_M._Acima_da_Taxa_M%C3%ADnima_Pluviom%C3%A9trico_-_973%2C_Acervo_do_Museu_Paulista_da_USP.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/0/01/Na_%C3%89poca_da_Cheia_do_Rio_Madeira_Suas_%C3%81guas_Sobem_14_M._Acima_da_Taxa_M%C3%ADnima_Pluviom%C3%A9trico_-_973%2C_Acervo_do_Museu_Paulista_da_USP.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 5616,
+    "height": 3744,
+    "licence": "Public domain",
+    "artist": "Jos\u00e9 Rosael/H\u00e9lioNobre/Museu Paulista da USP",
+    "credit": "",
+    "desc": "Obra que integra o acervo do Museu Paulista da USP. Cole\u00e7\u00e3o Dana Merrill."
+   },
+   {
+    "title": "File:Ridpath's history of the world; being an account of the ethnic origin, primitive estate, early migrations, social conditions and present promise of the principal families of men (1897) (14803434373).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Ridpath%27s_history_of_the_world%3B_being_an_account_of_the_ethnic_origin%2C_primitive_estate%2C_early_migrations%2C_social_conditions_and_present_promise_of_the_principal_families_of_men_%281897%29_%2814803434373%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Ridpath%27s_history_of_the_world%3B_being_an_account_of_the_ethnic_origin%2C_primitive_estate%2C_early_migrations%2C_social_conditions_and_present_promise_of_the_principal_families_of_men_%281897%29_%2814803434373%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2204,
+    "height": 1872,
+    "licence": "No restrictions",
+    "artist": "Internet Archive Book Images",
+    "credit": "",
+    "desc": "Identifier: ridpathshistoryo01ridp (find matches) Title: Ridpath's history of the world; being an account of the ethnic origin, primitive estate, early migratio"
+   },
+   {
+    "title": "File:Ridpath's history of the world; being an account of the ethnic origin, primitive estate, early migrations, social conditions and present promise of the principal families of men (1897) (14781064904).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Ridpath%27s_history_of_the_world%3B_being_an_account_of_the_ethnic_origin%2C_primitive_estate%2C_early_migrations%2C_social_conditions_and_present_promise_of_the_principal_families_of_men_%281897%29_%2814781064904%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Ridpath%27s_history_of_the_world%3B_being_an_account_of_the_ethnic_origin%2C_primitive_estate%2C_early_migrations%2C_social_conditions_and_present_promise_of_the_principal_families_of_men_%281897%29_%2814781064904%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2220,
+    "height": 1608,
+    "licence": "No restrictions",
+    "artist": "Internet Archive Book Images",
+    "credit": "",
+    "desc": "Identifier: ridpathshistoryo01ridp (find matches) Title: Ridpath's history of the world; being an account of the ethnic origin, primitive estate, early migratio"
    }
   ]
  }
