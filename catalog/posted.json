@@ -39,6 +39,11 @@
    "channel": "paintings",
    "handed_out": "2026-11-26",
    "at": "2026-11-26T03:53+08:00"
+  },
+  "birth-of-venus": {
+   "channel": "paintings",
+   "handed_out": "2026-11-27",
+   "at": "2026-11-27T02:22+08:00"
   }
  },
  "philosophy": {
@@ -81,6 +86,11 @@
    "channel": "philosophy",
    "handed_out": "2026-11-26",
    "at": "2026-11-26T03:53+08:00"
+  },
+  "brain-in-a-vat": {
+   "channel": "philosophy",
+   "handed_out": "2026-11-27",
+   "at": "2026-11-27T02:22+08:00"
   }
  }
 }
