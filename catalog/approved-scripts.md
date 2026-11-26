@@ -1,6 +1,30 @@
 # Model scripts (newest first)
 The writer reads the top two of its channel before writing and matches or beats them: same spine (beats in order, every sentence linked to the one before), never the same facts or hooks. Each script the writer makes is added at the top in this format. Kept to the last 12.
 
+## marshmallow-test (philosophy, 2026-11-27)
+
+Angle: Does waiting for a second marshmallow really show willpower?
+Logline: One broken promise made children give up four times sooner, so what does the test measure? Mischel offered one treat now or two later, but it became famous when the waiters had better SAT scores, so it became the symbol of willpower, but Rochester showed children wait twelve minutes after a kept promise and three after a broken one, so waiting depends on trust, but a 2018 retest found the link halved and mostly explained by background, so eating now may be experience, not weakness.
+On-screen hook: ONE BROKEN PROMISE
+
+[hook] One broken promise made preschoolers give up four times sooner.
+[question / so] So what does the famous marshmallow test really measure?
+[reveal1 / answer] In the late 1960s, Walter Mischel tested children at Stanford's nursery school.
+[reveal1 / detail] Eat one treat now, or wait alone, up to twenty minutes, for two.
+[reveal1 / detail] Some covered their eyes or sang to themselves to hold out.
+[reveal2 / but] But the test became famous only years later.
+[reveal2 / detail] Mischel tracked down the children as teenagers.
+[reveal2 / detail] Those who had waited longer had higher SAT scores and handled stress better.
+[reveal2 / so] So the marshmallow became a symbol of willpower, in books and classrooms.
+[reveal3 / but] But in 2012, Rochester researchers changed one thing before the test.
+[reveal3 / detail] An adult promised children better crayons, then came back with them, or empty-handed.
+[reveal3 / detail] Kids she had let down waited three minutes; kids she'd kept her word to waited twelve.
+[reveal3 / so] So waiting only makes sense if you believe the second treat will come.
+[turn / but] But in 2018, a retest on 918 more varied children found the teenage link half as strong.
+[turn / detail] Account for family background, and two-thirds of it disappeared.
+[payoff / so] So the child who eats it now may not lack willpower; she may have learned that promises break.
+[payoff / so] When you can't wait, is it weakness, or experience?
+
 ## grande-jatte (paintings, 2026-11-27)
 
 Angle: Why is Seurat's sunny afternoon darker today than the one he painted?
@@ -262,26 +286,3 @@ On-screen hook: ONE BUILDING > 9 MILLION LIVES
 [turn / detail] GiveWell estimates about five thousand dollars of bed nets saves one life.
 [payoff / answer] So distance isn't what stops us; it's that we never see a face.
 [payoff / but] But now that you've seen the pond, will you walk past it?
-
-## las-meninas (paintings, 2026-11-24)
-
-Angle: If the king and queen are only a reflection, who is Las Meninas really a painting of?
-Logline: The royals appear only in a mirror, but the painter stands life-size, so who is it of? Velázquez painted himself in the palace as a court official, but Spain barred anyone who worked with his hands for money from nobility, so witnesses swore he never sold a painting, and he was knighted three years later, therefore the red cross on his chest was painted in afterwards, the verdict on the painting's own argument.
-On-screen hook: THE KING IS JUST A REFLECTION
-
-[hook] Spain's king and queen appear here only in a mirror.
-[hook / but] But the painter stands life-size, looking straight at you.
-[question / so] So who is Las Meninas really a painting of?
-[reveal1 / answer] His belt holds the keys of a palace official.
-[reveal1 / because] He wasn't just the king's painter; he was a palace chamberlain.
-[reveal1 / so] So he painted himself inside the palace, beside the king's daughter.
-[reveal2 / but] But in Spain, paid manual work barred you from nobility.
-[reveal2 / so] So when he sought a knighthood, painting itself went on trial.
-[reveal2 / detail] Investigators questioned 148 witnesses about him.
-[reveal2 / detail] They swore he painted for the king's pleasure, never for sale.
-[reveal3 / but] But even that wasn't enough: his ancestry needed a special waiver.
-[reveal3 / so] So he was knighted only in 1659, three years after finishing this.
-[turn / but] But look at his chest: the red cross of Santiago was painted in later.
-[turn / detail] The story goes the king painted it himself, after Velázquez died.
-[payoff / answer] So it's a painting of the painter, pleading that his art is noble.
-[payoff / detail] Its verdict is right there, in red, over his heart.

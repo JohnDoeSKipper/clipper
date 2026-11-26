@@ -1,0 +1,890 @@
+{
+ "id": "marshmallow-test",
+ "channel": "philosophy",
+ "style": "clay",
+ "title": "THE MARSHMALLOW TEST",
+ "angle": "Does waiting for a second marshmallow really show willpower?",
+ "answer": "Only partly: children wait when they trust the promise (twelve minutes after a reliable adult, three after an unreliable one), and the famous link to later success halves in a large diverse sample and loses two-thirds once family background is counted, so eating now can be a rational reading of a world where promises break.",
+ "logline": "One broken promise made children give up four times sooner, so what does the test measure? Mischel offered one treat now or two later, but it became famous when the waiters had better SAT scores, so it became the symbol of willpower, but Rochester showed children wait twelve minutes after a kept promise and three after a broken one, so waiting depends on trust, but a 2018 retest found the link halved and mostly explained by background, so eating now may be experience, not weakness.",
+ "hook_text": "ONE BROKEN PROMISE",
+ "hooks": [
+  "The world's most famous willpower test may really be a test of trust.",
+  "Four-year-olds who'd been lied to once waited three minutes. The rest waited twelve."
+ ],
+ "world": {
+  "scenery": "room"
+ },
+ "script": [
+  {
+   "text": "One broken promise made preschoolers give up four times sooner.",
+   "beat": "hook"
+  },
+  {
+   "text": "So what does the famous marshmallow test really measure?",
+   "beat": "question",
+   "link": "so"
+  },
+  {
+   "text": "In the late 1960s, Walter Mischel tested children at Stanford's nursery school.",
+   "say": "In the late nineteen sixties, Walter Mischel tested children at Stanford's nursery school.",
+   "beat": "reveal1",
+   "link": "answer"
+  },
+  {
+   "text": "Eat one treat now, or wait alone, up to twenty minutes, for two.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "Some covered their eyes or sang to themselves to hold out.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "But the test became famous only years later.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "Mischel tracked down the children as teenagers.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "Those who had waited longer had higher SAT scores and handled stress better.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "So the marshmallow became a symbol of willpower, in books and classrooms.",
+   "beat": "reveal2",
+   "link": "so"
+  },
+  {
+   "text": "But in 2012, Rochester researchers changed one thing before the test.",
+   "say": "But in twenty twelve, Rochester researchers changed one thing before the test.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "An adult promised children better crayons, then came back with them, or empty-handed.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "Kids she had let down waited three minutes; kids she'd kept her word to waited twelve.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "So waiting only makes sense if you believe the second treat will come.",
+   "beat": "reveal3",
+   "link": "so"
+  },
+  {
+   "text": "But in 2018, a retest on 918 more varied children found the teenage link half as strong.",
+   "say": "But in twenty eighteen, a retest on nine hundred and eighteen more varied children found the teenage link half as strong.",
+   "beat": "turn",
+   "link": "but"
+  },
+  {
+   "text": "Account for family background, and two-thirds of it disappeared.",
+   "beat": "turn",
+   "link": "detail"
+  },
+  {
+   "text": "So the child who eats it now may not lack willpower; she may have learned that promises break.",
+   "beat": "payoff",
+   "link": "so"
+  },
+  {
+   "text": "When you can't wait, is it weakness, or experience?",
+   "beat": "payoff",
+   "link": "so"
+  }
+ ],
+ "objects": [
+  {
+   "id": "table",
+   "kind": "table",
+   "at": [
+    0,
+    0,
+    0
+   ],
+   "face": 0
+  },
+  {
+   "id": "you",
+   "kind": "person",
+   "look": "you",
+   "at": [
+    0,
+    0,
+    -1.4
+   ],
+   "face": "table",
+   "scale": 0.7
+  },
+  {
+   "id": "m1",
+   "kind": "ball",
+   "tint": "#FFF8EC",
+   "at": [
+    -0.2,
+    0.95,
+    0.0
+   ],
+   "scale": 0.3
+  },
+  {
+   "id": "m2",
+   "kind": "ball",
+   "tint": "#FFF8EC",
+   "at": [
+    0.25,
+    0.95,
+    0.0
+   ],
+   "scale": 0.3,
+   "show": false
+  },
+  {
+   "id": "adult",
+   "kind": "person",
+   "look": "stranger",
+   "at": [
+    2.5,
+    0,
+    -0.9
+   ],
+   "face": "you"
+  },
+  {
+   "id": "door",
+   "kind": "door",
+   "at": [
+    5.8,
+    0,
+    -3.0
+   ],
+   "face": "you"
+  },
+  {
+   "id": "cray",
+   "kind": "box",
+   "tint": "#4F8FE6",
+   "at": [
+    0.7,
+    0.95,
+    0.1
+   ],
+   "scale": 0.28,
+   "show": false
+  },
+  {
+   "id": "house",
+   "kind": "house",
+   "at": [
+    -3.6,
+    0,
+    -1.5
+   ],
+   "face": 30,
+   "scale": 0.8,
+   "show": false
+  }
+ ],
+ "shots": [
+  {
+   "at": 0,
+   "cam": {
+    "preset": "close",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "1",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "table"
+    ]
+   },
+   "focus": [
+    "you",
+    "table",
+    "m1"
+   ]
+  },
+  {
+   "at": "2",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "you",
+     "adult",
+     "table"
+    ]
+   }
+  },
+  {
+   "at": "3",
+   "cam": {
+    "preset": "close",
+    "on": "table"
+   },
+   "focus": [
+    "table",
+    "m1",
+    "m2"
+   ]
+  },
+  {
+   "at": "4",
+   "cam": {
+    "preset": "tight",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "5",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "you",
+     "adult",
+     "door"
+    ]
+   }
+  },
+  {
+   "at": "6",
+   "cam": {
+    "preset": "close",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "7",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "adult"
+    ]
+   },
+   "focus": [
+    "you",
+    "adult"
+   ]
+  },
+  {
+   "at": "8",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "table"
+    ],
+    "side": 1
+   },
+   "focus": [
+    "you",
+    "table"
+   ]
+  },
+  {
+   "at": "9",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "you",
+     "adult",
+     "table"
+    ]
+   }
+  },
+  {
+   "at": "10",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "adult",
+     "door"
+    ]
+   },
+   "focus": [
+    "adult",
+    "door"
+   ]
+  },
+  {
+   "at": "11",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "table"
+    ],
+    "side": -1
+   },
+   "focus": [
+    "you",
+    "table",
+    "m1"
+   ]
+  },
+  {
+   "at": "11:kids",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "table"
+    ]
+   },
+   "focus": [
+    "you",
+    "table",
+    "m1"
+   ]
+  },
+  {
+   "at": "12",
+   "cam": {
+    "preset": "close",
+    "on": "table"
+   },
+   "focus": [
+    "table",
+    "m1",
+    "m2"
+   ]
+  },
+  {
+   "at": "13",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "you",
+     "adult",
+     "house"
+    ]
+   }
+  },
+  {
+   "at": "14",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "house",
+     "you"
+    ]
+   },
+   "focus": [
+    "house",
+    "you"
+   ]
+  },
+  {
+   "at": "15",
+   "cam": {
+    "preset": "close",
+    "on": "you"
+   },
+   "focus": [
+    "you",
+    "m1"
+   ]
+  },
+  {
+   "at": "15:learned",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "adult"
+    ]
+   },
+   "focus": [
+    "you",
+    "adult"
+   ]
+  },
+  {
+   "at": "16",
+   "cam": {
+    "preset": "tight",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "id": "you",
+   "at": "0:broken",
+   "dur": 0.4,
+   "pose": "sad"
+  },
+  {
+   "id": "you",
+   "at": "1",
+   "dur": 0.4,
+   "pose": "think"
+  },
+  {
+   "id": "you",
+   "at": "2",
+   "dur": 0.4,
+   "pose": "stand"
+  },
+  {
+   "id": "m2",
+   "at": "3:two",
+   "dur": 0.4,
+   "show": true
+  },
+  {
+   "id": "adult",
+   "at": "3:alone",
+   "until": "3:alone+1.6",
+   "pos": [
+    4.4,
+    0,
+    -2.2
+   ],
+   "walk": true,
+   "ease": "linear"
+  },
+  {
+   "id": "m2",
+   "at": "4",
+   "dur": 0.3,
+   "show": false
+  },
+  {
+   "id": "you",
+   "at": "4:covered",
+   "dur": 0.4,
+   "pose": "shock"
+  },
+  {
+   "id": "you",
+   "at": "4:sang",
+   "dur": 0.4,
+   "pose": "cheer"
+  },
+  {
+   "id": "you",
+   "at": "5",
+   "dur": 0.4,
+   "pose": "stand"
+  },
+  {
+   "id": "you",
+   "at": "6:teenagers",
+   "dur": 0.8,
+   "scale": 1.0
+  },
+  {
+   "id": "adult",
+   "at": "6",
+   "until": "6+1.5",
+   "pos": [
+    2.5,
+    0,
+    -0.9
+   ],
+   "walk": true
+  },
+  {
+   "id": "you",
+   "at": "7:higher",
+   "dur": 0.4,
+   "pose": "cheer"
+  },
+  {
+   "id": "you",
+   "at": "8",
+   "dur": 0.4,
+   "pose": "stand"
+  },
+  {
+   "id": "you",
+   "at": "9",
+   "dur": 0.8,
+   "scale": 0.7
+  },
+  {
+   "id": "cray",
+   "at": "10:crayons",
+   "dur": 0.4,
+   "show": true
+  },
+  {
+   "id": "adult",
+   "at": "10:promised",
+   "dur": 0.4,
+   "pose": "point"
+  },
+  {
+   "id": "adult",
+   "at": "10:came",
+   "until": "10:came+1.4",
+   "pos": [
+    4.4,
+    0,
+    -2.2
+   ],
+   "walk": true,
+   "ease": "linear"
+  },
+  {
+   "id": "adult",
+   "at": "11",
+   "until": "11+1.4",
+   "pos": [
+    2.5,
+    0,
+    -0.9
+   ],
+   "walk": true
+  },
+  {
+   "id": "adult",
+   "at": "11:down",
+   "dur": 0.4,
+   "pose": "shrug"
+  },
+  {
+   "id": "you",
+   "at": "11:down",
+   "dur": 0.4,
+   "pose": "sad"
+  },
+  {
+   "id": [
+    "adult",
+    "you"
+   ],
+   "at": "11:kids",
+   "dur": 0.4,
+   "pose": "stand"
+  },
+  {
+   "id": "you",
+   "at": "11:waited#2",
+   "dur": 0.4,
+   "pose": "cheer"
+  },
+  {
+   "id": "m2",
+   "at": "12:second",
+   "dur": 0.4,
+   "show": true
+  },
+  {
+   "id": "you",
+   "at": "13",
+   "dur": 0.4,
+   "pose": "stand"
+  },
+  {
+   "id": "house",
+   "at": "14:family",
+   "dur": 0.5,
+   "show": true
+  },
+  {
+   "id": "you",
+   "at": "15:eats",
+   "dur": 0.4,
+   "pose": "reach"
+  },
+  {
+   "id": "m1",
+   "at": "15:eats+0.3",
+   "dur": 0.3,
+   "show": false
+  },
+  {
+   "id": "m2",
+   "at": "15:eats+0.3",
+   "dur": 0.3,
+   "show": false
+  },
+  {
+   "id": "you",
+   "at": "16",
+   "dur": 0.4,
+   "pose": "think"
+  }
+ ],
+ "overlays": [
+  {
+   "type": "label",
+   "text": "4x SOONER",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "0:four",
+   "to": "1"
+  },
+  {
+   "type": "question",
+   "on": "you",
+   "from": "1:measure",
+   "to": "2"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "mischel",
+    0
+   ],
+   "caption": "Walter Mischel, psychologist",
+   "from": "2",
+   "to": "2:Stanford's-0.1"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "stanford",
+    1
+   ],
+   "caption": "Stanford University, California",
+   "from": "2:Stanford's",
+   "to": "3-0.2"
+  },
+  {
+   "type": "label",
+   "text": "YOU",
+   "color": "yellow",
+   "on": "you",
+   "from": "3",
+   "to": "3:wait"
+  },
+  {
+   "type": "number",
+   "text": "1",
+   "on": "m1",
+   "from": "3:one",
+   "to": "3:two"
+  },
+  {
+   "type": "number",
+   "text": "2",
+   "on": "m2",
+   "from": "3:two",
+   "to": "4"
+  },
+  {
+   "type": "icon",
+   "icon": "clock",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "3:twenty",
+   "to": "4"
+  },
+  {
+   "type": "icon",
+   "icon": "eye",
+   "on": "you",
+   "from": "4:covered",
+   "to": "4:sang"
+  },
+  {
+   "type": "label",
+   "text": "YEARS LATER",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "5:years",
+   "to": "6"
+  },
+  {
+   "type": "label",
+   "text": "HIGHER SAT SCORES",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "7:SAT",
+   "to": "8"
+  },
+  {
+   "type": "icon",
+   "icon": "star",
+   "on": "you",
+   "from": "7:higher",
+   "to": "8"
+  },
+  {
+   "type": "label",
+   "text": "WILLPOWER",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "8:willpower",
+   "to": "9"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "rochester",
+    0
+   ],
+   "caption": "University of Rochester, New York",
+   "from": "9:Rochester",
+   "to": "10-0.2"
+  },
+  {
+   "type": "label",
+   "text": "BETTER CRAYONS?",
+   "on": "cray",
+   "from": "10:crayons",
+   "to": "11"
+  },
+  {
+   "type": "number",
+   "text": "3 MIN",
+   "on": "you",
+   "from": "11:three",
+   "to": "11"
+  },
+  {
+   "type": "cross",
+   "on": "adult",
+   "from": "11:down",
+   "to": "11"
+  },
+  {
+   "type": "number",
+   "text": "12 MIN",
+   "on": "you",
+   "from": "11:twelve",
+   "to": "12"
+  },
+  {
+   "type": "check",
+   "on": "adult",
+   "from": "11:word",
+   "to": "12"
+  },
+  {
+   "type": "check",
+   "on": "m2",
+   "from": "12:second",
+   "to": "13"
+  },
+  {
+   "type": "label",
+   "text": "918 CHILDREN: HALF AS STRONG",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "13:918",
+   "to": "14"
+  },
+  {
+   "type": "label",
+   "text": "FAMILY BACKGROUND",
+   "on": "house",
+   "from": "14:family",
+   "to": "15"
+  },
+  {
+   "type": "xmark",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "15:lack",
+   "to": "15:learned"
+  },
+  {
+   "type": "label",
+   "text": "PROMISES BREAK",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "15:promises",
+   "to": "16"
+  },
+  {
+   "type": "pill",
+   "text": "Weakness, or experience?",
+   "from": "16:weakness"
+  }
+ ],
+ "sfx": [
+  {
+   "at": "3:two",
+   "s": "pluck",
+   "gain": 0.3
+  },
+  {
+   "at": "6:teenagers",
+   "s": "maximize",
+   "gain": 0.3
+  },
+  {
+   "at": "10:crayons",
+   "s": "drop",
+   "gain": 0.3
+  },
+  {
+   "at": "12:second",
+   "s": "pluck",
+   "gain": 0.3
+  },
+  {
+   "at": "15:eats+0.3",
+   "s": "click",
+   "gain": 0.3
+  }
+ ],
+ "music": {
+  "mood": "warm"
+ },
+ "sources": [
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC3730121/",
+  "https://www.rochester.edu/news/show.php?id=4622",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC6050075",
+  "https://www.psychologicalscience.org/publications/observer/obsonline/a-new-approach-to-the-marshmallow-test-yields-complex-findings.html",
+  "https://www.sciencedaily.com/releases/2018/05/180525095226.htm",
+  "https://en.wikipedia.org/wiki/Stanford_marshmallow_experiment"
+ ],
+ "post": {
+  "caption": "In 2012, children who had just watched an adult break a small promise waited three minutes for the second marshmallow. Children whose adult kept her word waited twelve.\nWas it willpower, or trust?",
+  "tags": [
+   "#psychology",
+   "#marshmallowtest",
+   "#selfcontrol",
+   "#parenting",
+   "#philosophy"
+  ],
+  "youtube_title": "The Marshmallow Test Was Really About Trust"
+ }
+}

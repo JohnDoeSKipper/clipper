@@ -14,7 +14,7 @@ Check what the original experiment or argument actually says (and whether later 
 - made | prisoners-dilemma | The Prisoner's Dilemma | clay | made 2026-11-27. Spares: Khadjavi & Lange 2013, female inmates in Lower Saxony cooperated more than students (56% vs 37%, per Smithsonian); Nash's half page of comments anticipated repeated-game strategies; Axelrod second tournament 63 entrants, Tit for Tat won again; the "evening gun" at 7 so regular you could set your watch by it; High Command broke the trench truces with ordered raids; no Commons photo of Tucker, Flood or Rapoport
 - made | ring-of-gyges | The Ring of Gyges | ps2 | a ring that makes you a ghost; would you still be good?
 - made | teleporter | The Teleporter Problem (Parfit) | ps2 | two pods; the original is destroyed... or not
-- inbox | marshmallow-test | The Marshmallow Test | clay | child, table, one treat now or two later; what the follow-up studies found
+- made | marshmallow-test | The Marshmallow Test | clay | child, table, one treat now or two later; what the follow-up studies found
 - inbox | bystander-effect | The Bystander Effect | clay | one person in trouble, a growing crowd doing nothing; numbers
 - inbox | asch-conformity | The Asch Conformity Experiment | clay | three lines on a sign; everyone gives the wrong answer; would you?
 - requested | sorites | The Heap Paradox | clay | a heap of balls; remove one at a time; when does it stop being a heap?
