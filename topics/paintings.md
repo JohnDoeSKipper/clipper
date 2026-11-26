@@ -28,7 +28,7 @@ The leads are starting points from memory, not facts: check each one before it g
 - made | fighting-temeraire | The Fighting Temeraire, Turner | a hero ship towed to scrap; the sun sets in the wrong place; he never sold it
 - made | whistlers-mother | Whistler's Mother, Whistler | the model didn't show up; its real title is about grey and black
 - made | milkmaid | The Milkmaid, Vermeer | the nail hole and the erased basket; the trickle of milk; expensive blue on a servant
-- requested | sleeping-gypsy | The Sleeping Gypsy, Rousseau | a toll clerk who never saw a desert; the lion that does not attack
+- made | sleeping-gypsy | The Sleeping Gypsy, Rousseau | a toll clerk who never saw a desert; the lion that does not attack
 - requested | folies-bergere | A Bar at the Folies-Bergère, Manet | the reflection that cannot be right; the trapeze feet; the beer label
 - requested | death-of-marat | The Death of Marat, David | propaganda painted by a friend; the letter; the bath he lived in
 - requested | ophelia | Ophelia, Millais | the model lay in a bathtub and fell ill; every flower has a meaning

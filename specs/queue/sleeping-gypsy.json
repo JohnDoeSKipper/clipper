@@ -1,0 +1,285 @@
+{
+ "id": "sleeping-gypsy",
+ "channel": "paintings",
+ "angle": "How did a painting its own artist's hometown turned down become a modern icon?",
+ "answer": "Rousseau, a self-taught toll clerk who never left France, built a dream from zoo visits and pictures; his hometown declined it, it vanished for 25 years, and when it resurfaced in 1923 its strange stillness looked so modern that some suspected a forgery, and it ended up at New York's Museum of Modern Art.",
+ "logline": "His hometown refused it for 1,800 francs, so how did it become an icon? Rousseau was a toll clerk who never saw a desert and learned lions at the Paris zoo, but that innocence makes it strange: a lion that sniffs and moves on, no footprints, a dreamlike moon, but after Laval said no it vanished, and reappeared in 1923 so suddenly some cried forgery, so it went to New York, but the avant-garde had once thrown him a half-mocking banquet, so the amateur they laughed at painted the dream they couldn't.",
+ "hook_text": "HIS HOMETOWN SAID NO",
+ "hooks": [
+  "Rousseau never saw a desert or a wild lion.",
+  "This lion sniffs the sleeper, and walks on."
+ ],
+ "painting": {
+  "title": "The Sleeping Gypsy",
+  "artist": "Henri Rousseau",
+  "year": "1897",
+  "museum": "Museum of Modern Art, New York"
+ },
+ "script": [
+  {
+   "text": "Its painter offered this to his hometown for 1,800 francs.",
+   "say": "Its painter offered this to his hometown for eighteen hundred francs.",
+   "beat": "hook"
+  },
+  {
+   "text": "The town said no.",
+   "beat": "hook",
+   "link": "but"
+  },
+  {
+   "text": "So how did a painting nobody wanted become a modern icon?",
+   "beat": "question",
+   "link": "so"
+  },
+  {
+   "text": "Henri Rousseau was a Paris toll clerk who took up painting in his forties.",
+   "say": "Onree Roo-so was a Paris toll clerk who took up painting in his forties.",
+   "beat": "reveal1",
+   "link": "answer"
+  },
+  {
+   "text": "He never saw a desert, or a lion in the wild.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "He learned animals from the Paris zoo and from pictures in books.",
+   "beat": "reveal1",
+   "link": "so"
+  },
+  {
+   "text": "But that innocence is what makes it so strange.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "The lion sniffs the sleeper, and doesn't attack.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "There are no footprints in the sand: how did she get here?",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "And a full moon lights it all like a dream.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "But after his hometown of Laval refused it in 1898, the painting vanished.",
+   "say": "But after his hometown of La-val refused it in eighteen ninety-eight, the painting vanished.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "It resurfaced in 1923, so suddenly that some suspected a forgery.",
+   "say": "It resurfaced in nineteen twenty-three, so suddenly that some suspected a forgery.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "In 1939, it entered New York's Museum of Modern Art.",
+   "say": "In nineteen thirty-nine, it entered New York's Museum of Modern Art.",
+   "beat": "reveal3",
+   "link": "so"
+  },
+  {
+   "text": "But in his lifetime, critics laughed at him, and young painters threw him a half-mocking banquet.",
+   "beat": "turn",
+   "link": "but"
+  },
+  {
+   "text": "So the amateur everyone laughed at painted the dream the professionals couldn't.",
+   "beat": "payoff",
+   "link": "so"
+  }
+ ],
+ "music": {
+  "piece": "field-nocturne-5"
+ },
+ "timeline": [
+  {
+   "type": "reveal",
+   "from": [
+    0.67,
+    0.5,
+    2.4
+   ],
+   "until": 3.2
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.93,
+    0.96,
+    0.06,
+    0.025
+   ],
+   "ring": "1",
+   "zoom": "1+0.3",
+   "label": "HENRI ROUSSEAU",
+   "labelAt": "1:no",
+   "out": "2-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "rousseau",
+    2
+   ],
+   "caption": "Rousseau, Myself: Portrait-Landscape, 1890",
+   "at": "3",
+   "to": "4-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.48,
+    0.45,
+    0.21,
+    0.22
+   ],
+   "ring": "4",
+   "zoom": "4+0.4",
+   "label": "NEVER SAW ONE",
+   "labelAt": "4:lion",
+   "out": "5-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "tiger",
+    2
+   ],
+   "caption": "His earlier jungle, Surprised!, 1891",
+   "at": "5",
+   "to": "6-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.65,
+    0.6,
+    0.3,
+    0.25
+   ],
+   "ring": "6",
+   "zoom": "6+0.4",
+   "out": "7-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.67,
+    0.5,
+    0.07,
+    0.08
+   ],
+   "ring": "7",
+   "zoom": "7+0.4",
+   "label": "JUST SNIFFING",
+   "labelAt": "7:sniffs",
+   "out": "8-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.22,
+    0.86,
+    0.17,
+    0.09
+   ],
+   "ring": "8",
+   "zoom": "8+0.4",
+   "label": "NO FOOTPRINTS",
+   "labelAt": "8:footprints",
+   "out": "9-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.84,
+    0.077,
+    0.045,
+    0.065
+   ],
+   "ring": "9",
+   "zoom": "9+0.4",
+   "label": "FULL MOON",
+   "labelAt": "9:moon",
+   "out": "10-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "laval",
+    0
+   ],
+   "caption": "Laval, Rousseau's home town",
+   "at": "10",
+   "to": "11-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.75,
+    0.8,
+    0.12,
+    0.1
+   ],
+   "ring": "11",
+   "zoom": "11+0.4",
+   "label": "A FORGERY?",
+   "labelAt": "11:forgery",
+   "out": "12-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.79,
+    0.62,
+    0.06,
+    0.06
+   ],
+   "ring": "12",
+   "zoom": "12+0.4",
+   "label": "MoMA, 1939",
+   "labelAt": "12:Modern",
+   "out": "13-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "rousseau",
+    1
+   ],
+   "caption": "Carnival Evening, 1886, ridiculed",
+   "at": "13",
+   "to": "14-0.3"
+  }
+ ],
+ "sources": [
+  "https://www.moma.org/collection/works/80032",
+  "https://www.moma.org/learn/moma_learning/henri-rousseau-the-sleeping-gypsy-1897/",
+  "https://www.britannica.com/biography/Henri-Rousseau",
+  "https://www.metmuseum.org/toah/hd/rous/hd_rous.htm",
+  "https://en.wikipedia.org/wiki/The_Sleeping_Gypsy"
+ ],
+ "post": {
+  "caption": "Henri Rousseau offered The Sleeping Gypsy to his hometown for 1,800 francs, and they said no. A toll clerk who never saw a desert painted a lion that sniffs the sleeper and walks on.\nWhy doesn't the lion attack?",
+  "tags": [
+   "#arthistory",
+   "#henrirousseau",
+   "#thesleepinggypsy",
+   "#moma",
+   "#naiveart"
+  ],
+  "youtube_title": "His Hometown Turned Down The Sleeping Gypsy"
+ }
+}

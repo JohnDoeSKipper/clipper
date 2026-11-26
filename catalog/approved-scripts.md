@@ -1,6 +1,28 @@
 # Model scripts (newest first)
 The writer reads the top two of its channel before writing and matches or beats them: same spine (beats in order, every sentence linked to the one before), never the same facts or hooks. Each script the writer makes is added at the top in this format. Kept to the last 12.
 
+## sleeping-gypsy (paintings, 2026-11-27)
+
+Angle: How did a painting its own artist's hometown turned down become a modern icon?
+Logline: His hometown refused it for 1,800 francs, so how did it become an icon? Rousseau was a toll clerk who never saw a desert and learned lions at the Paris zoo, but that innocence makes it strange: a lion that sniffs and moves on, no footprints, a dreamlike moon, but after Laval said no it vanished, and reappeared in 1923 so suddenly some cried forgery, so it went to New York, but the avant-garde had once thrown him a half-mocking banquet, so the amateur they laughed at painted the dream they couldn't.
+On-screen hook: HIS HOMETOWN SAID NO
+
+[hook] Its painter offered this to his hometown for 1,800 francs.
+[hook / but] The town said no.
+[question / so] So how did a painting nobody wanted become a modern icon?
+[reveal1 / answer] Henri Rousseau was a Paris toll clerk who took up painting in his forties.
+[reveal1 / detail] He never saw a desert, or a lion in the wild.
+[reveal1 / so] He learned animals from the Paris zoo and from pictures in books.
+[reveal2 / but] But that innocence is what makes it so strange.
+[reveal2 / detail] The lion sniffs the sleeper, and doesn't attack.
+[reveal2 / detail] There are no footprints in the sand: how did she get here?
+[reveal2 / detail] And a full moon lights it all like a dream.
+[reveal3 / but] But after his hometown of Laval refused it in 1898, the painting vanished.
+[reveal3 / detail] It resurfaced in 1923, so suddenly that some suspected a forgery.
+[reveal3 / so] In 1939, it entered New York's Museum of Modern Art.
+[turn / but] But in his lifetime, critics laughed at him, and young painters threw him a half-mocking banquet.
+[payoff / so] So the amateur everyone laughed at painted the dream the professionals couldn't.
+
 ## survivorship-bias (philosophy, 2026-11-27)
 
 Angle: Why do the cats that fall farthest seem to get hurt least?
@@ -253,27 +275,3 @@ On-screen hook: SEWN INTO HIS COAT
 [turn / detail] Today it's called Pascal's mugging: a tiny chance of a huge payoff can seem to justify almost anything.
 [payoff / so] So the bet meant to end doubt became a warning about infinite stakes.
 [payoff / so] If someone offers you infinity for a small price, should you pay?
-
-## utility-monster (philosophy, 2026-11-27)
-
-Angle: Should whoever enjoys something most always get the most of it?
-Logline: One creature enjoys cake a thousand times more, so should it get every slice? Utilitarianism adds up happiness and counts each person as one, but Nozick's utility monster gains more from every sacrifice, so the theory feeds it everything, but pleasures usually shrink as you get more, so sharing wins, but a true monster never gets full, so Parfit weighted the worse off, but digital minds may make the monster real, so it becomes a design choice.
-On-screen hook: 1,000x THE PLEASURE
-
-[hook] One creature enjoys cake a thousand times more than anyone else.
-[hook / so] By one famous moral rule, it should get every slice.
-[question / so] So should whoever enjoys something most always get the most?
-[reveal1 / answer] The rule is utilitarianism: do whatever creates the most total happiness.
-[reveal1 / detail] Its founder, Jeremy Bentham, insisted everybody counts for one, nobody for more.
-[reveal2 / but] But in 1974, Robert Nozick invented a creature to break it: the utility monster.
-[reveal2 / detail] It gains more from any sacrifice of ours than we lose.
-[reveal2 / so] So the theory says: feed it everything, even if the rest of us go hungry.
-[reveal2 / because] Everyone still counts for one; the monster just turns each slice into more joy.
-[reveal3 / but] But utilitarians fought back: real pleasures shrink as you get more.
-[reveal3 / so] Your tenth slice is worth less than your first, so sharing usually wins.
-[reveal3 / but] But a true monster never gets full; that's the whole point.
-[reveal3 / so] So Derek Parfit proposed giving extra weight to whoever is worse off.
-[turn / but] But the monster may stop being imaginary.
-[turn / detail] In 2020, two philosophers warned that digital minds could be built to feel far more than we do.
-[payoff / so] So the monster is no longer a joke; it could be a design choice.
-[payoff / so] If we built a mind that enjoys life a million times more than you, should it come first?
