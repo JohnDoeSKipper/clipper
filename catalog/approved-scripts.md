@@ -1,6 +1,28 @@
 # Model scripts (newest first)
 The writer reads the top two of its channel before writing and matches or beats them: same spine (beats in order, every sentence linked to the one before), never the same facts or hooks. Each script the writer makes is added at the top in this format. Kept to the last 12.
 
+## wanderer-fog (paintings, 2026-11-27)
+
+Angle: Where is the Wanderer standing, and why won't Friedrich show us his face?
+Logline: The most famous summit view doesn't exist, so where is he standing? The peaks come from Bohemia and Saxony, so nobody could see this, but that was the point, so Friedrich turned the man's back to put us in his place, but his green coat is patriots' old German dress, soon treated as a mark of radicals, but Friedrich died poor and forgotten and Hamburg bought the painting only in 1970, so the faceless man from nowhere became everyone.
+On-screen hook: PIECED TOGETHER FROM TWO COUNTRIES
+
+[hook] The world's most famous mountaintop view doesn't exist.
+[hook / because] Friedrich assembled it from sketches made in Saxony and Bohemia.
+[question / so] So where is this man standing, and why won't we see his face?
+[reveal1 / answer] The cone on the left is the Rosenberg, in Bohemia.
+[reveal1 / detail] The block on the right is the Zirkelstein, across the border in Saxony.
+[reveal1 / so] So nobody could ever stand on this rock and see this view.
+[reveal2 / but] But that was the point: a painter, he wrote, must paint what he sees within.
+[reveal2 / so] So he turned the man's back to us, and we look through his eyes.
+[reveal2 / detail] He did it again and again: back figures, or Rückenfiguren.
+[reveal3 / but] But this back figure isn't neutral: look at his coat.
+[reveal3 / detail] It looks like old German dress, worn by patriots after Napoleon's defeat.
+[reveal3 / so] By 1819, the authorities were hunting such patriots as radicals.
+[turn / but] But when Friedrich died in 1840, poor, he was almost forgotten.
+[turn / detail] Hamburg's Kunsthalle bought this painting only in 1970.
+[payoff / so] So the faceless man from nowhere became everyone: a mind facing the unknown.
+
 ## marshmallow-test (philosophy, 2026-11-27)
 
 Angle: Does waiting for a second marshmallow really show willpower?
@@ -261,28 +283,3 @@ On-screen hook: WHO ARE THESE TWO?
 [turn / but] But Van Eyck's portrait of Margaret shows grey-blue eyes; these are brown.
 [payoff / answer] So after six centuries, the couple still has no certain name.
 [payoff / but] But we know who stood at the door: Jan van Eyck was here.
-
-## drowning-child (philosophy, 2026-11-24)
-
-Angle: You would ruin your clothes to save a drowning child nearby, so why not one far away?
-Logline: Australia gave Bengal's refugees less than a twelfth of an opera house, so Singer asked why we save the child nearby but not the far one, and argued distance makes no moral difference, but our minds give to one face, not to millions, and adding the facts even made people give less, so what stops us isn't distance but a missing face.
-On-screen hook: ONE BUILDING > 9 MILLION LIVES
-
-[hook] Australia gave nine million refugees under a twelfth of an opera house.
-[hook / detail] In 1971, Peter Singer, a young Australian philosopher at Oxford, did that sum.
-[question / so] So he asked: why save a child nearby, but not one far away?
-[reveal1 / answer] His answer starts at a shallow pond, with a child drowning in it.
-[reveal1 / detail] Your clothes get muddy, he wrote, but that's nothing next to a life.
-[reveal1 / so] So if you can stop something that bad at little cost, you ought to.
-[reveal1 / so] Ten yards away or ten thousand miles, he argued, makes no moral difference.
-[reveal2 / but] But our minds don't follow his argument.
-[reveal2 / detail] In a 2007 study, people read about Rokia, a starving seven-year-old girl in Mali.
-[reveal2 / detail] They gave her two dollars thirty-eight on average.
-[reveal2 / but] Others read statistics about millions starving in Africa, and gave just a dollar fourteen.
-[reveal3 / so] So researchers showed people Rokia and the statistics together.
-[reveal3 / but] Giving fell to a dollar forty-three: the facts made people give less.
-[reveal3 / because] Numbers switch off the feeling that one face switches on.
-[turn / but] But today, the child far away has a price.
-[turn / detail] GiveWell estimates about five thousand dollars of bed nets saves one life.
-[payoff / answer] So distance isn't what stops us; it's that we never see a face.
-[payoff / but] But now that you've seen the pond, will you walk past it?

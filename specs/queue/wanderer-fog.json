@@ -1,0 +1,291 @@
+{
+ "id": "wanderer-fog",
+ "channel": "paintings",
+ "angle": "Where is the Wanderer standing, and why won't Friedrich show us his face?",
+ "answer": "Nowhere: Friedrich assembled the view from peaks in Bohemia and Saxony that cannot be seen together, because he painted what he saw within himself, and he turned the man's back so we see through his eyes; the man wears patriots' old German dress, and the painting of a forgotten painter, bought by Hamburg only in 1970, became everyone's picture of facing the unknown.",
+ "logline": "The most famous summit view doesn't exist, so where is he standing? The peaks come from Bohemia and Saxony, so nobody could see this, but that was the point, so Friedrich turned the man's back to put us in his place, but his green coat is patriots' old German dress, soon treated as a mark of radicals, but Friedrich died poor and forgotten and Hamburg bought the painting only in 1970, so the faceless man from nowhere became everyone.",
+ "hook_text": "PIECED TOGETHER FROM TWO COUNTRIES",
+ "hooks": [
+  "This man is standing somewhere nobody has ever stood.",
+  "Friedrich hid this man's face for a reason."
+ ],
+ "painting": {
+  "title": "Wanderer above the Sea of Fog",
+  "artist": "Caspar David Friedrich",
+  "year": "c. 1817",
+  "museum": "Hamburger Kunsthalle"
+ },
+ "script": [
+  {
+   "text": "The world's most famous mountaintop view doesn't exist.",
+   "beat": "hook"
+  },
+  {
+   "text": "Friedrich assembled it from sketches made in Saxony and Bohemia.",
+   "say": "Freed-rick assembled it from sketches made in Saxony and Bohemia.",
+   "beat": "hook",
+   "link": "because"
+  },
+  {
+   "text": "So where is this man standing, and why won't we see his face?",
+   "beat": "question",
+   "link": "so"
+  },
+  {
+   "text": "The cone on the left is the Rosenberg, in Bohemia.",
+   "beat": "reveal1",
+   "link": "answer"
+  },
+  {
+   "text": "The block on the right is the Zirkelstein, across the border in Saxony.",
+   "say": "The block on the right is the Tseer-kel-shtine, across the border in Saxony.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "So nobody could ever stand on this rock and see this view.",
+   "beat": "reveal1",
+   "link": "so"
+  },
+  {
+   "text": "But that was the point: a painter, he wrote, must paint what he sees within.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "So he turned the man's back to us, and we look through his eyes.",
+   "beat": "reveal2",
+   "link": "so"
+  },
+  {
+   "text": "He did it again and again: back figures, or Rückenfiguren.",
+   "say": "He did it again and again: back figures, or Rook-en-fig-oo-ren.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "But this back figure isn't neutral: look at his coat.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "It looks like old German dress, worn by patriots after Napoleon's defeat.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "By 1819, the authorities were hunting such patriots as radicals.",
+   "say": "By eighteen nineteen, the authorities were hunting such patriots as radicals.",
+   "beat": "reveal3",
+   "link": "so"
+  },
+  {
+   "text": "But when Friedrich died in 1840, poor, he was almost forgotten.",
+   "say": "But when Freed-rick died in eighteen forty, poor, he was almost forgotten.",
+   "beat": "turn",
+   "link": "but"
+  },
+  {
+   "text": "Hamburg's Kunsthalle bought this painting only in 1970.",
+   "say": "Hamburg's Kunst-halle bought this painting only in nineteen seventy.",
+   "beat": "turn",
+   "link": "detail"
+  },
+  {
+   "text": "So the faceless man from nowhere became everyone: a mind facing the unknown.",
+   "beat": "payoff",
+   "link": "so"
+  }
+ ],
+ "music": {
+  "piece": "beethoven-moonlight-1"
+ },
+ "timeline": [
+  {
+   "type": "reveal",
+   "from": [
+    0.5,
+    0.35,
+    2.6
+   ],
+   "until": 3.2
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.29,
+    0.31,
+    0.14,
+    0.08
+   ],
+   "ring": "3",
+   "zoom": "3+0.4",
+   "label": "ROSENBERG, BOHEMIA",
+   "labelAt": "3:Rosenberg",
+   "out": "3:Bohemia+0.5"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "rosenberg",
+    0
+   ],
+   "caption": "The Rosenberg (Růžovský vrch), Czech Republic",
+   "at": "3:Bohemia+0.9",
+   "to": "4-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.78,
+    0.36,
+    0.06,
+    0.06
+   ],
+   "ring": "4",
+   "zoom": "4+0.4",
+   "label": "ZIRKELSTEIN, SAXONY",
+   "labelAt": "4:Zirkelstein",
+   "out": "4:border"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "zirkelstein",
+    0
+   ],
+   "caption": "The Zirkelstein, Saxon Switzerland",
+   "at": "4:border+0.3",
+   "to": "5-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.5,
+    0.8,
+    0.34,
+    0.16
+   ],
+   "ring": "5",
+   "zoom": "5+0.4",
+   "label": "A ROCK FROM NOWHERE",
+   "labelAt": "5:rock",
+   "out": "6-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "friedrich",
+    1
+   ],
+   "caption": "Friedrich in his studio, by Kersting",
+   "at": "6",
+   "to": "7-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.5,
+    0.42,
+    0.11,
+    0.13
+   ],
+   "ring": "7",
+   "zoom": "7+0.4",
+   "label": "NO FACE",
+   "labelAt": "7:back",
+   "out": "8-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "monk",
+    0
+   ],
+   "caption": "The Monk by the Sea, Friedrich, 1808-10",
+   "at": "8",
+   "to": "9-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.5,
+    0.52,
+    0.1,
+    0.16
+   ],
+   "ring": "9",
+   "zoom": "9+0.4",
+   "label": "THE COAT",
+   "labelAt": "9:coat",
+   "out": "10-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "wartburg",
+    0
+   ],
+   "caption": "Patriotic students at the Wartburg, 1817",
+   "at": "10",
+   "to": "11-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "twomen",
+    0
+   ],
+   "caption": "Friedrich, 1819: two men in old German dress",
+   "at": "11",
+   "to": "12-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "friedrich",
+    0
+   ],
+   "caption": "Caspar David Friedrich, painted by Kersting",
+   "at": "12",
+   "to": "13-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "kunsthalle",
+    0
+   ],
+   "caption": "The Hamburger Kunsthalle",
+   "at": "13",
+   "to": "14-0.3"
+  }
+ ],
+ "sources": [
+  "https://www.hamburger-kunsthalle.de/en/caspar-david-friedrich-englisch",
+  "https://www.hamburger-kunsthalle.de/en/node/171187",
+  "https://journals.ub.uni-heidelberg.de/index.php/transfer/article/view/108892/105405",
+  "https://www.theartnewspaper.com/2024/01/03/caspar-david-friedrich-his-rise-from-obscurity-to-fame",
+  "https://www.smb.museum/en/museums-institutions/alte-nationalgalerie/exhibitions/detail/caspar-david-friedrich/",
+  "https://en.wikipedia.org/wiki/Wanderer_above_the_Sea_of_Fog"
+ ],
+ "post": {
+  "caption": "The mountain on the left is in Bohemia. The rock on the right is in Saxony. Nobody has ever stood where Friedrich's Wanderer stands, and that was the point.\nWhy do you think he hid the man's face?",
+  "tags": [
+   "#arthistory",
+   "#casparDavidFriedrich",
+   "#romanticism",
+   "#wanderer",
+   "#germanart"
+  ],
+  "youtube_title": "Nobody Has Ever Stood Where the Wanderer Stands"
+ }
+}
