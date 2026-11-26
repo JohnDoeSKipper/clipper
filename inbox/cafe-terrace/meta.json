@@ -12,42 +12,30 @@
   "desc": "Vincent van Gogh (1853-1890) Caf\u00e9terras bij nacht (place du Forum) - Kr\u00f6ller-M\u00fcller Museum Otterlo"
  },
  "inserts": {
-  "cafe": [
+  "arles": [
    {
-    "title": "File:Vincent-van-gogh-cafe-terrace-on-the-place-du-forum-arles-at-night-the.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Vincent-van-gogh-cafe-terrace-on-the-place-du-forum-arles-at-night-the.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/0/04/Vincent-van-gogh-cafe-terrace-on-the-place-du-forum-arles-at-night-the.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 2527,
-    "height": 3234,
-    "licence": "CC0",
-    "artist": "Vincent van Gogh",
-    "credit": "",
-    "desc": "Caf\u00e9 Terrace at Night, also known as The Cafe Terrace on the Place du Forum, is a coloured oil painting executed by the Dutch artistVincent van Gogh on an indus"
+    "title": "File:Arles Place du Forum Caf\u00e9 terasse 2015.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Arles_Place_du_Forum_Caf%C3%A9_terasse_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/9/98/Arles_Place_du_Forum_Caf%C3%A9_terasse_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3006,
+    "height": 1996,
+    "licence": "CC BY-SA 3.0",
+    "artist": "Isiwal",
+    "credit": "Isiwal / CC BY-SA 3.0",
+    "desc": "The caf\u00e9 in Place du Forum in Arles was painted in September 1888 by Vincent van Gogh as night scene."
    },
    {
-    "title": "File:Van Gogh - Terrasse des Caf\u00e9s an der Place du Forum in Arles am Abend1.jpeg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Van_Gogh_-_Terrasse_des_Caf%C3%A9s_an_der_Place_du_Forum_in_Arles_am_Abend1.jpeg/3840px-Van_Gogh_-_Terrasse_des_Caf%C3%A9s_an_der_Place_du_Forum_in_Arles_am_Abend1.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/0/09/Van_Gogh_-_Terrasse_des_Caf%C3%A9s_an_der_Place_du_Forum_in_Arles_am_Abend1.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 3870,
-    "height": 5082,
-    "licence": "Public domain",
-    "artist": "Vincent van Gogh",
-    "credit": "",
-    "desc": ""
-   },
-   {
-    "title": "File:Terrace of a Caf\u00e9 at Night (Place du Forum) (JH 1580) - My Dream.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Terrace_of_a_Caf%C3%A9_at_Night_%28Place_du_Forum%29_%28JH_1580%29_-_My_Dream.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/5/50/Terrace_of_a_Caf%C3%A9_at_Night_%28Place_du_Forum%29_%28JH_1580%29_-_My_Dream.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 2434,
-    "height": 3032,
-    "licence": "Public domain",
-    "artist": "Vincent van Gogh",
-    "credit": "",
-    "desc": ""
+    "title": "File:Arles Place du Forum Caf\u00e9 Terasse 2015 hk.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Arles_Place_du_Forum_Caf%C3%A9_Terasse_2015_hk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Arles_Place_du_Forum_Caf%C3%A9_Terasse_2015_hk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2449,
+    "height": 3687,
+    "licence": "CC BY-SA 3.0",
+    "artist": "Isiwal",
+    "credit": "Isiwal / CC BY-SA 3.0",
+    "desc": "The caf\u00e9 in Place du Forum in Arles was painted in September 1888 by Vincent van Gogh as night scene."
    }
   ],
-  "letter": [],
   "vincent": [
    {
     "title": "File:Vincent van Gogh - Self-Portrait - Google Art Project (454045).jpg",
@@ -81,41 +69,6 @@
     "artist": "Vincent van Gogh",
     "credit": "",
     "desc": ""
-   }
-  ],
-  "kroller": [
-   {
-    "title": "File:INTERIEUR, BADKAMER MEVR. KR\u00d6LLER- M\u00dcLLER - Otterlo - 20270297 - RCE.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/INTERIEUR%2C_BADKAMER_MEVR._KR%C3%96LLER-_M%C3%9CLLER_-_Otterlo_-_20270297_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/8/88/INTERIEUR%2C_BADKAMER_MEVR._KR%C3%96LLER-_M%C3%9CLLER_-_Otterlo_-_20270297_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 3072,
-    "height": 3078,
-    "licence": "CC BY-SA 4.0",
-    "artist": "Paul van Galen",
-    "credit": "Paul van Galen / CC BY-SA 4.0",
-    "desc": "JACHTSLOT ST. HUBERTUS: INTERIEUR, BADKAMER MEVR. KR\u00d6LLER-M\u00dcLLER"
-   },
-   {
-    "title": "File:INTERIEUR, BADKAMER MEVR. KR\u00d6LLER- M\u00dcLLER * - Otterlo - 20270284 - RCE.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/INTERIEUR%2C_BADKAMER_MEVR._KR%C3%96LLER-_M%C3%9CLLER_%2A_-_Otterlo_-_20270284_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/b/b8/INTERIEUR%2C_BADKAMER_MEVR._KR%C3%96LLER-_M%C3%9CLLER_%2A_-_Otterlo_-_20270284_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 3083,
-    "height": 3101,
-    "licence": "CC BY-SA 4.0",
-    "artist": "Paul van Galen",
-    "credit": "Paul van Galen / CC BY-SA 4.0",
-    "desc": "JACHTSLOT ST. HUBERTUS: INTERIEUR, BADKAMER MEVR. KR\u00d6LLER-M\u00dcLLER *"
-   },
-   {
-    "title": "File:INTERIEUR, BADKAMER MEVR. KR\u00d6LLER- M\u00dcLLER, WASTAFEL - Otterlo - 20270286 - RCE.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/INTERIEUR%2C_BADKAMER_MEVR._KR%C3%96LLER-_M%C3%9CLLER%2C_WASTAFEL_-_Otterlo_-_20270286_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/c/c4/INTERIEUR%2C_BADKAMER_MEVR._KR%C3%96LLER-_M%C3%9CLLER%2C_WASTAFEL_-_Otterlo_-_20270286_-_RCE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 3060,
-    "height": 3090,
-    "licence": "CC BY-SA 4.0",
-    "artist": "Paul van Galen",
-    "credit": "Paul van Galen / CC BY-SA 4.0",
-    "desc": "JACHTSLOT ST. HUBERTUS: INTERIEUR, BADKAMER MEVR. KR\u00d6LLER-M\u00dcLLER, WASTAFEL"
    }
   ],
   "anquetin": [
@@ -166,39 +119,75 @@
     "desc": ""
    }
   ],
-  "yellowhouse": [
+  "maupassant": [
    {
-    "title": "File:Vincent van Gogh - The yellow house ('The street').jpg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Vincent_van_Gogh_-_The_yellow_house_%28%27The_street%27%29.jpg/3840px-Vincent_van_Gogh_-_The_yellow_house_%28%27The_street%27%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Vincent_van_Gogh_-_The_yellow_house_%28%27The_street%27%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 6917,
-    "height": 5366,
+    "title": "File:Guy de Maupassant fotograferad av F\u00e9lix Nadar 1888.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Guy_de_Maupassant_fotograferad_av_F%C3%A9lix_Nadar_1888.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/9/93/Guy_de_Maupassant_fotograferad_av_F%C3%A9lix_Nadar_1888.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1028,
+    "height": 1410,
     "licence": "Public domain",
-    "artist": "Vincent van Gogh",
+    "artist": "Nadar",
     "credit": "",
-    "desc": ""
+    "desc": "Guy de Maupassant."
    },
    {
-    "title": "File:WLANL - Pachango - Het gele huis ('De straat'), Vincent van Gogh (1888).jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/WLANL_-_Pachango_-_Het_gele_huis_%28%27De_straat%27%29%2C_Vincent_van_Gogh_%281888%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/6/67/WLANL_-_Pachango_-_Het_gele_huis_%28%27De_straat%27%29%2C_Vincent_van_Gogh_%281888%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 2908,
-    "height": 2385,
-    "licence": "CC BY-SA 2.0",
-    "artist": "Vincent van Gogh",
-    "credit": "Vincent van Gogh / CC BY-SA 2.0",
-    "desc": ""
+    "title": "File:M. Guy de Maupassant - btv1b53220355t.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/M._Guy_de_Maupassant_-_btv1b53220355t.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/7/7b/M._Guy_de_Maupassant_-_btv1b53220355t.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3296,
+    "height": 4288,
+    "licence": "Public domain",
+    "artist": "Atelier Nadar. Photographe",
+    "credit": "",
+    "desc": "Sujet : Maupassant, Guy de (1850-1893) -- Portraits Portraits de studio -- 19e si\u00e8cle Langue : fran\u00e7ais"
    },
    {
-    "title": "File:Vincent van Gogh - The yellow house (`The street') - Google Art Project.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Vincent_van_Gogh_-_The_yellow_house_%28%60The_street%27%29_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Vincent_van_Gogh_-_The_yellow_house_%28%60The_street%27%29_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 3166,
-    "height": 2481,
+    "title": "File:M. Guy de Maupassant - btv1b532203568.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/M._Guy_de_Maupassant_-_btv1b532203568.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/3/31/M._Guy_de_Maupassant_-_btv1b532203568.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3292,
+    "height": 4286,
     "licence": "Public domain",
-    "artist": "Vincent van Gogh",
+    "artist": "Atelier Nadar. Photographe",
     "credit": "",
-    "desc": ""
+    "desc": "Sujet : Maupassant, Guy de (1850-1893) -- Portraits Portraits de studio -- 19e si\u00e8cle Langue : fran\u00e7ais"
+   }
+  ],
+  "kroller": [],
+  "lastsupper": [
+   {
+    "title": "File:Leonardo da Vinci - The Last Supper high res.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Leonardo_da_Vinci_-_The_Last_Supper_high_res.jpg/3840px-Leonardo_da_Vinci_-_The_Last_Supper_high_res.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Leonardo_da_Vinci_-_The_Last_Supper_high_res.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 5381,
+    "height": 2926,
+    "licence": "Public domain",
+    "artist": "Leonardo da Vinci",
+    "credit": "",
+    "desc": "Public Domain version of Leonardo da Vinci's Last Supper. High-resolution JPEG image, with no watermarks."
+   },
+   {
+    "title": "File:The Last Supper - Leonardo Da Vinci - High Resolution 32x16.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg/3840px-The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/4/48/The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 9600,
+    "height": 4800,
+    "licence": "Public domain",
+    "artist": "Leonardo da Vinci",
+    "credit": "",
+    "desc": "The Last Supper Restored - Leonardo Da Vinci"
+   },
+   {
+    "title": "File:The-Last-Supper-Restored-Da-Vinci 32x16.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/The-Last-Supper-Restored-Da-Vinci_32x16.jpg/3840px-The-Last-Supper-Restored-Da-Vinci_32x16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/2/22/The-Last-Supper-Restored-Da-Vinci_32x16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 9600,
+    "height": 4800,
+    "licence": "Public domain",
+    "artist": "Leonardo da Vinci",
+    "credit": "",
+    "desc": "The Last Supper Restored"
    }
   ]
  }

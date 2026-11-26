@@ -12,41 +12,42 @@
   "desc": ""
  },
  "inserts": {
-  "sistine": [
+  "chapel": [
    {
-    "title": "File:0 Vo\u00fbte de l'escalier jouxtant la Chapelle Sixtine (2).JPG",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/0_Vo%C3%BBte_de_l%27escalier_jouxtant_la_Chapelle_Sixtine_%282%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/6/67/0_Vo%C3%BBte_de_l%27escalier_jouxtant_la_Chapelle_Sixtine_%282%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 2486,
-    "height": 3812,
-    "licence": "CC BY-SA 3.0",
-    "artist": "Jean-Pol GRANDMONT",
-    "credit": "Jean-Pol GRANDMONT / CC BY-SA 3.0",
-    "desc": "Vault of the staircase next to the Sistine Chapel adorned with mannerist frecoes, landscapes, allegorical motifs and coat of arms of Pope Sixtus V."
+    "title": "File:S.m. maggiore, cappella del ss. sacramento (sistina), del fontana (1584-7) con marmi dal settizionio 06.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/S.m._maggiore%2C_cappella_del_ss._sacramento_%28sistina%29%2C_del_fontana_%281584-7%29_con_marmi_dal_settizionio_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/6/62/S.m._maggiore%2C_cappella_del_ss._sacramento_%28sistina%29%2C_del_fontana_%281584-7%29_con_marmi_dal_settizionio_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3648,
+    "height": 2736,
+    "licence": "CC BY 3.0",
+    "artist": "Sailko",
+    "credit": "Sailko / CC BY 3.0",
+    "desc": "Santa Maria Maggiore (Roma)"
    },
    {
-    "title": "File:0 Vo\u00fbte de l'escalier jouxtant la Chapelle Sixtine (1).JPG",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/0_Vo%C3%BBte_de_l%27escalier_jouxtant_la_Chapelle_Sixtine_%281%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/d/d3/0_Vo%C3%BBte_de_l%27escalier_jouxtant_la_Chapelle_Sixtine_%281%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 2592,
-    "height": 3888,
-    "licence": "CC BY-SA 3.0",
-    "artist": "Jean-Pol GRANDMONT",
-    "credit": "Jean-Pol GRANDMONT / CC BY-SA 3.0",
-    "desc": "Vault of the staircase next to the Sistine Chapel adorned with mannerist frecoes, landscapes and coat of arms of Pope Sixtus V."
+    "title": "File:S.m. maggiore, cappella del ss. sacramento (sistina), del fontana (1584-7) con marmi dal settizionio 05.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/S.m._maggiore%2C_cappella_del_ss._sacramento_%28sistina%29%2C_del_fontana_%281584-7%29_con_marmi_dal_settizionio_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/7/77/S.m._maggiore%2C_cappella_del_ss._sacramento_%28sistina%29%2C_del_fontana_%281584-7%29_con_marmi_dal_settizionio_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3648,
+    "height": 2736,
+    "licence": "CC BY 3.0",
+    "artist": "Sailko",
+    "credit": "Sailko / CC BY 3.0",
+    "desc": "Santa Maria Maggiore (Roma)"
    },
    {
-    "title": "File:Blason de Sixte V - Vo\u00fbte de l'escalier jouxtant la Chapelle Sixtine (2).JPG",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Blason_de_Sixte_V_-_Vo%C3%BBte_de_l%27escalier_jouxtant_la_Chapelle_Sixtine_%282%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Blason_de_Sixte_V_-_Vo%C3%BBte_de_l%27escalier_jouxtant_la_Chapelle_Sixtine_%282%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 2480,
-    "height": 3201,
-    "licence": "CC BY-SA 3.0",
-    "artist": "Jean-Pol GRANDMONT",
-    "credit": "Jean-Pol GRANDMONT / CC BY-SA 3.0",
-    "desc": "Coat of arms of Pope Sixtus V decorating the vault of the staircase next to the Sistine Chapel."
+    "title": "File:Cappella Sistina - Santa Maria Maggiore - Rome, Italy - DSC05696.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Cappella_Sistina_-_Santa_Maria_Maggiore_-_Rome%2C_Italy_-_DSC05696.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/2/28/Cappella_Sistina_-_Santa_Maria_Maggiore_-_Rome%2C_Italy_-_DSC05696.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3648,
+    "height": 5472,
+    "licence": "Public domain",
+    "artist": "Daderot",
+    "credit": "",
+    "desc": "Santa Maria Maggiore - Rome, Italy."
    }
   ],
+  "chapel2": [],
   "brain": [
    {
     "title": "File:DTI-sagittal-fibers.jpg",
@@ -188,6 +189,29 @@
     "desc": "Sistine Chapel Two spandrels after restoration"
    }
   ],
-  "adamstudy": []
+  "adamstudy": [
+   {
+    "title": "File:Study of a head.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Study_of_a_head.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Study_of_a_head.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1250,
+    "height": 1673,
+    "licence": "Public domain",
+    "artist": "Michelangelo",
+    "credit": "",
+    "desc": ""
+   },
+   {
+    "title": "File:Studies for God, Angels.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Studies_for_God%2C_Angels.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Studies_for_God%2C_Angels.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1428,
+    "height": 1904,
+    "licence": "Public domain",
+    "artist": "Michelangelo",
+    "credit": "",
+    "desc": ""
+   }
+  ]
  }
 }
