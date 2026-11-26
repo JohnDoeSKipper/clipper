@@ -1,0 +1,716 @@
+{
+ "id": "achilles-tortoise",
+ "channel": "philosophy",
+ "style": "clay",
+ "title": "ACHILLES AND THE TORTOISE",
+ "angle": "Where does Zeno's argument that Achilles can never catch the tortoise go wrong?",
+ "answer": "Infinitely many ever-shorter catch-up steps add up to a finite distance (100 + 10 + 1 + ... = 111 1/9 metres), which mathematics made rigorous with limits in the 1800s; but philosophers still debate how infinitely many tasks can be completed, and physics now names an effect after Zeno.",
+ "logline": "By Zeno's logic the fastest hero never catches a tortoise, so where's the flaw? Zeno posed it to prove motion is an illusion, but Achilles obviously wins, so the question is what's wrong with the steps, which shrink forever, but infinitely many steps can add to a finite distance, 111 and a ninth metres, made airtight only in the 1800s, but philosophers say that answers how far, not how infinitely many tasks get done, and physicists named an effect after him, so Zeno lost the race and shaped the maths of infinity.",
+ "hook_text": "HE NEVER CATCHES IT?",
+ "hooks": [
+  "This 2,400-year-old argument says motion is impossible.",
+  "In 1990, physicists froze an atom and named it after Zeno."
+ ],
+ "world": {
+  "scenery": "open",
+  "ground": "#D9C7A0"
+ },
+ "script": [
+  {
+   "text": "By this logic, the fastest Greek hero never catches a tortoise.",
+   "beat": "hook"
+  },
+  {
+   "text": "Each time Achilles reaches where it was, it has crawled a little further.",
+   "beat": "hook",
+   "link": "because"
+  },
+  {
+   "text": "So where exactly does the argument go wrong?",
+   "beat": "question",
+   "link": "so"
+  },
+  {
+   "text": "Zeno of Elea posed it around 450 BC.",
+   "say": "Zeno of Elea posed it around four hundred and fifty B C.",
+   "beat": "reveal1",
+   "link": "answer"
+  },
+  {
+   "text": "His book is lost; we know it mainly through Aristotle, who tried to refute it.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "Zeno wasn't joking: he wanted to show that motion itself is an illusion.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "But obviously Achilles wins: legend says one philosopher answered by simply walking away.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "So the real puzzle is what's wrong with the steps.",
+   "beat": "reveal2",
+   "link": "so"
+  },
+  {
+   "text": "Give the tortoise 100 metres; he's ten times faster.",
+   "say": "Give the tortoise a hundred metres; he's ten times faster.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "The gaps shrink: 10 metres, then 1, then a tenth, forever.",
+   "say": "The gaps shrink: ten metres, then one, then a tenth, forever.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "But infinitely many steps can add up to a finite distance.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "They total 111 and one-ninth metres; he passes it right there.",
+   "say": "They total a hundred and eleven and one-ninth metres; he passes it right there.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "Mathematicians only made that airtight in the 1800s, with the idea of a limit.",
+   "say": "Mathematicians only made that airtight in the eighteen hundreds, with the idea of a limit.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "But some philosophers say the maths tells you how far, not how anyone finishes infinitely many tasks.",
+   "beat": "turn",
+   "link": "but"
+  },
+  {
+   "text": "And in 1990, physicists named an effect after him: watch an atom often enough, and it freezes.",
+   "say": "And in nineteen ninety, physicists named an effect after him: watch an atom often enough, and it freezes.",
+   "beat": "turn",
+   "link": "detail"
+  },
+  {
+   "text": "So Zeno lost the race, and still shaped the maths of infinity.",
+   "beat": "payoff",
+   "link": "so"
+  },
+  {
+   "text": "If you can never finish an infinite list, how do you ever cross a room?",
+   "beat": "payoff",
+   "link": "so"
+  }
+ ],
+ "objects": [
+  {
+   "id": "you",
+   "kind": "person",
+   "look": "you",
+   "at": [
+    -4.0,
+    0,
+    0.0
+   ],
+   "face": 90
+  },
+  {
+   "id": "tort",
+   "kind": "tortoise",
+   "at": [
+    -1.0,
+    0,
+    1.0
+   ],
+   "face": 90
+  },
+  {
+   "id": "line",
+   "kind": "arrows",
+   "path": [
+    [
+     -4.5,
+     2.2
+    ],
+    [
+     5.5,
+     2.2
+    ]
+   ]
+  },
+  {
+   "id": "elder",
+   "kind": "person",
+   "look": "elder",
+   "at": [
+    2.0,
+    0,
+    -1.6
+   ],
+   "face": "you",
+   "show": false
+  }
+ ],
+ "shots": [
+  {
+   "at": 0,
+   "cam": {
+    "preset": "side",
+    "on": [
+     "you",
+     "tort"
+    ]
+   }
+  },
+  {
+   "at": "1",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "tort"
+    ]
+   },
+   "focus": [
+    "you",
+    "tort"
+   ]
+  },
+  {
+   "at": "2",
+   "cam": {
+    "preset": "tight",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "3",
+   "cam": {
+    "preset": "close",
+    "on": "tort"
+   },
+   "focus": [
+    "tort"
+   ]
+  },
+  {
+   "at": "4",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "tort"
+    ],
+    "side": 1
+   },
+   "focus": [
+    "you",
+    "tort"
+   ]
+  },
+  {
+   "at": "5",
+   "cam": {
+    "preset": "close",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "6",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "you",
+     "tort",
+     "elder"
+    ]
+   }
+  },
+  {
+   "at": "7",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "tort"
+    ]
+   },
+   "focus": [
+    "you",
+    "tort"
+   ]
+  },
+  {
+   "at": "8",
+   "cam": {
+    "preset": "side",
+    "on": [
+     "you",
+     "tort"
+    ]
+   }
+  },
+  {
+   "at": "9",
+   "cam": {
+    "preset": "close",
+    "on": "tort"
+   },
+   "focus": [
+    "tort"
+   ]
+  },
+  {
+   "at": "10",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "tort"
+    ]
+   },
+   "focus": [
+    "you",
+    "tort"
+   ]
+  },
+  {
+   "at": "11",
+   "cam": {
+    "preset": "side",
+    "on": [
+     "you",
+     "tort"
+    ]
+   }
+  },
+  {
+   "at": "12",
+   "cam": {
+    "preset": "close",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "13",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "you",
+     "tort"
+    ]
+   }
+  },
+  {
+   "at": "13:finishes",
+   "cam": {
+    "preset": "close",
+    "on": "you",
+    "side": -1
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "14",
+   "cam": {
+    "preset": "close",
+    "on": "tort",
+    "side": -1
+   },
+   "focus": [
+    "tort"
+   ]
+  },
+  {
+   "at": "14:watch",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "tort"
+    ],
+    "side": 1
+   },
+   "focus": [
+    "you",
+    "tort"
+   ]
+  },
+  {
+   "at": "15",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "tort"
+    ]
+   },
+   "focus": [
+    "you",
+    "tort"
+   ]
+  },
+  {
+   "at": "16",
+   "cam": {
+    "preset": "tight",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "16:list",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "tort"
+    ]
+   },
+   "focus": [
+    "you",
+    "tort"
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "id": "you",
+   "at": "1",
+   "until": "1:reaches",
+   "pos": [
+    -1.0,
+    0,
+    0.0
+   ],
+   "walk": true,
+   "ease": "linear"
+  },
+  {
+   "id": "tort",
+   "at": "1",
+   "until": "1:further",
+   "pos": [
+    0.2,
+    0,
+    1.0
+   ],
+   "ease": "linear"
+  },
+  {
+   "id": "you",
+   "at": "1:reaches",
+   "until": "1:further",
+   "pos": [
+    0.0,
+    0,
+    0.0
+   ],
+   "walk": true,
+   "ease": "linear"
+  },
+  {
+   "id": "you",
+   "at": "2",
+   "dur": 0.4,
+   "pose": "think"
+  },
+  {
+   "id": "you",
+   "at": "3",
+   "dur": 0.1,
+   "pos": [
+    -4.0,
+    0,
+    0.0
+   ]
+  },
+  {
+   "id": "tort",
+   "at": "3",
+   "dur": 0.1,
+   "pos": [
+    -1.0,
+    0,
+    1.0
+   ]
+  },
+  {
+   "id": "you",
+   "at": "5:illusion",
+   "dur": 0.4,
+   "pose": "shrug"
+  },
+  {
+   "id": "elder",
+   "at": "6:legend",
+   "dur": 0.4,
+   "show": true
+  },
+  {
+   "id": "elder",
+   "at": "6:walking",
+   "until": "7",
+   "pos": [
+    5.0,
+    0,
+    -1.6
+   ],
+   "walk": true
+  },
+  {
+   "id": "you",
+   "at": "8:faster",
+   "until": "9",
+   "pos": [
+    -1.0,
+    0,
+    0.0
+   ],
+   "walk": true,
+   "ease": "linear"
+  },
+  {
+   "id": "tort",
+   "at": "8:faster",
+   "until": "9",
+   "pos": [
+    -0.7,
+    0,
+    1.0
+   ],
+   "ease": "linear"
+  },
+  {
+   "id": "you",
+   "at": "9",
+   "until": "9:forever",
+   "pos": [
+    -0.75,
+    0,
+    0.0
+   ],
+   "walk": true,
+   "ease": "out"
+  },
+  {
+   "id": "tort",
+   "at": "9",
+   "until": "9:forever",
+   "pos": [
+    -0.6,
+    0,
+    1.0
+   ],
+   "ease": "out"
+  },
+  {
+   "id": "you",
+   "at": "11:passes",
+   "until": "11:passes+1.2",
+   "pos": [
+    1.6,
+    0,
+    0.0
+   ],
+   "walk": true
+  },
+  {
+   "id": "you",
+   "at": "12",
+   "dur": 0.4,
+   "pose": "cheer"
+  },
+  {
+   "id": "you",
+   "at": "13",
+   "dur": 0.4,
+   "pose": "think"
+  },
+  {
+   "id": "tort",
+   "at": "14:freezes",
+   "dur": 0.5,
+   "wobble": true
+  },
+  {
+   "id": "you",
+   "at": "16",
+   "dur": 0.4,
+   "pose": "think"
+  }
+ ],
+ "overlays": [
+  {
+   "type": "label",
+   "text": "ACHILLES",
+   "color": "yellow",
+   "on": "you",
+   "from": "0",
+   "to": "1"
+  },
+  {
+   "type": "question",
+   "on": "you",
+   "from": "2:wrong",
+   "to": "3"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "zeno",
+    1
+   ],
+   "caption": "Zeno of Elea, from a fresco at El Escorial",
+   "from": "3",
+   "to": "4-0.2"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "aristotle",
+    0
+   ],
+   "caption": "Aristotle, who preserved the paradox",
+   "from": "4:Aristotle",
+   "to": "5-0.2"
+  },
+  {
+   "type": "label",
+   "text": "MOTION = ILLUSION?",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "5:illusion",
+   "to": "6"
+  },
+  {
+   "type": "label",
+   "text": "YOU",
+   "color": "yellow",
+   "on": "you",
+   "from": "7",
+   "to": "8"
+  },
+  {
+   "type": "label",
+   "text": "+100 m",
+   "on": "tort",
+   "from": "8:100",
+   "to": "9"
+  },
+  {
+   "type": "label",
+   "text": "10 · 1 · 0.1 · 0.01 …",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "9:shrink",
+   "to": "10"
+  },
+  {
+   "type": "label",
+   "text": "∞ STEPS = FINITE",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "10:finite",
+   "to": "11"
+  },
+  {
+   "type": "number",
+   "text": "111.1 m",
+   "on": "you",
+   "from": "11:111",
+   "to": "12"
+  },
+  {
+   "type": "label",
+   "text": "LIMITS, 1800s",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "12:limit",
+   "to": "13"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "arrow",
+    0
+   ],
+   "caption": "Zeno also argued a flying arrow never moves",
+   "from": "13:tasks",
+   "to": "14-0.2"
+  },
+  {
+   "type": "label",
+   "text": "QUANTUM ZENO EFFECT",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "14:effect",
+   "to": "15"
+  },
+  {
+   "type": "pill",
+   "text": "How do you cross a room?",
+   "from": "16:room"
+  }
+ ],
+ "sfx": [
+  {
+   "at": "11:passes",
+   "s": "whoosh",
+   "gain": 0.25
+  },
+  {
+   "at": "14:freezes",
+   "s": "tick",
+   "gain": 0.25
+  }
+ ],
+ "music": {
+  "mood": "wonder"
+ },
+ "sources": [
+  "https://plato.stanford.edu/entries/paradox-zeno/",
+  "https://iep.utm.edu/zenos-paradoxes/",
+  "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.41.2295",
+  "https://en.wikipedia.org/wiki/Zeno%27s_paradoxes"
+ ],
+ "post": {
+  "caption": "By Zeno's logic, Achilles never catches a tortoise with a head start. Mathematicians needed until the 1800s to make the answer airtight, and physicists named an effect after Zeno in 1990.\nHow would you answer Zeno?",
+  "tags": [
+   "#philosophy",
+   "#paradox",
+   "#zeno",
+   "#maths",
+   "#infinity"
+  ],
+  "youtube_title": "Why Achilles Can Never Catch the Tortoise"
+ }
+}

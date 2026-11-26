@@ -1,6 +1,30 @@
 # Model scripts (newest first)
 The writer reads the top two of its channel before writing and matches or beats them: same spine (beats in order, every sentence linked to the one before), never the same facts or hooks. Each script the writer makes is added at the top in this format. Kept to the last 12.
 
+## achilles-tortoise (philosophy, 2026-11-27)
+
+Angle: Where does Zeno's argument that Achilles can never catch the tortoise go wrong?
+Logline: By Zeno's logic the fastest hero never catches a tortoise, so where's the flaw? Zeno posed it to prove motion is an illusion, but Achilles obviously wins, so the question is what's wrong with the steps, which shrink forever, but infinitely many steps can add to a finite distance, 111 and a ninth metres, made airtight only in the 1800s, but philosophers say that answers how far, not how infinitely many tasks get done, and physicists named an effect after him, so Zeno lost the race and shaped the maths of infinity.
+On-screen hook: HE NEVER CATCHES IT?
+
+[hook] By this logic, the fastest Greek hero never catches a tortoise.
+[hook / because] Each time Achilles reaches where it was, it has crawled a little further.
+[question / so] So where exactly does the argument go wrong?
+[reveal1 / answer] Zeno of Elea posed it around 450 BC.
+[reveal1 / detail] His book is lost; we know it mainly through Aristotle, who tried to refute it.
+[reveal1 / detail] Zeno wasn't joking: he wanted to show that motion itself is an illusion.
+[reveal2 / but] But obviously Achilles wins: legend says one philosopher answered by simply walking away.
+[reveal2 / so] So the real puzzle is what's wrong with the steps.
+[reveal2 / detail] Give the tortoise 100 metres; he's ten times faster.
+[reveal2 / detail] The gaps shrink: 10 metres, then 1, then a tenth, forever.
+[reveal3 / but] But infinitely many steps can add up to a finite distance.
+[reveal3 / detail] They total 111 and one-ninth metres; he passes it right there.
+[reveal3 / detail] Mathematicians only made that airtight in the 1800s, with the idea of a limit.
+[turn / but] But some philosophers say the maths tells you how far, not how anyone finishes infinitely many tasks.
+[turn / detail] And in 1990, physicists named an effect after him: watch an atom often enough, and it freezes.
+[payoff / so] So Zeno lost the race, and still shaped the maths of infinity.
+[payoff / so] If you can never finish an infinite list, how do you ever cross a room?
+
 ## cafe-terrace (paintings, 2026-11-27)
 
 Angle: How did Van Gogh paint a night scene without any black?
@@ -249,28 +273,3 @@ On-screen hook: ON HIS DINING-ROOM WALL
 [turn / but] A new owner had them peeled off the plaster onto canvas, hoping to sell.
 [turn / but] At the 1878 Paris World's Fair nobody bought them, so they went to the Prado.
 [payoff / so] So a nightmare made for one man's dinner table now hangs for millions.
-
-## sunk-cost (philosophy, 2026-11-27)
-
-Angle: Why do we keep going with things we've paid for, even when they make us miserable?
-Logline: Most people chose the ski trip they would enjoy less because it cost more, so why? Ohio psychologists found over half picked the $100 trip over the better $50 one, but that was hypothetical, so they discounted real theatre tickets and full-price buyers went to more plays, but it isn't just human: in 2018 mice, rats and people all kept waiting longer the more they'd waited, but biologists named it after Concorde, so the cure is simple: only the future counts.
-On-screen hook: THE TRIP THEY'D ENJOY LESS
-
-[hook] In a 1985 study, most people chose the holiday they'd enjoy less.
-[hook / because] It had cost them more.
-[question / so] So why do we keep paying for things that make us miserable?
-[reveal1 / answer] Psychologists at Ohio University posed a puzzle: you've booked two ski trips for the same weekend.
-[reveal1 / detail] Michigan cost 100 dollars; Wisconsin cost 50, and sounds more fun.
-[reveal1 / so] Over half chose Michigan, so as not to waste the bigger sum.
-[reveal2 / but] But that was only imaginary money.
-[reveal2 / so] So they sold real theatre season tickets, giving random buyers a discount.
-[reveal2 / detail] Full-price buyers went to more plays, at least for the first half of the season.
-[reveal2 / so] Economists call it the sunk cost fallacy: money already gone shouldn't change what you do next.
-[reveal3 / but] But it isn't just a human quirk.
-[reveal3 / detail] In 2018, scientists gave mice, rats and people the same kind of waiting game.
-[reveal3 / detail] All three were likelier to keep waiting, the longer they had already waited.
-[reveal3 / so] So the pull of a sunk cost may be older than money itself.
-[turn / but] But biologists named this mistake after a jet.
-[turn / detail] Britain and France kept funding Concorde long after it couldn't pay off; only fourteen ever flew passengers.
-[payoff / so] So the cure is simple to say, and hard to do: only the future counts.
-[payoff / so] What are you still doing just because you've already paid for it?
