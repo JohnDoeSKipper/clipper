@@ -1,0 +1,715 @@
+{
+ "id": "buridans-donkey",
+ "channel": "philosophy",
+ "style": "clay",
+ "title": "BURIDAN'S DONKEY",
+ "angle": "Can a mind with no reason to choose ever choose at all?",
+ "answer": "Logically it can stall forever: Aristotle and Spinoza accepted the starving chooser, and Lamport proved every computer chip faces the same stall (metastability), which engineers can make rare but never impossible; real choosers survive by breaking ties arbitrarily, with a coin, a whim or a tiny bias.",
+ "logline": "A perfectly logical donkey between two equal piles would starve, so can a mind choose without a reason? The puzzle carries a Paris philosopher's name, but he never wrote it, because critics made it up to mock him, but the idea is older: Aristotle's starving man, and Spinoza agreed he would die, but Leibniz said balance never happens, but in 1984 Lamport found the donkey inside every chip, so engineers can make the stall rare but never impossible, but journals rejected him for decades, so real choosers survive by cheating.",
+ "hook_text": "TWO EQUAL PILES. NO CHOICE.",
+ "hooks": [
+  "Every computer chip has a tiny chance of freezing like a donkey between two haystacks.",
+  "Spinoza agreed: a perfectly balanced man would starve."
+ ],
+ "world": {
+  "scenery": "default"
+ },
+ "script": [
+  {
+   "text": "A perfectly logical donkey, between two identical piles of hay, would starve.",
+   "beat": "hook"
+  },
+  {
+   "text": "It has no reason to pick one over the other.",
+   "beat": "hook",
+   "link": "because"
+  },
+  {
+   "text": "So can a mind with no reason to choose ever choose at all?",
+   "beat": "question",
+   "link": "so"
+  },
+  {
+   "text": "The puzzle carries the name of a 14th-century Paris philosopher.",
+   "say": "The puzzle carries the name of a fourteenth-century Paris philosopher.",
+   "beat": "reveal1",
+   "link": "answer"
+  },
+  {
+   "text": "But the donkey never appears in his surviving writings.",
+   "beat": "reveal1",
+   "link": "but"
+  },
+  {
+   "text": "Critics likely invented it to mock his view that the will must follow reason.",
+   "beat": "reveal1",
+   "link": "because"
+  },
+  {
+   "text": "But the idea is far older.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "Aristotle pictured a man as hungry as he was thirsty, frozen between food and drink.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "In 1677, Spinoza agreed such a man would die, and said he didn't know if he was a man or an ass.",
+   "say": "In sixteen seventy-seven, Spinoza agreed such a man would die, and said he didn't know if he was a man or an ass.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "Leibniz replied that perfect balance never happens: some tiny difference always tips you.",
+   "say": "Libe-nits replied that perfect balance never happens: some tiny difference always tips you.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "But in 1984, computer scientist Leslie Lamport found the donkey inside every computer.",
+   "say": "But in nineteen eighty-four, computer scientist Leslie Lamport found the donkey inside every computer.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "A chip deciding whether a signal came before or after a clock tick can stick in between.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "Engineers call it metastability, and it can crash a system.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "So they make the stall astronomically rare, but never impossible.",
+   "beat": "reveal3",
+   "link": "so"
+  },
+  {
+   "text": "But journals rejected Lamport's paper; it was finally published in 2012.",
+   "say": "But journals rejected Lamport's paper; it was finally published in twenty twelve.",
+   "beat": "turn",
+   "link": "but"
+  },
+  {
+   "text": "So real choosers survive by cheating: a coin flip, a whim, a tiny bias.",
+   "beat": "payoff",
+   "link": "so"
+  },
+  {
+   "text": "When two options are truly equal, is flipping a coin the most rational thing you can do?",
+   "beat": "payoff",
+   "link": "so"
+  }
+ ],
+ "objects": [
+  {
+   "id": "donkey",
+   "kind": "donkey",
+   "at": [
+    0,
+    0,
+    0
+   ],
+   "face": 0
+  },
+  {
+   "id": "hayL",
+   "kind": "hay",
+   "at": [
+    -2.4,
+    0,
+    0.4
+   ],
+   "face": 0
+  },
+  {
+   "id": "hayR",
+   "kind": "hay",
+   "at": [
+    2.4,
+    0,
+    0.4
+   ],
+   "face": 0
+  },
+  {
+   "id": "you",
+   "kind": "person",
+   "look": "you",
+   "at": [
+    3.4,
+    0,
+    3.0
+   ],
+   "face": "donkey",
+   "show": false
+  },
+  {
+   "id": "coin",
+   "kind": "coin",
+   "at": [
+    0,
+    1.0,
+    2.4
+   ],
+   "face": 0,
+   "scale": 0.8,
+   "show": false
+  }
+ ],
+ "shots": [
+  {
+   "at": 0,
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "hayL",
+     "donkey",
+     "hayR"
+    ]
+   }
+  },
+  {
+   "at": "1",
+   "cam": {
+    "preset": "close",
+    "on": "donkey"
+   },
+   "focus": [
+    "donkey"
+   ]
+  },
+  {
+   "at": "2",
+   "cam": {
+    "preset": "close",
+    "on": "donkey",
+    "dist": 1.2
+   },
+   "focus": [
+    "donkey"
+   ]
+  },
+  {
+   "at": "3",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "donkey",
+     "hayL"
+    ]
+   },
+   "focus": [
+    "donkey",
+    "hayL"
+   ]
+  },
+  {
+   "at": "4",
+   "cam": {
+    "preset": "close",
+    "on": "donkey",
+    "side": 1
+   },
+   "focus": [
+    "donkey"
+   ]
+  },
+  {
+   "at": "5",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "donkey",
+     "hayR"
+    ]
+   },
+   "focus": [
+    "donkey",
+    "hayR"
+   ]
+  },
+  {
+   "at": "6",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "hayL",
+     "donkey",
+     "hayR"
+    ]
+   }
+  },
+  {
+   "at": "7",
+   "cam": {
+    "preset": "close",
+    "on": "hayL"
+   },
+   "focus": [
+    "hayL"
+   ]
+  },
+  {
+   "at": "8",
+   "cam": {
+    "preset": "close",
+    "on": "donkey",
+    "dist": 1.2
+   },
+   "focus": [
+    "donkey"
+   ]
+  },
+  {
+   "at": "8:said",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "donkey",
+     "hayL"
+    ]
+   },
+   "focus": [
+    "donkey",
+    "hayL"
+   ]
+  },
+  {
+   "at": "9",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "donkey",
+     "hayR"
+    ]
+   },
+   "focus": [
+    "donkey",
+    "hayR"
+   ]
+  },
+  {
+   "at": "10",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "hayL",
+     "donkey",
+     "hayR"
+    ]
+   }
+  },
+  {
+   "at": "11",
+   "cam": {
+    "preset": "close",
+    "on": "donkey"
+   },
+   "focus": [
+    "donkey"
+   ]
+  },
+  {
+   "at": "12",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "donkey",
+     "hayL"
+    ],
+    "side": 1
+   },
+   "focus": [
+    "donkey",
+    "hayL"
+   ]
+  },
+  {
+   "at": "13",
+   "cam": {
+    "preset": "close",
+    "on": "hayR"
+   },
+   "focus": [
+    "hayR"
+   ]
+  },
+  {
+   "at": "14",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "hayL",
+     "donkey",
+     "hayR",
+     "you"
+    ]
+   }
+  },
+  {
+   "at": "15",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "coin"
+    ]
+   },
+   "focus": [
+    "you",
+    "coin"
+   ]
+  },
+  {
+   "at": "16",
+   "cam": {
+    "preset": "tight",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "16:flipping",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "donkey"
+    ]
+   },
+   "focus": [
+    "you",
+    "donkey"
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "id": "donkey",
+   "at": "0:starve",
+   "dur": 2.0,
+   "scale": 0.92
+  },
+  {
+   "id": "donkey",
+   "at": "1:pick",
+   "dur": 0.6,
+   "face": -40
+  },
+  {
+   "id": "donkey",
+   "at": "1:other",
+   "dur": 0.6,
+   "face": 40
+  },
+  {
+   "id": "donkey",
+   "at": "2",
+   "dur": 0.5,
+   "face": 0
+  },
+  {
+   "id": "donkey",
+   "at": "7:hungry",
+   "dur": 0.6,
+   "face": -40
+  },
+  {
+   "id": "donkey",
+   "at": "7:thirsty",
+   "dur": 0.6,
+   "face": 40
+  },
+  {
+   "id": "donkey",
+   "at": "8",
+   "dur": 0.5,
+   "face": 0
+  },
+  {
+   "id": "donkey",
+   "at": "9:tips",
+   "dur": 0.5,
+   "wobble": true
+  },
+  {
+   "id": "donkey",
+   "at": "11:before",
+   "dur": 0.4,
+   "face": -30
+  },
+  {
+   "id": "donkey",
+   "at": "11:after",
+   "dur": 0.4,
+   "face": 30
+  },
+  {
+   "id": "donkey",
+   "at": "11:stick",
+   "dur": 0.4,
+   "face": 0
+  },
+  {
+   "id": "donkey",
+   "at": "12:crash",
+   "dur": 0.5,
+   "wobble": true
+  },
+  {
+   "id": "you",
+   "at": "14",
+   "dur": 0.4,
+   "show": true
+  },
+  {
+   "id": "coin",
+   "at": "15:coin",
+   "dur": 0.3,
+   "show": true
+  },
+  {
+   "id": "coin",
+   "at": "15:coin+0.3",
+   "dur": 0.8,
+   "y": 2.2,
+   "ease": "out"
+  },
+  {
+   "id": "coin",
+   "at": "15:coin+1.1",
+   "dur": 0.6,
+   "y": 1.0
+  },
+  {
+   "id": "you",
+   "at": "15:coin",
+   "dur": 0.4,
+   "pose": "point"
+  },
+  {
+   "id": "donkey",
+   "at": "15:bias",
+   "until": "15:bias+1.4",
+   "pos": [
+    -1.3,
+    0,
+    0.4
+   ],
+   "ease": "inout"
+  },
+  {
+   "id": "you",
+   "at": "16",
+   "dur": 0.4,
+   "pose": "think"
+  }
+ ],
+ "overlays": [
+  {
+   "type": "label",
+   "text": "=",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "0:identical",
+   "to": "1"
+  },
+  {
+   "type": "question",
+   "on": "donkey",
+   "from": "1:reason",
+   "to": "2"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "donkey",
+    1
+   ],
+   "caption": "A donkey in Crete",
+   "from": "2",
+   "to": "3-0.2"
+  },
+  {
+   "type": "label",
+   "text": "PARIS, 1300s",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "3:Paris",
+   "to": "4"
+  },
+  {
+   "type": "xmark",
+   "on": "donkey",
+   "from": "4:never",
+   "to": "5"
+  },
+  {
+   "type": "label",
+   "text": "WILL FOLLOWS REASON",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "5:will",
+   "to": "6"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "aristotle",
+    0
+   ],
+   "caption": "Aristotle, Roman copy of a Greek bust",
+   "from": "7",
+   "to": "8-0.2"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "spinoza",
+    0
+   ],
+   "caption": "Baruch Spinoza, Ethics, 1677",
+   "from": "8",
+   "to": "9-0.2"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "leibniz",
+    1
+   ],
+   "caption": "Gottfried Wilhelm Leibniz",
+   "from": "9",
+   "to": "9:tips-0.1"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "lamport",
+    0
+   ],
+   "caption": "Leslie Lamport, computer scientist",
+   "from": "10:Lamport",
+   "to": "11-0.2"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "chip",
+    0
+   ],
+   "caption": "A chip, under the microscope",
+   "from": "11",
+   "to": "11:before-0.1"
+  },
+  {
+   "type": "label",
+   "text": "BEFORE?  AFTER?",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "11:before",
+   "to": "12"
+  },
+  {
+   "type": "label",
+   "text": "METASTABILITY",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "12:metastability",
+   "to": "13"
+  },
+  {
+   "type": "label",
+   "text": "RARE, NEVER IMPOSSIBLE",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "13:rare",
+   "to": "14"
+  },
+  {
+   "type": "label",
+   "text": "REJECTED 1984 · PUBLISHED 2012",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "14:rejected",
+   "to": "15"
+  },
+  {
+   "type": "label",
+   "text": "YOU",
+   "color": "yellow",
+   "on": "you",
+   "from": "14:published",
+   "to": "15"
+  },
+  {
+   "type": "pill",
+   "text": "Is a coin flip rational?",
+   "from": "16:coin"
+  }
+ ],
+ "sfx": [
+  {
+   "at": "9:tips",
+   "s": "drop",
+   "gain": 0.25
+  },
+  {
+   "at": "12:crash",
+   "s": "error",
+   "gain": 0.3
+  },
+  {
+   "at": "15:coin+0.3",
+   "s": "pluck",
+   "gain": 0.3
+  },
+  {
+   "at": "15:bias",
+   "s": "whoosh",
+   "gain": 0.2
+  }
+ ],
+ "music": {
+  "mood": "warm"
+ },
+ "sources": [
+  "https://plato.stanford.edu/entries/buridan/",
+  "https://lamport.azurewebsites.net/pubs/buridan.pdf",
+  "https://www.gutenberg.org/ebooks/3800",
+  "https://classics.mit.edu/Aristotle/heavens.2.ii.html",
+  "https://en.wikipedia.org/wiki/Buridan%27s_ass"
+ ],
+ "post": {
+  "caption": "A perfectly logical donkey between two equal piles of hay would starve. Spinoza agreed. And in 1984 a computer scientist showed every computer chip faces the same problem.\nWhen two choices are equal, how do you decide?",
+  "tags": [
+   "#philosophy",
+   "#freewill",
+   "#buridansass",
+   "#logic",
+   "#computerscience"
+  ],
+  "youtube_title": "Why Every Computer Chip Is Buridan's Donkey"
+ }
+}

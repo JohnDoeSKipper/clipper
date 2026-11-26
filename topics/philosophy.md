@@ -18,7 +18,7 @@ Check what the original experiment or argument actually says (and whether later 
 - made | bystander-effect | The Bystander Effect | clay | one person in trouble, a growing crowd doing nothing; numbers
 - made | asch-conformity | The Asch Conformity Experiment | clay | three lines on a sign; everyone gives the wrong answer; would you?
 - made | sorites | The Heap Paradox | clay | a heap of balls; remove one at a time; when does it stop being a heap?
-- inbox | buridans-donkey | Buridan's Donkey | clay | two identical piles; a perfectly rational animal starves
+- made | buridans-donkey | Buridan's Donkey | clay | two identical piles; a perfectly rational animal starves
 - inbox | pascals-wager | Pascal's Wager | ps2 | two doors, a scale, coins; the bet and the objection of many gods
 - requested | utility-monster | The Utility Monster (Nozick) | clay | cake sharing; one creature enjoys it a thousand times more
 - requested | violinist | The Violinist (Thomson) | ps2 | you wake up connected to a stranger for nine months

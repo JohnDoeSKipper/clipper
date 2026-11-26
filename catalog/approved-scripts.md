@@ -1,6 +1,30 @@
 # Model scripts (newest first)
 The writer reads the top two of its channel before writing and matches or beats them: same spine (beats in order, every sentence linked to the one before), never the same facts or hooks. Each script the writer makes is added at the top in this format. Kept to the last 12.
 
+## buridans-donkey (philosophy, 2026-11-27)
+
+Angle: Can a mind with no reason to choose ever choose at all?
+Logline: A perfectly logical donkey between two equal piles would starve, so can a mind choose without a reason? The puzzle carries a Paris philosopher's name, but he never wrote it, because critics made it up to mock him, but the idea is older: Aristotle's starving man, and Spinoza agreed he would die, but Leibniz said balance never happens, but in 1984 Lamport found the donkey inside every chip, so engineers can make the stall rare but never impossible, but journals rejected him for decades, so real choosers survive by cheating.
+On-screen hook: TWO EQUAL PILES. NO CHOICE.
+
+[hook] A perfectly logical donkey, between two identical piles of hay, would starve.
+[hook / because] It has no reason to pick one over the other.
+[question / so] So can a mind with no reason to choose ever choose at all?
+[reveal1 / answer] The puzzle carries the name of a 14th-century Paris philosopher.
+[reveal1 / but] But the donkey never appears in his surviving writings.
+[reveal1 / because] Critics likely invented it to mock his view that the will must follow reason.
+[reveal2 / but] But the idea is far older.
+[reveal2 / detail] Aristotle pictured a man as hungry as he was thirsty, frozen between food and drink.
+[reveal2 / detail] In 1677, Spinoza agreed such a man would die, and said he didn't know if he was a man or an ass.
+[reveal2 / but] Leibniz replied that perfect balance never happens: some tiny difference always tips you.
+[reveal3 / but] But in 1984, computer scientist Leslie Lamport found the donkey inside every computer.
+[reveal3 / detail] A chip deciding whether a signal came before or after a clock tick can stick in between.
+[reveal3 / detail] Engineers call it metastability, and it can crash a system.
+[reveal3 / so] So they make the stall astronomically rare, but never impossible.
+[turn / but] But journals rejected Lamport's paper; it was finally published in 2012.
+[payoff / so] So real choosers survive by cheating: a coin flip, a whim, a tiny bias.
+[payoff / so] When two options are truly equal, is flipping a coin the most rational thing you can do?
+
 ## sorites (philosophy, 2026-11-27)
 
 Angle: Where exactly does a heap begin?
@@ -255,28 +279,3 @@ On-screen hook: HE SERVED THE FRENCH KING
 [turn / detail] Behind him, the next men wait, covering their eyes.
 [payoff / answer] So his proof of loyalty became war with no heroes, only a queue.
 [payoff / so] Manet later borrowed its firing squad to shoot an emperor.
-
-## teleporter (philosophy, 2026-11-27)
-
-Angle: If a machine destroyed you here and rebuilt you perfectly on Mars, would you arrive, or die?
-Logline: Real teleportation destroys the original, so would a teleporter kill you? Parfit's machine rebuilds you on Mars from new matter, but then he made it copy without destroying, so two of you exist and one is dying, but he argued the question itself is the mistake, because split-brain surgery shows one person could become two, so identity is not what matters, but philosophers are still split, so you would arrive in every way that matters, unless you also distrust waking up.
-On-screen hook: THE ORIGINAL IS DESTROYED
-
-[hook] Physicists really do teleport particles, and the original is always destroyed.
-[hook / because] Physics forbids a perfect copy, so the original has to go.
-[question / so] So if a machine did that to you, would you arrive, or die?
-[reveal1 / answer] Philosopher Derek Parfit built that machine on paper in 1984.
-[reveal1 / detail] A scanner records every cell of your body, then destroys it.
-[reveal1 / so] On Mars, a replicator rebuilds you from new matter.
-[reveal2 / but] But then Parfit changed the scanner: it copies you without destroying you.
-[reveal2 / detail] On Earth, you learn the scan damaged your heart: you'll die in days.
-[reveal2 / detail] On a screen, you watch yourself on Mars, starting to speak.
-[reveal2 / so] So which one is you: the one dying, or the one who lives?
-[reveal3 / but] But Parfit argued the question itself is the mistake.
-[reveal3 / because] Surgeons can cut the bridge between the brain's halves, and each half acts alone.
-[reveal3 / so] Put each half in a new body, and both would remember being you.
-[reveal3 / so] So identity, he concluded, isn't what matters; your memories and character carrying on is.
-[turn / but] But philosophers are split: 36 percent say you'd survive it, 31 percent say you'd die.
-[turn / detail] That's from a 2020 survey of 931 professors.
-[payoff / answer] So if he's right, you'd arrive, in every way that matters.
-[payoff / but] But sleep breaks your stream of thought nightly: why trust waking up, but not the machine?
