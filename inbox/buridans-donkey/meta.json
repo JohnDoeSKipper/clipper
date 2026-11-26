@@ -142,41 +142,6 @@
     "desc": "Cover of a publication against Benedictus de Spinoza's work. Text: \"Benedictus de Spinoza. Iudeus et atheista.\""
    }
   ],
-  "sorbonne": [
-   {
-    "title": "File:Bible moralis\u00e9e Oxford-Paris-Londres Frontispice Bodleian 1v.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Bible_moralis%C3%A9e_Oxford-Paris-Londres_Frontispice_Bodleian_1v.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Bible_moralis%C3%A9e_Oxford-Paris-Londres_Frontispice_Bodleian_1v.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 1011,
-    "height": 1536,
-    "licence": "Public domain",
-    "artist": "anonymous",
-    "credit": "",
-    "desc": ""
-   },
-   {
-    "title": "File:Codex ephremi (The S.S. Teacher's Edition-The Holy Bible - Plate XXIV).jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Codex_ephremi_%28The_S.S._Teacher%27s_Edition-The_Holy_Bible_-_Plate_XXIV%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/d/de/Codex_ephremi_%28The_S.S._Teacher%27s_Edition-The_Holy_Bible_-_Plate_XXIV%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 1024,
-    "height": 570,
-    "licence": "Public domain",
-    "artist": "",
-    "credit": "",
-    "desc": ""
-   },
-   {
-    "title": "File:Philip II unhorsed Battle of Bouvines.png",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Philip_II_unhorsed_Battle_of_Bouvines.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Philip_II_unhorsed_Battle_of_Bouvines.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 1697,
-    "height": 929,
-    "licence": "Public domain",
-    "artist": "",
-    "credit": "",
-    "desc": ""
-   }
-  ],
   "leibniz": [
    {
     "title": "File:Gottfried Wilhelm Leibniz, Bernhard Christoph Francke.jpg",
@@ -211,6 +176,77 @@
     "credit": "Dguendel / CC BY 3.0",
     "desc": "Herzog Anton Ulrich-Museum, Christoph Bernhard Francke, portrait Gottfried Wilhelm von Leibniz"
    }
-  ]
+  ],
+  "lamport": [
+   {
+    "title": "File:Leslie Lamport September 2006.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Leslie_Lamport_September_2006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/3/32/Leslie_Lamport_September_2006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1200,
+    "height": 1600,
+    "licence": "CC BY-SA 2.5 si",
+    "artist": "Andrej Bauer",
+    "credit": "Andrej Bauer / CC BY-SA 2.5 si",
+    "desc": "Leslie Lamport, IFIP, Udine, September 2006"
+   },
+   {
+    "title": "File:Mayor Lamport, Premier Frost, 1954.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Mayor_Lamport%2C_Premier_Frost%2C_1954.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Mayor_Lamport%2C_Premier_Frost%2C_1954.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1030,
+    "height": 822,
+    "licence": "Public domain",
+    "artist": "City of Toronto Dept. of Public Works",
+    "credit": "",
+    "desc": "(l. to r.) Toronto Transportation Commission Chairman William C. McBrien, Ontario Premier Leslie Frost, and Toronto Mayor Allan Lamport, at the opening of Yonge"
+   },
+   {
+    "title": "File:Document produced by LaTeX - article class vs scrarticle class with classicthesis - Ivana Brli\u0107 Ma\u017eurani\u0107 - \u0160uma Striborova (Croatian).png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Document_produced_by_LaTeX_-_article_class_vs_scrarticle_class_with_classicthesis_-_Ivana_Brli%C4%87_Ma%C5%BEurani%C4%87_-_%C5%A0uma_Striborova_%28Croatian%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Document_produced_by_LaTeX_-_article_class_vs_scrarticle_class_with_classicthesis_-_Ivana_Brli%C4%87_Ma%C5%BEurani%C4%87_-_%C5%A0uma_Striborova_%28Croatian%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2266,
+    "height": 1589,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Ponor",
+    "credit": "Ponor / CC BY-SA 4.0",
+    "desc": "Document produced by LaTeX using class article (left) or class scrarticle with classicthesis (right). Fairy tale \u0160uma Striborova by Ivana Brli\u0107 Ma\u017eurani\u0107 (in Cr"
+   }
+  ],
+  "chip": [
+   {
+    "title": "File:D8742 microscope die shot.png",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/D8742_microscope_die_shot.png/3840px-D8742_microscope_die_shot.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/1/15/D8742_microscope_die_shot.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 13730,
+    "height": 17792,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Zom-B",
+    "credit": "Zom-B / CC BY-SA 4.0",
+    "desc": "Die shot of the Intel D8742 micro-controller from the year 1982. Image was produced by stitching 16x21 = 336 photographs, taken through a computer-controlled me"
+   },
+   {
+    "title": "File:Plessey Semiconductor (Ferranti) ULA 2C200J Die Photograph.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Plessey_Semiconductor_%28Ferranti%29_ULA_2C200J_Die_Photograph.jpg/3840px-Plessey_Semiconductor_%28Ferranti%29_ULA_2C200J_Die_Photograph.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/7/71/Plessey_Semiconductor_%28Ferranti%29_ULA_2C200J_Die_Photograph.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 5750,
+    "height": 5854,
+    "licence": "CC BY 4.0",
+    "artist": "Revaldinho",
+    "credit": "Revaldinho / CC BY 4.0",
+    "desc": "Plessey Semiconductor (Ferranti) ULA 2C200J Die Photograph Photograph of the bare die of a Plessey Semiconductor ULA 2C200J BS Integrated Circuit. This was orig"
+   },
+   {
+    "title": "File:F112-L Die Photograph.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/F112-L_Die_Photograph.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/7/78/F112-L_Die_Photograph.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3674,
+    "height": 3538,
+    "licence": "CC BY 4.0",
+    "artist": "Revaldinho",
+    "credit": "Revaldinho / CC BY 4.0",
+    "desc": "Ferranti F112-L \"The Interface Set consists of 3 integrated circuits, a single F111-L Control Chip and two F112-L Data Chips. The F111-L Control Chip provides t"
+   }
+  ],
+  "paris": []
  }
 }
