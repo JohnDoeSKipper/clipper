@@ -1,0 +1,291 @@
+{
+ "id": "earthly-delights",
+ "channel": "paintings",
+ "angle": "What kind of church would hang a painting with a song on a sinner's backside?",
+ "answer": "None: it was made for the Nassau palace in Brussels, a showpiece for guests, with its warning hidden in fleeting fruit and on its grey outer wings; only after the Duke of Alba seized it from William of Orange in 1568 did Philip II hang it among monks at the Escorial.",
+ "logline": "Hell has a song on a man's backside, so what church would hang this? None, because it hung in the Nassau palace in Brussels, so it was a showpiece for guests, but its warning hides in fruit that is sweet and gone in a day, but close the wings and the party vanishes into a grey world being created, but in 1568 Alba seized it from William of Orange, so it ended among monks at the Escorial, so a nobleman's party piece became a king's sermon.",
+ "hook_text": "A SONG ON A SINNER'S BACKSIDE",
+ "hooks": [
+  "This triptych hung in a palace, not a church.",
+  "Spain's inventories called this the painting of the strawberry tree."
+ ],
+ "painting": {
+  "title": "The Garden of Earthly Delights",
+  "artist": "Hieronymus Bosch",
+  "year": "c. 1490-1510",
+  "museum": "Museo del Prado, Madrid"
+ },
+ "script": [
+  {
+   "text": "Bosch's hell includes a song written on a man's backside.",
+   "say": "Bosh's hell includes a song written on a man's backside.",
+   "beat": "hook"
+  },
+  {
+   "text": "In 2014, a student transcribed it, and people played it.",
+   "say": "In twenty fourteen, a student transcribed it, and people played it.",
+   "beat": "hook",
+   "link": "so"
+  },
+  {
+   "text": "So what kind of church would hang this?",
+   "beat": "question",
+   "link": "so"
+  },
+  {
+   "text": "None: it hung in the Brussels palace of the Counts of Nassau.",
+   "beat": "reveal1",
+   "link": "answer"
+  },
+  {
+   "text": "In 1517, a visiting cardinal's secretary called its scenes bizarre.",
+   "say": "In fifteen seventeen, a visiting cardinal's secretary called its scenes bizarre.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "So it was likely a showpiece for guests, not an altarpiece.",
+   "beat": "reveal1",
+   "link": "so"
+  },
+  {
+   "text": "But its warning hides in the fruit.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "Lovers feast on giant strawberries and cherries: sweet, and gone in a day.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "Spanish inventories simply called it the painting of the strawberry tree.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "But close its wings, and the party vanishes.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "Outside, in grey, God creates the world: a flat disc inside a glass sphere.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "The words above read: He spoke, and it was done.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "But in 1568, the Duke of Alba seized it from William of Orange, leader of the Dutch revolt.",
+   "say": "But in fifteen sixty-eight, the Duke of Alba seized it from William of Orange, leader of the Dutch revolt.",
+   "beat": "turn",
+   "link": "but"
+  },
+  {
+   "text": "So it ended up in King Philip's monastery-palace, the Escorial, among monks.",
+   "say": "So it ended up in King Philip's monastery-palace, the Esko-ree-al, among monks.",
+   "beat": "turn",
+   "link": "so"
+  },
+  {
+   "text": "So a nobleman's party piece became a king's sermon, and nobody has agreed on it since.",
+   "beat": "payoff",
+   "link": "so"
+  }
+ ],
+ "music": {
+  "piece": "satie-gnossienne-1"
+ },
+ "timeline": [
+  {
+   "type": "reveal",
+   "from": [
+    0.8,
+    0.725,
+    3.0
+   ],
+   "until": 3.4
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.8,
+    0.725,
+    0.035,
+    0.05
+   ],
+   "ring": "1",
+   "zoom": "1+0.4",
+   "label": "THE BACKSIDE SONG",
+   "labelAt": "1:transcribed",
+   "out": "2-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "nassau",
+    0
+   ],
+   "caption": "Henry III of Nassau-Breda, by Jan Gossaert",
+   "at": "3",
+   "to": "4-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.49,
+    0.5,
+    0.18,
+    0.14
+   ],
+   "ring": "4",
+   "zoom": "4+0.4",
+   "label": "BIZARRE",
+   "labelAt": "4:bizarre",
+   "out": "5-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.48,
+    0.78,
+    0.2,
+    0.16
+   ],
+   "ring": "5",
+   "zoom": "5+0.4",
+   "out": "6-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.42,
+    0.62,
+    0.08,
+    0.08
+   ],
+   "ring": "6",
+   "zoom": "6+0.4",
+   "label": "THE FRUIT",
+   "labelAt": "6:fruit",
+   "out": "7-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.33,
+    0.8,
+    0.09,
+    0.09
+   ],
+   "ring": "7",
+   "zoom": "7+0.4",
+   "label": "SWEET, AND GONE",
+   "labelAt": "7:sweet",
+   "out": "8-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.6,
+    0.55,
+    0.1,
+    0.1
+   ],
+   "ring": "8",
+   "zoom": "8+0.4",
+   "label": "EL MADROÑO",
+   "labelAt": "8:strawberry",
+   "out": "9-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "closed",
+    2
+   ],
+   "caption": "The wings closed: the third day of creation",
+   "at": "9:close+0.3",
+   "to": "11-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "closed",
+    0
+   ],
+   "caption": "'Ipse dixit et facta sunt'",
+   "at": "11",
+   "to": "12-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "alba",
+    1
+   ],
+   "caption": "The Duke of Alba, by Antonis Mor",
+   "at": "12",
+   "to": "12:William-0.1"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "orange",
+    0
+   ],
+   "caption": "William of Orange, by Adriaen Key",
+   "at": "12:William",
+   "to": "13-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "philip",
+    1
+   ],
+   "caption": "Philip II, by Sofonisba Anguissola",
+   "at": "13",
+   "to": "13:Escorial-0.1"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "escorial",
+    0
+   ],
+   "caption": "El Escorial, near Madrid",
+   "at": "13:Escorial",
+   "to": "14-0.3"
+  }
+ ],
+ "sources": [
+  "https://www.museodelprado.es/en/the-collection/art-work/the-garden-of-earthly-delights-triptych/02388242-6d6a-4e9e-a992-e1311eab3609",
+  "https://www.stedelijkmuseumbreda.nl/en/see-do/de-lusten-van-engelbrecht/research",
+  "https://jeroenboschplaza.com/recensie/vandenbroeck-2001c/?lang=en",
+  "https://www.classicfm.com/discover-music/latest/hieronymus-bosch-naked-bum-music/",
+  "https://news.artnet.com/art-world/bosch-butt-song-from-hell-309732",
+  "https://en.wikipedia.org/wiki/The_Garden_of_Earthly_Delights"
+ ],
+ "post": {
+  "caption": "Bosch's hell has a song written on a man's backside, and it was never made for a church. It hung in a nobleman's palace in Brussels, until a duke seized it for the king of Spain.\nParty piece or sermon: what do you see?",
+  "tags": [
+   "#arthistory",
+   "#bosch",
+   "#gardenofearthlydelights",
+   "#prado",
+   "#renaissanceart"
+  ],
+  "youtube_title": "Bosch's Hell Has a Song Written on a Backside"
+ }
+}

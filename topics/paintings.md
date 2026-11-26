@@ -16,7 +16,7 @@ The leads are starting points from memory, not facts: check each one before it g
 - made | grande-jatte | A Sunday on La Grande Jatte, Seurat | millions of dots; two years of work; the monkey; the painted border
 - made | third-of-may | The Third of May 1808, Goya | the lantern; the white shirt and the pose; faceless soldiers
 - made | wanderer-fog | Wanderer above the Sea of Fog, Friedrich | we never see his face; a landscape stitched from several places
-- inbox | earthly-delights | The Garden of Earthly Delights, Bosch | a triptych that closes; music written on a figure; the tree-man who may be Bosch
+- made | earthly-delights | The Garden of Earthly Delights, Bosch | a triptych that closes; music written on a figure; the tree-man who may be Bosch
 - inbox | ambassadors | The Ambassadors, Holbein | the stretched skull you can only see from the side; the broken lute string
 - requested | liberty-leading | Liberty Leading the People, Delacroix | it is 1830, not 1789; the boy who became Gavroche; hidden away as too dangerous
 - requested | raft-medusa | The Raft of the Medusa, Géricault | a real scandal; he studied corpses; the tiny ship on the horizon

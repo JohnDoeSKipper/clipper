@@ -1,6 +1,28 @@
 # Model scripts (newest first)
 The writer reads the top two of its channel before writing and matches or beats them: same spine (beats in order, every sentence linked to the one before), never the same facts or hooks. Each script the writer makes is added at the top in this format. Kept to the last 12.
 
+## earthly-delights (paintings, 2026-11-27)
+
+Angle: What kind of church would hang a painting with a song on a sinner's backside?
+Logline: Hell has a song on a man's backside, so what church would hang this? None, because it hung in the Nassau palace in Brussels, so it was a showpiece for guests, but its warning hides in fruit that is sweet and gone in a day, but close the wings and the party vanishes into a grey world being created, but in 1568 Alba seized it from William of Orange, so it ended among monks at the Escorial, so a nobleman's party piece became a king's sermon.
+On-screen hook: A SONG ON A SINNER'S BACKSIDE
+
+[hook] Bosch's hell includes a song written on a man's backside.
+[hook / so] In 2014, a student transcribed it, and people played it.
+[question / so] So what kind of church would hang this?
+[reveal1 / answer] None: it hung in the Brussels palace of the Counts of Nassau.
+[reveal1 / detail] In 1517, a visiting cardinal's secretary called its scenes bizarre.
+[reveal1 / so] So it was likely a showpiece for guests, not an altarpiece.
+[reveal2 / but] But its warning hides in the fruit.
+[reveal2 / detail] Lovers feast on giant strawberries and cherries: sweet, and gone in a day.
+[reveal2 / detail] Spanish inventories simply called it the painting of the strawberry tree.
+[reveal3 / but] But close its wings, and the party vanishes.
+[reveal3 / detail] Outside, in grey, God creates the world: a flat disc inside a glass sphere.
+[reveal3 / detail] The words above read: He spoke, and it was done.
+[turn / but] But in 1568, the Duke of Alba seized it from William of Orange, leader of the Dutch revolt.
+[turn / so] So it ended up in King Philip's monastery-palace, the Escorial, among monks.
+[payoff / so] So a nobleman's party piece became a king's sermon, and nobody has agreed on it since.
+
 ## bystander-effect (philosophy, 2026-11-27)
 
 Angle: Does a crowd really make people less likely to help?
@@ -260,28 +282,3 @@ On-screen hook: THE RENAISSANCE, ON CHEAP CLOTH
 [turn / but] But even its name came late: the title dates from the 1800s.
 [turn / detail] She isn't even being born; the winds are blowing her ashore.
 [payoff / answer] So the cheap cloth that hid her is what saved her.
-
-## marys-room (philosophy, 2026-11-25)
-
-Angle: If Mary knows every physical fact about colour, does seeing red teach her anything new?
-Logline: Gene therapy let colour-blind monkeys pick out red, so we ask if seeing teaches what books can't; Jackson's Mary knows every physical fact, but on seeing a tomato she seems to learn something, so physicalism looks false, but Lewis said she gains only know-how, so Jackson himself switched sides, but nobody can tell what the monkeys see, because tests show only what is picked out, so seeing gives something no book can, but what then is an AI that has read everything missing?
-On-screen hook: RED, BY INJECTION
-
-[hook] In 2009, two colour-blind monkeys picked out red for the first time.
-[hook / because] Gene therapy had put a human colour gene into their eyes.
-[question / so] So can seeing red teach you something no book can?
-[reveal1 / answer] In 1982, Frank Jackson imagined Mary, a brilliant scientist of vision.
-[reveal1 / detail] She lives in a black-and-white room, watching a black-and-white screen.
-[reveal1 / detail] She knows every physical fact about colour, down to each neuron.
-[reveal1 / so] So if everything is physical, she knows it all.
-[reveal2 / but] But then the door opens, and Mary sees a ripe tomato.
-[reveal2 / detail] Surely, Jackson said, she learns what seeing red is like.
-[reveal2 / so] So something about the mind isn't physical.
-[reveal3 / but] But David Lewis said Mary gains no new fact, only new abilities.
-[reveal3 / detail] She can now imagine, remember and recognise red: know-how, not a fact.
-[reveal3 / so] That reply won over Frank Jackson himself.
-[reveal3 / detail] In the late 1990s he switched sides. I have capitulated, he wrote.
-[turn / but] But nobody knows what they see: one scientist suspects just another shade of yellow.
-[turn / because] Because tests show what they can pick out, not what it's like.
-[payoff / answer] So seeing red teaches something no book can, even if it's only a skill.
-[payoff / but] But an AI has read every word about red. What is it missing?
