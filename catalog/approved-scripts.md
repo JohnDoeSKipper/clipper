@@ -1,6 +1,31 @@
 # Model scripts (newest first)
 The writer reads the top two of its channel before writing and matches or beats them: same spine (beats in order, every sentence linked to the one before), never the same facts or hooks. Each script the writer makes is added at the top in this format. Kept to the last 12.
 
+## ring-of-gyges (philosophy, 2026-11-27)
+
+Angle: If you could never be caught, would you still be good?
+Logline: A shepherd finds a ring of invisibility, so he kills the king, so would you stay good if never caught? Glaucon says nobody is good by choice, but Gyges was a real king whose rise in Herodotus came from being seen, not unseen, but would anonymity change us today? In 1976 masked children in groups stole far more, but most still took one, so Plato spent eight books arguing injustice enslaves you, therefore the ring only removes your excuse.
+On-screen hook: INVISIBLE. WOULD YOU STAY GOOD?
+
+[hook] A shepherd takes a ring from a corpse inside a bronze horse.
+[hook / so] Turn it, and he vanishes; so he seduces the queen and kills the king.
+[question / so] So if you could never be caught, would you still be good?
+[reveal1 / answer] Plato put this story in his brother Glaucon's mouth, around 375 BC.
+[reveal1 / detail] Glaucon's claim: nobody is good by choice, only from fear of being seen.
+[reveal1 / so] Give one ring to a just man and one to a thief, and they'd act alike.
+[reveal2 / but] But Gyges wasn't made up: he was a real king of Lydia, ruling from Sardis.
+[reveal2 / detail] In Herodotus, his rise has no ring at all.
+[reveal2 / detail] His king hid him in the bedroom to see the queen undress.
+[reveal2 / so] She spotted him, so she gave him a choice: kill the king, or die.
+[reveal3 / but] But does being unseen really change people?
+[reveal3 / answer] In 1976, psychologists secretly watched 1,352 Seattle trick-or-treaters told to take one sweet.
+[reveal3 / detail] Masked children in groups took extra 57 percent of the time.
+[reveal3 / but] Asked their names and alone, fewer than one in ten did.
+[turn / but] But even hidden in a crowd, many children still took just one.
+[turn / so] Plato spent eight more books on why: the unjust man isn't free, he's a slave to his appetites.
+[payoff / answer] So the ring doesn't change who you are; it only removes your excuse.
+[payoff / so] What would you do first, and what does that say about you?
+
 ## third-of-may (paintings, 2026-11-27)
 
 Angle: Why did a painter who had sworn loyalty to the French king paint the French army's darkest night?
@@ -263,25 +288,3 @@ On-screen hook: THE RESCUER DIES
 [turn / detail] Thirty more votes for him, Socrates said, and he'd have walked free.
 [payoff / answer] So they'd kill him because the light makes the freed look blind and foolish.
 [payoff / but] But Plato insisted the freed must go back down: knowing Socrates' fate, would you?
-
-## night-watch (paintings, 2026-11-24)
-
-Angle: How much of The Night Watch we see today is the painting Rembrandt actually made?
-Logline: It isn't a night scene, but darkened varnish gave it its name, so we ask what else isn't Rembrandt's, and the answer starts with a daylight militia march, but in 1715 it was trimmed to fit the town hall, so two men vanished, but a small copy kept them, so in 2021 AI printed the edges back, but it had nearly been lost entirely in a wartime cave.
-On-screen hook: DAYLIGHT UNDER DIRT
-
-[hook] The Night Watch isn't set at night.
-[hook / because] Its daylight sank under darkened varnish, and the nickname stuck.
-[question / so] So how much of what we see is really Rembrandt's painting?
-[reveal1 / answer] He painted a militia company marching out, in 1642.
-[reveal1 / detail] Captain Banninck Cocq gives the order, his hand's shadow falling on his lieutenant's coat.
-[reveal1 / so] So a group portrait that should stand in rows suddenly moves.
-[reveal2 / but] But in 1715, it moved to Amsterdam's town hall, and didn't fit.
-[reveal2 / so] So they trimmed strips off all four sides, most from the left.
-[reveal2 / detail] Two militiamen and a young child on the left vanished.
-[reveal3 / but] But Gerrit Lundens had painted a small copy before the cut.
-[reveal3 / so] So in 2021, the Rijksmuseum trained an AI on it and printed the lost edges back.
-[reveal3 / detail] For the first time in three hundred years, it hung complete.
-[turn / but] But in the war, it was rolled up and hidden in a cave.
-[payoff / answer] So it isn't night, isn't its name, and isn't its full size.
-[payoff / but] But in a small copy in London, Rembrandt's whole company still marches out.

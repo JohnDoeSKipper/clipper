@@ -1,0 +1,923 @@
+{
+ "id": "ring-of-gyges",
+ "channel": "philosophy",
+ "style": "clay",
+ "title": "THE RING OF GYGES",
+ "angle": "If you could never be caught, would you still be good?",
+ "answer": "Glaucon says no one would; the Halloween experiment shows anonymity does raise cheating sharply, yet most masked children still took one sweet; Plato's answer is that injustice enslaves the doer to his appetites, so the ring does not make a new person, it removes the excuse and shows who you already are.",
+ "logline": "A shepherd finds a ring of invisibility, so he kills the king, so would you stay good if never caught? Glaucon says nobody is good by choice, but Gyges was a real king whose rise in Herodotus came from being seen, not unseen, but would anonymity change us today? In 1976 masked children in groups stole far more, but most still took one, so Plato spent eight books arguing injustice enslaves you, therefore the ring only removes your excuse.",
+ "hook_text": "INVISIBLE. WOULD YOU STAY GOOD?",
+ "hooks": [
+  "Plato's brother argued that nobody is good when nobody is watching.",
+  "In 1976, scientists hid behind doors and watched 1,352 trick-or-treaters."
+ ],
+ "script": [
+  {
+   "text": "A shepherd takes a ring from a corpse inside a bronze horse.",
+   "beat": "hook"
+  },
+  {
+   "text": "Turn it, and he vanishes; so he seduces the queen and kills the king.",
+   "beat": "hook",
+   "link": "so"
+  },
+  {
+   "text": "So if you could never be caught, would you still be good?",
+   "beat": "question",
+   "link": "so"
+  },
+  {
+   "text": "Plato put this story in his brother Glaucon's mouth, around 375 BC.",
+   "say": "Plato put this story in his brother Glaucon's mouth, around three seventy-five B C.",
+   "beat": "reveal1",
+   "link": "answer"
+  },
+  {
+   "text": "Glaucon's claim: nobody is good by choice, only from fear of being seen.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "Give one ring to a just man and one to a thief, and they'd act alike.",
+   "beat": "reveal1",
+   "link": "so"
+  },
+  {
+   "text": "But Gyges wasn't made up: he was a real king of Lydia, ruling from Sardis.",
+   "say": "But Guy-jeez wasn't made up: he was a real king of Lydia, ruling from Sardis.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "In Herodotus, his rise has no ring at all.",
+   "say": "In Herod-otus, his rise has no ring at all.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "His king hid him in the bedroom to see the queen undress.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "She spotted him, so she gave him a choice: kill the king, or die.",
+   "beat": "reveal2",
+   "link": "so"
+  },
+  {
+   "text": "But does being unseen really change people?",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "In 1976, psychologists secretly watched 1,352 Seattle trick-or-treaters told to take one sweet.",
+   "say": "In nineteen seventy-six, psychologists secretly watched thirteen hundred and fifty-two Seattle trick-or-treaters told to take one sweet.",
+   "beat": "reveal3",
+   "link": "answer"
+  },
+  {
+   "text": "Masked children in groups took extra 57 percent of the time.",
+   "say": "Masked children in groups took extra fifty-seven percent of the time.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "Asked their names and alone, fewer than one in ten did.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "But even hidden in a crowd, many children still took just one.",
+   "beat": "turn",
+   "link": "but"
+  },
+  {
+   "text": "Plato spent eight more books on why: the unjust man isn't free, he's a slave to his appetites.",
+   "beat": "turn",
+   "link": "so"
+  },
+  {
+   "text": "So the ring doesn't change who you are; it only removes your excuse.",
+   "beat": "payoff",
+   "link": "answer"
+  },
+  {
+   "text": "What would you do first, and what does that say about you?",
+   "beat": "payoff",
+   "link": "so"
+  }
+ ],
+ "objects": [
+  {
+   "id": "horse",
+   "kind": "crate",
+   "tint": "#B9853F",
+   "at": [
+    -2.8,
+    0,
+    -0.6
+   ],
+   "face": 30,
+   "scale": 1.3
+  },
+  {
+   "id": "ped",
+   "kind": "pedestal",
+   "at": [
+    -1.2,
+    0,
+    0.2
+   ],
+   "face": 0
+  },
+  {
+   "id": "ring",
+   "kind": "coin",
+   "tint": "#F2C744",
+   "at": [
+    -1.2,
+    1.1,
+    0.2
+   ],
+   "face": 0,
+   "scale": 0.7
+  },
+  {
+   "id": "you",
+   "kind": "person",
+   "look": "you",
+   "at": [
+    0.2,
+    0,
+    1.6
+   ],
+   "face": "ped"
+  },
+  {
+   "id": "ghost",
+   "kind": "person",
+   "look": "you",
+   "ghost": true,
+   "at": [
+    0.2,
+    0,
+    1.6
+   ],
+   "face": "king",
+   "show": false
+  },
+  {
+   "id": "king",
+   "kind": "person",
+   "look": "elder",
+   "at": [
+    2.8,
+    0,
+    -0.4
+   ],
+   "face": "you"
+  },
+  {
+   "id": "queen",
+   "kind": "person",
+   "look": "one",
+   "at": [
+    3.9,
+    0,
+    0.6
+   ],
+   "face": "you"
+  },
+  {
+   "id": "k1",
+   "kind": "person",
+   "look": "a",
+   "at": [
+    -4.3,
+    0,
+    3.3
+   ],
+   "face": "bowl",
+   "scale": 0.65,
+   "show": false
+  },
+  {
+   "id": "k2",
+   "kind": "person",
+   "look": "b",
+   "at": [
+    -3.2,
+    0,
+    3.0
+   ],
+   "face": "bowl",
+   "scale": 0.65,
+   "show": false
+  },
+  {
+   "id": "k3",
+   "kind": "person",
+   "look": "c",
+   "at": [
+    -2.1,
+    0,
+    3.3
+   ],
+   "face": "bowl",
+   "scale": 0.65,
+   "show": false
+  },
+  {
+   "id": "bowl",
+   "kind": "box",
+   "tint": "#E9774A",
+   "at": [
+    -3.2,
+    0,
+    4.3
+   ],
+   "face": 0,
+   "scale": 0.6,
+   "show": false
+  }
+ ],
+ "groups": {
+  "kids": [
+   "k1",
+   "k2",
+   "k3"
+  ]
+ },
+ "shots": [
+  {
+   "at": 0,
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "horse",
+     "ped"
+    ]
+   },
+   "focus": [
+    "horse",
+    "ped",
+    "ring"
+   ]
+  },
+  {
+   "at": "1",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "king"
+    ]
+   },
+   "focus": [
+    "you",
+    "king"
+   ]
+  },
+  {
+   "at": "1:kills",
+   "cam": {
+    "preset": "close",
+    "on": "king"
+   },
+   "focus": [
+    "king"
+   ]
+  },
+  {
+   "at": "2",
+   "cam": {
+    "preset": "tight",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "3",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "horse",
+     "you",
+     "king"
+    ]
+   }
+  },
+  {
+   "at": "4",
+   "cam": {
+    "preset": "close",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "5",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "ped"
+    ]
+   },
+   "focus": [
+    "you",
+    "ped",
+    "ring"
+   ]
+  },
+  {
+   "at": "6",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "king",
+     "queen"
+    ]
+   },
+   "focus": [
+    "king",
+    "queen"
+   ]
+  },
+  {
+   "at": "7",
+   "cam": {
+    "preset": "close",
+    "on": "ring"
+   },
+   "focus": [
+    "ring",
+    "ped"
+   ]
+  },
+  {
+   "at": "8",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "queen"
+    ]
+   },
+   "focus": [
+    "you",
+    "queen"
+   ]
+  },
+  {
+   "at": "9",
+   "cam": {
+    "preset": "close",
+    "on": "queen"
+   },
+   "focus": [
+    "queen"
+   ]
+  },
+  {
+   "at": "10",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "you",
+     "king",
+     "queen"
+    ]
+   }
+  },
+  {
+   "at": "11",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "k1",
+     "k2",
+     "k3",
+     "bowl"
+    ]
+   },
+   "focus": [
+    "k1",
+    "k2",
+    "k3",
+    "bowl"
+   ]
+  },
+  {
+   "at": "12",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "k1",
+     "k2",
+     "bowl"
+    ]
+   },
+   "focus": [
+    "k1",
+    "k2",
+    "bowl"
+   ]
+  },
+  {
+   "at": "13",
+   "cam": {
+    "preset": "tight",
+    "on": "k2"
+   },
+   "focus": [
+    "k2"
+   ]
+  },
+  {
+   "at": "14",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "kids",
+     "bowl"
+    ]
+   }
+  },
+  {
+   "at": "15",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "ped"
+    ]
+   },
+   "focus": [
+    "you",
+    "ped"
+   ]
+  },
+  {
+   "at": "15:free",
+   "cam": {
+    "preset": "close",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "16",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "ring"
+    ]
+   },
+   "focus": [
+    "you",
+    "ring"
+   ]
+  },
+  {
+   "at": "17",
+   "cam": {
+    "preset": "tight",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "id": "you",
+   "at": "0:takes",
+   "dur": 0.4,
+   "pose": "reach"
+  },
+  {
+   "id": "ring",
+   "at": "0:takes+0.3",
+   "dur": 0.3,
+   "show": false
+  },
+  {
+   "id": "you",
+   "at": "1",
+   "dur": 0.4,
+   "pose": "stand"
+  },
+  {
+   "id": "you",
+   "at": "1:vanishes",
+   "dur": 0.3,
+   "show": false
+  },
+  {
+   "id": "ghost",
+   "at": "1:vanishes",
+   "dur": 0.3,
+   "show": true
+  },
+  {
+   "id": "ghost",
+   "at": "1:vanishes+0.4",
+   "until": "1:kills",
+   "pos": [
+    1.8,
+    0,
+    0.2
+   ],
+   "walk": true
+  },
+  {
+   "id": "ghost",
+   "at": "1:kills",
+   "dur": 0.4,
+   "pose": "push"
+  },
+  {
+   "id": "king",
+   "at": "1:kills+0.2",
+   "dur": 0.6,
+   "tip": -90
+  },
+  {
+   "id": "ghost",
+   "at": "2",
+   "dur": 0.3,
+   "show": false
+  },
+  {
+   "id": "king",
+   "at": "2",
+   "dur": 0.3,
+   "tip": 0
+  },
+  {
+   "id": "you",
+   "at": "2",
+   "dur": 0.3,
+   "show": true
+  },
+  {
+   "id": "ring",
+   "at": "2",
+   "dur": 0.3,
+   "show": true
+  },
+  {
+   "id": "you",
+   "at": "2:caught",
+   "dur": 0.4,
+   "pose": "think"
+  },
+  {
+   "id": "you",
+   "at": "4",
+   "dur": 0.4,
+   "pose": "stand"
+  },
+  {
+   "id": "you",
+   "at": "5:thief",
+   "dur": 0.4,
+   "pose": "shrug"
+  },
+  {
+   "id": "you",
+   "at": "6",
+   "dur": 0.4,
+   "pose": "stand"
+  },
+  {
+   "id": "king",
+   "at": "8:hid",
+   "dur": 0.4,
+   "pose": "point"
+  },
+  {
+   "id": "queen",
+   "at": "9:spotted",
+   "dur": 0.4,
+   "pose": "point"
+  },
+  {
+   "id": "you",
+   "at": "9:spotted",
+   "dur": 0.4,
+   "pose": "shock"
+  },
+  {
+   "id": "king",
+   "at": "10",
+   "dur": 0.4,
+   "pose": "stand"
+  },
+  {
+   "id": [
+    "you",
+    "queen"
+   ],
+   "at": "10",
+   "dur": 0.4,
+   "pose": "stand"
+  },
+  {
+   "id": [
+    "k1",
+    "k2",
+    "k3",
+    "bowl"
+   ],
+   "at": "11",
+   "dur": 0.4,
+   "show": true
+  },
+  {
+   "id": "k2",
+   "at": "12:extra",
+   "dur": 0.4,
+   "pose": "reach"
+  },
+  {
+   "id": "k1",
+   "at": "12:extra+0.2",
+   "dur": 0.4,
+   "pose": "reach"
+  },
+  {
+   "id": [
+    "k1",
+    "k2"
+   ],
+   "at": "13",
+   "dur": 0.4,
+   "pose": "stand"
+  },
+  {
+   "id": "k2",
+   "at": "13:alone",
+   "dur": 0.4,
+   "pose": "shrug"
+  },
+  {
+   "id": "k3",
+   "at": "14:one",
+   "dur": 0.4,
+   "pose": "wave"
+  },
+  {
+   "id": "you",
+   "at": "15",
+   "dur": 0.4,
+   "pose": "think"
+  },
+  {
+   "id": "you",
+   "at": "15:slave",
+   "dur": 0.4,
+   "pose": "sad"
+  },
+  {
+   "id": "you",
+   "at": "16",
+   "dur": 0.4,
+   "pose": "stand"
+  },
+  {
+   "id": "you",
+   "at": "16:excuse",
+   "dur": 0.4,
+   "pose": "shrug"
+  },
+  {
+   "id": "you",
+   "at": "17",
+   "dur": 0.4,
+   "pose": "think"
+  }
+ ],
+ "overlays": [
+  {
+   "type": "icon",
+   "icon": "crown",
+   "on": "king",
+   "from": "1",
+   "to": "2"
+  },
+  {
+   "type": "question",
+   "on": "you",
+   "from": "2:good",
+   "to": "3"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "plato",
+    0
+   ],
+   "caption": "Plato, the Republic, about 375 BC",
+   "from": "3",
+   "to": "4-0.2"
+  },
+  {
+   "type": "label",
+   "text": "YOU",
+   "color": "yellow",
+   "on": "you",
+   "from": "4",
+   "to": "5"
+  },
+  {
+   "type": "icon",
+   "icon": "eye",
+   "on": "you",
+   "from": "4:fear",
+   "to": "5"
+  },
+  {
+   "type": "label",
+   "text": "JUST = THIEF",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "5:alike",
+   "to": "6"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "sardis",
+    0
+   ],
+   "caption": "Ruins of Sardis, capital of Lydia",
+   "from": "6:Lydia",
+   "to": "7-0.2"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "herodotus",
+    0
+   ],
+   "caption": "Herodotus, Histories, Book 1",
+   "from": "7",
+   "to": "8-0.2"
+  },
+  {
+   "type": "icon",
+   "icon": "eye",
+   "on": "queen",
+   "from": "9:spotted",
+   "to": "9:choice"
+  },
+  {
+   "type": "label",
+   "text": "KILL THE KING, OR DIE",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "9:choice",
+   "to": "10"
+  },
+  {
+   "type": "question",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "10:unseen",
+   "to": "11"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "seattle",
+    0
+   ],
+   "caption": "A Seattle house in the 1970s",
+   "from": "11",
+   "to": "11:trick-or-treaters"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "halloween",
+    0
+   ],
+   "caption": "Trick-or-treaters",
+   "from": "11:trick-or-treaters",
+   "to": "12-0.2"
+  },
+  {
+   "type": "number",
+   "text": "57%",
+   "on": "k2",
+   "from": "12:57",
+   "to": "13"
+  },
+  {
+   "type": "number",
+   "text": "<10%",
+   "on": "k2",
+   "from": "13:fewer",
+   "to": "14"
+  },
+  {
+   "type": "check",
+   "on": "k3",
+   "from": "14:one",
+   "to": "15"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "plato",
+    1
+   ],
+   "caption": "Plato's answer fills Books 2 to 10",
+   "from": "15:eight",
+   "to": "15:free-0.2"
+  },
+  {
+   "type": "icon",
+   "icon": "lock",
+   "on": "you",
+   "from": "15:slave",
+   "to": "16"
+  },
+  {
+   "type": "xmark",
+   "on": "ring",
+   "from": "16:excuse",
+   "to": "17"
+  },
+  {
+   "type": "pill",
+   "text": "What would you do first?",
+   "from": "17:first"
+  }
+ ],
+ "sfx": [
+  {
+   "at": "0:takes+0.3",
+   "s": "pluck",
+   "gain": 0.3
+  },
+  {
+   "at": "1:vanishes",
+   "s": "whoosh",
+   "gain": 0.3
+  },
+  {
+   "at": "1:kills+0.3",
+   "s": "thud",
+   "gain": 0.3
+  },
+  {
+   "at": "11",
+   "s": "select",
+   "gain": 0.25
+  },
+  {
+   "at": "12:extra",
+   "s": "drop",
+   "gain": 0.25
+  }
+ ],
+ "music": {
+  "mood": "warm"
+ },
+ "sources": [
+  "https://plato.stanford.edu/entries/plato-ethics/",
+  "https://www.perseus.tufts.edu/hopper/text?doc=Plat.+Rep.+2.359d",
+  "https://www.livius.org/articles/person/gyges/",
+  "https://www.scientificamerican.com/blog/psysociety/dont-let-greedy-trick-or-treaters-hijack-your-halloween-stash/",
+  "https://www.npr.org/sections/thesalt/2012/10/31/164030718/behind-a-halloween-mask-even-good-kids-can-turn-into-candythieves",
+  "https://en.wikipedia.org/wiki/Gyges_of_Lydia"
+ ],
+ "post": {
+  "caption": "Plato's Gyges used a ring of invisibility to kill a king. But the real Gyges, in Herodotus, rose to power because he was seen. And in 1976, masked trick-or-treaters showed what anonymity does to us.\nWhat would you do first if nobody could see you?",
+  "tags": [
+   "#philosophy",
+   "#plato",
+   "#thoughtexperiment",
+   "#ethics",
+   "#psychology"
+  ],
+  "youtube_title": "Would You Stay Good If You Were Invisible?"
+ }
+}
