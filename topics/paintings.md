@@ -15,9 +15,9 @@ The leads are starting points from memory, not facts: check each one before it g
 - made | the-kiss | The Kiss, Klimt | made 2026-11-27 (faculty-painting scandal → state bought it unfinished). Spares: Klimt threatened the ministry's removal men with a shotgun (1905); Lederer got Philosophy for helping repay; father was a gold engraver; meadow ends abruptly, maybe the Attersee shore; legs were shorter and vines added later; Belvedere: gold dust and gold powder in oil as well as leaf; Danae sold for 8,000 crowns at the same Kunstschau
 - inbox | grande-jatte | A Sunday on La Grande Jatte, Seurat | millions of dots; two years of work; the monkey; the painted border
 - inbox | third-of-may | The Third of May 1808, Goya | the lantern; the white shirt and the pose; faceless soldiers
-- todo | wanderer-fog | Wanderer above the Sea of Fog, Friedrich | we never see his face; a landscape stitched from several places
-- todo | earthly-delights | The Garden of Earthly Delights, Bosch | a triptych that closes; music written on a figure; the tree-man who may be Bosch
-- todo | ambassadors | The Ambassadors, Holbein | the stretched skull you can only see from the side; the broken lute string
+- requested | wanderer-fog | Wanderer above the Sea of Fog, Friedrich | we never see his face; a landscape stitched from several places
+- requested | earthly-delights | The Garden of Earthly Delights, Bosch | a triptych that closes; music written on a figure; the tree-man who may be Bosch
+- requested | ambassadors | The Ambassadors, Holbein | the stretched skull you can only see from the side; the broken lute string
 - todo | liberty-leading | Liberty Leading the People, Delacroix | it is 1830, not 1789; the boy who became Gavroche; hidden away as too dangerous
 - todo | raft-medusa | The Raft of the Medusa, Géricault | a real scandal; he studied corpses; the tiny ship on the horizon
 - todo | impression-sunrise | Impression, Sunrise, Monet | the insult that named Impressionism; the sun is no brighter than the sky
