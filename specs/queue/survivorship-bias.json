@@ -1,0 +1,811 @@
+{
+ "id": "survivorship-bias",
+ "channel": "philosophy",
+ "style": "ps2",
+ "title": "SURVIVORSHIP BIAS",
+ "angle": "Why do the cats that fall farthest seem to get hurt least?",
+ "answer": "Because the data only include survivors: cats killed by long falls never reached the vet, just as bombers hit in the engines never came home to be counted, so the missing cases point where the danger is; the tidy bomber legend is itself polished, but the lesson holds for every success story.",
+ "logline": "Cats from higher floors seemed to get hurt less, so is a longer fall safer? No, because dead cats never reached the vet, so only survivors were counted, but the classic case came from war: bombers came home with holes on wings and fuselage, so the plan was to armour the holes, but the statistician saw that planes hit in the engines never came back, so armour goes where there are no holes, but the famous red-dotted plane was drawn in 2005, so ask whose stories didn't make it back.",
+ "hook_text": "HIGHER FALL, FEWER INJURIES?",
+ "hooks": [
+  "The red-dotted bomber you've seen everywhere was drawn in 2005.",
+  "Planes hit in the engines never came home to be counted."
+ ],
+ "world": {
+  "scenery": "open",
+  "ground": "#6E7A6A"
+ },
+ "script": [
+  {
+   "text": "Cats that fell from higher floors seemed to get hurt less.",
+   "beat": "hook"
+  },
+  {
+   "text": "In 1987, New York vets studied 132 cats that fell from high-rise windows.",
+   "say": "In nineteen eighty-seven, New York vets studied a hundred and thirty-two cats that fell from high-rise windows.",
+   "beat": "hook",
+   "link": "detail"
+  },
+  {
+   "text": "So is a longer fall safer, or are we missing something?",
+   "beat": "question",
+   "link": "so"
+  },
+  {
+   "text": "We're missing the cats that never reached the vet.",
+   "beat": "reveal1",
+   "link": "answer"
+  },
+  {
+   "text": "A cat killed by a long fall was rarely brought in, so it never entered the data.",
+   "beat": "reveal1",
+   "link": "because"
+  },
+  {
+   "text": "That's survivorship bias: judging only by what made it through.",
+   "beat": "reveal1",
+   "link": "so"
+  },
+  {
+   "text": "But the classic case came from World War Two.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "In 1943, a statistics group at Columbia University studied bombers that came back.",
+   "say": "In nineteen forty-three, a statistics group at Columbia University studied bombers that came back.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "Their bullet holes clustered on the wings and fuselage, not the engines.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "So, the story goes, the plan was to add armour where the holes were.",
+   "beat": "reveal2",
+   "link": "so"
+  },
+  {
+   "text": "But the group's statistician saw the opposite.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "Planes hit in the engines didn't come back to be counted.",
+   "beat": "reveal3",
+   "link": "because"
+  },
+  {
+   "text": "So armour belongs exactly where the returning planes show no holes.",
+   "beat": "reveal3",
+   "link": "so"
+  },
+  {
+   "text": "But the legend is tidier than the truth: his reports were pages of equations.",
+   "beat": "turn",
+   "link": "but"
+  },
+  {
+   "text": "The famous plane covered in red dots was drawn in 2005.",
+   "say": "The famous plane covered in red dots was drawn in two thousand and five.",
+   "beat": "turn",
+   "link": "detail"
+  },
+  {
+   "text": "So the lesson outlives the legend: for every dropout billionaire, thousands of dropouts went broke.",
+   "beat": "payoff",
+   "link": "so"
+  },
+  {
+   "text": "Whose stories are you not hearing, because they never made it back?",
+   "beat": "payoff",
+   "link": "so"
+  }
+ ],
+ "objects": [
+  {
+   "id": "tower",
+   "kind": "pillar",
+   "at": [
+    -2.6,
+    0,
+    -1.2
+   ],
+   "face": 0,
+   "scale": 2.6
+  },
+  {
+   "id": "cat",
+   "kind": "cat",
+   "tint": "#E39A4F",
+   "at": [
+    -1.2,
+    0,
+    1.2
+   ],
+   "face": 30
+  },
+  {
+   "id": "cat2",
+   "kind": "cat",
+   "tint": "#7A7A7A",
+   "at": [
+    -0.2,
+    0,
+    0.4
+   ],
+   "face": -20,
+   "show": false
+  },
+  {
+   "id": "you",
+   "kind": "person",
+   "look": "you",
+   "at": [
+    1.6,
+    0,
+    2.0
+   ],
+   "face": "cat"
+  },
+  {
+   "id": "plane",
+   "kind": "plane",
+   "at": [
+    0.2,
+    0,
+    -0.6
+   ],
+   "face": 180,
+   "show": false
+  },
+  {
+   "id": "h0",
+   "kind": "ball",
+   "tint": "#1A1A1A",
+   "at": [
+    -1.6,
+    1.24,
+    0.2
+   ],
+   "scale": 0.12,
+   "show": false
+  },
+  {
+   "id": "h1",
+   "kind": "ball",
+   "tint": "#1A1A1A",
+   "at": [
+    -0.9,
+    1.24,
+    0.35
+   ],
+   "scale": 0.12,
+   "show": false
+  },
+  {
+   "id": "h2",
+   "kind": "ball",
+   "tint": "#1A1A1A",
+   "at": [
+    1.5,
+    1.24,
+    0.1
+   ],
+   "scale": 0.12,
+   "show": false
+  },
+  {
+   "id": "h3",
+   "kind": "ball",
+   "tint": "#1A1A1A",
+   "at": [
+    2.3,
+    1.24,
+    0.3
+   ],
+   "scale": 0.12,
+   "show": false
+  },
+  {
+   "id": "h4",
+   "kind": "ball",
+   "tint": "#1A1A1A",
+   "at": [
+    0.0,
+    1.5,
+    -0.6
+   ],
+   "scale": 0.12,
+   "show": false
+  },
+  {
+   "id": "h5",
+   "kind": "ball",
+   "tint": "#1A1A1A",
+   "at": [
+    0.0,
+    1.5,
+    0.5
+   ],
+   "scale": 0.12,
+   "show": false
+  },
+  {
+   "id": "h6",
+   "kind": "ball",
+   "tint": "#1A1A1A",
+   "at": [
+    0.6,
+    1.36,
+    -1.6
+   ],
+   "scale": 0.12,
+   "show": false
+  },
+  {
+   "id": "h7",
+   "kind": "ball",
+   "tint": "#1A1A1A",
+   "at": [
+    -0.5,
+    1.36,
+    -1.6
+   ],
+   "scale": 0.12,
+   "show": false
+  }
+ ],
+ "groups": {
+  "holes": [
+   "h0",
+   "h1",
+   "h2",
+   "h3",
+   "h4",
+   "h5",
+   "h6",
+   "h7"
+  ]
+ },
+ "shots": [
+  {
+   "at": 0,
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "tower",
+     "cat"
+    ]
+   },
+   "focus": [
+    "tower",
+    "cat"
+   ]
+  },
+  {
+   "at": "1",
+   "cam": {
+    "preset": "close",
+    "on": "cat"
+   },
+   "focus": [
+    "cat"
+   ]
+  },
+  {
+   "at": "2",
+   "cam": {
+    "preset": "close",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "3",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "cat"
+    ]
+   },
+   "focus": [
+    "you",
+    "cat"
+   ]
+  },
+  {
+   "at": "4",
+   "cam": {
+    "preset": "close",
+    "on": "cat2"
+   },
+   "focus": [
+    "cat2"
+   ]
+  },
+  {
+   "at": "5",
+   "cam": {
+    "preset": "tight",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "6",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "plane",
+     "you"
+    ]
+   }
+  },
+  {
+   "at": "7",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "plane"
+    ]
+   },
+   "focus": [
+    "plane"
+   ]
+  },
+  {
+   "at": "8",
+   "cam": {
+    "preset": "close",
+    "on": "plane",
+    "lift": 2
+   },
+   "focus": [
+    "plane"
+   ]
+  },
+  {
+   "at": "9",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "plane"
+    ]
+   },
+   "focus": [
+    "you",
+    "plane"
+   ]
+  },
+  {
+   "at": "10",
+   "cam": {
+    "preset": "close",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "11",
+   "cam": {
+    "preset": "close",
+    "on": "plane",
+    "side": 1
+   },
+   "focus": [
+    "plane"
+   ]
+  },
+  {
+   "at": "12",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "plane",
+     "you"
+    ]
+   }
+  },
+  {
+   "at": "13",
+   "cam": {
+    "preset": "tight",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "14",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "plane"
+    ],
+    "side": -1
+   },
+   "focus": [
+    "plane"
+   ]
+  },
+  {
+   "at": "15",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "plane"
+    ]
+   },
+   "focus": [
+    "you",
+    "plane"
+   ]
+  },
+  {
+   "at": "15:thousands",
+   "cam": {
+    "preset": "close",
+    "on": "you",
+    "side": 1
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "16",
+   "cam": {
+    "preset": "tight",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "16:hearing",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "plane"
+    ],
+    "side": -1
+   },
+   "focus": [
+    "you",
+    "plane"
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "id": "cat",
+   "at": "0:higher",
+   "dur": 0.5,
+   "wobble": true
+  },
+  {
+   "id": "you",
+   "at": "2:missing",
+   "dur": 0.4,
+   "pose": "think"
+  },
+  {
+   "id": "cat2",
+   "at": "4",
+   "dur": 0.4,
+   "show": true
+  },
+  {
+   "id": "cat2",
+   "at": "4:killed",
+   "dur": 0.6,
+   "tip": -90
+  },
+  {
+   "id": "cat2",
+   "at": "4:data",
+   "dur": 0.4,
+   "show": false
+  },
+  {
+   "id": "you",
+   "at": "5:survivorship",
+   "dur": 0.4,
+   "pose": "point"
+  },
+  {
+   "id": [
+    "cat",
+    "tower"
+   ],
+   "at": "6",
+   "dur": 0.3,
+   "show": false
+  },
+  {
+   "id": "plane",
+   "at": "6",
+   "dur": 0.4,
+   "show": true
+  },
+  {
+   "id": [
+    "h0",
+    "h1",
+    "h2",
+    "h3",
+    "h4",
+    "h5",
+    "h6",
+    "h7"
+   ],
+   "at": "8:holes",
+   "dur": 0.3,
+   "show": true
+  },
+  {
+   "id": "you",
+   "at": "9:armour",
+   "dur": 0.4,
+   "pose": "point"
+  },
+  {
+   "id": "you",
+   "at": "10:opposite",
+   "dur": 0.4,
+   "pose": "shock"
+  },
+  {
+   "id": "you",
+   "at": "12:armour",
+   "dur": 0.4,
+   "pose": "point"
+  },
+  {
+   "id": [
+    "h0",
+    "h1",
+    "h2",
+    "h3",
+    "h4",
+    "h5",
+    "h6",
+    "h7"
+   ],
+   "at": "13",
+   "dur": 0.3,
+   "show": false
+  },
+  {
+   "id": "you",
+   "at": "13:equations",
+   "dur": 0.4,
+   "pose": "shrug"
+  },
+  {
+   "id": "you",
+   "at": "16",
+   "dur": 0.4,
+   "pose": "think"
+  }
+ ],
+ "overlays": [
+  {
+   "type": "photo",
+   "pick": [
+    "cat",
+    2
+   ],
+   "caption": "A cat on a window ledge",
+   "from": "0:Cats",
+   "to": "1-0.2",
+   "pos": [
+    540,
+    700
+   ]
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "building",
+    0
+   ],
+   "caption": "Manhattan apartment buildings",
+   "from": "1:New",
+   "to": "1:cats-0.1"
+  },
+  {
+   "type": "number",
+   "text": "132",
+   "on": "cat",
+   "from": "1:132",
+   "to": "2"
+  },
+  {
+   "type": "question",
+   "on": "you",
+   "from": "2:safer",
+   "to": "3"
+  },
+  {
+   "type": "label",
+   "text": "YOU",
+   "color": "yellow",
+   "on": "you",
+   "from": "3",
+   "to": "3:vet"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "vet",
+    1
+   ],
+   "caption": "A cat at the vet",
+   "from": "3:vet",
+   "to": "4-0.2"
+  },
+  {
+   "type": "xmark",
+   "on": "cat2",
+   "from": "4:never",
+   "to": "5"
+  },
+  {
+   "type": "label",
+   "text": "SURVIVORSHIP BIAS",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "5:survivorship",
+   "to": "6"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "bomber",
+    1
+   ],
+   "caption": "A B-17 bomber, World War Two",
+   "from": "6:World",
+   "to": "7-0.2"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "columbia",
+    0
+   ],
+   "caption": "Columbia University, New York",
+   "from": "7:Columbia",
+   "to": "8-0.2"
+  },
+  {
+   "type": "label",
+   "text": "WINGS · FUSELAGE · TAIL",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "8:wings",
+   "to": "8:engines"
+  },
+  {
+   "type": "label",
+   "text": "ENGINES: NO HOLES",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "8:engines",
+   "to": "9"
+  },
+  {
+   "type": "label",
+   "text": "ARMOUR THE HOLES?",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "9:armour",
+   "to": "10"
+  },
+  {
+   "type": "label",
+   "text": "ENGINE HITS NEVER CAME BACK",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "11:engines",
+   "to": "12"
+  },
+  {
+   "type": "check",
+   "on": "plane",
+   "from": "12:no",
+   "to": "13"
+  },
+  {
+   "type": "label",
+   "text": "RED DOTS: DRAWN 2005",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "14:2005",
+   "to": "15"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "dropout",
+    2
+   ],
+   "caption": "Bill Gates, the famous dropout",
+   "from": "15:dropout",
+   "to": "16-0.2"
+  },
+  {
+   "type": "pill",
+   "text": "Who didn't make it back?",
+   "from": "16:back"
+  }
+ ],
+ "sfx": [
+  {
+   "at": "4:killed",
+   "s": "thud",
+   "gain": 0.25
+  },
+  {
+   "at": "8:holes",
+   "s": "tick",
+   "gain": 0.25,
+   "every": 0.12,
+   "until": "8:fuselage"
+  },
+  {
+   "at": "6",
+   "s": "whoosh",
+   "gain": 0.25
+  }
+ ],
+ "music": {
+  "mood": "dark"
+ },
+ "sources": [
+  "https://pubmed.ncbi.nlm.nih.gov/3429324/",
+  "https://www.cna.org/archive/CNA_Files/pdf/crc432.pdf",
+  "https://www.jstor.org/stable/2288257",
+  "https://en.wikipedia.org/wiki/Survivorship_bias",
+  "https://commons.wikimedia.org/wiki/File:Survivorship-bias.png"
+ ],
+ "post": {
+  "caption": "Cats falling from higher floors seemed to get hurt less, and returning bombers had no holes in their engines. Both stories hide the same trap: the ones that didn't make it back.\nWhose stories aren't you hearing?",
+  "tags": [
+   "#psychology",
+   "#statistics",
+   "#survivorshipbias",
+   "#criticalthinking",
+   "#philosophy"
+  ],
+  "youtube_title": "Why Cats From Higher Floors Seemed Safer"
+ }
+}

@@ -1,6 +1,30 @@
 # Model scripts (newest first)
 The writer reads the top two of its channel before writing and matches or beats them: same spine (beats in order, every sentence linked to the one before), never the same facts or hooks. Each script the writer makes is added at the top in this format. Kept to the last 12.
 
+## survivorship-bias (philosophy, 2026-11-27)
+
+Angle: Why do the cats that fall farthest seem to get hurt least?
+Logline: Cats from higher floors seemed to get hurt less, so is a longer fall safer? No, because dead cats never reached the vet, so only survivors were counted, but the classic case came from war: bombers came home with holes on wings and fuselage, so the plan was to armour the holes, but the statistician saw that planes hit in the engines never came back, so armour goes where there are no holes, but the famous red-dotted plane was drawn in 2005, so ask whose stories didn't make it back.
+On-screen hook: HIGHER FALL, FEWER INJURIES?
+
+[hook] Cats that fell from higher floors seemed to get hurt less.
+[hook / detail] In 1987, New York vets studied 132 cats that fell from high-rise windows.
+[question / so] So is a longer fall safer, or are we missing something?
+[reveal1 / answer] We're missing the cats that never reached the vet.
+[reveal1 / because] A cat killed by a long fall was rarely brought in, so it never entered the data.
+[reveal1 / so] That's survivorship bias: judging only by what made it through.
+[reveal2 / but] But the classic case came from World War Two.
+[reveal2 / detail] In 1943, a statistics group at Columbia University studied bombers that came back.
+[reveal2 / detail] Their bullet holes clustered on the wings and fuselage, not the engines.
+[reveal2 / so] So, the story goes, the plan was to add armour where the holes were.
+[reveal3 / but] But the group's statistician saw the opposite.
+[reveal3 / because] Planes hit in the engines didn't come back to be counted.
+[reveal3 / so] So armour belongs exactly where the returning planes show no holes.
+[turn / but] But the legend is tidier than the truth: his reports were pages of equations.
+[turn / detail] The famous plane covered in red dots was drawn in 2005.
+[payoff / so] So the lesson outlives the legend: for every dropout billionaire, thousands of dropouts went broke.
+[payoff / so] Whose stories are you not hearing, because they never made it back?
+
 ## milkmaid (paintings, 2026-11-27)
 
 Angle: Why did Vermeer spend a blue costlier than gold on a kitchen maid?
@@ -253,25 +277,3 @@ On-screen hook: 1,000x THE PLEASURE
 [turn / detail] In 2020, two philosophers warned that digital minds could be built to feel far more than we do.
 [payoff / so] So the monster is no longer a joke; it could be a design choice.
 [payoff / so] If we built a mind that enjoys life a million times more than you, should it come first?
-
-## raft-medusa (paintings, 2026-11-27)
-
-Angle: Why did a painting of a shipwreck embarrass the French government?
-Logline: A speck on the horizon is the point of the painting, so why did it anger the government? The Méduse ran aground under a captain who owed his post to the king, so 150 people were cast off on a raft, but only 15 survived, and a survivors' book exposed cannibalism, so it became a scandal, but Géricault wanted it exact, so he studied severed heads and posed Delacroix as a corpse, but the real ship sailed out of sight, so he painted the moment hope could still fail, and called it just Scene of a Shipwreck.
-On-screen hook: THE FIRST SHIP IN 13 DAYS
-
-[hook] That speck on the horizon is the whole point of this painting.
-[hook / detail] It's a ship, the first these men had seen in thirteen days.
-[question / so] So why did this shipwreck enrage the French government?
-[reveal1 / answer] In 1816, the frigate Méduse ran aground off West Africa.
-[reveal1 / because] Its captain owed his post to the king, and had barely sailed in twenty years.
-[reveal1 / so] So when the lifeboats cut the towropes, about 150 people were left on a raft.
-[reveal2 / but] But after thirteen days, only fifteen were alive.
-[reveal2 / so] Two survivors published what happened: mutiny, starvation, cannibalism.
-[reveal2 / so] So the wreck became a scandal for the king's government.
-[reveal3 / but] But Géricault, aged 27, wanted the horror exact.
-[reveal3 / detail] He interviewed survivors and studied severed heads from a hospital.
-[reveal3 / detail] His young friend Delacroix posed for this dead man, face down.
-[turn / but] But look again at that speck: the real ship sailed out of sight.
-[turn / detail] It returned two hours later; he painted the moment hope might fail.
-[payoff / so] He called it simply Scene of a Shipwreck, and all Paris knew which.
