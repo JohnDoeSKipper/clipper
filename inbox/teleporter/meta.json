@@ -1,0 +1,136 @@
+{
+ "id": "teleporter",
+ "painting": null,
+ "inserts": {
+  "parfit": [
+   {
+    "title": "File:Derek Parfit at Harvard-April 21, 2015-Effective Altruism.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Derek_Parfit_at_Harvard-April_21%2C_2015-Effective_Altruism.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/2/25/Derek_Parfit_at_Harvard-April_21%2C_2015-Effective_Altruism.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2560,
+    "height": 1707,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Anna Riedl",
+    "credit": "Anna Riedl / CC BY-SA 4.0",
+    "desc": "Derek Parfit"
+   },
+   {
+    "title": "File:Dr. Nir Eyal at Harvard Effective Altruism lecture, April 2015.2.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Dr._Nir_Eyal_at_Harvard_Effective_Altruism_lecture%2C_April_2015.2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Dr._Nir_Eyal_at_Harvard_Effective_Altruism_lecture%2C_April_2015.2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3456,
+    "height": 2304,
+    "licence": "CC BY-SA 4.0",
+    "artist": "MaynardClark",
+    "credit": "MaynardClark / CC BY-SA 4.0",
+    "desc": "Nir Eyal (bioethicist)Dr. Nir Eyal was Faculty Advisor for Harvard's Effective Altruism group and invited Derek Parfit to lecture; this photo was of Dr. Eyal's "
+   }
+  ],
+  "lab": [],
+  "mars": [
+   {
+    "title": "File:Mars face.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Mars_face.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Mars_face.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2400,
+    "height": 2400,
+    "licence": "Public domain",
+    "artist": "NASA / JPL / Malin Space Science Systems",
+    "credit": "",
+    "desc": "Highest-resolution view of the \"Face on Mars\", photographed by Mars Global Surveyor"
+   },
+   {
+    "title": "File:NASA Mars Rover.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/NASA_Mars_Rover.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/d/d8/NASA_Mars_Rover.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3000,
+    "height": 2400,
+    "licence": "Public domain",
+    "artist": "NASA/JPL/Cornell University, Maas Digital LLC",
+    "credit": "",
+    "desc": "An artist's concept portrays a NASA Mars Exploration Rover on the surface of Mars. Rovers Opportunity and Spirit were launched a few weeks apart in 2003 and lan"
+   },
+   {
+    "title": "File:Face on Mars with Inset.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Face_on_Mars_with_Inset.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/d/de/Face_on_Mars_with_Inset.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1700,
+    "height": 1200,
+    "licence": "Public domain",
+    "artist": "NASA / JPL / University of Arizona",
+    "credit": "",
+    "desc": "Popular Landform in Cydonia Region (PSP_003234_2210). The High Resolution Imaging Science Experiment onboard the Mars Reconnaissance Orbiter captured this image"
+   }
+  ],
+  "brain": [
+   {
+    "title": "File:Corpus callosum.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Corpus_callosum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Corpus_callosum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1214,
+    "height": 478,
+    "licence": "CC BY-SA 3.0",
+    "artist": "modified image created by user:Looie496. original images created by John A. Beal",
+    "credit": "modified image created by user:Looie496. original images created by John A. Beal / CC BY-SA 3.0",
+    "desc": "Location of the corpus callosum, the large nerve fiber bundle connecting the two cerebral hemispheres. Left: coronal section of a human brain. Right: human brai"
+   },
+   {
+    "title": "File:Human Brain Dissected.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Human_Brain_Dissected.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Human_Brain_Dissected.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2521,
+    "height": 2046,
+    "licence": "CC BY-SA 3.0",
+    "artist": "Hikmet G\u00fcm\u00fc\u015f",
+    "credit": "Hikmet G\u00fcm\u00fc\u015f / CC BY-SA 3.0",
+    "desc": "Human Brain Dissected"
+   },
+   {
+    "title": "File:Segments of the corpus callosum.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Segments_of_the_corpus_callosum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/2/27/Segments_of_the_corpus_callosum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1240,
+    "height": 1280,
+    "licence": "CC BY 4.0",
+    "artist": "Marco Catani, Flavio Dell\u2019Acqua, Sanja Budisavljevic, Henrietta Howells, Michel ",
+    "credit": "Marco Catani, Flavio Dell\u2019Acqua, Sanja Budisavljevic, Henrietta Howells, Michel  / CC BY 4.0",
+    "desc": "Tractography reconstruction of the segments of the corpus callosum according to Witelson\u2019s division (1989)."
+   }
+  ],
+  "locke": [
+   {
+    "title": "File:John Locke by John Greenhill.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/John_Locke_by_John_Greenhill.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/0/0f/John_Locke_by_John_Greenhill.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2245,
+    "height": 2729,
+    "licence": "Public domain",
+    "artist": "John Greenhill",
+    "credit": "",
+    "desc": "John Locke, by John Greenhill (died 1676). See source website for additional information. This set of images was gathered by User:Dcoetzee from the National Por"
+   },
+   {
+    "title": "File:Godfrey Kneller - Portrait of John Locke (Hermitage).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Godfrey_Kneller_-_Portrait_of_John_Locke_%28Hermitage%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/d/db/Godfrey_Kneller_-_Portrait_of_John_Locke_%28Hermitage%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2018,
+    "height": 2460,
+    "licence": "Public domain",
+    "artist": "Godfrey Kneller",
+    "credit": "",
+    "desc": ""
+   },
+   {
+    "title": "File:'John Locke' by Godfrey Kneller, 1697, Hermitage.JPG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/%27John_Locke%27_by_Godfrey_Kneller%2C_1697%2C_Hermitage.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/5/5b/%27John_Locke%27_by_Godfrey_Kneller%2C_1697%2C_Hermitage.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1836,
+    "height": 2380,
+    "licence": "Public domain",
+    "artist": "Godfrey Kneller",
+    "credit": "",
+    "desc": "John Locke by Godfrey Kneller, 1697, Hermitage"
+   }
+  ]
+ }
+}

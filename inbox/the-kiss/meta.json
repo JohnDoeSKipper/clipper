@@ -12,6 +12,184 @@
   "desc": "lovers' embrace"
  },
  "inserts": {
+  "klimt": [
+   {
+    "title": "File:Moriz N\u00e4hr Gustav Klimt mit Katze 1911.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Moriz_N%C3%A4hr_Gustav_Klimt_mit_Katze_1911.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Moriz_N%C3%A4hr_Gustav_Klimt_mit_Katze_1911.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3756,
+    "height": 5000,
+    "licence": "Public domain",
+    "artist": "Moritz N\u00e4hr",
+    "credit": "",
+    "desc": "Gustav Klimt mit Katze, im Garten seines Ateliers in der Josefst\u00e4dter Stra\u00dfe 21 in Wien, Mai 1911, Vintage, Bromsilber, 23 x 17,1 cm"
+   },
+   {
+    "title": "File:Klimt studio by Moritz N\u00e4hr.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Klimt_studio_by_Moritz_N%C3%A4hr.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/7/78/Klimt_studio_by_Moritz_N%C3%A4hr.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1000,
+    "height": 562,
+    "licence": "Public domain",
+    "artist": "Moritz N\u00e4hr",
+    "credit": "",
+    "desc": "Photograph of Gustav Klimt's studio"
+   }
+  ],
+  "medicine": [
+   {
+    "title": "File:Hku Medizin.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Hku_Medizin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Hku_Medizin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2884,
+    "height": 4134,
+    "licence": "Public domain",
+    "artist": "Gustav Klimt",
+    "credit": "",
+    "desc": ""
+   }
+  ],
+  "philosophy": [],
+  "lederer": [
+   {
+    "title": "File:August Lederer, by Egon Schiele.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/August_Lederer%2C_by_Egon_Schiele.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/2/2f/August_Lederer%2C_by_Egon_Schiele.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2064,
+    "height": 3201,
+    "licence": "Public domain",
+    "artist": "Egon Schiele",
+    "credit": "",
+    "desc": "August Lederer charcoal on paper 46.1 x 29.6 cm signed b.r: EGON / SCHIELE / 1918"
+   },
+   {
+    "title": "File:Hugo Lederer - Das Schicksal.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Hugo_Lederer_-_Das_Schicksal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/d/de/Hugo_Lederer_-_Das_Schicksal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2011,
+    "height": 2329,
+    "licence": "Public domain",
+    "artist": "Hugo Lederer",
+    "credit": "",
+    "desc": "Hugo Lederer - Das Schicksal"
+   },
+   {
+    "title": "File:Francis Lederer at plagiarism hearing.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Francis_Lederer_at_plagiarism_hearing.jpg/3840px-Francis_Lederer_at_plagiarism_hearing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/9/96/Francis_Lederer_at_plagiarism_hearing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3872,
+    "height": 4360,
+    "licence": "CC BY 4.0",
+    "artist": "Los Angeles Times",
+    "credit": "Los Angeles Times / CC BY 4.0",
+    "desc": "Portrait of Francis Lederer during the hearing of the plagiarism lawsuit filed against him and R.K.O Pictures by Jack Quartaro, writer. Mr. Lederer eventually w"
+   }
+  ],
+  "ravenna": [
+   {
+    "title": "File:Apse mosaic - Basilica of San Vitale (Ravenna).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Apse_mosaic_-_Basilica_of_San_Vitale_%28Ravenna%29.jpg/3840px-Apse_mosaic_-_Basilica_of_San_Vitale_%28Ravenna%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Apse_mosaic_-_Basilica_of_San_Vitale_%28Ravenna%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4545,
+    "height": 2638,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Petar Milo\u0161evi\u0107",
+    "credit": "Petar Milo\u0161evi\u0107 / CC BY-SA 4.0",
+    "desc": "Apse mosaic in basilica of San Vitale, Ravenna, Italy. Built 547. A.D. UNESCO World heritage site. On mosaic from left side: St. Vitalis, archangel, Jesus Chris"
+   },
+   {
+    "title": "File:Basilica of San Vitale - Lamb of God mosaic.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Basilica_of_San_Vitale_-_Lamb_of_God_mosaic.jpg/3840px-Basilica_of_San_Vitale_-_Lamb_of_God_mosaic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Basilica_of_San_Vitale_-_Lamb_of_God_mosaic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4309,
+    "height": 3443,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Petar Milo\u0161evi\u0107",
+    "credit": "Petar Milo\u0161evi\u0107 / CC BY-SA 4.0",
+    "desc": "Lamb of God mosaic in presbytery of Basilica of San Vitale (built A.D. 547) Ravenna, Italy. UNESCO World heritage site."
+   },
+   {
+    "title": "File:Baptistry of Neon ceiling mosaic (Ravenna).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Baptistry_of_Neon_ceiling_mosaic_%28Ravenna%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Baptistry_of_Neon_ceiling_mosaic_%28Ravenna%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3072,
+    "height": 3042,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Petar Milo\u0161evi\u0107",
+    "credit": "Petar Milo\u0161evi\u0107 / CC BY-SA 4.0",
+    "desc": "The ceiling mosaic in the Baptistry of Neon. Ravenna, Italy. Built around 6th century A.D. UNESCO World heritage site."
+   }
+  ],
+  "kunstschau": [
+   {
+    "title": "File:Rudolf-Kalvach Plakat-Kunstschau-Wien-1908 Detail.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Rudolf-Kalvach_Plakat-Kunstschau-Wien-1908_Detail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/5/58/Rudolf-Kalvach_Plakat-Kunstschau-Wien-1908_Detail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1420,
+    "height": 1980,
+    "licence": "Public domain",
+    "artist": "Rudolf Kalvach",
+    "credit": "",
+    "desc": "Rudolf Kalvach, detail of a poster for the art show in Vienna, 1908"
+   },
+   {
+    "title": "File:Anzeige Gerlach und Wiedling Kunstverlag (Provisorischer Katalog der Kunstschau Wien 1908).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Anzeige_Gerlach_und_Wiedling_Kunstverlag_%28Provisorischer_Katalog_der_Kunstschau_Wien_1908%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Anzeige_Gerlach_und_Wiedling_Kunstverlag_%28Provisorischer_Katalog_der_Kunstschau_Wien_1908%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1264,
+    "height": 1407,
+    "licence": "Public domain",
+    "artist": "Unknown authorUnknown author (Gerlach &amp; Wiedling Kunstverlag, Wien)",
+    "credit": "",
+    "desc": "Gerlach &amp; Wiedling Kunstverlag advertising (1908)"
+   },
+   {
+    "title": "File:Zygmunt Skwirczy\u0144ski Kunstschau 1908.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Zygmunt_Skwirczy%C5%84ski_Kunstschau_1908.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Zygmunt_Skwirczy%C5%84ski_Kunstschau_1908.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1050,
+    "height": 1406,
+    "licence": "Public domain",
+    "artist": "Zygmunt Skwirczy\u0144ski",
+    "credit": "",
+    "desc": "Zygmunt Skwirczy\u0144ski Karikaturen \u00fcber die Kunstschau Wien 1908 in Die Muskete, 2. Juli 1908"
+   }
+  ],
+  "immendorf": [
+   {
+    "title": "File:Georg Matth\u00e4us Vischer Immendorf.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Georg_Matth%C3%A4us_Vischer_Immendorf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/1/14/Georg_Matth%C3%A4us_Vischer_Immendorf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2016,
+    "height": 1473,
+    "licence": "Public domain",
+    "artist": "Georg Matth\u00e4us Vischer; scan by Feldkurat Katz",
+    "credit": "",
+    "desc": "Immendorf castle, Lower Austria. Engraving by Georg Matth\u00e4us Vischer. From Topographia Austriae inferioris, 1672."
+   },
+   {
+    "title": "File:Philosophy-final-state-1907.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Philosophy-final-state-1907.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/d/de/Philosophy-final-state-1907.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1335,
+    "height": 1957,
+    "licence": "Public domain",
+    "artist": "Gustav Klimt",
+    "credit": "",
+    "desc": "Destroyed Klimt painting"
+   },
+   {
+    "title": "File:Jurisprudence-final-state-1907.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Jurisprudence-final-state-1907.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Jurisprudence-final-state-1907.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1333,
+    "height": 1945,
+    "licence": "Public domain",
+    "artist": "Gustav Klimt",
+    "credit": "",
+    "desc": "Destroyed painting for the University of Vienna"
+   }
+  ],
   "belvedere": [
    {
     "title": "File:Palacio Belvedere, Viena, Austria, 2020-02-01, DD 93-95 HDR.jpg",
@@ -45,146 +223,6 @@
     "artist": "Upper_Belvedere_LCD-toneedit2.jpg: Murdockcrc",
     "credit": "Upper_Belvedere_LCD-toneedit2.jpg: Murdockcrc / CC BY 3.0",
     "desc": "Night photograph of the Upper Belvedere palace in Vienna, Austria."
-   }
-  ],
-  "klimt": [
-   {
-    "title": "File:The Kiss - Gustav Klimt - Google Cultural Institute.jpg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg/3840px-The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/4/40/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 7376,
-    "height": 7401,
-    "licence": "Public domain",
-    "artist": "Gustav Klimt",
-    "credit": "",
-    "desc": "lovers' embrace"
-   },
-   {
-    "title": "File:(Venice) Gustav Klimt - Giuditta II (Judith II) - Museo d'arte moderna.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/%28Venice%29_Gustav_Klimt_-_Giuditta_II_%28Judith_II%29_-_Museo_d%27arte_moderna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/e/ec/%28Venice%29_Gustav_Klimt_-_Giuditta_II_%28Judith_II%29_-_Museo_d%27arte_moderna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 2954,
-    "height": 11624,
-    "licence": "CC BY-SA 4.0",
-    "artist": "Didier Descouens",
-    "credit": "Didier Descouens / CC BY-SA 4.0",
-    "desc": "Gustav Klimt, Judith II, 1909."
-   },
-   {
-    "title": "File:Gustav Klimt - Death and Life - Google Art Project.jpg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Gustav_Klimt_-_Death_and_Life_-_Google_Art_Project.jpg/3840px-Gustav_Klimt_-_Death_and_Life_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/1/18/Gustav_Klimt_-_Death_and_Life_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 4059,
-    "height": 3533,
-    "licence": "Public domain",
-    "artist": "Gustav Klimt",
-    "credit": "",
-    "desc": ""
-   }
-  ],
-  "floge": [
-   {
-    "title": "File:Heinrich B\u00f6hler 1909 Emilie Fl\u00f6ge Gustav Klimt 003.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Heinrich_B%C3%B6hler_1909_Emilie_Fl%C3%B6ge_Gustav_Klimt_003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/2/27/Heinrich_B%C3%B6hler_1909_Emilie_Fl%C3%B6ge_Gustav_Klimt_003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 2832,
-    "height": 3485,
-    "licence": "Public domain",
-    "artist": "Heinrich B\u00f6hler",
-    "credit": "",
-    "desc": "Aufnahme auf einem Grundst\u00fcck an der Stra\u00dfe Kammer in Sch\u00f6rfling am Attersee"
-   },
-   {
-    "title": "File:Heinrich B\u00f6hler 1909 Emilie Fl\u00f6ge Gustav Klimt 001.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Heinrich_B%C3%B6hler_1909_Emilie_Fl%C3%B6ge_Gustav_Klimt_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Heinrich_B%C3%B6hler_1909_Emilie_Fl%C3%B6ge_Gustav_Klimt_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 2088,
-    "height": 3524,
-    "licence": "Public domain",
-    "artist": "Heinrich B\u00f6hler",
-    "credit": "",
-    "desc": "Aufnahme auf einem Grundst\u00fcck an der Stra\u00dfe Kammerl in Sch\u00f6rfling am Attersee"
-   },
-   {
-    "title": "File:Klimt - Portr\u00e4t Emilie Fl\u00f6ge - 1902.jpeg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Klimt_-_Portr%C3%A4t_Emilie_Fl%C3%B6ge_-_1902.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Klimt_-_Portr%C3%A4t_Emilie_Fl%C3%B6ge_-_1902.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 2340,
-    "height": 5328,
-    "licence": "Public domain",
-    "artist": "Gustav Klimt",
-    "credit": "",
-    "desc": ""
-   }
-  ],
-  "frieze": [
-   {
-    "title": "File:Gustav Klimt - Beethovenfries, \"Die Sehnsucht nach dem Gl\u00fcck\" (nach Richard Wagners Interpretation der IX. Sinfonie von Ludwig van Beethoven) - 5987 - \u00d6sterreichische Galerie Belvedere.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Gustav_Klimt_-_Beethovenfries%2C_%22Die_Sehnsucht_nach_dem_Gl%C3%BCck%22_%28nach_Richard_Wagners_Interpretation_der_IX._Sinfonie_von_Ludwig_van_Beethoven%29_-_5987_-_%C3%96sterreichische_Galerie_Belvedere.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Gustav_Klimt_-_Beethovenfries%2C_%22Die_Sehnsucht_nach_dem_Gl%C3%BCck%22_%28nach_Richard_Wagners_Interpretation_der_IX._Sinfonie_von_Ludwig_van_Beethoven%29_-_5987_-_%C3%96sterreichische_Galerie_Belvedere.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 3508,
-    "height": 2492,
-    "licence": "Public domain",
-    "artist": "Gustav Klimt",
-    "credit": "",
-    "desc": ""
-   },
-   {
-    "title": "File:Gustav-klimt-the-beethoven-frieze-the-hostile-powers.-far-wall.jpg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Gustav-klimt-the-beethoven-frieze-the-hostile-powers.-far-wall.jpg/3840px-Gustav-klimt-the-beethoven-frieze-the-hostile-powers.-far-wall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Gustav-klimt-the-beethoven-frieze-the-hostile-powers.-far-wall.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 11596,
-    "height": 3788,
-    "licence": "CC0",
-    "artist": "Gustav Klimt",
-    "credit": "",
-    "desc": "In 1901, Klimt painted the Beethoven Frieze for the 14th Vienna Secessionist exhibition in celebration of the composer, and featured a monumental polychrome scu"
-   },
-   {
-    "title": "File:Gustav Klimt - Head of a Woman in Three-Quarter Profile (Study for the Beethoven Frieze), 1901-1902 - Google Art Project.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Gustav_Klimt_-_Head_of_a_Woman_in_Three-Quarter_Profile_%28Study_for_the_Beethoven_Frieze%29%2C_1901-1902_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/6/67/Gustav_Klimt_-_Head_of_a_Woman_in_Three-Quarter_Profile_%28Study_for_the_Beethoven_Frieze%29%2C_1901-1902_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 2833,
-    "height": 4037,
-    "licence": "Public domain",
-    "artist": "Gustav Klimt",
-    "credit": "",
-    "desc": ""
-   }
-  ],
-  "ravenna": [
-   {
-    "title": "File:Mosaic of Theodora - Basilica San Vitale (Ravenna).jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Mosaic_of_Theodora_-_Basilica_San_Vitale_%28Ravenna%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/5/56/Mosaic_of_Theodora_-_Basilica_San_Vitale_%28Ravenna%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 3668,
-    "height": 2172,
-    "licence": "CC BY-SA 4.0",
-    "artist": "Petar Milo\u0161evi\u0107",
-    "credit": "Petar Milo\u0161evi\u0107 / CC BY-SA 4.0",
-    "desc": "Mosaic of Theodora - Basilica of San Vitale (built A.D. 547), Italy. UNESCO World heritage site."
-   },
-   {
-    "title": "File:Mosaic of Theodora - Basilica San Vitale (Ravenna, Italy).jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Mosaic_of_Theodora_-_Basilica_San_Vitale_%28Ravenna%2C_Italy%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Mosaic_of_Theodora_-_Basilica_San_Vitale_%28Ravenna%2C_Italy%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 3620,
-    "height": 2070,
-    "licence": "CC BY-SA 4.0",
-    "artist": "Petar Milo\u0161evi\u0107",
-    "credit": "Petar Milo\u0161evi\u0107 / CC BY-SA 4.0",
-    "desc": "Mosaic of Theodora - Basilica of San Vitale (built A.D. 547), Italy. UNESCO World Heritage site."
-   },
-   {
-    "title": "File:Theodora mosaic - Basilica San Vitale (Ravenna).jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Theodora_mosaic_-_Basilica_San_Vitale_%28Ravenna%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/8/85/Theodora_mosaic_-_Basilica_San_Vitale_%28Ravenna%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 2408,
-    "height": 2288,
-    "licence": "CC BY-SA 4.0",
-    "artist": "Petar Milo\u0161evi\u0107",
-    "credit": "Petar Milo\u0161evi\u0107 / CC BY-SA 4.0",
-    "desc": "Mosaic of Theodora - Basilica of San Vitale (built A.D. 547), Italy. UNESCO World heritage site."
    }
   ]
  }
