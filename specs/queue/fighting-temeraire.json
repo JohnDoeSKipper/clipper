@@ -1,0 +1,318 @@
+{
+ "id": "fighting-temeraire",
+ "channel": "paintings",
+ "angle": "Why does Britain love a painting of a war hero being towed to the scrapyard?",
+ "answer": "Because Turner turned a routine tow into a funeral for the age of sail: he restored the stripped masts, painted the old ship as a pale ghost behind a dark smoking tug, set the sun on one side and a new moon on the other, and then refused to sell it, leaving it to the nation.",
+ "logline": "Britain voted this its greatest painting, but it shows a warship going to be scrapped, so why? She fought at Trafalgar, but the navy sold her in 1838, so a steam tug hauled her to the breakers, but Turner changed the facts, restoring the stripped masts and painting her as a ghost behind a smoking tug, so it became a funeral for the age of sail with a sunset and a rising moon, but Turner never sold it, so the old hero stayed in harbour for everyone.",
+ "hook_text": "A WARSHIP ON ITS WAY TO SCRAP",
+ "hooks": [
+  "By the time of this tow, the ship had no masts. Turner gave them back.",
+  "Turner refused to sell this painting. He called it his darling."
+ ],
+ "painting": {
+  "title": "The Fighting Temeraire",
+  "artist": "J. M. W. Turner",
+  "year": "1839",
+  "museum": "National Gallery, London"
+ },
+ "script": [
+  {
+   "text": "In 2005, Britain voted this its greatest painting.",
+   "say": "In two thousand and five, Britain voted this its greatest painting.",
+   "beat": "hook"
+  },
+  {
+   "text": "It shows a warship being towed away to be scrapped.",
+   "beat": "hook",
+   "link": "but"
+  },
+  {
+   "text": "So why do people love a picture of a hero going to its death?",
+   "beat": "question",
+   "link": "so"
+  },
+  {
+   "text": "HMS Temeraire fought at Trafalgar in 1805, right behind Nelson's flagship.",
+   "say": "H M S Temeraire fought at Trafalgar in eighteen oh five, right behind Nelson's flagship.",
+   "beat": "reveal1",
+   "link": "answer"
+  },
+  {
+   "text": "In 1838, the navy sold her for scrap.",
+   "say": "In eighteen thirty-eight, the navy sold her for scrap.",
+   "beat": "reveal1",
+   "link": "but"
+  },
+  {
+   "text": "So a steam tug hauled her up the Thames to a breaker's yard at Rotherhithe.",
+   "beat": "reveal1",
+   "link": "so"
+  },
+  {
+   "text": "But Turner changed what really happened.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "Her masts had already been stripped; he put them back.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "He painted her pale as a ghost, and the tug dark, squat and smoking.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "So this isn't a news picture; it's a funeral for the age of sail.",
+   "beat": "reveal3",
+   "link": "so"
+  },
+  {
+   "text": "The sun goes down on one side; a thin new moon rises on the other.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "One age sets as another begins.",
+   "beat": "reveal3",
+   "link": "so"
+  },
+  {
+   "text": "But Turner, then 64, never sold it.",
+   "say": "But Turner, then sixty-four, never sold it.",
+   "beat": "turn",
+   "link": "but"
+  },
+  {
+   "text": "He called it his darling, and left it to the nation.",
+   "beat": "turn",
+   "link": "detail"
+  },
+  {
+   "text": "So the old hero never reached the scrapyard: it's still in harbour, in the National Gallery.",
+   "beat": "payoff",
+   "link": "so"
+  }
+ ],
+ "music": {
+  "piece": "schubert-impromptu-g-flat"
+ },
+ "timeline": [
+  {
+   "type": "reveal",
+   "from": [
+    0.22,
+    0.55,
+    2.4
+   ],
+   "until": 3.2
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.28,
+    0.62,
+    0.14,
+    0.14
+   ],
+   "ring": "1",
+   "zoom": "1+0.4",
+   "label": "TOWED TO SCRAP",
+   "labelAt": "1:towed",
+   "out": "2-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "trafalgar",
+    0
+   ],
+   "caption": "Turner, The Battle of Trafalgar, 1822",
+   "at": "3",
+   "to": "4-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.225,
+    0.66,
+    0.09,
+    0.1
+   ],
+   "ring": "4",
+   "zoom": "4+0.4",
+   "label": "HMS TEMERAIRE",
+   "labelAt": "4:navy",
+   "out": "5-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "rotherhithe",
+    2
+   ],
+   "caption": "The Thames at Rotherhithe today",
+   "at": "5:Thames",
+   "to": "6-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.28,
+    0.55,
+    0.18,
+    0.25
+   ],
+   "ring": "6",
+   "zoom": "6+0.4",
+   "out": "7-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.22,
+    0.33,
+    0.08,
+    0.18
+   ],
+   "ring": "7",
+   "zoom": "7+0.4",
+   "label": "MASTS PUT BACK",
+   "labelAt": "7:back",
+   "out": "8-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.27,
+    0.6,
+    0.14,
+    0.15
+   ],
+   "ring": "8",
+   "zoom": "8+0.4",
+   "out": "9-0.3",
+   "then": {
+    "region": [
+     0.345,
+     0.66,
+     0.06,
+     0.12
+    ],
+    "ring": "8:tug",
+    "zoom": "8:tug+0.3",
+    "label": "THE STEAM TUG",
+    "labelAt": "8:smoking"
+   }
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.5,
+    0.55,
+    0.45,
+    0.35
+   ],
+   "ring": "9",
+   "zoom": "9+0.4",
+   "out": "10-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.78,
+    0.7,
+    0.06,
+    0.06
+   ],
+   "ring": "10",
+   "zoom": "10+0.4",
+   "label": "SUNSET",
+   "labelAt": "10:sun",
+   "out": "10:moon-0.2"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.1,
+    0.18,
+    0.03,
+    0.035
+   ],
+   "ring": "10:moon",
+   "zoom": "10:moon+0.3",
+   "label": "NEW MOON",
+   "labelAt": "10:rises",
+   "out": "11-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.5,
+    0.65,
+    0.4,
+    0.2
+   ],
+   "ring": "11",
+   "zoom": "11+0.4",
+   "out": "12-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "turner",
+    0
+   ],
+   "caption": "J. M. W. Turner, self-portrait",
+   "at": "12",
+   "to": "13-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.7,
+    0.45,
+    0.25,
+    0.3
+   ],
+   "ring": "13",
+   "zoom": "13+0.4",
+   "label": "'MY DARLING'",
+   "labelAt": "13:darling",
+   "out": "14-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "ng",
+    1
+   ],
+   "caption": "The National Gallery, London",
+   "at": "14:National-0.4",
+   "to": "end"
+  }
+ ],
+ "sources": [
+  "https://www.nationalgallery.org.uk/paintings/joseph-mallord-william-turner-the-fighting-temeraire",
+  "https://www.rmg.co.uk/stories/topics/fighting-temeraire",
+  "http://news.bbc.co.uk/1/hi/entertainment/4223218.stm",
+  "https://www.britannica.com/topic/The-Fighting-Temeraire",
+  "https://en.wikipedia.org/wiki/The_Fighting_Temeraire"
+ ],
+ "post": {
+  "caption": "By the time this Trafalgar hero was towed to the scrapyard, her masts were gone. Turner put them back, painted her as a ghost behind a smoking tug, and refused to sell the picture.\nWhy do you think Britain loves it most?",
+  "tags": [
+   "#arthistory",
+   "#turner",
+   "#fightingtemeraire",
+   "#nationalgallery",
+   "#trafalgar"
+  ],
+  "youtube_title": "Turner Gave This Dying Warship Its Masts Back"
+ }
+}

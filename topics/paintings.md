@@ -25,7 +25,7 @@ The leads are starting points from memory, not facts: check each one before it g
 - made | school-of-athens | The School of Athens, Raphael | Plato has Leonardo's face; Michelangelo sulking on the steps; Raphael looking at us
 - inbox | creation-of-adam | The Creation of Adam, Michelangelo | the gap between the fingers; the brain-shaped cloak; painted standing up, not lying down
 - made | saturn | Saturn Devouring His Son, Goya | painted on his dining-room wall; never meant to be seen; never titled by him
-- inbox | fighting-temeraire | The Fighting Temeraire, Turner | a hero ship towed to scrap; the sun sets in the wrong place; he never sold it
+- made | fighting-temeraire | The Fighting Temeraire, Turner | a hero ship towed to scrap; the sun sets in the wrong place; he never sold it
 - inbox | whistlers-mother | Whistler's Mother, Whistler | the model didn't show up; its real title is about grey and black
 - requested | milkmaid | The Milkmaid, Vermeer | the nail hole and the erased basket; the trickle of milk; expensive blue on a servant
 - requested | sleeping-gypsy | The Sleeping Gypsy, Rousseau | a toll clerk who never saw a desert; the lion that does not attack

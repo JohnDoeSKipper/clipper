@@ -1,6 +1,28 @@
 # Model scripts (newest first)
 The writer reads the top two of its channel before writing and matches or beats them: same spine (beats in order, every sentence linked to the one before), never the same facts or hooks. Each script the writer makes is added at the top in this format. Kept to the last 12.
 
+## fighting-temeraire (paintings, 2026-11-27)
+
+Angle: Why does Britain love a painting of a war hero being towed to the scrapyard?
+Logline: Britain voted this its greatest painting, but it shows a warship going to be scrapped, so why? She fought at Trafalgar, but the navy sold her in 1838, so a steam tug hauled her to the breakers, but Turner changed the facts, restoring the stripped masts and painting her as a ghost behind a smoking tug, so it became a funeral for the age of sail with a sunset and a rising moon, but Turner never sold it, so the old hero stayed in harbour for everyone.
+On-screen hook: A WARSHIP ON ITS WAY TO SCRAP
+
+[hook] In 2005, Britain voted this its greatest painting.
+[hook / but] It shows a warship being towed away to be scrapped.
+[question / so] So why do people love a picture of a hero going to its death?
+[reveal1 / answer] HMS Temeraire fought at Trafalgar in 1805, right behind Nelson's flagship.
+[reveal1 / but] In 1838, the navy sold her for scrap.
+[reveal1 / so] So a steam tug hauled her up the Thames to a breaker's yard at Rotherhithe.
+[reveal2 / but] But Turner changed what really happened.
+[reveal2 / detail] Her masts had already been stripped; he put them back.
+[reveal2 / detail] He painted her pale as a ghost, and the tug dark, squat and smoking.
+[reveal3 / so] So this isn't a news picture; it's a funeral for the age of sail.
+[reveal3 / detail] The sun goes down on one side; a thin new moon rises on the other.
+[reveal3 / so] One age sets as another begins.
+[turn / but] But Turner, then 64, never sold it.
+[turn / detail] He called it his darling, and left it to the nation.
+[payoff / so] So the old hero never reached the scrapyard: it's still in harbour, in the National Gallery.
+
 ## saturn (paintings, 2026-11-27)
 
 Angle: How did a nightmare Goya painted on his own dining-room wall end up in the Prado?
@@ -259,25 +281,3 @@ On-screen hook: WHICH LINE MATCHES?
 [turn / detail] Two-thirds of all answers were right, and a quarter of people never caved once.
 [payoff / so] So a crowd can bend us, but it rarely breaks us, especially when one person speaks first.
 [payoff / so] Next time a room is wrong, will you be that one person?
-
-## earthly-delights (paintings, 2026-11-27)
-
-Angle: What kind of church would hang a painting with a song on a sinner's backside?
-Logline: Hell has a song on a man's backside, so what church would hang this? None, because it hung in the Nassau palace in Brussels, so it was a showpiece for guests, but its warning hides in fruit that is sweet and gone in a day, but close the wings and the party vanishes into a grey world being created, but in 1568 Alba seized it from William of Orange, so it ended among monks at the Escorial, so a nobleman's party piece became a king's sermon.
-On-screen hook: A SONG ON A SINNER'S BACKSIDE
-
-[hook] Bosch's hell includes a song written on a man's backside.
-[hook / so] In 2014, a student transcribed it, and people played it.
-[question / so] So what kind of church would hang this?
-[reveal1 / answer] None: it hung in the Brussels palace of the Counts of Nassau.
-[reveal1 / detail] In 1517, a visiting cardinal's secretary called its scenes bizarre.
-[reveal1 / so] So it was likely a showpiece for guests, not an altarpiece.
-[reveal2 / but] But its warning hides in the fruit.
-[reveal2 / detail] Lovers feast on giant strawberries and cherries: sweet, and gone in a day.
-[reveal2 / detail] Spanish inventories simply called it the painting of the strawberry tree.
-[reveal3 / but] But close its wings, and the party vanishes.
-[reveal3 / detail] Outside, in grey, God creates the world: a flat disc inside a glass sphere.
-[reveal3 / detail] The words above read: He spoke, and it was done.
-[turn / but] But in 1568, the Duke of Alba seized it from William of Orange, leader of the Dutch revolt.
-[turn / so] So it ended up in King Philip's monastery-palace, the Escorial, among monks.
-[payoff / so] So a nobleman's party piece became a king's sermon, and nobody has agreed on it since.
