@@ -1,46 +1,299 @@
-{"id": "impression-sunrise", "channel": "paintings",
+{
+ "id": "impression-sunrise",
+ "channel": "paintings",
  "angle": "How did a quick sketch of a harbour at dawn give a whole art movement its name?",
  "answer": "Monet could not pass it off as a proper view of Le Havre, so he titled it 'Impression'; a hostile critic turned the word into the insult 'Impressionists', which the painters adopted; and its sun, exactly as bright as the sky, is what makes it shimmer.",
- "logline": "The sun vanishes in black and white, so how did this sketch name a movement? Monet painted Le Havre at dawn on a date astronomers have pinned down, but in 1874 it needed a title, so he said 'put Impression', so a critic mocked them all as Impressionists, but the strangest part is the sun, because it matches the sky's brightness, so part of your brain barely sees it and it flickers, but in 1985 it was stolen, so the sun you can barely see named a movement everyone knows.",
+ "logline": "The sun vanishes in black and white, so how did this sketch name a movement? Monet painted Le Havre at dawn on a date astronomers have pinned down, but in 1874 it needed a title, so he said 'put Impression', so a critic mocked them all as Impressionists, but the strangest part is the sun, because it matches the sky's brightness, so part of your brain barely sees it and it flickers, but in 1985 it was stolen from its museum, so the sun you can barely see named a movement everyone knows.",
  "hook_text": "THE SUN VANISHES IN GREY",
- "hooks": ["Astronomers worked out the exact minute Monet painted this sunrise.", "A critic's insult named this painting's whole movement."],
- "painting": {"title": "Impression, Sunrise", "artist": "Claude Monet", "year": "1872", "museum": "Musée Marmottan Monet, Paris"},
+ "hooks": [
+  "Astronomers worked out the exact minute Monet painted this sunrise.",
+  "A critic's insult named this painting's whole movement."
+ ],
+ "painting": {
+  "title": "Impression, Sunrise",
+  "artist": "Claude Monet",
+  "year": "1872",
+  "museum": "Musée Marmottan Monet, Paris"
+ },
  "script": [
-  {"text": "In black and white, the sun in this painting disappears.", "beat": "hook"},
-  {"text": "It's exactly as bright as the sky around it.", "beat": "hook", "link": "because"},
-  {"text": "So how did this hasty sketch of a harbour name an entire art movement?", "beat": "question", "link": "so"},
-  {"text": "Monet painted the port of Le Havre at dawn, from a hotel window.", "say": "Monay painted the port of Le Havre at dawn, from a hotel window.", "beat": "reveal1", "link": "answer"},
-  {"text": "In 2014, astronomers dated the scene: 13 November 1872, around 7:35 a.m.", "say": "In twenty fourteen, astronomers dated the scene: the thirteenth of November, eighteen seventy-two, around seven thirty-five a.m.", "beat": "reveal1", "link": "detail"},
-  {"text": "But in 1874, it needed a title for a show in a photographer's old studio.", "say": "But in eighteen seventy-four, it needed a title for a show in a photographer's old studio.", "beat": "reveal2", "link": "but"},
-  {"text": "It could hardly pass for a view of Le Havre, Monet said, so: put Impression.", "say": "It could hardly pass for a view of Le Havre, Monay said, so: put Impression.", "beat": "reveal2", "link": "so"},
-  {"text": "A critic, Louis Leroy, pounced on the word.", "say": "A critic, Louis Le-rwah, pounced on the word.", "beat": "reveal2", "link": "so"},
-  {"text": "Wallpaper in its embryonic state, he sneered, is more finished than this.", "beat": "reveal2", "link": "detail"},
-  {"text": "So he mocked them all as Impressionists, and the painters adopted the insult.", "beat": "reveal3", "link": "so"},
-  {"text": "But the real trick is the sun.", "beat": "reveal3", "link": "but"},
-  {"text": "Its orange matches the grey sky's brightness almost exactly.", "beat": "reveal3", "link": "detail"},
-  {"text": "So the part of your brain that tracks brightness barely sees it, and it seems to flicker.", "beat": "reveal3", "link": "so"},
-  {"text": "But in 1985, armed robbers took it from a Paris museum in daylight.", "say": "But in nineteen eighty-five, armed robbers took it from a Paris museum in daylight.", "beat": "turn", "link": "but"},
-  {"text": "It turned up in Corsica five years later.", "beat": "turn", "link": "detail"},
-  {"text": "So a sun you can barely see named a movement everyone knows.", "beat": "payoff", "link": "so"}
+  {
+   "text": "In black and white, the sun in this painting disappears.",
+   "beat": "hook"
+  },
+  {
+   "text": "It's exactly as bright as the sky around it.",
+   "beat": "hook",
+   "link": "because"
+  },
+  {
+   "text": "So how did this hasty sketch of a harbour name an entire art movement?",
+   "beat": "question",
+   "link": "so"
+  },
+  {
+   "text": "Monet painted the port of Le Havre at dawn, from a hotel window.",
+   "say": "Monay painted the port of Le Havre at dawn, from a hotel window.",
+   "beat": "reveal1",
+   "link": "answer"
+  },
+  {
+   "text": "In 2014, astronomers dated it: 13 November 1872, about 7:35 a.m.",
+   "say": "In twenty fourteen, astronomers dated it: the thirteenth of November, eighteen seventy-two, about seven thirty-five a.m.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "But in 1874, it needed a title for a show in a photographer's old studio.",
+   "say": "But in eighteen seventy-four, it needed a title for a show in a photographer's old studio.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "It could hardly pass for a view of Le Havre, Monet said, so: put Impression.",
+   "say": "It could hardly pass for a view of Le Havre, Monay said, so: put Impression.",
+   "beat": "reveal2",
+   "link": "so"
+  },
+  {
+   "text": "A critic, Louis Leroy, pounced on the word.",
+   "say": "A critic, Louis Le-rwah, pounced on the word.",
+   "beat": "reveal2",
+   "link": "so"
+  },
+  {
+   "text": "Wallpaper in its embryonic state, he sneered, is more finished than this.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "So he mocked them all as Impressionists, and the painters adopted the insult.",
+   "beat": "reveal3",
+   "link": "so"
+  },
+  {
+   "text": "But the real trick is the sun.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "Its orange matches the grey sky's brightness almost exactly.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "So the part of your brain that tracks brightness barely sees it, and it seems to flicker.",
+   "beat": "reveal3",
+   "link": "so"
+  },
+  {
+   "text": "But in 1985, armed robbers took it from a Paris museum in daylight.",
+   "say": "But in nineteen eighty-five, armed robbers took it from a Paris museum in daylight.",
+   "beat": "turn",
+   "link": "but"
+  },
+  {
+   "text": "So a sun you can barely see named a movement everyone knows.",
+   "beat": "payoff",
+   "link": "so"
+  }
  ],
- "music": {"piece": "debussy-clair-de-lune"},
+ "music": {
+  "piece": "debussy-clair-de-lune"
+ },
  "timeline": [
-  {"type": "reveal", "from": [0.607, 0.311, 2.8], "until": 3.2},
-  {"type": "highlight", "region": [0.607, 0.311, 0.03, 0.035], "ring": "1", "zoom": "1+0.4", "label": "SAME BRIGHTNESS", "labelAt": "1:bright", "out": "2-0.3"},
-  {"type": "insert", "kind": "image", "pick": ["monet", 0], "caption": "Claude Monet", "at": "3", "to": "3:Havre-0.1"},
-  {"type": "insert", "kind": "image", "pick": ["lehavre", 0], "caption": "The port of Le Havre", "at": "3:Havre", "to": "4-0.3"},
-  {"type": "highlight", "region": [0.145, 0.95, 0.11, 0.035], "ring": "4", "zoom": "4+0.4", "label": "SIGNED '72", "labelAt": "4:1872", "out": "5-0.3"},
-  {"type": "insert", "kind": "image", "pick": ["nadar", 0], "caption": "35 boulevard des Capucines, Nadar's former studio", "at": "5", "to": "6-0.3"},
-  {"type": "highlight", "region": [0.4, 0.42, 0.35, 0.3], "ring": "6", "zoom": "6+0.4", "label": "IMPRESSION", "labelAt": "6:Impression", "out": "7-0.3"},
-  {"type": "insert", "kind": "image", "pick": ["charivari", 0], "caption": "Cham's 1874 cartoon mocking the exhibition", "at": "7", "to": "8-0.3"},
-  {"type": "highlight", "region": [0.48, 0.71, 0.07, 0.06], "ring": "8", "zoom": "8+0.4", "label": "'WALLPAPER'", "labelAt": "8:Wallpaper", "out": "9-0.3"},
-  {"type": "highlight", "region": [0.23, 0.3, 0.14, 0.14], "ring": "9", "zoom": "9+0.4", "label": "IMPRESSIONISTS", "labelAt": "9:Impressionists", "out": "10-0.3"},
-  {"type": "highlight", "region": [0.607, 0.311, 0.04, 0.045], "ring": "10", "zoom": "10+0.4", "out": "12-0.3",
-   "then": {"region": [0.6, 0.68, 0.05, 0.17], "ring": "11", "zoom": "11+0.4", "label": "ORANGE = GREY", "labelAt": "11:matches"}},
-  {"type": "insert", "kind": "image", "pick": ["marmottan", 2], "caption": "Musée Marmottan Monet, Paris", "at": "13", "to": "14-0.3"},
-  {"type": "insert", "kind": "image", "pick": ["corsica", 0], "caption": "Corsica, where it was found in 1990", "at": "14", "to": "15-0.3"}
+  {
+   "type": "reveal",
+   "from": [
+    0.607,
+    0.311,
+    2.8
+   ],
+   "until": 3.2
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.607,
+    0.311,
+    0.03,
+    0.035
+   ],
+   "ring": "1",
+   "zoom": "1+0.4",
+   "label": "SAME BRIGHTNESS",
+   "labelAt": "1:bright",
+   "out": "2-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "monet",
+    1
+   ],
+   "caption": "Claude Monet, photographed by Nadar",
+   "at": "3",
+   "to": "3:Havre-0.1"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "lehavre",
+    0
+   ],
+   "caption": "The port of Le Havre",
+   "at": "3:Havre",
+   "to": "4-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.145,
+    0.95,
+    0.11,
+    0.035
+   ],
+   "ring": "4",
+   "zoom": "4+0.4",
+   "label": "SIGNED '72",
+   "labelAt": "4:1872",
+   "out": "5-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "nadar",
+    1
+   ],
+   "caption": "Nadar's studio, 35 boulevard des Capucines",
+   "at": "5",
+   "to": "6-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.4,
+    0.42,
+    0.35,
+    0.3
+   ],
+   "ring": "6",
+   "zoom": "6+0.4",
+   "label": "IMPRESSION",
+   "labelAt": "6:Impression",
+   "out": "7-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "charivari",
+    0
+   ],
+   "caption": "Cham's 1874 cartoon mocking the exhibition",
+   "at": "7",
+   "to": "8-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.48,
+    0.71,
+    0.07,
+    0.06
+   ],
+   "ring": "8",
+   "zoom": "8+0.4",
+   "label": "'WALLPAPER'",
+   "labelAt": "8:Wallpaper",
+   "out": "9-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.23,
+    0.3,
+    0.14,
+    0.14
+   ],
+   "ring": "9",
+   "zoom": "9+0.4",
+   "label": "IMPRESSIONISTS",
+   "labelAt": "9:Impressionists",
+   "out": "10-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.607,
+    0.311,
+    0.04,
+    0.045
+   ],
+   "ring": "10",
+   "zoom": "10+0.4",
+   "label": "THE SUN",
+   "labelAt": "10:sun",
+   "out": "11-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.6,
+    0.68,
+    0.05,
+    0.17
+   ],
+   "ring": "11",
+   "zoom": "11+0.4",
+   "label": "ORANGE = GREY",
+   "labelAt": "11:matches",
+   "out": "12-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.607,
+    0.311,
+    0.03,
+    0.035
+   ],
+   "ring": "12",
+   "zoom": "12+0.4",
+   "label": "IT FLICKERS",
+   "labelAt": "12:flicker",
+   "out": "13-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "marmottan",
+    2
+   ],
+   "caption": "Musée Marmottan Monet, Paris",
+   "at": "13",
+   "to": "14-0.3"
+  }
  ],
- "sources": ["https://www.marmottan.fr/en/notice/4014-impression-soleil-levant/", "https://www.smithsonianmag.com/arts-culture/when-did-monet-paint-impression-sunrise-astronomers-pin-down-the-moment-180952186/", "https://www.khanacademy.org/humanities/becoming-modern/avant-garde-france/impressionism/a/monet-impression-sunrise", "https://www.britannica.com/topic/Impression-Sunrise", "https://en.wikipedia.org/wiki/Impression,_Sunrise"],
- "post": {"caption": "Turn Monet's Impression, Sunrise into black and white and the sun disappears: it is exactly as bright as the sky. That flicker, and a critic's insult, named Impressionism.\nWhat do you see first, the sun or the boats?",
-  "tags": ["#arthistory", "#monet", "#impressionism", "#impressionsunrise", "#artscience"],
-  "youtube_title": "In Black and White, Monet's Sun Disappears"}}
+ "sources": [
+  "https://www.marmottan.fr/en/notice/4014-impression-soleil-levant/",
+  "https://www.smithsonianmag.com/arts-culture/when-did-monet-paint-impression-sunrise-astronomers-pin-down-the-moment-180952186/",
+  "https://www.khanacademy.org/humanities/becoming-modern/avant-garde-france/impressionism/a/monet-impression-sunrise",
+  "https://www.britannica.com/topic/Impression-Sunrise",
+  "https://en.wikipedia.org/wiki/Impression,_Sunrise"
+ ],
+ "post": {
+  "caption": "Turn Monet's Impression, Sunrise into black and white and the sun disappears: it is exactly as bright as the sky. That flicker, and a critic's insult, named Impressionism.\nWhat do you see first, the sun or the boats?",
+  "tags": [
+   "#arthistory",
+   "#monet",
+   "#impressionism",
+   "#impressionsunrise",
+   "#artscience"
+  ],
+  "youtube_title": "In Black and White, Monet's Sun Disappears"
+ }
+}

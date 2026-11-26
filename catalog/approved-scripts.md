@@ -1,6 +1,28 @@
 # Model scripts (newest first)
 The writer reads the top two of its channel before writing and matches or beats them: same spine (beats in order, every sentence linked to the one before), never the same facts or hooks. Each script the writer makes is added at the top in this format. Kept to the last 12.
 
+## impression-sunrise (paintings, 2026-11-27)
+
+Angle: How did a quick sketch of a harbour at dawn give a whole art movement its name?
+Logline: The sun vanishes in black and white, so how did this sketch name a movement? Monet painted Le Havre at dawn on a date astronomers have pinned down, but in 1874 it needed a title, so he said 'put Impression', so a critic mocked them all as Impressionists, but the strangest part is the sun, because it matches the sky's brightness, so part of your brain barely sees it and it flickers, but in 1985 it was stolen from its museum, so the sun you can barely see named a movement everyone knows.
+On-screen hook: THE SUN VANISHES IN GREY
+
+[hook] In black and white, the sun in this painting disappears.
+[hook / because] It's exactly as bright as the sky around it.
+[question / so] So how did this hasty sketch of a harbour name an entire art movement?
+[reveal1 / answer] Monet painted the port of Le Havre at dawn, from a hotel window.
+[reveal1 / detail] In 2014, astronomers dated it: 13 November 1872, about 7:35 a.m.
+[reveal2 / but] But in 1874, it needed a title for a show in a photographer's old studio.
+[reveal2 / so] It could hardly pass for a view of Le Havre, Monet said, so: put Impression.
+[reveal2 / so] A critic, Louis Leroy, pounced on the word.
+[reveal2 / detail] Wallpaper in its embryonic state, he sneered, is more finished than this.
+[reveal3 / so] So he mocked them all as Impressionists, and the painters adopted the insult.
+[reveal3 / but] But the real trick is the sun.
+[reveal3 / detail] Its orange matches the grey sky's brightness almost exactly.
+[reveal3 / so] So the part of your brain that tracks brightness barely sees it, and it seems to flicker.
+[turn / but] But in 1985, armed robbers took it from a Paris museum in daylight.
+[payoff / so] So a sun you can barely see named a movement everyone knows.
+
 ## whistlers-mother (paintings, 2026-11-27)
 
 Angle: How did a picture Whistler insisted was just grey and black become America's symbol of motherhood?
@@ -257,26 +279,3 @@ On-screen hook: BOUGHT BY THE KING. THEN HIDDEN.
 [turn / but] But in 1874, the new Republic hung it in the Louvre.
 [turn / detail] Later still, it went onto the 100-franc note.
 [payoff / so] So the painting a king hid became the face of the republic.
-
-## ambassadors (paintings, 2026-11-27)
-
-Angle: Why did Holbein smear a hidden skull across a portrait of two rich young men?
-Logline: A skull appears only when you walk past from the right, so why hide death at two young men's feet? They were French diplomats in London in 1533, when Henry VIII broke with Rome, so Holbein filled the table with a world coming apart, but the warnings are tiny: a broken string, a Lutheran hymnbook, a skull badge, but the boldest clue is the stretched skull, so a passer-by meets death, but a crucifix hides behind the curtain, so death is in plain sight and hope is half-hidden.
-On-screen hook: STAND TO THE RIGHT
-
-[hook] Walk past this painting from the right, and a skull appears.
-[hook / but] Face it head-on, and it's just a strange grey smear.
-[question / so] So why hide death at the feet of two rich young men?
-[reveal1 / answer] They were French diplomats in London in 1533, aged 29 and 25.
-[reveal1 / detail] That year, Henry the Eighth broke with Rome to marry Anne Boleyn.
-[reveal1 / detail] Even their floor copies Westminster Abbey's, where Anne was crowned that June.
-[reveal1 / so] So Holbein filled their table with a world coming apart.
-[reveal2 / but] But the warnings are tiny.
-[reveal2 / detail] The lute has a broken string, a sign of discord.
-[reveal2 / detail] Beside it lies a Lutheran hymnbook, open.
-[reveal2 / detail] Even the ambassador's hat badge is a tiny skull.
-[reveal3 / but] But the boldest clue is the one you can't read straight on.
-[reveal3 / detail] Holbein stretched the skull so it snaps into shape only from the side.
-[reveal3 / so] So anyone walking past would suddenly come face to face with death.
-[turn / but] But look at the top left corner: half-hidden by the curtain hangs a crucifix.
-[payoff / so] So death sits in plain sight, and hope hides behind the curtain.
