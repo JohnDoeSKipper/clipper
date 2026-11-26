@@ -1,8 +1,2 @@
 {"items": [{"id": "ring-of-gyges",
-  "look_for": {
-   "plato": "Plato bust Silanion",
-   "candaules": "Candaules King of Lydia Gyges painting",
-   "lydia": "Sardis ruins Lydia",
-   "herodotus": "Herodotus bust",
-   "ring": "ancient gold signet ring"
-  }}]}
+  "look_for": {"plato": "Plato Silanion Musei Capitolini", "candaules": "Candaules King of Lydia Gyges Etty", "herodotus": "Bust of Herodotus", "sardis": "Ruins of Sardis Lydia", "tablet": "Ashurbanipal prism cuneiform British Museum", "halloween": "children trick or treating Halloween costumes", "seattle": "Seattle 1970s neighborhood houses", "newcastle": "Newcastle University campus"}}]}
