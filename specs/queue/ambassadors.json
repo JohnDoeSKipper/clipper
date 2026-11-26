@@ -1,0 +1,313 @@
+{
+ "id": "ambassadors",
+ "channel": "paintings",
+ "angle": "Why did Holbein smear a hidden skull across a portrait of two rich young men?",
+ "answer": "In 1533, as Henry VIII broke with Rome, Holbein filled the picture with warnings of discord and death (a broken lute string, a Lutheran hymnbook, a skull badge) and stretched a skull that appears only from the side, so a viewer walking past meets death; but a crucifix half-hidden behind the curtain answers it with hope.",
+ "logline": "A skull appears only when you walk past from the right, so why hide death at two young men's feet? They were French diplomats in London in 1533, when Henry VIII broke with Rome, so Holbein filled the table with a world coming apart, but the warnings are tiny: a broken string, a Lutheran hymnbook, a skull badge, but the boldest clue is the stretched skull, so a passer-by meets death, but a crucifix hides behind the curtain, so death is in plain sight and hope is half-hidden.",
+ "hook_text": "STAND TO THE RIGHT",
+ "hooks": [
+  "That grey smear at their feet is a human skull.",
+  "Holbein hid three signs of death in this portrait, and one of hope."
+ ],
+ "painting": {
+  "title": "The Ambassadors",
+  "artist": "Hans Holbein the Younger",
+  "year": "1533",
+  "museum": "National Gallery, London"
+ },
+ "script": [
+  {
+   "text": "Walk past this painting from the right, and a skull appears.",
+   "beat": "hook"
+  },
+  {
+   "text": "Face it head-on, and it's just a strange grey smear.",
+   "beat": "hook",
+   "link": "but"
+  },
+  {
+   "text": "So why hide death at the feet of two rich young men?",
+   "beat": "question",
+   "link": "so"
+  },
+  {
+   "text": "They were French diplomats in London in 1533, aged 29 and 25.",
+   "say": "They were French diplomats in London in fifteen thirty-three, aged twenty-nine and twenty-five.",
+   "beat": "reveal1",
+   "link": "answer"
+  },
+  {
+   "text": "That year, Henry the Eighth broke with Rome to marry Anne Boleyn.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "Even their floor copies Westminster Abbey's, where Anne was crowned that June.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "So Holbein filled their table with a world coming apart.",
+   "beat": "reveal1",
+   "link": "so"
+  },
+  {
+   "text": "But the warnings are tiny.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "The lute has a broken string, a sign of discord.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "Beside it lies a Lutheran hymnbook, open.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "Even the ambassador's hat badge is a tiny skull.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "But the boldest clue is the one you can't read straight on.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "Holbein stretched the skull so it snaps into shape only from the side.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "So anyone walking past would suddenly come face to face with death.",
+   "beat": "reveal3",
+   "link": "so"
+  },
+  {
+   "text": "But look at the top left corner: half-hidden by the curtain hangs a crucifix.",
+   "beat": "turn",
+   "link": "but"
+  },
+  {
+   "text": "So death sits in plain sight, and hope hides behind the curtain.",
+   "beat": "payoff",
+   "link": "so"
+  }
+ ],
+ "music": {
+  "piece": "bach-goldberg-aria"
+ },
+ "timeline": [
+  {
+   "type": "reveal",
+   "from": [
+    0.47,
+    0.86,
+    2.4
+   ],
+   "until": 3.2
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.47,
+    0.87,
+    0.26,
+    0.1
+   ],
+   "ring": "1",
+   "zoom": "1+0.4",
+   "label": "A GREY SMEAR",
+   "labelAt": "1:smear",
+   "out": "2-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.19,
+    0.53,
+    0.08,
+    0.05
+   ],
+   "ring": "3",
+   "zoom": "3+0.4",
+   "label": "AGED 29",
+   "labelAt": "3:29",
+   "out": "4-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "henry",
+    2
+   ],
+   "caption": "Henry VIII, by Holbein",
+   "at": "4",
+   "to": "4:Anne-0.1"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "anne",
+    0
+   ],
+   "caption": "Anne Boleyn, crowned queen in June 1533",
+   "at": "4:Anne",
+   "to": "5-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.5,
+    0.88,
+    0.45,
+    0.1
+   ],
+   "ring": "5",
+   "zoom": "5+0.4",
+   "label": "WESTMINSTER'S FLOOR",
+   "labelAt": "5:floor",
+   "out": "5:crowned-0.2"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "cosmati",
+    0
+   ],
+   "caption": "The Cosmati pavement, Westminster Abbey",
+   "at": "5:crowned",
+   "to": "6-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.56,
+    0.45,
+    0.2,
+    0.25
+   ],
+   "ring": "6",
+   "zoom": "6+0.4",
+   "label": "A WORLD COMING APART",
+   "labelAt": "6:world",
+   "out": "7-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.6,
+    0.63,
+    0.16,
+    0.1
+   ],
+   "ring": "7",
+   "zoom": "7+0.4",
+   "out": "8-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.63,
+    0.6,
+    0.1,
+    0.06
+   ],
+   "ring": "8",
+   "zoom": "8+0.4",
+   "label": "A BROKEN STRING",
+   "labelAt": "8:broken",
+   "out": "9-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.625,
+    0.665,
+    0.07,
+    0.04
+   ],
+   "ring": "9",
+   "zoom": "9+0.4",
+   "label": "LUTHERAN HYMNS",
+   "labelAt": "9:Lutheran",
+   "out": "10-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.245,
+    0.105,
+    0.035,
+    0.03
+   ],
+   "ring": "10",
+   "zoom": "10+0.4",
+   "label": "A SKULL BADGE",
+   "labelAt": "10:skull",
+   "out": "11-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.47,
+    0.87,
+    0.26,
+    0.1
+   ],
+   "ring": "11",
+   "zoom": "11+0.4",
+   "out": "12-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "skull",
+    1
+   ],
+   "caption": "The skull, seen from the side",
+   "at": "12",
+   "to": "14-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.025,
+    0.035,
+    0.03,
+    0.035
+   ],
+   "ring": "14",
+   "zoom": "14+0.4",
+   "label": "A CRUCIFIX",
+   "labelAt": "14:crucifix",
+   "out": "15-0.3"
+  }
+ ],
+ "sources": [
+  "https://www.nationalgallery.org.uk/paintings/hans-holbein-the-younger-the-ambassadors",
+  "https://artsandculture.google.com/story/hwVxE5U3Vl1xIg",
+  "https://smarthistory.org/hans-holbein-the-younger-the-ambassadors",
+  "https://www.about.jstor.org/blog/a-closer-look-at-hans-holbeins-the-ambassadors",
+  "https://en.wikipedia.org/wiki/The_Ambassadors_(Holbein)",
+  "https://www.westminster-abbey.org/abbey-commemorations/commemorations/cosmati-pavement"
+ ],
+ "post": {
+  "caption": "Look at The Ambassadors head-on and there is a grey smear at their feet. Walk past from the right and it becomes a skull. Holbein hid three signs of death in this painting, and one of hope.\nCan you find the crucifix?",
+  "tags": [
+   "#arthistory",
+   "#holbein",
+   "#theambassadors",
+   "#nationalgallery",
+   "#tudor"
+  ],
+  "youtube_title": "Walk Past This Painting and a Skull Appears"
+ }
+}

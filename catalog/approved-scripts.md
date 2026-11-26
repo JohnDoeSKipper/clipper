@@ -1,6 +1,29 @@
 # Model scripts (newest first)
 The writer reads the top two of its channel before writing and matches or beats them: same spine (beats in order, every sentence linked to the one before), never the same facts or hooks. Each script the writer makes is added at the top in this format. Kept to the last 12.
 
+## ambassadors (paintings, 2026-11-27)
+
+Angle: Why did Holbein smear a hidden skull across a portrait of two rich young men?
+Logline: A skull appears only when you walk past from the right, so why hide death at two young men's feet? They were French diplomats in London in 1533, when Henry VIII broke with Rome, so Holbein filled the table with a world coming apart, but the warnings are tiny: a broken string, a Lutheran hymnbook, a skull badge, but the boldest clue is the stretched skull, so a passer-by meets death, but a crucifix hides behind the curtain, so death is in plain sight and hope is half-hidden.
+On-screen hook: STAND TO THE RIGHT
+
+[hook] Walk past this painting from the right, and a skull appears.
+[hook / but] Face it head-on, and it's just a strange grey smear.
+[question / so] So why hide death at the feet of two rich young men?
+[reveal1 / answer] They were French diplomats in London in 1533, aged 29 and 25.
+[reveal1 / detail] That year, Henry the Eighth broke with Rome to marry Anne Boleyn.
+[reveal1 / detail] Even their floor copies Westminster Abbey's, where Anne was crowned that June.
+[reveal1 / so] So Holbein filled their table with a world coming apart.
+[reveal2 / but] But the warnings are tiny.
+[reveal2 / detail] The lute has a broken string, a sign of discord.
+[reveal2 / detail] Beside it lies a Lutheran hymnbook, open.
+[reveal2 / detail] Even the ambassador's hat badge is a tiny skull.
+[reveal3 / but] But the boldest clue is the one you can't read straight on.
+[reveal3 / detail] Holbein stretched the skull so it snaps into shape only from the side.
+[reveal3 / so] So anyone walking past would suddenly come face to face with death.
+[turn / but] But look at the top left corner: half-hidden by the curtain hangs a crucifix.
+[payoff / so] So death sits in plain sight, and hope hides behind the curtain.
+
 ## asch-conformity (philosophy, 2026-11-27)
 
 Angle: Would you go along with a crowd that is plainly wrong?
@@ -259,27 +282,3 @@ On-screen hook: THEN THE SAME STATE BOUGHT THE KISS
 [turn / detail] Only photographs survive.
 [payoff / answer] So he didn't hide the lovers; he wrapped them in church gold.
 [payoff / so] The state that called him a pornographer still owns them.
-
-## brain-in-a-vat (philosophy, 2026-11-26)
-
-Angle: If your whole world reached you as signals on a wire, could you ever prove it is real?
-Logline: Cells in a dish played Pong through pulses, so could you prove your world is real? Descartes feared a demon, so Putnam made it a computer feeding a brain in a vat, but every test you run is fed in too, because the computer sends the pinch, as the Pong cells learned from signals without knowing a game existed, but Putnam found a way out in words, because a word only points at what it is connected to, so a lifelong vat-brain's 'I am in a vat' is false, but that only works from birth, so a brain moved last night would notice nothing, so you cannot prove it.
-On-screen hook: BRAIN CELLS, NO BODY, PLAYING PONG
-
-[hook] In 2022, 800,000 brain cells in a dish learned to play Pong.
-[hook / detail] The ball reached them only as electrical pulses.
-[question / so] So if your world arrived as pulses, could you prove it's real?
-[reveal1 / answer] The worry goes back to 1641: Descartes feared a demon was fooling his senses.
-[reveal1 / detail] Hilary Putnam's 1981 version swaps the demon for a computer, feeding a brain in a vat.
-[reveal2 / but] But you can't test your way out.
-[reveal2 / because] Pinch yourself, and the computer simply sends the pinch.
-[reveal2 / detail] The Pong cells were taught this way: a hit brought a steady signal, a miss brought noise.
-[reveal2 / so] They improved without ever knowing there was a game.
-[reveal3 / but] But Putnam found a stranger way out: words.
-[reveal3 / detail] An ant whose trail looks like Winston Churchill hasn't drawn him; it has no link to him.
-[reveal3 / so] So a lifelong vat-brain has never met a real vat; its word vat means images.
-[reveal3 / so] So when it thinks, I am a brain in a vat, the thought comes out false.
-[turn / but] But the trick only works if you've been in the vat since birth.
-[turn / detail] A brain moved there last night still means real vats, and would notice nothing.
-[payoff / answer] So no, you can't prove it; you can only prove a lifelong vat-brain couldn't say it.
-[payoff / but] But those Pong cells never knew they were in a dish. Would you?
