@@ -36,15 +36,15 @@
     "desc": ""
    },
    {
-    "title": "File:Portrait of Bernardo de Iriarte - Francisco de Goya.jpg",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Portrait_of_Bernardo_de_Iriarte_-_Francisco_de_Goya.jpg/3840px-Portrait_of_Bernardo_de_Iriarte_-_Francisco_de_Goya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Portrait_of_Bernardo_de_Iriarte_-_Francisco_de_Goya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 5161,
-    "height": 6259,
-    "licence": "CC BY 4.0",
-    "artist": "GoldenArtists",
-    "credit": "GoldenArtists / CC BY 4.0",
-    "desc": "Portrait of Bernardo de Iriarte - Francisco de Goya"
+    "title": "File:Francisco de Goya - Self-Portrait with Dr. Arrieta - Google Art Project.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Francisco_de_Goya_-_Self-Portrait_with_Dr._Arrieta_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Francisco_de_Goya_-_Self-Portrait_with_Dr._Arrieta_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3307,
+    "height": 4876,
+    "licence": "Public domain",
+    "artist": "Francisco Goya",
+    "credit": "",
+    "desc": ""
    }
   ],
   "second": [
@@ -82,39 +82,122 @@
     "desc": ""
    }
   ],
-  "disasters": [
+  "allegory": [
    {
-    "title": "File:Francisco de Goya - Disasters of War- That's Tough - 1998.99 - Cleveland Museum of Art.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Francisco_de_Goya_-_Disasters_of_War-_That%27s_Tough_-_1998.99_-_Cleveland_Museum_of_Art.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/6/60/Francisco_de_Goya_-_Disasters_of_War-_That%27s_Tough_-_1998.99_-_Cleveland_Museum_of_Art.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 3400,
-    "height": 2574,
+    "title": "File:Allegory with a radiant figure beset by dark spirits (Images of Spain Album, 45) MET DP800210.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Allegory_with_a_radiant_figure_beset_by_dark_spirits_%28Images_of_Spain_Album%2C_45%29_MET_DP800210.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Allegory_with_a_radiant_figure_beset_by_dark_spirits_%28Images_of_Spain_Album%2C_45%29_MET_DP800210.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2670,
+    "height": 3803,
     "licence": "CC0",
+    "artist": "Francisco Goya",
+    "credit": "",
+    "desc": "Drawing; Drawings"
+   }
+  ],
+  "joseph": [
+   {
+    "title": "File:Joseph-Bonaparte.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Joseph-Bonaparte.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/1/14/Joseph-Bonaparte.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2114,
+    "height": 3251,
+    "licence": "Public domain",
+    "artist": "Fran\u00e7ois G\u00e9rard",
+    "credit": "",
+    "desc": ""
+   },
+   {
+    "title": "File:Joseph Bonaparte, King of Spain, by Robert Lefevre - Apsley House - London, UK - DSC06657.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Joseph_Bonaparte%2C_King_of_Spain%2C_by_Robert_Lefevre_-_Apsley_House_-_London%2C_UK_-_DSC06657.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/5/51/Joseph_Bonaparte%2C_King_of_Spain%2C_by_Robert_Lefevre_-_Apsley_House_-_London%2C_UK_-_DSC06657.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3268,
+    "height": 4545,
+    "licence": "Public domain",
+    "artist": "Daderot",
+    "credit": "",
+    "desc": "Joseph Bonaparte, King of Spain, by Robert Lefevre - Apsley House - London, UK."
+   },
+   {
+    "title": "File:Fran\u00e7ois g\u00e9rard, ritratto di giuseppe bonaparte re di spagna.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Fran%C3%A7ois_g%C3%A9rard%2C_ritratto_di_giuseppe_bonaparte_re_di_spagna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Fran%C3%A7ois_g%C3%A9rard%2C_ritratto_di_giuseppe_bonaparte_re_di_spagna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2850,
+    "height": 4110,
+    "licence": "CC BY 3.0",
+    "artist": "Sailko",
+    "credit": "Sailko / CC BY 3.0",
+    "desc": ""
+   }
+  ],
+  "ferdinand": [
+   {
+    "title": "File:Francisco Goya - Portrait of Ferdinand VII of Spain in his robes of state (1815) - Prado.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Francisco_Goya_-_Portrait_of_Ferdinand_VII_of_Spain_in_his_robes_of_state_%281815%29_-_Prado.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Francisco_Goya_-_Portrait_of_Ferdinand_VII_of_Spain_in_his_robes_of_state_%281815%29_-_Prado.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2079,
+    "height": 3051,
+    "licence": "Public domain",
     "artist": "Francisco Goya",
     "credit": "",
     "desc": ""
    },
    {
-    "title": "File:Francisco de Goya - Disasters of War- There isn't Time Now - 1998.98 - Cleveland Museum of Art.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Francisco_de_Goya_-_Disasters_of_War-_There_isn%27t_Time_Now_-_1998.98_-_Cleveland_Museum_of_Art.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Francisco_de_Goya_-_Disasters_of_War-_There_isn%27t_Time_Now_-_1998.98_-_Cleveland_Museum_of_Art.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 3400,
-    "height": 2477,
-    "licence": "CC0",
-    "artist": "Francisco Goya",
+    "title": "File:(Agen) Esquisse pour le portrait \u00e9questre de Ferdinand VII, roi d'Espagne - Francisco de Goya - Mus\u00e9e des Beaux-Arts d'Agen.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/%28Agen%29_Esquisse_pour_le_portrait_%C3%A9questre_de_Ferdinand_VII%2C_roi_d%27Espagne_-_Francisco_de_Goya_-_Mus%C3%A9e_des_Beaux-Arts_d%27Agen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/4/43/%28Agen%29_Esquisse_pour_le_portrait_%C3%A9questre_de_Ferdinand_VII%2C_roi_d%27Espagne_-_Francisco_de_Goya_-_Mus%C3%A9e_des_Beaux-Arts_d%27Agen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3526,
+    "height": 5364,
+    "licence": "Public domain",
+    "artist": "Didier Descouens",
     "credit": "",
     "desc": ""
    },
    {
-    "title": "File:Plate 37 from 'The Disasters of War' (Los Desastres de La Guerra)-'This is worse' (Esto es peor.) MET DP817380.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Plate_37_from_%27The_Disasters_of_War%27_%28Los_Desastres_de_La_Guerra%29-%27This_is_worse%27_%28Esto_es_peor.%29_MET_DP817380.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/0/07/Plate_37_from_%27The_Disasters_of_War%27_%28Los_Desastres_de_La_Guerra%29-%27This_is_worse%27_%28Esto_es_peor.%29_MET_DP817380.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 3772,
-    "height": 2754,
-    "licence": "CC0",
+    "title": "File:Francisco de Goya - Retrato ecuestre de Fernando VII - Google Art Project.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Francisco_de_Goya_-_Retrato_ecuestre_de_Fernando_VII_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/1/19/Francisco_de_Goya_-_Retrato_ecuestre_de_Fernando_VII_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2916,
+    "height": 4045,
+    "licence": "Public domain",
     "artist": "Francisco Goya",
     "credit": "",
-    "desc": "Print; Prints"
+    "desc": "Retrato ecuestre del rey Fernando VII de Espa\u00f1a (1784-1833), que fue hijo del rey Carlos IV de Espa\u00f1a."
+   }
+  ],
+  "manet": [
+   {
+    "title": "File:Edouard Manet 022.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Edouard_Manet_022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/4/40/Edouard_Manet_022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2024,
+    "height": 1714,
+    "licence": "Public domain",
+    "artist": "\u00c9douard Manet",
+    "credit": "",
+    "desc": ""
+   },
+   {
+    "title": "File:Execution of Emperor Maximilian, \u00c9douard Manet, Kunsthalle Mannheim.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Execution_of_Emperor_Maximilian%2C_%C3%89douard_Manet%2C_Kunsthalle_Mannheim.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Execution_of_Emperor_Maximilian%2C_%C3%89douard_Manet%2C_Kunsthalle_Mannheim.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2435,
+    "height": 2111,
+    "licence": "Public domain",
+    "artist": "Nemracc",
+    "credit": "",
+    "desc": ""
+   },
+   {
+    "title": "File:Execution of Emperor Maximilian I of Mexico by Manet (Kunsthalle Mannheim) (3).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Execution_of_Emperor_Maximilian_I_of_Mexico_by_Manet_%28Kunsthalle_Mannheim%29_%283%29.jpg/3840px-Execution_of_Emperor_Maximilian_I_of_Mexico_by_Manet_%28Kunsthalle_Mannheim%29_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Execution_of_Emperor_Maximilian_I_of_Mexico_by_Manet_%28Kunsthalle_Mannheim%29_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4096,
+    "height": 3072,
+    "licence": "CC0",
+    "artist": "Immanuel Giel",
+    "credit": "",
+    "desc": "Execution of Emperor Maximilian I of Mexico by Manet, Mannheim, Germany"
    }
   ],
   "prado": [
