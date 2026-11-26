@@ -18,9 +18,9 @@ The leads are starting points from memory, not facts: check each one before it g
 - inbox | wanderer-fog | Wanderer above the Sea of Fog, Friedrich | we never see his face; a landscape stitched from several places
 - inbox | earthly-delights | The Garden of Earthly Delights, Bosch | a triptych that closes; music written on a figure; the tree-man who may be Bosch
 - inbox | ambassadors | The Ambassadors, Holbein | the stretched skull you can only see from the side; the broken lute string
-- todo | liberty-leading | Liberty Leading the People, Delacroix | it is 1830, not 1789; the boy who became Gavroche; hidden away as too dangerous
-- todo | raft-medusa | The Raft of the Medusa, Géricault | a real scandal; he studied corpses; the tiny ship on the horizon
-- todo | impression-sunrise | Impression, Sunrise, Monet | the insult that named Impressionism; the sun is no brighter than the sky
+- requested | liberty-leading | Liberty Leading the People, Delacroix | it is 1830, not 1789; the boy who became Gavroche; hidden away as too dangerous
+- requested | raft-medusa | The Raft of the Medusa, Géricault | a real scandal; he studied corpses; the tiny ship on the horizon
+- requested | impression-sunrise | Impression, Sunrise, Monet | the insult that named Impressionism; the sun is no brighter than the sky
 - todo | cafe-terrace | Café Terrace at Night, Van Gogh | his first starry sky; no black paint; the café is still there
 - todo | school-of-athens | The School of Athens, Raphael | Plato has Leonardo's face; Michelangelo sulking on the steps; Raphael looking at us
 - todo | creation-of-adam | The Creation of Adam, Michelangelo | the gap between the fingers; the brain-shaped cloak; painted standing up, not lying down

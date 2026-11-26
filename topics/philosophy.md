@@ -17,12 +17,12 @@ Check what the original experiment or argument actually says (and whether later 
 - inbox | marshmallow-test | The Marshmallow Test | clay | child, table, one treat now or two later; what the follow-up studies found
 - inbox | bystander-effect | The Bystander Effect | clay | one person in trouble, a growing crowd doing nothing; numbers
 - inbox | asch-conformity | The Asch Conformity Experiment | clay | three lines on a sign; everyone gives the wrong answer; would you?
-- todo | sorites | The Heap Paradox | clay | a heap of balls; remove one at a time; when does it stop being a heap?
-- todo | buridans-donkey | Buridan's Donkey | clay | two identical piles; a perfectly rational animal starves
-- todo | pascals-wager | Pascal's Wager | ps2 | two doors, a scale, coins; the bet and the objection of many gods
+- requested | sorites | The Heap Paradox | clay | a heap of balls; remove one at a time; when does it stop being a heap?
+- requested | buridans-donkey | Buridan's Donkey | clay | two identical piles; a perfectly rational animal starves
+- requested | pascals-wager | Pascal's Wager | ps2 | two doors, a scale, coins; the bet and the objection of many gods
 - todo | utility-monster | The Utility Monster (Nozick) | clay | cake sharing; one creature enjoys it a thousand times more
 - todo | violinist | The Violinist (Thomson) | ps2 | you wake up connected to a stranger for nine months
-- todo | swampman | Swampman | ps2 | lightning, a perfect copy walks home; is it you?
+- skipped | swampman | Swampman | ps2 | lightning, a perfect copy walks home; is it you? (skipped 2026-11-27: too close to teleporter)
 - todo | monty-hall | The Monty Hall Problem | clay | three doors, a prize; why switching wins two times in three
 - todo | survivorship-bias | Survivorship Bias | ps2 | returning planes with bullet holes; armour goes where there are none
 - todo | sunk-cost | The Sunk Cost Fallacy | clay | a bad film and a paid ticket; a walk to the door
