@@ -72,7 +72,6 @@
     "desc": "Stephen Hawking during the press conference at the National Library of France to inaugurate the Laboratory of Astronomy and Particles in Paris and the French re"
    }
   ],
-  "godel": [],
   "barjavel": [
    {
     "title": "File:Identite-ReneBarjavel-1949-Sacem.png",
@@ -132,15 +131,15 @@
     "desc": "Amsterdam Museum, 2017"
    },
    {
-    "title": "File:Antique clock face (23969984684).jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Antique_clock_face_%2823969984684%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Antique_clock_face_%2823969984684%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 3648,
-    "height": 5472,
+    "title": "File:Antique clock face (26483347664).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Antique_clock_face_%2826483347664%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/4/40/Antique_clock_face_%2826483347664%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2592,
+    "height": 3872,
     "licence": "CC BY 2.0",
     "artist": "Thomas Quine",
     "credit": "Thomas Quine / CC BY 2.0",
-    "desc": "Schloss Oranienburg"
+    "desc": "Belgium"
    }
   ],
   "novikov": [
@@ -176,6 +175,76 @@
     "artist": "Vyacheslav Bukharov",
     "credit": "Vyacheslav Bukharov / CC BY-SA 4.0",
     "desc": "\u0411\u0430\u0441\u043a\u0435\u0442\u0431\u043e\u043b\u044c\u043d\u044b\u0439 \u043c\u0430\u0442\u0447 \u0440\u0435\u0433\u0443\u043b\u044f\u0440\u043d\u043e\u0433\u043e \u0441\u0435\u0437\u043e\u043d\u0430 \u0415\u0434\u0438\u043d\u043e\u0439 \u043b\u0438\u0433\u0438 \u0412\u0422\u0411 \u0423\u0440\u0430\u043b\u043c\u0430\u0448 (\u0431\u0435\u043b\u0430\u044f \u0444\u043e\u0440\u043c\u0430) VS \u0417\u0435\u043d\u0438\u0442 \u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433 (\u0433\u043e\u043b\u0443\u0431\u0430\u044f \u0444\u043e\u0440\u043c\u0430), \u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0431\u0443\u0440\u0433, \u0414\u0432\u043e\u0440\u0435\u0446 \u0438\u0433\u0440\u043e\u0432\u044b\u0445 \u0432\u0438\u0434\u043e\u0432 \u0441\u043f\u043e\u0440\u0442\u0430,"
+   }
+  ],
+  "einstein": [
+   {
+    "title": "File:Albert Einstein Head cleaned.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Albert_Einstein_Head_cleaned.jpg/3840px-Albert_Einstein_Head_cleaned.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/2/28/Albert_Einstein_Head_cleaned.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 4530,
+    "height": 5607,
+    "licence": "Public domain",
+    "artist": "Oren Jack Turner",
+    "credit": "",
+    "desc": "Albert Einstein"
+   },
+   {
+    "title": "File:Albert Einstein Head.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Albert_Einstein_Head.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Albert_Einstein_Head.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3250,
+    "height": 4333,
+    "licence": "Public domain",
+    "artist": "Photograph by Orren Jack Turner, Princeton, N.J. Modified with Photoshop by PM_P",
+    "credit": "",
+    "desc": "Albert Einstein"
+   },
+   {
+    "title": "File:Albert Einstein Head (cropped).jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Albert_Einstein_Head_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Albert_Einstein_Head_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3250,
+    "height": 4062,
+    "licence": "Public domain",
+    "artist": "Photograph by Orren Jack Turner, Princeton, N.J. Modified with Photoshop by PM_P",
+    "credit": "",
+    "desc": "Albert Einstein"
+   }
+  ],
+  "princeton": [
+   {
+    "title": "File:Fuld Hall, Institute for Advanced Study, Princeton, NJ.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Fuld_Hall%2C_Institute_for_Advanced_Study%2C_Princeton%2C_NJ.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/2/28/Fuld_Hall%2C_Institute_for_Advanced_Study%2C_Princeton%2C_NJ.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 2469,
+    "height": 1646,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Zeete",
+    "credit": "Zeete / CC BY-SA 4.0",
+    "desc": "Fuld Hall on the campus of the Institute for Advanced Study in Princeton, New Jersey."
+   },
+   {
+    "title": "File:Fuld Hall, Institute for Advanced Study, Princeton, NJ - looking south.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Fuld_Hall%2C_Institute_for_Advanced_Study%2C_Princeton%2C_NJ_-_looking_south.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Fuld_Hall%2C_Institute_for_Advanced_Study%2C_Princeton%2C_NJ_-_looking_south.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3121,
+    "height": 1041,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Zeete",
+    "credit": "Zeete / CC BY-SA 4.0",
+    "desc": "Fuld Hall on the campus of the Institute for Advanced Study in Princeton, New Jersey."
+   },
+   {
+    "title": "File:Fuld Hall, Institute for Advanced Study, Princeton, NJ - looking north.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Fuld_Hall%2C_Institute_for_Advanced_Study%2C_Princeton%2C_NJ_-_looking_north.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/1/12/Fuld_Hall%2C_Institute_for_Advanced_Study%2C_Princeton%2C_NJ_-_looking_north.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 3293,
+    "height": 2195,
+    "licence": "CC BY-SA 4.0",
+    "artist": "Zeete",
+    "credit": "Zeete / CC BY-SA 4.0",
+    "desc": "Looking north at Fuld Hall on the campus of the Institute for Advanced Study in Princeton, New Jersey."
    }
   ]
  }
