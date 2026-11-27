@@ -1,0 +1,807 @@
+{
+ "id": "grandfather-paradox",
+ "channel": "philosophy",
+ "style": "ps2",
+ "title": "THE GRANDFATHER PARADOX",
+ "angle": "If you travelled back and stopped your own grandparents meeting, what would happen?",
+ "answer": "Logic forbids it (no grandparents, no you, no trip), yet Einstein's equations allow loops in time (Gödel, 1949); Novikov's answer is that only self-consistent histories happen, and 1991 billiard-ball calculations always found a consistent path; Hawking bet instead that physics forbids the loop entirely: either the past can't be changed, or it can't be reached.",
+ "logline": "Hawking threw a party for time travellers and nobody came, so is the past off limits? Stop your grandparents meeting and you're never born, so you never go, but physics didn't rule it out: Einstein's equations allow loops, but maybe nature won't let you, because only consistent histories happen, as billiard balls through wormholes showed, but Hawking bet physics forbids the loop, so either the past can't be changed or can't be reached.",
+ "hook_text": "A PARTY NOBODY CAME TO",
+ "hooks": [
+  "Einstein's own equations allow travel into the past.",
+  "Physicists fired an imaginary billiard ball back in time to hit itself."
+ ],
+ "world": {
+  "scenery": "room"
+ },
+ "script": [
+  {
+   "text": "In 2009, Stephen Hawking threw a party, and sent the invitations afterwards.",
+   "say": "In two thousand and nine, Stephen Hawking threw a party, and sent the invitations afterwards.",
+   "beat": "hook"
+  },
+  {
+   "text": "Nobody came: no time travellers.",
+   "beat": "hook",
+   "link": "so"
+  },
+  {
+   "text": "So is travel into the past impossible, or just paradoxical?",
+   "beat": "question",
+   "link": "so"
+  },
+  {
+   "text": "The classic problem: go back and stop your grandfather meeting your grandmother.",
+   "beat": "reveal1",
+   "link": "answer"
+  },
+  {
+   "text": "Then you're never born, so you never go back, so they do meet after all.",
+   "beat": "reveal1",
+   "link": "so"
+  },
+  {
+   "text": "A French novelist, René Barjavel, put this trap in a story in 1943.",
+   "say": "A French novelist, René Bar-ja-vel, put this trap in a story in nineteen forty-three.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "But physics never ruled it out.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "In 1949, a logician gave Einstein a 70th birthday present: a solution of his own equations that loops back in time.",
+   "say": "In nineteen forty-nine, a logician gave Einstein a seventieth birthday present: a solution of his own equations that loops back in time.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "Einstein admitted the problem had troubled him for years.",
+   "beat": "reveal2",
+   "link": "so"
+  },
+  {
+   "text": "But maybe nature simply won't let you.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "Igor Novikov proposed that only consistent histories can happen: you'd slip, miss, or change your mind.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "In 1991, physicists modelled a billiard ball sent through a wormhole to knock its younger self away.",
+   "say": "In nineteen ninety-one, physicists modelled a billiard ball sent through a wormhole to knock its younger self away.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "Every time, they found a consistent path: a glancing blow that still sends it in.",
+   "beat": "reveal3",
+   "link": "so"
+  },
+  {
+   "text": "But Hawking bet on a stricter rule: physics protects history and forbids the loop entirely.",
+   "beat": "turn",
+   "link": "but"
+  },
+  {
+   "text": "So either the past can't be changed, or it can't be reached.",
+   "beat": "payoff",
+   "link": "so"
+  },
+  {
+   "text": "If you could go back but change nothing, would you still go?",
+   "beat": "payoff",
+   "link": "so"
+  }
+ ],
+ "objects": [
+  {
+   "id": "door",
+   "kind": "door",
+   "at": [
+    -2.6,
+    0,
+    -1.0
+   ],
+   "face": 30
+  },
+  {
+   "id": "you",
+   "kind": "person",
+   "look": "you",
+   "at": [
+    0.4,
+    0,
+    2.2
+   ],
+   "face": "door"
+  },
+  {
+   "id": "gpa",
+   "kind": "person",
+   "look": "elder",
+   "at": [
+    2.2,
+    0,
+    -0.4
+   ],
+   "face": "gma",
+   "show": false
+  },
+  {
+   "id": "gma",
+   "kind": "person",
+   "look": "one",
+   "at": [
+    3.4,
+    0,
+    0.2
+   ],
+   "face": "gpa",
+   "show": false
+  },
+  {
+   "id": "table",
+   "kind": "table",
+   "at": [
+    -0.6,
+    0,
+    -2.4
+   ],
+   "face": 0
+  },
+  {
+   "id": "ball1",
+   "kind": "ball",
+   "tint": "#E04F4F",
+   "at": [
+    -1.4,
+    1.25,
+    -2.4
+   ],
+   "scale": 0.3,
+   "show": false
+  },
+  {
+   "id": "ball2",
+   "kind": "ball",
+   "tint": "#E04F4F",
+   "at": [
+    0.2,
+    1.25,
+    -2.4
+   ],
+   "scale": 0.3,
+   "show": false,
+   "ghost": true
+  }
+ ],
+ "shots": [
+  {
+   "at": 0,
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "table",
+     "door",
+     "you"
+    ]
+   }
+  },
+  {
+   "at": "1",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "door",
+     "you"
+    ]
+   },
+   "focus": [
+    "door",
+    "you"
+   ]
+  },
+  {
+   "at": "2",
+   "cam": {
+    "preset": "tight",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "3",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "gpa",
+     "gma"
+    ]
+   },
+   "focus": [
+    "gpa",
+    "gma"
+   ]
+  },
+  {
+   "at": "4",
+   "cam": {
+    "preset": "close",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "4:meet",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "gpa",
+     "gma"
+    ],
+    "side": 1
+   },
+   "focus": [
+    "gpa",
+    "gma"
+   ]
+  },
+  {
+   "at": "5",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "door",
+     "you",
+     "gpa"
+    ]
+   }
+  },
+  {
+   "at": "6",
+   "cam": {
+    "preset": "close",
+    "on": "door"
+   },
+   "focus": [
+    "door"
+   ]
+  },
+  {
+   "at": "7",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "door"
+    ]
+   },
+   "focus": [
+    "you",
+    "door"
+   ]
+  },
+  {
+   "at": "7:solution",
+   "cam": {
+    "preset": "close",
+    "on": "you",
+    "side": 1
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "8",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "door",
+     "you"
+    ]
+   }
+  },
+  {
+   "at": "9",
+   "cam": {
+    "preset": "tight",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "10",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "gpa"
+    ]
+   },
+   "focus": [
+    "you",
+    "gpa"
+   ]
+  },
+  {
+   "at": "10:slip",
+   "cam": {
+    "preset": "close",
+    "on": "you",
+    "side": -1
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "11",
+   "cam": {
+    "preset": "close",
+    "on": "table"
+   },
+   "focus": [
+    "table",
+    "ball1",
+    "ball2"
+   ]
+  },
+  {
+   "at": "11:wormhole",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "table",
+     "door"
+    ]
+   },
+   "focus": [
+    "table",
+    "door"
+   ]
+  },
+  {
+   "at": "12",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "table",
+     "you"
+    ]
+   },
+   "focus": [
+    "table",
+    "you"
+   ]
+  },
+  {
+   "at": "12:glancing",
+   "cam": {
+    "preset": "close",
+    "on": "table",
+    "side": 1
+   },
+   "focus": [
+    "table",
+    "ball1",
+    "ball2"
+   ]
+  },
+  {
+   "at": "13",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "door",
+     "you",
+     "table"
+    ]
+   }
+  },
+  {
+   "at": "13:stricter",
+   "cam": {
+    "preset": "close",
+    "on": "door"
+   },
+   "focus": [
+    "door"
+   ]
+  },
+  {
+   "at": "14",
+   "cam": {
+    "preset": "close",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "15",
+   "cam": {
+    "preset": "tight",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "15:change",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "door"
+    ]
+   },
+   "focus": [
+    "you",
+    "door"
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "id": "door",
+   "at": "0:party",
+   "dur": 0.6,
+   "part": "leaf",
+   "rot": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "id": "door",
+   "at": "1:Nobody",
+   "dur": 0.6,
+   "part": "leaf",
+   "rot": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "id": "you",
+   "at": "1:Nobody",
+   "dur": 0.4,
+   "pose": "shrug"
+  },
+  {
+   "id": "you",
+   "at": "2",
+   "dur": 0.4,
+   "pose": "think"
+  },
+  {
+   "id": [
+    "gpa",
+    "gma"
+   ],
+   "at": "3",
+   "dur": 0.4,
+   "show": true
+  },
+  {
+   "id": "you",
+   "at": "3:stop",
+   "until": "3:stop+1.4",
+   "pos": [
+    2.4,
+    0,
+    1.0
+   ],
+   "walk": true
+  },
+  {
+   "id": "you",
+   "at": "3:stop+1.4",
+   "dur": 0.4,
+   "pose": "push"
+  },
+  {
+   "id": "you",
+   "at": "4:never",
+   "dur": 0.4,
+   "show": false
+  },
+  {
+   "id": [
+    "gpa",
+    "gma"
+   ],
+   "at": "4:meet",
+   "dur": 0.4,
+   "pose": "wave"
+  },
+  {
+   "id": "you",
+   "at": "5",
+   "dur": 0.1,
+   "pos": [
+    0.4,
+    0,
+    2.2
+   ]
+  },
+  {
+   "id": "you",
+   "at": "5",
+   "dur": 0.3,
+   "show": true
+  },
+  {
+   "id": "you",
+   "at": "5",
+   "dur": 0.3,
+   "pose": "stand"
+  },
+  {
+   "id": "door",
+   "at": "7:loops",
+   "dur": 0.6,
+   "part": "leaf",
+   "rot": [
+    0,
+    -90,
+    0
+   ]
+  },
+  {
+   "id": "you",
+   "at": "10:slip",
+   "dur": 0.4,
+   "pose": "shock"
+  },
+  {
+   "id": "you",
+   "at": "10:mind",
+   "dur": 0.4,
+   "pose": "shrug"
+  },
+  {
+   "id": [
+    "ball1",
+    "ball2"
+   ],
+   "at": "11",
+   "dur": 0.4,
+   "show": true
+  },
+  {
+   "id": "ball1",
+   "at": "11:knock",
+   "until": "12",
+   "pos": [
+    -0.3,
+    1.25,
+    -2.4
+   ],
+   "ease": "linear"
+  },
+  {
+   "id": "ball2",
+   "at": "12:glancing",
+   "dur": 0.6,
+   "pos": [
+    0.6,
+    1.25,
+    -2.0
+   ]
+  },
+  {
+   "id": "door",
+   "at": "13:forbids",
+   "dur": 0.6,
+   "part": "leaf",
+   "rot": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "id": "you",
+   "at": "15",
+   "dur": 0.4,
+   "pose": "think"
+  }
+ ],
+ "overlays": [
+  {
+   "type": "photo",
+   "pick": [
+    "hawking",
+    2
+   ],
+   "caption": "Stephen Hawking, 2006",
+   "from": "0:Hawking",
+   "to": "0:invitations"
+  },
+  {
+   "type": "label",
+   "text": "INVITATIONS: SENT AFTER",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "0:invitations",
+   "to": "1"
+  },
+  {
+   "type": "number",
+   "text": "0 GUESTS",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "1:Nobody",
+   "to": "2"
+  },
+  {
+   "type": "label",
+   "text": "YOU",
+   "color": "yellow",
+   "on": "you",
+   "from": "2",
+   "to": "3"
+  },
+  {
+   "type": "question",
+   "on": "you",
+   "from": "2:impossible",
+   "to": "3"
+  },
+  {
+   "type": "label",
+   "text": "GRANDPA + GRANDMA",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "3:grandfather",
+   "to": "4"
+  },
+  {
+   "type": "xmark",
+   "on": "you",
+   "from": "4:never",
+   "to": "4:meet"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "barjavel",
+    0
+   ],
+   "caption": "René Barjavel, author of The Imprudent Traveller",
+   "from": "5:Barjavel",
+   "to": "6-0.2"
+  },
+  {
+   "type": "label",
+   "text": "PHYSICS: NOT FORBIDDEN",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "6:physics",
+   "to": "7"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "einstein",
+    0
+   ],
+   "caption": "Albert Einstein, who turned 70 in 1949",
+   "from": "7:Einstein",
+   "to": "7:solution-0.1"
+  },
+  {
+   "type": "label",
+   "text": "A LOOP IN TIME",
+   "on": "door",
+   "from": "7:loops",
+   "to": "8"
+  },
+  {
+   "type": "icon",
+   "icon": "clock",
+   "on": "you",
+   "from": "8:years",
+   "to": "9"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "novikov",
+    1
+   ],
+   "caption": "Igor Novikov, astrophysicist",
+   "from": "10:Novikov",
+   "to": "10:slip-0.1"
+  },
+  {
+   "type": "label",
+   "text": "CONSISTENT",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "12:consistent",
+   "to": "13"
+  },
+  {
+   "type": "label",
+   "text": "CHRONOLOGY PROTECTION",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "13:protects",
+   "to": "14"
+  },
+  {
+   "type": "pill",
+   "text": "Would you still go?",
+   "from": "15:still"
+  }
+ ],
+ "sfx": [
+  {
+   "at": "0:party",
+   "s": "click",
+   "gain": 0.25
+  },
+  {
+   "at": "11:knock",
+   "s": "whoosh",
+   "gain": 0.25
+  },
+  {
+   "at": "12:glancing",
+   "s": "clank",
+   "gain": 0.3
+  }
+ ],
+ "music": {
+  "mood": "wonder"
+ },
+ "sources": [
+  "https://plato.stanford.edu/entries/time-travel/",
+  "https://www.cam.ac.uk/research/news/stephen-hawkings-time-traveller-party",
+  "https://journals.aps.org/prd/abstract/10.1103/PhysRevD.44.1077",
+  "https://en.wikipedia.org/wiki/Grandfather_paradox",
+  "https://en.wikipedia.org/wiki/G%C3%B6del_metric"
+ ],
+ "post": {
+  "caption": "In 2009 Stephen Hawking threw a party for time travellers and only sent the invitations afterwards. Nobody came. But Einstein's own equations allow loops in time.\nIf you could go back but change nothing, would you still go?",
+  "tags": [
+   "#philosophy",
+   "#timetravel",
+   "#paradox",
+   "#physics",
+   "#hawking"
+  ],
+  "youtube_title": "Hawking's Party for Time Travellers, and the Paradox"
+ }
+}

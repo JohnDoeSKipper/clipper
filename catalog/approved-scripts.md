@@ -1,6 +1,29 @@
 # Model scripts (newest first)
 The writer reads the top two of its channel before writing and matches or beats them: same spine (beats in order, every sentence linked to the one before), never the same facts or hooks. Each script the writer makes is added at the top in this format. Kept to the last 12.
 
+## grandfather-paradox (philosophy, 2026-11-27)
+
+Angle: If you travelled back and stopped your own grandparents meeting, what would happen?
+Logline: Hawking threw a party for time travellers and nobody came, so is the past off limits? Stop your grandparents meeting and you're never born, so you never go, but physics didn't rule it out: Einstein's equations allow loops, but maybe nature won't let you, because only consistent histories happen, as billiard balls through wormholes showed, but Hawking bet physics forbids the loop, so either the past can't be changed or can't be reached.
+On-screen hook: A PARTY NOBODY CAME TO
+
+[hook] In 2009, Stephen Hawking threw a party, and sent the invitations afterwards.
+[hook / so] Nobody came: no time travellers.
+[question / so] So is travel into the past impossible, or just paradoxical?
+[reveal1 / answer] The classic problem: go back and stop your grandfather meeting your grandmother.
+[reveal1 / so] Then you're never born, so you never go back, so they do meet after all.
+[reveal1 / detail] A French novelist, René Barjavel, put this trap in a story in 1943.
+[reveal2 / but] But physics never ruled it out.
+[reveal2 / detail] In 1949, a logician gave Einstein a 70th birthday present: a solution of his own equations that loops back in time.
+[reveal2 / so] Einstein admitted the problem had troubled him for years.
+[reveal3 / but] But maybe nature simply won't let you.
+[reveal3 / detail] Igor Novikov proposed that only consistent histories can happen: you'd slip, miss, or change your mind.
+[reveal3 / detail] In 1991, physicists modelled a billiard ball sent through a wormhole to knock its younger self away.
+[reveal3 / so] Every time, they found a consistent path: a glancing blow that still sends it in.
+[turn / but] But Hawking bet on a stricter rule: physics protects history and forbids the loop entirely.
+[payoff / so] So either the past can't be changed, or it can't be reached.
+[payoff / so] If you could go back but change nothing, would you still go?
+
 ## creation-of-adam (paintings, 2026-11-27)
 
 Angle: What are we really looking at in the most famous gap in art?
@@ -250,28 +273,3 @@ On-screen hook: NIGHT, WITHOUT BLACK
 [turn / but] But some claim this café hides a Last Supper: twelve diners and a figure in white.
 [turn / but] There's no evidence he meant it; the theory is barely ten years old.
 [payoff / so] So the darkness is built from colour, and the real café has painted itself yellow to match.
-
-## invisible-gorilla (philosophy, 2026-11-27)
-
-Angle: How can you miss a gorilla walking right in front of you?
-Logline: Half the viewers missed a gorilla, so how? Counting passes takes your attention, so the gorilla never registers, but experts must be different, but 83% of radiologists missed a gorilla in a lung scan, but the stakes became real when a Boston officer was convicted for not seeing a beating, so scientists restaged it and most runners at night missed a fight too, but knowing the trick doesn't help, because viewers who expected the gorilla missed other changes, so you see what you look for.
-On-screen hook: HALF OF THEM MISSED IT
-
-[hook] Half the people in this experiment didn't see a gorilla.
-[hook / but] It walked through the middle of the scene and thumped its chest.
-[question / so] So how can anyone miss something that obvious?
-[reveal1 / answer] In 1999, two Harvard psychologists asked viewers to count basketball passes.
-[reveal1 / detail] Midway, a woman in a gorilla suit strolled through for about nine seconds.
-[reveal1 / so] About half never noticed: their eyes saw it, but their attention was on the ball.
-[reveal2 / but] But surely experts trained to spot the unusual do better?
-[reveal2 / answer] In 2013, radiologists searched lung scans for tiny cancer nodules.
-[reveal2 / detail] A gorilla 48 times bigger than a nodule was hidden in the last scan.
-[reveal2 / detail] 83 percent missed it, and eye-tracking showed many looked straight at it.
-[reveal3 / but] But the stakes turned real in a courtroom.
-[reveal3 / detail] A Boston police officer, chasing a suspect, ran right past a brutal beating, and said he saw nothing.
-[reveal3 / so] He was convicted of lying; years later, one of the gorilla psychologists restaged the chase.
-[reveal3 / detail] At night, most runners missed a staged fight beside the path.
-[turn / but] But knowing the trick doesn't protect you.
-[turn / because] Viewers who expected the gorilla spotted it, and missed a curtain changing colour.
-[payoff / so] So you don't see what's there; you see what you're looking for.
-[payoff / so] What walked right past you today?

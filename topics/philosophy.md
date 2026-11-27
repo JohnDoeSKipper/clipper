@@ -31,7 +31,7 @@ Check what the original experiment or argument actually says (and whether later 
 - made | lifeboat | The Lifeboat Dilemma | clay | a boat on open sea with one seat too few
 - made | newcombs-paradox | Newcomb's Paradox | ps2 | a glass box and a closed box; a predictor robot that is never wrong
 - made | laplaces-demon | Laplace's Demon | ps2 | a mind that knows every atom; is your next choice already written?
-- requested | grandfather-paradox | The Grandfather Paradox | ps2 | a time-travel door; you meet your grandfather
+- made | grandfather-paradox | The Grandfather Paradox | ps2 | a time-travel door; you meet your grandfather
 - todo | spotlight-effect | The Spotlight Effect | clay | you think everyone noticed your stain; nobody did
 - made | milgram | The Milgram Experiment | ps2 | a button, a man in a coat saying "please continue"; how far people went
 - todo | paradox-of-choice | The Paradox of Choice | clay | 6 jams against 24 jams; more options, fewer buyers (and the replication doubts)
