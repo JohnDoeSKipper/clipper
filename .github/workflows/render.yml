@@ -9,6 +9,7 @@ on:
 permissions:
   contents: write
   issues: write
+  actions: write
 
 concurrency:
   group: render
@@ -17,7 +18,7 @@ concurrency:
 jobs:
   render:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 180
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-python@v6
@@ -54,8 +55,11 @@ jobs:
           specs=(specs/queue/*.json)
           if [ ${#specs[@]} -eq 0 ]; then echo "Nothing in the queue."; echo "made=0" >> "$GITHUB_OUTPUT"; exit 0; fi
           made=0
+          start=$(date +%s)
           for s in "${specs[@]}"; do
             id=$(basename "$s" .json)
+            # time budget: start no new video after 110 minutes; the rest wait for a follow-up run
+            if [ $(( $(date +%s) - start )) -gt 6600 ]; then echo "Time budget used; $id and the rest wait for the next run."; echo "more=1" >> "$GITHUB_OUTPUT"; break; fi
             if python engine/build.py "$s" 2>&1 | tee "out/$id.log" | tee -a "$RUNNER_TEMP/run.log"; then
               git mv -f "$s" "specs/done/$id.json"
               if [ -f "inbox/$id/meta.json" ]; then mkdir -p specs/meta; git mv -f "inbox/$id/meta.json" "specs/meta/$id.json"; fi
@@ -101,6 +105,11 @@ jobs:
           if [ -d inbox ]; then git add -A inbox; fi
           git commit -q -m "Rendered $(TZ=Asia/Kuala_Lumpur date +%F)" || exit 0
           for i in 1 2 3; do git pull -q --rebase && git push -q && break || sleep 5; done
+      - name: Start another run for the rest of the queue
+        if: steps.render.outputs.more == '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run render.yml --ref main
       - name: Fail the run if any video failed
         run: |
           shopt -s nullglob
