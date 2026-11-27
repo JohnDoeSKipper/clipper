@@ -41,7 +41,7 @@
    "link": "but"
   },
   {
-   "text": "Critics likely invented it to mock his view that the will must follow reason.",
+   "text": "Critics likely invented it to mock his theory of the will.",
    "beat": "reveal1",
    "link": "because"
   },
@@ -56,8 +56,8 @@
    "link": "detail"
   },
   {
-   "text": "In 1677, Spinoza agreed such a man would die, and said he didn't know if he was a man or an ass.",
-   "say": "In sixteen seventy-seven, Spinoza agreed such a man would die, and said he didn't know if he was a man or an ass.",
+   "text": "In 1677, Spinoza agreed such a man would starve, and wondered if he was a man or an ass.",
+   "say": "In sixteen seventy-seven, Spinoza agreed such a man would starve, and wondered if he was a man or an ass.",
    "beat": "reveal2",
    "link": "detail"
   },
@@ -74,7 +74,7 @@
    "link": "but"
   },
   {
-   "text": "A chip deciding whether a signal came before or after a clock tick can stick in between.",
+   "text": "A chip deciding if a signal came before or after a clock tick can stick in between.",
    "beat": "reveal3",
    "link": "detail"
   },
@@ -89,8 +89,8 @@
    "link": "so"
   },
   {
-   "text": "But journals rejected Lamport's paper; it was finally published in 2012.",
-   "say": "But journals rejected Lamport's paper; it was finally published in twenty twelve.",
+   "text": "But journals rejected his paper until 2012.",
+   "say": "But journals rejected his paper until twenty twelve.",
    "beat": "turn",
    "link": "but"
   },
@@ -100,7 +100,7 @@
    "link": "so"
   },
   {
-   "text": "When two options are truly equal, is flipping a coin the most rational thing you can do?",
+   "text": "When two options are truly equal, is a coin flip the most rational choice?",
    "beat": "payoff",
    "link": "so"
   }
@@ -266,7 +266,7 @@
    ]
   },
   {
-   "at": "8:said",
+   "at": "8:wondered",
    "cam": {
     "preset": "mid",
     "on": [
@@ -376,7 +376,7 @@
    ]
   },
   {
-   "at": "16:flipping",
+   "at": "16:coin",
    "cam": {
     "preset": "mid",
     "on": [
@@ -557,12 +557,12 @@
   },
   {
    "type": "label",
-   "text": "WILL FOLLOWS REASON",
+   "text": "HIS THEORY OF THE WILL",
    "pos": [
     540,
     1250
    ],
-   "from": "5:will",
+   "from": "5:theory",
    "to": "6"
   },
   {
@@ -660,7 +660,7 @@
    "text": "YOU",
    "color": "yellow",
    "on": "you",
-   "from": "14:published",
+   "from": "14:2012",
    "to": "15"
   },
   {
