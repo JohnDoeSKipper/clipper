@@ -1,0 +1,283 @@
+{
+ "id": "creation-of-adam",
+ "channel": "paintings",
+ "angle": "What are we really looking at in the most famous gap in art?",
+ "answer": "A sculptor's painting made standing in pain on a scaffold, showing the instant before life passes from God to a still-limp Adam; part of Adam's hand was repainted in the 1560s after the plaster cracked, a 1990 theory reads God's cloak as a human brain, and the colours we see were only uncovered by the 1980s-90s cleaning.",
+ "logline": "Part of Adam's famous finger isn't Michelangelo's, so what are we looking at? A pope ordered a sculptor to paint a ceiling, but he didn't lie on his back, he stood craning for four years and mocked his own pain, but the gap is the subject: God surging, Adam not yet alive, but in 1990 a doctor saw a brain in God's cloak, from an artist who dissected corpses, but for centuries no one saw these colours, so the gap belongs to Michelangelo, a repairer, a restorer and us.",
+ "hook_text": "REPAINTED IN THE 1560s",
+ "hooks": [
+  "Michelangelo didn't paint this lying on his back.",
+  "A doctor says God's cloak here is shaped like a human brain."
+ ],
+ "painting": {
+  "title": "The Creation of Adam",
+  "artist": "Michelangelo",
+  "year": "c. 1511",
+  "museum": "Sistine Chapel, Vatican"
+ },
+ "script": [
+  {
+   "text": "Part of the world's most famous finger isn't Michelangelo's.",
+   "beat": "hook"
+  },
+  {
+   "text": "After the plaster cracked, Adam's fingers were repainted.",
+   "beat": "hook",
+   "link": "detail"
+  },
+  {
+   "text": "So what are we really looking at in this famous gap?",
+   "beat": "question",
+   "link": "so"
+  },
+  {
+   "text": "In 1508, Pope Julius the Second ordered a sculptor to paint a ceiling.",
+   "say": "In fifteen oh eight, Pope Julius the Second ordered a sculptor to paint a ceiling.",
+   "beat": "reveal1",
+   "link": "answer"
+  },
+  {
+   "text": "Michelangelo protested he was no painter, then spent four years up there.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "He didn't lie on his back: he stood, head bent back, on his own scaffold.",
+   "beat": "reveal1",
+   "link": "but"
+  },
+  {
+   "text": "In a poem he mocked the pain: my beard points at heaven.",
+   "beat": "reveal1",
+   "link": "so"
+  },
+  {
+   "text": "But the gap is the real subject.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "God surges forward on his angels; Adam lies limp, not yet alive.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "The fingers almost touch: the instant before the spark.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "But in 1990, a doctor claimed something stranger: God's cloak is shaped like a human brain.",
+   "say": "But in nineteen ninety, a doctor claimed something stranger: God's cloak is shaped like a human brain.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "Michelangelo dissected corpses; did he hide the seat of thought behind God?",
+   "beat": "reveal3",
+   "link": "because"
+  },
+  {
+   "text": "But until a cleaning in the 1980s lifted the soot, no one had seen these colours for centuries.",
+   "say": "But until a cleaning in the nineteen eighties lifted the soot, no one had seen these colours for centuries.",
+   "beat": "turn",
+   "link": "but"
+  },
+  {
+   "text": "So the gap belongs to many hands: Michelangelo's, a repairer's, a restorer's, and yours.",
+   "beat": "payoff",
+   "link": "so"
+  }
+ ],
+ "music": {
+  "piece": "liszt-consolation-3"
+ },
+ "timeline": [
+  {
+   "type": "reveal",
+   "from": [
+    0.37,
+    0.435,
+    3.0
+   ],
+   "until": 3.4
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.355,
+    0.43,
+    0.03,
+    0.045
+   ],
+   "ring": "1",
+   "zoom": "1+0.4",
+   "label": "REPAINTED",
+   "labelAt": "1:repainted",
+   "out": "2-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.385,
+    0.435,
+    0.06,
+    0.07
+   ],
+   "ring": "2",
+   "zoom": "2+0.4",
+   "out": "3-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "julius",
+    1
+   ],
+   "caption": "Pope Julius II, by Raphael",
+   "at": "3",
+   "to": "4-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "michelangelo",
+    1
+   ],
+   "caption": "Michelangelo, by Daniele da Volterra",
+   "at": "4",
+   "to": "5-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.27,
+    0.2,
+    0.09,
+    0.15
+   ],
+   "ring": "5",
+   "zoom": "5+0.4",
+   "label": "PAINTED STANDING",
+   "labelAt": "5:stood",
+   "out": "6-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "sketch",
+    0
+   ],
+   "caption": "His own sketch of himself at work",
+   "at": "6",
+   "to": "7-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.385,
+    0.435,
+    0.06,
+    0.07
+   ],
+   "ring": "7",
+   "zoom": "7+0.4",
+   "out": "8-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.65,
+    0.4,
+    0.2,
+    0.4
+   ],
+   "ring": "8",
+   "zoom": "8+0.4",
+   "out": "8:Adam-0.1",
+   "then": {
+    "region": [
+     0.125,
+     0.41,
+     0.05,
+     0.09
+    ],
+    "ring": "8:Adam",
+    "zoom": "8:Adam+0.3",
+    "label": "NOT YET ALIVE",
+    "labelAt": "8:limp"
+   }
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.385,
+    0.435,
+    0.05,
+    0.06
+   ],
+   "ring": "9",
+   "zoom": "9+0.4",
+   "label": "THE GAP",
+   "labelAt": "9:almost",
+   "out": "10-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.73,
+    0.42,
+    0.22,
+    0.42
+   ],
+   "ring": "10",
+   "zoom": "10+0.4",
+   "label": "A BRAIN?",
+   "labelAt": "10:brain",
+   "out": "11-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "brain",
+    1
+   ],
+   "caption": "A human brain, cut in half",
+   "at": "11",
+   "to": "12-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "restoration",
+    0
+   ],
+   "caption": "A Sistine prophet before and after cleaning",
+   "at": "12",
+   "to": "13-0.3"
+  }
+ ],
+ "sources": [
+  "https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/cappella-sistina/volta/storie-centrali/creazione-di-adamo.html",
+  "https://jamanetwork.com/journals/jama/article-abstract/381176",
+  "https://smarthistory.org/michelangelo-ceiling-of-the-sistine-chapel/",
+  "https://www.britannica.com/topic/The-Creation-of-Adam",
+  "https://en.wikipedia.org/wiki/The_Creation_of_Adam"
+ ],
+ "post": {
+  "caption": "Part of Adam's famous finger was repainted in the 1560s after the plaster cracked, Michelangelo painted it standing, not lying down, and a doctor says God's cloak is shaped like a brain.\nDo you see the brain?",
+  "tags": [
+   "#arthistory",
+   "#michelangelo",
+   "#creationofadam",
+   "#sistinechapel",
+   "#renaissance"
+  ],
+  "youtube_title": "Part of This Famous Finger Isn't Michelangelo's"
+ }
+}

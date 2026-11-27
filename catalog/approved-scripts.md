@@ -1,6 +1,27 @@
 # Model scripts (newest first)
 The writer reads the top two of its channel before writing and matches or beats them: same spine (beats in order, every sentence linked to the one before), never the same facts or hooks. Each script the writer makes is added at the top in this format. Kept to the last 12.
 
+## creation-of-adam (paintings, 2026-11-27)
+
+Angle: What are we really looking at in the most famous gap in art?
+Logline: Part of Adam's famous finger isn't Michelangelo's, so what are we looking at? A pope ordered a sculptor to paint a ceiling, but he didn't lie on his back, he stood craning for four years and mocked his own pain, but the gap is the subject: God surging, Adam not yet alive, but in 1990 a doctor saw a brain in God's cloak, from an artist who dissected corpses, but for centuries no one saw these colours, so the gap belongs to Michelangelo, a repairer, a restorer and us.
+On-screen hook: REPAINTED IN THE 1560s
+
+[hook] Part of the world's most famous finger isn't Michelangelo's.
+[hook / detail] After the plaster cracked, Adam's fingers were repainted.
+[question / so] So what are we really looking at in this famous gap?
+[reveal1 / answer] In 1508, Pope Julius the Second ordered a sculptor to paint a ceiling.
+[reveal1 / detail] Michelangelo protested he was no painter, then spent four years up there.
+[reveal1 / but] He didn't lie on his back: he stood, head bent back, on his own scaffold.
+[reveal1 / so] In a poem he mocked the pain: my beard points at heaven.
+[reveal2 / but] But the gap is the real subject.
+[reveal2 / detail] God surges forward on his angels; Adam lies limp, not yet alive.
+[reveal2 / detail] The fingers almost touch: the instant before the spark.
+[reveal3 / but] But in 1990, a doctor claimed something stranger: God's cloak is shaped like a human brain.
+[reveal3 / because] Michelangelo dissected corpses; did he hide the seat of thought behind God?
+[turn / but] But until a cleaning in the 1980s lifted the soot, no one had seen these colours for centuries.
+[payoff / so] So the gap belongs to many hands: Michelangelo's, a repairer's, a restorer's, and yours.
+
 ## milgram (philosophy, 2026-11-27)
 
 Angle: Would you hurt someone just because an authority told you to?
@@ -254,25 +275,3 @@ On-screen hook: HALF OF THEM MISSED IT
 [turn / because] Viewers who expected the gorilla spotted it, and missed a curtain changing colour.
 [payoff / so] So you don't see what's there; you see what you're looking for.
 [payoff / so] What walked right past you today?
-
-## sleeping-gypsy (paintings, 2026-11-27)
-
-Angle: How did a painting its own artist's hometown turned down become a modern icon?
-Logline: His hometown refused it for 1,800 francs, so how did it become an icon? Rousseau was a toll clerk who never saw a desert and learned lions at the Paris zoo, but that innocence makes it strange: a lion that sniffs and moves on, no footprints, a dreamlike moon, but after Laval said no it vanished, and reappeared in 1923 so suddenly some cried forgery, so it went to New York, but the avant-garde had once thrown him a half-mocking banquet, so the amateur they laughed at painted the dream they couldn't.
-On-screen hook: HIS HOMETOWN SAID NO
-
-[hook] Its painter offered this to his hometown for 1,800 francs.
-[hook / but] The town said no.
-[question / so] So how did a painting nobody wanted become a modern icon?
-[reveal1 / answer] Henri Rousseau was a Paris toll clerk who took up painting in his forties.
-[reveal1 / detail] He never saw a desert, or a lion in the wild.
-[reveal1 / so] He learned animals from the Paris zoo and from pictures in books.
-[reveal2 / but] But that innocence is what makes it so strange.
-[reveal2 / detail] The lion sniffs the sleeper, and doesn't attack.
-[reveal2 / detail] There are no footprints in the sand: how did she get here?
-[reveal2 / detail] And a full moon lights it all like a dream.
-[reveal3 / but] But after his hometown of Laval refused it in 1898, the painting vanished.
-[reveal3 / detail] It resurfaced in 1923, so suddenly that some suspected a forgery.
-[reveal3 / so] In 1939, it entered New York's Museum of Modern Art.
-[turn / but] But in his lifetime, critics laughed at him, and young painters threw him a half-mocking banquet.
-[payoff / so] So the amateur everyone laughed at painted the dream the professionals couldn't.
