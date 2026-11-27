@@ -1,0 +1,700 @@
+{
+ "id": "laplaces-demon",
+ "channel": "philosophy",
+ "style": "ps2",
+ "title": "LAPLACE'S DEMON",
+ "angle": "If a mind knew every particle in the universe, could it predict what you'll do next?",
+ "answer": "Laplace said yes in 1814, but chaos makes the tiniest measurement error explode (Lorenz's rounding), quantum uncertainty forbids perfect measurement, and a 2008 proof shows no predictor inside the universe can predict everything, itself included; the future may be fixed, but it can never be fully read from inside.",
+ "logline": "In 1814 Laplace imagined a mind that foresees everything, so is your future written? He said an intellect knowing every particle would see the future like the past, but in 1961 a rounded weather simulation diverged completely, so tiny errors explode, but the demon would need perfect data, and Heisenberg showed physics forbids it, but the strangest limit is logical: no predictor can predict itself, so the future may be fixed but no mind inside it can read it all.",
+ "hook_text": "A MIND THAT KNOWS EVERYTHING",
+ "hooks": [
+  "Rounding one number from six decimals to three changed a whole simulated sky.",
+  "In 2008, a physicist proved no machine can predict everything."
+ ],
+ "world": {
+  "scenery": "default"
+ },
+ "script": [
+  {
+   "text": "In 1814, a mathematician imagined a mind that could foresee everything.",
+   "say": "In eighteen fourteen, a mathematician imagined a mind that could foresee everything.",
+   "beat": "hook"
+  },
+  {
+   "text": "Including what you'll do next.",
+   "beat": "hook",
+   "link": "detail"
+  },
+  {
+   "text": "So if the universe runs like clockwork, is your future already written?",
+   "beat": "question",
+   "link": "so"
+  },
+  {
+   "text": "Pierre-Simon Laplace wrote that a mind knowing every particle and force would see the future like the past.",
+   "say": "Pierre-Simon La-plass wrote that a mind knowing every particle and force would see the future like the past.",
+   "beat": "reveal1",
+   "link": "answer"
+  },
+  {
+   "text": "Later writers called it Laplace's demon.",
+   "say": "Later writers called it La-plass's demon.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "Asked by Napoleon where God fitted in, he reportedly said: I had no need of that hypothesis.",
+   "beat": "reveal1",
+   "link": "detail"
+  },
+  {
+   "text": "But in 1961, a weather simulation broke the dream.",
+   "say": "But in nineteen sixty-one, a weather simulation broke the dream.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "To save time, a meteorologist re-ran it with numbers rounded from six decimals to three.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "Within simulated weeks, the weather was completely different.",
+   "beat": "reveal2",
+   "link": "so"
+  },
+  {
+   "text": "Tiny errors explode: the famous butterfly in Brazil that sets off a tornado in Texas.",
+   "beat": "reveal2",
+   "link": "so"
+  },
+  {
+   "text": "But the demon would also need perfect measurements, and physics forbids them.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "In 1927, Werner Heisenberg showed you can't know a particle's position and momentum exactly at once.",
+   "say": "In nineteen twenty-seven, Werner Heisenberg showed you can't know a particle's position and momentum exactly at once.",
+   "beat": "reveal3",
+   "link": "because"
+  },
+  {
+   "text": "So even a perfect mind would start from a blur.",
+   "beat": "reveal3",
+   "link": "so"
+  },
+  {
+   "text": "But the strangest limit is pure logic: in 2008, a physicist proved no predictor can predict everything.",
+   "say": "But the strangest limit is pure logic: in two thousand and eight, a physicist proved no predictor can predict everything.",
+   "beat": "turn",
+   "link": "but"
+  },
+  {
+   "text": "Inside the universe, it would have to predict its own predictions, forever.",
+   "beat": "turn",
+   "link": "because"
+  },
+  {
+   "text": "So the future might be fixed, but no mind inside it can ever read all of it.",
+   "beat": "payoff",
+   "link": "so"
+  },
+  {
+   "text": "If no one could ever predict your choice, would it matter whether it was written?",
+   "beat": "payoff",
+   "link": "so"
+  }
+ ],
+ "objects": [
+  {
+   "id": "you",
+   "kind": "person",
+   "look": "you",
+   "at": [
+    1.6,
+    0,
+    2.0
+   ],
+   "face": "bot"
+  },
+  {
+   "id": "bot",
+   "kind": "robot",
+   "at": [
+    -1.4,
+    0,
+    0
+   ],
+   "face": "you",
+   "scale": 1.3
+  },
+  {
+   "id": "b1",
+   "kind": "ball",
+   "tint": "#E04F4F",
+   "at": [
+    0.2,
+    0.4,
+    -1.2
+   ],
+   "scale": 0.35
+  },
+  {
+   "id": "b2",
+   "kind": "ball",
+   "tint": "#4F8FE0",
+   "at": [
+    1.4,
+    0.4,
+    -1.6
+   ],
+   "scale": 0.35
+  },
+  {
+   "id": "b3",
+   "kind": "ball",
+   "tint": "#E0C84F",
+   "at": [
+    0.8,
+    0.4,
+    -0.6
+   ],
+   "scale": 0.35
+  },
+  {
+   "id": "scr",
+   "kind": "screen",
+   "at": [
+    3.4,
+    0,
+    -1.2
+   ],
+   "face": -30,
+   "show": false
+  }
+ ],
+ "shots": [
+  {
+   "at": 0,
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "bot"
+    ],
+    "dist": 1.4
+   },
+   "focus": [
+    "bot"
+   ]
+  },
+  {
+   "at": "1",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "bot",
+     "you"
+    ]
+   },
+   "focus": [
+    "bot",
+    "you"
+   ]
+  },
+  {
+   "at": "2",
+   "cam": {
+    "preset": "tight",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "3",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "bot",
+     "you",
+     "b1",
+     "b2"
+    ]
+   }
+  },
+  {
+   "at": "3:force",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "b1",
+     "b2",
+     "b3"
+    ]
+   },
+   "focus": [
+    "b1",
+    "b2",
+    "b3"
+   ]
+  },
+  {
+   "at": "4",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "bot"
+    ],
+    "dist": 1.4
+   },
+   "focus": [
+    "bot"
+   ]
+  },
+  {
+   "at": "5",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "bot"
+    ],
+    "side": 1
+   },
+   "focus": [
+    "you",
+    "bot"
+   ]
+  },
+  {
+   "at": "5:reportedly",
+   "cam": {
+    "preset": "close",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "6",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "scr",
+     "you"
+    ]
+   },
+   "focus": [
+    "scr",
+    "you"
+   ]
+  },
+  {
+   "at": "7",
+   "cam": {
+    "preset": "close",
+    "on": "scr"
+   },
+   "focus": [
+    "scr"
+   ]
+  },
+  {
+   "at": "8",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "scr",
+     "you"
+    ],
+    "side": 1
+   },
+   "focus": [
+    "scr",
+    "you"
+   ]
+  },
+  {
+   "at": "9",
+   "cam": {
+    "preset": "close",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "10",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "b1",
+     "b2",
+     "b3"
+    ]
+   },
+   "focus": [
+    "b1",
+    "b2",
+    "b3"
+   ]
+  },
+  {
+   "at": "11",
+   "cam": {
+    "preset": "close",
+    "on": "b3"
+   },
+   "focus": [
+    "b3"
+   ]
+  },
+  {
+   "at": "11:position",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "b3",
+     "you"
+    ]
+   },
+   "focus": [
+    "b3",
+    "you"
+   ]
+  },
+  {
+   "at": "12",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "bot"
+    ],
+    "dist": 1.4
+   },
+   "focus": [
+    "bot"
+   ]
+  },
+  {
+   "at": "13",
+   "cam": {
+    "preset": "wide",
+    "on": [
+     "bot",
+     "you"
+    ]
+   }
+  },
+  {
+   "at": "13:physicist",
+   "cam": {
+    "preset": "close",
+    "on": "you",
+    "side": -1
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "14",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "bot"
+    ],
+    "dist": 1.4
+   },
+   "focus": [
+    "bot"
+   ]
+  },
+  {
+   "at": "15",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "bot"
+    ]
+   },
+   "focus": [
+    "you",
+    "bot"
+   ]
+  },
+  {
+   "at": "16",
+   "cam": {
+    "preset": "tight",
+    "on": "you"
+   },
+   "focus": [
+    "you"
+   ]
+  },
+  {
+   "at": "16:matter",
+   "cam": {
+    "preset": "mid",
+    "on": [
+     "you",
+     "bot"
+    ],
+    "side": 1
+   },
+   "focus": [
+    "you",
+    "bot"
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "id": "bot",
+   "at": "0:foresee",
+   "dur": 0.5,
+   "wobble": true
+  },
+  {
+   "id": "bot",
+   "at": "1:next",
+   "dur": 0.4,
+   "pose": "point"
+  },
+  {
+   "id": "you",
+   "at": "2:written",
+   "dur": 0.4,
+   "pose": "think"
+  },
+  {
+   "id": [
+    "b1",
+    "b2",
+    "b3"
+   ],
+   "at": "3:particle",
+   "dur": 0.6,
+   "wobble": true
+  },
+  {
+   "id": "you",
+   "at": "5:hypothesis",
+   "dur": 0.4,
+   "pose": "shrug"
+  },
+  {
+   "id": "scr",
+   "at": "6",
+   "dur": 0.4,
+   "show": true
+  },
+  {
+   "id": "you",
+   "at": "8:different",
+   "dur": 0.4,
+   "pose": "shock"
+  },
+  {
+   "id": "b1",
+   "at": "9:explode",
+   "until": "9:explode+1.4",
+   "pos": [
+    -0.8,
+    0.4,
+    -2.4
+   ]
+  },
+  {
+   "id": "b2",
+   "at": "9:explode",
+   "until": "9:explode+1.4",
+   "pos": [
+    2.8,
+    0.4,
+    -2.6
+   ]
+  },
+  {
+   "id": "b3",
+   "at": "11:position",
+   "dur": 0.6,
+   "wobble": true
+  },
+  {
+   "id": "bot",
+   "at": "13:predict",
+   "dur": 0.5,
+   "wobble": true
+  },
+  {
+   "id": "you",
+   "at": "15",
+   "dur": 0.4,
+   "pose": "stand"
+  },
+  {
+   "id": "you",
+   "at": "16",
+   "dur": 0.4,
+   "pose": "think"
+  }
+ ],
+ "overlays": [
+  {
+   "type": "icon",
+   "icon": "eye",
+   "on": "bot",
+   "from": "0:foresee",
+   "to": "1"
+  },
+  {
+   "type": "label",
+   "text": "YOU",
+   "color": "yellow",
+   "on": "you",
+   "from": "1",
+   "to": "2"
+  },
+  {
+   "type": "question",
+   "on": "you",
+   "from": "2:written",
+   "to": "3"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "laplace",
+    1
+   ],
+   "caption": "Pierre-Simon Laplace (1749-1827)",
+   "from": "3",
+   "to": "3:future-0.1"
+  },
+  {
+   "type": "label",
+   "text": "LAPLACE'S DEMON",
+   "on": "bot",
+   "from": "4:demon",
+   "to": "5"
+  },
+  {
+   "type": "label",
+   "text": "\"NO NEED OF THAT HYPOTHESIS\"",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "5:need",
+   "to": "6"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "hurricane",
+    2
+   ],
+   "caption": "Hurricane Isabel, seen from the space station",
+   "from": "6:weather",
+   "to": "7-0.2"
+  },
+  {
+   "type": "label",
+   "text": "0.506127 → 0.506",
+   "on": "scr",
+   "from": "7:rounded",
+   "to": "8"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "butterfly",
+    0
+   ],
+   "caption": "One butterfly",
+   "from": "9:butterfly",
+   "to": "10-0.2"
+  },
+  {
+   "type": "photo",
+   "pick": [
+    "heisenberg",
+    0
+   ],
+   "caption": "Heisenberg (back row) at the Solvay conference, 1927",
+   "from": "11:Heisenberg",
+   "to": "12-0.2"
+  },
+  {
+   "type": "label",
+   "text": "A BLURRED START",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "12:blur",
+   "to": "13"
+  },
+  {
+   "type": "xmark",
+   "on": "bot",
+   "from": "13:no",
+   "to": "14"
+  },
+  {
+   "type": "label",
+   "text": "PREDICT YOUR OWN PREDICTION…",
+   "pos": [
+    540,
+    1250
+   ],
+   "from": "14:own",
+   "to": "15"
+  },
+  {
+   "type": "pill",
+   "text": "Would it matter?",
+   "from": "16:matter"
+  }
+ ],
+ "sfx": [
+  {
+   "at": "9:explode",
+   "s": "whoosh",
+   "gain": 0.3
+  },
+  {
+   "at": "13:no",
+   "s": "error",
+   "gain": 0.25
+  }
+ ],
+ "music": {
+  "mood": "wonder"
+ },
+ "sources": [
+  "https://plato.stanford.edu/entries/determinism-causal/",
+  "https://www.gutenberg.org/ebooks/58881",
+  "https://www.technologyreview.com/2011/02/22/196987/when-the-butterfly-effect-took-flight/",
+  "https://arxiv.org/abs/0708.1362",
+  "https://en.wikipedia.org/wiki/Laplace%27s_demon"
+ ],
+ "post": {
+  "caption": "In 1814 Laplace imagined a mind that knows every particle and foresees everything, including your next choice. Then chaos, quantum physics and a 2008 proof each broke it in a different way.\nWould it matter if your future was already written?",
+  "tags": [
+   "#philosophy",
+   "#determinism",
+   "#freewill",
+   "#chaostheory",
+   "#physics"
+  ],
+  "youtube_title": "Could a Perfect Mind Predict Your Next Choice?"
+ }
+}

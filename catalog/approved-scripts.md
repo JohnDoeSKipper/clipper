@@ -1,6 +1,30 @@
 # Model scripts (newest first)
 The writer reads the top two of its channel before writing and matches or beats them: same spine (beats in order, every sentence linked to the one before), never the same facts or hooks. Each script the writer makes is added at the top in this format. Kept to the last 12.
 
+## laplaces-demon (philosophy, 2026-11-27)
+
+Angle: If a mind knew every particle in the universe, could it predict what you'll do next?
+Logline: In 1814 Laplace imagined a mind that foresees everything, so is your future written? He said an intellect knowing every particle would see the future like the past, but in 1961 a rounded weather simulation diverged completely, so tiny errors explode, but the demon would need perfect data, and Heisenberg showed physics forbids it, but the strangest limit is logical: no predictor can predict itself, so the future may be fixed but no mind inside it can read it all.
+On-screen hook: A MIND THAT KNOWS EVERYTHING
+
+[hook] In 1814, a mathematician imagined a mind that could foresee everything.
+[hook / detail] Including what you'll do next.
+[question / so] So if the universe runs like clockwork, is your future already written?
+[reveal1 / answer] Pierre-Simon Laplace wrote that a mind knowing every particle and force would see the future like the past.
+[reveal1 / detail] Later writers called it Laplace's demon.
+[reveal1 / detail] Asked by Napoleon where God fitted in, he reportedly said: I had no need of that hypothesis.
+[reveal2 / but] But in 1961, a weather simulation broke the dream.
+[reveal2 / detail] To save time, a meteorologist re-ran it with numbers rounded from six decimals to three.
+[reveal2 / so] Within simulated weeks, the weather was completely different.
+[reveal2 / so] Tiny errors explode: the famous butterfly in Brazil that sets off a tornado in Texas.
+[reveal3 / but] But the demon would also need perfect measurements, and physics forbids them.
+[reveal3 / because] In 1927, Werner Heisenberg showed you can't know a particle's position and momentum exactly at once.
+[reveal3 / so] So even a perfect mind would start from a blur.
+[turn / but] But the strangest limit is pure logic: in 2008, a physicist proved no predictor can predict everything.
+[turn / because] Inside the universe, it would have to predict its own predictions, forever.
+[payoff / so] So the future might be fixed, but no mind inside it can ever read all of it.
+[payoff / so] If no one could ever predict your choice, would it matter whether it was written?
+
 ## hunters-in-snow (paintings, 2026-11-27)
 
 Angle: Why did Bruegel paint a failed hunt in a frozen village, and put the Alps behind it?
@@ -252,24 +276,3 @@ On-screen hook: HIGHER FALL, FEWER INJURIES?
 [turn / detail] The famous plane covered in red dots was drawn in 2005.
 [payoff / so] So the lesson outlives the legend: for every dropout billionaire, thousands of dropouts went broke.
 [payoff / so] Whose stories are you not hearing, because they never made it back?
-
-## milkmaid (paintings, 2026-11-27)
-
-Angle: Why did Vermeer spend a blue costlier than gold on a kitchen maid?
-Logline: Her apron is a blue costlier than gold, so why spend it on a maid? Dutch art made maids a joke, and the hints are still here, a foot warmer and a Cupid tile, but Vermeer took most of the joke out, painting out a jug rack and a laundry basket, so what's left is a woman, a wall and light, and she's making bread pudding, thrift not lust, but Vermeer died in debt, while in 1908 the state paid 550,000 guilders for her, so the maid in a king's blue became a national treasure.
-On-screen hook: A BLUE COSTLIER THAN GOLD
-
-[hook] This maid's apron is painted in a blue costlier than gold.
-[hook / detail] Ultramarine, ground from lapis lazuli mined in Afghanistan.
-[question / so] So why spend a fortune on a servant pouring milk?
-[reveal1 / answer] In Dutch paintings of the time, kitchen maids were often a joke about lust.
-[reveal1 / detail] The hints are still here: a foot warmer, and beside it a tiny Cupid on a tile.
-[reveal2 / but] But Vermeer took most of the joke out.
-[reveal2 / detail] In 2022, scans found a jug rack he had painted out of this bare wall.
-[reveal2 / detail] Behind the foot warmer, he removed a big laundry basket too.
-[reveal2 / so] So what's left is a woman, a wall, and light.
-[reveal3 / so] So the light does the work: even the bread glitters with tiny dots of paint.
-[reveal3 / detail] And she's probably making bread pudding from stale crusts: thrift, not flirtation.
-[turn / but] But Vermeer himself died in debt at 43, leaving eleven children.
-[turn / but] In 1908, the Dutch state paid 550,000 guilders for this small canvas.
-[payoff / so] So the maid he dressed in a king's blue became a national treasure.
