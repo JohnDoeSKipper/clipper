@@ -1,6 +1,30 @@
 # Model scripts (newest first)
 The writer reads the top two of its channel before writing and matches or beats them: same spine (beats in order, every sentence linked to the one before), never the same facts or hooks. Each script the writer makes is added at the top in this format. Kept to the last 12.
 
+## milgram (philosophy, 2026-11-27)
+
+Angle: Would you hurt someone just because an authority told you to?
+Logline: Two in three pressed the 450-volt switch, so would you hurt someone on command? Milgram's 1961 Yale study used an actor and fake shocks, asking the Eichmann question, but obedience wasn't fixed: a shabby office, a phone, rebel peers all cut it, but the strongest clue was the words, because people stopped when told they had no choice, so they were serving science, not orders, but Milgram's files show many doubted the shocks, so it shows how far we go for something we trust.
+On-screen hook: THE MAN NEXT DOOR WENT QUIET
+
+[hook] Two out of three people pressed the switch marked 450 volts.
+[hook / detail] The man screaming next door had already gone silent.
+[question / so] So would you hurt someone just because an authority told you to?
+[reveal1 / answer] In 1961, Yale psychologist Stanley Milgram recruited 40 men for a memory study.
+[reveal1 / detail] Each shocked a learner for wrong answers, 15 volts higher each time.
+[reveal1 / but] The learner was an actor and the shocks were fake, but the volunteers didn't know.
+[reveal1 / because] Milgram was testing a question from the Eichmann trial, then under way in Jerusalem.
+[reveal2 / but] But obedience wasn't fixed.
+[reveal2 / detail] In a shabby office in Bridgeport instead of Yale, it fell to 48 percent.
+[reveal2 / detail] With orders by phone, about 20; with two fellow teachers refusing, just 10.
+[reveal3 / but] But the strongest clue was in the words.
+[reveal3 / detail] The scientist's prods ran from please continue, to you have no other choice.
+[reveal3 / but] Later analysis found that when told they had no choice, people stopped.
+[reveal3 / so] So they weren't simply obeying; they were serving a cause they believed in: science.
+[turn / but] But in 2012, a researcher reading Milgram's files found many volunteers doubted the shocks were real.
+[payoff / so] So it shows less blind obedience than how far we'll go for something we trust.
+[payoff / so] What cause would get you to press that switch?
+
 ## laplaces-demon (philosophy, 2026-11-27)
 
 Angle: If a mind knew every particle in the universe, could it predict what you'll do next?
@@ -252,27 +276,3 @@ On-screen hook: HIS HOMETOWN SAID NO
 [reveal3 / so] In 1939, it entered New York's Museum of Modern Art.
 [turn / but] But in his lifetime, critics laughed at him, and young painters threw him a half-mocking banquet.
 [payoff / so] So the amateur everyone laughed at painted the dream the professionals couldn't.
-
-## survivorship-bias (philosophy, 2026-11-27)
-
-Angle: Why do the cats that fall farthest seem to get hurt least?
-Logline: Cats from higher floors seemed to get hurt less, so is a longer fall safer? No, because dead cats never reached the vet, so only survivors were counted, but the classic case came from war: bombers came home with holes on wings and fuselage, so the plan was to armour the holes, but the statistician saw that planes hit in the engines never came back, so armour goes where there are no holes, but the famous red-dotted plane was drawn in 2005, so ask whose stories didn't make it back.
-On-screen hook: HIGHER FALL, FEWER INJURIES?
-
-[hook] Cats that fell from higher floors seemed to get hurt less.
-[hook / detail] In 1987, New York vets studied 132 cats that fell from high-rise windows.
-[question / so] So is a longer fall safer, or are we missing something?
-[reveal1 / answer] We're missing the cats that never reached the vet.
-[reveal1 / because] A cat killed by a long fall was rarely brought in, so it never entered the data.
-[reveal1 / so] That's survivorship bias: judging only by what made it through.
-[reveal2 / but] But the classic case came from World War Two.
-[reveal2 / detail] In 1943, a statistics group at Columbia University studied bombers that came back.
-[reveal2 / detail] Their bullet holes clustered on the wings and fuselage, not the engines.
-[reveal2 / so] So, the story goes, the plan was to add armour where the holes were.
-[reveal3 / but] But the group's statistician saw the opposite.
-[reveal3 / because] Planes hit in the engines didn't come back to be counted.
-[reveal3 / so] So armour belongs exactly where the returning planes show no holes.
-[turn / but] But the legend is tidier than the truth: his reports were pages of equations.
-[turn / detail] The famous plane covered in red dots was drawn in 2005.
-[payoff / so] So the lesson outlives the legend: for every dropout billionaire, thousands of dropouts went broke.
-[payoff / so] Whose stories are you not hearing, because they never made it back?

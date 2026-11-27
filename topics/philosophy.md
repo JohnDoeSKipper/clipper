@@ -33,6 +33,6 @@ Check what the original experiment or argument actually says (and whether later 
 - made | laplaces-demon | Laplace's Demon | ps2 | a mind that knows every atom; is your next choice already written?
 - requested | grandfather-paradox | The Grandfather Paradox | ps2 | a time-travel door; you meet your grandfather
 - todo | spotlight-effect | The Spotlight Effect | clay | you think everyone noticed your stain; nobody did
-- requested | milgram | The Milgram Experiment | ps2 | a button, a man in a coat saying "please continue"; how far people went
+- made | milgram | The Milgram Experiment | ps2 | a button, a man in a coat saying "please continue"; how far people went
 - todo | paradox-of-choice | The Paradox of Choice | clay | 6 jams against 24 jams; more options, fewer buyers (and the replication doubts)
 - todo | hedonic-treadmill | The Hedonic Treadmill | clay | cash, crown, house; a year later the same face
