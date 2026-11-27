@@ -44,6 +44,11 @@
    "channel": "paintings",
    "handed_out": "2026-11-27",
    "at": "2026-11-27T02:22+08:00"
+  },
+  "the-kiss": {
+   "channel": "paintings",
+   "handed_out": "2026-11-28",
+   "at": "2026-11-28T03:25+08:00"
   }
  },
  "philosophy": {
@@ -91,6 +96,11 @@
    "channel": "philosophy",
    "handed_out": "2026-11-27",
    "at": "2026-11-27T02:22+08:00"
+  },
+  "prisoners-dilemma": {
+   "channel": "philosophy",
+   "handed_out": "2026-11-28",
+   "at": "2026-11-28T03:25+08:00"
   }
  }
 }
