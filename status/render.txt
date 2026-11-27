@@ -1,0 +1,17 @@
+render workflow: cancelled on 2026-11-27 14:07
+run: https://github.com/JohnDoeSKipper/clipper/actions/runs/45943938860
+
+== achilles-tortoise philosophy
+[0;93m2026-11-27 05:08:53.193516112 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+   frame 0/634  10s
+   frame 300/634  1299s
+   frame 600/634  2107s
+  narration 84.5s, caption alignment 97%
+   beats: hook 0-9s | question 10-12s | reveal1 13-27s | reveal2 27-44s | reveal3 45-60s | turn 60-74s | payoff 74-83s
+   84s, 208 words, 17 sentences
+WARNING: a shot lasts 6.7s; cut to a new angle at least every 5s or so
+   2534 frames in 2409s (4 workers, clay)
+   done out/achilles-tortoise.mp4
+== buridans-donkey philosophy
+[0;93m2026-11-27 05:50:10.464691946 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+   frame 0/644  9s
