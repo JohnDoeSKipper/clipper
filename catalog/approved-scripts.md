@@ -1,6 +1,28 @@
 # Model scripts (newest first)
 The writer reads the top two of its channel before writing and matches or beats them: same spine (beats in order, every sentence linked to the one before), never the same facts or hooks. Each script the writer makes is added at the top in this format. Kept to the last 12.
 
+## ophelia (paintings, 2026-11-27)
+
+Angle: Why did painting a drowning nearly make its model seriously ill?
+Logline: Millais kept his model in a cold bath, so why such lengths? The Pre-Raphaelites swore to paint nature exactly, so he painted the riverbank outdoors for five months, but Ophelia had to be painted indoors in winter, so Siddal floated in a bath warmed by lamps that went out, so she fell ill and he paid the doctor, but the real story is the flowers, exact, symbolic and impossible together, but Siddal herself died young ten years later, so every petal is real and the drowning was nearly real too.
+On-screen hook: A MODEL IN A COLD BATH
+
+[hook] Millais kept his model in a cold bath to paint this drowning.
+[hook / so] She fell seriously ill, and her father threatened to sue.
+[question / so] So why go to such lengths for a scene from Hamlet?
+[reveal1 / answer] Millais, 22, was a Pre-Raphaelite, sworn to paint nature exactly as it is.
+[reveal1 / so] So he painted this riverbank outdoors for five months, eleven hours a day.
+[reveal2 / but] But Ophelia herself was painted indoors, in winter.
+[reveal2 / detail] Elizabeth Siddal, 19, floated in a bath, warmed by oil lamps underneath.
+[reveal2 / but] One day the lamps went out, and Millais didn't notice.
+[reveal2 / so] She caught a severe cold, and he paid her doctor's bills.
+[reveal3 / but] But the real story is in the flowers.
+[reveal3 / detail] Poppies for death, violets for faithfulness, pansies for love in vain.
+[reveal3 / but] They bloom in different seasons: no real riverbank holds them all at once.
+[reveal3 / detail] Even the robin echoes her song: bonny sweet Robin is all my joy.
+[turn / but] But Siddal's own story ended young: she died of a laudanum overdose at 32.
+[payoff / so] So every petal is real, and the drowning came close to real too.
+
 ## newcombs-paradox (philosophy, 2026-11-27)
 
 Angle: If a near-perfect predictor has already filled the boxes, should you take one box or both?
@@ -252,27 +274,3 @@ On-screen hook: PIGEONS BEAT PEOPLE
 [turn / detail] On his show, he didn't always offer a switch, and used offers to play with contestants' nerves.
 [payoff / so] So the maths is simple only when the rules are fixed.
 [payoff / so] When someone offers you a second choice, do you ask why they're offering it?
-
-## violinist (philosophy, 2026-11-27)
-
-Angle: If someone needs your body to stay alive, are you obliged to let them use it?
-Logline: You wake up plugged into a dying violinist, so must you stay? An MIT philosopher built the case in 1971 and expected most people to say you may unplug, but it was really about abortion: grant the foetus is a person, and a right to life still isn't a right to someone's body, but a Pittsburgh court faced it for real in 1978 and refused to force a marrow donation, so the dying man died, but critics answer that you were kidnapped and unplugging only lets die, so the question is what we owe each other's bodies.
-On-screen hook: PLUGGED INTO A STRANGER
-
-[hook] You wake up with a stranger's blood running through your kidneys.
-[hook / detail] Unplug him, and he dies; stay in bed nine months, and he lives.
-[question / so] So are you obliged to stay plugged in?
-[reveal1 / answer] An MIT philosopher, who later named the trolley problem, built this scene in 1971.
-[reveal1 / detail] A society of music lovers kidnapped you: only your blood could save their famous violinist.
-[reveal1 / so] Most people say you may unplug, even though he's a person with a right to life.
-[reveal2 / but] But the violinist was never about music: the paper was about abortion.
-[reveal2 / detail] For argument's sake, she granted that a foetus is a person from conception.
-[reveal2 / but] Even so, she argued, a right to life isn't a right to use someone else's body.
-[reveal3 / but] But a court had to face the same question for real, in Pittsburgh in 1978.
-[reveal3 / detail] A man dying of a rare anaemia needed bone marrow, and only his cousin matched.
-[reveal3 / detail] The cousin refused; the judge called that morally indefensible.
-[reveal3 / but] Still, the court would not force him, and the man died weeks later.
-[turn / but] But critics answer: you were kidnapped, while most pregnancies follow a choice.
-[turn / detail] Unplugging lets someone die, they add; abortion kills.
-[payoff / so] So people split less over who is a person than over what we owe with our bodies.
-[payoff / so] Does a right to life include a right to someone else's body?

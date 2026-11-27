@@ -1,0 +1,294 @@
+{
+ "id": "ophelia",
+ "channel": "paintings",
+ "angle": "Why did painting a drowning nearly make its model seriously ill?",
+ "answer": "Millais, a Pre-Raphaelite sworn to paint nature exactly, spent five months painting the riverbank outdoors and then had Elizabeth Siddal float in a lamp-warmed bath in winter; the lamps went out and she fell ill; every flower is botanically exact and symbolic, though they bloom in different seasons, and Siddal herself later died young.",
+ "logline": "Millais kept his model in a cold bath, so why such lengths? The Pre-Raphaelites swore to paint nature exactly, so he painted the riverbank outdoors for five months, but Ophelia had to be painted indoors in winter, so Siddal floated in a bath warmed by lamps that went out, so she fell ill and he paid the doctor, but the real story is the flowers, exact, symbolic and impossible together, but Siddal herself died young ten years later, so every petal is real and the drowning was nearly real too.",
+ "hook_text": "A MODEL IN A COLD BATH",
+ "hooks": [
+  "Every flower in this painting means something.",
+  "These flowers could never bloom at the same time."
+ ],
+ "painting": {
+  "title": "Ophelia",
+  "artist": "John Everett Millais",
+  "year": "1851-1852",
+  "museum": "Tate Britain, London"
+ },
+ "script": [
+  {
+   "text": "Millais kept his model in a cold bath to paint this drowning.",
+   "beat": "hook"
+  },
+  {
+   "text": "She fell seriously ill, and her father threatened to sue.",
+   "beat": "hook",
+   "link": "so"
+  },
+  {
+   "text": "So why go to such lengths for a scene from Hamlet?",
+   "beat": "question",
+   "link": "so"
+  },
+  {
+   "text": "Millais, 22, was a Pre-Raphaelite, sworn to paint nature exactly as it is.",
+   "say": "Millais, twenty-two, was a Pre-Raphaelite, sworn to paint nature exactly as it is.",
+   "beat": "reveal1",
+   "link": "answer"
+  },
+  {
+   "text": "So he painted this riverbank outdoors for five months, eleven hours a day.",
+   "beat": "reveal1",
+   "link": "so"
+  },
+  {
+   "text": "But Ophelia herself was painted indoors, in winter.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "Elizabeth Siddal, 19, floated in a bath, warmed by oil lamps underneath.",
+   "say": "Elizabeth Siddal, nineteen, floated in a bath, warmed by oil lamps underneath.",
+   "beat": "reveal2",
+   "link": "detail"
+  },
+  {
+   "text": "One day the lamps went out, and Millais didn't notice.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "She caught a severe cold, and he paid her doctor's bills.",
+   "beat": "reveal2",
+   "link": "so"
+  },
+  {
+   "text": "But the real story is in the flowers.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "Poppies for death, violets for faithfulness, pansies for love in vain.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "They bloom in different seasons: no real riverbank holds them all at once.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "Even the robin echoes her song: bonny sweet Robin is all my joy.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "But Siddal's own story ended young: she died of a laudanum overdose at 32.",
+   "say": "But Siddal's own story ended young: she died of a laudanum overdose at thirty-two.",
+   "beat": "turn",
+   "link": "but"
+  },
+  {
+   "text": "So every petal is real, and the drowning came close to real too.",
+   "beat": "payoff",
+   "link": "so"
+  }
+ ],
+ "music": {
+  "piece": "chopin-prelude-e-minor"
+ },
+ "timeline": [
+  {
+   "type": "reveal",
+   "from": [
+    0.255,
+    0.605,
+    2.6
+   ],
+   "until": 3.2
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.36,
+    0.62,
+    0.15,
+    0.1
+   ],
+   "ring": "1",
+   "zoom": "1+0.4",
+   "out": "2-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "millais",
+    1
+   ],
+   "caption": "Millais's Mariana, painted the same year",
+   "at": "3",
+   "to": "4-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "hogsmill",
+    0
+   ],
+   "caption": "The Hogsmill River at Ewell, Surrey, today",
+   "at": "4",
+   "to": "5-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.255,
+    0.605,
+    0.06,
+    0.06
+   ],
+   "ring": "5",
+   "zoom": "5+0.4",
+   "out": "6-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "siddal",
+    0
+   ],
+   "caption": "Elizabeth Siddal, drawn by Rossetti",
+   "at": "6",
+   "to": "7-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.68,
+    0.73,
+    0.22,
+    0.11
+   ],
+   "ring": "7",
+   "zoom": "7+0.4",
+   "out": "8-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.465,
+    0.578,
+    0.035,
+    0.045
+   ],
+   "ring": "8",
+   "zoom": "8+0.4",
+   "out": "9-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.42,
+    0.74,
+    0.12,
+    0.06
+   ],
+   "ring": "9",
+   "zoom": "9+0.4",
+   "out": "10-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.41,
+    0.745,
+    0.03,
+    0.035
+   ],
+   "ring": "10",
+   "zoom": "10+0.4",
+   "label": "POPPY: DEATH",
+   "labelAt": "10:Poppies",
+   "out": "10:pansies-0.1",
+   "then": {
+    "region": [
+     0.31,
+     0.64,
+     0.045,
+     0.035
+    ],
+    "ring": "10:violets",
+    "zoom": "10:violets+0.3",
+    "label": "VIOLETS: FAITHFULNESS",
+    "labelAt": "10:faithfulness"
+   }
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "poppy",
+    1
+   ],
+   "caption": "A red poppy",
+   "at": "10:pansies",
+   "to": "11-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.66,
+    0.3,
+    0.17,
+    0.2
+   ],
+   "ring": "11",
+   "zoom": "11+0.4",
+   "label": "DIFFERENT SEASONS",
+   "labelAt": "11:seasons",
+   "out": "12-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "robin",
+    1
+   ],
+   "caption": "A European robin",
+   "at": "12",
+   "to": "13-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "siddal",
+    1
+   ],
+   "caption": "Siddal, sketched by her husband, Rossetti",
+   "at": "13",
+   "to": "14-0.3"
+  }
+ ],
+ "sources": [
+  "https://www.tate.org.uk/art/artworks/millais-ophelia-n01506",
+  "https://www.tate.org.uk/art/artworks/millais-ophelia-n01506/story-ophelia",
+  "https://smarthistory.org/millais-ophelia/",
+  "https://en.wikipedia.org/wiki/Ophelia_(painting)"
+ ],
+ "post": {
+  "caption": "To paint Ophelia drowning, Millais had Elizabeth Siddal float in a bath warmed by lamps. The lamps went out, he didn't notice, and she fell seriously ill. Every flower around her is a message.\nWhich flower would you pick for yourself?",
+  "tags": [
+   "#arthistory",
+   "#millais",
+   "#ophelia",
+   "#prerafaelites",
+   "#tatebritain"
+  ],
+  "youtube_title": "Millais Kept His Model in a Cold Bath for Ophelia"
+ }
+}
