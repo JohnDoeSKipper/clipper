@@ -12,42 +12,6 @@
   "desc": ""
  },
  "inserts": {
-  "chapel": [
-   {
-    "title": "File:S.m. maggiore, cappella del ss. sacramento (sistina), del fontana (1584-7) con marmi dal settizionio 06.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/S.m._maggiore%2C_cappella_del_ss._sacramento_%28sistina%29%2C_del_fontana_%281584-7%29_con_marmi_dal_settizionio_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/6/62/S.m._maggiore%2C_cappella_del_ss._sacramento_%28sistina%29%2C_del_fontana_%281584-7%29_con_marmi_dal_settizionio_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 3648,
-    "height": 2736,
-    "licence": "CC BY 3.0",
-    "artist": "Sailko",
-    "credit": "Sailko / CC BY 3.0",
-    "desc": "Santa Maria Maggiore (Roma)"
-   },
-   {
-    "title": "File:S.m. maggiore, cappella del ss. sacramento (sistina), del fontana (1584-7) con marmi dal settizionio 05.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/S.m._maggiore%2C_cappella_del_ss._sacramento_%28sistina%29%2C_del_fontana_%281584-7%29_con_marmi_dal_settizionio_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/7/77/S.m._maggiore%2C_cappella_del_ss._sacramento_%28sistina%29%2C_del_fontana_%281584-7%29_con_marmi_dal_settizionio_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 3648,
-    "height": 2736,
-    "licence": "CC BY 3.0",
-    "artist": "Sailko",
-    "credit": "Sailko / CC BY 3.0",
-    "desc": "Santa Maria Maggiore (Roma)"
-   },
-   {
-    "title": "File:Cappella Sistina - Santa Maria Maggiore - Rome, Italy - DSC05696.jpg",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Cappella_Sistina_-_Santa_Maria_Maggiore_-_Rome%2C_Italy_-_DSC05696.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "full": "https://upload.wikimedia.org/wikipedia/commons/2/28/Cappella_Sistina_-_Santa_Maria_Maggiore_-_Rome%2C_Italy_-_DSC05696.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "width": 3648,
-    "height": 5472,
-    "licence": "Public domain",
-    "artist": "Daderot",
-    "credit": "",
-    "desc": "Santa Maria Maggiore - Rome, Italy."
-   }
-  ],
-  "chapel2": [],
   "brain": [
    {
     "title": "File:DTI-sagittal-fibers.jpg",
@@ -83,7 +47,19 @@
     "desc": "A human brain cut in sagittal section, preserved in formaldehyde. Museu did\u00e1tico do corpo humano (Didactic museum of the human body), Universidade de Taubat\u00e9."
    }
   ],
-  "sketch": [],
+  "sketch": [
+   {
+    "title": "File:\u201cI\u2019 ho gi\u00e0 fatto un gozzo\u201d (\u201cI\u2019ve Grown a Goitre\u201d) \u2013 Michelangelo.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/%E2%80%9CI%E2%80%99_ho_gi%C3%A0_fatto_un_gozzo%E2%80%9D_%28%E2%80%9CI%E2%80%99ve_Grown_a_Goitre%E2%80%9D%29_%E2%80%93_Michelangelo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "full": "https://upload.wikimedia.org/wikipedia/commons/b/b8/%E2%80%9CI%E2%80%99_ho_gi%C3%A0_fatto_un_gozzo%E2%80%9D_%28%E2%80%9CI%E2%80%99ve_Grown_a_Goitre%E2%80%9D%29_%E2%80%93_Michelangelo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "width": 1018,
+    "height": 1400,
+    "licence": "Public domain",
+    "artist": "Michelangelo Buonarroti",
+    "credit": "",
+    "desc": "A sonnet by Michelangelo Buonarroti on painting the Sistine Chapel ceiling, accompanied by a sketch of himself in the act of painting. Probably to Giovanni di B"
+   }
+  ],
   "michelangelo": [
    {
     "title": "File:Michelangelo Daniele da Volterra (dettaglio).jpg",
