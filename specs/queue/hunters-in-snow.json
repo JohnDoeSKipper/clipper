@@ -1,0 +1,287 @@
+{
+ "id": "hunters-in-snow",
+ "channel": "paintings",
+ "angle": "Why did Bruegel paint a failed hunt in a frozen village, and put the Alps behind it?",
+ "answer": "It was painted after the brutal winter of 1564-65 as one of a series of the months for an Antwerp merchant's villa; the hunters bring home a single fox, the village is locked in ice, and the Alpine peaks Bruegel saw on his Italian journey turn one Flemish valley into a whole world; the merchant's debts sent the set to the Habsburgs, which is why it hangs in Vienna.",
+ "logline": "The hunters bring home one skinny fox, so why paint failure? It was 1565, after one of the harshest winters, as Europe slid into the Little Ice Age, so the village is ice, but on the horizon rise Alps that Flanders doesn't have, because Bruegel had crossed them years before, so it's a whole world, but it was made for a merchant's dining room as a series of months, but debt sent the set to a Habsburg archduke, so a failed hunt ended in one of Europe's great collections.",
+ "hook_text": "ALL DAY. ONE FOX.",
+ "hooks": [
+  "Flanders is flat. So where do these mountains come from?",
+  "Look closely: the inn sign is hanging by one hook."
+ ],
+ "painting": {
+  "title": "Hunters in the Snow",
+  "artist": "Pieter Bruegel the Elder",
+  "year": "1565",
+  "museum": "Kunsthistorisches Museum, Vienna"
+ },
+ "script": [
+  {
+   "text": "After a day's hunting, these men bring home one skinny fox.",
+   "beat": "hook"
+  },
+  {
+   "text": "Their dogs trudge behind them, heads down.",
+   "beat": "hook",
+   "link": "detail"
+  },
+  {
+   "text": "So why did Bruegel paint a winter of failure?",
+   "say": "So why did Broy-gel paint a winter of failure?",
+   "beat": "question",
+   "link": "so"
+  },
+  {
+   "text": "He painted it in 1565, after one of the harshest winters in memory.",
+   "say": "He painted it in fifteen sixty-five, after one of the harshest winters in memory.",
+   "beat": "reveal1",
+   "link": "answer"
+  },
+  {
+   "text": "Europe was sliding into the Little Ice Age, when even London's Thames froze.",
+   "beat": "reveal1",
+   "link": "because"
+  },
+  {
+   "text": "So the valley is locked in ice: skaters, a frozen mill, a fire for warmth.",
+   "beat": "reveal1",
+   "link": "so"
+  },
+  {
+   "text": "But look at the horizon: jagged Alpine peaks.",
+   "beat": "reveal2",
+   "link": "but"
+  },
+  {
+   "text": "Flanders is flat; Bruegel had crossed the Alps on his journey to Italy.",
+   "say": "Flanders is flat; Broy-gel had crossed the Alps on his journey to Italy.",
+   "beat": "reveal2",
+   "link": "because"
+  },
+  {
+   "text": "So this isn't one real place; it's a whole world seen from a hilltop.",
+   "beat": "reveal2",
+   "link": "so"
+  },
+  {
+   "text": "But it was made for a dining room.",
+   "beat": "reveal3",
+   "link": "but"
+  },
+  {
+   "text": "An Antwerp merchant ordered a series of the months; five survive.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "Even the inn sign is a joke: a hunting saint, dangling from one hook.",
+   "beat": "reveal3",
+   "link": "detail"
+  },
+  {
+   "text": "But the merchant fell into debt, and pledged his paintings.",
+   "beat": "turn",
+   "link": "but"
+  },
+  {
+   "text": "In 1594, Antwerp gave the set to a Habsburg archduke; that's why it's in Vienna.",
+   "say": "In fifteen ninety-four, Antwerp gave the set to a Habsburg archduke; that's why it's in Vienna.",
+   "beat": "turn",
+   "link": "so"
+  },
+  {
+   "text": "So a hunt that caught almost nothing ended in one of Europe's richest collections.",
+   "beat": "payoff",
+   "link": "so"
+  }
+ ],
+ "music": {
+  "piece": "mussorgsky-old-castle"
+ },
+ "timeline": [
+  {
+   "type": "reveal",
+   "from": [
+    0.33,
+    0.72,
+    2.6
+   ],
+   "until": 3.2
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.13,
+    0.82,
+    0.13,
+    0.1
+   ],
+   "ring": "1",
+   "zoom": "1+0.4",
+   "label": "HEADS DOWN",
+   "labelAt": "1:dogs",
+   "out": "2-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "bruegel",
+    0
+   ],
+   "caption": "Pieter Bruegel the Elder, engraved portrait",
+   "at": "2",
+   "to": "3-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.6,
+    0.45,
+    0.35,
+    0.25
+   ],
+   "ring": "3",
+   "zoom": "3+0.4",
+   "out": "4-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "frostfair",
+    1
+   ],
+   "caption": "A frost fair on the frozen Thames, 1680s",
+   "at": "4",
+   "to": "5-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.78,
+    0.6,
+    0.13,
+    0.08
+   ],
+   "ring": "5",
+   "zoom": "5+0.4",
+   "label": "SKATERS",
+   "labelAt": "5:skaters",
+   "out": "5:fire-0.1",
+   "then": {
+    "region": [
+     0.1,
+     0.64,
+     0.05,
+     0.05
+    ],
+    "ring": "5:fire",
+    "zoom": "5:fire+0.2"
+   }
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.88,
+    0.22,
+    0.1,
+    0.1
+   ],
+   "ring": "6",
+   "zoom": "6+0.4",
+   "label": "THE ALPS",
+   "labelAt": "6:Alpine",
+   "out": "7-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "alps",
+    2
+   ],
+   "caption": "The Alps, which Bruegel crossed in the 1550s",
+   "at": "7",
+   "to": "8-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.55,
+    0.45,
+    0.4,
+    0.3
+   ],
+   "ring": "8",
+   "zoom": "8+0.4",
+   "out": "9-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "gloomy",
+    1
+   ],
+   "caption": "The Gloomy Day, from the same series",
+   "at": "9",
+   "to": "11-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.105,
+    0.38,
+    0.03,
+    0.04
+   ],
+   "ring": "11",
+   "zoom": "11+0.4",
+   "label": "ONE HOOK",
+   "labelAt": "11:hook",
+   "out": "12-0.3"
+  },
+  {
+   "type": "highlight",
+   "region": [
+    0.31,
+    0.68,
+    0.13,
+    0.18
+   ],
+   "ring": "12",
+   "zoom": "12+0.4",
+   "out": "13-0.3"
+  },
+  {
+   "type": "insert",
+   "kind": "image",
+   "pick": [
+    "khm",
+    2
+   ],
+   "caption": "Kunsthistorisches Museum, Vienna",
+   "at": "13",
+   "to": "14-0.3"
+  }
+ ],
+ "sources": [
+  "https://www.khm.at/en/objectdb/detail/320/",
+  "https://smarthistory.org/bruegel-hunters-in-the-snow-winter/",
+  "https://www.britannica.com/topic/The-Hunters-in-the-Snow",
+  "https://en.wikipedia.org/wiki/The_Hunters_in_the_Snow",
+  "https://en.wikipedia.org/wiki/The_Months_(Bruegel)"
+ ],
+ "post": {
+  "caption": "After a whole day out, Bruegel's hunters bring home one skinny fox. Behind them rise Alps that flat Flanders never had, and the inn sign hangs by a single hook.\nWhat do you spot first?",
+  "tags": [
+   "#arthistory",
+   "#bruegel",
+   "#huntersinthesnow",
+   "#kunsthistorischesmuseum",
+   "#winter"
+  ],
+  "youtube_title": "Bruegel's Hunters Came Home With One Fox"
+ }
+}

@@ -1,6 +1,28 @@
 # Model scripts (newest first)
 The writer reads the top two of its channel before writing and matches or beats them: same spine (beats in order, every sentence linked to the one before), never the same facts or hooks. Each script the writer makes is added at the top in this format. Kept to the last 12.
 
+## hunters-in-snow (paintings, 2026-11-27)
+
+Angle: Why did Bruegel paint a failed hunt in a frozen village, and put the Alps behind it?
+Logline: The hunters bring home one skinny fox, so why paint failure? It was 1565, after one of the harshest winters, as Europe slid into the Little Ice Age, so the village is ice, but on the horizon rise Alps that Flanders doesn't have, because Bruegel had crossed them years before, so it's a whole world, but it was made for a merchant's dining room as a series of months, but debt sent the set to a Habsburg archduke, so a failed hunt ended in one of Europe's great collections.
+On-screen hook: ALL DAY. ONE FOX.
+
+[hook] After a day's hunting, these men bring home one skinny fox.
+[hook / detail] Their dogs trudge behind them, heads down.
+[question / so] So why did Bruegel paint a winter of failure?
+[reveal1 / answer] He painted it in 1565, after one of the harshest winters in memory.
+[reveal1 / because] Europe was sliding into the Little Ice Age, when even London's Thames froze.
+[reveal1 / so] So the valley is locked in ice: skaters, a frozen mill, a fire for warmth.
+[reveal2 / but] But look at the horizon: jagged Alpine peaks.
+[reveal2 / because] Flanders is flat; Bruegel had crossed the Alps on his journey to Italy.
+[reveal2 / so] So this isn't one real place; it's a whole world seen from a hilltop.
+[reveal3 / but] But it was made for a dining room.
+[reveal3 / detail] An Antwerp merchant ordered a series of the months; five survive.
+[reveal3 / detail] Even the inn sign is a joke: a hunting saint, dangling from one hook.
+[turn / but] But the merchant fell into debt, and pledged his paintings.
+[turn / so] In 1594, Antwerp gave the set to a Habsburg archduke; that's why it's in Vienna.
+[payoff / so] So a hunt that caught almost nothing ended in one of Europe's richest collections.
+
 ## ophelia (paintings, 2026-11-27)
 
 Angle: Why did painting a drowning nearly make its model seriously ill?
@@ -251,26 +273,3 @@ On-screen hook: A BLUE COSTLIER THAN GOLD
 [turn / but] But Vermeer himself died in debt at 43, leaving eleven children.
 [turn / but] In 1908, the Dutch state paid 550,000 guilders for this small canvas.
 [payoff / so] So the maid he dressed in a king's blue became a national treasure.
-
-## monty-hall (philosophy, 2026-11-27)
-
-Angle: Why does a simple game-show puzzle fool even brilliant people?
-Logline: Pigeons beat people at this puzzle, so why does it fool us? Three doors, one car, and the host shows a goat, so switching wins two times in three, but in 1990 about 10,000 readers told the columnist who said so that she was wrong, and a great mathematician held out until a simulation, because your first pick is right only a third of the time, so the host is pointing at the car, but the real Monty Hall said hosts don't play by fixed rules, so ask why you're being offered the switch.
-On-screen hook: PIGEONS BEAT PEOPLE
-
-[hook] Pigeons learn to solve this puzzle better than most people.
-[hook / detail] After a month of practice, they switched 96 percent of the time; humans, about two-thirds.
-[question / so] So why does a simple game-show puzzle fool so many smart people?
-[reveal1 / answer] Three doors: a car behind one, goats behind the other two.
-[reveal1 / detail] You pick a door; the host, who knows, opens another and shows a goat.
-[reveal1 / so] Should you switch? Yes: switching wins two times in three.
-[reveal2 / but] But in 1990, when a magazine columnist said so, about 10,000 readers wrote to tell her she was wrong.
-[reveal2 / detail] Nearly a thousand of them had PhDs.
-[reveal2 / detail] One of the century's great mathematicians refused to believe it until he saw a computer simulation.
-[reveal3 / because] The trick: your first pick is right only one time in three.
-[reveal3 / so] So two times in three, the car is behind the other doors, and the host never opens it.
-[reveal3 / detail] Picture 100 doors: you pick one, he opens 98 goats. Would you stay?
-[turn / but] But the real Monty Hall said the puzzle missed something.
-[turn / detail] On his show, he didn't always offer a switch, and used offers to play with contestants' nerves.
-[payoff / so] So the maths is simple only when the rules are fixed.
-[payoff / so] When someone offers you a second choice, do you ask why they're offering it?
