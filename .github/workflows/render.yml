@@ -127,5 +127,5 @@ jobs:
           fi
           git config user.name "clipper-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -q -m "Status: render ${{ job.status }}" || exit 0
+          git commit -q -m "Status: render ${{ job.status }}" -- status || exit 0
           for i in 1 2 3; do git pull -q --rebase && git push -q && break || sleep 5; done
