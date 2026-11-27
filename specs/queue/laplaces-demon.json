@@ -31,10 +31,10 @@
    "link": "so"
   },
   {
-   "text": "Pierre-Simon Laplace wrote that a mind knowing every particle and force would see the future like the past.",
-   "say": "Pierre-Simon La-plass wrote that a mind knowing every particle and force would see the future like the past.",
+   "text": "Pierre-Simon Laplace wrote that a mind knowing every particle would see the future like the past.",
    "beat": "reveal1",
-   "link": "answer"
+   "link": "answer",
+   "say": "Pierre-Simon La-plass wrote that a mind knowing every particle would see the future like the past."
   },
   {
    "text": "Later writers called it Laplace's demon.",
@@ -43,7 +43,7 @@
    "link": "detail"
   },
   {
-   "text": "Asked by Napoleon where God fitted in, he reportedly said: I had no need of that hypothesis.",
+   "text": "Asked by Napoleon about God, he reportedly said: I had no need of that hypothesis.",
    "beat": "reveal1",
    "link": "detail"
   },
@@ -54,7 +54,7 @@
    "link": "but"
   },
   {
-   "text": "To save time, a meteorologist re-ran it with numbers rounded from six decimals to three.",
+   "text": "A meteorologist re-ran it with numbers rounded from six decimals to three.",
    "beat": "reveal2",
    "link": "detail"
   },
@@ -64,7 +64,7 @@
    "link": "so"
   },
   {
-   "text": "Tiny errors explode: the famous butterfly in Brazil that sets off a tornado in Texas.",
+   "text": "Tiny errors explode: a butterfly in Brazil sets off a tornado in Texas.",
    "beat": "reveal2",
    "link": "so"
   },
@@ -74,10 +74,10 @@
    "link": "but"
   },
   {
-   "text": "In 1927, Werner Heisenberg showed you can't know a particle's position and momentum exactly at once.",
-   "say": "In nineteen twenty-seven, Werner Heisenberg showed you can't know a particle's position and momentum exactly at once.",
+   "text": "In 1927, Heisenberg showed you can't pin down a particle's position and momentum at once.",
    "beat": "reveal3",
-   "link": "because"
+   "link": "because",
+   "say": "In nineteen twenty-seven, Heisenberg showed you can't pin down a particle's position and momentum at once."
   },
   {
    "text": "So even a perfect mind would start from a blur.",
@@ -85,23 +85,23 @@
    "link": "so"
   },
   {
-   "text": "But the strangest limit is pure logic: in 2008, a physicist proved no predictor can predict everything.",
-   "say": "But the strangest limit is pure logic: in two thousand and eight, a physicist proved no predictor can predict everything.",
+   "text": "But the strangest limit is logic: in 2008, a physicist proved no predictor can predict everything.",
    "beat": "turn",
-   "link": "but"
+   "link": "but",
+   "say": "But the strangest limit is logic: in two thousand and eight, a physicist proved no predictor can predict everything."
   },
   {
-   "text": "Inside the universe, it would have to predict its own predictions, forever.",
+   "text": "It would have to predict its own predictions, forever.",
    "beat": "turn",
    "link": "because"
   },
   {
-   "text": "So the future might be fixed, but no mind inside it can ever read all of it.",
+   "text": "So the future might be fixed, but no mind inside it can read it all.",
    "beat": "payoff",
    "link": "so"
   },
   {
-   "text": "If no one could ever predict your choice, would it matter whether it was written?",
+   "text": "If no one could ever predict your choice, would it matter if it was written?",
    "beat": "payoff",
    "link": "so"
   }
@@ -225,7 +225,7 @@
    }
   },
   {
-   "at": "3:force",
+   "at": "3:particle",
    "cam": {
     "preset": "mid",
     "on": [

@@ -30,18 +30,18 @@
    "link": "so"
   },
   {
-   "text": "An MIT philosopher, who later named the trolley problem, built this scene in 1971.",
-   "say": "An M I T philosopher, who later named the trolley problem, built this scene in nineteen seventy-one.",
+   "text": "An MIT philosopher, who later named the trolley problem, built this in 1971.",
    "beat": "reveal1",
-   "link": "answer"
+   "link": "answer",
+   "say": "An M I T philosopher, who later named the trolley problem, built this in nineteen seventy-one."
   },
   {
-   "text": "A society of music lovers kidnapped you: only your blood could save their famous violinist.",
+   "text": "Music lovers kidnapped you: only your blood could save their famous violinist.",
    "beat": "reveal1",
    "link": "detail"
   },
   {
-   "text": "Most people say you may unplug, even though he's a person with a right to life.",
+   "text": "Most people say you may unplug, though he has a right to life.",
    "beat": "reveal1",
    "link": "so"
   },
@@ -51,7 +51,7 @@
    "link": "but"
   },
   {
-   "text": "For argument's sake, she granted that a foetus is a person from conception.",
+   "text": "She even granted that a foetus is a person from conception.",
    "beat": "reveal2",
    "link": "detail"
   },
@@ -61,13 +61,13 @@
    "link": "but"
   },
   {
-   "text": "But a court had to face the same question for real, in Pittsburgh in 1978.",
-   "say": "But a court had to face the same question for real, in Pittsburgh in nineteen seventy-eight.",
+   "text": "But a court faced the same question for real, in Pittsburgh in 1978.",
    "beat": "reveal3",
-   "link": "but"
+   "link": "but",
+   "say": "But a court faced the same question for real, in Pittsburgh in nineteen seventy-eight."
   },
   {
-   "text": "A man dying of a rare anaemia needed bone marrow, and only his cousin matched.",
+   "text": "A man dying of anaemia needed bone marrow; only his cousin matched.",
    "beat": "reveal3",
    "link": "detail"
   },
@@ -77,7 +77,7 @@
    "link": "detail"
   },
   {
-   "text": "Still, the court would not force him, and the man died weeks later.",
+   "text": "Still, the court wouldn't force him; the man died weeks later.",
    "beat": "reveal3",
    "link": "but"
   },
@@ -92,7 +92,7 @@
    "link": "detail"
   },
   {
-   "text": "So people split less over who is a person than over what we owe with our bodies.",
+   "text": "So people split less over who's a person than over what we owe with our bodies.",
    "beat": "payoff",
    "link": "so"
   },
@@ -455,7 +455,7 @@
     "fans",
     "fans2"
    ],
-   "at": "4:society",
+   "at": "4:Music",
    "dur": 0.4,
    "show": true
   },

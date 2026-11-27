@@ -70,7 +70,7 @@
    "link": "because"
   },
   {
-   "text": "Most of Falmouth took their side, and the sailor who had refused to join in was never charged.",
+   "text": "Falmouth took their side, and the sailor who refused to join in was never charged.",
    "beat": "reveal2",
    "link": "so"
   },
@@ -85,7 +85,7 @@
    "link": "detail"
   },
   {
-   "text": "Who is to judge, they asked, whose life is worth less? And the boy had drawn no lot.",
+   "text": "Who is to judge, they asked, whose life is worth less? The boy drew no lot.",
    "beat": "reveal3",
    "link": "because"
   },
@@ -100,10 +100,10 @@
    "link": "but"
   },
   {
-   "text": "The captain moved to Sydney, and in 1900 became the city's first victim of bubonic plague.",
-   "say": "The captain moved to Sydney, and in nineteen hundred became the city's first victim of bubonic plague.",
+   "text": "The captain moved to Sydney and in 1900 became its first victim of plague.",
    "beat": "turn",
-   "link": "detail"
+   "link": "detail",
+   "say": "The captain moved to Sydney and in nineteen hundred became its first victim of plague."
   },
   {
    "text": "So the law said murder, and mercy said six months, both at once.",

@@ -31,7 +31,7 @@
    "link": "so"
   },
   {
-   "text": "Psychologists at Ohio University posed a puzzle: you've booked two ski trips for the same weekend.",
+   "text": "Ohio University psychologists posed a puzzle: you've booked two ski trips for one weekend.",
    "beat": "reveal1",
    "link": "answer"
   },
@@ -42,7 +42,7 @@
    "link": "detail"
   },
   {
-   "text": "Over half chose Michigan, so as not to waste the bigger sum.",
+   "text": "Over half chose Michigan, not to waste the bigger sum.",
    "beat": "reveal1",
    "link": "so"
   },
@@ -57,12 +57,12 @@
    "link": "so"
   },
   {
-   "text": "Full-price buyers went to more plays, at least for the first half of the season.",
+   "text": "Full-price buyers went to more plays, at least for half a season.",
    "beat": "reveal2",
    "link": "detail"
   },
   {
-   "text": "Economists call it the sunk cost fallacy: money already gone shouldn't change what you do next.",
+   "text": "Economists call it the sunk cost fallacy: money already gone shouldn't change your next move.",
    "beat": "reveal2",
    "link": "so"
   },
@@ -72,10 +72,10 @@
    "link": "but"
   },
   {
-   "text": "In 2018, scientists gave mice, rats and people the same kind of waiting game.",
-   "say": "In twenty eighteen, scientists gave mice, rats and people the same kind of waiting game.",
+   "text": "In 2018, scientists gave mice, rats and people the same waiting game.",
    "beat": "reveal3",
-   "link": "detail"
+   "link": "detail",
+   "say": "In twenty eighteen, scientists gave mice, rats and people the same waiting game."
   },
   {
    "text": "All three were likelier to keep waiting, the longer they had already waited.",
@@ -93,12 +93,12 @@
    "link": "but"
   },
   {
-   "text": "Britain and France kept funding Concorde long after it couldn't pay off; only fourteen ever flew passengers.",
+   "text": "Britain and France kept funding Concorde long after it couldn't pay off; only fourteen flew passengers.",
    "beat": "turn",
    "link": "detail"
   },
   {
-   "text": "So the cure is simple to say, and hard to do: only the future counts.",
+   "text": "So the cure is easy to say, hard to do: only the future counts.",
    "beat": "payoff",
    "link": "so"
   },
