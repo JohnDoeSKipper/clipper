@@ -80,11 +80,16 @@ jobs:
           day=$(TZ=Asia/Kuala_Lumpur date +%F)
           tag="videos-$day"
           { if [ -f "notes/$day.md" ]; then echo "## Writer's report"; echo; cat "notes/$day.md"; echo; fi; echo "Videos rendered on $day. Each .txt holds the caption, hashtags and credits to paste when you post."; echo; for f in out/*.txt; do echo "### $(basename "$f" .txt)"; echo; cat "$f"; echo; done; } > notes.md
-          if gh release view "$tag" >/dev/null 2>&1; then
-            gh release upload "$tag" out/*.mp4 out/*.txt out/*_sheet.jpg --clobber
-          else
-            gh release create "$tag" out/*.mp4 out/*.txt out/*_sheet.jpg --title "Videos $day" --notes-file notes.md
-          fi
+          # retry: a network blip here would throw away two hours of rendering
+          for i in 1 2 3 4 5; do
+            if gh release view "$tag" >/dev/null 2>&1; then
+              gh release upload "$tag" out/*.mp4 out/*.txt out/*_sheet.jpg --clobber && exit 0
+            else
+              gh release create "$tag" out/*.mp4 out/*.txt out/*_sheet.jpg --title "Videos $day" --notes-file notes.md && exit 0
+            fi
+            echo "Publish attempt $i failed; retrying in $((i*30))s"; sleep $((i*30))
+          done
+          exit 1
       - name: Close the review issues of the videos just made
         if: steps.render.outputs.made != '0'
         env:
